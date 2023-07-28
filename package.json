@@ -7,8 +7,9 @@
     "vscode": "^1.80.0"
   },
   "categories": [
-    "Programming Languages"
+    "Programming Languages","Snippets"
   ],
+  "main": "./hover.js",
   "contributes": {
     "languages": [{
       "id": "dominionsmod",
@@ -20,6 +21,10 @@
       "language": "dominionsmod",
       "scopeName": "source.dm",
       "path": "./syntaxes/dominionsmod.tmLanguage.json"
+    }],
+    "snippets": [{
+        "language": "dominionsmod",
+        "path": "./snippets.json"
     }]
   }
 }

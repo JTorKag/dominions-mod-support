@@ -1,0 +1,29 @@
+{
+	"Print to console": {
+		"prefix": "log",
+		"body": [
+			"console.log('$1');",
+			"$2"
+		],
+		"description": "Log output to console"
+	},
+	"New Event": {
+		"prefix": "#newevent",
+		"body": [
+			"#newevent",
+			"",
+			"#end"
+		],
+		"description": "Create new event"
+	},
+	"New Item": {
+		"prefix": "#newitem",
+		"body": [
+			"#newitem",
+			"",
+			"#end"
+		],
+		"description": "Create new item"
+	}
+
+}
