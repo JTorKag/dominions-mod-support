@@ -1,0 +1,25 @@
+{
+  "name": "dominions-mod-support",
+  "displayName": "Dominions Mod Support",
+  "description": "Syntax highlighting & Hover information on keywords and IDs.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "dominionsmod",
+      "aliases": ["Dominions 5 Mod", "dominionsmod"],
+      "extensions": [".dm"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "dominionsmod",
+      "scopeName": "source.dm",
+      "path": "./syntaxes/dominionsmod.tmLanguage.json"
+    }]
+  }
+}
