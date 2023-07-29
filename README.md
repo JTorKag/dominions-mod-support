@@ -4,14 +4,17 @@ This extension provides syntax highlighting, autocomplete and hover information 
 
 ## Features
 
-\!\[Auto Complete & Snippets\]\(examples/autocompleteexample.png\)
-Full list of known commands and information about it. As well as auto formated snippets when creating/editing objects like monsters or items. 
-\!\[Hover Details\]\(examples/hoverexample.png\)
-Addtional details including relevent tables for some. 
+Full list of known commands and information about it. As well as auto formated snippets when creating/editing objects like monsters or items.
+![Auto Complete & Snippets](examples/autocompleteexample.png)
+
+
+Addtional details including relevent tables for some keywords. Will add more in the future
+![Hover Details](examples/hoverexample.png)
+ 
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+I'm sure there's a handful. Just undocumented so far. See below.
 
 ## Release Notes
 
