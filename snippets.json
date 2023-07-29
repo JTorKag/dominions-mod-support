@@ -1,12 +1,4 @@
 {
-	"Print to console": {
-		"prefix": "log",
-		"body": [
-			"console.log('$1');",
-			"$2"
-		],
-		"description": "Log output to console"
-	},
 	"New Event": {
 		"prefix": "#newevent",
 		"body": [
@@ -24,6 +16,14333 @@
 			"#end"
 		],
 		"description": "Create new item"
-	}
+	},
+	"New Melee Weapon": {
+		"prefix": "#newweapon",
+		"body": [
+			"#newweapon ",
+			"#name \"NAME\"",
+			"#dmg XX",
+			"#att XX",
+			"#def XX",
+			"#nratt XX",
+			"",
+			"#end"
+		],
+		"description": "Create new item"
+	},
+	"New Ranged Weapon": {
+		"prefix": "#newweapon",
+		"body": [
+			"#newweapon ",
+			"#name \"NAME\"",
+			"#dmg XX",
+			"#nratt XX",
+			"#range XX",
+			"#ammo XX",
+			"",
+			"#end"
+		],
+		"description": "Create new item"
+	},
 
-}
+
+	
+
+
+	"10d6units": {
+	   "prefix":"#10d6units",
+	   "body":[
+			  "#10d6units"
+		 ],
+	   "description":""
+	  },
+
+	"11d6units": {
+	   "prefix":"#11d6units",
+	   "body":[
+			  "#11d6units"
+		 ],
+	   "description":""
+	  }
+  
+  ,
+  
+	"12d6units": {
+	   "prefix":"#12d6units",
+	   "body":[
+			  "#12d6units"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"13d6units": {
+	   "prefix":"#13d6units",
+	   "body":[
+			  "#13d6units"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"14d6unicots": {
+	   "prefix":"#14d6unicots",
+	   "body":[
+			  "#14d6unicots"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"14d6units": {
+	   "prefix":"#14d6units",
+	   "body":[
+			  "#14d6units"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"15d6units": {
+	   "prefix":"#15d6units",
+	   "body":[
+			  "#15d6units"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"16d6units": {
+	   "prefix":"#16d6units",
+	   "body":[
+			  "#16d6units"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"1d3units": {
+	   "prefix":"#1d3units",
+	   "body":[
+			  "#1d3units"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"1d3vis": {
+	   "prefix":"#1d3vis",
+	   "body":[
+			  "#1d3vis"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"1d6units": {
+	   "prefix":"#1d6units",
+	   "body":[
+			  "#1d6units"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"1d6vis": {
+	   "prefix":"#1d6vis",
+	   "body":[
+			  "#1d6vis"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"1unit": {
+	   "prefix":"#1unit",
+	   "body":[
+			  "#1unit"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"2com": {
+	   "prefix":"#2com",
+	   "body":[
+			  "#2com"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"2d3units": {
+	   "prefix":"#2d3units",
+	   "body":[
+			  "#2d3units"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"2d4vis": {
+	   "prefix":"#2d4vis",
+	   "body":[
+			  "#2d4vis"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"2d6units": {
+	   "prefix":"#2d6units",
+	   "body":[
+			  "#2d6units"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"2d6vis": {
+	   "prefix":"#2d6vis",
+	   "body":[
+			  "#2d6vis"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"3com": {
+	   "prefix":"#3com",
+	   "body":[
+			  "#3com"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"3d3units": {
+	   "prefix":"#3d3units",
+	   "body":[
+			  "#3d3units"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"3d6units": {
+	   "prefix":"#3d6units",
+	   "body":[
+			  "#3d6units"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"3d6vis": {
+	   "prefix":"#3d6vis",
+	   "body":[
+			  "#3d6vis"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"4com": {
+	   "prefix":"#4com",
+	   "body":[
+			  "#4com"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"4d3units": {
+	   "prefix":"#4d3units",
+	   "body":[
+			  "#4d3units"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"4d6units": {
+	   "prefix":"#4d6units",
+	   "body":[
+			  "#4d6units"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"4d6vis": {
+	   "prefix":"#4d6vis",
+	   "body":[
+			  "#4d6vis"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"5com": {
+	   "prefix":"#5com",
+	   "body":[
+			  "#5com"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"5d6units": {
+	   "prefix":"#5d6units",
+	   "body":[
+			  "#5d6units"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"6d6units": {
+	   "prefix":"#6d6units",
+	   "body":[
+			  "#6d6units"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"7d6units": {
+	   "prefix":"#7d6units",
+	   "body":[
+			  "#7d6units"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"8d6units": {
+	   "prefix":"#8d6units",
+	   "body":[
+			  "#8d6units"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"9d6units": {
+	   "prefix":"#9d6units",
+	   "body":[
+			  "#9d6units"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"acid": {
+	   "prefix":"#acid",
+	   "body":[
+			  "#acid"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"aciddigest": {
+	   "prefix":"#aciddigest",
+	   "body":[
+			  "#aciddigest"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"acidshield": {
+	   "prefix":"#acidshield",
+	   "body":[
+			  "#acidshield"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"addequip": {
+	   "prefix":"#addequip",
+	   "body":[
+			  "#addequip"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"addforeigncom": {
+	   "prefix":"#addforeigncom",
+	   "body":[
+			  "#addforeigncom"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"addforeignunit": {
+	   "prefix":"#addforeignunit",
+	   "body":[
+			  "#addforeignunit"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"addgod": {
+	   "prefix":"#addgod",
+	   "body":[
+			  "#addgod"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"additem": {
+	   "prefix":"#additem",
+	   "body":[
+			  "#additem"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"addname": {
+	   "prefix":"#addname",
+	   "body":[
+			  "#addname"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"addrandomage": {
+	   "prefix":"#addrandomage",
+	   "body":[
+			  "#addrandomage"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"addreccom": {
+	   "prefix":"#addreccom",
+	   "body":[
+			  "#addreccom"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"addrecunit": {
+	   "prefix":"#addrecunit",
+	   "body":[
+			  "#addrecunit"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"addsite": {
+	   "prefix":"#addsite",
+	   "body":[
+			  "#addsite"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"addupkeep": {
+	   "prefix":"#addupkeep",
+	   "body":[
+			  "#addupkeep"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"adventureruin": {
+	   "prefix":"#adventureruin",
+	   "body":[
+			  "#adventureruin"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"aiairnation": {
+	   "prefix":"#aiairnation",
+	   "body":[
+			  "#aiairnation"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"aiastralnation": {
+	   "prefix":"#aiastralnation",
+	   "body":[
+			  "#aiastralnation"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"aiawake": {
+	   "prefix":"#aiawake",
+	   "body":[
+			  "#aiawake"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"aibadlvl": {
+	   "prefix":"#aibadlvl",
+	   "body":[
+			  "#aibadlvl"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"aibloodnation": {
+	   "prefix":"#aibloodnation",
+	   "body":[
+			  "#aibloodnation"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"aicheapholy": {
+	   "prefix":"#aicheapholy",
+	   "body":[
+			  "#aicheapholy"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"aideathnation": {
+	   "prefix":"#aideathnation",
+	   "body":[
+			  "#aideathnation"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"aiearthnation": {
+	   "prefix":"#aiearthnation",
+	   "body":[
+			  "#aiearthnation"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"aifirenation": {
+	   "prefix":"#aifirenation",
+	   "body":[
+			  "#aifirenation"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"aigoodbless": {
+	   "prefix":"#aigoodbless",
+	   "body":[
+			  "#aigoodbless"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"aiholdgod": {
+	   "prefix":"#aiholdgod",
+	   "body":[
+			  "#aiholdgod"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"aiholdgold": {
+	   "prefix":"#aiholdgold",
+	   "body":[
+			  "#aiholdgold"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"aiholyranged": {
+	   "prefix":"#aiholyranged",
+	   "body":[
+			  "#aiholyranged"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"aimusthavemag": {
+	   "prefix":"#aimusthavemag",
+	   "body":[
+			  "#aimusthavemag"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"ainaturenation": {
+	   "prefix":"#ainaturenation",
+	   "body":[
+			  "#ainaturenation"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"ainocast": {
+	   "prefix":"#ainocast",
+	   "body":[
+			  "#ainocast"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"ainorec": {
+	   "prefix":"#ainorec",
+	   "body":[
+			  "#ainorec"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"airattuned": {
+	   "prefix":"#airattuned",
+	   "body":[
+			  "#airattuned"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"airblessbonus": {
+	   "prefix":"#airblessbonus",
+	   "body":[
+			  "#airblessbonus"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"airboost": {
+	   "prefix":"#airboost",
+	   "body":[
+			  "#airboost"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"airrange": {
+	   "prefix":"#airrange",
+	   "body":[
+			  "#airrange"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"airshield": {
+	   "prefix":"#airshield",
+	   "body":[
+			  "#airshield"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"aisinglerec": {
+	   "prefix":"#aisinglerec",
+	   "body":[
+			  "#aisinglerec"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"aispellmod": {
+	   "prefix":"#aispellmod",
+	   "body":[
+			  "#aispellmod"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"aiwaternation": {
+	   "prefix":"#aiwaternation",
+	   "body":[
+			  "#aiwaternation"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"alchemy": {
+	   "prefix":"#alchemy",
+	   "body":[
+			  "#alchemy"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"allies": {
+	   "prefix":"#allies",
+	   "body":[
+			  "#allies"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"allowedplayer": {
+	   "prefix":"#allowedplayer",
+	   "body":[
+			  "#allowedplayer"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"allrange": {
+	   "prefix":"#allrange",
+	   "body":[
+			  "#allrange"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"allret": {
+	   "prefix":"#allret",
+	   "body":[
+			  "#allret"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"almostliving": {
+	   "prefix":"#almostliving",
+	   "body":[
+			  "#almostliving"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"almostundead": {
+	   "prefix":"#almostundead",
+	   "body":[
+			  "#almostundead"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"altcost": {
+	   "prefix":"#altcost",
+	   "body":[
+			  "#altcost"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"ambidextrous": {
+	   "prefix":"#ambidextrous",
+	   "body":[
+			  "#ambidextrous"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"ammo": {
+	   "prefix":"#ammo",
+	   "body":[
+			  "#ammo"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"amphibian": {
+	   "prefix":"#amphibian",
+	   "body":[
+			  "#amphibian"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"animal": {
+	   "prefix":"#animal",
+	   "body":[
+			  "#animal"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"animalawe": {
+	   "prefix":"#animalawe",
+	   "body":[
+			  "#animalawe"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"aoe": {
+	   "prefix":"#aoe",
+	   "body":[
+			  "#aoe"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"ap": {
+	   "prefix":"#ap",
+	   "body":[
+			  "#ap"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"aquatic": {
+	   "prefix":"#aquatic",
+	   "body":[
+			  "#aquatic"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"arena": {
+	   "prefix":"#arena",
+	   "body":[
+			  "#arena"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"armor": {
+	   "prefix":"#armor",
+	   "body":[
+			  "#armor"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"armornegating": {
+	   "prefix":"#armornegating",
+	   "body":[
+			  "#armornegating"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"armorpiercing": {
+	   "prefix":"#armorpiercing",
+	   "body":[
+			  "#armorpiercing"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"assassin": {
+	   "prefix":"#assassin",
+	   "body":[
+			  "#assassin"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"assowner": {
+	   "prefix":"#assowner",
+	   "body":[
+			  "#assowner"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"astralattuned": {
+	   "prefix":"#astralattuned",
+	   "body":[
+			  "#astralattuned"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"astralblessbonus": {
+	   "prefix":"#astralblessbonus",
+	   "body":[
+			  "#astralblessbonus"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"astralboost": {
+	   "prefix":"#astralboost",
+	   "body":[
+			  "#astralboost"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"astralrange": {
+	   "prefix":"#astralrange",
+	   "body":[
+			  "#astralrange"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"att": {
+	   "prefix":"#att",
+	   "body":[
+			  "#att"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"autobless": {
+	   "prefix":"#autobless",
+	   "body":[
+			  "#autobless"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"autocompete": {
+	   "prefix":"#autocompete",
+	   "body":[
+			  "#autocompete"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"autodisgrinder": {
+	   "prefix":"#autodisgrinder",
+	   "body":[
+			  "#autodisgrinder"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"autodishealer": {
+	   "prefix":"#autodishealer",
+	   "body":[
+			  "#autodishealer"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"autohealer": {
+	   "prefix":"#autohealer",
+	   "body":[
+			  "#autohealer"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"autospell": {
+	   "prefix":"#autospell",
+	   "body":[
+			  "#autospell"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"autospellrepeat": {
+	   "prefix":"#autospellrepeat",
+	   "body":[
+			  "#autospellrepeat"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"autoundead": {
+	   "prefix":"#autoundead",
+	   "body":[
+			  "#autoundead"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"autumnshape": {
+	   "prefix":"#autumnshape",
+	   "body":[
+			  "#autumnshape"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"awe": {
+	   "prefix":"#awe",
+	   "body":[
+			  "#awe"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"banefireshield": {
+	   "prefix":"#banefireshield",
+	   "body":[
+			  "#banefireshield"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"banished": {
+	   "prefix":"#banished",
+	   "body":[
+			  "#banished"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"barkskin": {
+	   "prefix":"#barkskin",
+	   "body":[
+			  "#barkskin"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"batmap": {
+	   "prefix":"#batmap",
+	   "body":[
+			  "#batmap"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"batstartsum1": {
+	   "prefix":"#batstartsum1",
+	   "body":[
+			  "#batstartsum1"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"batstartsum1d3": {
+	   "prefix":"#batstartsum1d3",
+	   "body":[
+			  "#batstartsum1d3"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"batstartsum1d6": {
+	   "prefix":"#batstartsum1d6",
+	   "body":[
+			  "#batstartsum1d6"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"batstartsum2": {
+	   "prefix":"#batstartsum2",
+	   "body":[
+			  "#batstartsum2"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"batstartsum2d6": {
+	   "prefix":"#batstartsum2d6",
+	   "body":[
+			  "#batstartsum2d6"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"batstartsum3": {
+	   "prefix":"#batstartsum3",
+	   "body":[
+			  "#batstartsum3"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"batstartsum3d6": {
+	   "prefix":"#batstartsum3d6",
+	   "body":[
+			  "#batstartsum3d6"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"batstartsum4": {
+	   "prefix":"#batstartsum4",
+	   "body":[
+			  "#batstartsum4"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"batstartsum4d6": {
+	   "prefix":"#batstartsum4d6",
+	   "body":[
+			  "#batstartsum4d6"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"batstartsum5": {
+	   "prefix":"#batstartsum5",
+	   "body":[
+			  "#batstartsum5"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"batstartsum5d6": {
+	   "prefix":"#batstartsum5d6",
+	   "body":[
+			  "#batstartsum5d6"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"batstartsum6d6": {
+	   "prefix":"#batstartsum6d6",
+	   "body":[
+			  "#batstartsum6d6"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"batstartsum7d6": {
+	   "prefix":"#batstartsum7d6",
+	   "body":[
+			  "#batstartsum7d6"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"batstartsum8d6": {
+	   "prefix":"#batstartsum8d6",
+	   "body":[
+			  "#batstartsum8d6"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"batstartsum9d6": {
+	   "prefix":"#batstartsum9d6",
+	   "body":[
+			  "#batstartsum9d6"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"battlesum1": {
+	   "prefix":"#battlesum1",
+	   "body":[
+			  "#battlesum1"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"battlesum2": {
+	   "prefix":"#battlesum2",
+	   "body":[
+			  "#battlesum2"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"battlesum3": {
+	   "prefix":"#battlesum3",
+	   "body":[
+			  "#battlesum3"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"battlesum4": {
+	   "prefix":"#battlesum4",
+	   "body":[
+			  "#battlesum4"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"battlesum5": {
+	   "prefix":"#battlesum5",
+	   "body":[
+			  "#battlesum5"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"beam": {
+	   "prefix":"#beam",
+	   "body":[
+			  "#beam"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"beartattoo": {
+	   "prefix":"#beartattoo",
+	   "body":[
+			  "#beartattoo"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"beastmaster": {
+	   "prefix":"#beastmaster",
+	   "body":[
+			  "#beastmaster"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"beckon": {
+	   "prefix":"#beckon",
+	   "body":[
+			  "#beckon"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"bers": {
+	   "prefix":"#bers",
+	   "body":[
+			  "#bers"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"berserk": {
+	   "prefix":"#berserk",
+	   "body":[
+			  "#berserk"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"bird": {
+	   "prefix":"#bird",
+	   "body":[
+			  "#bird"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"bless": {
+	   "prefix":"#bless",
+	   "body":[
+			  "#bless"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"blessairshld": {
+	   "prefix":"#blessairshld",
+	   "body":[
+			  "#blessairshld"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"blessanimawe": {
+	   "prefix":"#blessanimawe",
+	   "body":[
+			  "#blessanimawe"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"blessatt": {
+	   "prefix":"#blessatt",
+	   "body":[
+			  "#blessatt"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"blessawe": {
+	   "prefix":"#blessawe",
+	   "body":[
+			  "#blessawe"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"blessbers": {
+	   "prefix":"#blessbers",
+	   "body":[
+			  "#blessbers"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"blesscoldres": {
+	   "prefix":"#blesscoldres",
+	   "body":[
+			  "#blesscoldres"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"blessdarkvis": {
+	   "prefix":"#blessdarkvis",
+	   "body":[
+			  "#blessdarkvis"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"blessdef": {
+	   "prefix":"#blessdef",
+	   "body":[
+			  "#blessdef"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"blessdtv": {
+	   "prefix":"#blessdtv",
+	   "body":[
+			  "#blessdtv"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"blessfireres": {
+	   "prefix":"#blessfireres",
+	   "body":[
+			  "#blessfireres"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"blessfly": {
+	   "prefix":"#blessfly",
+	   "body":[
+			  "#blessfly"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"blesshp": {
+	   "prefix":"#blesshp",
+	   "body":[
+			  "#blesshp"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"blessmor": {
+	   "prefix":"#blessmor",
+	   "body":[
+			  "#blessmor"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"blessmr": {
+	   "prefix":"#blessmr",
+	   "body":[
+			  "#blessmr"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"blesspoisres": {
+	   "prefix":"#blesspoisres",
+	   "body":[
+			  "#blesspoisres"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"blessprec": {
+	   "prefix":"#blessprec",
+	   "body":[
+			  "#blessprec"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"blessreinvig": {
+	   "prefix":"#blessreinvig",
+	   "body":[
+			  "#blessreinvig"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"blessshockres": {
+	   "prefix":"#blessshockres",
+	   "body":[
+			  "#blessshockres"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"blessstr": {
+	   "prefix":"#blessstr",
+	   "body":[
+			  "#blessstr"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"blind": {
+	   "prefix":"#blind",
+	   "body":[
+			  "#blind"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"blink": {
+	   "prefix":"#blink",
+	   "body":[
+			  "#blink"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"bloodattuned": {
+	   "prefix":"#bloodattuned",
+	   "body":[
+			  "#bloodattuned"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"bloodblessbonus": {
+	   "prefix":"#bloodblessbonus",
+	   "body":[
+			  "#bloodblessbonus"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"bloodboost": {
+	   "prefix":"#bloodboost",
+	   "body":[
+			  "#bloodboost"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"bloodcost": {
+	   "prefix":"#bloodcost",
+	   "body":[
+			  "#bloodcost"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"bloodnation": {
+	   "prefix":"#bloodnation",
+	   "body":[
+			  "#bloodnation"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"bloodrange": {
+	   "prefix":"#bloodrange",
+	   "body":[
+			  "#bloodrange"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"bloodvengeance": {
+	   "prefix":"#bloodvengeance",
+	   "body":[
+			  "#bloodvengeance"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"blunt": {
+	   "prefix":"#blunt",
+	   "body":[
+			  "#blunt"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"bluntres": {
+	   "prefix":"#bluntres",
+	   "body":[
+			  "#bluntres"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"boartattoo": {
+	   "prefix":"#boartattoo",
+	   "body":[
+			  "#boartattoo"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"bodyguard": {
+	   "prefix":"#bodyguard",
+	   "body":[
+			  "#bodyguard"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"bodyguards": {
+	   "prefix":"#bodyguards",
+	   "body":[
+			  "#bodyguards"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"bonus": {
+	   "prefix":"#bonus",
+	   "body":[
+			  "#bonus"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"bonusspells": {
+	   "prefix":"#bonusspells",
+	   "body":[
+			  "#bonusspells"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"bossname": {
+	   "prefix":"#bossname",
+	   "body":[
+			  "#bossname"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"bowstr": {
+	   "prefix":"#bowstr",
+	   "body":[
+			  "#bowstr"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"brief": {
+	   "prefix":"#brief",
+	   "body":[
+			  "#brief"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"bringeroffortune": {
+	   "prefix":"#bringeroffortune",
+	   "body":[
+			  "#bringeroffortune"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"bug": {
+	   "prefix":"#bug",
+	   "body":[
+			  "#bug"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"bugreform": {
+	   "prefix":"#bugreform",
+	   "body":[
+			  "#bugreform"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"buildcoastfort": {
+	   "prefix":"#buildcoastfort",
+	   "body":[
+			  "#buildcoastfort"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"buildfort": {
+	   "prefix":"#buildfort",
+	   "body":[
+			  "#buildfort"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"builduwfort": {
+	   "prefix":"#builduwfort",
+	   "body":[
+			  "#builduwfort"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"carcasscollector": {
+	   "prefix":"#carcasscollector",
+	   "body":[
+			  "#carcasscollector"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"castledef": {
+	   "prefix":"#castledef",
+	   "body":[
+			  "#castledef"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"castleprod": {
+	   "prefix":"#castleprod",
+	   "body":[
+			  "#castleprod"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"casttime": {
+	   "prefix":"#casttime",
+	   "body":[
+			  "#casttime"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"cavecom": {
+	   "prefix":"#cavecom",
+	   "body":[
+			  "#cavecom"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"cavenation": {
+	   "prefix":"#cavenation",
+	   "body":[
+			  "#cavenation"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"caverec": {
+	   "prefix":"#caverec",
+	   "body":[
+			  "#caverec"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"champprize": {
+	   "prefix":"#champprize",
+	   "body":[
+			  "#champprize"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"chaospower": {
+	   "prefix":"#chaospower",
+	   "body":[
+			  "#chaospower"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"chaosrec": {
+	   "prefix":"#chaosrec",
+	   "body":[
+			  "#chaosrec"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"charge": {
+	   "prefix":"#charge",
+	   "body":[
+			  "#charge"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"cheapgod20": {
+	   "prefix":"#cheapgod20",
+	   "body":[
+			  "#cheapgod20"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"cheapgod40": {
+	   "prefix":"#cheapgod40",
+	   "body":[
+			  "#cheapgod40"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"chestwound": {
+	   "prefix":"#chestwound",
+	   "body":[
+			  "#chestwound"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"claim": {
+	   "prefix":"#claim",
+	   "body":[
+			  "#claim"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"claimthrone": {
+	   "prefix":"#claimthrone",
+	   "body":[
+			  "#claimthrone"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"cleanshape": {
+	   "prefix":"#cleanshape",
+	   "body":[
+			  "#cleanshape"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"clear": {
+	   "prefix":"#clear",
+	   "body":[
+			  "#clear"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"clearallevents": {
+	   "prefix":"#clearallevents",
+	   "body":[
+			  "#clearallevents"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"clearallitems": {
+	   "prefix":"#clearallitems",
+	   "body":[
+			  "#clearallitems"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"clearallspells": {
+	   "prefix":"#clearallspells",
+	   "body":[
+			  "#clearallspells"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"cleararmor": {
+	   "prefix":"#cleararmor",
+	   "body":[
+			  "#cleararmor"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"cleardef": {
+	   "prefix":"#cleardef",
+	   "body":[
+			  "#cleardef"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"cleargods": {
+	   "prefix":"#cleargods",
+	   "body":[
+			  "#cleargods"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"clearmagic": {
+	   "prefix":"#clearmagic",
+	   "body":[
+			  "#clearmagic"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"clearmercs": {
+	   "prefix":"#clearmercs",
+	   "body":[
+			  "#clearmercs"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"clearnation": {
+	   "prefix":"#clearnation",
+	   "body":[
+			  "#clearnation"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"clearrec": {
+	   "prefix":"#clearrec",
+	   "body":[
+			  "#clearrec"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"clearsites": {
+	   "prefix":"#clearsites",
+	   "body":[
+			  "#clearsites"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"clearspec": {
+	   "prefix":"#clearspec",
+	   "body":[
+			  "#clearspec"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"clearweapons": {
+	   "prefix":"#clearweapons",
+	   "body":[
+			  "#clearweapons"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"cluster": {
+	   "prefix":"#cluster",
+	   "body":[
+			  "#cluster"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"coastcom1": {
+	   "prefix":"#coastcom1",
+	   "body":[
+			  "#coastcom1"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"coastcom2": {
+	   "prefix":"#coastcom2",
+	   "body":[
+			  "#coastcom2"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"coastcom3": {
+	   "prefix":"#coastcom3",
+	   "body":[
+			  "#coastcom3"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"coastnation": {
+	   "prefix":"#coastnation",
+	   "body":[
+			  "#coastnation"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"coastunit1": {
+	   "prefix":"#coastunit1",
+	   "body":[
+			  "#coastunit1"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"coastunit2": {
+	   "prefix":"#coastunit2",
+	   "body":[
+			  "#coastunit2"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"coastunit3": {
+	   "prefix":"#coastunit3",
+	   "body":[
+			  "#coastunit3"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"code": {
+	   "prefix":"#code",
+	   "body":[
+			  "#code"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"code2": {
+	   "prefix":"#code2",
+	   "body":[
+			  "#code2"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"codedelay": {
+	   "prefix":"#codedelay",
+	   "body":[
+			  "#codedelay"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"codedelay2": {
+	   "prefix":"#codedelay2",
+	   "body":[
+			  "#codedelay2"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"cold": {
+	   "prefix":"#cold",
+	   "body":[
+			  "#cold"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"coldblood": {
+	   "prefix":"#coldblood",
+	   "body":[
+			  "#coldblood"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"coldincome": {
+	   "prefix":"#coldincome",
+	   "body":[
+			  "#coldincome"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"coldpower": {
+	   "prefix":"#coldpower",
+	   "body":[
+			  "#coldpower"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"coldrec": {
+	   "prefix":"#coldrec",
+	   "body":[
+			  "#coldrec"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"coldres": {
+	   "prefix":"#coldres",
+	   "body":[
+			  "#coldres"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"coldsupply": {
+	   "prefix":"#coldsupply",
+	   "body":[
+			  "#coldsupply"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"color": {
+	   "prefix":"#color",
+	   "body":[
+			  "#color"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"com": {
+	   "prefix":"#com",
+	   "body":[
+			  "#com"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"combatcaster": {
+	   "prefix":"#combatcaster",
+	   "body":[
+			  "#combatcaster"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"command": {
+	   "prefix":"#command",
+	   "body":[
+			  "#command"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"commander": {
+	   "prefix":"#commander",
+	   "body":[
+			  "#commander"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"commaster": {
+	   "prefix":"#commaster",
+	   "body":[
+			  "#commaster"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"comname": {
+	   "prefix":"#comname",
+	   "body":[
+			  "#comname"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"computerplayer": {
+	   "prefix":"#computerplayer",
+	   "body":[
+			  "#computerplayer"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"comslave": {
+	   "prefix":"#comslave",
+	   "body":[
+			  "#comslave"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"conjcost": {
+	   "prefix":"#conjcost",
+	   "body":[
+			  "#conjcost"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"conscost": {
+	   "prefix":"#conscost",
+	   "body":[
+			  "#conscost"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"constcost": {
+	   "prefix":"#constcost",
+	   "body":[
+			  "#constcost"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"constlevel": {
+	   "prefix":"#constlevel",
+	   "body":[
+			  "#constlevel"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"copyarmor": {
+	   "prefix":"#copyarmor",
+	   "body":[
+			  "#copyarmor"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"copyitem": {
+	   "prefix":"#copyitem",
+	   "body":[
+			  "#copyitem"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"copyspell": {
+	   "prefix":"#copyspell",
+	   "body":[
+			  "#copyspell"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"copyspr": {
+	   "prefix":"#copyspr",
+	   "body":[
+			  "#copyspr"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"copystats": {
+	   "prefix":"#copystats",
+	   "body":[
+			  "#copystats"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"copyweapon": {
+	   "prefix":"#copyweapon",
+	   "body":[
+			  "#copyweapon"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"corpseeater": {
+	   "prefix":"#corpseeater",
+	   "body":[
+			  "#corpseeater"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"corpselord": {
+	   "prefix":"#corpselord",
+	   "body":[
+			  "#corpselord"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"crippled": {
+	   "prefix":"#crippled",
+	   "body":[
+			  "#crippled"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"crossbreeder": {
+	   "prefix":"#crossbreeder",
+	   "body":[
+			  "#crossbreeder"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"curse": {
+	   "prefix":"#curse",
+	   "body":[
+			  "#curse"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"cursed": {
+	   "prefix":"#cursed",
+	   "body":[
+			  "#cursed"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"curseluckshield": {
+	   "prefix":"#curseluckshield",
+	   "body":[
+			  "#curseluckshield"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"custommagic": {
+	   "prefix":"#custommagic",
+	   "body":[
+			  "#custommagic"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"damage": {
+	   "prefix":"#damage",
+	   "body":[
+			  "#damage"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"damagemon": {
+	   "prefix":"#damagemon",
+	   "body":[
+			  "#damagemon"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"damagerev": {
+	   "prefix":"#damagerev",
+	   "body":[
+			  "#damagerev"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"darkpower": {
+	   "prefix":"#darkpower",
+	   "body":[
+			  "#darkpower"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"darkvision": {
+	   "prefix":"#darkvision",
+	   "body":[
+			  "#darkvision"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"deadhp": {
+	   "prefix":"#deadhp",
+	   "body":[
+			  "#deadhp"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"deathattuned": {
+	   "prefix":"#deathattuned",
+	   "body":[
+			  "#deathattuned"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"deathbanish": {
+	   "prefix":"#deathbanish",
+	   "body":[
+			  "#deathbanish"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"deathblessbonus": {
+	   "prefix":"#deathblessbonus",
+	   "body":[
+			  "#deathblessbonus"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"deathboost": {
+	   "prefix":"#deathboost",
+	   "body":[
+			  "#deathboost"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"deathcurse": {
+	   "prefix":"#deathcurse",
+	   "body":[
+			  "#deathcurse"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"deathdeath": {
+	   "prefix":"#deathdeath",
+	   "body":[
+			  "#deathdeath"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"deathdisease": {
+	   "prefix":"#deathdisease",
+	   "body":[
+			  "#deathdisease"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"deathfire": {
+	   "prefix":"#deathfire",
+	   "body":[
+			  "#deathfire"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"deathincome": {
+	   "prefix":"#deathincome",
+	   "body":[
+			  "#deathincome"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"deathparalyze": {
+	   "prefix":"#deathparalyze",
+	   "body":[
+			  "#deathparalyze"
+		 ],
+	   "description":""
+	  }
+  
+
+  ,
+  
+	"deathrange": {
+	   "prefix":"#deathrange",
+	   "body":[
+			  "#deathrange"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"deathrec": {
+	   "prefix":"#deathrec",
+	   "body":[
+			  "#deathrec"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"deathsupply": {
+	   "prefix":"#deathsupply",
+	   "body":[
+			  "#deathsupply"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"decscale": {
+	   "prefix":"#decscale",
+	   "body":[
+			  "#decscale"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"decscale2": {
+	   "prefix":"#decscale2",
+	   "body":[
+			  "#decscale2"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"decscale3": {
+	   "prefix":"#decscale3",
+	   "body":[
+			  "#decscale3"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"decunrest": {
+	   "prefix":"#decunrest",
+	   "body":[
+			  "#decunrest"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"def": {
+	   "prefix":"#def",
+	   "body":[
+			  "#def"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"defcom1": {
+	   "prefix":"#defcom1",
+	   "body":[
+			  "#defcom1"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"defcom2": {
+	   "prefix":"#defcom2",
+	   "body":[
+			  "#defcom2"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"defector": {
+	   "prefix":"#defector",
+	   "body":[
+			  "#defector"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"defence": {
+	   "prefix":"#defence",
+	   "body":[
+			  "#defence"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"defmult1": {
+	   "prefix":"#defmult1",
+	   "body":[
+			  "#defmult1"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"defmult1b": {
+	   "prefix":"#defmult1b",
+	   "body":[
+			  "#defmult1b"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"defmult1c": {
+	   "prefix":"#defmult1c",
+	   "body":[
+			  "#defmult1c"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"defmult1d": {
+	   "prefix":"#defmult1d",
+	   "body":[
+			  "#defmult1d"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"defmult2": {
+	   "prefix":"#defmult2",
+	   "body":[
+			  "#defmult2"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"defmult2b": {
+	   "prefix":"#defmult2b",
+	   "body":[
+			  "#defmult2b"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"defunit1": {
+	   "prefix":"#defunit1",
+	   "body":[
+			  "#defunit1"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"defunit1b": {
+	   "prefix":"#defunit1b",
+	   "body":[
+			  "#defunit1b"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"defunit1c": {
+	   "prefix":"#defunit1c",
+	   "body":[
+			  "#defunit1c"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"defunit1d": {
+	   "prefix":"#defunit1d",
+	   "body":[
+			  "#defunit1d"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"defunit2": {
+	   "prefix":"#defunit2",
+	   "body":[
+			  "#defunit2"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"defunit2b": {
+	   "prefix":"#defunit2b",
+	   "body":[
+			  "#defunit2b"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"delay": {
+	   "prefix":"#delay",
+	   "body":[
+			  "#delay"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"delay25": {
+	   "prefix":"#delay25",
+	   "body":[
+			  "#delay25"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"delay50": {
+	   "prefix":"#delay50",
+	   "body":[
+			  "#delay50"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"delayskip": {
+	   "prefix":"#delayskip",
+	   "body":[
+			  "#delayskip"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"delgod": {
+	   "prefix":"#delgod",
+	   "body":[
+			  "#delgod"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"demon": {
+	   "prefix":"#demon",
+	   "body":[
+			  "#demon"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"demononly": {
+	   "prefix":"#demononly",
+	   "body":[
+			  "#demononly"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"demonundead": {
+	   "prefix":"#demonundead",
+	   "body":[
+			  "#demonundead"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"descr": {
+	   "prefix":"#descr",
+	   "body":[
+			  "#descr"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"description": {
+	   "prefix":"#description",
+	   "body":[
+			  "#description"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"deserter": {
+	   "prefix":"#deserter",
+	   "body":[
+			  "#deserter"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"details": {
+	   "prefix":"#details",
+	   "body":[
+			  "#details"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"digest": {
+	   "prefix":"#digest",
+	   "body":[
+			  "#digest"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"disableoldnations": {
+	   "prefix":"#disableoldnations",
+	   "body":[
+			  "#disableoldnations"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"disease": {
+	   "prefix":"#disease",
+	   "body":[
+			  "#disease"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"diseasecloud": {
+	   "prefix":"#diseasecloud",
+	   "body":[
+			  "#diseasecloud"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"diseaseres": {
+	   "prefix":"#diseaseres",
+	   "body":[
+			  "#diseaseres"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"divineins": {
+	   "prefix":"#divineins",
+	   "body":[
+			  "#divineins"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"djinn": {
+	   "prefix":"#djinn",
+	   "body":[
+			  "#djinn"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"dmg": {
+	   "prefix":"#dmg",
+	   "body":[
+			  "#dmg"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"doheal": {
+	   "prefix":"#doheal",
+	   "body":[
+			  "#doheal"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"dom2title": {
+	   "prefix":"#dom2title",
+	   "body":[
+			  "#dom2title"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"domdeathsense": {
+	   "prefix":"#domdeathsense",
+	   "body":[
+			  "#domdeathsense"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"domimmortal": {
+	   "prefix":"#domimmortal",
+	   "body":[
+			  "#domimmortal"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"dominion": {
+	   "prefix":"#dominion",
+	   "body":[
+			  "#dominion"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"dominionstr": {
+	   "prefix":"#dominionstr",
+	   "body":[
+			  "#dominionstr"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"domkill": {
+	   "prefix":"#domkill",
+	   "body":[
+			  "#domkill"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"domrec": {
+	   "prefix":"#domrec",
+	   "body":[
+			  "#domrec"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"domsail": {
+	   "prefix":"#domsail",
+	   "body":[
+			  "#domsail"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"domsummon": {
+	   "prefix":"#domsummon",
+	   "body":[
+			  "#domsummon"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"domsummon2": {
+	   "prefix":"#domsummon2",
+	   "body":[
+			  "#domsummon2"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"domsummon20": {
+	   "prefix":"#domsummon20",
+	   "body":[
+			  "#domsummon20"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"domunrest": {
+	   "prefix":"#domunrest",
+	   "body":[
+			  "#domunrest"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"domversion": {
+	   "prefix":"#domversion",
+	   "body":[
+			  "#domversion"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"domwar": {
+	   "prefix":"#domwar",
+	   "body":[
+			  "#domwar"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"doomhorror": {
+	   "prefix":"#doomhorror",
+	   "body":[
+			  "#doomhorror"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"douse": {
+	   "prefix":"#douse",
+	   "body":[
+			  "#douse"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"dragonlord": {
+	   "prefix":"#dragonlord",
+	   "body":[
+			  "#dragonlord"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"drainimmune": {
+	   "prefix":"#drainimmune",
+	   "body":[
+			  "#drainimmune"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"drake": {
+	   "prefix":"#drake",
+	   "body":[
+			  "#drake"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"dt_aff": {
+	   "prefix":"#dt_aff",
+	   "body":[
+			  "#dt_aff"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"dt_bouncekill": {
+	   "prefix":"#dt_bouncekill",
+	   "body":[
+			  "#dt_bouncekill"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"dt_cap": {
+	   "prefix":"#dt_cap",
+	   "body":[
+			  "#dt_cap"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"dt_constructonly": {
+	   "prefix":"#dt_constructonly",
+	   "body":[
+			  "#dt_constructonly"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"dt_demon": {
+	   "prefix":"#dt_demon",
+	   "body":[
+			  "#dt_demon"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"dt_demononly": {
+	   "prefix":"#dt_demononly",
+	   "body":[
+			  "#dt_demononly"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"dt_demonundead": {
+	   "prefix":"#dt_demonundead",
+	   "body":[
+			  "#dt_demonundead"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"dt_drain": {
+	   "prefix":"#dt_drain",
+	   "body":[
+			  "#dt_drain"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"dt_holy": {
+	   "prefix":"#dt_holy",
+	   "body":[
+			  "#dt_holy"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"dt_interrupt": {
+	   "prefix":"#dt_interrupt",
+	   "body":[
+			  "#dt_interrupt"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"dt_large": {
+	   "prefix":"#dt_large",
+	   "body":[
+			  "#dt_large"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"dt_magic": {
+	   "prefix":"#dt_magic",
+	   "body":[
+			  "#dt_magic"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"dt_normal": {
+	   "prefix":"#dt_normal",
+	   "body":[
+			  "#dt_normal"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"dt_paralyze": {
+	   "prefix":"#dt_paralyze",
+	   "body":[
+			  "#dt_paralyze"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"dt_poison": {
+	   "prefix":"#dt_poison",
+	   "body":[
+			  "#dt_poison"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"dt_raise": {
+	   "prefix":"#dt_raise",
+	   "body":[
+			  "#dt_raise"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"dt_realstun": {
+	   "prefix":"#dt_realstun",
+	   "body":[
+			  "#dt_realstun"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"dt_sizestun": {
+	   "prefix":"#dt_sizestun",
+	   "body":[
+			  "#dt_sizestun"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"dt_small": {
+	   "prefix":"#dt_small",
+	   "body":[
+			  "#dt_small"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"dt_stun": {
+	   "prefix":"#dt_stun",
+	   "body":[
+			  "#dt_stun"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"dt_weakness": {
+	   "prefix":"#dt_weakness",
+	   "body":[
+			  "#dt_weakness"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"dt_weapondrain": {
+	   "prefix":"#dt_weapondrain",
+	   "body":[
+			  "#dt_weapondrain"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"dungeon": {
+	   "prefix":"#dungeon",
+	   "body":[
+			  "#dungeon"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"dyingdom": {
+	   "prefix":"#dyingdom",
+	   "body":[
+			  "#dyingdom"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"earthattuned": {
+	   "prefix":"#earthattuned",
+	   "body":[
+			  "#earthattuned"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"earthboost": {
+	   "prefix":"#earthboost",
+	   "body":[
+			  "#earthboost"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"earthblessbonus": {
+	   "prefix":"#earthblessbonus",
+	   "body":[
+			  "#earthblessbonus"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"earthrange": {
+	   "prefix":"#earthrange",
+	   "body":[
+			  "#earthrange"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"eathrange": {
+	   "prefix":"#eathrange",
+	   "body":[
+			  "#eathrange"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"effect": {
+	   "prefix":"#effect",
+	   "body":[
+			  "#effect"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"elegist": {
+	   "prefix":"#elegist",
+	   "body":[
+			  "#elegist"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"elementrange": {
+	   "prefix":"#elementrange",
+	   "body":[
+			  "#elementrange"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"emigration": {
+	   "prefix":"#emigration",
+	   "body":[
+			  "#emigration"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"enc": {
+	   "prefix":"#enc",
+	   "body":[
+			  "#enc"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"enchcost": {
+	   "prefix":"#enchcost",
+	   "body":[
+			  "#enchcost"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"enchrebate25p": {
+	   "prefix":"#enchrebate25p",
+	   "body":[
+			  "#enchrebate25p"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"enchrebate50": {
+	   "prefix":"#enchrebate50",
+	   "body":[
+			  "#enchrebate50"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"enchrebate50p": {
+	   "prefix":"#enchrebate50p",
+	   "body":[
+			  "#enchrebate50p"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"end": {
+	   "prefix":"#end",
+	   "body":[
+			  "#end"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"enemyimmune": {
+	   "prefix":"#enemyimmune",
+	   "body":[
+			  "#enemyimmune"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"entangle": {
+	   "prefix":"#entangle",
+	   "body":[
+			  "#entangle"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"epithet": {
+	   "prefix":"#epithet",
+	   "body":[
+			  "#epithet"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"era": {
+	   "prefix":"#era",
+	   "body":[
+			  "#era"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"eramask": {
+	   "prefix":"#eramask",
+	   "body":[
+			  "#eramask"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"ethereal": {
+	   "prefix":"#ethereal",
+	   "body":[
+			  "#ethereal"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"eventisrare": {
+	   "prefix":"#eventisrare",
+	   "body":[
+			  "#eventisrare"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"evil": {
+	   "prefix":"#evil",
+	   "body":[
+			  "#evil"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"evocost": {
+	   "prefix":"#evocost",
+	   "body":[
+			  "#evocost"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"exactgold": {
+	   "prefix":"#exactgold",
+	   "body":[
+			  "#exactgold"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"expertleader": {
+	   "prefix":"#expertleader",
+	   "body":[
+			  "#expertleader"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"expertmagicleader": {
+	   "prefix":"#expertmagicleader",
+	   "body":[
+			  "#expertmagicleader"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"expertundeadleader": {
+	   "prefix":"#expertundeadleader",
+	   "body":[
+			  "#expertundeadleader"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"explspr": {
+	   "prefix":"#explspr",
+	   "body":[
+			  "#explspr"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"extralife": {
+	   "prefix":"#extralife",
+	   "body":[
+			  "#extralife"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"eyeloss": {
+	   "prefix":"#eyeloss",
+	   "body":[
+			  "#eyeloss"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"eyes": {
+	   "prefix":"#eyes",
+	   "body":[
+			  "#eyes"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"fallpower": {
+	   "prefix":"#fallpower",
+	   "body":[
+			  "#fallpower"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"falsearmy": {
+	   "prefix":"#falsearmy",
+	   "body":[
+			  "#falsearmy"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"farsail": {
+	   "prefix":"#farsail",
+	   "body":[
+			  "#farsail"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"farsumcom": {
+	   "prefix":"#farsumcom",
+	   "body":[
+			  "#farsumcom"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"farthronekill": {
+	   "prefix":"#farthronekill",
+	   "body":[
+			  "#farthronekill"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"fastcast": {
+	   "prefix":"#fastcast",
+	   "body":[
+			  "#fastcast"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"fatiguecost": {
+	   "prefix":"#fatiguecost",
+	   "body":[
+			  "#fatiguecost"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"fear": {
+	   "prefix":"#fear",
+	   "body":[
+			  "#fear"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"feature": {
+	   "prefix":"#feature",
+	   "body":[
+			  "#feature"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"features": {
+	   "prefix":"#features",
+	   "body":[
+			  "#features"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"feeblemind": {
+	   "prefix":"#feeblemind",
+	   "body":[
+			  "#feeblemind"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"female": {
+	   "prefix":"#female",
+	   "body":[
+			  "#female"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"fire": {
+	   "prefix":"#fire",
+	   "body":[
+			  "#fire"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"fireattuned": {
+	   "prefix":"#fireattuned",
+	   "body":[
+			  "#fireattuned"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"fireblessbonus": {
+	   "prefix":"#fireblessbonus",
+	   "body":[
+			  "#fireblessbonus"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"fireboost": {
+	   "prefix":"#fireboost",
+	   "body":[
+			  "#fireboost"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"firepower": {
+	   "prefix":"#firepower",
+	   "body":[
+			  "#firepower"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"firerange": {
+	   "prefix":"#firerange",
+	   "body":[
+			  "#firerange"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"fireres": {
+	   "prefix":"#fireres",
+	   "body":[
+			  "#fireres"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"fireshield": {
+	   "prefix":"#fireshield",
+	   "body":[
+			  "#fireshield"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"firstshape": {
+	   "prefix":"#firstshape",
+	   "body":[
+			  "#firstshape"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"fixedname": {
+	   "prefix":"#fixedname",
+	   "body":[
+			  "#fixedname"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"fixedresearch": {
+	   "prefix":"#fixedresearch",
+	   "body":[
+			  "#fixedresearch"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"fixforgebonus": {
+	   "prefix":"#fixforgebonus",
+	   "body":[
+			  "#fixforgebonus"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"flag": {
+	   "prefix":"#flag",
+	   "body":[
+			  "#flag"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"flagland": {
+	   "prefix":"#flagland",
+	   "body":[
+			  "#flagland"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"flail": {
+	   "prefix":"#flail",
+	   "body":[
+			  "#flail"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"flightspr": {
+	   "prefix":"#flightspr",
+	   "body":[
+			  "#flightspr"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"float": {
+	   "prefix":"#float",
+	   "body":[
+			  "#float"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"fly": {
+	   "prefix":"#fly",
+	   "body":[
+			  "#fly"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"flying": {
+	   "prefix":"#flying",
+	   "body":[
+			  "#flying"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"flyingimmune": {
+	   "prefix":"#flyingimmune",
+	   "body":[
+			  "#flyingimmune"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"flyspr": {
+	   "prefix":"#flyspr",
+	   "body":[
+			  "#flyspr"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"fogcol": {
+	   "prefix":"#fogcol",
+	   "body":[
+			  "#fogcol"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"foolscoots": {
+	   "prefix":"#foolscoots",
+	   "body":[
+			  "#foolscoots"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"foolscouts": {
+	   "prefix":"#foolscouts",
+	   "body":[
+			  "#foolscouts"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"foreignshape": {
+	   "prefix":"#foreignshape",
+	   "body":[
+			  "#foreignshape"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"forestcom": {
+	   "prefix":"#forestcom",
+	   "body":[
+			  "#forestcom"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"forestlabcost": {
+	   "prefix":"#forestlabcost",
+	   "body":[
+			  "#forestlabcost"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"forestrec": {
+	   "prefix":"#forestrec",
+	   "body":[
+			  "#forestrec"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"forestshape": {
+	   "prefix":"#forestshape",
+	   "body":[
+			  "#forestshape"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"forestsurvival": {
+	   "prefix":"#forestsurvival",
+	   "body":[
+			  "#forestsurvival"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"foresttemplecost": {
+	   "prefix":"#foresttemplecost",
+	   "body":[
+			  "#foresttemplecost"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"forgebonus": {
+	   "prefix":"#forgebonus",
+	   "body":[
+			  "#forgebonus"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"formationfighter": {
+	   "prefix":"#formationfighter",
+	   "body":[
+			  "#formationfighter"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"fort": {
+	   "prefix":"#fort",
+	   "body":[
+			  "#fort"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"fortcost": {
+	   "prefix":"#fortcost",
+	   "body":[
+			  "#fortcost"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"fortera": {
+	   "prefix":"#fortera",
+	   "body":[
+			  "#fortera"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"fortkill": {
+	   "prefix":"#fortkill",
+	   "body":[
+			  "#fortkill"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"fortpart": {
+	   "prefix":"#fortpart",
+	   "body":[
+			  "#fortpart"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"fortunrest": {
+	   "prefix":"#fortunrest",
+	   "body":[
+			  "#fortunrest"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"friendlyench": {
+	   "prefix":"#friendlyench",
+	   "body":[
+			  "#friendlyench"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"friendlyimmune": {
+	   "prefix":"#friendlyimmune",
+	   "body":[
+			  "#friendlyimmune"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"fullstr": {
+	   "prefix":"#fullstr",
+	   "body":[
+			  "#fullstr"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"gainaff": {
+	   "prefix":"#gainaff",
+	   "body":[
+			  "#gainaff"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"gainmark": {
+	   "prefix":"#gainmark",
+	   "body":[
+			  "#gainmark"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"gcost": {
+	   "prefix":"#gcost",
+	   "body":[
+			  "#gcost"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"gemloss": {
+	   "prefix":"#gemloss",
+	   "body":[
+			  "#gemloss"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"gemprod": {
+	   "prefix":"#gemprod",
+	   "body":[
+			  "#gemprod"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"gems": {
+	   "prefix":"#gems",
+	   "body":[
+			  "#gems"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"ghostreanim": {
+	   "prefix":"#ghostreanim",
+	   "body":[
+			  "#ghostreanim"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"giftofwater": {
+	   "prefix":"#giftofwater",
+	   "body":[
+			  "#giftofwater"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"goddomchaos": {
+	   "prefix":"#goddomchaos",
+	   "body":[
+			  "#goddomchaos"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"goddomcold": {
+	   "prefix":"#goddomcold",
+	   "body":[
+			  "#goddomcold"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"goddomdeath": {
+	   "prefix":"#goddomdeath",
+	   "body":[
+			  "#goddomdeath"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"goddomdrain": {
+	   "prefix":"#goddomdrain",
+	   "body":[
+			  "#goddomdrain"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"goddomlazy": {
+	   "prefix":"#goddomlazy",
+	   "body":[
+			  "#goddomlazy"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"goddommisfortune": {
+	   "prefix":"#goddommisfortune",
+	   "body":[
+			  "#goddommisfortune"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"godpathspell": {
+	   "prefix":"#godpathspell",
+	   "body":[
+			  "#godpathspell"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"godrebirth": {
+	   "prefix":"#godrebirth",
+	   "body":[
+			  "#godrebirth"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"gold": {
+	   "prefix":"#gold",
+	   "body":[
+			  "#gold"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"golemhp": {
+	   "prefix":"#golemhp",
+	   "body":[
+			  "#golemhp"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"goodleader": {
+	   "prefix":"#goodleader",
+	   "body":[
+			  "#goodleader"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"goodmagicleader": {
+	   "prefix":"#goodmagicleader",
+	   "body":[
+			  "#goodmagicleader"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"goodundeadleader": {
+	   "prefix":"#goodundeadleader",
+	   "body":[
+			  "#goodundeadleader"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"greaterhorror": {
+	   "prefix":"#greaterhorror",
+	   "body":[
+			  "#greaterhorror"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"greekreanim": {
+	   "prefix":"#greekreanim",
+	   "body":[
+			  "#greekreanim"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"groundcol": {
+	   "prefix":"#groundcol",
+	   "body":[
+			  "#groundcol"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"growhp": {
+	   "prefix":"#growhp",
+	   "body":[
+			  "#growhp"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"guardspirit": {
+	   "prefix":"#guardspirit",
+	   "body":[
+			  "#guardspirit"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"guardspiritbonus": {
+	   "prefix":"#guardspiritbonus",
+	   "body":[
+			  "#guardspiritbonus"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"halfdeathinc": {
+	   "prefix":"#halfdeathinc",
+	   "body":[
+			  "#halfdeathinc"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"halfdeathpop": {
+	   "prefix":"#halfdeathpop",
+	   "body":[
+			  "#halfdeathpop"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"halfstr": {
+	   "prefix":"#halfstr",
+	   "body":[
+			  "#halfstr"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"haltheretic": {
+	   "prefix":"#haltheretic",
+	   "body":[
+			  "#haltheretic"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"hardmrneg": {
+	   "prefix":"#hardmrneg",
+	   "body":[
+			  "#hardmrneg"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"hatesterr": {
+	   "prefix":"#hatesterr",
+	   "body":[
+			  "#hatesterr"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"heal": {
+	   "prefix":"#heal",
+	   "body":[
+			  "#heal"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"healer": {
+	   "prefix":"#healer",
+	   "body":[
+			  "#healer"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"heat": {
+	   "prefix":"#heat",
+	   "body":[
+			  "#heat"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"heatrec": {
+	   "prefix":"#heatrec",
+	   "body":[
+			  "#heatrec"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"heretic": {
+	   "prefix":"#heretic",
+	   "body":[
+			  "#heretic"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"hero1": {
+	   "prefix":"#hero1",
+	   "body":[
+			  "#hero1"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"hero10": {
+	   "prefix":"#hero10",
+	   "body":[
+			  "#hero10"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"hero2": {
+	   "prefix":"#hero2",
+	   "body":[
+			  "#hero2"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"hero3": {
+	   "prefix":"#hero3",
+	   "body":[
+			  "#hero3"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"hero4": {
+	   "prefix":"#hero4",
+	   "body":[
+			  "#hero4"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"hero5": {
+	   "prefix":"#hero5",
+	   "body":[
+			  "#hero5"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"hero6": {
+	   "prefix":"#hero6",
+	   "body":[
+			  "#hero6"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"hero7": {
+	   "prefix":"#hero7",
+	   "body":[
+			  "#hero7"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"hero8": {
+	   "prefix":"#hero8",
+	   "body":[
+			  "#hero8"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"hero9": {
+	   "prefix":"#hero9",
+	   "body":[
+			  "#hero9"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"hiddenench": {
+	   "prefix":"#hiddenench",
+	   "body":[
+			  "#hiddenench"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"hiddensite": {
+	   "prefix":"#hiddensite",
+	   "body":[
+			  "#hiddensite"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"holy": {
+	   "prefix":"#holy",
+	   "body":[
+			  "#holy"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"holyboost": {
+	   "prefix":"#holyboost",
+	   "body":[
+			  "#holyboost"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"holyfire": {
+	   "prefix":"#holyfire",
+	   "body":[
+			  "#holyfire"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"holypower": {
+	   "prefix":"#holypower",
+	   "body":[
+			  "#holypower"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"homecom": {
+	   "prefix":"#homecom",
+	   "body":[
+			  "#homecom"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"homefort": {
+	   "prefix":"#homefort",
+	   "body":[
+			  "#homefort"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"homemon": {
+	   "prefix":"#homemon",
+	   "body":[
+			  "#homemon"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"homerealm": {
+	   "prefix":"#homerealm",
+	   "body":[
+			  "#homerealm"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"homeshape": {
+	   "prefix":"#homeshape",
+	   "body":[
+			  "#homeshape"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"homesick": {
+	   "prefix":"#homesick",
+	   "body":[
+			  "#homesick"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"horrordeserter": {
+	   "prefix":"#horrordeserter",
+	   "body":[
+			  "#horrordeserter"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"horrormark": {
+	   "prefix":"#horrormark",
+	   "body":[
+			  "#horrormark"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"horsereanim": {
+	   "prefix":"#horsereanim",
+	   "body":[
+			  "#horsereanim"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"horsetattoo": {
+	   "prefix":"#horsetattoo",
+	   "body":[
+			  "#horsetattoo"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"hp": {
+	   "prefix":"#hp",
+	   "body":[
+			  "#hp"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"hpoverflow": {
+	   "prefix":"#hpoverflow",
+	   "body":[
+			  "#hpoverflow"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"hpoverslow": {
+	   "prefix":"#hpoverslow",
+	   "body":[
+			  "#hpoverslow"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"humanoid": {
+	   "prefix":"#humanoid",
+	   "body":[
+			  "#humanoid"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"iceforging": {
+	   "prefix":"#iceforging",
+	   "body":[
+			  "#iceforging"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"iceprot": {
+	   "prefix":"#iceprot",
+	   "body":[
+			  "#iceprot"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"iceweapon": {
+	   "prefix":"#iceweapon",
+	   "body":[
+			  "#iceweapon"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"icon": {
+	   "prefix":"#icon",
+	   "body":[
+			  "#icon"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"id": {
+	   "prefix":"#id",
+	   "body":[
+			  "#id"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"idealcold": {
+	   "prefix":"#idealcold",
+	   "body":[
+			  "#idealcold"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"illusion": {
+	   "prefix":"#illusion",
+	   "body":[
+			  "#illusion"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"imagefile": {
+	   "prefix":"#imagefile",
+	   "body":[
+			  "#imagefile"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"immobile": {
+	   "prefix":"#immobile",
+	   "body":[
+			  "#immobile"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"immobileonly": {
+	   "prefix":"#immobileonly",
+	   "body":[
+			  "#immobileonly"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"immortal": {
+	   "prefix":"#immortal",
+	   "body":[
+			  "#immortal"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"inanimate": {
+	   "prefix":"#inanimate",
+	   "body":[
+			  "#inanimate"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"inanimateimmune": {
+	   "prefix":"#inanimateimmune",
+	   "body":[
+			  "#inanimateimmune"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"inccorpses": {
+	   "prefix":"#inccorpses",
+	   "body":[
+			  "#inccorpses"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"incdom": {
+	   "prefix":"#incdom",
+	   "body":[
+			  "#incdom"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"incorporate": {
+	   "prefix":"#incorporate",
+	   "body":[
+			  "#incorporate"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"incpop": {
+	   "prefix":"#incpop",
+	   "body":[
+			  "#incpop"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"incprovdef": {
+	   "prefix":"#incprovdef",
+	   "body":[
+			  "#incprovdef"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"incscale": {
+	   "prefix":"#incscale",
+	   "body":[
+			  "#incscale"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"incscale2": {
+	   "prefix":"#incscale2",
+	   "body":[
+			  "#incscale2"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"incscale3": {
+	   "prefix":"#incscale3",
+	   "body":[
+			  "#incscale3"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"incunrest": {
+	   "prefix":"#incunrest",
+	   "body":[
+			  "#incunrest"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"indepflag": {
+	   "prefix":"#indepflag",
+	   "body":[
+			  "#indepflag"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"indepmove": {
+	   "prefix":"#indepmove",
+	   "body":[
+			  "#indepmove"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"indepspells": {
+	   "prefix":"#indepspells",
+	   "body":[
+			  "#indepspells"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"indepstay": {
+	   "prefix":"#indepstay",
+	   "body":[
+			  "#indepstay"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"infernoret": {
+	   "prefix":"#infernoret",
+	   "body":[
+			  "#infernoret"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"inquisitor": {
+	   "prefix":"#inquisitor",
+	   "body":[
+			  "#inquisitor"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"insane": {
+	   "prefix":"#insane",
+	   "body":[
+			  "#insane"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"insanify": {
+	   "prefix":"#insanify",
+	   "body":[
+			  "#insanify"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"inspirational": {
+	   "prefix":"#inspirational",
+	   "body":[
+			  "#inspirational"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"inspiringres": {
+	   "prefix":"#inspiringres",
+	   "body":[
+			  "#inspiringres"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"internal": {
+	   "prefix":"#internal",
+	   "body":[
+			  "#internal"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"invisible": {
+	   "prefix":"#invisible",
+	   "body":[
+			  "#invisible"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"invulnerable": {
+	   "prefix":"#invulnerable",
+	   "body":[
+			  "#invulnerable"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"ironarmor": {
+	   "prefix":"#ironarmor",
+	   "body":[
+			  "#ironarmor"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"ironskin": {
+	   "prefix":"#ironskin",
+	   "body":[
+			  "#ironskin"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"ironvul": {
+	   "prefix":"#ironvul",
+	   "body":[
+			  "#ironvul"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"ironweapon": {
+	   "prefix":"#ironweapon",
+	   "body":[
+			  "#ironweapon"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"islance": {
+	   "prefix":"#islance",
+	   "body":[
+			  "#islance"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"islandnation": {
+	   "prefix":"#islandnation",
+	   "body":[
+			  "#islandnation"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"islandsite": {
+	   "prefix":"#islandsite",
+	   "body":[
+			  "#islandsite"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"item": {
+	   "prefix":"#item",
+	   "body":[
+			  "#item"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"itemcost1": {
+	   "prefix":"#itemcost1",
+	   "body":[
+			  "#itemcost1"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"itemcost2": {
+	   "prefix":"#itemcost2",
+	   "body":[
+			  "#itemcost2"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"itemslots": {
+	   "prefix":"#itemslots",
+	   "body":[
+			  "#itemslots"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"ivylord": {
+	   "prefix":"#ivylord",
+	   "body":[
+			  "#ivylord"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"kill": {
+	   "prefix":"#kill",
+	   "body":[
+			  "#kill"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"kill2d6mon": {
+	   "prefix":"#kill2d6mon",
+	   "body":[
+			  "#kill2d6mon"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"killcappop": {
+	   "prefix":"#killcappop",
+	   "body":[
+			  "#killcappop"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"killcom": {
+	   "prefix":"#killcom",
+	   "body":[
+			  "#killcom"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"killfeatures": {
+	   "prefix":"#killfeatures",
+	   "body":[
+			  "#killfeatures"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"killmon": {
+	   "prefix":"#killmon",
+	   "body":[
+			  "#killmon"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"killpop": {
+	   "prefix":"#killpop",
+	   "body":[
+			  "#killpop"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"knownfeature": {
+	   "prefix":"#knownfeature",
+	   "body":[
+			  "#knownfeature"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"kokytosret": {
+	   "prefix":"#kokytosret",
+	   "body":[
+			  "#kokytosret"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"lab": {
+	   "prefix":"#lab",
+	   "body":[
+			  "#lab"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"labcost": {
+	   "prefix":"#labcost",
+	   "body":[
+			  "#labcost"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"lamialord": {
+	   "prefix":"#lamialord",
+	   "body":[
+			  "#lamialord"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"lanceok": {
+	   "prefix":"#lanceok",
+	   "body":[
+			  "#lanceok"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"land": {
+	   "prefix":"#land",
+	   "body":[
+			  "#land"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"landcom": {
+	   "prefix":"#landcom",
+	   "body":[
+			  "#landcom"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"landdamage": {
+	   "prefix":"#landdamage",
+	   "body":[
+			  "#landdamage"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"landgold": {
+	   "prefix":"#landgold",
+	   "body":[
+			  "#landgold"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"landname": {
+	   "prefix":"#landname",
+	   "body":[
+			  "#landname"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"landprod": {
+	   "prefix":"#landprod",
+	   "body":[
+			  "#landprod"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"landrec": {
+	   "prefix":"#landrec",
+	   "body":[
+			  "#landrec"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"landshape": {
+	   "prefix":"#landshape",
+	   "body":[
+			  "#landshape"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"latehero": {
+	   "prefix":"#latehero",
+	   "body":[
+			  "#latehero"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"len": {
+	   "prefix":"#len",
+	   "body":[
+			  "#len"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"leper": {
+	   "prefix":"#leper",
+	   "body":[
+			  "#leper"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"lesserhorror": {
+	   "prefix":"#lesserhorror",
+	   "body":[
+			  "#lesserhorror"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"level": {
+	   "prefix":"#level",
+	   "body":[
+			  "#level"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"likespop": {
+	   "prefix":"#likespop",
+	   "body":[
+			  "#likespop"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"likesterr": {
+	   "prefix":"#likesterr",
+	   "body":[
+			  "#likesterr"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"limitedregen": {
+	   "prefix":"#limitedregen",
+	   "body":[
+			  "#limitedregen"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"linger": {
+	   "prefix":"#linger",
+	   "body":[
+			  "#linger"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"lizard": {
+	   "prefix":"#lizard",
+	   "body":[
+			  "#lizard"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"loc": {
+	   "prefix":"#loc",
+	   "body":[
+			  "#loc"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"loseeye": {
+	   "prefix":"#loseeye",
+	   "body":[
+			  "#loseeye"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"luck": {
+	   "prefix":"#luck",
+	   "body":[
+			  "#luck"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"luckevents": {
+	   "prefix":"#luckevents",
+	   "body":[
+			  "#luckevents"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"mag_air": {
+	   "prefix":"#mag_air",
+	   "body":[
+			  "#mag_air"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"mag_astral": {
+	   "prefix":"#mag_astral",
+	   "body":[
+			  "#mag_astral"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"mag_blood": {
+	   "prefix":"#mag_blood",
+	   "body":[
+			  "#mag_blood"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"mag_death": {
+	   "prefix":"#mag_death",
+	   "body":[
+			  "#mag_death"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"mag_earth": {
+	   "prefix":"#mag_earth",
+	   "body":[
+			  "#mag_earth"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"mag_fire": {
+	   "prefix":"#mag_fire",
+	   "body":[
+			  "#mag_fire"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"magic": {
+	   "prefix":"#magic",
+	   "body":[
+			  "#magic"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"magicarmor": {
+	   "prefix":"#magicarmor",
+	   "body":[
+			  "#magicarmor"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"magicbeing": {
+	   "prefix":"#magicbeing",
+	   "body":[
+			  "#magicbeing"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"magicboost": {
+	   "prefix":"#magicboost",
+	   "body":[
+			  "#magicboost"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"magiccommand": {
+	   "prefix":"#magiccommand",
+	   "body":[
+			  "#magiccommand"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"magicimmune": {
+	   "prefix":"#magicimmune",
+	   "body":[
+			  "#magicimmune"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"magicitem": {
+	   "prefix":"#magicitem",
+	   "body":[
+			  "#magicitem"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"magicpower": {
+	   "prefix":"#magicpower",
+	   "body":[
+			  "#magicpower"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"magicskill": {
+	   "prefix":"#magicskill",
+	   "body":[
+			  "#magicskill"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"magicstudy": {
+	   "prefix":"#magicstudy",
+	   "body":[
+			  "#magicstudy"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"mag_nature": {
+	   "prefix":"#mag_nature",
+	   "body":[
+			  "#mag_nature"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"mag_priest": {
+	   "prefix":"#mag_priest",
+	   "body":[
+			  "#mag_priest"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"mag_water": {
+	   "prefix":"#mag_water",
+	   "body":[
+			  "#mag_water"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"mainlevel": {
+	   "prefix":"#mainlevel",
+	   "body":[
+			  "#mainlevel"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"mainpath": {
+	   "prefix":"#mainpath",
+	   "body":[
+			  "#mainpath"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"makemonsters1": {
+	   "prefix":"#makemonsters1",
+	   "body":[
+			  "#makemonsters1"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"makemonsters2": {
+	   "prefix":"#makemonsters2",
+	   "body":[
+			  "#makemonsters2"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"makemonsters3": {
+	   "prefix":"#makemonsters3",
+	   "body":[
+			  "#makemonsters3"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"makemonsters4": {
+	   "prefix":"#makemonsters4",
+	   "body":[
+			  "#makemonsters4"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"makemonsters5": {
+	   "prefix":"#makemonsters5",
+	   "body":[
+			  "#makemonsters5"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"makepearls": {
+	   "prefix":"#makepearls",
+	   "body":[
+			  "#makepearls"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"manikinreanim": {
+	   "prefix":"#manikinreanim",
+	   "body":[
+			  "#manikinreanim"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"mapmove": {
+	   "prefix":"#mapmove",
+	   "body":[
+			  "#mapmove"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"mapspeed": {
+	   "prefix":"#mapspeed",
+	   "body":[
+			  "#mapspeed"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"mapteleport": {
+	   "prefix":"#mapteleport",
+	   "body":[
+			  "#mapteleport"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"maptextcol": {
+	   "prefix":"#maptextcol",
+	   "body":[
+			  "#maptextcol"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"mason": {
+	   "prefix":"#mason",
+	   "body":[
+			  "#mason"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"masterrit": {
+	   "prefix":"#masterrit",
+	   "body":[
+			  "#masterrit"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"mastersmith": {
+	   "prefix":"#mastersmith",
+	   "body":[
+			  "#mastersmith"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"maxage": {
+	   "prefix":"#maxage",
+	   "body":[
+			  "#maxage"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"maxbounces": {
+	   "prefix":"#maxbounces",
+	   "body":[
+			  "#maxbounces"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"maxsize": {
+	   "prefix":"#maxsize",
+	   "body":[
+			  "#maxsize"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"melee50": {
+	   "prefix":"#melee50",
+	   "body":[
+			  "#melee50"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"melee5U": {
+	   "prefix":"#melee5U",
+	   "body":[
+			  "#melee5U"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"merccost": {
+	   "prefix":"#merccost",
+	   "body":[
+			  "#merccost"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"mind": {
+	   "prefix":"#mind",
+	   "body":[
+			  "#mind"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"mindslime": {
+	   "prefix":"#mindslime",
+	   "body":[
+			  "#mindslime"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"mindvessel": {
+	   "prefix":"#mindvessel",
+	   "body":[
+			  "#mindvessel"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"minmen": {
+	   "prefix":"#minmen",
+	   "body":[
+			  "#minmen"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"minpay": {
+	   "prefix":"#minpay",
+	   "body":[
+			  "#minpay"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"minprison": {
+	   "prefix":"#minprison",
+	   "body":[
+			  "#minprison"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"minsize": {
+	   "prefix":"#minsize",
+	   "body":[
+			  "#minsize"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"minsizeleader": {
+	   "prefix":"#minsizeleader",
+	   "body":[
+			  "#minsizeleader"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"miscshape": {
+	   "prefix":"#miscshape",
+	   "body":[
+			  "#miscshape"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"misfortune": {
+	   "prefix":"#misfortune",
+	   "body":[
+			  "#misfortune"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"modname": {
+	   "prefix":"#modname",
+	   "body":[
+			  "#modname"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"mon": {
+	   "prefix":"#mon",
+	   "body":[
+			  "#mon"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"monpresentrec": {
+	   "prefix":"#monpresentrec",
+	   "body":[
+			  "#monpresentrec"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"montag": {
+	   "prefix":"#montag",
+	   "body":[
+			  "#montag"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"mor": {
+	   "prefix":"#mor",
+	   "body":[
+			  "#mor"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"morale": {
+	   "prefix":"#morale",
+	   "body":[
+			  "#morale"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"mountaincom": {
+	   "prefix":"#mountaincom",
+	   "body":[
+			  "#mountaincom"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"mountainrec": {
+	   "prefix":"#mountainrec",
+	   "body":[
+			  "#mountainrec"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"mountainsurvival": {
+	   "prefix":"#mountainsurvival",
+	   "body":[
+			  "#mountainsurvival"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"mounted": {
+	   "prefix":"#mounted",
+	   "body":[
+			  "#mounted"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"mountedhumanoid": {
+	   "prefix":"#mountedhumanoid",
+	   "body":[
+			  "#mountedhumanoid"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"mr": {
+	   "prefix":"#mr",
+	   "body":[
+			  "#mr"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"mrnegates": {
+	   "prefix":"#mrnegates",
+	   "body":[
+			  "#mrnegates"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"mrnegateseasily": {
+	   "prefix":"#mrnegateseasily",
+	   "body":[
+			  "#mrnegateseasily"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"msg": {
+	   "prefix":"#msg",
+	   "body":[
+			  "#msg"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"multihero1": {
+	   "prefix":"#multihero1",
+	   "body":[
+			  "#multihero1"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"multihero2": {
+	   "prefix":"#multihero2",
+	   "body":[
+			  "#multihero2"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"multihero3": {
+	   "prefix":"#multihero3",
+	   "body":[
+			  "#multihero3"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"multihero4": {
+	   "prefix":"#multihero4",
+	   "body":[
+			  "#multihero4"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"multihero5": {
+	   "prefix":"#multihero5",
+	   "body":[
+			  "#multihero5"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"multihero6": {
+	   "prefix":"#multihero6",
+	   "body":[
+			  "#multihero6"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"multihero7": {
+	   "prefix":"#multihero7",
+	   "body":[
+			  "#multihero7"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"mute": {
+	   "prefix":"#mute",
+	   "body":[
+			  "#mute"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"naga": {
+	   "prefix":"#naga",
+	   "body":[
+			  "#naga"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"name": {
+	   "prefix":"#name",
+	   "body":[
+			  "#name"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"nametype": {
+	   "prefix":"#nametype",
+	   "body":[
+			  "#nametype"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"nation": {
+	   "prefix":"#nation",
+	   "body":[
+			  "#nation"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"nationench": {
+	   "prefix":"#nationench",
+	   "body":[
+			  "#nationench"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"nationinc": {
+	   "prefix":"#nationinc",
+	   "body":[
+			  "#nationinc"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"nationrebate": {
+	   "prefix":"#nationrebate",
+	   "body":[
+			  "#nationrebate"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"natural": {
+	   "prefix":"#natural",
+	   "body":[
+			  "#natural"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"natureattuned": {
+	   "prefix":"#natureattuned",
+	   "body":[
+			  "#natureattuned"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"natureblessbonus": {
+	   "prefix":"#natureblessbonus",
+	   "body":[
+			  "#natureblessbonus"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"natureboost": {
+	   "prefix":"#natureboost",
+	   "body":[
+			  "#natureboost"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"naturerange": {
+	   "prefix":"#naturerange",
+	   "body":[
+			  "#naturerange"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"neednoteat": {
+	   "prefix":"#neednoteat",
+	   "body":[
+			  "#neednoteat"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"neighbour": {
+	   "prefix":"#neighbour",
+	   "body":[
+			  "#neighbour"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"neighbourspec": {
+	   "prefix":"#neighbourspec",
+	   "body":[
+			  "#neighbourspec"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"newdom ": {
+	   "prefix":"#newdom",
+	   "body":[
+			  "#newdom"
+		 ],
+	   "description":"Changes dominion to that of the event owner and sets it to the level of 1d(value) candles."
+	  }
+  
+  
+  ,
+  
+	"nextingeo": {
+	   "prefix":"#nextingeo",
+	   "body":[
+			  "#nextingeo"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"nextspell": {
+	   "prefix":"#nextspell",
+	   "body":[
+			  "#nextspell"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"nhwound": {
+	   "prefix":"#nhwound",
+	   "body":[
+			  "#nhwound"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"noaging": {
+	   "prefix":"#noaging",
+	   "body":[
+			  "#noaging"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"noagingland": {
+	   "prefix":"#noagingland",
+	   "body":[
+			  "#noagingland"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"nobadevents": {
+	   "prefix":"#nobadevents",
+	   "body":[
+			  "#nobadevents"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"nocastmindless": {
+	   "prefix":"#nocastmindless",
+	   "body":[
+			  "#nocastmindless"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"nocoldblood": {
+	   "prefix":"#nocoldblood",
+	   "body":[
+			  "#nocoldblood"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"nodeathsupply": {
+	   "prefix":"#nodeathsupply",
+	   "body":[
+			  "#nodeathsupply"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"nodemon": {
+	   "prefix":"#nodemon",
+	   "body":[
+			  "#nodemon"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"nofemale": {
+	   "prefix":"#nofemale",
+	   "body":[
+			  "#nofemale"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"nofind": {
+	   "prefix":"#nofind",
+	   "body":[
+			  "#nofind"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"noforeignrec": {
+	   "prefix":"#noforeignrec",
+	   "body":[
+			  "#noforeignrec"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"noforgebonus": {
+	   "prefix":"#noforgebonus",
+	   "body":[
+			  "#noforgebonus"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"nogeodst": {
+	   "prefix":"#nogeodst",
+	   "body":[
+			  "#nogeodst"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"nogeosrc": {
+	   "prefix":"#nogeosrc",
+	   "body":[
+			  "#nogeosrc"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"noheal": {
+	   "prefix":"#noheal",
+	   "body":[
+			  "#noheal"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"nohof": {
+	   "prefix":"#nohof",
+	   "body":[
+			  "#nohof"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"nohomelandnames": {
+	   "prefix":"#nohomelandnames",
+	   "body":[
+			  "#nohomelandnames"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"noimmobile": {
+	   "prefix":"#noimmobile",
+	   "body":[
+			  "#noimmobile"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"noinanim": {
+	   "prefix":"#noinanim",
+	   "body":[
+			  "#noinanim"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"noitem": {
+	   "prefix":"#noitem",
+	   "body":[
+			  "#noitem"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"nolandtrace": {
+	   "prefix":"#nolandtrace",
+	   "body":[
+			  "#nolandtrace"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"noleader": {
+	   "prefix":"#noleader",
+	   "body":[
+			  "#noleader"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"nolog": {
+	   "prefix":"#nolog",
+	   "body":[
+			  "#nolog"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"nomagicleader": {
+	   "prefix":"#nomagicleader",
+	   "body":[
+			  "#nomagicleader"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"nomounted": {
+	   "prefix":"#nomounted",
+	   "body":[
+			  "#nomounted"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"nomovepen": {
+	   "prefix":"#nomovepen",
+	   "body":[
+			  "#nomovepen"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"nonamefilter": {
+	   "prefix":"#nonamefilter",
+	   "body":[
+			  "#nonamefilter"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"nopreach": {
+	   "prefix":"#nopreach",
+	   "body":[
+			  "#nopreach"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"norange": {
+	   "prefix":"#norange",
+	   "body":[
+			  "#norange"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"norepel": {
+	   "prefix":"#norepel",
+	   "body":[
+			  "#norepel"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"noreqlab": {
+	   "prefix":"#noreqlab",
+	   "body":[
+			  "#noreqlab"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"noreqtemple": {
+	   "prefix":"#noreqtemple",
+	   "body":[
+			  "#noreqtemple"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"noriverpass": {
+	   "prefix":"#noriverpass",
+	   "body":[
+			  "#noriverpass"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"noslowrec": {
+	   "prefix":"#noslowrec",
+	   "body":[
+			  "#noslowrec"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"nostart": {
+	   "prefix":"#nostart",
+	   "body":[
+			  "#nostart"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"nostr": {
+	   "prefix":"#nostr",
+	   "body":[
+			  "#nostr"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"notext": {
+	   "prefix":"#notext",
+	   "body":[
+			  "#notext"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"notfornation": {
+	   "prefix":"#notfornation",
+	   "body":[
+			  "#notfornation"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"notmnr": {
+	   "prefix":"#notmnr",
+	   "body":[
+			  "#notmnr"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"notsacred": {
+	   "prefix":"#notsacred",
+	   "body":[
+			  "#notsacred"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"noundead": {
+	   "prefix":"#noundead",
+	   "body":[
+			  "#noundead"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"noundeadgods": {
+	   "prefix":"#noundeadgods",
+	   "body":[
+			  "#noundeadgods"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"noundeadleader": {
+	   "prefix":"#noundeadleader",
+	   "body":[
+			  "#noundeadleader"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"nouw": {
+	   "prefix":"#nouw",
+	   "body":[
+			  "#nouw"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"nowatertrace": {
+	   "prefix":"#nowatertrace",
+	   "body":[
+			  "#nowatertrace"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"nowish": {
+	   "prefix":"#nowish",
+	   "body":[
+			  "#nowish"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"nratt": {
+	   "prefix":"#nratt",
+	   "body":[
+			  "#nratt"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"nreff": {
+	   "prefix":"#nreff",
+	   "body":[
+			  "#nreff"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"nrunits": {
+	   "prefix":"#nrunits",
+	   "body":[
+			  "#nrunits"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"okleader": {
+	   "prefix":"#okleader",
+	   "body":[
+			  "#okleader"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"okmagicleader": {
+	   "prefix":"#okmagicleader",
+	   "body":[
+			  "#okmagicleader"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"okundeadleader": {
+	   "prefix":"#okundeadleader",
+	   "body":[
+			  "#okundeadleader"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"older": {
+	   "prefix":"#older",
+	   "body":[
+			  "#older"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"onebattlespel": {
+	   "prefix":"#onebattlespel",
+	   "body":[
+			  "#onebattlespel"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"onebattlespell": {
+	   "prefix":"#onebattlespell",
+	   "body":[
+			  "#onebattlespell"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"onisummon": {
+	   "prefix":"#onisummon",
+	   "body":[
+			  "#onisummon"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"onlyatsite": {
+	   "prefix":"#onlyatsite",
+	   "body":[
+			  "#onlyatsite"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"onlycoastsrc": {
+	   "prefix":"#onlycoastsrc",
+	   "body":[
+			  "#onlycoastsrc"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"onlycoldblood": {
+	   "prefix":"#onlycoldblood",
+	   "body":[
+			  "#onlycoldblood"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"onlydemon": {
+	   "prefix":"#onlydemon",
+	   "body":[
+			  "#onlydemon"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"onlyfemale": {
+	   "prefix":"#onlyfemale",
+	   "body":[
+			  "#onlyfemale"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"onlyfriendlydst": {
+	   "prefix":"#onlyfriendlydst",
+	   "body":[
+			  "#onlyfriendlydst"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"onlygeodst": {
+	   "prefix":"#onlygeodst",
+	   "body":[
+			  "#onlygeodst"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"onlygeosrc": {
+	   "prefix":"#onlygeosrc",
+	   "body":[
+			  "#onlygeosrc"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"onlyinanim": {
+	   "prefix":"#onlyinanim",
+	   "body":[
+			  "#onlyinanim"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"onlymnr": {
+	   "prefix":"#onlymnr",
+	   "body":[
+			  "#onlymnr"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"onlymounted": {
+	   "prefix":"#onlymounted",
+	   "body":[
+			  "#onlymounted"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"onlyowndst": {
+	   "prefix":"#onlyowndst",
+	   "body":[
+			  "#onlyowndst"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"onlyundead": {
+	   "prefix":"#onlyundead",
+	   "body":[
+			  "#onlyundead"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"order": {
+	   "prefix":"#order",
+	   "body":[
+			  "#order"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"overcharged": {
+	   "prefix":"#overcharged",
+	   "body":[
+			  "#overcharged"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"owner": {
+	   "prefix":"#owner",
+	   "body":[
+			  "#owner"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"ownsmonrec": {
+	   "prefix":"#ownsmonrec",
+	   "body":[
+			  "#ownsmonrec"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"path": {
+	   "prefix":"#path",
+	   "body":[
+			  "#path"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"pathboost": {
+	   "prefix":"#pathboost",
+	   "body":[
+			  "#pathboost"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"pathcost": {
+	   "prefix":"#pathcost",
+	   "body":[
+			  "#pathcost"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"pathlevel": {
+	   "prefix":"#pathlevel",
+	   "body":[
+			  "#pathlevel"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"patience": {
+	   "prefix":"#patience",
+	   "body":[
+			  "#patience"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"patrolbonus": {
+	   "prefix":"#patrolbonus",
+	   "body":[
+			  "#patrolbonus"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"pen": {
+	   "prefix":"#pen",
+	   "body":[
+			  "#pen"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"pierce": {
+	   "prefix":"#pierce",
+	   "body":[
+			  "#pierce"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"pierceres": {
+	   "prefix":"#pierceres",
+	   "body":[
+			  "#pierceres"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"pillagebonus": {
+	   "prefix":"#pillagebonus",
+	   "body":[
+			  "#pillagebonus"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"plainshape": {
+	   "prefix":"#plainshape",
+	   "body":[
+			  "#plainshape"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"plant": {
+	   "prefix":"#plant",
+	   "body":[
+			  "#plant"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"poison": {
+	   "prefix":"#poison",
+	   "body":[
+			  "#poison"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"poisonarmor": {
+	   "prefix":"#poisonarmor",
+	   "body":[
+			  "#poisonarmor"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"poisoncloud": {
+	   "prefix":"#poisoncloud",
+	   "body":[
+			  "#poisoncloud"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"poisonres": {
+	   "prefix":"#poisonres",
+	   "body":[
+			  "#poisonres"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"poisonskin": {
+	   "prefix":"#poisonskin",
+	   "body":[
+			  "#poisonskin"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"polygetmagic": {
+	   "prefix":"#polygetmagic",
+	   "body":[
+			  "#polygetmagic"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"polyimmune": {
+	   "prefix":"#polyimmune",
+	   "body":[
+			  "#polyimmune"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"pooramphibian": {
+	   "prefix":"#pooramphibian",
+	   "body":[
+			  "#pooramphibian"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"poorleader": {
+	   "prefix":"#poorleader",
+	   "body":[
+			  "#poorleader"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"poormagicleader": {
+	   "prefix":"#poormagicleader",
+	   "body":[
+			  "#poormagicleader"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"poorundeadleader": {
+	   "prefix":"#poorundeadleader",
+	   "body":[
+			  "#poorundeadleader"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"popkill": {
+	   "prefix":"#popkill",
+	   "body":[
+			  "#popkill"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"poppergold": {
+	   "prefix":"#poppergold",
+	   "body":[
+			  "#poppergold"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"poptype": {
+	   "prefix":"#poptype",
+	   "body":[
+			  "#poptype"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"population": {
+	   "prefix":"#population",
+	   "body":[
+			  "#population"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"prec": {
+	   "prefix":"#prec",
+	   "body":[
+			  "#prec"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"precision": {
+	   "prefix":"#precision",
+	   "body":[
+			  "#precision"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"priestattuned": {
+	   "prefix":"#priestattuned",
+	   "body":[
+			  "#priestattuned"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"priestreanim": {
+	   "prefix":"#priestreanim",
+	   "body":[
+			  "#priestreanim"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"prophetshape": {
+	   "prefix":"#prophetshape",
+	   "body":[
+			  "#prophetshape"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"prot": {
+	   "prefix":"#prot",
+	   "body":[
+			  "#prot"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"provrange": {
+	   "prefix":"#provrange",
+	   "body":[
+			  "#provrange"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"purgecalendar": {
+	   "prefix":"#purgecalendar",
+	   "body":[
+			  "#purgecalendar"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"purgedelayed": {
+	   "prefix":"#purgedelayed",
+	   "body":[
+			  "#purgedelayed"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"quadruped": {
+	   "prefix":"#quadruped",
+	   "body":[
+			  "#quadruped"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"quickness": {
+	   "prefix":"#quickness",
+	   "body":[
+			  "#quickness"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"raiseonkill": {
+	   "prefix":"#raiseonkill",
+	   "body":[
+			  "#raiseonkill"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"raiseshape": {
+	   "prefix":"#raiseshape",
+	   "body":[
+			  "#raiseshape"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"randequip": {
+	   "prefix":"#randequip",
+	   "body":[
+			  "#randequip"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"randomequip": {
+	   "prefix":"#randomequip",
+	   "body":[
+			  "#randomequip"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"randomspell": {
+	   "prefix":"#randomspell",
+	   "body":[
+			  "#randomspell"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"range": {
+	   "prefix":"#range",
+	   "body":[
+			  "#range"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"range0": {
+	   "prefix":"#range0",
+	   "body":[
+			  "#range0"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"range050": {
+	   "prefix":"#range050",
+	   "body":[
+			  "#range050"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"rangeU": {
+	   "prefix":"#rangeU",
+	   "body":[
+			  "#rangeU"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"rangeU5U": {
+	   "prefix":"#rangeU5U",
+	   "body":[
+			  "#rangeU5U"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"raredomsummon": {
+	   "prefix":"#raredomsummon",
+	   "body":[
+			  "#raredomsummon"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"rarity": {
+	   "prefix":"#rarity",
+	   "body":[
+			  "#rarity"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"ratt": {
+	   "prefix":"#ratt",
+	   "body":[
+			  "#ratt"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"rcost": {
+	   "prefix":"#rcost",
+	   "body":[
+			  "#rcost"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"reanimator": {
+	   "prefix":"#reanimator",
+	   "body":[
+			  "#reanimator"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"reanimpriest": {
+	   "prefix":"#reanimpriest",
+	   "body":[
+			  "#reanimpriest"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"recallgod": {
+	   "prefix":"#recallgod",
+	   "body":[
+			  "#recallgod"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"reclimit": {
+	   "prefix":"#reclimit",
+	   "body":[
+			  "#reclimit"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"recrate": {
+	   "prefix":"#recrate",
+	   "body":[
+			  "#recrate"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"recuperation": {
+	   "prefix":"#recuperation",
+	   "body":[
+			  "#recuperation"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"reform": {
+	   "prefix":"#reform",
+	   "body":[
+			  "#reform"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"reformtime": {
+	   "prefix":"#reformtime",
+	   "body":[
+			  "#reformtime"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"regeneration": {
+	   "prefix":"#regeneration",
+	   "body":[
+			  "#regeneration"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"reinvigoration": {
+	   "prefix":"#reinvigoration",
+	   "body":[
+			  "#reinvigoration"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"removesite": {
+	   "prefix":"#removesite",
+	   "body":[
+			  "#removesite"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_2monsters": {
+	   "prefix":"#req_2monsters",
+	   "body":[
+			  "#req_2monsters"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_5monsters": {
+	   "prefix":"#req_5monsters",
+	   "body":[
+			  "#req_5monsters"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_anycode": {
+	   "prefix":"#req_anycode",
+	   "body":[
+			  "#req_anycode"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_capital": {
+	   "prefix":"#req_capital",
+	   "body":[
+			  "#req_capital"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_cave": {
+	   "prefix":"#req_cave",
+	   "body":[
+			  "#req_cave"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_chaos": {
+	   "prefix":"#req_chaos",
+	   "body":[
+			  "#req_chaos"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_claimedthrone": {
+	   "prefix":"#req_claimedthrone",
+	   "body":[
+			  "#req_claimedthrone"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_coast": {
+	   "prefix":"#req_coast",
+	   "body":[
+			  "#req_coast"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_code": {
+	   "prefix":"#req_code",
+	   "body":[
+			  "#req_code"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_cold": {
+	   "prefix":"#req_cold",
+	   "body":[
+			  "#req_cold"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_commander": {
+	   "prefix":"#req_commander",
+	   "body":[
+			  "#req_commander"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_deadmnr": {
+	   "prefix":"#req_deadmnr",
+	   "body":[
+			  "#req_deadmnr"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_death": {
+	   "prefix":"#req_death",
+	   "body":[
+			  "#req_death"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_domchance": {
+	   "prefix":"#req_domchance",
+	   "body":[
+			  "#req_domchance"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_dominion": {
+	   "prefix":"#req_dominion",
+	   "body":[
+			  "#req_dominion"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_domowner": {
+	   "prefix":"#req_domowner",
+	   "body":[
+			  "#req_domowner"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_ench": {
+	   "prefix":"#req_ench",
+	   "body":[
+			  "#req_ench"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_enchdom": {
+	   "prefix":"#req_enchdom",
+	   "body":[
+			  "#req_enchdom"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_era": {
+	   "prefix":"#req_era",
+	   "body":[
+			  "#req_era"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"reqeyes": {
+	   "prefix":"#reqeyes",
+	   "body":[
+			  "#reqeyes"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_farm": {
+	   "prefix":"#req_farm",
+	   "body":[
+			  "#req_farm"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_forest": {
+	   "prefix":"#req_forest",
+	   "body":[
+			  "#req_forest"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_fornation": {
+	   "prefix":"#req_fornation",
+	   "body":[
+			  "#req_fornation"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_fort": {
+	   "prefix":"#req_fort",
+	   "body":[
+			  "#req_fort"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_foundsite": {
+	   "prefix":"#req_foundsite",
+	   "body":[
+			  "#req_foundsite"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_freesites": {
+	   "prefix":"#req_freesites",
+	   "body":[
+			  "#req_freesites"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_freshwater": {
+	   "prefix":"#req_freshwater",
+	   "body":[
+			  "#req_freshwater"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_friendlyench": {
+	   "prefix":"#req_friendlyench",
+	   "body":[
+			  "#req_friendlyench"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_fullowner": {
+	   "prefix":"#req_fullowner",
+	   "body":[
+			  "#req_fullowner"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_gem": {
+	   "prefix":"#req_gem",
+	   "body":[
+			  "#req_gem"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_gold": {
+	   "prefix":"#req_gold",
+	   "body":[
+			  "#req_gold"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_growth": {
+	   "prefix":"#req_growth",
+	   "body":[
+			  "#req_growth"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_heat": {
+	   "prefix":"#req_heat",
+	   "body":[
+			  "#req_heat"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_hiddensite": {
+	   "prefix":"#req_hiddensite",
+	   "body":[
+			  "#req_hiddensite"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_hostileench": {
+	   "prefix":"#req_hostileench",
+	   "body":[
+			  "#req_hostileench"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_humanoidres": {
+	   "prefix":"#req_humanoidres",
+	   "body":[
+			  "#req_humanoidres"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_indepok": {
+	   "prefix":"#req_indepok",
+	   "body":[
+			  "#req_indepok"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"reqlab": {
+	   "prefix":"#reqlab",
+	   "body":[
+			  "#reqlab"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_lab": {
+	   "prefix":"#req_lab",
+	   "body":[
+			  "#req_lab"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_land": {
+	   "prefix":"#req_land",
+	   "body":[
+			  "#req_land"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_lazy": {
+	   "prefix":"#req_lazy",
+	   "body":[
+			  "#req_lazy"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_luck": {
+	   "prefix":"#req_luck",
+	   "body":[
+			  "#req_luck"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_magic": {
+	   "prefix":"#req_magic",
+	   "body":[
+			  "#req_magic"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_maxdef": {
+	   "prefix":"#req_maxdef",
+	   "body":[
+			  "#req_maxdef"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_maxdominion": {
+	   "prefix":"#req_maxdominion",
+	   "body":[
+			  "#req_maxdominion"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_maxpop": {
+	   "prefix":"#req_maxpop",
+	   "body":[
+			  "#req_maxpop"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_maxtroops": {
+	   "prefix":"#req_maxtroops",
+	   "body":[
+			  "#req_maxtroops"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_maxturn": {
+	   "prefix":"#req_maxturn",
+	   "body":[
+			  "#req_maxturn"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_maxunrest": {
+	   "prefix":"#req_maxunrest",
+	   "body":[
+			  "#req_maxunrest"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_mindef": {
+	   "prefix":"#req_mindef",
+	   "body":[
+			  "#req_mindef"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_minpop": {
+	   "prefix":"#req_minpop",
+	   "body":[
+			  "#req_minpop"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_mintroops": {
+	   "prefix":"#req_mintroops",
+	   "body":[
+			  "#req_mintroops"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_minunrest": {
+	   "prefix":"#req_minunrest",
+	   "body":[
+			  "#req_minunrest"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_mnr": {
+	   "prefix":"#req_mnr",
+	   "body":[
+			  "#req_mnr"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_monster": {
+	   "prefix":"#req_monster",
+	   "body":[
+			  "#req_monster"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_mountain": {
+	   "prefix":"#req_mountain",
+	   "body":[
+			  "#req_mountain"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_mydominion": {
+	   "prefix":"#req_mydominion",
+	   "body":[
+			  "#req_mydominion"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_myench": {
+	   "prefix":"#req_myench",
+	   "body":[
+			  "#req_myench"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_nation": {
+	   "prefix":"#req_nation",
+	   "body":[
+			  "#req_nation"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_nearbycode": {
+	   "prefix":"#req_nearbycode",
+	   "body":[
+			  "#req_nearbycode"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_nearbysite": {
+	   "prefix":"#req_nearbysite",
+	   "body":[
+			  "#req_nearbysite"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_nearowncode": {
+	   "prefix":"#req_nearowncode",
+	   "body":[
+			  "#req_nearowncode"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_noench": {
+	   "prefix":"#req_noench",
+	   "body":[
+			  "#req_noench"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_noera": {
+	   "prefix":"#req_noera",
+	   "body":[
+			  "#req_noera"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_nomnr": {
+	   "prefix":"#req_nomnr",
+	   "body":[
+			  "#req_nomnr"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_nomonster": {
+	   "prefix":"#req_nomonster",
+	   "body":[
+			  "#req_nomonster"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_nonation": {
+	   "prefix":"#req_nonation",
+	   "body":[
+			  "#req_nonation"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_nopathair": {
+	   "prefix":"#req_nopathair",
+	   "body":[
+			  "#req_nopathair"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_nopathall": {
+	   "prefix":"#req_nopathall",
+	   "body":[
+			  "#req_nopathall"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_nopathastral": {
+	   "prefix":"#req_nopathastral",
+	   "body":[
+			  "#req_nopathastral"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_nopathblood": {
+	   "prefix":"#req_nopathblood",
+	   "body":[
+			  "#req_nopathblood"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_nopathdeath": {
+	   "prefix":"#req_nopathdeath",
+	   "body":[
+			  "#req_nopathdeath"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_nopathearth": {
+	   "prefix":"#req_nopathearth",
+	   "body":[
+			  "#req_nopathearth"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_nopathfire": {
+	   "prefix":"#req_nopathfire",
+	   "body":[
+			  "#req_nopathfire"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_nopathholy": {
+	   "prefix":"#req_nopathholy",
+	   "body":[
+			  "#req_nopathholy"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_nopathnature": {
+	   "prefix":"#req_nopathnature",
+	   "body":[
+			  "#req_nopathnature"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_nopathwater": {
+	   "prefix":"#req_nopathwater",
+	   "body":[
+			  "#req_nopathwater"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_noseason": {
+	   "prefix":"#req_noseason",
+	   "body":[
+			  "#req_noseason"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_nositenbr": {
+	   "prefix":"#req_nositenbr",
+	   "body":[
+			  "#req_nositenbr"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_notanycode": {
+	   "prefix":"#req_notanycode",
+	   "body":[
+			  "#req_notanycode"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_notforally": {
+	   "prefix":"#req_notforally",
+	   "body":[
+			  "#req_notforally"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_notfornation": {
+	   "prefix":"#req_notfornation",
+	   "body":[
+			  "#req_notfornation"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_notnation": {
+	   "prefix":"#req_notnation",
+	   "body":[
+			  "#req_notnation"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_order": {
+	   "prefix":"#req_order",
+	   "body":[
+			  "#req_order"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_owncapital": {
+	   "prefix":"#req_owncapital",
+	   "body":[
+			  "#req_owncapital"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_pathair": {
+	   "prefix":"#req_pathair",
+	   "body":[
+			  "#req_pathair"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_pathastral": {
+	   "prefix":"#req_pathastral",
+	   "body":[
+			  "#req_pathastral"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_pathblood": {
+	   "prefix":"#req_pathblood",
+	   "body":[
+			  "#req_pathblood"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_pathdeath": {
+	   "prefix":"#req_pathdeath",
+	   "body":[
+			  "#req_pathdeath"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_pathearth": {
+	   "prefix":"#req_pathearth",
+	   "body":[
+			  "#req_pathearth"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_pathfire": {
+	   "prefix":"#req_pathfire",
+	   "body":[
+			  "#req_pathfire"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_pathholy": {
+	   "prefix":"#req_pathholy",
+	   "body":[
+			  "#req_pathholy"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_pathnature": {
+	   "prefix":"#req_pathnature",
+	   "body":[
+			  "#req_pathnature"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_pathwater": {
+	   "prefix":"#req_pathwater",
+	   "body":[
+			  "#req_pathwater"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_permonth": {
+	   "prefix":"#req_permonth",
+	   "body":[
+			  "#req_permonth"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_pop0ok": {
+	   "prefix":"#req_pop0ok",
+	   "body":[
+			  "#req_pop0ok"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_poptype": {
+	   "prefix":"#req_poptype",
+	   "body":[
+			  "#req_poptype"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_preach": {
+	   "prefix":"#req_preach",
+	   "body":[
+			  "#req_preach"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_pregame": {
+	   "prefix":"#req_pregame",
+	   "body":[
+			  "#req_pregame"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_prod": {
+	   "prefix":"#req_prod",
+	   "body":[
+			  "#req_prod"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_rare": {
+	   "prefix":"#req_rare",
+	   "body":[
+			  "#req_rare"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_researcher": {
+	   "prefix":"#req_researcher",
+	   "body":[
+			  "#req_researcher"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_season": {
+	   "prefix":"#req_season",
+	   "body":[
+			  "#req_season"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"reqseduce": {
+	   "prefix":"#reqseduce",
+	   "body":[
+			  "#reqseduce"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_site": {
+	   "prefix":"#req_site",
+	   "body":[
+			  "#req_site"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"reqspellsinger": {
+	   "prefix":"#reqspellsinger",
+	   "body":[
+			  "#reqspellsinger"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_story": {
+	   "prefix":"#req_story",
+	   "body":[
+			  "#req_story"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_swamp": {
+	   "prefix":"#req_swamp",
+	   "body":[
+			  "#req_swamp"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_targaff": {
+	   "prefix":"#req_targaff",
+	   "body":[
+			  "#req_targaff"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_targally": {
+	   "prefix":"#req_targally",
+	   "body":[
+			  "#req_targally"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_targanimal": {
+	   "prefix":"#req_targanimal",
+	   "body":[
+			  "#req_targanimal"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_targdemon": {
+	   "prefix":"#req_targdemon",
+	   "body":[
+			  "#req_targdemon"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_targforeignok": {
+	   "prefix":"#req_targforeignok",
+	   "body":[
+			  "#req_targforeignok"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_targgod": {
+	   "prefix":"#req_targgod",
+	   "body":[
+			  "#req_targgod"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_targhumanoid": {
+	   "prefix":"#req_targhumanoid",
+	   "body":[
+			  "#req_targhumanoid"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_targimmobile": {
+	   "prefix":"#req_targimmobile",
+	   "body":[
+			  "#req_targimmobile"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_targinanimate": {
+	   "prefix":"#req_targinanimate",
+	   "body":[
+			  "#req_targinanimate"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_targitem": {
+	   "prefix":"#req_targitem",
+	   "body":[
+			  "#req_targitem"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_targmagicbeing": {
+	   "prefix":"#req_targmagicbeing",
+	   "body":[
+			  "#req_targmagicbeing"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_targmale": {
+	   "prefix":"#req_targmale",
+	   "body":[
+			  "#req_targmale"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_targmaxsize": {
+	   "prefix":"#req_targmaxsize",
+	   "body":[
+			  "#req_targmaxsize"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_targmindless": {
+	   "prefix":"#req_targmindless",
+	   "body":[
+			  "#req_targmindless"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_targminsize": {
+	   "prefix":"#req_targminsize",
+	   "body":[
+			  "#req_targminsize"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_targmnr": {
+	   "prefix":"#req_targmnr",
+	   "body":[
+			  "#req_targmnr"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_targnoaff": {
+	   "prefix":"#req_targnoaff",
+	   "body":[
+			  "#req_targnoaff"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_targnoitem": {
+	   "prefix":"#req_targnoitem",
+	   "body":[
+			  "#req_targnoitem"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_targnomnr": {
+	   "prefix":"#req_targnomnr",
+	   "body":[
+			  "#req_targnomnr"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_targnoorder": {
+	   "prefix":"#req_targnoorder",
+	   "body":[
+			  "#req_targnoorder"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_targnopath1": {
+	   "prefix":"#req_targnopath1",
+	   "body":[
+			  "#req_targnopath1"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_targnopath2": {
+	   "prefix":"#req_targnopath2",
+	   "body":[
+			  "#req_targnopath2"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_targnopath3": {
+	   "prefix":"#req_targnopath3",
+	   "body":[
+			  "#req_targnopath3"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_targnopath4": {
+	   "prefix":"#req_targnopath4",
+	   "body":[
+			  "#req_targnopath4"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_targnotally": {
+	   "prefix":"#req_targnotally",
+	   "body":[
+			  "#req_targnotally"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_targnotowner": {
+	   "prefix":"#req_targnotowner",
+	   "body":[
+			  "#req_targnotowner"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_targorder": {
+	   "prefix":"#req_targorder",
+	   "body":[
+			  "#req_targorder"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_targowner": {
+	   "prefix":"#req_targowner",
+	   "body":[
+			  "#req_targowner"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_targpath1": {
+	   "prefix":"#req_targpath1",
+	   "body":[
+			  "#req_targpath1"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_targpath2": {
+	   "prefix":"#req_targpath2",
+	   "body":[
+			  "#req_targpath2"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_targpath3": {
+	   "prefix":"#req_targpath3",
+	   "body":[
+			  "#req_targpath3"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_targpath4": {
+	   "prefix":"#req_targpath4",
+	   "body":[
+			  "#req_targpath4"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_targprophet": {
+	   "prefix":"#req_targprophet",
+	   "body":[
+			  "#req_targprophet"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_targundead": {
+	   "prefix":"#req_targundead",
+	   "body":[
+			  "#req_targundead"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"reqtaskmaster": {
+	   "prefix":"#reqtaskmaster",
+	   "body":[
+			  "#reqtaskmaster"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"reqtemple": {
+	   "prefix":"#reqtemple",
+	   "body":[
+			  "#reqtemple"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_temple": {
+	   "prefix":"#req_temple",
+	   "body":[
+			  "#req_temple"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_turn": {
+	   "prefix":"#req_turn",
+	   "body":[
+			  "#req_turn"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_unclaimedthrone": {
+	   "prefix":"#req_unclaimedthrone",
+	   "body":[
+			  "#req_unclaimedthrone"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_unique": {
+	   "prefix":"#req_unique",
+	   "body":[
+			  "#req_unique"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_unluck": {
+	   "prefix":"#req_unluck",
+	   "body":[
+			  "#req_unluck"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_unmagic": {
+	   "prefix":"#req_unmagic",
+	   "body":[
+			  "#req_unmagic"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_waste": {
+	   "prefix":"#req_waste",
+	   "body":[
+			  "#req_waste"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"res": {
+	   "prefix":"#res",
+	   "body":[
+			  "#res"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"researchaff": {
+	   "prefix":"#researchaff",
+	   "body":[
+			  "#researchaff"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"researchbonus": {
+	   "prefix":"#researchbonus",
+	   "body":[
+			  "#researchbonus"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"researchlevel": {
+	   "prefix":"#researchlevel",
+	   "body":[
+			  "#researchlevel"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"researchscale": {
+	   "prefix":"#researchscale",
+	   "body":[
+			  "#researchscale"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"resetcode": {
+	   "prefix":"#resetcode",
+	   "body":[
+			  "#resetcode"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"resetcodedelay": {
+	   "prefix":"#resetcodedelay",
+	   "body":[
+			  "#resetcodedelay"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"resetcodedelay2": {
+	   "prefix":"#resetcodedelay2",
+	   "body":[
+			  "#resetcodedelay2"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"resolvearena1": {
+	   "prefix":"#resolvearena1",
+	   "body":[
+			  "#resolvearena1"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"resolvearena2": {
+	   "prefix":"#resolvearena2",
+	   "body":[
+			  "#resolvearena2"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"resourcemult": {
+	   "prefix":"#resourcemult",
+	   "body":[
+			  "#resourcemult"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"resources": {
+	   "prefix":"#resources",
+	   "body":[
+			  "#resources"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"ressize": {
+	   "prefix":"#ressize",
+	   "body":[
+			  "#ressize"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"restricted": {
+	   "prefix":"#restricted",
+	   "body":[
+			  "#restricted"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"restricteditem": {
+	   "prefix":"#restricteditem",
+	   "body":[
+			  "#restricteditem"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"revealprov": {
+	   "prefix":"#revealprov",
+	   "body":[
+			  "#revealprov"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"revealsite": {
+	   "prefix":"#revealsite",
+	   "body":[
+			  "#revealsite"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"revolt": {
+	   "prefix":"#revolt",
+	   "body":[
+			  "#revolt"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"riverstart": {
+	   "prefix":"#riverstart",
+	   "body":[
+			  "#riverstart"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"rockcol": {
+	   "prefix":"#rockcol",
+	   "body":[
+			  "#rockcol"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"rpcost": {
+	   "prefix":"#rpcost",
+	   "body":[
+			  "#rpcost"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"run": {
+	   "prefix":"#run",
+	   "body":[
+			  "#run"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"sacredonly": {
+	   "prefix":"#sacredonly",
+	   "body":[
+			  "#sacredonly"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"sacrificedom": {
+	   "prefix":"#sacrificedom",
+	   "body":[
+			  "#sacrificedom"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"saildist": {
+	   "prefix":"#saildist",
+	   "body":[
+			  "#saildist"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"sailing": {
+	   "prefix":"#sailing",
+	   "body":[
+			  "#sailing"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"sample": {
+	   "prefix":"#sample",
+	   "body":[
+			  "#sample"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"scale_chaos": {
+	   "prefix":"#scale_chaos",
+	   "body":[
+			  "#scale_chaos"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"scale_cold": {
+	   "prefix":"#scale_cold",
+	   "body":[
+			  "#scale_cold"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"scale_death": {
+	   "prefix":"#scale_death",
+	   "body":[
+			  "#scale_death"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"scale_lazy": {
+	   "prefix":"#scale_lazy",
+	   "body":[
+			  "#scale_lazy"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"scale_unluck": {
+	   "prefix":"#scale_unluck",
+	   "body":[
+			  "#scale_unluck"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"scale_unmagic": {
+	   "prefix":"#scale_unmagic",
+	   "body":[
+			  "#scale_unmagic"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"scalewalls": {
+	   "prefix":"#scalewalls",
+	   "body":[
+			  "#scalewalls"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"scenario": {
+	   "prefix":"#scenario",
+	   "body":[
+			  "#scenario"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"school": {
+	   "prefix":"#school",
+	   "body":[
+			  "#school"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"scry": {
+	   "prefix":"#scry",
+	   "body":[
+			  "#scry"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"scryrange": {
+	   "prefix":"#scryrange",
+	   "body":[
+			  "#scryrange"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"secondarycolor": {
+	   "prefix":"#secondarycolor",
+	   "body":[
+			  "#secondarycolor"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"secondaryeffect": {
+	   "prefix":"#secondaryeffect",
+	   "body":[
+			  "#secondaryeffect"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"secondaryeffectalways": {
+	   "prefix":"#secondaryeffectalways",
+	   "body":[
+			  "#secondaryeffectalways"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"secondarylevel": {
+	   "prefix":"#secondarylevel",
+	   "body":[
+			  "#secondarylevel"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"secondarypath": {
+	   "prefix":"#secondarypath",
+	   "body":[
+			  "#secondarypath"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"secondshape": {
+	   "prefix":"#secondshape",
+	   "body":[
+			  "#secondshape"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"secondtmpshape": {
+	   "prefix":"#secondtmpshape",
+	   "body":[
+			  "#secondtmpshape"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"seduce": {
+	   "prefix":"#seduce",
+	   "body":[
+			  "#seduce"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"sethome": {
+	   "prefix":"#sethome",
+	   "body":[
+			  "#sethome"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"setland": {
+	   "prefix":"#setland",
+	   "body":[
+			  "#setland"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"shapechange": {
+	   "prefix":"#shapechange",
+	   "body":[
+			  "#shapechange"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"shatteredsoul": {
+	   "prefix":"#shatteredsoul",
+	   "body":[
+			  "#shatteredsoul"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"shock": {
+	   "prefix":"#shock",
+	   "body":[
+			  "#shock"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"shockres": {
+	   "prefix":"#shockres",
+	   "body":[
+			  "#shockres"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"shrinkhp": {
+	   "prefix":"#shrinkhp",
+	   "body":[
+			  "#shrinkhp"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"siegebonus": {
+	   "prefix":"#siegebonus",
+	   "body":[
+			  "#siegebonus"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"singlebattle": {
+	   "prefix":"#singlebattle",
+	   "body":[
+			  "#singlebattle"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"size": {
+	   "prefix":"#size",
+	   "body":[
+			  "#size"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"sizeresist": {
+	   "prefix":"#sizeresist",
+	   "body":[
+			  "#sizeresist"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"skip": {
+	   "prefix":"#skip",
+	   "body":[
+			  "#skip"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"skip2": {
+	   "prefix":"#skip2",
+	   "body":[
+			  "#skip2"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"skirmisher": {
+	   "prefix":"#skirmisher",
+	   "body":[
+			  "#skirmisher"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"skybox": {
+	   "prefix":"#skybox",
+	   "body":[
+			  "#skybox"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"slash": {
+	   "prefix":"#slash",
+	   "body":[
+			  "#slash"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"slashres": {
+	   "prefix":"#slashres",
+	   "body":[
+			  "#slashres"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"slave": {
+	   "prefix":"#slave",
+	   "body":[
+			  "#slave"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"sleepaura": {
+	   "prefix":"#sleepaura",
+	   "body":[
+			  "#sleepaura"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"slimer": {
+	   "prefix":"#slimer",
+	   "body":[
+			  "#slimer"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"slothincome": {
+	   "prefix":"#slothincome",
+	   "body":[
+			  "#slothincome"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"slothpower": {
+	   "prefix":"#slothpower",
+	   "body":[
+			  "#slothpower"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"slothresearch": {
+	   "prefix":"#slothresearch",
+	   "body":[
+			  "#slothresearch"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"slothresources": {
+	   "prefix":"#slothresources",
+	   "body":[
+			  "#slothresources"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"slotresources": {
+	   "prefix":"#slotresources",
+	   "body":[
+			  "#slotresources"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"slowrec": {
+	   "prefix":"#slowrec",
+	   "body":[
+			  "#slowrec"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"snake": {
+	   "prefix":"#snake",
+	   "body":[
+			  "#snake"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"snaketattoo": {
+	   "prefix":"#snaketattoo",
+	   "body":[
+			  "#snaketattoo"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"sneakunit": {
+	   "prefix":"#sneakunit",
+	   "body":[
+			  "#sneakunit"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"snow": {
+	   "prefix":"#snow",
+	   "body":[
+			  "#snow"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"sorceryrange": {
+	   "prefix":"#sorceryrange",
+	   "body":[
+			  "#sorceryrange"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"sound": {
+	   "prefix":"#sound",
+	   "body":[
+			  "#sound"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"spec": {
+	   "prefix":"#spec",
+	   "body":[
+			  "#spec"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"speciallook": {
+	   "prefix":"#speciallook",
+	   "body":[
+			  "#speciallook"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"specstart": {
+	   "prefix":"#specstart",
+	   "body":[
+			  "#specstart"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"spell": {
+	   "prefix":"#spell",
+	   "body":[
+			  "#spell"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"spellreqfly": {
+	   "prefix":"#spellreqfly",
+	   "body":[
+			  "#spellreqfly"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"spellsinger": {
+	   "prefix":"#spellsinger",
+	   "body":[
+			  "#spellsinger"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"spiritsight": {
+	   "prefix":"#spiritsight",
+	   "body":[
+			  "#spiritsight"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"spr": {
+	   "prefix":"#spr",
+	   "body":[
+			  "#spr"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"spr1": {
+	   "prefix":"#spr1",
+	   "body":[
+			  "#spr1"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"spr2": {
+	   "prefix":"#spr2",
+	   "body":[
+			  "#spr2"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"spreadchaos": {
+	   "prefix":"#spreadchaos",
+	   "body":[
+			  "#spreadchaos"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"spreadcold": {
+	   "prefix":"#spreadcold",
+	   "body":[
+			  "#spreadcold"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"spreaddeath": {
+	   "prefix":"#spreaddeath",
+	   "body":[
+			  "#spreaddeath"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"spreaddeath#domkill": {
+	   "prefix":"#spreaddeath#domkill",
+	   "body":[
+			  "#spreaddeath#domkill"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"spreaddom": {
+	   "prefix":"#spreaddom",
+	   "body":[
+			  "#spreaddom"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"spreadheat": {
+	   "prefix":"#spreadheat",
+	   "body":[
+			  "#spreadheat"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"spreadlazy": {
+	   "prefix":"#spreadlazy",
+	   "body":[
+			  "#spreadlazy"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"springimmortal": {
+	   "prefix":"#springimmortal",
+	   "body":[
+			  "#springimmortal"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"springpower": {
+	   "prefix":"#springpower",
+	   "body":[
+			  "#springpower"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"springshape": {
+	   "prefix":"#springshape",
+	   "body":[
+			  "#springshape"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"spy": {
+	   "prefix":"#spy",
+	   "body":[
+			  "#spy"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"standard": {
+	   "prefix":"#standard",
+	   "body":[
+			  "#standard"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"start": {
+	   "prefix":"#start",
+	   "body":[
+			  "#start"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"startaff": {
+	   "prefix":"#startaff",
+	   "body":[
+			  "#startaff"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"startage": {
+	   "prefix":"#startage",
+	   "body":[
+			  "#startage"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"startcom": {
+	   "prefix":"#startcom",
+	   "body":[
+			  "#startcom"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"startdom": {
+	   "prefix":"#startdom",
+	   "body":[
+			  "#startdom"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"startheroab": {
+	   "prefix":"#startheroab",
+	   "body":[
+			  "#startheroab"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"startingaff": {
+	   "prefix":"#startingaff",
+	   "body":[
+			  "#startingaff"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"startitem": {
+	   "prefix":"#startitem",
+	   "body":[
+			  "#startitem"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"startmajoraff": {
+	   "prefix":"#startmajoraff",
+	   "body":[
+			  "#startmajoraff"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"startscout": {
+	   "prefix":"#startscout",
+	   "body":[
+			  "#startscout"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"startsite": {
+	   "prefix":"#startsite",
+	   "body":[
+			  "#startsite"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"startunitnbrs1": {
+	   "prefix":"#startunitnbrs1",
+	   "body":[
+			  "#startunitnbrs1"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"startunitnbrs2": {
+	   "prefix":"#startunitnbrs2",
+	   "body":[
+			  "#startunitnbrs2"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"startunittype1": {
+	   "prefix":"#startunittype1",
+	   "body":[
+			  "#startunittype1"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"startunittype2": {
+	   "prefix":"#startunittype2",
+	   "body":[
+			  "#startunittype2"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"stealthboost": {
+	   "prefix":"#stealthboost",
+	   "body":[
+			  "#stealthboost"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"stealthcom": {
+	   "prefix":"#stealthcom",
+	   "body":[
+			  "#stealthcom"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"stealthy": {
+	   "prefix":"#stealthy",
+	   "body":[
+			  "#stealthy"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"stonebeing": {
+	   "prefix":"#stonebeing",
+	   "body":[
+			  "#stonebeing"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"stoneskin": {
+	   "prefix":"#stoneskin",
+	   "body":[
+			  "#stoneskin"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"stormimmune": {
+	   "prefix":"#stormimmune",
+	   "body":[
+			  "#stormimmune"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"stormpower": {
+	   "prefix":"#stormpower",
+	   "body":[
+			  "#stormpower"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"str": {
+	   "prefix":"#str",
+	   "body":[
+			  "#str"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"strikeunits": {
+	   "prefix":"#strikeunits",
+	   "body":[
+			  "#strikeunits"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"succubus": {
+	   "prefix":"#succubus",
+	   "body":[
+			  "#succubus"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"summary": {
+	   "prefix":"#summary",
+	   "body":[
+			  "#summary"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"summerpower": {
+	   "prefix":"#summerpower",
+	   "body":[
+			  "#summerpower"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"summershape": {
+	   "prefix":"#summershape",
+	   "body":[
+			  "#summershape"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"summon": {
+	   "prefix":"#summon",
+	   "body":[
+			  "#summon"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"summon1": {
+	   "prefix":"#summon1",
+	   "body":[
+			  "#summon1"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"summon2": {
+	   "prefix":"#summon2",
+	   "body":[
+			  "#summon2"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"summon3": {
+	   "prefix":"#summon3",
+	   "body":[
+			  "#summon3"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"summon4": {
+	   "prefix":"#summon4",
+	   "body":[
+			  "#summon4"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"summon5": {
+	   "prefix":"#summon5",
+	   "body":[
+			  "#summon5"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"summonlvl2": {
+	   "prefix":"#summonlvl2",
+	   "body":[
+			  "#summonlvl2"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"summonlvl3": {
+	   "prefix":"#summonlvl3",
+	   "body":[
+			  "#summonlvl3"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"summonlvl4": {
+	   "prefix":"#summonlvl4",
+	   "body":[
+			  "#summonlvl4"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"sunawe": {
+	   "prefix":"#sunawe",
+	   "body":[
+			  "#sunawe"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"supayareanim": {
+	   "prefix":"#supayareanim",
+	   "body":[
+			  "#supayareanim"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"superiorleader": {
+	   "prefix":"#superiorleader",
+	   "body":[
+			  "#superiorleader"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"superiormagicleader": {
+	   "prefix":"#superiormagicleader",
+	   "body":[
+			  "#superiormagicleader"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"superiorundeadleader": {
+	   "prefix":"#superiorundeadleader",
+	   "body":[
+			  "#superiorundeadleader"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"supply": {
+	   "prefix":"#supply",
+	   "body":[
+			  "#supply"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"supplybonus": {
+	   "prefix":"#supplybonus",
+	   "body":[
+			  "#supplybonus"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"supplymult": {
+	   "prefix":"#supplymult",
+	   "body":[
+			  "#supplymult"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"swampcom": {
+	   "prefix":"#swampcom",
+	   "body":[
+			  "#swampcom"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"swamprec": {
+	   "prefix":"#swamprec",
+	   "body":[
+			  "#swamprec"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"swampsurvival": {
+	   "prefix":"#swampsurvival",
+	   "body":[
+			  "#swampsurvival"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"swift": {
+	   "prefix":"#swift",
+	   "body":[
+			  "#swift"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"swimming": {
+	   "prefix":"#swimming",
+	   "body":[
+			  "#swimming"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"syncretism": {
+	   "prefix":"#syncretism",
+	   "body":[
+			  "#syncretism"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"tainted": {
+	   "prefix":"#tainted",
+	   "body":[
+			  "#tainted"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"taskmaster": {
+	   "prefix":"#taskmaster",
+	   "body":[
+			  "#taskmaster"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"taxboost": {
+	   "prefix":"#taxboost",
+	   "body":[
+			  "#taxboost"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"taxcollector": {
+	   "prefix":"#taxcollector",
+	   "body":[
+			  "#taxcollector"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"teleport": {
+	   "prefix":"#teleport",
+	   "body":[
+			  "#teleport"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"temple": {
+	   "prefix":"#temple",
+	   "body":[
+			  "#temple"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"templecost": {
+	   "prefix":"#templecost",
+	   "body":[
+			  "#templecost"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"templegems": {
+	   "prefix":"#templegems",
+	   "body":[
+			  "#templegems"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"templepic": {
+	   "prefix":"#templepic",
+	   "body":[
+			  "#templepic"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"templetrainer": {
+	   "prefix":"#templetrainer",
+	   "body":[
+			  "#templetrainer"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"tempscalecap": {
+	   "prefix":"#tempscalecap",
+	   "body":[
+			  "#tempscalecap"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"tempunits": {
+	   "prefix":"#tempunits",
+	   "body":[
+			  "#tempunits"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"terrain": {
+	   "prefix":"#terrain",
+	   "body":[
+			  "#terrain"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"thaucost": {
+	   "prefix":"#thaucost",
+	   "body":[
+			  "#thaucost"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"thronekill": {
+	   "prefix":"#thronekill",
+	   "body":[
+			  "#thronekill"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"tmpairgems": {
+	   "prefix":"#tmpairgems",
+	   "body":[
+			  "#tmpairgems"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"tmpastralgems": {
+	   "prefix":"#tmpastralgems",
+	   "body":[
+			  "#tmpastralgems"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"tmpbloodslaves": {
+	   "prefix":"#tmpbloodslaves",
+	   "body":[
+			  "#tmpbloodslaves"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"tmpdeathgems": {
+	   "prefix":"#tmpdeathgems",
+	   "body":[
+			  "#tmpdeathgems"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"tmpearthgems": {
+	   "prefix":"#tmpearthgems",
+	   "body":[
+			  "#tmpearthgems"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"tmpfiregems": {
+	   "prefix":"#tmpfiregems",
+	   "body":[
+			  "#tmpfiregems"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"tmpnaturegems": {
+	   "prefix":"#tmpnaturegems",
+	   "body":[
+			  "#tmpnaturegems"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"tmpwatergems": {
+	   "prefix":"#tmpwatergems",
+	   "body":[
+			  "#tmpwatergems"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"tombwyrmreanim": {
+	   "prefix":"#tombwyrmreanim",
+	   "body":[
+			  "#tombwyrmreanim"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"tradecoast": {
+	   "prefix":"#tradecoast",
+	   "body":[
+			  "#tradecoast"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"trample": {
+	   "prefix":"#trample",
+	   "body":[
+			  "#trample"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"trampswallow": {
+	   "prefix":"#trampswallow",
+	   "body":[
+			  "#trampswallow"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"transform": {
+	   "prefix":"#transform",
+	   "body":[
+			  "#transform"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"transformation": {
+	   "prefix":"#transformation",
+	   "body":[
+			  "#transformation"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"triple3mon": {
+	   "prefix":"#triple3mon",
+	   "body":[
+			  "#triple3mon"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"triplegod": {
+	   "prefix":"#triplegod",
+	   "body":[
+			  "#triplegod"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"triplegodmag": {
+	   "prefix":"#triplegodmag",
+	   "body":[
+			  "#triplegodmag"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"troglodyte": {
+	   "prefix":"#troglodyte",
+	   "body":[
+			  "#troglodyte"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"turmoilevents": {
+	   "prefix":"#turmoilevents",
+	   "body":[
+			  "#turmoilevents"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"turmoilincome": {
+	   "prefix":"#turmoilincome",
+	   "body":[
+			  "#turmoilincome"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"twiceborn": {
+	   "prefix":"#twiceborn",
+	   "body":[
+			  "#twiceborn"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"twohanded": {
+	   "prefix":"#twohanded",
+	   "body":[
+			  "#twohanded"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"type": {
+	   "prefix":"#type",
+	   "body":[
+			  "#type"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"undcommand": {
+	   "prefix":"#undcommand",
+	   "body":[
+			  "#undcommand"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"undead": {
+	   "prefix":"#undead",
+	   "body":[
+			  "#undead"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"undeadimmune": {
+	   "prefix":"#undeadimmune",
+	   "body":[
+			  "#undeadimmune"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"undeadonly": {
+	   "prefix":"#undeadonly",
+	   "body":[
+			  "#undeadonly"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"undeadreanim": {
+	   "prefix":"#undeadreanim",
+	   "body":[
+			  "#undeadreanim"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"undisciplined": {
+	   "prefix":"#undisciplined",
+	   "body":[
+			  "#undisciplined"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"undregen": {
+	   "prefix":"#undregen",
+	   "body":[
+			  "#undregen"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"unify": {
+	   "prefix":"#unify",
+	   "body":[
+			  "#unify"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"unique": {
+	   "prefix":"#unique",
+	   "body":[
+			  "#unique"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"unit": {
+	   "prefix":"#unit",
+	   "body":[
+			  "#unit"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"units": {
+	   "prefix":"#units",
+	   "body":[
+			  "#units"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"unrepel": {
+	   "prefix":"#unrepel",
+	   "body":[
+			  "#unrepel"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"unrest": {
+	   "prefix":"#unrest",
+	   "body":[
+			  "#unrest"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"unresthalf": {
+	   "prefix":"#unresthalf",
+	   "body":[
+			  "#unresthalf"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"unresthalfinc": {
+	   "prefix":"#unresthalfinc",
+	   "body":[
+			  "#unresthalfinc"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"unresthalfres": {
+	   "prefix":"#unresthalfres",
+	   "body":[
+			  "#unresthalfres"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"unsurr": {
+	   "prefix":"#unsurr",
+	   "body":[
+			  "#unsurr"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"unteleportable": {
+	   "prefix":"#unteleportable",
+	   "body":[
+			  "#unteleportable"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"userestricted": {
+	   "prefix":"#userestricted",
+	   "body":[
+			  "#userestricted"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"userestricteditem": {
+	   "prefix":"#userestricteditem",
+	   "body":[
+			  "#userestricteditem"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"uwbug": {
+	   "prefix":"#uwbug",
+	   "body":[
+			  "#uwbug"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"uwbuild": {
+	   "prefix":"#uwbuild",
+	   "body":[
+			  "#uwbuild"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"uwcom": {
+	   "prefix":"#uwcom",
+	   "body":[
+			  "#uwcom"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"uwcom1": {
+	   "prefix":"#uwcom1",
+	   "body":[
+			  "#uwcom1"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"uwcom2": {
+	   "prefix":"#uwcom2",
+	   "body":[
+			  "#uwcom2"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"uwcom3": {
+	   "prefix":"#uwcom3",
+	   "body":[
+			  "#uwcom3"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"uwcom4": {
+	   "prefix":"#uwcom4",
+	   "body":[
+			  "#uwcom4"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"uwcom5": {
+	   "prefix":"#uwcom5",
+	   "body":[
+			  "#uwcom5"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"uwdamage": {
+	   "prefix":"#uwdamage",
+	   "body":[
+			  "#uwdamage"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"uwfireshield": {
+	   "prefix":"#uwfireshield",
+	   "body":[
+			  "#uwfireshield"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"uwheat": {
+	   "prefix":"#uwheat",
+	   "body":[
+			  "#uwheat"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"uwnation": {
+	   "prefix":"#uwnation",
+	   "body":[
+			  "#uwnation"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"uwok": {
+	   "prefix":"#uwok",
+	   "body":[
+			  "#uwok"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"uwrec": {
+	   "prefix":"#uwrec",
+	   "body":[
+			  "#uwrec"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"uwregen": {
+	   "prefix":"#uwregen",
+	   "body":[
+			  "#uwregen"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"uwunit1": {
+	   "prefix":"#uwunit1",
+	   "body":[
+			  "#uwunit1"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"uwunit2": {
+	   "prefix":"#uwunit2",
+	   "body":[
+			  "#uwunit2"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"uwunit3": {
+	   "prefix":"#uwunit3",
+	   "body":[
+			  "#uwunit3"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"uwunit4": {
+	   "prefix":"#uwunit4",
+	   "body":[
+			  "#uwunit4"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"uwunit5": {
+	   "prefix":"#uwunit5",
+	   "body":[
+			  "#uwunit5"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"uwwallcom": {
+	   "prefix":"#uwwallcom",
+	   "body":[
+			  "#uwwallcom"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"uwwallmult": {
+	   "prefix":"#uwwallmult",
+	   "body":[
+			  "#uwwallmult"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"uwwallunit": {
+	   "prefix":"#uwwallunit",
+	   "body":[
+			  "#uwwallunit"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"version": {
+	   "prefix":"#version",
+	   "body":[
+			  "#version"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"victorycondition": {
+	   "prefix":"#victorycondition",
+	   "body":[
+			  "#victorycondition"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"victorypoints": {
+	   "prefix":"#victorypoints",
+	   "body":[
+			  "#victorypoints"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"visitors": {
+	   "prefix":"#visitors",
+	   "body":[
+			  "#visitors"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"voidgate": {
+	   "prefix":"#voidgate",
+	   "body":[
+			  "#voidgate"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"voidret": {
+	   "prefix":"#voidret",
+	   "body":[
+			  "#voidret"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"voidsanity": {
+	   "prefix":"#voidsanity",
+	   "body":[
+			  "#voidsanity"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"walkable": {
+	   "prefix":"#walkable",
+	   "body":[
+			  "#walkable"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"wallcom": {
+	   "prefix":"#wallcom",
+	   "body":[
+			  "#wallcom"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"wallmult": {
+	   "prefix":"#wallmult",
+	   "body":[
+			  "#wallmult"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"wallunit": {
+	   "prefix":"#wallunit",
+	   "body":[
+			  "#wallunit"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"warning": {
+	   "prefix":"#warning",
+	   "body":[
+			  "#warning"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"wastecom": {
+	   "prefix":"#wastecom",
+	   "body":[
+			  "#wastecom"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"wasterec": {
+	   "prefix":"#wasterec",
+	   "body":[
+			  "#wasterec"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"wastesurvival": {
+	   "prefix":"#wastesurvival",
+	   "body":[
+			  "#wastesurvival"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"waterattuned": {
+	   "prefix":"#waterattuned",
+	   "body":[
+			  "#waterattuned"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"waterblessbonus": {
+	   "prefix":"#waterblessbonus",
+	   "body":[
+			  "#waterblessbonus"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"waterboost": {
+	   "prefix":"#waterboost",
+	   "body":[
+			  "#waterboost"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"waterbreathing": {
+	   "prefix":"#waterbreathing",
+	   "body":[
+			  "#waterbreathing"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"waterrange": {
+	   "prefix":"#waterrange",
+	   "body":[
+			  "#waterrange"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"watershape": {
+	   "prefix":"#watershape",
+	   "body":[
+			  "#watershape"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"weapon": {
+	   "prefix":"#weapon",
+	   "body":[
+			  "#weapon"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"wightreanim": {
+	   "prefix":"#wightreanim",
+	   "body":[
+			  "#wightreanim"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"wild": {
+	   "prefix":"#wild",
+	   "body":[
+			  "#wild"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"winterpower": {
+	   "prefix":"#winterpower",
+	   "body":[
+			  "#winterpower"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"wintershape": {
+	   "prefix":"#wintershape",
+	   "body":[
+			  "#wintershape"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"wolftattoo": {
+	   "prefix":"#wolftattoo",
+	   "body":[
+			  "#wolftattoo"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"woodenarmor": {
+	   "prefix":"#woodenarmor",
+	   "body":[
+			  "#woodenarmor"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"woodenweapon": {
+	   "prefix":"#woodenweapon",
+	   "body":[
+			  "#woodenweapon"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"worldage": {
+	   "prefix":"#worldage",
+	   "body":[
+			  "#worldage"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"worldcurse": {
+	   "prefix":"#worldcurse",
+	   "body":[
+			  "#worldcurse"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"worlddarkness": {
+	   "prefix":"#worlddarkness",
+	   "body":[
+			  "#worlddarkness"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"worlddecscale": {
+	   "prefix":"#worlddecscale",
+	   "body":[
+			  "#worlddecscale"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"worlddecscale2": {
+	   "prefix":"#worlddecscale2",
+	   "body":[
+			  "#worlddecscale2"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"worlddecscale3": {
+	   "prefix":"#worlddecscale3",
+	   "body":[
+			  "#worlddecscale3"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"worlddisease": {
+	   "prefix":"#worlddisease",
+	   "body":[
+			  "#worlddisease"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"worldheal": {
+	   "prefix":"#worldheal",
+	   "body":[
+			  "#worldheal"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"worldincdom": {
+	   "prefix":"#worldincdom",
+	   "body":[
+			  "#worldincdom"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"worldincscale": {
+	   "prefix":"#worldincscale",
+	   "body":[
+			  "#worldincscale"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"worldincscale2": {
+	   "prefix":"#worldincscale2",
+	   "body":[
+			  "#worldincscale2"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"worldincscale3": {
+	   "prefix":"#worldincscale3",
+	   "body":[
+			  "#worldincscale3"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"worldmark": {
+	   "prefix":"#worldmark",
+	   "body":[
+			  "#worldmark"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"worldritrebate": {
+	   "prefix":"#worldritrebate",
+	   "body":[
+			  "#worldritrebate"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"worldunrest": {
+	   "prefix":"#worldunrest",
+	   "body":[
+			  "#worldunrest"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"woundfend": {
+	   "prefix":"#woundfend",
+	   "body":[
+			  "#woundfend"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"xp": {
+	   "prefix":"#xp",
+	   "body":[
+			  "#xp"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"xploss": {
+	   "prefix":"#xploss",
+	   "body":[
+			  "#xploss"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"xpshape": {
+	   "prefix":"#xpshape",
+	   "body":[
+			  "#xpshape"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"yearaging": {
+	   "prefix":"#yearaging",
+	   "body":[
+			  "#yearaging"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"yearturn": {
+	   "prefix":"#yearturn",
+	   "body":[
+			  "#yearturn"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"zombiereanim": {
+	   "prefix":"#zombiereanim",
+	   "body":[
+			  "#zombiereanim"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"defchaos": {
+	   "prefix":"#defchaos",
+	   "body":[
+			  "#defchaos"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"defsloth": {
+	   "prefix":"#defsloth",
+	   "body":[
+			  "#defsloth"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"defdeath": {
+	   "prefix":"#defdeath",
+	   "body":[
+			  "#defdeath"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"defmisfortune": {
+	   "prefix":"#defmisfortune",
+	   "body":[
+			  "#defmisfortune"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"defdrain": {
+	   "prefix":"#defdrain",
+	   "body":[
+			  "#defdrain"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"badindpd": {
+	   "prefix":"#badindpd",
+	   "body":[
+			  "#badindpd"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"coastrec": {
+	   "prefix":"#coastrec",
+	   "body":[
+			  "#coastrec"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"coastcom": {
+	   "prefix":"#coastcom",
+	   "body":[
+			  "#coastcom"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"nat": {
+	   "prefix":"#nat",
+	   "body":[
+			  "#nat"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"natcom": {
+	   "prefix":"#natcom",
+	   "body":[
+			  "#natcom"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"natmon": {
+	   "prefix":"#natmon",
+	   "body":[
+			  "#natmon"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"domshape": {
+	   "prefix":"#domshape",
+	   "body":[
+			  "#domshape"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"notdomshape": {
+	   "prefix":"#notdomshape",
+	   "body":[
+			  "#notdomshape"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"dompower": {
+	   "prefix":"#dompower",
+	   "body":[
+			  "#dompower"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"slaver": {
+	   "prefix":"#slaver",
+	   "body":[
+			  "#slaver"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"slaverbonus": {
+	   "prefix":"#slaverbonus",
+	   "body":[
+			  "#slaverbonus"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"deathpower": {
+	   "prefix":"#deathpower",
+	   "body":[
+			  "#deathpower"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_arenadone": {
+	   "prefix":"#req_arenadone",
+	   "body":[
+			  "#req_arenadone"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_godismnr": {
+	   "prefix":"#req_godismnr",
+	   "body":[
+			  "#req_godismnr"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"drawsize": {
+	   "prefix":"#drawsize",
+	   "body":[
+			  "#drawsize"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"itemdrawsize": {
+	   "prefix":"#itemdrawsize",
+	   "body":[
+			  "#itemdrawsize"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"reqplant": {
+	   "prefix":"#reqplant",
+	   "body":[
+			  "#reqplant"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"reqnoplant": {
+	   "prefix":"#reqnoplant",
+	   "body":[
+			  "#reqnoplant"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"futuresite": {
+	   "prefix":"#futuresite",
+	   "body":[
+			  "#futuresite"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"saltvul": {
+	   "prefix":"#saltvul",
+	   "body":[
+			  "#saltvul"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_worlditem": {
+	   "prefix":"#req_worlditem",
+	   "body":[
+			  "#req_worlditem"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_noworlditem": {
+	   "prefix":"#req_noworlditem",
+	   "body":[
+			  "#req_noworlditem"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"maxprison": {
+	   "prefix":"#maxprison",
+	   "body":[
+			  "#maxprison"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"enchrebate10": {
+	   "prefix":"#enchrebate10",
+	   "body":[
+			  "#enchrebate10"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"enchrebate20": {
+	   "prefix":"#enchrebate20",
+	   "body":[
+			  "#enchrebate20"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"montagweight": {
+	   "prefix":"#montagweight",
+	   "body":[
+			  "#montagweight"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"appetite": {
+	   "prefix":"#appetite",
+	   "body":[
+			  "#appetite"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"shapechance": {
+	   "prefix":"#shapechance",
+	   "body":[
+			  "#shapechance"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_godisnotmnr": {
+	   "prefix":"#req_godisnotmnr",
+	   "body":[
+			  "#req_godisnotmnr"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_mincorpses": {
+	   "prefix":"#req_mincorpses",
+	   "body":[
+			  "#req_mincorpses"
+		 ],
+	   "description":""
+	  }
+  
+  
+  ,
+  
+	"req_maxcorpses": {
+	   "prefix":"#req_maxcorpses",
+	   "body":[
+			  "#req_maxcorpses"
+		 ],
+	   "description":""
+	  }
+  
+  
+  
+  }
