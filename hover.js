@@ -10,6 +10,34 @@ function activate(context) {
             const range = document.getWordRangeAtPosition(position);
             const word = document.getText(range);
 
+            console.log('Hovered word:', word);
+/*
+            if (word === 'tableExample') {
+                const markdown = new vscode.MarkdownString(` Blah Blah Blah here.
+|Table|Header|
+|:----:|:----:|
+|0|Fire|
+|1|Air|
+|2|Water|
+|3|Earth|
+|4|Astral|
+|5|Death|
+|6|Nature|
+|7|Blood|
+|8|Priest|
+|50|Random|
+|51|Elemental|
+|52|Sorcery|
+|53|All (not priest)|
+`);
+
+        markdown.isTrusted = true;
+
+        return new vscode.Hover(markdown);
+    }
+*/
+
+
             if (word == "newarmor") {
                 return new vscode.Hover({
                     language: "English",
@@ -1944,12 +1972,25 @@ function activate(context) {
                 });
             }
             
-            if (word == "custommagic") {
-                return new vscode.Hover({
-                    language: "English",
-                    value: "Gives a chance for another magic skill to the active monster. The path mask must be a number from Table 18 or a sum of multiple masks from this table."
-                });
-            }
+            if (word === 'custommagic') {
+                const markdown = new vscode.MarkdownString(`Gives a chance for another magic skill to the active monster. The path mask must be a number from Table 18 or a sum of multiple masks from this table.
+|Number|Path|
+|:----:|:----:|
+|128|Fire|
+|256|Air|
+|512|Water|
+|1024|Earth|
+|2048|Astral|
+|4096|Death|
+|8192|Nature|
+|16384|Blood|
+|32768|Priest|
+`);
+
+        markdown.isTrusted = true;
+
+        return new vscode.Hover(markdown);
+    }
             
             if (word == "damage") {
                 return new vscode.Hover({
@@ -2587,13 +2628,51 @@ function activate(context) {
                     value: "The value indicates how many percent larger size the sprite should be drawn at. A negative value means it will be draw at a smaller size than normal."
                 });
             }
-            
-            if (word == "dt_aff") {
-                return new vscode.Hover({
-                    language: "English",
-                    value: "Sets the damage type of the weapon to a special effect or affliction. The specific affliction the weapon inflicts is set with the #dmg command so the weapons damage value is interpreted as a bitmask value according to the (affliction table)(#afflictions). The table uses bitmask values meaning powers of 2. The numbers are expressed as powers of 2 because numbers after about 2|20 get very big very quickly."
-                });
-            }
+
+            if (word === 'dt_aff') {
+                const markdown = new vscode.MarkdownString(` Sets the damage type of the weapon to a special effect or affliction. The specific affliction the weapon inflicts is set with the #dmg command so the weapons damage value is interpreted as a bitmask value according to the (affliction table)(#afflictions). The table uses bitmask values meaning powers of 2. The numbers are expressed as powers of 2 because numbers after about 2^20 get very big very quickly.
+|2^x|Affliction|
+|:----:|:----:|
+|0|disease|
+|1|curse|
+|3|plauge|
+|5|curse of stones|
+|6|entangle|
+|7|rage|
+|8|decay|
+|9|burn|
+|10|asleep|
+|11|rusty armor|
+|12|blind|
+|13|blodd|
+|14|earth grip|
+|16|fire bonds|
+|17|false fetters|
+|18|limp|
+|19|lost eye|
+|20|weakness|
+|21|battle fright|
+|22|mute|
+|23|chest wound|
+|24|crippled|
+|25|feeble minded|
+|26|never healing wound|
+|27|slime|
+|28|frozen|
+|29|webbed|
+|30|arm loss|
+|32|shrinked|
+|34|confused|
+|36|slowed|
+|41|rusty|
+|49|soul slayed|
+|50|caught in net|
+`);
+
+        markdown.isTrusted = true;
+
+        return new vscode.Hover(markdown);
+    }
             
             if (word == "dt_bouncekill") {
                 return new vscode.Hover({
@@ -3736,12 +3815,26 @@ function activate(context) {
                 });
             }
             
-            if (word == "homerealm") {
-                return new vscode.Hover({
-                    language: "English",
-                    value: "Any gods that belong to this realm (through the use of the #homerealm monster modding command) are automatically included in the nations default list of pretenders and need not be separately added to the list with the #addgod command. See Table Home realms. Unlike the homerealm of a pretender god the homerealm of a nation cannot be cleared."
-                });
-            }
+            if (word === 'homerealm') {
+                const markdown = new vscode.MarkdownString(`Any gods that belong to this realm (through the use of the #homerealm monster modding command) are automatically included in the nations default list of pretenders and need not be separately added to the list with the #addgod command. See Table Home realms. Unlike the homerealm of a pretender god the homerealm of a nation cannot be cleared.
+|Nbr|Realm|
+|:----:|:----:|
+|1|North|
+|2|Celtic|
+|3|Mediterranean|
+|4|Far East|
+|5|Middle East|
+|6|Middle America|
+|7|Africa|
+|8|India|
+|9|Deeps|
+|10|Default|
+`);
+
+        markdown.isTrusted = true;
+
+        return new vscode.Hover(markdown);
+    }
             
             if (word == "homeshape") {
                 return new vscode.Hover({
@@ -4505,13 +4598,30 @@ function activate(context) {
                     value: "The monster will get stat increases or decreases depending on the Magic scale."
                 });
             }
-            
-            if (word == "magicskill") {
-                return new vscode.Hover({
-                    language: "English",
-                    value: "Gives a magic skill to the active monster. The path must be a number from the Magic path numbers table and level should be a number from 1 to 10. If the monster already has this magic skill then the old level will be replaced by the new one unless it is a random skill. Units with Holy magic must also have the #holy command."
-                });
-            }
+
+            if (word === 'magicskill') {
+                const markdown = new vscode.MarkdownString(` Gives a magic skill to the active monster. The path must be a number from the Magic path numbers table and level should be a number from 1 to 10. If the monster already has this magic skill then the old level will be replaced by the new one unless it is a random skill. Units with Holy magic must also have the #holy command.
+|Nbr|Path|
+|:----:|:----:|
+|0|Fire|
+|1|Air|
+|2|Water|
+|3|Earth|
+|4|Astral|
+|5|Death|
+|6|Nature|
+|7|Blood|
+|8|Priest|
+|50|Random|
+|51|Elemental|
+|52|Sorcery|
+|53|All (not priest)|
+`);
+
+        markdown.isTrusted = true;
+
+        return new vscode.Hover(markdown);
+    }
             
             if (word == "magicstudy") {
                 return new vscode.Hover({

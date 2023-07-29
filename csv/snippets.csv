@@ -701,7 +701,6 @@ neednoteat,#neednoteat,~#neednoteat~,This monster doesnt need any food and doesn
 neighbour,#neighbour,~#neighbour~, Makes it possible to move between these two provinces (in both directions). Use the map editor to set province neighbors. Doing it from the map file with a text editor is VERY difficult.
 neighbourspec,#neighbourspec,~#neighbourspec~, This command can be used to create a mountain pass or other type of special border between two provinces. Spcnbr indicates a special border types from these values: 0 = standard border
 newdom ,#newdom,~#newdom~,Changes dominion to that of the event owner and sets it to the level of 1d(value) candles.
-newweapon,#newweaopn,~#newweapon~,Weapon number for new weapons should be a number between 800 and 1999. It must not be the same as any other weapon. This new weapon will be affected by the following modding commands and there should be an #end command at the end.
 nextingeo,#nextingeo,~#nextingeo~,The spell after this will also take effect if it cast in this terrain. For combat spells only.
 nextspell,#nextspell,~#nextspell~,With this command the effect of another spell will also take place when the effect of the main spell occurs. The nextspell takes place on every area where the main spell takes effect. So make sure the area of the second spell isnt greater than 1 or there will be overlaps.
 nhwound,#nhwound,~#nhwound~,The item bearer suffers a Never Healing Wound which cannot be healed until the item is removed.

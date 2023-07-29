@@ -4,13 +4,10 @@ This extension provides syntax highlighting, autocomplete and hover information 
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+\!\[Auto Complete & Snippets\]\(examples/autocompleteexample.png\)
+Full list of known commands and information about it. As well as auto formated snippets when creating/editing objects like monsters or items. 
+\!\[Hover Details\]\(examples/hoverexample.png\)
+Addtional details including relevent tables for some. 
 
 ## Known Issues
 
@@ -18,11 +15,11 @@ Calling out known issues can help limit users opening duplicate issues against y
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
+There is likely errors in my data for all the commands. I did a lot of scraping and regex instead of going through it by hand. If you catch any and are feeling extra generous please fix and submit a pull request. Or if not and it's small just let me know via discord @zegma and I can include the fix in during an update. 
 
 ### 1.0.0
 
-Initial release of ...
+Initial release of Dominions Mod Support
 
 
 **Enjoy!**

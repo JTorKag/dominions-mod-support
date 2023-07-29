@@ -8,6 +8,20 @@
 		],
 		"description": "Create new armor"
 	},
+	"New Armor Template": {
+		"prefix": "#newarmor",
+		"body": [
+			"#newarmor <ID>",
+			"#name \"<name>\"",
+			"#type <type>",
+			"#prot <protection>",
+			"#def <defense>",
+			"#enc <encumbrance>",
+			"",
+			"#end"
+		],
+		"description": "Create new armor with template"
+	},
 	"New Event": {
 		"prefix": "#newevent",
 		"body": [
@@ -85,28 +99,28 @@
 		"body": [
 			"#newweapon ",
 			"#name \"NAME\"",
-			"#dmg XX",
-			"#att XX",
-			"#def XX",
-			"#nratt XX",
+			"#dmg <damage>",
+			"#att <attack>",
+			"#def <defense>",
+			"#nratt <nbr of attacks>",
 			"",
 			"#end"
 		],
-		"description": "Create new item"
+		"description": "Create new melee weapon"
 	},
 	"New Ranged Weapon": {
 		"prefix": "#newweapon",
 		"body": [
 			"#newweapon ",
 			"#name \"NAME\"",
-			"#dmg XX",
-			"#nratt XX",
-			"#range XX",
-			"#ammo XX",
+			"#dmg <damage>",
+			"#nratt <nbr of attacks>",
+			"#range <range>",
+			"#ammo <ammo>",
 			"",
 			"#end"
 		],
-		"description": "Create new item"
+		"description": "Create new ranged weapon"
 	},
 	"Select Armor": {
 		"prefix": "#selectarmor",
@@ -193,7 +207,7 @@
 
 
 
-	
+
 
 
 	
