@@ -24,5 +24,7 @@ There is likely errors in my data for all the commands. I did a lot of scraping 
 
 Initial release of Dominions Mod Support
 
+### Credits
+I wanted to highlight [djmcgill](https://github.com/djmcgill/vscode-syntax-highlighting-dominions-5-) for creating a syntax highlighting tool years ago. Used that for a while and the decided I wanted to improve on that base. 
 
 **Enjoy!**
