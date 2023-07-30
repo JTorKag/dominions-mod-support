@@ -4,14 +4,17 @@ This extension provides syntax highlighting, autocomplete and hover information 
 
 ## Features
 
-\!\[Auto Complete & Snippets\]\(examples/autocompleteexample.png\)
-Full list of known commands and information about it. As well as auto formated snippets when creating/editing objects like monsters or items. 
-\!\[Hover Details\]\(examples/hoverexample.png\)
-Addtional details including relevent tables for some. 
+Full list of known commands and information about it. As well as auto formated snippets when creating/editing objects like monsters or items.
+![Auto Complete & Snippets](examples/autocompleteexample.png)
+
+
+Addtional details including relevent tables for some keywords. Will add more in the future
+![Hover Details](examples/hoverexample.png)
+ 
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+I'm sure there's a handful. Just undocumented so far. See below.
 
 ## Release Notes
 
@@ -21,5 +24,7 @@ There is likely errors in my data for all the commands. I did a lot of scraping 
 
 Initial release of Dominions Mod Support
 
+### Credits
+I wanted to highlight [djmcgill](https://github.com/djmcgill/vscode-syntax-highlighting-dominions-5-) for creating a syntax highlighting tool years ago. Used that for a while and the decided I wanted to improve on that base. 
 
 **Enjoy!**
