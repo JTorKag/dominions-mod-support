@@ -3,6 +3,8 @@
   "displayName": "Dominions Mod Support",
   "description": "Syntax highlighting & Hover information on keywords and IDs.",
   "version": "0.0.1",
+  "repository": "https://github.com/JTorKag/dominions-mod-support",
+  "license":"LGPL-3.0-only",
   "engines": {
     "vscode": "^1.80.0"
   },
