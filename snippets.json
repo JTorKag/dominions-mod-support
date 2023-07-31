@@ -2707,22 +2707,6 @@
 		"description":"The weapon only causes affects demons."
 	   }
    ,
-	"demononly": {
-		"prefix":"#demononly",
-		"body":[
-			   "#demononly"
-		  ],
-		"description":"The weapon only causes affects demons."
-	   }
-   ,
-	"demonundead": {
-		"prefix":"#demonundead",
-		"body":[
-			   "#demonundead"
-		  ],
-		"description":"The weapon only affects demons and undead."
-	   }
-   ,
 	"demonundead": {
 		"prefix":"#demonundead",
 		"body":[
@@ -3705,14 +3689,6 @@
 			   "#fogcol"
 		  ],
 		"description":" Color the world with the specified colors for fights in the current province. Color values range from 0 to 255."
-	   }
-   ,
-	"foolscouts": {
-		"prefix":"#foolscouts",
-		"body":[
-			   "#foolscouts"
-		  ],
-		"description":"The monster creates the false impression of uniformity in its own army. Enemy scouting reports will perceive the army to only contain one type of troop. The reported troop type is usually the most common troop type present."
 	   }
    ,
 	"foolscouts": {
@@ -5377,14 +5353,6 @@
 			   "#maxsize"
 		  ],
 		"description":"This item can only by a unit of this size or smaller."
-	   }
-   ,
-	"melee50": {
-		"prefix":"#melee50",
-		"body":[
-			   "#melee50"
-		  ],
-		"description":"This melee weapon only has 50% chance of being used."
 	   }
    ,
 	"melee50": {
