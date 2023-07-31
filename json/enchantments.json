@@ -1,0 +1,402 @@
+[
+  {
+    "number": "0",
+    "name": "<Unknown>"
+  },
+  {
+    "number": "1",
+    "name": "Storm"
+  },
+  {
+    "number": "2",
+    "name": "Friendly Currents"
+  },
+  {
+    "number": "3",
+    "name": "Astral Tempest"
+  },
+  {
+    "number": "4",
+    "name": "Rigor Mortis"
+  },
+  {
+    "number": "5",
+    "name": "Soul Drain"
+  },
+  {
+    "number": "6",
+    "name": "Heat"
+  },
+  {
+    "number": "7",
+    "name": "Rain"
+  },
+  {
+    "number": "8",
+    "name": "<Unknown>"
+  },
+  {
+    "number": "9",
+    "name": "Cold"
+  },
+  {
+    "number": "10",
+    "name": "Foul Air"
+  },
+  {
+    "number": "11",
+    "name": "Acid Storm"
+  },
+  {
+    "number": "12",
+    "name": "Wailing Winds"
+  },
+  {
+    "number": "13",
+    "name": "Growing Fury"
+  },
+  {
+    "number": "14",
+    "name": "Wrath of God"
+  },
+  {
+    "number": "15",
+    "name": "Eyes of God"
+  },
+  {
+    "number": "16",
+    "name": "Perpetual Storm"
+  },
+  {
+    "number": "17",
+    "name": "Eternal Pyre"
+  },
+  {
+    "number": "18",
+    "name": "Wrath of the Sea"
+  },
+  {
+    "number": "19",
+    "name": "Arcane Nexus"
+  },
+  {
+    "number": "20",
+    "name": "Forge of the Ancients"
+  },
+  {
+    "number": "21",
+    "name": "Solar Brilliance"
+  },
+  {
+    "number": "22",
+    "name": "<Unknown>"
+  },
+  {
+    "number": "23",
+    "name": "<Unknown>"
+  },
+  {
+    "number": "24",
+    "name": "Enchanted Forests"
+  },
+  {
+    "number": "25",
+    "name": "Fire Storm"
+  },
+  {
+    "number": "26",
+    "name": "Purgatory"
+  },
+  {
+    "number": "27",
+    "name": "Gift of Nature's Bounty"
+  },
+  {
+    "number": "28",
+    "name": "Sea of Ice"
+  },
+  {
+    "number": "29",
+    "name": "Burden of Time"
+  },
+  {
+    "number": "30",
+    "name": "Gift of Health"
+  },
+  {
+    "number": "31",
+    "name": "<Unknown>"
+  },
+  {
+    "number": "32",
+    "name": "Dark Skies"
+  },
+  {
+    "number": "33",
+    "name": "Well of Misery"
+  },
+  {
+    "number": "34",
+    "name": "Wrathful Skies"
+  },
+  {
+    "number": "35",
+    "name": "Riches from Beneath"
+  },
+  {
+    "number": "36",
+    "name": "Divination (?)"
+  },
+  {
+    "number": "37",
+    "name": "Astral Projection (?)"
+  },
+  {
+    "number": "38",
+    "name": "<Unknown>"
+  },
+  {
+    "number": "39",
+    "name": "<Unknown>"
+  },
+  {
+    "number": "40",
+    "name": "Light of the Northern Star"
+  },
+  {
+    "number": "41",
+    "name": "Second Sun"
+  },
+  {
+    "number": "42",
+    "name": "Looming Hell"
+  },
+  {
+    "number": "43",
+    "name": "Ghost Ship Armada"
+  },
+  {
+    "number": "44",
+    "name": "Illwinter"
+  },
+  {
+    "number": "45",
+    "name": "Foul Vapors"
+  },
+  {
+    "number": "46",
+    "name": "Mother Oak"
+  },
+  {
+    "number": "47",
+    "name": "Maelstrom"
+  },
+  {
+    "number": "48",
+    "name": "Earth Blood Deep Well"
+  },
+  {
+    "number": "49",
+    "name": "Gale Gate"
+  },
+  {
+    "number": "50",
+    "name": "Lure of the Deep"
+  },
+  {
+    "number": "51",
+    "name": "Mechanical Militia"
+  },
+  {
+    "number": "52",
+    "name": "Guardians of the Deep"
+  },
+  {
+    "number": "53",
+    "name": "Fata Morgana"
+  },
+  {
+    "number": "54",
+    "name": "Stellar Focus"
+  },
+  {
+    "number": "55",
+    "name": "Haunted Forest"
+  },
+  {
+    "number": "56",
+    "name": "Utterdark"
+  },
+  {
+    "number": "57",
+    "name": "Astral Corruption"
+  },
+  {
+    "number": "58",
+    "name": "Influence of the Ark"
+  },
+  {
+    "number": "59",
+    "name": "Thetis' Blessing"
+  },
+  {
+    "number": "60",
+    "name": "Dome of Flaming Death"
+  },
+  {
+    "number": "61",
+    "name": "Dome of Solid Air"
+  },
+  {
+    "number": "62",
+    "name": "Frost Dome"
+  },
+  {
+    "number": "63",
+    "name": "<Unknown>"
+  },
+  {
+    "number": "64",
+    "name": "Dome of Arcane Warding"
+  },
+  {
+    "number": "65",
+    "name": "<Unknown>"
+  },
+  {
+    "number": "66",
+    "name": "Forest Dome"
+  },
+  {
+    "number": "67",
+    "name": "Dome of Corruption"
+  },
+  {
+    "number": "68",
+    "name": "Blood Rain"
+  },
+  {
+    "number": "69",
+    "name": "Iron Walls"
+  },
+  {
+    "number": "70",
+    "name": "Mist"
+  },
+  {
+    "number": "71",
+    "name": "Mists of Deception"
+  },
+  {
+    "number": "72",
+    "name": "<Unknown>"
+  },
+  {
+    "number": "73",
+    "name": "Vafur Flames"
+  },
+  {
+    "number": "74",
+    "name": "<Unknown>"
+  },
+  {
+    "number": "75",
+    "name": "Wild Hunt"
+  },
+  {
+    "number": "76",
+    "name": "<Unknown>"
+  },
+  {
+    "number": "77",
+    "name": "Darkness"
+  },
+  {
+    "number": "78",
+    "name": "Shark Attack"
+  },
+  {
+    "number": "79",
+    "name": "Strands of Arcane Power"
+  },
+  {
+    "number": "80",
+    "name": "Kindly Ones"
+  },
+  {
+    "number": "81",
+    "name": "<Unknown>"
+  },
+  {
+    "number": "82",
+    "name": "<Unknown>"
+  },
+  {
+    "number": "83",
+    "name": "Demon Cleansing"
+  },
+  {
+    "number": "84",
+    "name": "Relief"
+  },
+  {
+    "number": "85",
+    "name": "Quagmire"
+  },
+  {
+    "number": "86",
+    "name": "Dance of the Morrigans"
+  },
+  {
+    "number": "87",
+    "name": "Blood Vortex"
+  },
+  {
+    "number": "88",
+    "name": "Howl"
+  },
+  {
+    "number": "89",
+    "name": "Infernal Circle"
+  },
+  {
+    "number": "90",
+    "name": "Celestial Rainbow"
+  },
+  {
+    "number": "91",
+    "name": "Divine Channeling"
+  },
+  {
+    "number": "92",
+    "name": "Ravenous Swarm"
+  },
+  {
+    "number": "93",
+    "name": "Vengeful Water"
+  },
+  {
+    "number": "94",
+    "name": "Blood Fecundity"
+  },
+  {
+    "number": "95",
+    "name": "Trade Wind"
+  },
+  {
+    "number": "96",
+    "name": "Fields of the Dead"
+  },
+  {
+    "number": "97",
+    "name": "Solar Eclipse"
+  },
+  {
+    "number": "100",
+    "name": "Geoglyph"
+  },
+  {
+    "number": "101",
+    "name": "Theft of the Sun"
+  }
+]

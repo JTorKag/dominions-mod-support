@@ -1,0 +1,2270 @@
+[
+  {
+    "number": "10",
+    "name": "Magicboost F"
+  },
+  {
+    "number": "11",
+    "name": "Magicboost A"
+  },
+  {
+    "number": "12",
+    "name": "Magicboost W"
+  },
+  {
+    "number": "13",
+    "name": "Magicboost E"
+  },
+  {
+    "number": "14",
+    "name": "Magicboost S"
+  },
+  {
+    "number": "15",
+    "name": "Magicboost D"
+  },
+  {
+    "number": "16",
+    "name": "Magicboost N"
+  },
+  {
+    "number": "17",
+    "name": "?Magicboost B"
+  },
+  {
+    "number": "22",
+    "name": "Magicboost All"
+  },
+  {
+    "number": "23",
+    "name": "Elementrange"
+  },
+  {
+    "number": "24",
+    "name": "Sorceryrange"
+  },
+  {
+    "number": "25",
+    "name": "Allrange"
+  },
+  {
+    "number": "30",
+    "name": "Gemprod Fire"
+  },
+  {
+    "number": "31",
+    "name": "Gemprod Air"
+  },
+  {
+    "number": "32",
+    "name": "Gemprod Water"
+  },
+  {
+    "number": "33",
+    "name": "Gemprod Earth"
+  },
+  {
+    "number": "34",
+    "name": "Gemprod Astral"
+  },
+  {
+    "number": "35",
+    "name": "Gemprod Death"
+  },
+  {
+    "number": "36",
+    "name": "Gemprod Nature"
+  },
+  {
+    "number": "37",
+    "name": "Gemprod Blood"
+  },
+  {
+    "number": "40",
+    "name": "Firerange"
+  },
+  {
+    "number": "41",
+    "name": "Airrange"
+  },
+  {
+    "number": "42",
+    "name": "Waterrange"
+  },
+  {
+    "number": "43",
+    "name": "Earthrange"
+  },
+  {
+    "number": "44",
+    "name": "Astralrange"
+  },
+  {
+    "number": "45",
+    "name": "Deathrange"
+  },
+  {
+    "number": "46",
+    "name": "Naturerange"
+  },
+  {
+    "number": "47",
+    "name": "Bloodrange"
+  },
+  {
+    "number": "50",
+    "name": "Pathboost Uw"
+  },
+  {
+    "number": "51",
+    "name": "Pathboost Land"
+  },
+  {
+    "number": "52",
+    "name": "Foreignpathboost"
+  },
+  {
+    "number": "71",
+    "name": "No Move Pen From Armor"
+  },
+  {
+    "number": "101",
+    "name": "Ivy Lord"
+  },
+  {
+    "number": "103",
+    "name": "Standard"
+  },
+  {
+    "number": "104",
+    "name": "Petrify Attackers"
+  },
+  {
+    "number": "105",
+    "name": "Awe"
+  },
+  {
+    "number": "106",
+    "name": "Poison Aura"
+  },
+  {
+    "number": "107",
+    "name": "Dom Monster Autosum?"
+  },
+  {
+    "number": "108",
+    "name": "Stealthy"
+  },
+  {
+    "number": "110",
+    "name": "Item Waterbreathing"
+  },
+  {
+    "number": "111",
+    "name": "Gift of Water Breathing"
+  },
+  {
+    "number": "112",
+    "name": "Sailing Ship Size"
+  },
+  {
+    "number": "115",
+    "name": "Extra Life"
+  },
+  {
+    "number": "116",
+    "name": "Blood Searcher"
+  },
+  {
+    "number": "117",
+    "name": "Reinvigoration"
+  },
+  {
+    "number": "118",
+    "name": "Forge Bonus Percentile"
+  },
+  {
+    "number": "120",
+    "name": "Item Lesser Horror Attack Chance"
+  },
+  {
+    "number": "121",
+    "name": "Adept Researcher"
+  },
+  {
+    "number": "122",
+    "name": "Supply Bonus"
+  },
+  {
+    "number": "123",
+    "name": "Item Chance to Become Werewolf"
+  },
+  {
+    "number": "124",
+    "name": "Reaper"
+  },
+  {
+    "number": "125",
+    "name": "Siege Bonus"
+  },
+  {
+    "number": "126",
+    "name": "Eyeloss"
+  },
+  {
+    "number": "127",
+    "name": "Horror Mark Melee Attackers"
+  },
+  {
+    "number": "128",
+    "name": "Vine Shield Effect"
+  },
+  {
+    "number": "131",
+    "name": "Pillager"
+  },
+  {
+    "number": "132",
+    "name": "Alchemist"
+  },
+  {
+    "number": "133",
+    "name": "Autospell Repeat"
+  },
+  {
+    "number": "135",
+    "name": "Death Explosion"
+  },
+  {
+    "number": "139",
+    "name": "Monster Summoner 1?"
+  },
+  {
+    "number": "140",
+    "name": "Monster Summoner 2?"
+  },
+  {
+    "number": "141",
+    "name": "Monster Summoner 3?"
+  },
+  {
+    "number": "142",
+    "name": "Monster Summoner 4?"
+  },
+  {
+    "number": "143",
+    "name": "Autosum"
+  },
+  {
+    "number": "146",
+    "name": "Coldsummon"
+  },
+  {
+    "number": "147",
+    "name": "Immortal Timer?"
+  },
+  {
+    "number": "149",
+    "name": "?Immortality Reform Time Scale with Dist"
+  },
+  {
+    "number": "150",
+    "name": "Item Att Skill Bonus"
+  },
+  {
+    "number": "151",
+    "name": "Stolen Strength"
+  },
+  {
+    "number": "152",
+    "name": "Item Warning"
+  },
+  {
+    "number": "153",
+    "name": "?Immortality Spring"
+  },
+  {
+    "number": "154",
+    "name": "Corpselord"
+  },
+  {
+    "number": "156",
+    "name": "Dominion Spreader"
+  },
+  {
+    "number": "157",
+    "name": "Additional Leadership"
+  },
+  {
+    "number": "158",
+    "name": "Additional Ldr Magic"
+  },
+  {
+    "number": "159",
+    "name": "Additional Ldr Undead"
+  },
+  {
+    "number": "161",
+    "name": "Item Mr Bonus"
+  },
+  {
+    "number": "162",
+    "name": "?Item Pen Bonus"
+  },
+  {
+    "number": "164",
+    "name": "Summon Allies 1?"
+  },
+  {
+    "number": "165",
+    "name": "Summon Allies 2?"
+  },
+  {
+    "number": "166",
+    "name": "Summon Allies 3?"
+  },
+  {
+    "number": "167",
+    "name": "Summon Allies 4?"
+  },
+  {
+    "number": "168",
+    "name": "Summon Allies 5?"
+  },
+  {
+    "number": "169",
+    "name": "Lamiabonus"
+  },
+  {
+    "number": "170",
+    "name": "Patrol Bonus"
+  },
+  {
+    "number": "171",
+    "name": "Blind"
+  },
+  {
+    "number": "172",
+    "name": "Plague Carrier"
+  },
+  {
+    "number": "173",
+    "name": "Turmoilsummon"
+  },
+  {
+    "number": "174",
+    "name": "Storm Power"
+  },
+  {
+    "number": "175",
+    "name": "Storm Immunity"
+  },
+  {
+    "number": "176",
+    "name": "Cold Power"
+  },
+  {
+    "number": "177",
+    "name": "Fire Power"
+  },
+  {
+    "number": "178",
+    "name": "Eyes"
+  },
+  {
+    "number": "181",
+    "name": "Item Prec Bonus"
+  },
+  {
+    "number": "182",
+    "name": "Itemslots"
+  },
+  {
+    "number": "183",
+    "name": "Fear"
+  },
+  {
+    "number": "184",
+    "name": "Heretic"
+  },
+  {
+    "number": "185",
+    "name": "Start Affliction"
+  },
+  {
+    "number": "186",
+    "name": "Paralyzed"
+  },
+  {
+    "number": "187",
+    "name": "Percent Path Reducton"
+  },
+  {
+    "number": "188",
+    "name": "Poison Barbs"
+  },
+  {
+    "number": "189",
+    "name": "Regeneration"
+  },
+  {
+    "number": "190",
+    "name": "Berserker"
+  },
+  {
+    "number": "191",
+    "name": "Ice Protection"
+  },
+  {
+    "number": "192",
+    "name": "?Shapechance"
+  },
+  {
+    "number": "193",
+    "name": "Shapechange"
+  },
+  {
+    "number": "194",
+    "name": "Secondshape"
+  },
+  {
+    "number": "195",
+    "name": "Firstshape"
+  },
+  {
+    "number": "196",
+    "name": "Secondtmpshape"
+  },
+  {
+    "number": "197",
+    "name": "Secondshape Type2"
+  },
+  {
+    "number": "198",
+    "name": "Fire Resistance"
+  },
+  {
+    "number": "199",
+    "name": "Shock Resistance"
+  },
+  {
+    "number": "200",
+    "name": "Poison Resistance"
+  },
+  {
+    "number": "201",
+    "name": "Cold Resistance"
+  },
+  {
+    "number": "202",
+    "name": "Damage Reversal"
+  },
+  {
+    "number": "204",
+    "name": "Deathwail"
+  },
+  {
+    "number": "205",
+    "name": "Patience"
+  },
+  {
+    "number": "206",
+    "name": "Summoning Skill"
+  },
+  {
+    "number": "208",
+    "name": "Air Shield"
+  },
+  {
+    "number": "209",
+    "name": "Onebattlespell"
+  },
+  {
+    "number": "210",
+    "name": "Dream Seduction"
+  },
+  {
+    "number": "211",
+    "name": "Inquisitor"
+  },
+  {
+    "number": "212",
+    "name": "Army Healer"
+  },
+  {
+    "number": "213",
+    "name": "Assassin 2?"
+  },
+  {
+    "number": "214",
+    "name": "Spy"
+  },
+  {
+    "number": "215",
+    "name": "Castle Defence Bonus"
+  },
+  {
+    "number": "216",
+    "name": "Adept Sacrificer"
+  },
+  {
+    "number": "217",
+    "name": "Ambidextrous"
+  },
+  {
+    "number": "218",
+    "name": "??Change Gender for Seduction"
+  },
+  {
+    "number": "219",
+    "name": "Domsummon20"
+  },
+  {
+    "number": "220",
+    "name": "Chill Aura"
+  },
+  {
+    "number": "221",
+    "name": "Regen Uw"
+  },
+  {
+    "number": "222",
+    "name": "Banefire Shield"
+  },
+  {
+    "number": "223",
+    "name": "Cause Unrest"
+  },
+  {
+    "number": "224",
+    "name": "Corruptor"
+  },
+  {
+    "number": "225",
+    "name": "Item Curse Random Units in Province"
+  },
+  {
+    "number": "226",
+    "name": "Startingafflictions"
+  },
+  {
+    "number": "227",
+    "name": "Picus Procas Axe"
+  },
+  {
+    "number": "228",
+    "name": "Bringer of Fortune"
+  },
+  {
+    "number": "231",
+    "name": "Spring Power"
+  },
+  {
+    "number": "232",
+    "name": "Summer Power"
+  },
+  {
+    "number": "233",
+    "name": "Autumn Power"
+  },
+  {
+    "number": "234",
+    "name": "Winter Power"
+  },
+  {
+    "number": "235",
+    "name": "Fortune Teller"
+  },
+  {
+    "number": "236",
+    "name": "Corpse Eater"
+  },
+  {
+    "number": "237",
+    "name": "Corpse Eater Hp Per Corpse"
+  },
+  {
+    "number": "238",
+    "name": "Corpse Eater Num Corpses Eaten"
+  },
+  {
+    "number": "239",
+    "name": "Item Champprize"
+  },
+  {
+    "number": "240",
+    "name": "Flies When Blessed"
+  },
+  {
+    "number": "241",
+    "name": "Domsummon"
+  },
+  {
+    "number": "242",
+    "name": "Startdom"
+  },
+  {
+    "number": "243",
+    "name": "Pathcost"
+  },
+  {
+    "number": "244",
+    "name": "Sight Vengeance"
+  },
+  {
+    "number": "245",
+    "name": "Landshape"
+  },
+  {
+    "number": "246",
+    "name": "Watershape"
+  },
+  {
+    "number": "247",
+    "name": "Beckon"
+  },
+  {
+    "number": "248",
+    "name": "Fixed Research"
+  },
+  {
+    "number": "249",
+    "name": "Clockwork Lord"
+  },
+  {
+    "number": "250",
+    "name": "Desiccation"
+  },
+  {
+    "number": "251",
+    "name": "Nametype"
+  },
+  {
+    "number": "253",
+    "name": "Homesick"
+  },
+  {
+    "number": "255",
+    "name": "Cursed Luck"
+  },
+  {
+    "number": "258",
+    "name": "Uwdamage"
+  },
+  {
+    "number": "260",
+    "name": "Upgrade Ethereal to True"
+  },
+  {
+    "number": "261",
+    "name": "Horror Mark"
+  },
+  {
+    "number": "262",
+    "name": "Item Effect Tainted"
+  },
+  {
+    "number": "264",
+    "name": "Deserter"
+  },
+  {
+    "number": "265",
+    "name": "Resource Size"
+  },
+  {
+    "number": "270",
+    "name": "Dragon Master"
+  },
+  {
+    "number": "271",
+    "name": "Curse Bestower"
+  },
+  {
+    "number": "272",
+    "name": "Philosopher"
+  },
+  {
+    "number": "273",
+    "name": "Mundane Researcher"
+  },
+  {
+    "number": "274",
+    "name": "Doom Greater Horror Desertion"
+  },
+  {
+    "number": "275",
+    "name": "Unique"
+  },
+  {
+    "number": "277",
+    "name": "Void Sanity"
+  },
+  {
+    "number": "278",
+    "name": "Item Nation Restricted"
+  },
+  {
+    "number": "279",
+    "name": "Spell Notfornation"
+  },
+  {
+    "number": "280",
+    "name": "Stone Being"
+  },
+  {
+    "number": "281",
+    "name": "Darkvision"
+  },
+  {
+    "number": "284",
+    "name": "Maxage"
+  },
+  {
+    "number": "285",
+    "name": "Startage"
+  },
+  {
+    "number": "286",
+    "name": "Start Age Modifier"
+  },
+  {
+    "number": "288",
+    "name": "Population Killer"
+  },
+  {
+    "number": "289",
+    "name": "Horror Seed"
+  },
+  {
+    "number": "291",
+    "name": "Wish Strength Bonus"
+  },
+  {
+    "number": "292",
+    "name": "Item Noforgebonus"
+  },
+  {
+    "number": "293",
+    "name": "Dark Power"
+  },
+  {
+    "number": "294",
+    "name": "Is Illusion"
+  },
+  {
+    "number": "295",
+    "name": "Disbelieve"
+  },
+  {
+    "number": "297",
+    "name": "Explode On Death"
+  },
+  {
+    "number": "298",
+    "name": "??Seduction Ability?"
+  },
+  {
+    "number": "299",
+    "name": "Encase in Ice"
+  },
+  {
+    "number": "300",
+    "name": "Land Reinvigoration"
+  },
+  {
+    "number": "301",
+    "name": "% More Likely to Cause Afflictions"
+  },
+  {
+    "number": "303",
+    "name": "Item Yearaging"
+  },
+  {
+    "number": "304",
+    "name": "Reincarnation"
+  },
+  {
+    "number": "305",
+    "name": "Item Hp Bonus"
+  },
+  {
+    "number": "306",
+    "name": "Sleep Aura"
+  },
+  {
+    "number": "307",
+    "name": "Supplysize"
+  },
+  {
+    "number": "308",
+    "name": "Item Morale Bonus"
+  },
+  {
+    "number": "309",
+    "name": "Insanity"
+  },
+  {
+    "number": "310",
+    "name": "Insane Shattered Soul Command Block"
+  },
+  {
+    "number": "311",
+    "name": "Item Chance to be Sent to Void"
+  },
+  {
+    "number": "313",
+    "name": "Inferno Returning"
+  },
+  {
+    "number": "314",
+    "name": "Kokytos Returning"
+  },
+  {
+    "number": "315",
+    "name": "Insanify"
+  },
+  {
+    "number": "316",
+    "name": "Heat Aura"
+  },
+  {
+    "number": "317",
+    "name": "Addrandomage"
+  },
+  {
+    "number": "320",
+    "name": "??Defiler?"
+  },
+  {
+    "number": "321",
+    "name": "Astral Shield"
+  },
+  {
+    "number": "322",
+    "name": "Forest Shape"
+  },
+  {
+    "number": "323",
+    "name": "Plain Shape"
+  },
+  {
+    "number": "324",
+    "name": "Magic Power"
+  },
+  {
+    "number": "325",
+    "name": "?Percent Max Hp Damage Every Turn"
+  },
+  {
+    "number": "326",
+    "name": "Fatigue Sacred Aura"
+  },
+  {
+    "number": "327",
+    "name": "Halt Heretic"
+  },
+  {
+    "number": "328",
+    "name": "Shattered Soul"
+  },
+  {
+    "number": "330",
+    "name": "Speciallook"
+  },
+  {
+    "number": "331",
+    "name": "Ai Single Rec"
+  },
+  {
+    "number": "332",
+    "name": "???Nowish"
+  },
+  {
+    "number": "333",
+    "name": "Void Returning"
+  },
+  {
+    "number": "334",
+    "name": "Innate Caster"
+  },
+  {
+    "number": "335",
+    "name": "Growhp"
+  },
+  {
+    "number": "336",
+    "name": "Shrinkhp"
+  },
+  {
+    "number": "337",
+    "name": "Reforming"
+  },
+  {
+    "number": "338",
+    "name": "Swarm Body"
+  },
+  {
+    "number": "339",
+    "name": "??Used By Swarm Body Reforming"
+  },
+  {
+    "number": "341",
+    "name": "Inspiring Researcher"
+  },
+  {
+    "number": "342",
+    "name": "Tax Collector"
+  },
+  {
+    "number": "343",
+    "name": "Gem Collector"
+  },
+  {
+    "number": "344",
+    "name": "Immune to Armor Mapmove Penalty"
+  },
+  {
+    "number": "345",
+    "name": "Temp Air Gems"
+  },
+  {
+    "number": "346",
+    "name": "Temp Water Gems"
+  },
+  {
+    "number": "347",
+    "name": "Temp Earth Gems"
+  },
+  {
+    "number": "348",
+    "name": "Temp Astral Gems"
+  },
+  {
+    "number": "349",
+    "name": "Temp Death Gems"
+  },
+  {
+    "number": "350",
+    "name": "Temp Nature Gems"
+  },
+  {
+    "number": "351",
+    "name": "Temp Blood Slaves"
+  },
+  {
+    "number": "352",
+    "name": "Defence Organizer"
+  },
+  {
+    "number": "354",
+    "name": "Healer Auto"
+  },
+  {
+    "number": "355",
+    "name": "Disease Healer"
+  },
+  {
+    "number": "356",
+    "name": "Disease Grinder"
+  },
+  {
+    "number": "357",
+    "name": "Noagingland"
+  },
+  {
+    "number": "361",
+    "name": "Extra Arms"
+  },
+  {
+    "number": "363",
+    "name": "Master Smith"
+  },
+  {
+    "number": "364",
+    "name": "Reanimation Bonus Divine"
+  },
+  {
+    "number": "365",
+    "name": "Reanimation Bonus Arcane"
+  },
+  {
+    "number": "366",
+    "name": "Formation Fighter"
+  },
+  {
+    "number": "367",
+    "name": "Undisciplined"
+  },
+  {
+    "number": "368",
+    "name": "Inspirational"
+  },
+  {
+    "number": "369",
+    "name": "Beastmaster"
+  },
+  {
+    "number": "370",
+    "name": "Item Loseeye"
+  },
+  {
+    "number": "372",
+    "name": "Graphicsize"
+  },
+  {
+    "number": "373",
+    "name": "Swallow On Trample"
+  },
+  {
+    "number": "374",
+    "name": "Digest"
+  },
+  {
+    "number": "375",
+    "name": "Incorporate"
+  },
+  {
+    "number": "376",
+    "name": "Unteleportable"
+  },
+  {
+    "number": "377",
+    "name": "Item Def Skill Bonus"
+  },
+  {
+    "number": "379",
+    "name": "Taskmaster"
+  },
+  {
+    "number": "380",
+    "name": "Slave"
+  },
+  {
+    "number": "381",
+    "name": "Recruitment Limit"
+  },
+  {
+    "number": "382",
+    "name": "Invulnerability"
+  },
+  {
+    "number": "383",
+    "name": "Protective Force"
+  },
+  {
+    "number": "384",
+    "name": "Item Minsize"
+  },
+  {
+    "number": "385",
+    "name": "Item Maxsize"
+  },
+  {
+    "number": "388",
+    "name": "Offscript Research Level"
+  },
+  {
+    "number": "389",
+    "name": "Randomspell"
+  },
+  {
+    "number": "390",
+    "name": "Item Stealthboost"
+  },
+  {
+    "number": "391",
+    "name": "Horror"
+  },
+  {
+    "number": "392",
+    "name": "Alternative Firstshape Eater of Dead"
+  },
+  {
+    "number": "393",
+    "name": "Returning On Damage"
+  },
+  {
+    "number": "394",
+    "name": "Reform"
+  },
+  {
+    "number": "395",
+    "name": "Battlesum1"
+  },
+  {
+    "number": "396",
+    "name": "Battlesum2"
+  },
+  {
+    "number": "397",
+    "name": "Battlesum3"
+  },
+  {
+    "number": "398",
+    "name": "Battlesum4"
+  },
+  {
+    "number": "399",
+    "name": "Battlesum5"
+  },
+  {
+    "number": "401",
+    "name": "Disease Explosion"
+  },
+  {
+    "number": "402",
+    "name": "Mind Slimer"
+  },
+  {
+    "number": "404",
+    "name": "Spell Nocastmindless"
+  },
+  {
+    "number": "406",
+    "name": "Affliction Resistance"
+  },
+  {
+    "number": "407",
+    "name": "Resource Bonus"
+  },
+  {
+    "number": "408",
+    "name": "Bodyguard"
+  },
+  {
+    "number": "409",
+    "name": "Leaves After Battle If Wounded Or Has Killed"
+  },
+  {
+    "number": "410",
+    "name": "Sailing Max Unit Size"
+  },
+  {
+    "number": "411",
+    "name": "Elegist"
+  },
+  {
+    "number": "412",
+    "name": "Slimer"
+  },
+  {
+    "number": "413",
+    "name": "Death Curse"
+  },
+  {
+    "number": "414",
+    "name": "Blood Vengeance"
+  },
+  {
+    "number": "415",
+    "name": "Undying"
+  },
+  {
+    "number": "416",
+    "name": "Chaos Power"
+  },
+  {
+    "number": "417",
+    "name": "Dom Monster Summon Rare"
+  },
+  {
+    "number": "418",
+    "name": "Cannot Pass Rivers"
+  },
+  {
+    "number": "419",
+    "name": "Obfuscate"
+  },
+  {
+    "number": "420",
+    "name": "Foolscouts"
+  },
+  {
+    "number": "421",
+    "name": "Mountain Survival"
+  },
+  {
+    "number": "422",
+    "name": "Forest Survival"
+  },
+  {
+    "number": "423",
+    "name": "Waste Survival"
+  },
+  {
+    "number": "424",
+    "name": "Swamp Survival"
+  },
+  {
+    "number": "426",
+    "name": "Item Mapspeed"
+  },
+  {
+    "number": "427",
+    "name": "Bug"
+  },
+  {
+    "number": "428",
+    "name": "Bug Uw"
+  },
+  {
+    "number": "429",
+    "name": "Ai No Recruit"
+  },
+  {
+    "number": "430",
+    "name": "Pearl Cultivator"
+  },
+  {
+    "number": "431",
+    "name": "Adept Crossbreeder"
+  },
+  {
+    "number": "432",
+    "name": "Auto Comslave"
+  },
+  {
+    "number": "433",
+    "name": "Unknown Effect That Targets Killer"
+  },
+  {
+    "number": "434",
+    "name": "Deathbanish"
+  },
+  {
+    "number": "435",
+    "name": "All Plane Returning"
+  },
+  {
+    "number": "436",
+    "name": "Batstartsum1"
+  },
+  {
+    "number": "437",
+    "name": "Batstartsum2"
+  },
+  {
+    "number": "438",
+    "name": "Batstartsum3"
+  },
+  {
+    "number": "439",
+    "name": "Batstartsum4"
+  },
+  {
+    "number": "440",
+    "name": "Batstartsum5"
+  },
+  {
+    "number": "441",
+    "name": "Batstartsum1D6"
+  },
+  {
+    "number": "442",
+    "name": "Batstartsum2D6"
+  },
+  {
+    "number": "443",
+    "name": "Batstartsum3D6"
+  },
+  {
+    "number": "444",
+    "name": "Batstartsum4D6"
+  },
+  {
+    "number": "445",
+    "name": "Batstartsum5D6"
+  },
+  {
+    "number": "446",
+    "name": "Batstartsum6D6"
+  },
+  {
+    "number": "447",
+    "name": "Batstartsum7D6"
+  },
+  {
+    "number": "448",
+    "name": "Batstartsum8D6"
+  },
+  {
+    "number": "449",
+    "name": "Batstartsum9D6"
+  },
+  {
+    "number": "450",
+    "name": "Divine Insights"
+  },
+  {
+    "number": "451",
+    "name": "Research Without Magic"
+  },
+  {
+    "number": "452",
+    "name": "Gold Maker"
+  },
+  {
+    "number": "453",
+    "name": "Forge Bonus Fixed"
+  },
+  {
+    "number": "454",
+    "name": "Item Reqeyes"
+  },
+  {
+    "number": "455",
+    "name": "Item Unusable By Unit Type Mask"
+  },
+  {
+    "number": "456",
+    "name": "Item Only Usable By Unit Type Mask"
+  },
+  {
+    "number": "457",
+    "name": "Item Only Usable By Fliers Or Mounted"
+  },
+  {
+    "number": "458",
+    "name": "Chaos Recruitment"
+  },
+  {
+    "number": "459",
+    "name": "Must Fight in Arena"
+  },
+  {
+    "number": "460",
+    "name": "Is Adventurer"
+  },
+  {
+    "number": "461",
+    "name": "Assassin"
+  },
+  {
+    "number": "462",
+    "name": "Regeneration Limited"
+  },
+  {
+    "number": "463",
+    "name": "Master Ritualist"
+  },
+  {
+    "number": "465",
+    "name": "Cleanshape"
+  },
+  {
+    "number": "466",
+    "name": "??Special Passive Reanimator"
+  },
+  {
+    "number": "467",
+    "name": "Defector"
+  },
+  {
+    "number": "468",
+    "name": "No Hof"
+  },
+  {
+    "number": "469",
+    "name": "Req Lab to Recruit"
+  },
+  {
+    "number": "470",
+    "name": "Req Temple to Recruit"
+  },
+  {
+    "number": "471",
+    "name": "Starts Horrormarked"
+  },
+  {
+    "number": "472",
+    "name": "Spread Negative Scale"
+  },
+  {
+    "number": "473",
+    "name": "Spread Positive Scale"
+  },
+  {
+    "number": "478",
+    "name": "Overcharged"
+  },
+  {
+    "number": "479",
+    "name": "Noaging"
+  },
+  {
+    "number": "480",
+    "name": "Indep Spell Level Plus One"
+  },
+  {
+    "number": "481",
+    "name": "Dungeon Creature"
+  },
+  {
+    "number": "483",
+    "name": "Scale Walls"
+  },
+  {
+    "number": "484",
+    "name": "Death Power"
+  },
+  {
+    "number": "485",
+    "name": "Death Recruitment"
+  },
+  {
+    "number": "486",
+    "name": "Guardian Spirit Modifier"
+  },
+  {
+    "number": "487",
+    "name": "Restricteditem"
+  },
+  {
+    "number": "488",
+    "name": "Use Restricted Item"
+  },
+  {
+    "number": "489",
+    "name": "Ice Forging"
+  },
+  {
+    "number": "490",
+    "name": "Heat Rec"
+  },
+  {
+    "number": "491",
+    "name": "Cold Rec"
+  },
+  {
+    "number": "492",
+    "name": "Is Yazad"
+  },
+  {
+    "number": "493",
+    "name": "Is Daeva"
+  },
+  {
+    "number": "494",
+    "name": "Startitem"
+  },
+  {
+    "number": "496",
+    "name": "Acid Digest"
+  },
+  {
+    "number": "497",
+    "name": "Acid Shield"
+  },
+  {
+    "number": "498",
+    "name": "Drake"
+  },
+  {
+    "number": "500",
+    "name": "Plant"
+  },
+  {
+    "number": "501",
+    "name": "Fireattuned"
+  },
+  {
+    "number": "502",
+    "name": "Airattuned"
+  },
+  {
+    "number": "503",
+    "name": "Waterattuned"
+  },
+  {
+    "number": "504",
+    "name": "Earthattuned"
+  },
+  {
+    "number": "505",
+    "name": "Astralattuned"
+  },
+  {
+    "number": "506",
+    "name": "Deathattuned"
+  },
+  {
+    "number": "507",
+    "name": "Natureattuned"
+  },
+  {
+    "number": "508",
+    "name": "Bloodattuned"
+  },
+  {
+    "number": "509",
+    "name": "Transformation"
+  },
+  {
+    "number": "510",
+    "name": "Promotion"
+  },
+  {
+    "number": "511",
+    "name": "Mummify"
+  },
+  {
+    "number": "512",
+    "name": "Mummify Partner"
+  },
+  {
+    "number": "513",
+    "name": "Disease Resistance"
+  },
+  {
+    "number": "514",
+    "name": "Reanimate On Kill"
+  },
+  {
+    "number": "515",
+    "name": "Reanimate On Kill Shape"
+  },
+  {
+    "number": "516",
+    "name": "Prophet Shape"
+  },
+  {
+    "number": "517",
+    "name": "Send Lesser Horror Mult"
+  },
+  {
+    "number": "518",
+    "name": "Poison Skin"
+  },
+  {
+    "number": "519",
+    "name": "Xploss On Shape Change"
+  },
+  {
+    "number": "520",
+    "name": "Theft of Sun Awe"
+  },
+  {
+    "number": "521",
+    "name": "Supaya Reanimation Count"
+  },
+  {
+    "number": "522",
+    "name": "Hpoverflow"
+  },
+  {
+    "number": "523",
+    "name": "Hpoverslow"
+  },
+  {
+    "number": "524",
+    "name": "Domrec"
+  },
+  {
+    "number": "525",
+    "name": "Berserk While Blessed"
+  },
+  {
+    "number": "526",
+    "name": "Land Damage"
+  },
+  {
+    "number": "527",
+    "name": "Heat Aura Uw"
+  },
+  {
+    "number": "529",
+    "name": "Sloth Power"
+  },
+  {
+    "number": "530",
+    "name": "Aboleth"
+  },
+  {
+    "number": "531",
+    "name": "Mind Vessel"
+  },
+  {
+    "number": "532",
+    "name": "Is Slave Vessel"
+  },
+  {
+    "number": "533",
+    "name": "Commands Slave Vessel"
+  },
+  {
+    "number": "534",
+    "name": "Hero Turn Arrival Limit"
+  },
+  {
+    "number": "535",
+    "name": "Sailsize"
+  },
+  {
+    "number": "537",
+    "name": "?Neednoteat"
+  },
+  {
+    "number": "538",
+    "name": "Poison Weapons"
+  },
+  {
+    "number": "539",
+    "name": "Withering Weapons"
+  },
+  {
+    "number": "540",
+    "name": "Death Weapons"
+  },
+  {
+    "number": "541",
+    "name": "Bless Twist Fate"
+  },
+  {
+    "number": "542",
+    "name": "Magic Weapons"
+  },
+  {
+    "number": "543",
+    "name": "Solar Weapons"
+  },
+  {
+    "number": "544",
+    "name": "Unholy Weapons"
+  },
+  {
+    "number": "545",
+    "name": "Flaming Weapons"
+  },
+  {
+    "number": "546",
+    "name": "Thunder Weapons"
+  },
+  {
+    "number": "547",
+    "name": "Charge Body 10An"
+  },
+  {
+    "number": "548",
+    "name": "Farshot Bless"
+  },
+  {
+    "number": "549",
+    "name": "Cold Weapons"
+  },
+  {
+    "number": "554",
+    "name": "Blood Surge Magnitude"
+  },
+  {
+    "number": "555",
+    "name": "Blood Bond"
+  },
+  {
+    "number": "556",
+    "name": "Combat Far Caster"
+  },
+  {
+    "number": "558",
+    "name": "Tattoo Bear"
+  },
+  {
+    "number": "559",
+    "name": "Tattoo Horse"
+  },
+  {
+    "number": "560",
+    "name": "Tattoo Wolf"
+  },
+  {
+    "number": "561",
+    "name": "Tattoo Boar"
+  },
+  {
+    "number": "562",
+    "name": "Tattoo Snake"
+  },
+  {
+    "number": "563",
+    "name": "Astral Fetters"
+  },
+  {
+    "number": "564",
+    "name": "Temple Trainer"
+  },
+  {
+    "number": "565",
+    "name": "Start Item"
+  },
+  {
+    "number": "568",
+    "name": "Recuperation"
+  },
+  {
+    "number": "570",
+    "name": "??Gives Death Gems After Battle"
+  },
+  {
+    "number": "571",
+    "name": "Swimming"
+  },
+  {
+    "number": "573",
+    "name": "Unsurroundable"
+  },
+  {
+    "number": "574",
+    "name": "Item Nationrebate"
+  },
+  {
+    "number": "575",
+    "name": "Itemdrawsize"
+  },
+  {
+    "number": "577",
+    "name": "Unhindered"
+  },
+  {
+    "number": "578",
+    "name": "Stun"
+  },
+  {
+    "number": "580",
+    "name": "Petrified"
+  },
+  {
+    "number": "581",
+    "name": "Combat Caster"
+  },
+  {
+    "number": "583",
+    "name": "No Armor Mapmove Penalty"
+  },
+  {
+    "number": "584",
+    "name": "Foreignshape"
+  },
+  {
+    "number": "585",
+    "name": "Homeshape"
+  },
+  {
+    "number": "586",
+    "name": "Monpresentrec"
+  },
+  {
+    "number": "587",
+    "name": "Ownsmonrec"
+  },
+  {
+    "number": "588",
+    "name": "No Wish"
+  },
+  {
+    "number": "589",
+    "name": "Addupkeep"
+  },
+  {
+    "number": "590",
+    "name": "Springshape"
+  },
+  {
+    "number": "591",
+    "name": "Summershape"
+  },
+  {
+    "number": "592",
+    "name": "Autumnshape"
+  },
+  {
+    "number": "593",
+    "name": "Wintershape"
+  },
+  {
+    "number": "594",
+    "name": "Mason"
+  },
+  {
+    "number": "595",
+    "name": "Swiftness"
+  },
+  {
+    "number": "596",
+    "name": "Itemcost1"
+  },
+  {
+    "number": "597",
+    "name": "Itemcost2"
+  },
+  {
+    "number": "598",
+    "name": "Oni Summoner"
+  },
+  {
+    "number": "600",
+    "name": "Min Imprisonment"
+  },
+  {
+    "number": "601",
+    "name": "Fateweaving"
+  },
+  {
+    "number": "602",
+    "name": "Realm"
+  },
+  {
+    "number": "605",
+    "name": "Sun Awe"
+  },
+  {
+    "number": "606",
+    "name": "Floating"
+  },
+  {
+    "number": "607",
+    "name": "Spirit Sight"
+  },
+  {
+    "number": "608",
+    "name": "Invisible"
+  },
+  {
+    "number": "609",
+    "name": "Startaffliction"
+  },
+  {
+    "number": "610",
+    "name": "Startmajoraff"
+  },
+  {
+    "number": "612",
+    "name": "Item Autobless"
+  },
+  {
+    "number": "613",
+    "name": "Fast Casting"
+  },
+  {
+    "number": "614",
+    "name": "Never Heals"
+  },
+  {
+    "number": "615",
+    "name": "Uw Regen"
+  },
+  {
+    "number": "616",
+    "name": "Spellsinger"
+  },
+  {
+    "number": "617",
+    "name": "Spell Maxbounces"
+  },
+  {
+    "number": "618",
+    "name": "Magic Attuned Researcher"
+  },
+  {
+    "number": "621",
+    "name": "Item Islance"
+  },
+  {
+    "number": "622",
+    "name": "Trinity"
+  },
+  {
+    "number": "623",
+    "name": "Trinity Mag"
+  },
+  {
+    "number": "624",
+    "name": "Unify"
+  },
+  {
+    "number": "625",
+    "name": "Triple3Mon"
+  },
+  {
+    "number": "626",
+    "name": "Power of The Turning Year"
+  },
+  {
+    "number": "627",
+    "name": "Fortkill"
+  },
+  {
+    "number": "628",
+    "name": "Thronekill"
+  },
+  {
+    "number": "629",
+    "name": "Far Thronekill"
+  },
+  {
+    "number": "630",
+    "name": "Indepmove"
+  },
+  {
+    "number": "631",
+    "name": "Indepstay"
+  },
+  {
+    "number": "632",
+    "name": "Reanimator Priest"
+  },
+  {
+    "number": "634",
+    "name": "Norange"
+  },
+  {
+    "number": "635",
+    "name": "Polymorph Immune"
+  },
+  {
+    "number": "636",
+    "name": "Pretender Original Form"
+  },
+  {
+    "number": "637",
+    "name": "Montag"
+  },
+  {
+    "number": "638",
+    "name": "Stun Immune"
+  },
+  {
+    "number": "639",
+    "name": "Mounted Berserker"
+  },
+  {
+    "number": "641",
+    "name": "Skirmisher"
+  },
+  {
+    "number": "642",
+    "name": "Slaver"
+  },
+  {
+    "number": "643",
+    "name": "Slaver Bonus"
+  },
+  {
+    "number": "644",
+    "name": "Min Size Leader"
+  },
+  {
+    "number": "645",
+    "name": "Dark Vessels"
+  },
+  {
+    "number": "646",
+    "name": "Animal Awe"
+  },
+  {
+    "number": "647",
+    "name": "Auto Com Slave 2"
+  },
+  {
+    "number": "648",
+    "name": "Auto Com Master"
+  },
+  {
+    "number": "649",
+    "name": "Farsail"
+  },
+  {
+    "number": "651",
+    "name": "Taurobolium"
+  },
+  {
+    "number": "652",
+    "name": "Fire Shield"
+  },
+  {
+    "number": "653",
+    "name": "Fire Shield Uw"
+  },
+  {
+    "number": "654",
+    "name": "Blessing of God Slayer"
+  },
+  {
+    "number": "655",
+    "name": "?Light On Unit"
+  },
+  {
+    "number": "656",
+    "name": "Twiceborn Shape"
+  },
+  {
+    "number": "658",
+    "name": "Carcass Collector"
+  },
+  {
+    "number": "659",
+    "name": "Wolf"
+  },
+  {
+    "number": "660",
+    "name": "Uncurable Affliction"
+  },
+  {
+    "number": "662",
+    "name": "Start Effect Value 1"
+  },
+  {
+    "number": "663",
+    "name": "Start Effect Value 2"
+  },
+  {
+    "number": "664",
+    "name": "Stygian Guide"
+  },
+  {
+    "number": "665",
+    "name": "Immortality Dominion"
+  },
+  {
+    "number": "666",
+    "name": "Mind Collar Magnitude"
+  },
+  {
+    "number": "667",
+    "name": "Mind Collar Activated"
+  },
+  {
+    "number": "668",
+    "name": "Lab Promotion"
+  },
+  {
+    "number": "669",
+    "name": "Islance"
+  },
+  {
+    "number": "670",
+    "name": "Can Use Lances"
+  },
+  {
+    "number": "671",
+    "name": "?Winter Summon 1D3"
+  },
+  {
+    "number": "672",
+    "name": "Starts with Heroic Ability"
+  },
+  {
+    "number": "676",
+    "name": "??Mountain Recruit"
+  },
+  {
+    "number": "677",
+    "name": "Enchrebate 25Percent"
+  },
+  {
+    "number": "678",
+    "name": "Enchrebate 50Percent"
+  },
+  {
+    "number": "680",
+    "name": "?Land Reinvigoration"
+  },
+  {
+    "number": "681",
+    "name": "Land Encumbrance"
+  },
+  {
+    "number": "683",
+    "name": "Notsacred"
+  },
+  {
+    "number": "684",
+    "name": "Ind Autobless"
+  },
+  {
+    "number": "685",
+    "name": "Counts as Sun"
+  },
+  {
+    "number": "686",
+    "name": "Lord over Heathen Tribes"
+  },
+  {
+    "number": "687",
+    "name": "Unknown Involved in Blood Slave Usage"
+  },
+  {
+    "number": "688",
+    "name": "Unseen"
+  },
+  {
+    "number": "689",
+    "name": "Iron Vuln"
+  },
+  {
+    "number": "690",
+    "name": "Batstartsum 1D3"
+  },
+  {
+    "number": "692",
+    "name": "Domshape"
+  },
+  {
+    "number": "693",
+    "name": "Notdomshape"
+  },
+  {
+    "number": "694",
+    "name": "Dominion Power"
+  },
+  {
+    "number": "695",
+    "name": "Plague Doctor"
+  },
+  {
+    "number": "698",
+    "name": "Salt Vuln"
+  },
+  {
+    "number": "699",
+    "name": "Montagweight"
+  },
+  {
+    "number": "700",
+    "name": "Spell Provrange"
+  },
+  {
+    "number": "701",
+    "name": "Spell Onlygeodst"
+  },
+  {
+    "number": "702",
+    "name": "Spell Onlygeosrc"
+  },
+  {
+    "number": "703",
+    "name": "Spell Nogeosrc"
+  },
+  {
+    "number": "705",
+    "name": "Spell Nowatertrace"
+  },
+  {
+    "number": "706",
+    "name": "Spell Nolandtrace"
+  },
+  {
+    "number": "707",
+    "name": "Spell Walkable"
+  },
+  {
+    "number": "708",
+    "name": "Spell Hiddenench"
+  },
+  {
+    "number": "709",
+    "name": "Spell Onlyowndst"
+  },
+  {
+    "number": "711",
+    "name": "Spell Onlyatsite"
+  },
+  {
+    "number": "713",
+    "name": "Spell Onlycoastsrc"
+  },
+  {
+    "number": "715",
+    "name": "Spell Reqfly"
+  },
+  {
+    "number": "716",
+    "name": "Spell Farsummoncom"
+  },
+  {
+    "number": "718",
+    "name": "Spell Req Unitability"
+  },
+  {
+    "number": "719",
+    "name": "Spell Req No Ability"
+  },
+  {
+    "number": "721",
+    "name": "Spell Strikesound"
+  },
+  {
+    "number": "722",
+    "name": "Spell Godpathspell"
+  },
+  {
+    "number": "723",
+    "name": "Spell Casttime"
+  },
+  {
+    "number": "724",
+    "name": "Spell Nextingeo"
+  },
+  {
+    "number": "729",
+    "name": "Spell Friendly Enchantment"
+  },
+  {
+    "number": "731",
+    "name": "Spell Onlymnr"
+  },
+  {
+    "number": "732",
+    "name": "Spell Polygetmagic"
+  },
+  {
+    "number": "733",
+    "name": "Spell Sethome"
+  },
+  {
+    "number": "735",
+    "name": "Spell Aibadlvl"
+  },
+  {
+    "number": "738",
+    "name": "Spell Onlyfriendlydst"
+  },
+  {
+    "number": "741",
+    "name": "Spell Reqsun"
+  },
+  {
+    "number": "742",
+    "name": "Spell Ainocast"
+  },
+  {
+    "number": "743",
+    "name": "Spell Aispellmod"
+  },
+  {
+    "number": "744",
+    "name": "Spell Notmnr"
+  },
+  {
+    "number": "800",
+    "name": "Number of Lost Arms"
+  },
+  {
+    "number": "802",
+    "name": "Lost X Eyes"
+  },
+  {
+    "number": "1000",
+    "name": "Enchrebate 10Gold"
+  },
+  {
+    "number": "1001",
+    "name": "Enchrebate 20Gold"
+  },
+  {
+    "number": "1002",
+    "name": "Enchrebate 50Gold"
+  },
+  {
+    "number": "1003",
+    "name": "Maxprison"
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "bit_value": "0",
+    "bit_name": "Plains"
+  },
+  {
+    "bit_value": "1",
+    "bit_name": "Small Province"
+  },
+  {
+    "bit_value": "2",
+    "bit_name": "Large Province"
+  },
+  {
+    "bit_value": "4",
+    "bit_name": "Sea"
+  },
+  {
+    "bit_value": "8",
+    "bit_name": "Freshwater"
+  },
+  {
+    "bit_value": "16",
+    "bit_name": "Mountains"
+  },
+  {
+    "bit_value": "32",
+    "bit_name": "Swamp"
+  },
+  {
+    "bit_value": "64",
+    "bit_name": "Waste"
+  },
+  {
+    "bit_value": "128",
+    "bit_name": "Forest"
+  },
+  {
+    "bit_value": "256",
+    "bit_name": "Farm"
+  },
+  {
+    "bit_value": "512",
+    "bit_name": "Invalid Starting Position"
+  },
+  {
+    "bit_value": "1024",
+    "bit_name": "Many Magic Sites"
+  },
+  {
+    "bit_value": "2048",
+    "bit_name": "Deep Sea"
+  },
+  {
+    "bit_value": "4096",
+    "bit_name": "Cave"
+  },
+  {
+    "bit_value": "8192",
+    "bit_name": "<Unknown Terrain Type>"
+  },
+  {
+    "bit_value": "16384",
+    "bit_name": "<Unknown Terrain Type>"
+  },
+  {
+    "bit_value": "32768",
+    "bit_name": "<Unknown Terrain Type>"
+  },
+  {
+    "bit_value": "65536",
+    "bit_name": "<Unknown Terrain Type>"
+  },
+  {
+    "bit_value": "131072",
+    "bit_name": "<Unknown Terrain Type>"
+  },
+  {
+    "bit_value": "262144",
+    "bit_name": "<Unknown Terrain Type>"
+  },
+  {
+    "bit_value": "524288",
+    "bit_name": "<Unknown Terrain Type>"
+  },
+  {
+    "bit_value": "1048576",
+    "bit_name": "<Unknown Terrain Type>"
+  },
+  {
+    "bit_value": "2097152",
+    "bit_name": "<Unknown Terrain Type>"
+  },
+  {
+    "bit_value": "4194304",
+    "bit_name": "Border Mountains"
+  },
+  {
+    "bit_value": "8388608",
+    "bit_name": "(Internal) Darkness"
+  },
+  {
+    "bit_value": "16777216",
+    "bit_name": "Recommended Throne Position"
+  },
+  {
+    "bit_value": "33554432",
+    "bit_name": "Recommended Starting Position"
+  },
+  {
+    "bit_value": "67108864",
+    "bit_name": "<Unknown Terrain Type>"
+  },
+  {
+    "bit_value": "134217728",
+    "bit_name": "? 50% to be set in arena ?coast"
+  },
+  {
+    "bit_value": "268435456",
+    "bit_name": "(Internal) Assassination battle"
+  },
+  {
+    "bit_value": "536870912",
+    "bit_name": "<Unknown Terrain Type>"
+  },
+  {
+    "bit_value": "1073741824",
+    "bit_name": "<Unknown Terrain Type>"
+  },
+  {
+    "bit_value": "2147483648",
+    "bit_name": "<Unknown Terrain Type>"
+  }
+]

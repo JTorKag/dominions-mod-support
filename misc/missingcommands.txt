@@ -1,0 +1,104 @@
+ARMOR
+
+No omissions.
+
+EVENT
+
+req_nativesoil
+req_targnoorder
+req_targnoaff
+req_targminmorale
+req_targmaxmorale
+req_thronesite
+req_targnotowner
+req_targnotally
+req_targally
+req_godisnotmnr
+req_mincorpses
+req_maxcorpses
+req_worlditem
+req_noworlditem
+setxp
+extramsg
+setpoptype
+
+SITE
+
+minegold
+
+ITEM
+
+landdamage
+batstartsum1d3
+tmpbloodslaves
+resources
+mastersmith
+masterrit
+reform
+sleepaura
+slaver
+slaverbonus
+saltvul
+shapechance
+
+SPELL
+
+reqplant
+reqnoplant
+
+WEAPON
+
+soulslaying
+
+UNIT
+
+mcost (may be an alias of gcost)
+limitedregen
+tmpbloodslaves (seems to not work)
+enchrebate10
+enchrebate20
+sailsize
+mindvessel
+saltvul
+shapechance (may be x% chance to enter or skip secondshapes)
+notsacred
+appetite
+
+MAP
+
+wraparound
+hwraparound
+vwraparound
+startspell
+
+NAMETYPE
+
+No omissions.
+
+MERCENARY
+
+No omissions.
+
+NATION
+
+nametype (looks like it will not work)
+forestlabcost
+foresttemplecost
+cavelabcost
+cavetemplecost
+swamplabcost
+swamptemplecost
+mountlabcost
+mounttemplecost
+wastelabcost
+wastetemplecost
+futuresite
+
+
+POPTYPE
+
+No omissions.
+
+GENERAL
+
+No omissions.

@@ -1,0 +1,58 @@
+[
+  {
+    "number": "0",
+    "name": "Fire"
+  },
+  {
+    "number": "1",
+    "name": "Air"
+  },
+  {
+    "number": "2",
+    "name": "Water"
+  },
+  {
+    "number": "3",
+    "name": "Earth"
+  },
+  {
+    "number": "4",
+    "name": "Astral"
+  },
+  {
+    "number": "5",
+    "name": "Death"
+  },
+  {
+    "number": "6",
+    "name": "Nature"
+  },
+  {
+    "number": "7",
+    "name": "Blood"
+  },
+  {
+    "number": "8",
+    "name": "Holy"
+  },
+  {
+    "number": "50",
+    "name": "Random Path"
+  },
+  {
+    "number": "51",
+    "name": "Elemental Paths"
+  },
+  {
+    "number": "52",
+    "name": "Paths of Sorcery"
+  },
+  {
+    "number": "53",
+    "name": "Paths of Wizardry"
+  },
+  {
+    "number": "55",
+    "name": "All Paths"
+  }
+]

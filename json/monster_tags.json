@@ -1,0 +1,66 @@
+[
+  {
+    "number": "-20",
+    "name": "Random Bird (Falcon, Black Hawk, Swan or Strange Bird)"
+  },
+  {
+    "number": "-19",
+    "name": "Random Lion of Strange Color"
+  },
+  {
+    "number": "-17",
+    "name": "Yatas and Pairikas"
+  },
+  {
+    "number": "-16",
+    "name": "Celestial Yazad"
+  },
+  {
+    "number": "-12",
+    "name": "Random Crossbreed (3% good)"
+  },
+  {
+    "number": "-11",
+    "name": "Random Bad Crossbreed"
+  },
+  {
+    "number": "-10",
+    "name": "Random Good Crossbreed"
+  },
+  {
+    "number": "-9",
+    "name": "Random Bug"
+  },
+  {
+    "number": "-8",
+    "name": "Doom Horror"
+  },
+  {
+    "number": "-7",
+    "name": "Horror"
+  },
+  {
+    "number": "-6",
+    "name": "Lesser Horror"
+  },
+  {
+    "number": "-5",
+    "name": "Random Animal"
+  },
+  {
+    "number": "-4",
+    "name": "Ghoul"
+  },
+  {
+    "number": "-3",
+    "name": "Soultrap Ghost"
+  },
+  {
+    "number": "-2",
+    "name": "Longdead"
+  },
+  {
+    "number": "-1",
+    "name": "Soulless"
+  }
+]

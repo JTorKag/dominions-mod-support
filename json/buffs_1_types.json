@@ -1,0 +1,254 @@
+[
+  {
+    "bit_value": "1",
+    "bit_name": "Blessing"
+  },
+  {
+    "bit_value": "2",
+    "bit_name": "Luck"
+  },
+  {
+    "bit_value": "4",
+    "bit_name": "Improved Precision"
+  },
+  {
+    "bit_value": "8",
+    "bit_name": "Air Shield"
+  },
+  {
+    "bit_value": "16",
+    "bit_name": "Barkskin"
+  },
+  {
+    "bit_value": "32",
+    "bit_name": "Limited Regeneration"
+  },
+  {
+    "bit_value": "64",
+    "bit_name": "Toughened Armor"
+  },
+  {
+    "bit_value": "128",
+    "bit_name": "Extra Strength"
+  },
+  {
+    "bit_value": "256",
+    "bit_name": "Gone Berserk"
+  },
+  {
+    "bit_value": "512",
+    "bit_name": "Pain Transfer"
+  },
+  {
+    "bit_value": "1024",
+    "bit_name": "Fire Resistance +5"
+  },
+  {
+    "bit_value": "2048",
+    "bit_name": "Shock Resistance +5"
+  },
+  {
+    "bit_value": "4096",
+    "bit_name": "Cold Resistance +5"
+  },
+  {
+    "bit_value": "8192",
+    "bit_name": "Cold Aura"
+  },
+  {
+    "bit_value": "16384",
+    "bit_name": "Heat Aura"
+  },
+  {
+    "bit_value": "32768",
+    "bit_name": "Courage"
+  },
+  {
+    "bit_value": "65536",
+    "bit_name": "Stoneskin"
+  },
+  {
+    "bit_value": "131072",
+    "bit_name": "Flight"
+  },
+  {
+    "bit_value": "262144",
+    "bit_name": "Quickness"
+  },
+  {
+    "bit_value": "524288",
+    "bit_name": "Armor Piercing Weapons"
+  },
+  {
+    "bit_value": "1048576",
+    "bit_name": "Astral Weapons"
+  },
+  {
+    "bit_value": "2097152",
+    "bit_name": "Reanimation"
+  },
+  {
+    "bit_value": "4194304",
+    "bit_name": "Holy Vengeance"
+  },
+  {
+    "bit_value": "8388608",
+    "bit_name": "Flaming Arrows"
+  },
+  {
+    "bit_value": "16777216",
+    "bit_name": "Poison Resistance +10"
+  },
+  {
+    "bit_value": "33554432",
+    "bit_name": "Prophet (persists after battle)"
+  },
+  {
+    "bit_value": "67108864",
+    "bit_name": "Magic Resistance"
+  },
+  {
+    "bit_value": "134217728",
+    "bit_name": "Etherealness"
+  },
+  {
+    "bit_value": "268435456",
+    "bit_name": "Ironskin"
+  },
+  {
+    "bit_value": "536870912",
+    "bit_name": "Communion Master"
+  },
+  {
+    "bit_value": "1073741824",
+    "bit_name": "Communion Slave"
+  },
+  {
+    "bit_value": "2147483648",
+    "bit_name": "Enlargement"
+  },
+  {
+    "bit_value": "4294967296",
+    "bit_name": "? AI flag \"dedicated researcher\" (persists after battle)"
+  },
+  {
+    "bit_value": "8589934592",
+    "bit_name": "? AI flag \"dedicated templer\" (persists after battle)"
+  },
+  {
+    "bit_value": "17179869184",
+    "bit_name": "? AI flag \"dedicated searcher\" (persists after battle)"
+  },
+  {
+    "bit_value": "34359738368",
+    "bit_name": "Leave communion if over 100 fatigue"
+  },
+  {
+    "bit_value": "68719476736",
+    "bit_name": "Slashing Resistance"
+  },
+  {
+    "bit_value": "1.37439E+11",
+    "bit_name": "Bludgeoning Resistance"
+  },
+  {
+    "bit_value": "2.74878E+11",
+    "bit_name": "Piercing Resistance"
+  },
+  {
+    "bit_value": "5.49756E+11",
+    "bit_name": "Protective Force 20"
+  },
+  {
+    "bit_value": "1.09951E+12",
+    "bit_name": "Limited Enlargement"
+  },
+  {
+    "bit_value": "2.19902E+12",
+    "bit_name": "Liquid Body"
+  },
+  {
+    "bit_value": "4.39805E+12",
+    "bit_name": "? AI \"dedicated ritualist\" flag (persists after battle)"
+  },
+  {
+    "bit_value": "8.79609E+12",
+    "bit_name": "<Unknown>"
+  },
+  {
+    "bit_value": "1.75922E+13",
+    "bit_name": "? If Soul Butcher, make death gems"
+  },
+  {
+    "bit_value": "3.51844E+13",
+    "bit_name": "? Flag that causes gladiators to leave (persists after battle)"
+  },
+  {
+    "bit_value": "7.03687E+13",
+    "bit_name": "<Unknown>"
+  },
+  {
+    "bit_value": "1.40737E+14",
+    "bit_name": "<Unknown>"
+  },
+  {
+    "bit_value": "2.81475E+14",
+    "bit_name": "<Unknown>"
+  },
+  {
+    "bit_value": "5.6295E+14",
+    "bit_name": "<Unknown>"
+  },
+  {
+    "bit_value": "1.1259E+15",
+    "bit_name": "<Unknown>"
+  },
+  {
+    "bit_value": "2.2518E+15",
+    "bit_name": "<Unknown>"
+  },
+  {
+    "bit_value": "4.5036E+15",
+    "bit_name": "<Unknown>"
+  },
+  {
+    "bit_value": "9.0072E+15",
+    "bit_name": "<Unknown>"
+  },
+  {
+    "bit_value": "1.80144E+16",
+    "bit_name": "<Unknown>"
+  },
+  {
+    "bit_value": "3.60288E+16",
+    "bit_name": "<Unknown>"
+  },
+  {
+    "bit_value": "7.20576E+16",
+    "bit_name": "<Unknown>"
+  },
+  {
+    "bit_value": "1.44115E+17",
+    "bit_name": "<Unknown>"
+  },
+  {
+    "bit_value": "2.8823E+17",
+    "bit_name": "<Unknown>"
+  },
+  {
+    "bit_value": "5.76461E+17",
+    "bit_name": "<Unknown>"
+  },
+  {
+    "bit_value": "1.15292E+18",
+    "bit_name": "<Unknown>"
+  },
+  {
+    "bit_value": "2.30584E+18",
+    "bit_name": "<Unknown>"
+  },
+  {
+    "bit_value": "4.61169E+18",
+    "bit_name": "<Unknown>"
+  }
+]

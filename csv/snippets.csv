@@ -1002,7 +1002,7 @@ resolvearena2,#resolvearena2,~#resolvearena2~,"Same as #resolvearena1, but it wi
 resourcemult,#resourcemult,~#resourcemult~,A multiplier for the amount of resource found in a land. Default is 100.
 resources,#resources,~#resources~,The monster generates
 ressize,#ressize,~#ressize~,Use this command with a size value of 2 to give a cavalryman resource cost calculated based on size 2 instead of 3. Size value must be a number between 1 and 6.
-restricted,#restricted,~#restricted~,The item is restricted to this nation only. Can be used multiple times on one item to enable it for a few nations. A nation nbr of -1 restricts the item to the last manipulated nation so this command can be used with #newnation.
+restricted,#restricted,~#restricted~, This item or spell is restrcited to this nation only. For spells you can use this up to 12 times per spell. You can reuse this an unknown amount of times per item. A value of -1 restricts the spell or item to the last manipulated nation so this command can be used with #newnation.
 restricteditem,#restricteditem,~#restricteditem~,This item can only be used by monsters with the proper #userestricteditem ability value.
 revealprov,#revealprov,~#revealprov~,The name of the province is revealed to the entire world.
 revealsite,#revealsite,~#revealsite~,Reveals the site called [sitename] in the province. [sitename] must be added to the event message text in brackets.

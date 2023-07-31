@@ -1,0 +1,1282 @@
+[
+  {
+    "number": "0",
+    "name": "Nothing"
+  },
+  {
+    "number": "1",
+    "name": "Summon Units"
+  },
+  {
+    "number": "2",
+    "name": "Damage {Wpn: #dt_normal}"
+  },
+  {
+    "number": "3",
+    "name": "Fatigue  {Wpn: #dt_stun}"
+  },
+  {
+    "number": "4",
+    "name": "Cause Fear (Type I)"
+  },
+  {
+    "number": "7",
+    "name": "Poison (HP damage) {Wpn: #dt_poison}"
+  },
+  {
+    "number": "8",
+    "name": "Remove Fatigue (?)"
+  },
+  {
+    "number": "10",
+    "name": "Bless/Buff (Type I)"
+  },
+  {
+    "number": "11",
+    "name": "Cause Affliction"
+  },
+  {
+    "number": "13",
+    "name": "Heal"
+  },
+  {
+    "number": "15",
+    "name": "Return Home"
+  },
+  {
+    "number": "16",
+    "name": "Unknown"
+  },
+  {
+    "number": "17",
+    "name": "Temporary Morale Boost"
+  },
+  {
+    "number": "19",
+    "name": "Teleport"
+  },
+  {
+    "number": "20",
+    "name": "Blink"
+  },
+  {
+    "number": "21",
+    "name": "Summon Commander"
+  },
+  {
+    "number": "22",
+    "name": "Fate of Oedipus"
+  },
+  {
+    "number": "23",
+    "name": "Bless/Buff (Type II)"
+  },
+  {
+    "number": "24",
+    "name": "Damage (x3 vs Undead/Demon) {Wpn: #dt_holy}"
+  },
+  {
+    "number": "25",
+    "name": "Wish"
+  },
+  {
+    "number": "26",
+    "name": "Ritual of Rebirth"
+  },
+  {
+    "number": "27",
+    "name": "Magic Duel"
+  },
+  {
+    "number": "28",
+    "name": "Enslave"
+  },
+  {
+    "number": "29",
+    "name": "Charm"
+  },
+  {
+    "number": "30",
+    "name": "Dispel"
+  },
+  {
+    "number": "31",
+    "name": "Call Horror"
+  },
+  {
+    "number": "32",
+    "name": "Damage (x3 vs Large Creatures) {Wpn: #dt_large}"
+  },
+  {
+    "number": "33",
+    "name": "Damage (x2 vs Small Creatures) {Wpn: #dt_small}"
+  },
+  {
+    "number": "35",
+    "name": "Cross Breeding"
+  },
+  {
+    "number": "37",
+    "name": "Remote Summon (Permanent Units)"
+  },
+  {
+    "number": "38",
+    "name": "Remote Summon (Temporary units)"
+  },
+  {
+    "number": "39",
+    "name": "Gift of Reason"
+  },
+  {
+    "number": "40",
+    "name": "Seeking Arrow"
+  },
+  {
+    "number": "41",
+    "name": "Affect Half of Army in Province"
+  },
+  {
+    "number": "42",
+    "name": "Affect Province with Anonymous Event"
+  },
+  {
+    "number": "43",
+    "name": "Edge of Battlefield Summon"
+  },
+  {
+    "number": "44",
+    "name": "Transformation"
+  },
+  {
+    "number": "46",
+    "name": "Poison (Stun)"
+  },
+  {
+    "number": "48",
+    "name": "Remote Site Search"
+  },
+  {
+    "number": "49",
+    "name": "Wind Ride"
+  },
+  {
+    "number": "50",
+    "name": "Remote Summon - Assassination"
+  },
+  {
+    "number": "52",
+    "name": "? Remote Assassination - Unknown Effects"
+  },
+  {
+    "number": "53",
+    "name": "Vengeance of the Dead"
+  },
+  {
+    "number": "54",
+    "name": "Polymorph"
+  },
+  {
+    "number": "56",
+    "name": "Damage, Blind and Disease all except friendly sacreds (The Ark)"
+  },
+  {
+    "number": "57",
+    "name": "Mind Hunt"
+  },
+  {
+    "number": "62",
+    "name": "Manifestation"
+  },
+  {
+    "number": "63",
+    "name": "Remote Fort Construction"
+  },
+  {
+    "number": "64",
+    "name": "Leprosy"
+  },
+  {
+    "number": "66",
+    "name": "Paralyze {Wpn: #dt_paralyze}"
+  },
+  {
+    "number": "67",
+    "name": "Weaken {Wpn: #dt_weakness}"
+  },
+  {
+    "number": "68",
+    "name": "Summon Animals"
+  },
+  {
+    "number": "70",
+    "name": "Crumble"
+  },
+  {
+    "number": "72",
+    "name": "Stream of Life"
+  },
+  {
+    "number": "73",
+    "name": "Damage (x2 vs Magic Beings) {Wpn: #dt_magic}"
+  },
+  {
+    "number": "74",
+    "name": "Unlife Damage {Wpn: #dt_raise}"
+  },
+  {
+    "number": "75",
+    "name": "? Unlife Damage (x2 vs Magic Beings)"
+  },
+  {
+    "number": "76",
+    "name": "Tartarian Gate"
+  },
+  {
+    "number": "77",
+    "name": "Astral Travel"
+  },
+  {
+    "number": "79",
+    "name": "Faery Trod"
+  },
+  {
+    "number": "80",
+    "name": "Gateway"
+  },
+  {
+    "number": "81",
+    "name": "Enchant Battlefield | Enchant World"
+  },
+  {
+    "number": "82",
+    "name": "Local Enchant Province - Gem Duration"
+  },
+  {
+    "number": "83",
+    "name": "Local Enchant Province - Single Turn"
+  },
+  {
+    "number": "84",
+    "name": "Local Enchant Province - Permanent Duration"
+  },
+  {
+    "number": "85",
+    "name": "Remote Enchant Province - Gem Duration"
+  },
+  {
+    "number": "86",
+    "name": "Remote Enchant Province - Single turn"
+  },
+  {
+    "number": "89",
+    "name": "Ritual Summon Unique Commander"
+  },
+  {
+    "number": "90",
+    "name": "Stygian Paths"
+  },
+  {
+    "number": "91",
+    "name": "Fires from Afar"
+  },
+  {
+    "number": "92",
+    "name": "Imprint Souls"
+  },
+  {
+    "number": "93",
+    "name": "Ritual Summon Unique Unit"
+  },
+  {
+    "number": "94",
+    "name": "Beckoning"
+  },
+  {
+    "number": "95",
+    "name": "Cloud Trapeze"
+  },
+  {
+    "number": "96",
+    "name": "Shatter {Wpn: #dt_constructonly}"
+  },
+  {
+    "number": "97",
+    "name": "Cause Fear (Type II)"
+  },
+  {
+    "number": "98",
+    "name": "Winged Monkeys"
+  },
+  {
+    "number": "99",
+    "name": "Petrify"
+  },
+  {
+    "number": "100",
+    "name": "Terrain-Specific Ritual Summon"
+  },
+  {
+    "number": "101",
+    "name": "Age Caster"
+  },
+  {
+    "number": "102",
+    "name": "Horror Seed"
+  },
+  {
+    "number": "103",
+    "name": "Drain Life {Wpn: #dt_drain}"
+  },
+  {
+    "number": "104",
+    "name": "Partial Life Drain {Wpn: #dt_weapondrain}"
+  },
+  {
+    "number": "105",
+    "name": "Disbelieve"
+  },
+  {
+    "number": "106",
+    "name": "Damage Demon (?)"
+  },
+  {
+    "number": "107",
+    "name": "Damage (x2 vs Demon) {Wpn: #dt_demon}"
+  },
+  {
+    "number": "108",
+    "name": "Planeshift Other"
+  },
+  {
+    "number": "109",
+    "name": "Capped Damage {Wpn: #dt_cap}"
+  },
+  {
+    "number": "110",
+    "name": "Dreams of R'lyeh"
+  },
+  {
+    "number": "111",
+    "name": "Internal Alchemy"
+  },
+  {
+    "number": "112",
+    "name": "Attack Caster"
+  },
+  {
+    "number": "113",
+    "name": "Astral Harpoon"
+  },
+  {
+    "number": "114",
+    "name": "Awaken Treelord"
+  },
+  {
+    "number": "115",
+    "name": "Acashic Record"
+  },
+  {
+    "number": "116",
+    "name": "Swallow if Smaller"
+  },
+  {
+    "number": "117",
+    "name": "Alchemize Gems"
+  },
+  {
+    "number": "118",
+    "name": "Blood Feast"
+  },
+  {
+    "number": "119",
+    "name": "Remote Summon Stealthy Commander"
+  },
+  {
+    "number": "120",
+    "name": "Unleash Imprisoned Ones"
+  },
+  {
+    "number": "121",
+    "name": "Swallow (Size 1 and 2 only)"
+  },
+  {
+    "number": "122",
+    "name": "Swallow if Smaller, else Damage"
+  },
+  {
+    "number": "123",
+    "name": "Damage Armor (can destroy magic items)"
+  },
+  {
+    "number": "125",
+    "name": "Mind Vessel"
+  },
+  {
+    "number": "126",
+    "name": "Call Horror"
+  },
+  {
+    "number": "127",
+    "name": "Infernal Breeding"
+  },
+  {
+    "number": "128",
+    "name": "Stun/Fascinate"
+  },
+  {
+    "number": "129",
+    "name": "Interrupt Damage"
+  },
+  {
+    "number": "130",
+    "name": "Polymorph Caster"
+  },
+  {
+    "number": "131",
+    "name": "Cure Affliction on Others"
+  },
+  {
+    "number": "132",
+    "name": "Cure Affliction on Self"
+  },
+  {
+    "number": "133",
+    "name": "Time Stop"
+  },
+  {
+    "number": "134",
+    "name": "Chaining Damage"
+  },
+  {
+    "number": "135",
+    "name": "Raven Feast"
+  },
+  {
+    "number": "136",
+    "name": "Remote Curse"
+  },
+  {
+    "number": "137",
+    "name": "Summon if not dead"
+  },
+  {
+    "number": "138",
+    "name": "Damage Armor (no effect on magic items)"
+  },
+  {
+    "number": "139",
+    "name": "Capped Poison Damage"
+  },
+  {
+    "number": "140",
+    "name": "? Enchant until Spring"
+  },
+  {
+    "number": "141",
+    "name": "Call the Birds of Splendour"
+  },
+  {
+    "number": "142",
+    "name": "Salt Damage"
+  },
+  {
+    "number": "500",
+    "name": "Set Effect Value (1) if lower"
+  },
+  {
+    "number": "501",
+    "name": "Set Effect Value (2) if lower"
+  },
+  {
+    "number": "502",
+    "name": "Set Effect Value (3) if lower"
+  },
+  {
+    "number": "503",
+    "name": "Set Effect Value (4) if lower"
+  },
+  {
+    "number": "504",
+    "name": "Set Effect Value (5) if lower"
+  },
+  {
+    "number": "505",
+    "name": "Set Effect Value (6) if lower"
+  },
+  {
+    "number": "506",
+    "name": "Set Effect Value (7) if lower"
+  },
+  {
+    "number": "507",
+    "name": "Set Effect Value (8) if lower"
+  },
+  {
+    "number": "508",
+    "name": "Set Effect Value (9) if lower"
+  },
+  {
+    "number": "509",
+    "name": "Set Effect Value (10) if lower"
+  },
+  {
+    "number": "510",
+    "name": "Set Effect Value (11) if lower"
+  },
+  {
+    "number": "511",
+    "name": "Set Effect Value (12) if lower"
+  },
+  {
+    "number": "512",
+    "name": "Set Effect Value (13) if lower"
+  },
+  {
+    "number": "513",
+    "name": "Set Effect Value (14) if lower"
+  },
+  {
+    "number": "514",
+    "name": "Set Effect Value (15) if lower"
+  },
+  {
+    "number": "515",
+    "name": "Set Effect Value (16) if lower"
+  },
+  {
+    "number": "516",
+    "name": "Set Effect Value (17) if lower"
+  },
+  {
+    "number": "517",
+    "name": "Set Effect Value (18) if lower"
+  },
+  {
+    "number": "518",
+    "name": "Set Effect Value (19) if lower"
+  },
+  {
+    "number": "519",
+    "name": "Set Effect Value (20) if lower"
+  },
+  {
+    "number": "520",
+    "name": "Set Effect Value (21) if lower"
+  },
+  {
+    "number": "521",
+    "name": "Set Effect Value (22) if lower"
+  },
+  {
+    "number": "522",
+    "name": "Set Effect Value (23) if lower"
+  },
+  {
+    "number": "523",
+    "name": "Set Effect Value (24) if lower"
+  },
+  {
+    "number": "524",
+    "name": "Set Effect Value (25) if lower"
+  },
+  {
+    "number": "525",
+    "name": "Set Effect Value (26) if lower"
+  },
+  {
+    "number": "526",
+    "name": "Set Effect Value (27) if lower"
+  },
+  {
+    "number": "527",
+    "name": "Set Effect Value (28) if lower"
+  },
+  {
+    "number": "528",
+    "name": "Set Effect Value (29) if lower"
+  },
+  {
+    "number": "529",
+    "name": "Set Effect Value (30) if lower"
+  },
+  {
+    "number": "530",
+    "name": "Set Effect Value (31) if lower"
+  },
+  {
+    "number": "531",
+    "name": "Set Effect Value (32) if lower"
+  },
+  {
+    "number": "532",
+    "name": "Set Effect Value (33) if lower"
+  },
+  {
+    "number": "533",
+    "name": "Set Effect Value (34) if lower"
+  },
+  {
+    "number": "534",
+    "name": "Set Effect Value (35) if lower"
+  },
+  {
+    "number": "535",
+    "name": "Set Effect Value (36) if lower"
+  },
+  {
+    "number": "536",
+    "name": "Set Effect Value (37) if lower"
+  },
+  {
+    "number": "537",
+    "name": "Set Effect Value (38) if lower"
+  },
+  {
+    "number": "538",
+    "name": "Set Effect Value (39) if lower"
+  },
+  {
+    "number": "539",
+    "name": "Set Effect Value (40) if lower"
+  },
+  {
+    "number": "540",
+    "name": "Set Effect Value (41) if lower"
+  },
+  {
+    "number": "541",
+    "name": "Set Effect Value (42) if lower"
+  },
+  {
+    "number": "542",
+    "name": "Set Effect Value (43) if lower"
+  },
+  {
+    "number": "543",
+    "name": "Set Effect Value (44) if lower"
+  },
+  {
+    "number": "544",
+    "name": "Set Effect Value (45) if lower"
+  },
+  {
+    "number": "545",
+    "name": "Set Effect Value (46) if lower"
+  },
+  {
+    "number": "546",
+    "name": "Set Effect Value (47) if lower"
+  },
+  {
+    "number": "547",
+    "name": "Set Effect Value (48) if lower"
+  },
+  {
+    "number": "548",
+    "name": "Set Effect Value (49) if lower"
+  },
+  {
+    "number": "549",
+    "name": "Set Effect Value (50) if lower"
+  },
+  {
+    "number": "550",
+    "name": "Set Effect Value (51) if lower"
+  },
+  {
+    "number": "551",
+    "name": "Set Effect Value (52) if lower"
+  },
+  {
+    "number": "552",
+    "name": "Set Effect Value (53) if lower"
+  },
+  {
+    "number": "553",
+    "name": "Set Effect Value (54) if lower"
+  },
+  {
+    "number": "554",
+    "name": "Set Effect Value (55) if lower"
+  },
+  {
+    "number": "555",
+    "name": "Set Effect Value (56) if lower"
+  },
+  {
+    "number": "556",
+    "name": "Set Effect Value (57) if lower"
+  },
+  {
+    "number": "557",
+    "name": "Set Effect Value (58) if lower"
+  },
+  {
+    "number": "558",
+    "name": "Set Effect Value (59) if lower"
+  },
+  {
+    "number": "559",
+    "name": "Set Effect Value (60) if lower"
+  },
+  {
+    "number": "560",
+    "name": "Set Effect Value (61) if lower"
+  },
+  {
+    "number": "561",
+    "name": "Set Effect Value (62) if lower"
+  },
+  {
+    "number": "562",
+    "name": "Set Effect Value (63) if lower"
+  },
+  {
+    "number": "563",
+    "name": "Set Effect Value (64) if lower"
+  },
+  {
+    "number": "564",
+    "name": "Set Effect Value (65) if lower"
+  },
+  {
+    "number": "565",
+    "name": "Set Effect Value (66) if lower"
+  },
+  {
+    "number": "566",
+    "name": "Set Effect Value (67) if lower"
+  },
+  {
+    "number": "567",
+    "name": "Set Effect Value (68) if lower"
+  },
+  {
+    "number": "568",
+    "name": "Set Effect Value (69) if lower"
+  },
+  {
+    "number": "569",
+    "name": "Set Effect Value (70) if lower"
+  },
+  {
+    "number": "570",
+    "name": "Set Effect Value (71) if lower"
+  },
+  {
+    "number": "571",
+    "name": "Set Effect Value (72) if lower"
+  },
+  {
+    "number": "572",
+    "name": "Set Effect Value (73) if lower"
+  },
+  {
+    "number": "573",
+    "name": "Set Effect Value (74) if lower"
+  },
+  {
+    "number": "574",
+    "name": "Set Effect Value (75) if lower"
+  },
+  {
+    "number": "575",
+    "name": "Set Effect Value (76) if lower"
+  },
+  {
+    "number": "576",
+    "name": "Set Effect Value (77) if lower"
+  },
+  {
+    "number": "577",
+    "name": "Set Effect Value (78) if lower"
+  },
+  {
+    "number": "578",
+    "name": "Set Effect Value (79) if lower"
+  },
+  {
+    "number": "579",
+    "name": "Set Effect Value (80) if lower"
+  },
+  {
+    "number": "580",
+    "name": "Set Effect Value (81) if lower"
+  },
+  {
+    "number": "581",
+    "name": "Set Effect Value (82) if lower"
+  },
+  {
+    "number": "582",
+    "name": "Set Effect Value (83) if lower"
+  },
+  {
+    "number": "583",
+    "name": "Set Effect Value (84) if lower"
+  },
+  {
+    "number": "584",
+    "name": "Set Effect Value (85) if lower"
+  },
+  {
+    "number": "585",
+    "name": "Set Effect Value (86) if lower"
+  },
+  {
+    "number": "586",
+    "name": "Set Effect Value (87) if lower"
+  },
+  {
+    "number": "587",
+    "name": "Set Effect Value (88) if lower"
+  },
+  {
+    "number": "588",
+    "name": "Set Effect Value (89) if lower"
+  },
+  {
+    "number": "589",
+    "name": "Set Effect Value (90) if lower"
+  },
+  {
+    "number": "590",
+    "name": "Set Effect Value (91) if lower"
+  },
+  {
+    "number": "591",
+    "name": "Set Effect Value (92) if lower"
+  },
+  {
+    "number": "592",
+    "name": "Set Effect Value (93) if lower"
+  },
+  {
+    "number": "593",
+    "name": "Set Effect Value (94) if lower"
+  },
+  {
+    "number": "594",
+    "name": "Set Effect Value (95) if lower"
+  },
+  {
+    "number": "595",
+    "name": "Set Effect Value (96) if lower"
+  },
+  {
+    "number": "596",
+    "name": "Set Effect Value (97) if lower"
+  },
+  {
+    "number": "597",
+    "name": "Set Effect Value (98) if lower"
+  },
+  {
+    "number": "598",
+    "name": "Set Effect Value (99) if lower"
+  },
+  {
+    "number": "599",
+    "name": "Set Effect Value (100) if lower"
+  },
+  {
+    "number": "600",
+    "name": "Add To Effect Value (1)"
+  },
+  {
+    "number": "601",
+    "name": "Add To Effect Value (2)"
+  },
+  {
+    "number": "602",
+    "name": "Add To Effect Value (3)"
+  },
+  {
+    "number": "603",
+    "name": "Add To Effect Value (4)"
+  },
+  {
+    "number": "604",
+    "name": "Add To Effect Value (5)"
+  },
+  {
+    "number": "605",
+    "name": "Add To Effect Value (6)"
+  },
+  {
+    "number": "606",
+    "name": "Add To Effect Value (7)"
+  },
+  {
+    "number": "607",
+    "name": "Add To Effect Value (8)"
+  },
+  {
+    "number": "608",
+    "name": "Add To Effect Value (9)"
+  },
+  {
+    "number": "609",
+    "name": "Add To Effect Value (10)"
+  },
+  {
+    "number": "610",
+    "name": "Add To Effect Value (11)"
+  },
+  {
+    "number": "611",
+    "name": "Add To Effect Value (12)"
+  },
+  {
+    "number": "612",
+    "name": "Add To Effect Value (13)"
+  },
+  {
+    "number": "613",
+    "name": "Add To Effect Value (14)"
+  },
+  {
+    "number": "614",
+    "name": "Add To Effect Value (15)"
+  },
+  {
+    "number": "615",
+    "name": "Add To Effect Value (16)"
+  },
+  {
+    "number": "616",
+    "name": "Add To Effect Value (17)"
+  },
+  {
+    "number": "617",
+    "name": "Add To Effect Value (18)"
+  },
+  {
+    "number": "618",
+    "name": "Add To Effect Value (19)"
+  },
+  {
+    "number": "619",
+    "name": "Add To Effect Value (20)"
+  },
+  {
+    "number": "620",
+    "name": "Add To Effect Value (21)"
+  },
+  {
+    "number": "621",
+    "name": "Add To Effect Value (22)"
+  },
+  {
+    "number": "622",
+    "name": "Add To Effect Value (23)"
+  },
+  {
+    "number": "623",
+    "name": "Add To Effect Value (24)"
+  },
+  {
+    "number": "624",
+    "name": "Add To Effect Value (25)"
+  },
+  {
+    "number": "625",
+    "name": "Add To Effect Value (26)"
+  },
+  {
+    "number": "626",
+    "name": "Add To Effect Value (27)"
+  },
+  {
+    "number": "627",
+    "name": "Add To Effect Value (28)"
+  },
+  {
+    "number": "628",
+    "name": "Add To Effect Value (29)"
+  },
+  {
+    "number": "629",
+    "name": "Add To Effect Value (30)"
+  },
+  {
+    "number": "630",
+    "name": "Add To Effect Value (31)"
+  },
+  {
+    "number": "631",
+    "name": "Add To Effect Value (32)"
+  },
+  {
+    "number": "632",
+    "name": "Add To Effect Value (33)"
+  },
+  {
+    "number": "633",
+    "name": "Add To Effect Value (34)"
+  },
+  {
+    "number": "634",
+    "name": "Add To Effect Value (35)"
+  },
+  {
+    "number": "635",
+    "name": "Add To Effect Value (36)"
+  },
+  {
+    "number": "636",
+    "name": "Add To Effect Value (37)"
+  },
+  {
+    "number": "637",
+    "name": "Add To Effect Value (38)"
+  },
+  {
+    "number": "638",
+    "name": "Add To Effect Value (39)"
+  },
+  {
+    "number": "639",
+    "name": "Add To Effect Value (40)"
+  },
+  {
+    "number": "640",
+    "name": "Add To Effect Value (41)"
+  },
+  {
+    "number": "641",
+    "name": "Add To Effect Value (42)"
+  },
+  {
+    "number": "642",
+    "name": "Add To Effect Value (43)"
+  },
+  {
+    "number": "643",
+    "name": "Add To Effect Value (44)"
+  },
+  {
+    "number": "644",
+    "name": "Add To Effect Value (45)"
+  },
+  {
+    "number": "645",
+    "name": "Add To Effect Value (46)"
+  },
+  {
+    "number": "646",
+    "name": "Add To Effect Value (47)"
+  },
+  {
+    "number": "647",
+    "name": "Add To Effect Value (48)"
+  },
+  {
+    "number": "648",
+    "name": "Add To Effect Value (49)"
+  },
+  {
+    "number": "649",
+    "name": "Add To Effect Value (50)"
+  },
+  {
+    "number": "650",
+    "name": "Add To Effect Value (51)"
+  },
+  {
+    "number": "651",
+    "name": "Add To Effect Value (52)"
+  },
+  {
+    "number": "652",
+    "name": "Add To Effect Value (53)"
+  },
+  {
+    "number": "653",
+    "name": "Add To Effect Value (54)"
+  },
+  {
+    "number": "654",
+    "name": "Add To Effect Value (55)"
+  },
+  {
+    "number": "655",
+    "name": "Add To Effect Value (56)"
+  },
+  {
+    "number": "656",
+    "name": "Add To Effect Value (57)"
+  },
+  {
+    "number": "657",
+    "name": "Add To Effect Value (58)"
+  },
+  {
+    "number": "658",
+    "name": "Add To Effect Value (59)"
+  },
+  {
+    "number": "659",
+    "name": "Add To Effect Value (60)"
+  },
+  {
+    "number": "660",
+    "name": "Add To Effect Value (61)"
+  },
+  {
+    "number": "661",
+    "name": "Add To Effect Value (62)"
+  },
+  {
+    "number": "662",
+    "name": "Add To Effect Value (63)"
+  },
+  {
+    "number": "663",
+    "name": "Add To Effect Value (64)"
+  },
+  {
+    "number": "664",
+    "name": "Add To Effect Value (65)"
+  },
+  {
+    "number": "665",
+    "name": "Add To Effect Value (66)"
+  },
+  {
+    "number": "666",
+    "name": "Add To Effect Value (67)"
+  },
+  {
+    "number": "667",
+    "name": "Add To Effect Value (68)"
+  },
+  {
+    "number": "668",
+    "name": "Add To Effect Value (69)"
+  },
+  {
+    "number": "669",
+    "name": "Add To Effect Value (70)"
+  },
+  {
+    "number": "670",
+    "name": "Add To Effect Value (71)"
+  },
+  {
+    "number": "671",
+    "name": "Add To Effect Value (72)"
+  },
+  {
+    "number": "672",
+    "name": "Add To Effect Value (73)"
+  },
+  {
+    "number": "673",
+    "name": "Add To Effect Value (74)"
+  },
+  {
+    "number": "674",
+    "name": "Add To Effect Value (75)"
+  },
+  {
+    "number": "675",
+    "name": "Add To Effect Value (76)"
+  },
+  {
+    "number": "676",
+    "name": "Add To Effect Value (77)"
+  },
+  {
+    "number": "677",
+    "name": "Add To Effect Value (78)"
+  },
+  {
+    "number": "678",
+    "name": "Add To Effect Value (79)"
+  },
+  {
+    "number": "679",
+    "name": "Add To Effect Value (80)"
+  },
+  {
+    "number": "680",
+    "name": "Add To Effect Value (81)"
+  },
+  {
+    "number": "681",
+    "name": "Add To Effect Value (82)"
+  },
+  {
+    "number": "682",
+    "name": "Add To Effect Value (83)"
+  },
+  {
+    "number": "683",
+    "name": "Add To Effect Value (84)"
+  },
+  {
+    "number": "684",
+    "name": "Add To Effect Value (85)"
+  },
+  {
+    "number": "685",
+    "name": "Add To Effect Value (86)"
+  },
+  {
+    "number": "686",
+    "name": "Add To Effect Value (87)"
+  },
+  {
+    "number": "687",
+    "name": "Add To Effect Value (88)"
+  },
+  {
+    "number": "688",
+    "name": "Add To Effect Value (89)"
+  },
+  {
+    "number": "689",
+    "name": "Add To Effect Value (90)"
+  },
+  {
+    "number": "690",
+    "name": "Add To Effect Value (91)"
+  },
+  {
+    "number": "691",
+    "name": "Add To Effect Value (92)"
+  },
+  {
+    "number": "692",
+    "name": "Add To Effect Value (93)"
+  },
+  {
+    "number": "693",
+    "name": "Add To Effect Value (94)"
+  },
+  {
+    "number": "694",
+    "name": "Add To Effect Value (95)"
+  },
+  {
+    "number": "695",
+    "name": "Add To Effect Value (96)"
+  },
+  {
+    "number": "696",
+    "name": "Add To Effect Value (97)"
+  },
+  {
+    "number": "697",
+    "name": "Add To Effect Value (98)"
+  },
+  {
+    "number": "698",
+    "name": "Add To Effect Value (99)"
+  },
+  {
+    "number": "699",
+    "name": "Add To Effect Value (100)"
+  }
+]

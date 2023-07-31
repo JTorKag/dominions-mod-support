@@ -1,0 +1,254 @@
+[
+  {
+    "bit_value": "1",
+    "bit_name": "Twist Fate"
+  },
+  {
+    "bit_value": "2",
+    "bit_name": "Invulnerability 25"
+  },
+  {
+    "bit_value": "4",
+    "bit_name": "Swiftness"
+  },
+  {
+    "bit_value": "8",
+    "bit_name": "Mossbody"
+  },
+  {
+    "bit_value": "16",
+    "bit_name": "Radiant Fear +0"
+  },
+  {
+    "bit_value": "32",
+    "bit_name": "+5 Defence if underwater"
+  },
+  {
+    "bit_value": "64",
+    "bit_name": "Trample"
+  },
+  {
+    "bit_value": "128",
+    "bit_name": "Magic Power"
+  },
+  {
+    "bit_value": "256",
+    "bit_name": "<Unknown>"
+  },
+  {
+    "bit_value": "512",
+    "bit_name": "Item Nofind"
+  },
+  {
+    "bit_value": "1024",
+    "bit_name": "Pretender"
+  },
+  {
+    "bit_value": "2048",
+    "bit_name": "Soul Vortex"
+  },
+  {
+    "bit_value": "4096",
+    "bit_name": "Earth Power"
+  },
+  {
+    "bit_value": "8192",
+    "bit_name": "Storm Power"
+  },
+  {
+    "bit_value": "16384",
+    "bit_name": "Charged Body 20AN"
+  },
+  {
+    "bit_value": "32768",
+    "bit_name": "Fire Shield"
+  },
+  {
+    "bit_value": "65536",
+    "bit_name": "Mistform"
+  },
+  {
+    "bit_value": "131072",
+    "bit_name": "Hell Power"
+  },
+  {
+    "bit_value": "262144",
+    "bit_name": "Fire Power"
+  },
+  {
+    "bit_value": "524288",
+    "bit_name": "Water Power"
+  },
+  {
+    "bit_value": "1048576",
+    "bit_name": "Nature Power"
+  },
+  {
+    "bit_value": "2097152",
+    "bit_name": "Charge bonus was used"
+  },
+  {
+    "bit_value": "4194304",
+    "bit_name": "Twiceborn"
+  },
+  {
+    "bit_value": "8388608",
+    "bit_name": "Returning"
+  },
+  {
+    "bit_value": "16777216",
+    "bit_name": "Mirrored Image"
+  },
+  {
+    "bit_value": "33554432",
+    "bit_name": "Unholy Power"
+  },
+  {
+    "bit_value": "67108864",
+    "bit_name": "Inner Sun"
+  },
+  {
+    "bit_value": "134217728",
+    "bit_name": "Phoenix Pyre"
+  },
+  {
+    "bit_value": "268435456",
+    "bit_name": "Astral Shield"
+  },
+  {
+    "bit_value": "536870912",
+    "bit_name": "Regeneration 10%"
+  },
+  {
+    "bit_value": "1073741824",
+    "bit_name": "Dragon Mastery"
+  },
+  {
+    "bit_value": "2147483648",
+    "bit_name": "Conservative gem usage enabled"
+  },
+  {
+    "bit_value": "4294967296",
+    "bit_name": "Fool's Luck"
+  },
+  {
+    "bit_value": "8589934592",
+    "bit_name": "Fool's Luck will block next attack"
+  },
+  {
+    "bit_value": "17179869184",
+    "bit_name": "Invulnerability 15"
+  },
+  {
+    "bit_value": "34359738368",
+    "bit_name": "<Unknown>"
+  },
+  {
+    "bit_value": "68719476736",
+    "bit_name": "Reinvigoration"
+  },
+  {
+    "bit_value": "1.37439E+11",
+    "bit_name": "Charge Body 10AN"
+  },
+  {
+    "bit_value": "2.74878E+11",
+    "bit_name": "Blood Surge"
+  },
+  {
+    "bit_value": "5.49756E+11",
+    "bit_name": "Awaken Tattoos"
+  },
+  {
+    "bit_value": "1.09951E+12",
+    "bit_name": "Invulnerability 15 (wolves only)"
+  },
+  {
+    "bit_value": "2.19902E+12",
+    "bit_name": "Rebirth enchantment"
+  },
+  {
+    "bit_value": "4.39805E+12",
+    "bit_name": "<Unknown>"
+  },
+  {
+    "bit_value": "8.79609E+12",
+    "bit_name": "<Unknown>"
+  },
+  {
+    "bit_value": "1.75922E+13",
+    "bit_name": "<Unknown>"
+  },
+  {
+    "bit_value": "3.51844E+13",
+    "bit_name": "<Unknown>"
+  },
+  {
+    "bit_value": "7.03687E+13",
+    "bit_name": "<Unknown>"
+  },
+  {
+    "bit_value": "1.40737E+14",
+    "bit_name": "<Unknown>"
+  },
+  {
+    "bit_value": "2.81475E+14",
+    "bit_name": "<Unknown>"
+  },
+  {
+    "bit_value": "5.6295E+14",
+    "bit_name": "<Unknown>"
+  },
+  {
+    "bit_value": "1.1259E+15",
+    "bit_name": "<Unknown>"
+  },
+  {
+    "bit_value": "2.2518E+15",
+    "bit_name": "<Unknown>"
+  },
+  {
+    "bit_value": "4.5036E+15",
+    "bit_name": "<Unknown>"
+  },
+  {
+    "bit_value": "9.0072E+15",
+    "bit_name": "<Unknown>"
+  },
+  {
+    "bit_value": "1.80144E+16",
+    "bit_name": "<Unknown>"
+  },
+  {
+    "bit_value": "3.60288E+16",
+    "bit_name": "<Unknown>"
+  },
+  {
+    "bit_value": "7.20576E+16",
+    "bit_name": "<Unknown>"
+  },
+  {
+    "bit_value": "1.44115E+17",
+    "bit_name": "<Unknown>"
+  },
+  {
+    "bit_value": "2.8823E+17",
+    "bit_name": "<Unknown>"
+  },
+  {
+    "bit_value": "5.76461E+17",
+    "bit_name": "<Unknown>"
+  },
+  {
+    "bit_value": "1.15292E+18",
+    "bit_name": "<Unknown>"
+  },
+  {
+    "bit_value": "2.30584E+18",
+    "bit_name": "<Unknown>"
+  },
+  {
+    "bit_value": "4.61169E+18",
+    "bit_name": "<Unknown>"
+  }
+]

@@ -1,0 +1,802 @@
+[
+  {
+    "id": "100",
+    "description": "Misc male"
+  },
+  {
+    "id": "101",
+    "description": "Abysian"
+  },
+  {
+    "id": "102",
+    "description": "Man male"
+  },
+  {
+    "id": "103",
+    "description": "Man female"
+  },
+  {
+    "id": "104",
+    "description": "Ulm male"
+  },
+  {
+    "id": "105",
+    "description": "Undead"
+  },
+  {
+    "id": "106",
+    "description": "Pythium male"
+  },
+  {
+    "id": "107",
+    "description": "Arcoscephale male"
+  },
+  {
+    "id": "108",
+    "description": "Arcoscephale female"
+  },
+  {
+    "id": "109",
+    "description": "Pangaea male"
+  },
+  {
+    "id": "110",
+    "description": "Pangaea female"
+  },
+  {
+    "id": "111",
+    "description": "Caelum male"
+  },
+  {
+    "id": "112",
+    "description": "Caelum female"
+  },
+  {
+    "id": "113",
+    "description": "C\u2019tis male"
+  },
+  {
+    "id": "114",
+    "description": "Marignon male"
+  },
+  {
+    "id": "115",
+    "description": "Jotunheim male"
+  },
+  {
+    "id": "116",
+    "description": "Jotunheim female"
+  },
+  {
+    "id": "117",
+    "description": "Deep One"
+  },
+  {
+    "id": "118",
+    "description": "Pythium female"
+  },
+  {
+    "id": "119",
+    "description": "Misc female"
+  },
+  {
+    "id": "120",
+    "description": "C'tis female"
+  },
+  {
+    "id": "121",
+    "description": "T'ien Chi male"
+  },
+  {
+    "id": "122",
+    "description": "T'ien Chi female"
+  },
+  {
+    "id": "123",
+    "description": "Mictlan male"
+  },
+  {
+    "id": "124",
+    "description": "Mictlan female"
+  },
+  {
+    "id": "125",
+    "description": "Machaka female"
+  },
+  {
+    "id": "126",
+    "description": "Machaka male"
+  },
+  {
+    "id": "127",
+    "description": "Custom name list"
+  },
+  {
+    "id": "128",
+    "description": "Custom name list"
+  },
+  {
+    "id": "129",
+    "description": "Monkey male"
+  },
+  {
+    "id": "130",
+    "description": "Monkey female"
+  },
+  {
+    "id": "131",
+    "description": "EA Ulm male"
+  },
+  {
+    "id": "132",
+    "description": "EA Ulm female"
+  },
+  {
+    "id": "133",
+    "description": "Japanese female"
+  },
+  {
+    "id": "134",
+    "description": "Japanese male"
+  },
+  {
+    "id": "135",
+    "description": "Amazon"
+  },
+  {
+    "id": "136",
+    "description": "Sauromatia"
+  },
+  {
+    "id": "137",
+    "description": "Marverni male"
+  },
+  {
+    "id": "138",
+    "description": "Marverni female"
+  },
+  {
+    "id": "139",
+    "description": "Angels"
+  },
+  {
+    "id": "140",
+    "description": "Demons"
+  },
+  {
+    "id": "141",
+    "description": "Inuit"
+  },
+  {
+    "id": "142",
+    "description": "Tir na n\u2018Og male"
+  },
+  {
+    "id": "143",
+    "description": "Tir na n\u2018Og female"
+  },
+  {
+    "id": "144",
+    "description": "Nature beasts"
+  },
+  {
+    "id": "145",
+    "description": "Wooden beasts"
+  },
+  {
+    "id": "146",
+    "description": "Rus male"
+  },
+  {
+    "id": "147",
+    "description": "Rus female"
+  },
+  {
+    "id": "148",
+    "description": "Gath male"
+  },
+  {
+    "id": "149",
+    "description": "Rephaim"
+  },
+  {
+    "id": "150",
+    "description": "Gath/Rephaim female"
+  },
+  {
+    "id": "151",
+    "description": "Ur male"
+  },
+  {
+    "id": "152",
+    "description": "Ur female"
+  },
+  {
+    "id": "153",
+    "description": "Reserved"
+  },
+  {
+    "id": "154",
+    "description": "Reserved"
+  },
+  {
+    "id": "155",
+    "description": "Reserved"
+  },
+  {
+    "id": "156",
+    "description": "Reserved"
+  },
+  {
+    "id": "157",
+    "description": "Reserved"
+  },
+  {
+    "id": "158",
+    "description": "Reserved"
+  },
+  {
+    "id": "159",
+    "description": "Reserved"
+  },
+  {
+    "id": "160",
+    "description": "Reserved"
+  },
+  {
+    "id": "161",
+    "description": "Custom name list"
+  },
+  {
+    "id": "162",
+    "description": "Custom name list"
+  },
+  {
+    "id": "163",
+    "description": "Custom name list"
+  },
+  {
+    "id": "164",
+    "description": "Custom name list"
+  },
+  {
+    "id": "165",
+    "description": "Custom name list"
+  },
+  {
+    "id": "166",
+    "description": "Custom name list"
+  },
+  {
+    "id": "167",
+    "description": "Custom name list"
+  },
+  {
+    "id": "168",
+    "description": "Custom name list"
+  },
+  {
+    "id": "169",
+    "description": "Custom name list"
+  },
+  {
+    "id": "170",
+    "description": "Custom name list"
+  },
+  {
+    "id": "171",
+    "description": "Custom name list"
+  },
+  {
+    "id": "172",
+    "description": "Custom name list"
+  },
+  {
+    "id": "173",
+    "description": "Custom name list"
+  },
+  {
+    "id": "174",
+    "description": "Custom name list"
+  },
+  {
+    "id": "175",
+    "description": "Custom name list"
+  },
+  {
+    "id": "176",
+    "description": "Custom name list"
+  },
+  {
+    "id": "177",
+    "description": "Custom name list"
+  },
+  {
+    "id": "178",
+    "description": "Custom name list"
+  },
+  {
+    "id": "179",
+    "description": "Custom name list"
+  },
+  {
+    "id": "180",
+    "description": "Custom name list"
+  },
+  {
+    "id": "181",
+    "description": "Custom name list"
+  },
+  {
+    "id": "182",
+    "description": "Custom name list"
+  },
+  {
+    "id": "183",
+    "description": "Custom name list"
+  },
+  {
+    "id": "184",
+    "description": "Custom name list"
+  },
+  {
+    "id": "185",
+    "description": "Custom name list"
+  },
+  {
+    "id": "186",
+    "description": "Custom name list"
+  },
+  {
+    "id": "187",
+    "description": "Custom name list"
+  },
+  {
+    "id": "188",
+    "description": "Custom name list"
+  },
+  {
+    "id": "189",
+    "description": "Custom name list"
+  },
+  {
+    "id": "190",
+    "description": "Custom name list"
+  },
+  {
+    "id": "191",
+    "description": "Custom name list"
+  },
+  {
+    "id": "192",
+    "description": "Custom name list"
+  },
+  {
+    "id": "193",
+    "description": "Custom name list"
+  },
+  {
+    "id": "194",
+    "description": "Custom name list"
+  },
+  {
+    "id": "195",
+    "description": "Custom name list"
+  },
+  {
+    "id": "196",
+    "description": "Custom name list"
+  },
+  {
+    "id": "197",
+    "description": "Custom name list"
+  },
+  {
+    "id": "198",
+    "description": "Custom name list"
+  },
+  {
+    "id": "199",
+    "description": "Custom name list"
+  },
+  {
+    "id": "200",
+    "description": "Custom name list"
+  },
+  {
+    "id": "201",
+    "description": "Custom name list"
+  },
+  {
+    "id": "202",
+    "description": "Custom name list"
+  },
+  {
+    "id": "203",
+    "description": "Custom name list"
+  },
+  {
+    "id": "204",
+    "description": "Custom name list"
+  },
+  {
+    "id": "205",
+    "description": "Custom name list"
+  },
+  {
+    "id": "206",
+    "description": "Custom name list"
+  },
+  {
+    "id": "207",
+    "description": "Custom name list"
+  },
+  {
+    "id": "208",
+    "description": "Custom name list"
+  },
+  {
+    "id": "209",
+    "description": "Custom name list"
+  },
+  {
+    "id": "210",
+    "description": "Custom name list"
+  },
+  {
+    "id": "211",
+    "description": "Custom name list"
+  },
+  {
+    "id": "212",
+    "description": "Custom name list"
+  },
+  {
+    "id": "213",
+    "description": "Custom name list"
+  },
+  {
+    "id": "214",
+    "description": "Custom name list"
+  },
+  {
+    "id": "215",
+    "description": "Custom name list"
+  },
+  {
+    "id": "216",
+    "description": "Custom name list"
+  },
+  {
+    "id": "217",
+    "description": "Custom name list"
+  },
+  {
+    "id": "218",
+    "description": "Custom name list"
+  },
+  {
+    "id": "219",
+    "description": "Custom name list"
+  },
+  {
+    "id": "220",
+    "description": "Custom name list"
+  },
+  {
+    "id": "221",
+    "description": "Custom name list"
+  },
+  {
+    "id": "222",
+    "description": "Custom name list"
+  },
+  {
+    "id": "223",
+    "description": "Custom name list"
+  },
+  {
+    "id": "224",
+    "description": "Custom name list"
+  },
+  {
+    "id": "225",
+    "description": "Custom name list"
+  },
+  {
+    "id": "226",
+    "description": "Custom name list"
+  },
+  {
+    "id": "227",
+    "description": "Custom name list"
+  },
+  {
+    "id": "228",
+    "description": "Custom name list"
+  },
+  {
+    "id": "229",
+    "description": "Custom name list"
+  },
+  {
+    "id": "230",
+    "description": "Custom name list"
+  },
+  {
+    "id": "231",
+    "description": "Custom name list"
+  },
+  {
+    "id": "232",
+    "description": "Custom name list"
+  },
+  {
+    "id": "233",
+    "description": "Custom name list"
+  },
+  {
+    "id": "234",
+    "description": "Custom name list"
+  },
+  {
+    "id": "235",
+    "description": "Custom name list"
+  },
+  {
+    "id": "236",
+    "description": "Custom name list"
+  },
+  {
+    "id": "237",
+    "description": "Custom name list"
+  },
+  {
+    "id": "238",
+    "description": "Custom name list"
+  },
+  {
+    "id": "239",
+    "description": "Custom name list"
+  },
+  {
+    "id": "240",
+    "description": "Custom name list"
+  },
+  {
+    "id": "241",
+    "description": "Custom name list"
+  },
+  {
+    "id": "242",
+    "description": "Custom name list"
+  },
+  {
+    "id": "243",
+    "description": "Custom name list"
+  },
+  {
+    "id": "244",
+    "description": "Custom name list"
+  },
+  {
+    "id": "245",
+    "description": "Custom name list"
+  },
+  {
+    "id": "246",
+    "description": "Custom name list"
+  },
+  {
+    "id": "247",
+    "description": "Custom name list"
+  },
+  {
+    "id": "248",
+    "description": "Custom name list"
+  },
+  {
+    "id": "249",
+    "description": "Custom name list"
+  },
+  {
+    "id": "250",
+    "description": "Custom name list"
+  },
+  {
+    "id": "251",
+    "description": "Custom name list"
+  },
+  {
+    "id": "252",
+    "description": "Custom name list"
+  },
+  {
+    "id": "253",
+    "description": "Custom name list"
+  },
+  {
+    "id": "254",
+    "description": "Custom name list"
+  },
+  {
+    "id": "255",
+    "description": "Custom name list"
+  },
+  {
+    "id": "256",
+    "description": "Custom name list"
+  },
+  {
+    "id": "257",
+    "description": "Custom name list"
+  },
+  {
+    "id": "258",
+    "description": "Custom name list"
+  },
+  {
+    "id": "259",
+    "description": "Custom name list"
+  },
+  {
+    "id": "260",
+    "description": "Custom name list"
+  },
+  {
+    "id": "261",
+    "description": "Custom name list"
+  },
+  {
+    "id": "262",
+    "description": "Custom name list"
+  },
+  {
+    "id": "263",
+    "description": "Custom name list"
+  },
+  {
+    "id": "264",
+    "description": "Custom name list"
+  },
+  {
+    "id": "265",
+    "description": "Custom name list"
+  },
+  {
+    "id": "266",
+    "description": "Custom name list"
+  },
+  {
+    "id": "267",
+    "description": "Custom name list"
+  },
+  {
+    "id": "268",
+    "description": "Custom name list"
+  },
+  {
+    "id": "269",
+    "description": "Custom name list"
+  },
+  {
+    "id": "270",
+    "description": "Custom name list"
+  },
+  {
+    "id": "271",
+    "description": "Custom name list"
+  },
+  {
+    "id": "272",
+    "description": "Custom name list"
+  },
+  {
+    "id": "273",
+    "description": "Custom name list"
+  },
+  {
+    "id": "274",
+    "description": "Custom name list"
+  },
+  {
+    "id": "275",
+    "description": "Custom name list"
+  },
+  {
+    "id": "276",
+    "description": "Custom name list"
+  },
+  {
+    "id": "277",
+    "description": "Custom name list"
+  },
+  {
+    "id": "278",
+    "description": "Custom name list"
+  },
+  {
+    "id": "279",
+    "description": "Custom name list"
+  },
+  {
+    "id": "280",
+    "description": "Custom name list"
+  },
+  {
+    "id": "281",
+    "description": "Custom name list"
+  },
+  {
+    "id": "282",
+    "description": "Custom name list"
+  },
+  {
+    "id": "283",
+    "description": "Custom name list"
+  },
+  {
+    "id": "284",
+    "description": "Custom name list"
+  },
+  {
+    "id": "285",
+    "description": "Custom name list"
+  },
+  {
+    "id": "286",
+    "description": "Custom name list"
+  },
+  {
+    "id": "287",
+    "description": "Custom name list"
+  },
+  {
+    "id": "288",
+    "description": "Custom name list"
+  },
+  {
+    "id": "289",
+    "description": "Custom name list"
+  },
+  {
+    "id": "290",
+    "description": "Custom name list"
+  },
+  {
+    "id": "291",
+    "description": "Custom name list"
+  },
+  {
+    "id": "292",
+    "description": "Custom name list"
+  },
+  {
+    "id": "293",
+    "description": "Custom name list"
+  },
+  {
+    "id": "294",
+    "description": "Custom name list"
+  },
+  {
+    "id": "295",
+    "description": "Custom name list"
+  },
+  {
+    "id": "296",
+    "description": "Custom name list"
+  },
+  {
+    "id": "297",
+    "description": "Custom name list"
+  },
+  {
+    "id": "298",
+    "description": "Custom name list"
+  },
+  {
+    "id": "299",
+    "description": "Custom name list"
+  }
+]

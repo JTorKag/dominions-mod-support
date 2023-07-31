@@ -1,0 +1,5487 @@
+[
+  {
+    "spell_number": "6",
+    "attribute": "720",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "31",
+    "attribute": "720",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "31",
+    "attribute": "721",
+    "raw_value": "89"
+  },
+  {
+    "spell_number": "57",
+    "attribute": "708",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "94",
+    "attribute": "700",
+    "raw_value": "5"
+  },
+  {
+    "spell_number": "150",
+    "attribute": "735",
+    "raw_value": "3"
+  },
+  {
+    "spell_number": "151",
+    "attribute": "722",
+    "raw_value": "-1"
+  },
+  {
+    "spell_number": "151",
+    "attribute": "722",
+    "raw_value": "7"
+  },
+  {
+    "spell_number": "152",
+    "attribute": "722",
+    "raw_value": "0"
+  },
+  {
+    "spell_number": "154",
+    "attribute": "722",
+    "raw_value": "2"
+  },
+  {
+    "spell_number": "156",
+    "attribute": "722",
+    "raw_value": "3"
+  },
+  {
+    "spell_number": "158",
+    "attribute": "722",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "160",
+    "attribute": "722",
+    "raw_value": "6"
+  },
+  {
+    "spell_number": "161",
+    "attribute": "722",
+    "raw_value": "5"
+  },
+  {
+    "spell_number": "163",
+    "attribute": "722",
+    "raw_value": "4"
+  },
+  {
+    "spell_number": "165",
+    "attribute": "735",
+    "raw_value": "4"
+  },
+  {
+    "spell_number": "170",
+    "attribute": "722",
+    "raw_value": "-1"
+  },
+  {
+    "spell_number": "171",
+    "attribute": "722",
+    "raw_value": "0"
+  },
+  {
+    "spell_number": "173",
+    "attribute": "722",
+    "raw_value": "2"
+  },
+  {
+    "spell_number": "175",
+    "attribute": "722",
+    "raw_value": "3"
+  },
+  {
+    "spell_number": "177",
+    "attribute": "722",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "179",
+    "attribute": "722",
+    "raw_value": "4"
+  },
+  {
+    "spell_number": "181",
+    "attribute": "722",
+    "raw_value": "5"
+  },
+  {
+    "spell_number": "184",
+    "attribute": "722",
+    "raw_value": "6"
+  },
+  {
+    "spell_number": "187",
+    "attribute": "722",
+    "raw_value": "7"
+  },
+  {
+    "spell_number": "193",
+    "attribute": "723",
+    "raw_value": "50"
+  },
+  {
+    "spell_number": "196",
+    "attribute": "723",
+    "raw_value": "50"
+  },
+  {
+    "spell_number": "197",
+    "attribute": "723",
+    "raw_value": "50"
+  },
+  {
+    "spell_number": "199",
+    "attribute": "278",
+    "raw_value": "108"
+  },
+  {
+    "spell_number": "199",
+    "attribute": "278",
+    "raw_value": "105"
+  },
+  {
+    "spell_number": "199",
+    "attribute": "278",
+    "raw_value": "143"
+  },
+  {
+    "spell_number": "199",
+    "attribute": "278",
+    "raw_value": "180"
+  },
+  {
+    "spell_number": "199",
+    "attribute": "278",
+    "raw_value": "116"
+  },
+  {
+    "spell_number": "199",
+    "attribute": "278",
+    "raw_value": "158"
+  },
+  {
+    "spell_number": "199",
+    "attribute": "278",
+    "raw_value": "194"
+  },
+  {
+    "spell_number": "199",
+    "attribute": "700",
+    "raw_value": "5"
+  },
+  {
+    "spell_number": "199",
+    "attribute": "704",
+    "raw_value": "4"
+  },
+  {
+    "spell_number": "200",
+    "attribute": "278",
+    "raw_value": "181"
+  },
+  {
+    "spell_number": "201",
+    "attribute": "278",
+    "raw_value": "109"
+  },
+  {
+    "spell_number": "201",
+    "attribute": "278",
+    "raw_value": "181"
+  },
+  {
+    "spell_number": "202",
+    "attribute": "278",
+    "raw_value": "181"
+  },
+  {
+    "spell_number": "203",
+    "attribute": "702",
+    "raw_value": "128"
+  },
+  {
+    "spell_number": "203",
+    "attribute": "278",
+    "raw_value": "105"
+  },
+  {
+    "spell_number": "203",
+    "attribute": "278",
+    "raw_value": "143"
+  },
+  {
+    "spell_number": "203",
+    "attribute": "278",
+    "raw_value": "180"
+  },
+  {
+    "spell_number": "203",
+    "attribute": "278",
+    "raw_value": "116"
+  },
+  {
+    "spell_number": "203",
+    "attribute": "278",
+    "raw_value": "158"
+  },
+  {
+    "spell_number": "203",
+    "attribute": "278",
+    "raw_value": "194"
+  },
+  {
+    "spell_number": "203",
+    "attribute": "278",
+    "raw_value": "146"
+  },
+  {
+    "spell_number": "203",
+    "attribute": "278",
+    "raw_value": "181"
+  },
+  {
+    "spell_number": "204",
+    "attribute": "278",
+    "raw_value": "106"
+  },
+  {
+    "spell_number": "204",
+    "attribute": "278",
+    "raw_value": "146"
+  },
+  {
+    "spell_number": "204",
+    "attribute": "278",
+    "raw_value": "181"
+  },
+  {
+    "spell_number": "205",
+    "attribute": "278",
+    "raw_value": "108"
+  },
+  {
+    "spell_number": "205",
+    "attribute": "278",
+    "raw_value": "109"
+  },
+  {
+    "spell_number": "206",
+    "attribute": "278",
+    "raw_value": "108"
+  },
+  {
+    "spell_number": "207",
+    "attribute": "278",
+    "raw_value": "108"
+  },
+  {
+    "spell_number": "208",
+    "attribute": "278",
+    "raw_value": "152"
+  },
+  {
+    "spell_number": "208",
+    "attribute": "278",
+    "raw_value": "110"
+  },
+  {
+    "spell_number": "209",
+    "attribute": "278",
+    "raw_value": "152"
+  },
+  {
+    "spell_number": "210",
+    "attribute": "278",
+    "raw_value": "152"
+  },
+  {
+    "spell_number": "210",
+    "attribute": "278",
+    "raw_value": "187"
+  },
+  {
+    "spell_number": "210",
+    "attribute": "278",
+    "raw_value": "110"
+  },
+  {
+    "spell_number": "211",
+    "attribute": "278",
+    "raw_value": "127"
+  },
+  {
+    "spell_number": "211",
+    "attribute": "731",
+    "raw_value": "3069"
+  },
+  {
+    "spell_number": "211",
+    "attribute": "732",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "212",
+    "attribute": "278",
+    "raw_value": "127"
+  },
+  {
+    "spell_number": "212",
+    "attribute": "731",
+    "raw_value": "3070"
+  },
+  {
+    "spell_number": "212",
+    "attribute": "732",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "213",
+    "attribute": "278",
+    "raw_value": "127"
+  },
+  {
+    "spell_number": "214",
+    "attribute": "278",
+    "raw_value": "127"
+  },
+  {
+    "spell_number": "215",
+    "attribute": "278",
+    "raw_value": "189"
+  },
+  {
+    "spell_number": "216",
+    "attribute": "278",
+    "raw_value": "189"
+  },
+  {
+    "spell_number": "217",
+    "attribute": "278",
+    "raw_value": "189"
+  },
+  {
+    "spell_number": "218",
+    "attribute": "278",
+    "raw_value": "189"
+  },
+  {
+    "spell_number": "219",
+    "attribute": "278",
+    "raw_value": "189"
+  },
+  {
+    "spell_number": "220",
+    "attribute": "278",
+    "raw_value": "127"
+  },
+  {
+    "spell_number": "221",
+    "attribute": "278",
+    "raw_value": "189"
+  },
+  {
+    "spell_number": "222",
+    "attribute": "278",
+    "raw_value": "189"
+  },
+  {
+    "spell_number": "222",
+    "attribute": "702",
+    "raw_value": "128"
+  },
+  {
+    "spell_number": "223",
+    "attribute": "278",
+    "raw_value": "189"
+  },
+  {
+    "spell_number": "224",
+    "attribute": "278",
+    "raw_value": "189"
+  },
+  {
+    "spell_number": "225",
+    "attribute": "278",
+    "raw_value": "189"
+  },
+  {
+    "spell_number": "226",
+    "attribute": "278",
+    "raw_value": "189"
+  },
+  {
+    "spell_number": "227",
+    "attribute": "278",
+    "raw_value": "189"
+  },
+  {
+    "spell_number": "227",
+    "attribute": "278",
+    "raw_value": "164"
+  },
+  {
+    "spell_number": "227",
+    "attribute": "278",
+    "raw_value": "127"
+  },
+  {
+    "spell_number": "228",
+    "attribute": "278",
+    "raw_value": "189"
+  },
+  {
+    "spell_number": "228",
+    "attribute": "702",
+    "raw_value": "4194320"
+  },
+  {
+    "spell_number": "229",
+    "attribute": "278",
+    "raw_value": "191"
+  },
+  {
+    "spell_number": "230",
+    "attribute": "278",
+    "raw_value": "191"
+  },
+  {
+    "spell_number": "231",
+    "attribute": "278",
+    "raw_value": "155"
+  },
+  {
+    "spell_number": "231",
+    "attribute": "278",
+    "raw_value": "113"
+  },
+  {
+    "spell_number": "232",
+    "attribute": "278",
+    "raw_value": "113"
+  },
+  {
+    "spell_number": "232",
+    "attribute": "278",
+    "raw_value": "155"
+  },
+  {
+    "spell_number": "232",
+    "attribute": "278",
+    "raw_value": "191"
+  },
+  {
+    "spell_number": "232",
+    "attribute": "278",
+    "raw_value": "115"
+  },
+  {
+    "spell_number": "232",
+    "attribute": "278",
+    "raw_value": "157"
+  },
+  {
+    "spell_number": "232",
+    "attribute": "278",
+    "raw_value": "193"
+  },
+  {
+    "spell_number": "233",
+    "attribute": "278",
+    "raw_value": "155"
+  },
+  {
+    "spell_number": "233",
+    "attribute": "278",
+    "raw_value": "191"
+  },
+  {
+    "spell_number": "233",
+    "attribute": "278",
+    "raw_value": "113"
+  },
+  {
+    "spell_number": "234",
+    "attribute": "278",
+    "raw_value": "113"
+  },
+  {
+    "spell_number": "234",
+    "attribute": "278",
+    "raw_value": "155"
+  },
+  {
+    "spell_number": "234",
+    "attribute": "278",
+    "raw_value": "191"
+  },
+  {
+    "spell_number": "235",
+    "attribute": "278",
+    "raw_value": "124"
+  },
+  {
+    "spell_number": "236",
+    "attribute": "278",
+    "raw_value": "124"
+  },
+  {
+    "spell_number": "236",
+    "attribute": "278",
+    "raw_value": "162"
+  },
+  {
+    "spell_number": "236",
+    "attribute": "278",
+    "raw_value": "197"
+  },
+  {
+    "spell_number": "237",
+    "attribute": "278",
+    "raw_value": "124"
+  },
+  {
+    "spell_number": "237",
+    "attribute": "278",
+    "raw_value": "162"
+  },
+  {
+    "spell_number": "237",
+    "attribute": "278",
+    "raw_value": "197"
+  },
+  {
+    "spell_number": "238",
+    "attribute": "278",
+    "raw_value": "124"
+  },
+  {
+    "spell_number": "238",
+    "attribute": "278",
+    "raw_value": "162"
+  },
+  {
+    "spell_number": "238",
+    "attribute": "278",
+    "raw_value": "197"
+  },
+  {
+    "spell_number": "238",
+    "attribute": "700",
+    "raw_value": "5"
+  },
+  {
+    "spell_number": "238",
+    "attribute": "704",
+    "raw_value": "4"
+  },
+  {
+    "spell_number": "239",
+    "attribute": "278",
+    "raw_value": "124"
+  },
+  {
+    "spell_number": "239",
+    "attribute": "278",
+    "raw_value": "162"
+  },
+  {
+    "spell_number": "239",
+    "attribute": "278",
+    "raw_value": "197"
+  },
+  {
+    "spell_number": "240",
+    "attribute": "278",
+    "raw_value": "124"
+  },
+  {
+    "spell_number": "240",
+    "attribute": "278",
+    "raw_value": "162"
+  },
+  {
+    "spell_number": "240",
+    "attribute": "278",
+    "raw_value": "197"
+  },
+  {
+    "spell_number": "240",
+    "attribute": "700",
+    "raw_value": "4"
+  },
+  {
+    "spell_number": "240",
+    "attribute": "701",
+    "raw_value": "4"
+  },
+  {
+    "spell_number": "241",
+    "attribute": "278",
+    "raw_value": "124"
+  },
+  {
+    "spell_number": "241",
+    "attribute": "278",
+    "raw_value": "162"
+  },
+  {
+    "spell_number": "241",
+    "attribute": "278",
+    "raw_value": "197"
+  },
+  {
+    "spell_number": "242",
+    "attribute": "278",
+    "raw_value": "124"
+  },
+  {
+    "spell_number": "242",
+    "attribute": "278",
+    "raw_value": "162"
+  },
+  {
+    "spell_number": "242",
+    "attribute": "278",
+    "raw_value": "197"
+  },
+  {
+    "spell_number": "243",
+    "attribute": "278",
+    "raw_value": "124"
+  },
+  {
+    "spell_number": "243",
+    "attribute": "278",
+    "raw_value": "162"
+  },
+  {
+    "spell_number": "243",
+    "attribute": "278",
+    "raw_value": "197"
+  },
+  {
+    "spell_number": "244",
+    "attribute": "278",
+    "raw_value": "124"
+  },
+  {
+    "spell_number": "244",
+    "attribute": "278",
+    "raw_value": "162"
+  },
+  {
+    "spell_number": "244",
+    "attribute": "278",
+    "raw_value": "197"
+  },
+  {
+    "spell_number": "245",
+    "attribute": "278",
+    "raw_value": "124"
+  },
+  {
+    "spell_number": "245",
+    "attribute": "278",
+    "raw_value": "162"
+  },
+  {
+    "spell_number": "245",
+    "attribute": "278",
+    "raw_value": "197"
+  },
+  {
+    "spell_number": "245",
+    "attribute": "700",
+    "raw_value": "4"
+  },
+  {
+    "spell_number": "245",
+    "attribute": "701",
+    "raw_value": "4"
+  },
+  {
+    "spell_number": "246",
+    "attribute": "278",
+    "raw_value": "124"
+  },
+  {
+    "spell_number": "246",
+    "attribute": "278",
+    "raw_value": "162"
+  },
+  {
+    "spell_number": "246",
+    "attribute": "278",
+    "raw_value": "197"
+  },
+  {
+    "spell_number": "247",
+    "attribute": "278",
+    "raw_value": "124"
+  },
+  {
+    "spell_number": "247",
+    "attribute": "278",
+    "raw_value": "162"
+  },
+  {
+    "spell_number": "247",
+    "attribute": "278",
+    "raw_value": "197"
+  },
+  {
+    "spell_number": "248",
+    "attribute": "278",
+    "raw_value": "124"
+  },
+  {
+    "spell_number": "248",
+    "attribute": "278",
+    "raw_value": "162"
+  },
+  {
+    "spell_number": "248",
+    "attribute": "278",
+    "raw_value": "197"
+  },
+  {
+    "spell_number": "248",
+    "attribute": "702",
+    "raw_value": "4194320"
+  },
+  {
+    "spell_number": "249",
+    "attribute": "278",
+    "raw_value": "124"
+  },
+  {
+    "spell_number": "249",
+    "attribute": "278",
+    "raw_value": "162"
+  },
+  {
+    "spell_number": "249",
+    "attribute": "278",
+    "raw_value": "197"
+  },
+  {
+    "spell_number": "249",
+    "attribute": "702",
+    "raw_value": "4194320"
+  },
+  {
+    "spell_number": "250",
+    "attribute": "278",
+    "raw_value": "124"
+  },
+  {
+    "spell_number": "250",
+    "attribute": "278",
+    "raw_value": "162"
+  },
+  {
+    "spell_number": "250",
+    "attribute": "278",
+    "raw_value": "197"
+  },
+  {
+    "spell_number": "250",
+    "attribute": "702",
+    "raw_value": "128"
+  },
+  {
+    "spell_number": "251",
+    "attribute": "278",
+    "raw_value": "116"
+  },
+  {
+    "spell_number": "251",
+    "attribute": "278",
+    "raw_value": "159"
+  },
+  {
+    "spell_number": "251",
+    "attribute": "278",
+    "raw_value": "139"
+  },
+  {
+    "spell_number": "251",
+    "attribute": "278",
+    "raw_value": "176"
+  },
+  {
+    "spell_number": "251",
+    "attribute": "702",
+    "raw_value": "132"
+  },
+  {
+    "spell_number": "251",
+    "attribute": "703",
+    "raw_value": "2048"
+  },
+  {
+    "spell_number": "252",
+    "attribute": "278",
+    "raw_value": "158"
+  },
+  {
+    "spell_number": "252",
+    "attribute": "278",
+    "raw_value": "194"
+  },
+  {
+    "spell_number": "252",
+    "attribute": "702",
+    "raw_value": "132"
+  },
+  {
+    "spell_number": "252",
+    "attribute": "703",
+    "raw_value": "2048"
+  },
+  {
+    "spell_number": "253",
+    "attribute": "278",
+    "raw_value": "115"
+  },
+  {
+    "spell_number": "253",
+    "attribute": "278",
+    "raw_value": "157"
+  },
+  {
+    "spell_number": "253",
+    "attribute": "278",
+    "raw_value": "193"
+  },
+  {
+    "spell_number": "254",
+    "attribute": "602",
+    "raw_value": "8"
+  },
+  {
+    "spell_number": "254",
+    "attribute": "278",
+    "raw_value": "111"
+  },
+  {
+    "spell_number": "254",
+    "attribute": "278",
+    "raw_value": "153"
+  },
+  {
+    "spell_number": "254",
+    "attribute": "278",
+    "raw_value": "130"
+  },
+  {
+    "spell_number": "254",
+    "attribute": "278",
+    "raw_value": "200"
+  },
+  {
+    "spell_number": "255",
+    "attribute": "278",
+    "raw_value": "130"
+  },
+  {
+    "spell_number": "256",
+    "attribute": "278",
+    "raw_value": "165"
+  },
+  {
+    "spell_number": "256",
+    "attribute": "278",
+    "raw_value": "199"
+  },
+  {
+    "spell_number": "257",
+    "attribute": "278",
+    "raw_value": "199"
+  },
+  {
+    "spell_number": "257",
+    "attribute": "702",
+    "raw_value": "64"
+  },
+  {
+    "spell_number": "258",
+    "attribute": "278",
+    "raw_value": "165"
+  },
+  {
+    "spell_number": "259",
+    "attribute": "278",
+    "raw_value": "165"
+  },
+  {
+    "spell_number": "260",
+    "attribute": "278",
+    "raw_value": "199"
+  },
+  {
+    "spell_number": "260",
+    "attribute": "278",
+    "raw_value": "130"
+  },
+  {
+    "spell_number": "260",
+    "attribute": "702",
+    "raw_value": "64"
+  },
+  {
+    "spell_number": "261",
+    "attribute": "278",
+    "raw_value": "165"
+  },
+  {
+    "spell_number": "261",
+    "attribute": "278",
+    "raw_value": "128"
+  },
+  {
+    "spell_number": "261",
+    "attribute": "702",
+    "raw_value": "64"
+  },
+  {
+    "spell_number": "262",
+    "attribute": "278",
+    "raw_value": "199"
+  },
+  {
+    "spell_number": "262",
+    "attribute": "278",
+    "raw_value": "165"
+  },
+  {
+    "spell_number": "262",
+    "attribute": "278",
+    "raw_value": "128"
+  },
+  {
+    "spell_number": "262",
+    "attribute": "278",
+    "raw_value": "130"
+  },
+  {
+    "spell_number": "262",
+    "attribute": "702",
+    "raw_value": "64"
+  },
+  {
+    "spell_number": "263",
+    "attribute": "278",
+    "raw_value": "199"
+  },
+  {
+    "spell_number": "263",
+    "attribute": "278",
+    "raw_value": "165"
+  },
+  {
+    "spell_number": "263",
+    "attribute": "278",
+    "raw_value": "171"
+  },
+  {
+    "spell_number": "264",
+    "attribute": "278",
+    "raw_value": "199"
+  },
+  {
+    "spell_number": "264",
+    "attribute": "278",
+    "raw_value": "165"
+  },
+  {
+    "spell_number": "264",
+    "attribute": "278",
+    "raw_value": "171"
+  },
+  {
+    "spell_number": "265",
+    "attribute": "278",
+    "raw_value": "199"
+  },
+  {
+    "spell_number": "265",
+    "attribute": "278",
+    "raw_value": "165"
+  },
+  {
+    "spell_number": "265",
+    "attribute": "278",
+    "raw_value": "171"
+  },
+  {
+    "spell_number": "266",
+    "attribute": "278",
+    "raw_value": "165"
+  },
+  {
+    "spell_number": "266",
+    "attribute": "278",
+    "raw_value": "199"
+  },
+  {
+    "spell_number": "266",
+    "attribute": "278",
+    "raw_value": "171"
+  },
+  {
+    "spell_number": "267",
+    "attribute": "278",
+    "raw_value": "165"
+  },
+  {
+    "spell_number": "267",
+    "attribute": "278",
+    "raw_value": "199"
+  },
+  {
+    "spell_number": "267",
+    "attribute": "278",
+    "raw_value": "171"
+  },
+  {
+    "spell_number": "268",
+    "attribute": "278",
+    "raw_value": "128"
+  },
+  {
+    "spell_number": "268",
+    "attribute": "278",
+    "raw_value": "171"
+  },
+  {
+    "spell_number": "269",
+    "attribute": "278",
+    "raw_value": "199"
+  },
+  {
+    "spell_number": "269",
+    "attribute": "278",
+    "raw_value": "165"
+  },
+  {
+    "spell_number": "269",
+    "attribute": "278",
+    "raw_value": "128"
+  },
+  {
+    "spell_number": "269",
+    "attribute": "278",
+    "raw_value": "130"
+  },
+  {
+    "spell_number": "270",
+    "attribute": "278",
+    "raw_value": "199"
+  },
+  {
+    "spell_number": "270",
+    "attribute": "278",
+    "raw_value": "165"
+  },
+  {
+    "spell_number": "270",
+    "attribute": "278",
+    "raw_value": "128"
+  },
+  {
+    "spell_number": "270",
+    "attribute": "278",
+    "raw_value": "130"
+  },
+  {
+    "spell_number": "271",
+    "attribute": "278",
+    "raw_value": "129"
+  },
+  {
+    "spell_number": "271",
+    "attribute": "278",
+    "raw_value": "166"
+  },
+  {
+    "spell_number": "272",
+    "attribute": "278",
+    "raw_value": "129"
+  },
+  {
+    "spell_number": "272",
+    "attribute": "278",
+    "raw_value": "166"
+  },
+  {
+    "spell_number": "273",
+    "attribute": "278",
+    "raw_value": "129"
+  },
+  {
+    "spell_number": "273",
+    "attribute": "278",
+    "raw_value": "166"
+  },
+  {
+    "spell_number": "274",
+    "attribute": "278",
+    "raw_value": "129"
+  },
+  {
+    "spell_number": "274",
+    "attribute": "278",
+    "raw_value": "166"
+  },
+  {
+    "spell_number": "275",
+    "attribute": "278",
+    "raw_value": "140"
+  },
+  {
+    "spell_number": "276",
+    "attribute": "278",
+    "raw_value": "140"
+  },
+  {
+    "spell_number": "277",
+    "attribute": "278",
+    "raw_value": "140"
+  },
+  {
+    "spell_number": "277",
+    "attribute": "278",
+    "raw_value": "130"
+  },
+  {
+    "spell_number": "278",
+    "attribute": "278",
+    "raw_value": "175"
+  },
+  {
+    "spell_number": "278",
+    "attribute": "278",
+    "raw_value": "208"
+  },
+  {
+    "spell_number": "279",
+    "attribute": "278",
+    "raw_value": "175"
+  },
+  {
+    "spell_number": "279",
+    "attribute": "278",
+    "raw_value": "208"
+  },
+  {
+    "spell_number": "280",
+    "attribute": "278",
+    "raw_value": "136"
+  },
+  {
+    "spell_number": "280",
+    "attribute": "278",
+    "raw_value": "173"
+  },
+  {
+    "spell_number": "280",
+    "attribute": "278",
+    "raw_value": "206"
+  },
+  {
+    "spell_number": "281",
+    "attribute": "278",
+    "raw_value": "206"
+  },
+  {
+    "spell_number": "281",
+    "attribute": "700",
+    "raw_value": "5"
+  },
+  {
+    "spell_number": "282",
+    "attribute": "278",
+    "raw_value": "144"
+  },
+  {
+    "spell_number": "282",
+    "attribute": "278",
+    "raw_value": "145"
+  },
+  {
+    "spell_number": "283",
+    "attribute": "278",
+    "raw_value": "144"
+  },
+  {
+    "spell_number": "283",
+    "attribute": "278",
+    "raw_value": "145"
+  },
+  {
+    "spell_number": "284",
+    "attribute": "278",
+    "raw_value": "144"
+  },
+  {
+    "spell_number": "284",
+    "attribute": "278",
+    "raw_value": "145"
+  },
+  {
+    "spell_number": "285",
+    "attribute": "278",
+    "raw_value": "144"
+  },
+  {
+    "spell_number": "285",
+    "attribute": "278",
+    "raw_value": "145"
+  },
+  {
+    "spell_number": "286",
+    "attribute": "278",
+    "raw_value": "144"
+  },
+  {
+    "spell_number": "286",
+    "attribute": "278",
+    "raw_value": "145"
+  },
+  {
+    "spell_number": "287",
+    "attribute": "278",
+    "raw_value": "144"
+  },
+  {
+    "spell_number": "287",
+    "attribute": "278",
+    "raw_value": "145"
+  },
+  {
+    "spell_number": "288",
+    "attribute": "278",
+    "raw_value": "145"
+  },
+  {
+    "spell_number": "289",
+    "attribute": "278",
+    "raw_value": "144"
+  },
+  {
+    "spell_number": "289",
+    "attribute": "278",
+    "raw_value": "145"
+  },
+  {
+    "spell_number": "290",
+    "attribute": "278",
+    "raw_value": "144"
+  },
+  {
+    "spell_number": "290",
+    "attribute": "278",
+    "raw_value": "145"
+  },
+  {
+    "spell_number": "291",
+    "attribute": "278",
+    "raw_value": "144"
+  },
+  {
+    "spell_number": "291",
+    "attribute": "278",
+    "raw_value": "145"
+  },
+  {
+    "spell_number": "292",
+    "attribute": "278",
+    "raw_value": "144"
+  },
+  {
+    "spell_number": "292",
+    "attribute": "278",
+    "raw_value": "145"
+  },
+  {
+    "spell_number": "293",
+    "attribute": "278",
+    "raw_value": "144"
+  },
+  {
+    "spell_number": "294",
+    "attribute": "278",
+    "raw_value": "144"
+  },
+  {
+    "spell_number": "295",
+    "attribute": "278",
+    "raw_value": "144"
+  },
+  {
+    "spell_number": "296",
+    "attribute": "278",
+    "raw_value": "144"
+  },
+  {
+    "spell_number": "297",
+    "attribute": "278",
+    "raw_value": "144"
+  },
+  {
+    "spell_number": "298",
+    "attribute": "278",
+    "raw_value": "144"
+  },
+  {
+    "spell_number": "299",
+    "attribute": "278",
+    "raw_value": "144"
+  },
+  {
+    "spell_number": "300",
+    "attribute": "278",
+    "raw_value": "144"
+  },
+  {
+    "spell_number": "301",
+    "attribute": "278",
+    "raw_value": "144"
+  },
+  {
+    "spell_number": "302",
+    "attribute": "278",
+    "raw_value": "144"
+  },
+  {
+    "spell_number": "303",
+    "attribute": "278",
+    "raw_value": "144"
+  },
+  {
+    "spell_number": "304",
+    "attribute": "278",
+    "raw_value": "144"
+  },
+  {
+    "spell_number": "305",
+    "attribute": "278",
+    "raw_value": "144"
+  },
+  {
+    "spell_number": "306",
+    "attribute": "278",
+    "raw_value": "182"
+  },
+  {
+    "spell_number": "307",
+    "attribute": "278",
+    "raw_value": "182"
+  },
+  {
+    "spell_number": "308",
+    "attribute": "278",
+    "raw_value": "182"
+  },
+  {
+    "spell_number": "309",
+    "attribute": "278",
+    "raw_value": "182"
+  },
+  {
+    "spell_number": "310",
+    "attribute": "278",
+    "raw_value": "182"
+  },
+  {
+    "spell_number": "311",
+    "attribute": "278",
+    "raw_value": "182"
+  },
+  {
+    "spell_number": "312",
+    "attribute": "278",
+    "raw_value": "182"
+  },
+  {
+    "spell_number": "313",
+    "attribute": "278",
+    "raw_value": "182"
+  },
+  {
+    "spell_number": "314",
+    "attribute": "278",
+    "raw_value": "182"
+  },
+  {
+    "spell_number": "315",
+    "attribute": "278",
+    "raw_value": "182"
+  },
+  {
+    "spell_number": "316",
+    "attribute": "278",
+    "raw_value": "182"
+  },
+  {
+    "spell_number": "317",
+    "attribute": "278",
+    "raw_value": "182"
+  },
+  {
+    "spell_number": "318",
+    "attribute": "278",
+    "raw_value": "182"
+  },
+  {
+    "spell_number": "319",
+    "attribute": "278",
+    "raw_value": "182"
+  },
+  {
+    "spell_number": "320",
+    "attribute": "278",
+    "raw_value": "182"
+  },
+  {
+    "spell_number": "321",
+    "attribute": "278",
+    "raw_value": "182"
+  },
+  {
+    "spell_number": "322",
+    "attribute": "278",
+    "raw_value": "182"
+  },
+  {
+    "spell_number": "323",
+    "attribute": "278",
+    "raw_value": "182"
+  },
+  {
+    "spell_number": "324",
+    "attribute": "278",
+    "raw_value": "182"
+  },
+  {
+    "spell_number": "325",
+    "attribute": "278",
+    "raw_value": "193"
+  },
+  {
+    "spell_number": "326",
+    "attribute": "278",
+    "raw_value": "193"
+  },
+  {
+    "spell_number": "327",
+    "attribute": "278",
+    "raw_value": "193"
+  },
+  {
+    "spell_number": "328",
+    "attribute": "278",
+    "raw_value": "193"
+  },
+  {
+    "spell_number": "329",
+    "attribute": "278",
+    "raw_value": "193"
+  },
+  {
+    "spell_number": "330",
+    "attribute": "278",
+    "raw_value": "193"
+  },
+  {
+    "spell_number": "331",
+    "attribute": "278",
+    "raw_value": "193"
+  },
+  {
+    "spell_number": "332",
+    "attribute": "278",
+    "raw_value": "193"
+  },
+  {
+    "spell_number": "333",
+    "attribute": "278",
+    "raw_value": "193"
+  },
+  {
+    "spell_number": "335",
+    "attribute": "278",
+    "raw_value": "116"
+  },
+  {
+    "spell_number": "335",
+    "attribute": "278",
+    "raw_value": "158"
+  },
+  {
+    "spell_number": "335",
+    "attribute": "278",
+    "raw_value": "194"
+  },
+  {
+    "spell_number": "336",
+    "attribute": "278",
+    "raw_value": "116"
+  },
+  {
+    "spell_number": "336",
+    "attribute": "278",
+    "raw_value": "158"
+  },
+  {
+    "spell_number": "336",
+    "attribute": "278",
+    "raw_value": "194"
+  },
+  {
+    "spell_number": "337",
+    "attribute": "278",
+    "raw_value": "116"
+  },
+  {
+    "spell_number": "337",
+    "attribute": "278",
+    "raw_value": "158"
+  },
+  {
+    "spell_number": "337",
+    "attribute": "278",
+    "raw_value": "194"
+  },
+  {
+    "spell_number": "338",
+    "attribute": "278",
+    "raw_value": "159"
+  },
+  {
+    "spell_number": "339",
+    "attribute": "278",
+    "raw_value": "159"
+  },
+  {
+    "spell_number": "340",
+    "attribute": "278",
+    "raw_value": "159"
+  },
+  {
+    "spell_number": "341",
+    "attribute": "278",
+    "raw_value": "159"
+  },
+  {
+    "spell_number": "342",
+    "attribute": "278",
+    "raw_value": "159"
+  },
+  {
+    "spell_number": "343",
+    "attribute": "278",
+    "raw_value": "159"
+  },
+  {
+    "spell_number": "344",
+    "attribute": "278",
+    "raw_value": "159"
+  },
+  {
+    "spell_number": "345",
+    "attribute": "278",
+    "raw_value": "159"
+  },
+  {
+    "spell_number": "346",
+    "attribute": "700",
+    "raw_value": "5"
+  },
+  {
+    "spell_number": "346",
+    "attribute": "701",
+    "raw_value": "128"
+  },
+  {
+    "spell_number": "346",
+    "attribute": "278",
+    "raw_value": "159"
+  },
+  {
+    "spell_number": "347",
+    "attribute": "278",
+    "raw_value": "119"
+  },
+  {
+    "spell_number": "347",
+    "attribute": "278",
+    "raw_value": "147"
+  },
+  {
+    "spell_number": "347",
+    "attribute": "278",
+    "raw_value": "183"
+  },
+  {
+    "spell_number": "348",
+    "attribute": "278",
+    "raw_value": "147"
+  },
+  {
+    "spell_number": "348",
+    "attribute": "278",
+    "raw_value": "183"
+  },
+  {
+    "spell_number": "349",
+    "attribute": "278",
+    "raw_value": "118"
+  },
+  {
+    "spell_number": "349",
+    "attribute": "278",
+    "raw_value": "148"
+  },
+  {
+    "spell_number": "350",
+    "attribute": "278",
+    "raw_value": "119"
+  },
+  {
+    "spell_number": "350",
+    "attribute": "278",
+    "raw_value": "147"
+  },
+  {
+    "spell_number": "350",
+    "attribute": "278",
+    "raw_value": "183"
+  },
+  {
+    "spell_number": "351",
+    "attribute": "278",
+    "raw_value": "183"
+  },
+  {
+    "spell_number": "352",
+    "attribute": "278",
+    "raw_value": "119"
+  },
+  {
+    "spell_number": "353",
+    "attribute": "278",
+    "raw_value": "119"
+  },
+  {
+    "spell_number": "354",
+    "attribute": "278",
+    "raw_value": "149"
+  },
+  {
+    "spell_number": "354",
+    "attribute": "278",
+    "raw_value": "184"
+  },
+  {
+    "spell_number": "355",
+    "attribute": "278",
+    "raw_value": "149"
+  },
+  {
+    "spell_number": "355",
+    "attribute": "278",
+    "raw_value": "184"
+  },
+  {
+    "spell_number": "356",
+    "attribute": "278",
+    "raw_value": "149"
+  },
+  {
+    "spell_number": "357",
+    "attribute": "278",
+    "raw_value": "149"
+  },
+  {
+    "spell_number": "357",
+    "attribute": "278",
+    "raw_value": "184"
+  },
+  {
+    "spell_number": "358",
+    "attribute": "278",
+    "raw_value": "184"
+  },
+  {
+    "spell_number": "359",
+    "attribute": "278",
+    "raw_value": "184"
+  },
+  {
+    "spell_number": "360",
+    "attribute": "278",
+    "raw_value": "115"
+  },
+  {
+    "spell_number": "360",
+    "attribute": "278",
+    "raw_value": "157"
+  },
+  {
+    "spell_number": "362",
+    "attribute": "278",
+    "raw_value": "115"
+  },
+  {
+    "spell_number": "362",
+    "attribute": "278",
+    "raw_value": "193"
+  },
+  {
+    "spell_number": "362",
+    "attribute": "278",
+    "raw_value": "157"
+  },
+  {
+    "spell_number": "363",
+    "attribute": "278",
+    "raw_value": "156"
+  },
+  {
+    "spell_number": "363",
+    "attribute": "278",
+    "raw_value": "192"
+  },
+  {
+    "spell_number": "363",
+    "attribute": "278",
+    "raw_value": "114"
+  },
+  {
+    "spell_number": "363",
+    "attribute": "278",
+    "raw_value": "200"
+  },
+  {
+    "spell_number": "364",
+    "attribute": "278",
+    "raw_value": "156"
+  },
+  {
+    "spell_number": "364",
+    "attribute": "278",
+    "raw_value": "192"
+  },
+  {
+    "spell_number": "364",
+    "attribute": "278",
+    "raw_value": "114"
+  },
+  {
+    "spell_number": "364",
+    "attribute": "278",
+    "raw_value": "200"
+  },
+  {
+    "spell_number": "365",
+    "attribute": "278",
+    "raw_value": "156"
+  },
+  {
+    "spell_number": "365",
+    "attribute": "278",
+    "raw_value": "192"
+  },
+  {
+    "spell_number": "365",
+    "attribute": "278",
+    "raw_value": "114"
+  },
+  {
+    "spell_number": "365",
+    "attribute": "278",
+    "raw_value": "200"
+  },
+  {
+    "spell_number": "366",
+    "attribute": "278",
+    "raw_value": "156"
+  },
+  {
+    "spell_number": "366",
+    "attribute": "278",
+    "raw_value": "192"
+  },
+  {
+    "spell_number": "366",
+    "attribute": "278",
+    "raw_value": "114"
+  },
+  {
+    "spell_number": "366",
+    "attribute": "278",
+    "raw_value": "200"
+  },
+  {
+    "spell_number": "367",
+    "attribute": "278",
+    "raw_value": "156"
+  },
+  {
+    "spell_number": "367",
+    "attribute": "278",
+    "raw_value": "192"
+  },
+  {
+    "spell_number": "367",
+    "attribute": "278",
+    "raw_value": "114"
+  },
+  {
+    "spell_number": "367",
+    "attribute": "278",
+    "raw_value": "200"
+  },
+  {
+    "spell_number": "368",
+    "attribute": "278",
+    "raw_value": "156"
+  },
+  {
+    "spell_number": "368",
+    "attribute": "278",
+    "raw_value": "114"
+  },
+  {
+    "spell_number": "368",
+    "attribute": "278",
+    "raw_value": "192"
+  },
+  {
+    "spell_number": "368",
+    "attribute": "278",
+    "raw_value": "200"
+  },
+  {
+    "spell_number": "369",
+    "attribute": "278",
+    "raw_value": "156"
+  },
+  {
+    "spell_number": "369",
+    "attribute": "278",
+    "raw_value": "114"
+  },
+  {
+    "spell_number": "369",
+    "attribute": "278",
+    "raw_value": "192"
+  },
+  {
+    "spell_number": "369",
+    "attribute": "278",
+    "raw_value": "200"
+  },
+  {
+    "spell_number": "370",
+    "attribute": "278",
+    "raw_value": "156"
+  },
+  {
+    "spell_number": "370",
+    "attribute": "278",
+    "raw_value": "192"
+  },
+  {
+    "spell_number": "370",
+    "attribute": "278",
+    "raw_value": "114"
+  },
+  {
+    "spell_number": "370",
+    "attribute": "278",
+    "raw_value": "200"
+  },
+  {
+    "spell_number": "371",
+    "attribute": "278",
+    "raw_value": "156"
+  },
+  {
+    "spell_number": "371",
+    "attribute": "278",
+    "raw_value": "192"
+  },
+  {
+    "spell_number": "371",
+    "attribute": "278",
+    "raw_value": "114"
+  },
+  {
+    "spell_number": "371",
+    "attribute": "278",
+    "raw_value": "200"
+  },
+  {
+    "spell_number": "372",
+    "attribute": "700",
+    "raw_value": "4"
+  },
+  {
+    "spell_number": "372",
+    "attribute": "278",
+    "raw_value": "156"
+  },
+  {
+    "spell_number": "372",
+    "attribute": "278",
+    "raw_value": "192"
+  },
+  {
+    "spell_number": "372",
+    "attribute": "278",
+    "raw_value": "114"
+  },
+  {
+    "spell_number": "372",
+    "attribute": "278",
+    "raw_value": "200"
+  },
+  {
+    "spell_number": "372",
+    "attribute": "704",
+    "raw_value": "4"
+  },
+  {
+    "spell_number": "372",
+    "attribute": "278",
+    "raw_value": "164"
+  },
+  {
+    "spell_number": "373",
+    "attribute": "278",
+    "raw_value": "156"
+  },
+  {
+    "spell_number": "373",
+    "attribute": "278",
+    "raw_value": "192"
+  },
+  {
+    "spell_number": "373",
+    "attribute": "278",
+    "raw_value": "114"
+  },
+  {
+    "spell_number": "373",
+    "attribute": "278",
+    "raw_value": "200"
+  },
+  {
+    "spell_number": "374",
+    "attribute": "715",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "374",
+    "attribute": "278",
+    "raw_value": "167"
+  },
+  {
+    "spell_number": "374",
+    "attribute": "702",
+    "raw_value": "64"
+  },
+  {
+    "spell_number": "375",
+    "attribute": "700",
+    "raw_value": "4"
+  },
+  {
+    "spell_number": "375",
+    "attribute": "708",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "375",
+    "attribute": "278",
+    "raw_value": "167"
+  },
+  {
+    "spell_number": "375",
+    "attribute": "704",
+    "raw_value": "4"
+  },
+  {
+    "spell_number": "376",
+    "attribute": "278",
+    "raw_value": "167"
+  },
+  {
+    "spell_number": "377",
+    "attribute": "278",
+    "raw_value": "167"
+  },
+  {
+    "spell_number": "378",
+    "attribute": "278",
+    "raw_value": "167"
+  },
+  {
+    "spell_number": "379",
+    "attribute": "278",
+    "raw_value": "150"
+  },
+  {
+    "spell_number": "379",
+    "attribute": "278",
+    "raw_value": "185"
+  },
+  {
+    "spell_number": "379",
+    "attribute": "278",
+    "raw_value": "146"
+  },
+  {
+    "spell_number": "380",
+    "attribute": "278",
+    "raw_value": "150"
+  },
+  {
+    "spell_number": "380",
+    "attribute": "278",
+    "raw_value": "185"
+  },
+  {
+    "spell_number": "380",
+    "attribute": "278",
+    "raw_value": "146"
+  },
+  {
+    "spell_number": "380",
+    "attribute": "700",
+    "raw_value": "5"
+  },
+  {
+    "spell_number": "380",
+    "attribute": "716",
+    "raw_value": "465"
+  },
+  {
+    "spell_number": "380",
+    "attribute": "704",
+    "raw_value": "4"
+  },
+  {
+    "spell_number": "381",
+    "attribute": "278",
+    "raw_value": "150"
+  },
+  {
+    "spell_number": "381",
+    "attribute": "278",
+    "raw_value": "185"
+  },
+  {
+    "spell_number": "381",
+    "attribute": "278",
+    "raw_value": "146"
+  },
+  {
+    "spell_number": "382",
+    "attribute": "278",
+    "raw_value": "150"
+  },
+  {
+    "spell_number": "382",
+    "attribute": "278",
+    "raw_value": "185"
+  },
+  {
+    "spell_number": "382",
+    "attribute": "278",
+    "raw_value": "146"
+  },
+  {
+    "spell_number": "383",
+    "attribute": "278",
+    "raw_value": "185"
+  },
+  {
+    "spell_number": "384",
+    "attribute": "278",
+    "raw_value": "185"
+  },
+  {
+    "spell_number": "385",
+    "attribute": "278",
+    "raw_value": "121"
+  },
+  {
+    "spell_number": "385",
+    "attribute": "278",
+    "raw_value": "120"
+  },
+  {
+    "spell_number": "385",
+    "attribute": "278",
+    "raw_value": "160"
+  },
+  {
+    "spell_number": "385",
+    "attribute": "278",
+    "raw_value": "195"
+  },
+  {
+    "spell_number": "386",
+    "attribute": "278",
+    "raw_value": "121"
+  },
+  {
+    "spell_number": "386",
+    "attribute": "278",
+    "raw_value": "120"
+  },
+  {
+    "spell_number": "386",
+    "attribute": "278",
+    "raw_value": "160"
+  },
+  {
+    "spell_number": "386",
+    "attribute": "278",
+    "raw_value": "162"
+  },
+  {
+    "spell_number": "386",
+    "attribute": "278",
+    "raw_value": "195"
+  },
+  {
+    "spell_number": "387",
+    "attribute": "278",
+    "raw_value": "196"
+  },
+  {
+    "spell_number": "387",
+    "attribute": "278",
+    "raw_value": "161"
+  },
+  {
+    "spell_number": "387",
+    "attribute": "278",
+    "raw_value": "203"
+  },
+  {
+    "spell_number": "388",
+    "attribute": "278",
+    "raw_value": "161"
+  },
+  {
+    "spell_number": "388",
+    "attribute": "278",
+    "raw_value": "196"
+  },
+  {
+    "spell_number": "388",
+    "attribute": "278",
+    "raw_value": "122"
+  },
+  {
+    "spell_number": "388",
+    "attribute": "278",
+    "raw_value": "121"
+  },
+  {
+    "spell_number": "388",
+    "attribute": "278",
+    "raw_value": "203"
+  },
+  {
+    "spell_number": "389",
+    "attribute": "278",
+    "raw_value": "161"
+  },
+  {
+    "spell_number": "389",
+    "attribute": "278",
+    "raw_value": "196"
+  },
+  {
+    "spell_number": "389",
+    "attribute": "278",
+    "raw_value": "122"
+  },
+  {
+    "spell_number": "389",
+    "attribute": "278",
+    "raw_value": "203"
+  },
+  {
+    "spell_number": "390",
+    "attribute": "278",
+    "raw_value": "186"
+  },
+  {
+    "spell_number": "390",
+    "attribute": "278",
+    "raw_value": "112"
+  },
+  {
+    "spell_number": "390",
+    "attribute": "278",
+    "raw_value": "151"
+  },
+  {
+    "spell_number": "390",
+    "attribute": "278",
+    "raw_value": "168"
+  },
+  {
+    "spell_number": "390",
+    "attribute": "278",
+    "raw_value": "201"
+  },
+  {
+    "spell_number": "391",
+    "attribute": "278",
+    "raw_value": "186"
+  },
+  {
+    "spell_number": "391",
+    "attribute": "278",
+    "raw_value": "112"
+  },
+  {
+    "spell_number": "391",
+    "attribute": "278",
+    "raw_value": "151"
+  },
+  {
+    "spell_number": "391",
+    "attribute": "278",
+    "raw_value": "131"
+  },
+  {
+    "spell_number": "391",
+    "attribute": "278",
+    "raw_value": "201"
+  },
+  {
+    "spell_number": "392",
+    "attribute": "278",
+    "raw_value": "186"
+  },
+  {
+    "spell_number": "392",
+    "attribute": "278",
+    "raw_value": "112"
+  },
+  {
+    "spell_number": "392",
+    "attribute": "278",
+    "raw_value": "151"
+  },
+  {
+    "spell_number": "392",
+    "attribute": "278",
+    "raw_value": "168"
+  },
+  {
+    "spell_number": "392",
+    "attribute": "278",
+    "raw_value": "201"
+  },
+  {
+    "spell_number": "393",
+    "attribute": "278",
+    "raw_value": "186"
+  },
+  {
+    "spell_number": "393",
+    "attribute": "278",
+    "raw_value": "112"
+  },
+  {
+    "spell_number": "393",
+    "attribute": "278",
+    "raw_value": "151"
+  },
+  {
+    "spell_number": "393",
+    "attribute": "278",
+    "raw_value": "168"
+  },
+  {
+    "spell_number": "393",
+    "attribute": "278",
+    "raw_value": "201"
+  },
+  {
+    "spell_number": "394",
+    "attribute": "278",
+    "raw_value": "186"
+  },
+  {
+    "spell_number": "394",
+    "attribute": "278",
+    "raw_value": "151"
+  },
+  {
+    "spell_number": "394",
+    "attribute": "278",
+    "raw_value": "112"
+  },
+  {
+    "spell_number": "395",
+    "attribute": "278",
+    "raw_value": "186"
+  },
+  {
+    "spell_number": "395",
+    "attribute": "278",
+    "raw_value": "151"
+  },
+  {
+    "spell_number": "395",
+    "attribute": "278",
+    "raw_value": "112"
+  },
+  {
+    "spell_number": "396",
+    "attribute": "278",
+    "raw_value": "186"
+  },
+  {
+    "spell_number": "396",
+    "attribute": "278",
+    "raw_value": "151"
+  },
+  {
+    "spell_number": "396",
+    "attribute": "278",
+    "raw_value": "112"
+  },
+  {
+    "spell_number": "396",
+    "attribute": "278",
+    "raw_value": "131"
+  },
+  {
+    "spell_number": "396",
+    "attribute": "278",
+    "raw_value": "201"
+  },
+  {
+    "spell_number": "397",
+    "attribute": "278",
+    "raw_value": "186"
+  },
+  {
+    "spell_number": "397",
+    "attribute": "278",
+    "raw_value": "151"
+  },
+  {
+    "spell_number": "397",
+    "attribute": "278",
+    "raw_value": "112"
+  },
+  {
+    "spell_number": "397",
+    "attribute": "278",
+    "raw_value": "131"
+  },
+  {
+    "spell_number": "397",
+    "attribute": "278",
+    "raw_value": "201"
+  },
+  {
+    "spell_number": "398",
+    "attribute": "278",
+    "raw_value": "186"
+  },
+  {
+    "spell_number": "398",
+    "attribute": "278",
+    "raw_value": "151"
+  },
+  {
+    "spell_number": "398",
+    "attribute": "278",
+    "raw_value": "112"
+  },
+  {
+    "spell_number": "399",
+    "attribute": "278",
+    "raw_value": "186"
+  },
+  {
+    "spell_number": "399",
+    "attribute": "278",
+    "raw_value": "151"
+  },
+  {
+    "spell_number": "399",
+    "attribute": "278",
+    "raw_value": "112"
+  },
+  {
+    "spell_number": "400",
+    "attribute": "278",
+    "raw_value": "186"
+  },
+  {
+    "spell_number": "400",
+    "attribute": "278",
+    "raw_value": "151"
+  },
+  {
+    "spell_number": "400",
+    "attribute": "278",
+    "raw_value": "112"
+  },
+  {
+    "spell_number": "401",
+    "attribute": "278",
+    "raw_value": "186"
+  },
+  {
+    "spell_number": "401",
+    "attribute": "278",
+    "raw_value": "151"
+  },
+  {
+    "spell_number": "401",
+    "attribute": "278",
+    "raw_value": "112"
+  },
+  {
+    "spell_number": "401",
+    "attribute": "278",
+    "raw_value": "131"
+  },
+  {
+    "spell_number": "401",
+    "attribute": "278",
+    "raw_value": "201"
+  },
+  {
+    "spell_number": "402",
+    "attribute": "278",
+    "raw_value": "186"
+  },
+  {
+    "spell_number": "402",
+    "attribute": "278",
+    "raw_value": "151"
+  },
+  {
+    "spell_number": "402",
+    "attribute": "278",
+    "raw_value": "112"
+  },
+  {
+    "spell_number": "402",
+    "attribute": "278",
+    "raw_value": "131"
+  },
+  {
+    "spell_number": "402",
+    "attribute": "278",
+    "raw_value": "201"
+  },
+  {
+    "spell_number": "403",
+    "attribute": "278",
+    "raw_value": "131"
+  },
+  {
+    "spell_number": "403",
+    "attribute": "711",
+    "raw_value": "174"
+  },
+  {
+    "spell_number": "404",
+    "attribute": "278",
+    "raw_value": "131"
+  },
+  {
+    "spell_number": "404",
+    "attribute": "278",
+    "raw_value": "201"
+  },
+  {
+    "spell_number": "405",
+    "attribute": "278",
+    "raw_value": "131"
+  },
+  {
+    "spell_number": "405",
+    "attribute": "278",
+    "raw_value": "168"
+  },
+  {
+    "spell_number": "405",
+    "attribute": "278",
+    "raw_value": "201"
+  },
+  {
+    "spell_number": "406",
+    "attribute": "278",
+    "raw_value": "131"
+  },
+  {
+    "spell_number": "406",
+    "attribute": "278",
+    "raw_value": "168"
+  },
+  {
+    "spell_number": "406",
+    "attribute": "278",
+    "raw_value": "201"
+  },
+  {
+    "spell_number": "407",
+    "attribute": "278",
+    "raw_value": "131"
+  },
+  {
+    "spell_number": "407",
+    "attribute": "278",
+    "raw_value": "168"
+  },
+  {
+    "spell_number": "407",
+    "attribute": "278",
+    "raw_value": "201"
+  },
+  {
+    "spell_number": "408",
+    "attribute": "278",
+    "raw_value": "131"
+  },
+  {
+    "spell_number": "408",
+    "attribute": "278",
+    "raw_value": "168"
+  },
+  {
+    "spell_number": "408",
+    "attribute": "278",
+    "raw_value": "201"
+  },
+  {
+    "spell_number": "409",
+    "attribute": "278",
+    "raw_value": "131"
+  },
+  {
+    "spell_number": "409",
+    "attribute": "278",
+    "raw_value": "168"
+  },
+  {
+    "spell_number": "409",
+    "attribute": "278",
+    "raw_value": "201"
+  },
+  {
+    "spell_number": "410",
+    "attribute": "278",
+    "raw_value": "131"
+  },
+  {
+    "spell_number": "410",
+    "attribute": "278",
+    "raw_value": "168"
+  },
+  {
+    "spell_number": "410",
+    "attribute": "278",
+    "raw_value": "201"
+  },
+  {
+    "spell_number": "411",
+    "attribute": "278",
+    "raw_value": "131"
+  },
+  {
+    "spell_number": "411",
+    "attribute": "278",
+    "raw_value": "168"
+  },
+  {
+    "spell_number": "411",
+    "attribute": "278",
+    "raw_value": "201"
+  },
+  {
+    "spell_number": "412",
+    "attribute": "278",
+    "raw_value": "131"
+  },
+  {
+    "spell_number": "412",
+    "attribute": "278",
+    "raw_value": "168"
+  },
+  {
+    "spell_number": "412",
+    "attribute": "278",
+    "raw_value": "201"
+  },
+  {
+    "spell_number": "413",
+    "attribute": "278",
+    "raw_value": "131"
+  },
+  {
+    "spell_number": "413",
+    "attribute": "278",
+    "raw_value": "168"
+  },
+  {
+    "spell_number": "413",
+    "attribute": "278",
+    "raw_value": "201"
+  },
+  {
+    "spell_number": "414",
+    "attribute": "278",
+    "raw_value": "131"
+  },
+  {
+    "spell_number": "414",
+    "attribute": "278",
+    "raw_value": "168"
+  },
+  {
+    "spell_number": "414",
+    "attribute": "278",
+    "raw_value": "201"
+  },
+  {
+    "spell_number": "415",
+    "attribute": "278",
+    "raw_value": "152"
+  },
+  {
+    "spell_number": "415",
+    "attribute": "278",
+    "raw_value": "187"
+  },
+  {
+    "spell_number": "415",
+    "attribute": "278",
+    "raw_value": "110"
+  },
+  {
+    "spell_number": "416",
+    "attribute": "278",
+    "raw_value": "110"
+  },
+  {
+    "spell_number": "417",
+    "attribute": "278",
+    "raw_value": "152"
+  },
+  {
+    "spell_number": "417",
+    "attribute": "278",
+    "raw_value": "110"
+  },
+  {
+    "spell_number": "417",
+    "attribute": "278",
+    "raw_value": "187"
+  },
+  {
+    "spell_number": "418",
+    "attribute": "278",
+    "raw_value": "110"
+  },
+  {
+    "spell_number": "419",
+    "attribute": "278",
+    "raw_value": "152"
+  },
+  {
+    "spell_number": "419",
+    "attribute": "278",
+    "raw_value": "187"
+  },
+  {
+    "spell_number": "419",
+    "attribute": "278",
+    "raw_value": "110"
+  },
+  {
+    "spell_number": "420",
+    "attribute": "278",
+    "raw_value": "109"
+  },
+  {
+    "spell_number": "420",
+    "attribute": "278",
+    "raw_value": "110"
+  },
+  {
+    "spell_number": "420",
+    "attribute": "278",
+    "raw_value": "187"
+  },
+  {
+    "spell_number": "421",
+    "attribute": "278",
+    "raw_value": "109"
+  },
+  {
+    "spell_number": "421",
+    "attribute": "278",
+    "raw_value": "110"
+  },
+  {
+    "spell_number": "421",
+    "attribute": "278",
+    "raw_value": "187"
+  },
+  {
+    "spell_number": "422",
+    "attribute": "278",
+    "raw_value": "163"
+  },
+  {
+    "spell_number": "423",
+    "attribute": "278",
+    "raw_value": "163"
+  },
+  {
+    "spell_number": "423",
+    "attribute": "278",
+    "raw_value": "125"
+  },
+  {
+    "spell_number": "423",
+    "attribute": "278",
+    "raw_value": "198"
+  },
+  {
+    "spell_number": "424",
+    "attribute": "278",
+    "raw_value": "163"
+  },
+  {
+    "spell_number": "424",
+    "attribute": "278",
+    "raw_value": "125"
+  },
+  {
+    "spell_number": "424",
+    "attribute": "278",
+    "raw_value": "198"
+  },
+  {
+    "spell_number": "425",
+    "attribute": "278",
+    "raw_value": "163"
+  },
+  {
+    "spell_number": "425",
+    "attribute": "278",
+    "raw_value": "125"
+  },
+  {
+    "spell_number": "425",
+    "attribute": "278",
+    "raw_value": "198"
+  },
+  {
+    "spell_number": "426",
+    "attribute": "278",
+    "raw_value": "163"
+  },
+  {
+    "spell_number": "427",
+    "attribute": "278",
+    "raw_value": "163"
+  },
+  {
+    "spell_number": "427",
+    "attribute": "278",
+    "raw_value": "125"
+  },
+  {
+    "spell_number": "427",
+    "attribute": "278",
+    "raw_value": "198"
+  },
+  {
+    "spell_number": "428",
+    "attribute": "278",
+    "raw_value": "163"
+  },
+  {
+    "spell_number": "429",
+    "attribute": "278",
+    "raw_value": "163"
+  },
+  {
+    "spell_number": "429",
+    "attribute": "278",
+    "raw_value": "125"
+  },
+  {
+    "spell_number": "429",
+    "attribute": "278",
+    "raw_value": "198"
+  },
+  {
+    "spell_number": "430",
+    "attribute": "278",
+    "raw_value": "163"
+  },
+  {
+    "spell_number": "431",
+    "attribute": "278",
+    "raw_value": "163"
+  },
+  {
+    "spell_number": "431",
+    "attribute": "278",
+    "raw_value": "125"
+  },
+  {
+    "spell_number": "431",
+    "attribute": "278",
+    "raw_value": "198"
+  },
+  {
+    "spell_number": "432",
+    "attribute": "278",
+    "raw_value": "163"
+  },
+  {
+    "spell_number": "432",
+    "attribute": "278",
+    "raw_value": "125"
+  },
+  {
+    "spell_number": "432",
+    "attribute": "278",
+    "raw_value": "198"
+  },
+  {
+    "spell_number": "433",
+    "attribute": "278",
+    "raw_value": "163"
+  },
+  {
+    "spell_number": "433",
+    "attribute": "278",
+    "raw_value": "125"
+  },
+  {
+    "spell_number": "433",
+    "attribute": "278",
+    "raw_value": "198"
+  },
+  {
+    "spell_number": "434",
+    "attribute": "278",
+    "raw_value": "163"
+  },
+  {
+    "spell_number": "434",
+    "attribute": "278",
+    "raw_value": "125"
+  },
+  {
+    "spell_number": "434",
+    "attribute": "278",
+    "raw_value": "198"
+  },
+  {
+    "spell_number": "435",
+    "attribute": "278",
+    "raw_value": "125"
+  },
+  {
+    "spell_number": "435",
+    "attribute": "278",
+    "raw_value": "163"
+  },
+  {
+    "spell_number": "436",
+    "attribute": "278",
+    "raw_value": "163"
+  },
+  {
+    "spell_number": "436",
+    "attribute": "278",
+    "raw_value": "126"
+  },
+  {
+    "spell_number": "436",
+    "attribute": "278",
+    "raw_value": "198"
+  },
+  {
+    "spell_number": "437",
+    "attribute": "278",
+    "raw_value": "163"
+  },
+  {
+    "spell_number": "437",
+    "attribute": "278",
+    "raw_value": "126"
+  },
+  {
+    "spell_number": "437",
+    "attribute": "278",
+    "raw_value": "198"
+  },
+  {
+    "spell_number": "438",
+    "attribute": "278",
+    "raw_value": "163"
+  },
+  {
+    "spell_number": "438",
+    "attribute": "278",
+    "raw_value": "126"
+  },
+  {
+    "spell_number": "438",
+    "attribute": "278",
+    "raw_value": "198"
+  },
+  {
+    "spell_number": "439",
+    "attribute": "278",
+    "raw_value": "163"
+  },
+  {
+    "spell_number": "439",
+    "attribute": "278",
+    "raw_value": "126"
+  },
+  {
+    "spell_number": "439",
+    "attribute": "278",
+    "raw_value": "198"
+  },
+  {
+    "spell_number": "440",
+    "attribute": "278",
+    "raw_value": "163"
+  },
+  {
+    "spell_number": "440",
+    "attribute": "278",
+    "raw_value": "126"
+  },
+  {
+    "spell_number": "440",
+    "attribute": "278",
+    "raw_value": "198"
+  },
+  {
+    "spell_number": "441",
+    "attribute": "278",
+    "raw_value": "163"
+  },
+  {
+    "spell_number": "441",
+    "attribute": "278",
+    "raw_value": "126"
+  },
+  {
+    "spell_number": "441",
+    "attribute": "278",
+    "raw_value": "198"
+  },
+  {
+    "spell_number": "442",
+    "attribute": "278",
+    "raw_value": "163"
+  },
+  {
+    "spell_number": "442",
+    "attribute": "278",
+    "raw_value": "126"
+  },
+  {
+    "spell_number": "442",
+    "attribute": "278",
+    "raw_value": "198"
+  },
+  {
+    "spell_number": "443",
+    "attribute": "278",
+    "raw_value": "163"
+  },
+  {
+    "spell_number": "443",
+    "attribute": "278",
+    "raw_value": "126"
+  },
+  {
+    "spell_number": "443",
+    "attribute": "278",
+    "raw_value": "198"
+  },
+  {
+    "spell_number": "444",
+    "attribute": "278",
+    "raw_value": "163"
+  },
+  {
+    "spell_number": "444",
+    "attribute": "278",
+    "raw_value": "126"
+  },
+  {
+    "spell_number": "444",
+    "attribute": "278",
+    "raw_value": "198"
+  },
+  {
+    "spell_number": "445",
+    "attribute": "278",
+    "raw_value": "163"
+  },
+  {
+    "spell_number": "445",
+    "attribute": "278",
+    "raw_value": "126"
+  },
+  {
+    "spell_number": "445",
+    "attribute": "278",
+    "raw_value": "198"
+  },
+  {
+    "spell_number": "446",
+    "attribute": "278",
+    "raw_value": "163"
+  },
+  {
+    "spell_number": "446",
+    "attribute": "278",
+    "raw_value": "126"
+  },
+  {
+    "spell_number": "446",
+    "attribute": "278",
+    "raw_value": "198"
+  },
+  {
+    "spell_number": "447",
+    "attribute": "278",
+    "raw_value": "189"
+  },
+  {
+    "spell_number": "447",
+    "attribute": "278",
+    "raw_value": "164"
+  },
+  {
+    "spell_number": "448",
+    "attribute": "278",
+    "raw_value": "127"
+  },
+  {
+    "spell_number": "448",
+    "attribute": "278",
+    "raw_value": "189"
+  },
+  {
+    "spell_number": "449",
+    "attribute": "278",
+    "raw_value": "189"
+  },
+  {
+    "spell_number": "449",
+    "attribute": "278",
+    "raw_value": "164"
+  },
+  {
+    "spell_number": "450",
+    "attribute": "278",
+    "raw_value": "127"
+  },
+  {
+    "spell_number": "450",
+    "attribute": "278",
+    "raw_value": "164"
+  },
+  {
+    "spell_number": "450",
+    "attribute": "278",
+    "raw_value": "189"
+  },
+  {
+    "spell_number": "451",
+    "attribute": "278",
+    "raw_value": "189"
+  },
+  {
+    "spell_number": "451",
+    "attribute": "278",
+    "raw_value": "164"
+  },
+  {
+    "spell_number": "452",
+    "attribute": "278",
+    "raw_value": "127"
+  },
+  {
+    "spell_number": "452",
+    "attribute": "278",
+    "raw_value": "164"
+  },
+  {
+    "spell_number": "452",
+    "attribute": "278",
+    "raw_value": "189"
+  },
+  {
+    "spell_number": "453",
+    "attribute": "278",
+    "raw_value": "189"
+  },
+  {
+    "spell_number": "453",
+    "attribute": "278",
+    "raw_value": "127"
+  },
+  {
+    "spell_number": "453",
+    "attribute": "278",
+    "raw_value": "164"
+  },
+  {
+    "spell_number": "454",
+    "attribute": "278",
+    "raw_value": "189"
+  },
+  {
+    "spell_number": "454",
+    "attribute": "278",
+    "raw_value": "164"
+  },
+  {
+    "spell_number": "455",
+    "attribute": "278",
+    "raw_value": "127"
+  },
+  {
+    "spell_number": "455",
+    "attribute": "278",
+    "raw_value": "164"
+  },
+  {
+    "spell_number": "455",
+    "attribute": "278",
+    "raw_value": "189"
+  },
+  {
+    "spell_number": "456",
+    "attribute": "278",
+    "raw_value": "127"
+  },
+  {
+    "spell_number": "456",
+    "attribute": "278",
+    "raw_value": "164"
+  },
+  {
+    "spell_number": "456",
+    "attribute": "278",
+    "raw_value": "189"
+  },
+  {
+    "spell_number": "456",
+    "attribute": "702",
+    "raw_value": "32"
+  },
+  {
+    "spell_number": "457",
+    "attribute": "278",
+    "raw_value": "189"
+  },
+  {
+    "spell_number": "457",
+    "attribute": "278",
+    "raw_value": "164"
+  },
+  {
+    "spell_number": "458",
+    "attribute": "278",
+    "raw_value": "189"
+  },
+  {
+    "spell_number": "458",
+    "attribute": "278",
+    "raw_value": "164"
+  },
+  {
+    "spell_number": "459",
+    "attribute": "278",
+    "raw_value": "164"
+  },
+  {
+    "spell_number": "459",
+    "attribute": "278",
+    "raw_value": "189"
+  },
+  {
+    "spell_number": "460",
+    "attribute": "278",
+    "raw_value": "189"
+  },
+  {
+    "spell_number": "460",
+    "attribute": "278",
+    "raw_value": "164"
+  },
+  {
+    "spell_number": "461",
+    "attribute": "278",
+    "raw_value": "117"
+  },
+  {
+    "spell_number": "462",
+    "attribute": "278",
+    "raw_value": "154"
+  },
+  {
+    "spell_number": "462",
+    "attribute": "278",
+    "raw_value": "190"
+  },
+  {
+    "spell_number": "463",
+    "attribute": "278",
+    "raw_value": "154"
+  },
+  {
+    "spell_number": "463",
+    "attribute": "278",
+    "raw_value": "190"
+  },
+  {
+    "spell_number": "464",
+    "attribute": "278",
+    "raw_value": "154"
+  },
+  {
+    "spell_number": "464",
+    "attribute": "702",
+    "raw_value": "4096"
+  },
+  {
+    "spell_number": "465",
+    "attribute": "278",
+    "raw_value": "154"
+  },
+  {
+    "spell_number": "466",
+    "attribute": "278",
+    "raw_value": "117"
+  },
+  {
+    "spell_number": "467",
+    "attribute": "278",
+    "raw_value": "117"
+  },
+  {
+    "spell_number": "468",
+    "attribute": "278",
+    "raw_value": "117"
+  },
+  {
+    "spell_number": "468",
+    "attribute": "711",
+    "raw_value": "112"
+  },
+  {
+    "spell_number": "469",
+    "attribute": "278",
+    "raw_value": "117"
+  },
+  {
+    "spell_number": "469",
+    "attribute": "278",
+    "raw_value": "154"
+  },
+  {
+    "spell_number": "469",
+    "attribute": "711",
+    "raw_value": "110"
+  },
+  {
+    "spell_number": "470",
+    "attribute": "278",
+    "raw_value": "117"
+  },
+  {
+    "spell_number": "470",
+    "attribute": "278",
+    "raw_value": "154"
+  },
+  {
+    "spell_number": "470",
+    "attribute": "711",
+    "raw_value": "110"
+  },
+  {
+    "spell_number": "471",
+    "attribute": "738",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "471",
+    "attribute": "700",
+    "raw_value": "10"
+  },
+  {
+    "spell_number": "471",
+    "attribute": "278",
+    "raw_value": "117"
+  },
+  {
+    "spell_number": "471",
+    "attribute": "711",
+    "raw_value": "167"
+  },
+  {
+    "spell_number": "471",
+    "attribute": "701",
+    "raw_value": "4096"
+  },
+  {
+    "spell_number": "472",
+    "attribute": "278",
+    "raw_value": "154"
+  },
+  {
+    "spell_number": "473",
+    "attribute": "278",
+    "raw_value": "154"
+  },
+  {
+    "spell_number": "474",
+    "attribute": "278",
+    "raw_value": "154"
+  },
+  {
+    "spell_number": "475",
+    "attribute": "278",
+    "raw_value": "154"
+  },
+  {
+    "spell_number": "477",
+    "attribute": "278",
+    "raw_value": "117"
+  },
+  {
+    "spell_number": "477",
+    "attribute": "278",
+    "raw_value": "154"
+  },
+  {
+    "spell_number": "477",
+    "attribute": "278",
+    "raw_value": "152"
+  },
+  {
+    "spell_number": "478",
+    "attribute": "278",
+    "raw_value": "190"
+  },
+  {
+    "spell_number": "479",
+    "attribute": "278",
+    "raw_value": "190"
+  },
+  {
+    "spell_number": "480",
+    "attribute": "278",
+    "raw_value": "190"
+  },
+  {
+    "spell_number": "481",
+    "attribute": "278",
+    "raw_value": "190"
+  },
+  {
+    "spell_number": "482",
+    "attribute": "278",
+    "raw_value": "190"
+  },
+  {
+    "spell_number": "483",
+    "attribute": "278",
+    "raw_value": "154"
+  },
+  {
+    "spell_number": "483",
+    "attribute": "278",
+    "raw_value": "190"
+  },
+  {
+    "spell_number": "484",
+    "attribute": "278",
+    "raw_value": "190"
+  },
+  {
+    "spell_number": "485",
+    "attribute": "278",
+    "raw_value": "190"
+  },
+  {
+    "spell_number": "486",
+    "attribute": "278",
+    "raw_value": "190"
+  },
+  {
+    "spell_number": "487",
+    "attribute": "278",
+    "raw_value": "190"
+  },
+  {
+    "spell_number": "488",
+    "attribute": "278",
+    "raw_value": "207"
+  },
+  {
+    "spell_number": "489",
+    "attribute": "718",
+    "raw_value": "530"
+  },
+  {
+    "spell_number": "489",
+    "attribute": "278",
+    "raw_value": "137"
+  },
+  {
+    "spell_number": "490",
+    "attribute": "278",
+    "raw_value": "137"
+  },
+  {
+    "spell_number": "491",
+    "attribute": "700",
+    "raw_value": "10"
+  },
+  {
+    "spell_number": "491",
+    "attribute": "278",
+    "raw_value": "207"
+  },
+  {
+    "spell_number": "494",
+    "attribute": "723",
+    "raw_value": "50"
+  },
+  {
+    "spell_number": "497",
+    "attribute": "723",
+    "raw_value": "50"
+  },
+  {
+    "spell_number": "498",
+    "attribute": "721",
+    "raw_value": "107"
+  },
+  {
+    "spell_number": "499",
+    "attribute": "721",
+    "raw_value": "106"
+  },
+  {
+    "spell_number": "502",
+    "attribute": "700",
+    "raw_value": "7"
+  },
+  {
+    "spell_number": "502",
+    "attribute": "708",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "502",
+    "attribute": "404",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "507",
+    "attribute": "721",
+    "raw_value": "16"
+  },
+  {
+    "spell_number": "510",
+    "attribute": "703",
+    "raw_value": "4096"
+  },
+  {
+    "spell_number": "514",
+    "attribute": "741",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "516",
+    "attribute": "721",
+    "raw_value": "123"
+  },
+  {
+    "spell_number": "517",
+    "attribute": "700",
+    "raw_value": "3"
+  },
+  {
+    "spell_number": "517",
+    "attribute": "704",
+    "raw_value": "4"
+  },
+  {
+    "spell_number": "521",
+    "attribute": "721",
+    "raw_value": "107"
+  },
+  {
+    "spell_number": "522",
+    "attribute": "738",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "522",
+    "attribute": "700",
+    "raw_value": "4"
+  },
+  {
+    "spell_number": "523",
+    "attribute": "404",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "523",
+    "attribute": "405",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "525",
+    "attribute": "721",
+    "raw_value": "107"
+  },
+  {
+    "spell_number": "527",
+    "attribute": "278",
+    "raw_value": "150"
+  },
+  {
+    "spell_number": "527",
+    "attribute": "278",
+    "raw_value": "185"
+  },
+  {
+    "spell_number": "530",
+    "attribute": "700",
+    "raw_value": "5"
+  },
+  {
+    "spell_number": "530",
+    "attribute": "725",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "530",
+    "attribute": "704",
+    "raw_value": "4"
+  },
+  {
+    "spell_number": "532",
+    "attribute": "700",
+    "raw_value": "5"
+  },
+  {
+    "spell_number": "532",
+    "attribute": "725",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "532",
+    "attribute": "704",
+    "raw_value": "4"
+  },
+  {
+    "spell_number": "541",
+    "attribute": "278",
+    "raw_value": "113"
+  },
+  {
+    "spell_number": "541",
+    "attribute": "278",
+    "raw_value": "155"
+  },
+  {
+    "spell_number": "541",
+    "attribute": "278",
+    "raw_value": "191"
+  },
+  {
+    "spell_number": "541",
+    "attribute": "278",
+    "raw_value": "117"
+  },
+  {
+    "spell_number": "542",
+    "attribute": "728",
+    "raw_value": "15"
+  },
+  {
+    "spell_number": "545",
+    "attribute": "703",
+    "raw_value": "4096"
+  },
+  {
+    "spell_number": "546",
+    "attribute": "724",
+    "raw_value": "4096"
+  },
+  {
+    "spell_number": "546",
+    "attribute": "745",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "548",
+    "attribute": "720",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "548",
+    "attribute": "721",
+    "raw_value": "89"
+  },
+  {
+    "spell_number": "548",
+    "attribute": "579",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "548",
+    "attribute": "703",
+    "raw_value": "4096"
+  },
+  {
+    "spell_number": "551",
+    "attribute": "278",
+    "raw_value": "152"
+  },
+  {
+    "spell_number": "551",
+    "attribute": "278",
+    "raw_value": "187"
+  },
+  {
+    "spell_number": "551",
+    "attribute": "278",
+    "raw_value": "110"
+  },
+  {
+    "spell_number": "552",
+    "attribute": "721",
+    "raw_value": "106"
+  },
+  {
+    "spell_number": "559",
+    "attribute": "728",
+    "raw_value": "15"
+  },
+  {
+    "spell_number": "560",
+    "attribute": "700",
+    "raw_value": "6"
+  },
+  {
+    "spell_number": "560",
+    "attribute": "404",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "569",
+    "attribute": "700",
+    "raw_value": "4"
+  },
+  {
+    "spell_number": "569",
+    "attribute": "725",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "569",
+    "attribute": "726",
+    "raw_value": "75"
+  },
+  {
+    "spell_number": "569",
+    "attribute": "704",
+    "raw_value": "4"
+  },
+  {
+    "spell_number": "571",
+    "attribute": "721",
+    "raw_value": "106"
+  },
+  {
+    "spell_number": "576",
+    "attribute": "745",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "583",
+    "attribute": "700",
+    "raw_value": "3"
+  },
+  {
+    "spell_number": "583",
+    "attribute": "704",
+    "raw_value": "4"
+  },
+  {
+    "spell_number": "584",
+    "attribute": "721",
+    "raw_value": "123"
+  },
+  {
+    "spell_number": "585",
+    "attribute": "700",
+    "raw_value": "6"
+  },
+  {
+    "spell_number": "588",
+    "attribute": "700",
+    "raw_value": "6"
+  },
+  {
+    "spell_number": "588",
+    "attribute": "704",
+    "raw_value": "4"
+  },
+  {
+    "spell_number": "589",
+    "attribute": "703",
+    "raw_value": "4096"
+  },
+  {
+    "spell_number": "590",
+    "attribute": "404",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "595",
+    "attribute": "723",
+    "raw_value": "50"
+  },
+  {
+    "spell_number": "598",
+    "attribute": "723",
+    "raw_value": "50"
+  },
+  {
+    "spell_number": "601",
+    "attribute": "723",
+    "raw_value": "50"
+  },
+  {
+    "spell_number": "634",
+    "attribute": "700",
+    "raw_value": "5"
+  },
+  {
+    "spell_number": "634",
+    "attribute": "725",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "634",
+    "attribute": "704",
+    "raw_value": "4"
+  },
+  {
+    "spell_number": "637",
+    "attribute": "745",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "638",
+    "attribute": "700",
+    "raw_value": "5"
+  },
+  {
+    "spell_number": "638",
+    "attribute": "725",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "638",
+    "attribute": "704",
+    "raw_value": "4"
+  },
+  {
+    "spell_number": "639",
+    "attribute": "700",
+    "raw_value": "5"
+  },
+  {
+    "spell_number": "639",
+    "attribute": "704",
+    "raw_value": "4"
+  },
+  {
+    "spell_number": "656",
+    "attribute": "700",
+    "raw_value": "7"
+  },
+  {
+    "spell_number": "656",
+    "attribute": "725",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "659",
+    "attribute": "739",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "663",
+    "attribute": "700",
+    "raw_value": "5"
+  },
+  {
+    "spell_number": "663",
+    "attribute": "278",
+    "raw_value": "113"
+  },
+  {
+    "spell_number": "663",
+    "attribute": "278",
+    "raw_value": "155"
+  },
+  {
+    "spell_number": "663",
+    "attribute": "278",
+    "raw_value": "191"
+  },
+  {
+    "spell_number": "663",
+    "attribute": "704",
+    "raw_value": "4"
+  },
+  {
+    "spell_number": "675",
+    "attribute": "742",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "680",
+    "attribute": "700",
+    "raw_value": "4"
+  },
+  {
+    "spell_number": "680",
+    "attribute": "727",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "686",
+    "attribute": "729",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "686",
+    "attribute": "708",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "686",
+    "attribute": "730",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "688",
+    "attribute": "745",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "698",
+    "attribute": "738",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "698",
+    "attribute": "700",
+    "raw_value": "4"
+  },
+  {
+    "spell_number": "699",
+    "attribute": "700",
+    "raw_value": "4"
+  },
+  {
+    "spell_number": "702",
+    "attribute": "723",
+    "raw_value": "150"
+  },
+  {
+    "spell_number": "707",
+    "attribute": "745",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "710",
+    "attribute": "745",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "711",
+    "attribute": "702",
+    "raw_value": "4096"
+  },
+  {
+    "spell_number": "730",
+    "attribute": "700",
+    "raw_value": "5"
+  },
+  {
+    "spell_number": "730",
+    "attribute": "705",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "730",
+    "attribute": "716",
+    "raw_value": "1380"
+  },
+  {
+    "spell_number": "730",
+    "attribute": "704",
+    "raw_value": "4"
+  },
+  {
+    "spell_number": "735",
+    "attribute": "702",
+    "raw_value": "4096"
+  },
+  {
+    "spell_number": "738",
+    "attribute": "702",
+    "raw_value": "4096"
+  },
+  {
+    "spell_number": "740",
+    "attribute": "738",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "740",
+    "attribute": "700",
+    "raw_value": "3"
+  },
+  {
+    "spell_number": "743",
+    "attribute": "602",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "743",
+    "attribute": "278",
+    "raw_value": "108"
+  },
+  {
+    "spell_number": "743",
+    "attribute": "279",
+    "raw_value": "124"
+  },
+  {
+    "spell_number": "744",
+    "attribute": "602",
+    "raw_value": "7"
+  },
+  {
+    "spell_number": "745",
+    "attribute": "602",
+    "raw_value": "8"
+  },
+  {
+    "spell_number": "745",
+    "attribute": "278",
+    "raw_value": "127"
+  },
+  {
+    "spell_number": "745",
+    "attribute": "278",
+    "raw_value": "164"
+  },
+  {
+    "spell_number": "745",
+    "attribute": "278",
+    "raw_value": "189"
+  },
+  {
+    "spell_number": "745",
+    "attribute": "278",
+    "raw_value": "110"
+  },
+  {
+    "spell_number": "745",
+    "attribute": "278",
+    "raw_value": "152"
+  },
+  {
+    "spell_number": "748",
+    "attribute": "602",
+    "raw_value": "8"
+  },
+  {
+    "spell_number": "748",
+    "attribute": "278",
+    "raw_value": "129"
+  },
+  {
+    "spell_number": "748",
+    "attribute": "278",
+    "raw_value": "166"
+  },
+  {
+    "spell_number": "748",
+    "attribute": "278",
+    "raw_value": "110"
+  },
+  {
+    "spell_number": "748",
+    "attribute": "278",
+    "raw_value": "152"
+  },
+  {
+    "spell_number": "748",
+    "attribute": "278",
+    "raw_value": "187"
+  },
+  {
+    "spell_number": "749",
+    "attribute": "700",
+    "raw_value": "4"
+  },
+  {
+    "spell_number": "749",
+    "attribute": "705",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "749",
+    "attribute": "716",
+    "raw_value": "633"
+  },
+  {
+    "spell_number": "749",
+    "attribute": "704",
+    "raw_value": "4"
+  },
+  {
+    "spell_number": "757",
+    "attribute": "700",
+    "raw_value": "3"
+  },
+  {
+    "spell_number": "757",
+    "attribute": "704",
+    "raw_value": "4"
+  },
+  {
+    "spell_number": "775",
+    "attribute": "700",
+    "raw_value": "3"
+  },
+  {
+    "spell_number": "775",
+    "attribute": "704",
+    "raw_value": "4"
+  },
+  {
+    "spell_number": "776",
+    "attribute": "700",
+    "raw_value": "5"
+  },
+  {
+    "spell_number": "776",
+    "attribute": "704",
+    "raw_value": "4"
+  },
+  {
+    "spell_number": "778",
+    "attribute": "738",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "778",
+    "attribute": "700",
+    "raw_value": "4"
+  },
+  {
+    "spell_number": "778",
+    "attribute": "706",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "778",
+    "attribute": "701",
+    "raw_value": "4"
+  },
+  {
+    "spell_number": "791",
+    "attribute": "700",
+    "raw_value": "10"
+  },
+  {
+    "spell_number": "796",
+    "attribute": "700",
+    "raw_value": "5"
+  },
+  {
+    "spell_number": "796",
+    "attribute": "705",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "796",
+    "attribute": "707",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "796",
+    "attribute": "704",
+    "raw_value": "4"
+  },
+  {
+    "spell_number": "798",
+    "attribute": "700",
+    "raw_value": "4"
+  },
+  {
+    "spell_number": "808",
+    "attribute": "738",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "808",
+    "attribute": "700",
+    "raw_value": "10"
+  },
+  {
+    "spell_number": "809",
+    "attribute": "477",
+    "raw_value": "105"
+  },
+  {
+    "spell_number": "816",
+    "attribute": "700",
+    "raw_value": "5"
+  },
+  {
+    "spell_number": "816",
+    "attribute": "704",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "829",
+    "attribute": "738",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "829",
+    "attribute": "700",
+    "raw_value": "4"
+  },
+  {
+    "spell_number": "834",
+    "attribute": "700",
+    "raw_value": "4"
+  },
+  {
+    "spell_number": "834",
+    "attribute": "710",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "836",
+    "attribute": "700",
+    "raw_value": "4"
+  },
+  {
+    "spell_number": "845",
+    "attribute": "702",
+    "raw_value": "32"
+  },
+  {
+    "spell_number": "847",
+    "attribute": "700",
+    "raw_value": "4"
+  },
+  {
+    "spell_number": "847",
+    "attribute": "716",
+    "raw_value": "182"
+  },
+  {
+    "spell_number": "879",
+    "attribute": "723",
+    "raw_value": "50"
+  },
+  {
+    "spell_number": "889",
+    "attribute": "700",
+    "raw_value": "3"
+  },
+  {
+    "spell_number": "899",
+    "attribute": "700",
+    "raw_value": "5"
+  },
+  {
+    "spell_number": "899",
+    "attribute": "707",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "904",
+    "attribute": "733",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "904",
+    "attribute": "747",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "904",
+    "attribute": "719",
+    "raw_value": "500"
+  },
+  {
+    "spell_number": "911",
+    "attribute": "713",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "911",
+    "attribute": "708",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "911",
+    "attribute": "729",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "921",
+    "attribute": "700",
+    "raw_value": "10"
+  },
+  {
+    "spell_number": "921",
+    "attribute": "702",
+    "raw_value": "128"
+  },
+  {
+    "spell_number": "921",
+    "attribute": "701",
+    "raw_value": "128"
+  },
+  {
+    "spell_number": "926",
+    "attribute": "730",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "926",
+    "attribute": "729",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "928",
+    "attribute": "729",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "928",
+    "attribute": "708",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "931",
+    "attribute": "729",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "931",
+    "attribute": "708",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "932",
+    "attribute": "702",
+    "raw_value": "4194320"
+  },
+  {
+    "spell_number": "935",
+    "attribute": "702",
+    "raw_value": "64"
+  },
+  {
+    "spell_number": "936",
+    "attribute": "702",
+    "raw_value": "4096"
+  },
+  {
+    "spell_number": "938",
+    "attribute": "729",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "938",
+    "attribute": "708",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "943",
+    "attribute": "729",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "943",
+    "attribute": "708",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "946",
+    "attribute": "729",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "946",
+    "attribute": "730",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "946",
+    "attribute": "708",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "948",
+    "attribute": "741",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "950",
+    "attribute": "709",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "950",
+    "attribute": "700",
+    "raw_value": "5"
+  },
+  {
+    "spell_number": "955",
+    "attribute": "700",
+    "raw_value": "4"
+  },
+  {
+    "spell_number": "955",
+    "attribute": "701",
+    "raw_value": "128"
+  },
+  {
+    "spell_number": "955",
+    "attribute": "704",
+    "raw_value": "4"
+  },
+  {
+    "spell_number": "956",
+    "attribute": "729",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "956",
+    "attribute": "708",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "970",
+    "attribute": "700",
+    "raw_value": "3"
+  },
+  {
+    "spell_number": "976",
+    "attribute": "742",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "977",
+    "attribute": "742",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "987",
+    "attribute": "700",
+    "raw_value": "5"
+  },
+  {
+    "spell_number": "987",
+    "attribute": "708",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "992",
+    "attribute": "738",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "992",
+    "attribute": "700",
+    "raw_value": "5"
+  },
+  {
+    "spell_number": "995",
+    "attribute": "700",
+    "raw_value": "6"
+  },
+  {
+    "spell_number": "995",
+    "attribute": "708",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "996",
+    "attribute": "700",
+    "raw_value": "6"
+  },
+  {
+    "spell_number": "997",
+    "attribute": "738",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "997",
+    "attribute": "700",
+    "raw_value": "3"
+  },
+  {
+    "spell_number": "1000",
+    "attribute": "738",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "1000",
+    "attribute": "700",
+    "raw_value": "2"
+  },
+  {
+    "spell_number": "1000",
+    "attribute": "705",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "1000",
+    "attribute": "704",
+    "raw_value": "4"
+  },
+  {
+    "spell_number": "1002",
+    "attribute": "738",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "1002",
+    "attribute": "700",
+    "raw_value": "3"
+  },
+  {
+    "spell_number": "1004",
+    "attribute": "700",
+    "raw_value": "5"
+  },
+  {
+    "spell_number": "1010",
+    "attribute": "700",
+    "raw_value": "5"
+  },
+  {
+    "spell_number": "1016",
+    "attribute": "700",
+    "raw_value": "6"
+  },
+  {
+    "spell_number": "1024",
+    "attribute": "700",
+    "raw_value": "5"
+  },
+  {
+    "spell_number": "1026",
+    "attribute": "700",
+    "raw_value": "5"
+  },
+  {
+    "spell_number": "1028",
+    "attribute": "700",
+    "raw_value": "4"
+  },
+  {
+    "spell_number": "1031",
+    "attribute": "700",
+    "raw_value": "4"
+  },
+  {
+    "spell_number": "1031",
+    "attribute": "701",
+    "raw_value": "128"
+  },
+  {
+    "spell_number": "1031",
+    "attribute": "704",
+    "raw_value": "4"
+  },
+  {
+    "spell_number": "1036",
+    "attribute": "742",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "1043",
+    "attribute": "700",
+    "raw_value": "10"
+  },
+  {
+    "spell_number": "1044",
+    "attribute": "700",
+    "raw_value": "5"
+  },
+  {
+    "spell_number": "1046",
+    "attribute": "745",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "1047",
+    "attribute": "700",
+    "raw_value": "5"
+  },
+  {
+    "spell_number": "1048",
+    "attribute": "745",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "1049",
+    "attribute": "745",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "1059",
+    "attribute": "738",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "1059",
+    "attribute": "700",
+    "raw_value": "5"
+  },
+  {
+    "spell_number": "1066",
+    "attribute": "723",
+    "raw_value": "50"
+  },
+  {
+    "spell_number": "1068",
+    "attribute": "729",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "1078",
+    "attribute": "700",
+    "raw_value": "5"
+  },
+  {
+    "spell_number": "1078",
+    "attribute": "725",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "1078",
+    "attribute": "704",
+    "raw_value": "4"
+  },
+  {
+    "spell_number": "1079",
+    "attribute": "708",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "1081",
+    "attribute": "700",
+    "raw_value": "4"
+  },
+  {
+    "spell_number": "1081",
+    "attribute": "716",
+    "raw_value": "304"
+  },
+  {
+    "spell_number": "1081",
+    "attribute": "704",
+    "raw_value": "4"
+  },
+  {
+    "spell_number": "1084",
+    "attribute": "700",
+    "raw_value": "5"
+  },
+  {
+    "spell_number": "1084",
+    "attribute": "704",
+    "raw_value": "4"
+  },
+  {
+    "spell_number": "1087",
+    "attribute": "700",
+    "raw_value": "6"
+  },
+  {
+    "spell_number": "1087",
+    "attribute": "748",
+    "raw_value": "10"
+  },
+  {
+    "spell_number": "1091",
+    "attribute": "700",
+    "raw_value": "5"
+  },
+  {
+    "spell_number": "1092",
+    "attribute": "727",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "1095",
+    "attribute": "739",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "1097",
+    "attribute": "700",
+    "raw_value": "4"
+  },
+  {
+    "spell_number": "1097",
+    "attribute": "704",
+    "raw_value": "4"
+  },
+  {
+    "spell_number": "1100",
+    "attribute": "700",
+    "raw_value": "6"
+  },
+  {
+    "spell_number": "1100",
+    "attribute": "748",
+    "raw_value": "20"
+  },
+  {
+    "spell_number": "1101",
+    "attribute": "708",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "1109",
+    "attribute": "700",
+    "raw_value": "4"
+  },
+  {
+    "spell_number": "1110",
+    "attribute": "717",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "1112",
+    "attribute": "700",
+    "raw_value": "6"
+  },
+  {
+    "spell_number": "1123",
+    "attribute": "700",
+    "raw_value": "6"
+  },
+  {
+    "spell_number": "1123",
+    "attribute": "748",
+    "raw_value": "40"
+  },
+  {
+    "spell_number": "1124",
+    "attribute": "742",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "1124",
+    "attribute": "718",
+    "raw_value": "616"
+  },
+  {
+    "spell_number": "1124",
+    "attribute": "278",
+    "raw_value": "147"
+  },
+  {
+    "spell_number": "1125",
+    "attribute": "742",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "1125",
+    "attribute": "718",
+    "raw_value": "616"
+  },
+  {
+    "spell_number": "1125",
+    "attribute": "278",
+    "raw_value": "147"
+  },
+  {
+    "spell_number": "1126",
+    "attribute": "278",
+    "raw_value": "105"
+  },
+  {
+    "spell_number": "1126",
+    "attribute": "278",
+    "raw_value": "143"
+  },
+  {
+    "spell_number": "1126",
+    "attribute": "278",
+    "raw_value": "180"
+  },
+  {
+    "spell_number": "1126",
+    "attribute": "278",
+    "raw_value": "140"
+  },
+  {
+    "spell_number": "1126",
+    "attribute": "278",
+    "raw_value": "132"
+  },
+  {
+    "spell_number": "1126",
+    "attribute": "278",
+    "raw_value": "169"
+  },
+  {
+    "spell_number": "1126",
+    "attribute": "278",
+    "raw_value": "202"
+  },
+  {
+    "spell_number": "1126",
+    "attribute": "278",
+    "raw_value": "170"
+  },
+  {
+    "spell_number": "1126",
+    "attribute": "278",
+    "raw_value": "208"
+  },
+  {
+    "spell_number": "1127",
+    "attribute": "278",
+    "raw_value": "132"
+  },
+  {
+    "spell_number": "1127",
+    "attribute": "278",
+    "raw_value": "169"
+  },
+  {
+    "spell_number": "1127",
+    "attribute": "278",
+    "raw_value": "202"
+  },
+  {
+    "spell_number": "1128",
+    "attribute": "278",
+    "raw_value": "140"
+  },
+  {
+    "spell_number": "1128",
+    "attribute": "278",
+    "raw_value": "105"
+  },
+  {
+    "spell_number": "1128",
+    "attribute": "278",
+    "raw_value": "143"
+  },
+  {
+    "spell_number": "1128",
+    "attribute": "278",
+    "raw_value": "180"
+  },
+  {
+    "spell_number": "1128",
+    "attribute": "278",
+    "raw_value": "132"
+  },
+  {
+    "spell_number": "1128",
+    "attribute": "278",
+    "raw_value": "169"
+  },
+  {
+    "spell_number": "1128",
+    "attribute": "278",
+    "raw_value": "202"
+  },
+  {
+    "spell_number": "1128",
+    "attribute": "278",
+    "raw_value": "170"
+  },
+  {
+    "spell_number": "1129",
+    "attribute": "278",
+    "raw_value": "180"
+  },
+  {
+    "spell_number": "1129",
+    "attribute": "700",
+    "raw_value": "2"
+  },
+  {
+    "spell_number": "1130",
+    "attribute": "734",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "1130",
+    "attribute": "278",
+    "raw_value": "122"
+  },
+  {
+    "spell_number": "1130",
+    "attribute": "278",
+    "raw_value": "161"
+  },
+  {
+    "spell_number": "1130",
+    "attribute": "278",
+    "raw_value": "196"
+  },
+  {
+    "spell_number": "1130",
+    "attribute": "278",
+    "raw_value": "203"
+  },
+  {
+    "spell_number": "1130",
+    "attribute": "700",
+    "raw_value": "5"
+  },
+  {
+    "spell_number": "1131",
+    "attribute": "278",
+    "raw_value": "170"
+  },
+  {
+    "spell_number": "1131",
+    "attribute": "278",
+    "raw_value": "208"
+  },
+  {
+    "spell_number": "1132",
+    "attribute": "278",
+    "raw_value": "170"
+  },
+  {
+    "spell_number": "1132",
+    "attribute": "278",
+    "raw_value": "208"
+  },
+  {
+    "spell_number": "1133",
+    "attribute": "278",
+    "raw_value": "140"
+  },
+  {
+    "spell_number": "1133",
+    "attribute": "278",
+    "raw_value": "105"
+  },
+  {
+    "spell_number": "1133",
+    "attribute": "278",
+    "raw_value": "143"
+  },
+  {
+    "spell_number": "1133",
+    "attribute": "278",
+    "raw_value": "180"
+  },
+  {
+    "spell_number": "1133",
+    "attribute": "278",
+    "raw_value": "132"
+  },
+  {
+    "spell_number": "1133",
+    "attribute": "278",
+    "raw_value": "169"
+  },
+  {
+    "spell_number": "1133",
+    "attribute": "278",
+    "raw_value": "202"
+  },
+  {
+    "spell_number": "1133",
+    "attribute": "278",
+    "raw_value": "170"
+  },
+  {
+    "spell_number": "1133",
+    "attribute": "278",
+    "raw_value": "208"
+  },
+  {
+    "spell_number": "1134",
+    "attribute": "278",
+    "raw_value": "170"
+  },
+  {
+    "spell_number": "1135",
+    "attribute": "278",
+    "raw_value": "170"
+  },
+  {
+    "spell_number": "1136",
+    "attribute": "278",
+    "raw_value": "105"
+  },
+  {
+    "spell_number": "1136",
+    "attribute": "278",
+    "raw_value": "143"
+  },
+  {
+    "spell_number": "1136",
+    "attribute": "278",
+    "raw_value": "180"
+  },
+  {
+    "spell_number": "1136",
+    "attribute": "278",
+    "raw_value": "170"
+  },
+  {
+    "spell_number": "1136",
+    "attribute": "278",
+    "raw_value": "208"
+  },
+  {
+    "spell_number": "1137",
+    "attribute": "278",
+    "raw_value": "140"
+  },
+  {
+    "spell_number": "1137",
+    "attribute": "278",
+    "raw_value": "105"
+  },
+  {
+    "spell_number": "1137",
+    "attribute": "278",
+    "raw_value": "143"
+  },
+  {
+    "spell_number": "1137",
+    "attribute": "278",
+    "raw_value": "180"
+  },
+  {
+    "spell_number": "1137",
+    "attribute": "278",
+    "raw_value": "132"
+  },
+  {
+    "spell_number": "1137",
+    "attribute": "278",
+    "raw_value": "169"
+  },
+  {
+    "spell_number": "1137",
+    "attribute": "278",
+    "raw_value": "202"
+  },
+  {
+    "spell_number": "1137",
+    "attribute": "278",
+    "raw_value": "170"
+  },
+  {
+    "spell_number": "1137",
+    "attribute": "278",
+    "raw_value": "208"
+  },
+  {
+    "spell_number": "1138",
+    "attribute": "278",
+    "raw_value": "181"
+  },
+  {
+    "spell_number": "1138",
+    "attribute": "731",
+    "raw_value": "1873"
+  },
+  {
+    "spell_number": "1138",
+    "attribute": "736",
+    "raw_value": "651"
+  },
+  {
+    "spell_number": "1139",
+    "attribute": "278",
+    "raw_value": "132"
+  },
+  {
+    "spell_number": "1139",
+    "attribute": "737",
+    "raw_value": "3112"
+  },
+  {
+    "spell_number": "1139",
+    "attribute": "736",
+    "raw_value": "654"
+  },
+  {
+    "spell_number": "1140",
+    "attribute": "278",
+    "raw_value": "122"
+  },
+  {
+    "spell_number": "1140",
+    "attribute": "278",
+    "raw_value": "161"
+  },
+  {
+    "spell_number": "1140",
+    "attribute": "278",
+    "raw_value": "196"
+  },
+  {
+    "spell_number": "1141",
+    "attribute": "278",
+    "raw_value": "180"
+  },
+  {
+    "spell_number": "1141",
+    "attribute": "731",
+    "raw_value": "3200"
+  },
+  {
+    "spell_number": "1141",
+    "attribute": "708",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "1142",
+    "attribute": "278",
+    "raw_value": "180"
+  },
+  {
+    "spell_number": "1142",
+    "attribute": "718",
+    "raw_value": "616"
+  },
+  {
+    "spell_number": "1144",
+    "attribute": "278",
+    "raw_value": "180"
+  },
+  {
+    "spell_number": "1144",
+    "attribute": "718",
+    "raw_value": "616"
+  },
+  {
+    "spell_number": "1146",
+    "attribute": "278",
+    "raw_value": "140"
+  },
+  {
+    "spell_number": "1146",
+    "attribute": "278",
+    "raw_value": "105"
+  },
+  {
+    "spell_number": "1146",
+    "attribute": "278",
+    "raw_value": "143"
+  },
+  {
+    "spell_number": "1146",
+    "attribute": "278",
+    "raw_value": "180"
+  },
+  {
+    "spell_number": "1146",
+    "attribute": "278",
+    "raw_value": "132"
+  },
+  {
+    "spell_number": "1146",
+    "attribute": "278",
+    "raw_value": "169"
+  },
+  {
+    "spell_number": "1146",
+    "attribute": "278",
+    "raw_value": "202"
+  },
+  {
+    "spell_number": "1147",
+    "attribute": "278",
+    "raw_value": "164"
+  },
+  {
+    "spell_number": "1147",
+    "attribute": "278",
+    "raw_value": "189"
+  },
+  {
+    "spell_number": "1148",
+    "attribute": "278",
+    "raw_value": "164"
+  },
+  {
+    "spell_number": "1148",
+    "attribute": "278",
+    "raw_value": "189"
+  },
+  {
+    "spell_number": "1149",
+    "attribute": "278",
+    "raw_value": "164"
+  },
+  {
+    "spell_number": "1150",
+    "attribute": "278",
+    "raw_value": "164"
+  },
+  {
+    "spell_number": "1150",
+    "attribute": "278",
+    "raw_value": "189"
+  },
+  {
+    "spell_number": "1151",
+    "attribute": "278",
+    "raw_value": "164"
+  },
+  {
+    "spell_number": "1151",
+    "attribute": "278",
+    "raw_value": "189"
+  },
+  {
+    "spell_number": "1152",
+    "attribute": "278",
+    "raw_value": "164"
+  },
+  {
+    "spell_number": "1153",
+    "attribute": "278",
+    "raw_value": "127"
+  },
+  {
+    "spell_number": "1154",
+    "attribute": "733",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "1154",
+    "attribute": "278",
+    "raw_value": "181"
+  },
+  {
+    "spell_number": "1154",
+    "attribute": "731",
+    "raw_value": "1877"
+  },
+  {
+    "spell_number": "1154",
+    "attribute": "731",
+    "raw_value": "1878"
+  },
+  {
+    "spell_number": "1155",
+    "attribute": "708",
+    "raw_value": "1"
+  },
+  {
+    "spell_number": "1155",
+    "attribute": "278",
+    "raw_value": "181"
+  },
+  {
+    "spell_number": "1155",
+    "attribute": "731",
+    "raw_value": "1875"
+  },
+  {
+    "spell_number": "1155",
+    "attribute": "740",
+    "raw_value": "-3"
+  },
+  {
+    "spell_number": "1156",
+    "attribute": "278",
+    "raw_value": "172"
+  },
+  {
+    "spell_number": "1157",
+    "attribute": "278",
+    "raw_value": "172"
+  },
+  {
+    "spell_number": "1158",
+    "attribute": "278",
+    "raw_value": "172"
+  },
+  {
+    "spell_number": "1159",
+    "attribute": "278",
+    "raw_value": "172"
+  },
+  {
+    "spell_number": "1159",
+    "attribute": "278",
+    "raw_value": "133"
+  },
+  {
+    "spell_number": "1159",
+    "attribute": "702",
+    "raw_value": "64"
+  },
+  {
+    "spell_number": "1160",
+    "attribute": "278",
+    "raw_value": "172"
+  },
+  {
+    "spell_number": "1161",
+    "attribute": "278",
+    "raw_value": "172"
+  },
+  {
+    "spell_number": "1162",
+    "attribute": "278",
+    "raw_value": "172"
+  },
+  {
+    "spell_number": "1163",
+    "attribute": "278",
+    "raw_value": "133"
+  },
+  {
+    "spell_number": "1164",
+    "attribute": "728",
+    "raw_value": "15"
+  },
+  {
+    "spell_number": "1164",
+    "attribute": "278",
+    "raw_value": "133"
+  },
+  {
+    "spell_number": "1164",
+    "attribute": "278",
+    "raw_value": "172"
+  },
+  {
+    "spell_number": "1166",
+    "attribute": "278",
+    "raw_value": "133"
+  },
+  {
+    "spell_number": "1166",
+    "attribute": "278",
+    "raw_value": "172"
+  },
+  {
+    "spell_number": "1167",
+    "attribute": "278",
+    "raw_value": "171"
+  },
+  {
+    "spell_number": "1168",
+    "attribute": "278",
+    "raw_value": "171"
+  },
+  {
+    "spell_number": "1169",
+    "attribute": "278",
+    "raw_value": "172"
+  },
+  {
+    "spell_number": "1170",
+    "attribute": "278",
+    "raw_value": "161"
+  },
+  {
+    "spell_number": "1170",
+    "attribute": "278",
+    "raw_value": "203"
+  },
+  {
+    "spell_number": "1170",
+    "attribute": "746",
+    "raw_value": "44"
+  },
+  {
+    "spell_number": "1171",
+    "attribute": "278",
+    "raw_value": "161"
+  },
+  {
+    "spell_number": "1171",
+    "attribute": "278",
+    "raw_value": "122"
+  },
+  {
+    "spell_number": "1172",
+    "attribute": "278",
+    "raw_value": "120"
+  },
+  {
+    "spell_number": "1172",
+    "attribute": "278",
+    "raw_value": "121"
+  },
+  {
+    "spell_number": "1172",
+    "attribute": "278",
+    "raw_value": "160"
+  },
+  {
+    "spell_number": "1172",
+    "attribute": "278",
+    "raw_value": "195"
+  },
+  {
+    "spell_number": "1172",
+    "attribute": "278",
+    "raw_value": "122"
+  },
+  {
+    "spell_number": "1172",
+    "attribute": "278",
+    "raw_value": "161"
+  },
+  {
+    "spell_number": "1172",
+    "attribute": "278",
+    "raw_value": "196"
+  },
+  {
+    "spell_number": "1172",
+    "attribute": "278",
+    "raw_value": "203"
+  },
+  {
+    "spell_number": "1173",
+    "attribute": "278",
+    "raw_value": "172"
+  },
+  {
+    "spell_number": "1173",
+    "attribute": "278",
+    "raw_value": "133"
+  },
+  {
+    "spell_number": "1173",
+    "attribute": "702",
+    "raw_value": "64"
+  },
+  {
+    "spell_number": "1174",
+    "attribute": "278",
+    "raw_value": "172"
+  },
+  {
+    "spell_number": "1174",
+    "attribute": "278",
+    "raw_value": "133"
+  },
+  {
+    "spell_number": "1174",
+    "attribute": "702",
+    "raw_value": "64"
+  },
+  {
+    "spell_number": "1175",
+    "attribute": "278",
+    "raw_value": "172"
+  },
+  {
+    "spell_number": "1175",
+    "attribute": "278",
+    "raw_value": "133"
+  },
+  {
+    "spell_number": "1175",
+    "attribute": "702",
+    "raw_value": "64"
+  },
+  {
+    "spell_number": "1176",
+    "attribute": "278",
+    "raw_value": "172"
+  },
+  {
+    "spell_number": "1176",
+    "attribute": "278",
+    "raw_value": "133"
+  },
+  {
+    "spell_number": "1176",
+    "attribute": "702",
+    "raw_value": "64"
+  }
+]

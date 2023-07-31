@@ -1,0 +1,64 @@
+bit_value,bit_name
+1,Blessing
+2,Luck
+4,Improved Precision
+8,Air Shield
+16,Barkskin
+32,Limited Regeneration
+64,Toughened Armor
+128,Extra Strength
+256,Gone Berserk
+512,Pain Transfer
+1024,Fire Resistance +5
+2048,Shock Resistance +5
+4096,Cold Resistance +5
+8192,Cold Aura
+16384,Heat Aura
+32768,Courage
+65536,Stoneskin
+131072,Flight
+262144,Quickness
+524288,Armor Piercing Weapons
+1048576,Astral Weapons
+2097152,Reanimation
+4194304,Holy Vengeance
+8388608,Flaming Arrows
+16777216,Poison Resistance +10
+33554432,Prophet (persists after battle)
+67108864,Magic Resistance
+134217728,Etherealness
+268435456,Ironskin
+536870912,Communion Master
+1073741824,Communion Slave
+2147483648,Enlargement
+4294967296,"? AI flag ""dedicated researcher"" (persists after battle)"
+8589934592,"? AI flag ""dedicated templer"" (persists after battle)"
+17179869184,"? AI flag ""dedicated searcher"" (persists after battle)"
+34359738368,Leave communion if over 100 fatigue
+68719476736,Slashing Resistance
+1.37439E+11,Bludgeoning Resistance
+2.74878E+11,Piercing Resistance
+5.49756E+11,Protective Force 20
+1.09951E+12,Limited Enlargement
+2.19902E+12,Liquid Body
+4.39805E+12,"? AI ""dedicated ritualist"" flag (persists after battle)"
+8.79609E+12,<Unknown>
+1.75922E+13,"? If Soul Butcher, make death gems"
+3.51844E+13,? Flag that causes gladiators to leave (persists after battle)
+7.03687E+13,<Unknown>
+1.40737E+14,<Unknown>
+2.81475E+14,<Unknown>
+5.6295E+14,<Unknown>
+1.1259E+15,<Unknown>
+2.2518E+15,<Unknown>
+4.5036E+15,<Unknown>
+9.0072E+15,<Unknown>
+1.80144E+16,<Unknown>
+3.60288E+16,<Unknown>
+7.20576E+16,<Unknown>
+1.44115E+17,<Unknown>
+2.8823E+17,<Unknown>
+5.76461E+17,<Unknown>
+1.15292E+18,<Unknown>
+2.30584E+18,<Unknown>
+4.61169E+18,<Unknown>

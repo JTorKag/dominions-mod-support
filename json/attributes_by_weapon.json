@@ -1,0 +1,827 @@
+[
+  {
+    "weapon_number": "1",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "2",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "3",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "5",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "6",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "7",
+    "attribute": "268",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "8",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "9",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "10",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "11",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "15",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "16",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "17",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "18",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "21",
+    "attribute": "268",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "23",
+    "attribute": "268",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "24",
+    "attribute": "268",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "25",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "26",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "27",
+    "attribute": "302",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "28",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "34",
+    "attribute": "268",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "35",
+    "attribute": "482",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "36",
+    "attribute": "482",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "37",
+    "attribute": "482",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "44",
+    "attribute": "482",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "49",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "57",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "61",
+    "attribute": "302",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "62",
+    "attribute": "302",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "66",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "71",
+    "attribute": "268",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "77",
+    "attribute": "482",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "86",
+    "attribute": "611",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "93",
+    "attribute": "302",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "94",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "96",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "100",
+    "attribute": "268",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "114",
+    "attribute": "617",
+    "raw_value": "8"
+  },
+  {
+    "weapon_number": "124",
+    "attribute": "482",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "126",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "134",
+    "attribute": "617",
+    "raw_value": "3"
+  },
+  {
+    "weapon_number": "141",
+    "attribute": "302",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "147",
+    "attribute": "302",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "153",
+    "attribute": "268",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "165",
+    "attribute": "268",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "197",
+    "attribute": "302",
+    "raw_value": "2"
+  },
+  {
+    "weapon_number": "197",
+    "attribute": "611",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "215",
+    "attribute": "302",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "234",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "252",
+    "attribute": "268",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "253",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "254",
+    "attribute": "302",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "257",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "258",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "259",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "260",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "260",
+    "attribute": "302",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "265",
+    "attribute": "268",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "266",
+    "attribute": "268",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "267",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "268",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "269",
+    "attribute": "611",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "270",
+    "attribute": "611",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "282",
+    "attribute": "611",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "283",
+    "attribute": "611",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "284",
+    "attribute": "611",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "285",
+    "attribute": "611",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "301",
+    "attribute": "302",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "307",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "308",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "311",
+    "attribute": "611",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "315",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "317",
+    "attribute": "268",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "318",
+    "attribute": "268",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "321",
+    "attribute": "302",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "324",
+    "attribute": "302",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "326",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "331",
+    "attribute": "657",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "345",
+    "attribute": "268",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "347",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "351",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "357",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "361",
+    "attribute": "268",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "362",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "363",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "372",
+    "attribute": "268",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "373",
+    "attribute": "268",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "376",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "377",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "378",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "379",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "380",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "381",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "382",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "383",
+    "attribute": "302",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "405",
+    "attribute": "268",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "406",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "407",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "424",
+    "attribute": "302",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "425",
+    "attribute": "302",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "429",
+    "attribute": "268",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "437",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "452",
+    "attribute": "268",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "454",
+    "attribute": "482",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "459",
+    "attribute": "302",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "463",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "465",
+    "attribute": "268",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "471",
+    "attribute": "302",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "493",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "498",
+    "attribute": "268",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "502",
+    "attribute": "268",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "514",
+    "attribute": "302",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "519",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "522",
+    "attribute": "657",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "525",
+    "attribute": "268",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "527",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "533",
+    "attribute": "900",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "534",
+    "attribute": "900",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "535",
+    "attribute": "900",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "536",
+    "attribute": "611",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "545",
+    "attribute": "900",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "546",
+    "attribute": "302",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "567",
+    "attribute": "900",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "568",
+    "attribute": "900",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "569",
+    "attribute": "900",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "590",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "593",
+    "attribute": "268",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "594",
+    "attribute": "268",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "595",
+    "attribute": "611",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "595",
+    "attribute": "619",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "596",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "599",
+    "attribute": "302",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "601",
+    "attribute": "302",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "606",
+    "attribute": "482",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "611",
+    "attribute": "482",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "612",
+    "attribute": "482",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "635",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "637",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "638",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "639",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "640",
+    "attribute": "268",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "663",
+    "attribute": "268",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "679",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "685",
+    "attribute": "482",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "692",
+    "attribute": "268",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "693",
+    "attribute": "482",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "696",
+    "attribute": "302",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "696",
+    "attribute": "900",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "706",
+    "attribute": "603",
+    "raw_value": "-50"
+  },
+  {
+    "weapon_number": "707",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "709",
+    "attribute": "900",
+    "raw_value": "2"
+  },
+  {
+    "weapon_number": "710",
+    "attribute": "900",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "717",
+    "attribute": "302",
+    "raw_value": "2"
+  },
+  {
+    "weapon_number": "717",
+    "attribute": "611",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "720",
+    "attribute": "268",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "721",
+    "attribute": "268",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "723",
+    "attribute": "302",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "727",
+    "attribute": "900",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "744",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "746",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "752",
+    "attribute": "900",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "758",
+    "attribute": "657",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "759",
+    "attribute": "266",
+    "raw_value": "1"
+  },
+  {
+    "weapon_number": "762",
+    "attribute": "721",
+    "raw_value": "16"
+  }
+]

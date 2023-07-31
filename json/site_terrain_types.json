@@ -1,0 +1,58 @@
+[
+  {
+    "bit_value": "1",
+    "bit_name": "Plain"
+  },
+  {
+    "bit_value": "2",
+    "bit_name": "Forest"
+  },
+  {
+    "bit_value": "4",
+    "bit_name": "Mountain"
+  },
+  {
+    "bit_value": "8",
+    "bit_name": "Waste"
+  },
+  {
+    "bit_value": "16",
+    "bit_name": "Farm"
+  },
+  {
+    "bit_value": "32",
+    "bit_name": "Sea"
+  },
+  {
+    "bit_value": "64",
+    "bit_name": "Coast"
+  },
+  {
+    "bit_value": "128",
+    "bit_name": "Swamp"
+  },
+  {
+    "bit_value": "256",
+    "bit_name": "Deep sea"
+  },
+  {
+    "bit_value": "512",
+    "bit_name": "Cave"
+  },
+  {
+    "bit_value": "16384",
+    "bit_name": "Unique"
+  },
+  {
+    "bit_value": "32768",
+    "bit_name": "Underwater Mountain"
+  },
+  {
+    "bit_value": "65536",
+    "bit_name": "Underwater Forest"
+  },
+  {
+    "bit_value": "131072",
+    "bit_name": "Underwater Coastal"
+  }
+]

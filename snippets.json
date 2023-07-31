@@ -8240,7 +8240,7 @@
 		"body":[
 			   "#restricted"
 		  ],
-		"description":"The item is restricted to this nation only. Can be used multiple times on one item to enable it for a few nations. A nation nbr of -1 restricts the item to the last manipulated nation so this command can be used with #newnation."
+		"description":"This item or spell is restrcited to this nation only. For spells you can use this up to 12 times per spell. You can reuse this an unknown amount of times per item. A value of -1 restricts the spell or item to the last manipulated nation, so this command can be used with #newnation."
 	   }
    ,
 	"restricteditem": {

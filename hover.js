@@ -1,41 +1,150 @@
 const vscode = require('vscode');
 
-function activate(context) {
+function separateCommand(inputString) {
+    const pattern = /#(\w+)\s+(\d+)/;
+    const match = inputString.match(pattern);
+    return match ? [match[1], parseInt(match[2])] : [null, null];
+}
+
+const fs = require('fs');
+
+async function loadJson(filename) {
+    try {
+      const data = await fs.promises.readFile(filename, 'utf8');
+      const jsonData = JSON.parse(data);
+      return jsonData
+    } catch (error) {
+      console.error('Error reading JSON file:', error);
+      return null;
+    }
+  }
+
+function generateMarkdownTable(data, customMessage = "") {
+    const tableHeader = '| Property | Value |\n|:--------:|:-----:|';
+    const tableRow = Object.entries(data)
+      .filter(([prop, val]) => val !== "") // Skip rows where the value is blank (empty string)
+      .map(([prop, val]) => `| ${prop} | ${val} |`)
+      .join('\n');
+    const tableContent = `${tableHeader}\n${tableRow}`;
+  
+    // Check if the custom message is not empty, then include it before the table
+    return customMessage ? `${customMessage}\n\n${tableContent}` : tableContent;
+  }
+  
+
+
+  function generateHoverContent(matchedValue, customMessage) {
+    const markdownTable = generateMarkdownTable(matchedValue);
+    const markdownContent = customMessage ? `${customMessage}\n\n${markdownTable}` : markdownTable;
+    return new vscode.Hover(new vscode.MarkdownString(markdownContent, true));
+  }
+
+async function activate(context) {
 
     console.log('Congratulations, your extension "Dominions Mod Support" is now active!');
 
     vscode.languages.registerHoverProvider('dominionsmod', {
-        provideHover(document, position, token) {
+         async provideHover(document, position, token) {
 
             const range = document.getWordRangeAtPosition(position);
             const word = document.getText(range);
+            const line = document.lineAt(position.line).text;
+            const command = separateCommand(line);
 
-            console.log('Hovered word:', word);
-/*
-            if (word === 'tableExample') {
-                const markdown = new vscode.MarkdownString(` Blah Blah Blah here.
-|Table|Header|
-|:----:|:----:|
-|0|Fire|
-|1|Air|
-|2|Water|
-|3|Earth|
-|4|Astral|
-|5|Death|
-|6|Nature|
-|7|Blood|
-|8|Priest|
-|50|Random|
-|51|Elemental|
-|52|Sorcery|
-|53|All (not priest)|
-`);
+            console.log('Hovered command', command[0]);
+            console.log('Hovered value', command[1]);
+            console.log('Hovered Word', word);
 
-        markdown.isTrusted = true;
+            const nationcmds = ["restricted", "nationrebate", "notfornation", "nat", "selectnation"]
+            const unitcmds = ["selectmonster", "selectmonster","copystats", "copyspr", "monpresentrec","ownsmonrec","raiseshape","shapechange","prophetshape","firstshape","secondshape","secondtmpshape","forestshape","plainshape","foreignshape","homeshape","domshape","notdomshape","springshape","summershape","autumnshape","wintershape","landshape","landshape","watershape","twiceborn","domsummon","domsummon2","domsummon20","raredomsummon","templetrainer","makemonsters1","makemonsters2","makemonsters3","makemonsters4","makemonsters5","summon1","summon2","summon3","summon4","summon5","battlesum1", "battlesum2","battlesum3", "battlesum4", "battlesum5","batstartsum1","batstartsum2","batstartsum3","batstartsum4","batstartsum5","batstartsum1d3","batstartsum1d6","batstartsum2d6","batstartsum3d6","batstartsum4d6","batstartsum5d6","batstartsum6d6","batstartsum7d6","batstartsum8d6","batstartsum9d6","slaver","farsumcom","onlymnr","notmnr","homemon","homecom","mon","com","natmon","natcom","summon","summonlvl2","summonlvl3","summonlvl4","wallcom","wallunit","uwwallunit","uwwallcom","startcom","coastcom1","coastcom2","addforeignunit", "addforeigncom","forestrec", "mountainrec", "swamprec","wasterec","caverec","coastrec","startscout","forestcom","mountaincom","swampcom","wastecom","cavecom","coastcom","startunittype1","startunittype2","addrecunit","addreccom","uwrec","uwcom","coastunit1","coastunit2","coastunit3","landrec","landcom","hero1","hero2","hero3","hero4","hero5","hero6","hero7","hero8","hero9","hero10","multihero1","multihero2","multihero3","multihero4","multihero5","multihero6","multihero7","defcom1","defcom2","defunit1", "defunit1b","defunit1c", "defunit1d", "defunit2","defunit2b","delgod","cheapgod20","cheapgod40"]
+            const itemcmds = ["startitem","selectitem","copyitem"]
+            const spellcmds = ["onebattlespell", "selectspell","nextspell"]
+            const sitescmds = ["selectsite", "newsite"]
+            const enchtcmds = ["enchrebate50", "enchrebate25p", "enchrebate50p",]
 
-        return new vscode.Hover(markdown);
-    }
-*/
+
+            if (nationcmds.some(cmd => cmd === command[0]) && word !== command[0]) {
+            
+                const jsonData = await loadJson(context.asAbsolutePath('/json/nations.json'));
+                const keyToFind = "id";
+                const matchedValue = jsonData.find(obj => obj[keyToFind] === word);
+
+                if (matchedValue) {
+                    const customMessage = null;
+        
+                    // Call the function to generate the hover content
+                    return generateHoverContent(matchedValue, customMessage);
+                }
+            }
+            if (unitcmds.some(cmd => cmd === command[0]) && word !== command[0]) {
+            
+                const jsonData = await loadJson(context.asAbsolutePath('/json/BaseU.json'));
+                const keyToFind = "id";
+                const matchedValue = jsonData.find(obj => obj[keyToFind] === word);
+
+                if (matchedValue) {
+                    const customMessage = null;
+        
+                    // Call the function to generate the hover content
+                    return generateHoverContent(matchedValue, customMessage);
+                }
+            }
+
+            if (itemcmds.some(cmd => cmd === command[0]) && word !== command[0]) {
+            
+                const jsonData = await loadJson(context.asAbsolutePath('/json/BaseI.json'));
+                const keyToFind = "id";
+                const matchedValue = jsonData.find(obj => obj[keyToFind] === word);
+
+                if (matchedValue) {
+                    const customMessage = null;
+        
+                    // Call the function to generate the hover content
+                    return generateHoverContent(matchedValue, customMessage);
+                }
+            }
+
+            if (spellcmds.some(cmd => cmd === command[0]) && word !== command[0]) {
+            
+                const jsonData = await loadJson(context.asAbsolutePath('/json/spells.json'));
+                const keyToFind = "id";
+                const matchedValue = jsonData.find(obj => obj[keyToFind] === word);
+
+                if (matchedValue) {
+                    const customMessage = null;
+        
+                    // Call the function to generate the hover content
+                    return generateHoverContent(matchedValue, customMessage);
+                }
+            }
+
+            if (sitescmds.some(cmd => cmd === command[0]) && word !== command[0]) {
+            
+                const jsonData = await loadJson(context.asAbsolutePath('/json/MagicSites.json'));
+                const keyToFind = "id";
+                const matchedValue = jsonData.find(obj => obj[keyToFind] === word);
+
+                if (matchedValue) {
+                    const customMessage = null;
+        
+                    // Call the function to generate the hover content
+                    return generateHoverContent(matchedValue, customMessage);
+                }
+            }
+
+            if (enchtcmds.some(cmd => cmd === command[0]) && word !== command[0]) {
+            
+                const jsonData = await loadJson(context.asAbsolutePath('/json/enchantments.json'));
+                const keyToFind = "id";
+                const matchedValue = jsonData.find(obj => obj[keyToFind] === word);
+
+                if (matchedValue) {
+                    const customMessage = null;
+        
+                    // Call the function to generate the hover content
+                    return generateHoverContent(matchedValue, customMessage);
+                }
+            }
 
 
             if (word == "newarmor") {
@@ -7279,7 +7388,7 @@ function activate(context) {
             if (word == "restricted") {
                 return new vscode.Hover({
                     language: "English",
-                    value: "The item is restricted to this nation only. Can be used multiple times on one item to enable it for a few nations. A nation nbr of -1 restricts the item to the last manipulated nation so this command can be used with #newnation."
+                    value: "This item or spell is restrcited to this nation only. For spells you can use this up to 12 times per spell. You can reuse this an unknown amount of times per item. A value of -1 restricts the spell or item to the last manipulated nation, so this command can be used with #newnation."
                 });
             }
             

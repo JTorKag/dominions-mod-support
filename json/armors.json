@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "1",
+    "name": "Buckler",
+    "type": "4",
+    "def": "2",
+    "enc": "0",
+    "rcost": "1"
+  },
+  {
+    "id": "2",
+    "name": "Shield",
+    "type": "4",
+    "def": "3",
+    "enc": "1",
+    "rcost": "2"
+  },
+  {
+    "id": "3",
+    "name": "Kite Shield",
+    "type": "4",
+    "def": "4",
+    "enc": "2",
+    "rcost": "4"
+  },
+  {
+    "id": "4",
+    "name": "Tower Shield",
+    "type": "4",
+    "def": "5",
+    "enc": "2",
+    "rcost": "3"
+  },
+  {
+    "id": "5",
+    "name": "Leather Cuirass",
+    "type": "5",
+    "def": "0",
+    "enc": "0",
+    "rcost": "1"
+  },
+  {
+    "id": "6",
+    "name": "Ring Mail Cuirass",
+    "type": "5",
+    "def": "0",
+    "enc": "0",
+    "rcost": "3"
+  },
+  {
+    "id": "7",
+    "name": "Scale Mail Cuirass",
+    "type": "5",
+    "def": "-1",
+    "enc": "1",
+    "rcost": "6"
+  },
+  {
+    "id": "8",
+    "name": "Chain Mail Cuirass",
+    "type": "5",
+    "def": "-1",
+    "enc": "1",
+    "rcost": "9"
+  },
+  {
+    "id": "9",
+    "name": "Plate Cuirass",
+    "type": "5",
+    "def": "-1",
+    "enc": "2",
+    "rcost": "15"
+  },
+  {
+    "id": "10",
+    "name": "Leather Hauberk",
+    "type": "5",
+    "def": "0",
+    "enc": "0",
+    "rcost": "2"
+  },
+  {
+    "id": "11",
+    "name": "Ring Mail Hauberk",
+    "type": "5",
+    "def": "-1",
+    "enc": "1",
+    "rcost": "5"
+  },
+  {
+    "id": "12",
+    "name": "Scale Mail Hauberk",
+    "type": "5",
+    "def": "-1",
+    "enc": "2",
+    "rcost": "9"
+  },
+  {
+    "id": "13",
+    "name": "Chain Mail Hauberk",
+    "type": "5",
+    "def": "-2",
+    "enc": "2",
+    "rcost": "13"
+  },
+  {
+    "id": "14",
+    "name": "Plate Hauberk",
+    "type": "5",
+    "def": "-2",
+    "enc": "4",
+    "rcost": "20"
+  },
+  {
+    "id": "15",
+    "name": "Full Leather Armor",
+    "type": "5",
+    "def": "-1",
+    "enc": "1",
+    "rcost": "3"
+  },
+  {
+    "id": "16",
+    "name": "Full Ring Mail",
+    "type": "5",
+    "def": "-2",
+    "enc": "2",
+    "rcost": "7"
+  },
+  {
+    "id": "17",
+    "name": "Full Scale Mail",
+    "type": "5",
+    "def": "-2",
+    "enc": "3",
+    "rcost": "12"
+  },
+  {
+    "id": "18",
+    "name": "Full Chain Mail",
+    "type": "5",
+    "def": "-3",
+    "enc": "3",
+    "rcost": "17"
+  },
+  {
+    "id": "19",
+    "name": "Full Plate Mail",
+    "type": "5",
+    "def": "-3",
+    "enc": "5",
+    "rcost": "25"
+  },
+  {
+    "id": "20",
+    "name": "Iron Cap",
+    "type": "6",
+    "def": "0",
+    "enc": "0",
+    "rcost": "2"
+  },
+  {
+    "id": "21",
+    "name": "Full Helmet",
+    "type": "6",
+    "def": "-1",
+    "enc": "0",
+    "rcost": "5"
+  },
+  {
+    "id": "22",
+    "name": "Coral Cuirass",
+    "type": "5",
+    "def": "-1",
+    "enc": "2",
+    "rcost": "7"
+  },
+  {
+    "id": "23",
+    "name": "Coral Hauberk",
+    "type": "5",
+    "def": "-2",
+    "enc": "3",
+    "rcost": "10"
+  },
+  {
+    "id": "24",
+    "name": "Coral Cap",
+    "type": "6",
+    "def": "0",
+    "enc": "0",
+    "rcost": "2"
+  },
+  {
+    "id": "25",
+    "name": "Turtle Shell Shield",
+    "type": "4",
+    "def": "3",
+    "enc": "1",
+    "rcost": "1"
+  },
+  {
+    "id": "26",
+    "name": "Ice Cuirass",
+    "type": "5",
+    "def": "-1",
+    "enc": "1",
+    "rcost": "16"
+  },
+  {
+    "id": "27",
+    "name": "Ice Hauberk",
+    "type": "5",
+    "def": "-2",
+    "enc": "2",
+    "rcost": "22"
+  },
+  {
+    "id": "28",
+    "name": "Ice Aegis",
+    "type": "4",
+    "def": "5",
+    "enc": "1",
+    "rcost": "9"
+  },
+  {
+    "id": "29",
+    "name": "Ice Cap",
+    "type": "6",
+    "def": "0",
+    "enc": "0",
+    "rcost": "3"
+  },
+  {
+    "id": "30",
+    "name": "Rusty Plate Hauberk",
+    "type": "5",
+    "def": "-2",
+    "enc": "4",
+    "rcost": "0"
+  },
+  {
+    "id": "31",
+    "name": "Rusty Scale Mail Hauberk",
+    "type": "5",
+    "def": "-1",
+    "enc": "2",
+    "rcost": "0"
+  },
+  {
+    "id": "32",
+    "name": "Rusty Ring Mail Hauberk",
+    "type": "5",
+    "def": "-1",
+    "enc": "1",
+    "rcost": "0"
+  },
+  {
+    "id": "33",
+    "name": "Rusty Chain Mail Hauberk",
+    "type": "5",
+    "def": "-2",
+    "enc": "2",
+    "rcost": "0"
+  },
+  {
+    "id": "34",
+    "name": "Twisting Thorns",
+    "type": "5",
+    "def": "-1",
+    "enc": "5",
+    "rcost": "0"
+  },
+  {
+    "id": "35",
+    "name": "Aseftik's Armor",
+    "type": "5",
+    "def": "-3",
+    "enc": "4",
+    "rcost": "0"
+  },
+  {
+    "id": "36",
+    "name": "Dragon Scale Mail",
+    "type": "5",
+    "def": "-1",
+    "enc": "1",
+    "rcost": "0"
+  },
+  {
+    "id": "37",
+    "name": "Shambler Skin Hauberk",
+    "type": "5",
+    "def": "0",
+    "enc": "1",
+    "rcost": "0"
+  },
+  {
+    "id": "38",
+    "name": "Blacksteel Full Plate",
+    "type": "5",
+    "def": "-3",
+    "enc": "4",
+    "rcost": "0"
+  },
+  {
+    "id": "39",
+    "name": "Blacksteel Plate",
+    "type": "5",
+    "def": "-1",
+    "enc": "2",
+    "rcost": "0"
+  },
+  {
+    "id": "40",
+    "name": "Blacksteel Helmet",
+    "type": "6",
+    "def": "0",
+    "enc": "0",
+    "rcost": "0"
+  },
+  {
+    "id": "41",
+    "name": "Blacksteel Tower Shield",
+    "type": "4",
+    "def": "7",
+    "enc": "2",
+    "rcost": "0"
+  },
+  {
+    "id": "42",
+    "name": "Lead Shield",
+    "type": "4",
+    "def": "3",
+    "enc": "3",
+    "rcost": "0"
+  },
+  {
+    "id": "43",
+    "name": "Hydra Skin Armor",
+    "type": "5",
+    "def": "-1",
+    "enc": "1",
+    "rcost": "0"
+  },
+  {
+    "id": "44",
+    "name": "Furs",
+    "type": "5",
+    "def": "-1",
+    "enc": "1",
+    "rcost": "1"
+  },
+  {
+    "id": "45",
+    "name": "Jade Mask",
+    "type": "6",
+    "def": "0",
+    "enc": "0",
+    "rcost": "0"
+  },
+  {
+    "id": "46",
+    "name": "Rime Hauberk",
+    "type": "5",
+    "def": "-2",
+    "enc": "2",
+    "rcost": "0"
+  },
+  {
+    "id": "47",
+    "name": "Monolith Armor",
+    "type": "5",
+    "def": "-8",
+    "enc": "10",
+    "rcost": "0"
+  },
+  {
+    "id": "48",
+    "name": "Silver Hauberk",
+    "type": "5",
+    "def": "-1",
+    "enc": "1",
+    "rcost": "0"
+  },
+  {
+    "id": "49",
+    "name": "Lightweight Scale Mail",
+    "type": "5",
+    "def": "0",
+    "enc": "1",
+    "rcost": "12"
+  },
+  {
+    "id": "50",
+    "name": "Weightless Scale",
+    "type": "5",
+    "def": "0",
+    "enc": "0",
+    "rcost": "0"
+  },
+  {
+    "id": "51",
+    "name": "Bone Armor",
+    "type": "5",
+    "def": "-3",
+    "enc": "3",
+    "rcost": "0"
+  },
+  {
+    "id": "52",
+    "name": "Ice Studded Armor",
+    "type": "5",
+    "def": "-1",
+    "enc": "0",
+    "rcost": "6"
+  },
+  {
+    "id": "53",
+    "name": "Meteorite Armor",
+    "type": "5",
+    "def": "-2",
+    "enc": "4",
+    "rcost": "25"
+  },
+  {
+    "id": "54",
+    "name": "Shroud of the Battle Saint",
+    "type": "5",
+    "def": "0",
+    "enc": "0",
+    "rcost": "0"
+  },
+  {
+    "id": "55",
+    "name": "Crown of Overmight",
+    "type": "6",
+    "def": "-3",
+    "enc": "2",
+    "rcost": "0"
+  },
+  {
+    "id": "56",
+    "name": "Armor of Souls",
+    "type": "5",
+    "def": "-1",
+    "enc": "1",
+    "rcost": "0"
+  },
+  {
+    "id": "57",
+    "name": "Shield of Valor",
+    "type": "4",
+    "def": "7",
+    "enc": "1",
+    "rcost": "0"
+  },
+  {
+    "id": "58",
+    "name": "Centaur Barding",
+    "type": "5",
+    "def": "-2",
+    "enc": "3",
+    "rcost": "26"
+  },
+  {
+    "id": "59",
+    "name": "Elemental Armor",
+    "type": "5",
+    "def": "-3",
+    "enc": "4",
+    "rcost": "0"
+  },
+  {
+    "id": "60",
+    "name": "Charcoal Shield",
+    "type": "4",
+    "def": "4",
+    "enc": "1",
+    "rcost": "0"
+  },
+  {
+    "id": "61",
+    "name": "Eye Shield",
+    "type": "4",
+    "def": "5",
+    "enc": "0",
+    "rcost": "0"
+  },
+  {
+    "id": "62",
+    "name": "Shield of the Accursed",
+    "type": "4",
+    "def": "6",
+    "enc": "1",
+    "rcost": "0"
+  },
+  {
+    "id": "63",
+    "name": "Vine Shield",
+    "type": "4",
+    "def": "5",
+    "enc": "0",
+    "rcost": "0"
+  },
+  {
+    "id": "64",
+    "name": "Aegis",
+    "type": "4",
+    "def": "6",
+    "enc": "1",
+    "rcost": "0"
+  },
+  {
+    "id": "65",
+    "name": "Weightless Tower Shield",
+    "type": "4",
+    "def": "8",
+    "enc": "0",
+    "rcost": "0"
+  },
+  {
+    "id": "66",
+    "name": "Weightless Kite Shield",
+    "type": "4",
+    "def": "7",
+    "enc": "0",
+    "rcost": "0"
+  },
+  {
+    "id": "67",
+    "name": "Lucky Coin",
+    "type": "4",
+    "def": "4",
+    "enc": "0",
+    "rcost": "0"
+  },
+  {
+    "id": "68",
+    "name": "Barrier",
+    "type": "4",
+    "def": "9",
+    "enc": "2",
+    "rcost": "0"
+  },
+  {
+    "id": "69",
+    "name": "Blacksteel Kite Shield",
+    "type": "4",
+    "def": "6",
+    "enc": "2",
+    "rcost": "0"
+  },
+  {
+    "id": "70",
+    "name": "Leather Shield",
+    "type": "4",
+    "def": "4",
+    "enc": "0",
+    "rcost": "0"
+  },
+  {
+    "id": "71",
+    "name": "Gold Shield",
+    "type": "4",
+    "def": "8",
+    "enc": "1",
+    "rcost": "0"
+  },
+  {
+    "id": "72",
+    "name": "Fenris' Pelt",
+    "type": "5",
+    "def": "0",
+    "enc": "1",
+    "rcost": "0"
+  },
+  {
+    "id": "73",
+    "name": "Crystal Shield",
+    "type": "4",
+    "def": "3",
+    "enc": "4",
+    "rcost": "0"
+  },
+  {
+    "id": "74",
+    "name": "Stymphalian Wings",
+    "type": "5",
+    "def": "-4",
+    "enc": "3",
+    "rcost": "0"
+  },
+  {
+    "id": "75",
+    "name": "Fire Plate",
+    "type": "5",
+    "def": "-1",
+    "enc": "2",
+    "rcost": "20"
+  },
+  {
+    "id": "76",
+    "name": "Magic Bracers",
+    "type": "8",
+    "def": "2",
+    "enc": "0",
+    "rcost": "0"
+  },
+  {
+    "id": "77",
+    "name": "...",
+    "type": "8",
+    "def": "4",
+    "enc": "0",
+    "rcost": "0"
+  },
+  {
+    "id": "78",
+    "name": "Krupp's Bracers",
+    "type": "8",
+    "def": "4",
+    "enc": "0",
+    "rcost": "0"
+  },
+  {
+    "id": "79",
+    "name": "Spirit Helmet",
+    "type": "6",
+    "def": "0",
+    "enc": "0",
+    "rcost": "0"
+  },
+  {
+    "id": "80",
+    "name": "Flame Helmet",
+    "type": "6",
+    "def": "0",
+    "enc": "0",
+    "rcost": "0"
+  },
+  {
+    "id": "81",
+    "name": "Chain Mail of Displacement",
+    "type": "5",
+    "def": "3",
+    "enc": "2",
+    "rcost": "0"
+  },
+  {
+    "id": "82",
+    "name": "Flesh Ward",
+    "type": "5",
+    "def": "0",
+    "enc": "0",
+    "rcost": "0"
+  },
+  {
+    "id": "83",
+    "name": "Starshine Skullcap",
+    "type": "6",
+    "def": "0",
+    "enc": "0",
+    "rcost": "0"
+  },
+  {
+    "id": "84",
+    "name": "Amber Hauberk",
+    "type": "5",
+    "def": "-2",
+    "enc": "3",
+    "rcost": "20"
+  },
+  {
+    "id": "85",
+    "name": "Amber Shield",
+    "type": "4",
+    "def": "3",
+    "enc": "1",
+    "rcost": "8"
+  },
+  {
+    "id": "86",
+    "name": "Amber Helmet",
+    "type": "6",
+    "def": "0",
+    "enc": "0",
+    "rcost": "3"
+  },
+  {
+    "id": "87",
+    "name": "Scutata Volturnus",
+    "type": "4",
+    "def": "7",
+    "enc": "2",
+    "rcost": "0"
+  },
+  {
+    "id": "88",
+    "name": "Lantern Shield",
+    "type": "4",
+    "def": "5",
+    "enc": "1",
+    "rcost": "0"
+  },
+  {
+    "id": "89",
+    "name": "Copper Plate",
+    "type": "5",
+    "def": "-1",
+    "enc": "2",
+    "rcost": "0"
+  },
+  {
+    "id": "90",
+    "name": "Rainbow Armor",
+    "type": "5",
+    "def": "-1",
+    "enc": "1",
+    "rcost": "0"
+  },
+  {
+    "id": "91",
+    "name": "XXX",
+    "type": "5",
+    "def": "-3",
+    "enc": "4",
+    "rcost": "25"
+  },
+  {
+    "id": "92",
+    "name": "Enchanted Shield",
+    "type": "4",
+    "def": "6",
+    "enc": "1",
+    "rcost": "0"
+  },
+  {
+    "id": "93",
+    "name": "Rusty Scale Cuirass",
+    "type": "5",
+    "def": "-1",
+    "enc": "1",
+    "rcost": "0"
+  },
+  {
+    "id": "94",
+    "name": "The Gift of Kurgi",
+    "type": "8",
+    "def": "8",
+    "enc": "0",
+    "rcost": "0"
+  },
+  {
+    "id": "95",
+    "name": "Sun Armor",
+    "type": "5",
+    "def": "-3",
+    "enc": "4",
+    "rcost": "0"
+  },
+  {
+    "id": "96",
+    "name": "Sun Helmet",
+    "type": "6",
+    "def": "0",
+    "enc": "0",
+    "rcost": "0"
+  },
+  {
+    "id": "97",
+    "name": "Sun Shield",
+    "type": "4",
+    "def": "6",
+    "enc": "2",
+    "rcost": "0"
+  },
+  {
+    "id": "98",
+    "name": "Robe of the Sorceress",
+    "type": "5",
+    "def": "0",
+    "enc": "0",
+    "rcost": "0"
+  },
+  {
+    "id": "99",
+    "name": "Lorica Segmentata",
+    "type": "5",
+    "def": "-1",
+    "enc": "2",
+    "rcost": "11"
+  },
+  {
+    "id": "100",
+    "name": "Bronze Cuirass",
+    "type": "5",
+    "def": "-1",
+    "enc": "3",
+    "rcost": "14"
+  },
+  {
+    "id": "101",
+    "name": "Bronze Hauberk",
+    "type": "5",
+    "def": "-2",
+    "enc": "5",
+    "rcost": "18"
+  },
+  {
+    "id": "102",
+    "name": "Centaur Barding",
+    "type": "5",
+    "def": "-2",
+    "enc": "4",
+    "rcost": "23"
+  },
+  {
+    "id": "103",
+    "name": "Centaur Barding",
+    "type": "5",
+    "def": "0",
+    "enc": "0",
+    "rcost": "6"
+  },
+  {
+    "id": "104",
+    "name": "Mictlan Armor",
+    "type": "5",
+    "def": "-1",
+    "enc": "2",
+    "rcost": "4"
+  },
+  {
+    "id": "105",
+    "name": "Hide Shield",
+    "type": "4",
+    "def": "3",
+    "enc": "0",
+    "rcost": "0"
+  },
+  {
+    "id": "106",
+    "name": "Mictlan Copper Scale Armor",
+    "type": "5",
+    "def": "-1",
+    "enc": "3",
+    "rcost": "10"
+  },
+  {
+    "id": "107",
+    "name": "Jade Scale Armor",
+    "type": "5",
+    "def": "-1",
+    "enc": "4",
+    "rcost": "0"
+  },
+  {
+    "id": "108",
+    "name": "Greenstone Armor",
+    "type": "5",
+    "def": "-3",
+    "enc": "6",
+    "rcost": "0"
+  },
+  {
+    "id": "109",
+    "name": "Marble Breastplate",
+    "type": "5",
+    "def": "-1",
+    "enc": "3",
+    "rcost": "0"
+  },
+  {
+    "id": "110",
+    "name": "Armor of Virtue",
+    "type": "5",
+    "def": "-1",
+    "enc": "1",
+    "rcost": "0"
+  },
+  {
+    "id": "111",
+    "name": "Spider Armor",
+    "type": "5",
+    "def": "-3",
+    "enc": "4",
+    "rcost": "26"
+  },
+  {
+    "id": "112",
+    "name": "Great Hide Shield",
+    "type": "4",
+    "def": "5",
+    "enc": "1",
+    "rcost": "1"
+  },
+  {
+    "id": "113",
+    "name": "Skull Necklace",
+    "type": "5",
+    "def": "0",
+    "enc": "0",
+    "rcost": "0"
+  },
+  {
+    "id": "114",
+    "name": "Turtle Shell Hauberk",
+    "type": "5",
+    "def": "-2",
+    "enc": "1",
+    "rcost": "4"
+  },
+  {
+    "id": "115",
+    "name": "Icarian Wings",
+    "type": "5",
+    "def": "-3",
+    "enc": "3",
+    "rcost": "10"
+  },
+  {
+    "id": "116",
+    "name": "Lorica Hamata",
+    "type": "5",
+    "def": "-1",
+    "enc": "1",
+    "rcost": "5"
+  },
+  {
+    "id": "117",
+    "name": "Lorica Squamata",
+    "type": "5",
+    "def": "-1",
+    "enc": "2",
+    "rcost": "7"
+  },
+  {
+    "id": "118",
+    "name": "Half Helmet",
+    "type": "6",
+    "def": "0",
+    "enc": "0",
+    "rcost": "3"
+  },
+  {
+    "id": "119",
+    "name": "Reinforced Leather Cap",
+    "type": "6",
+    "def": "0",
+    "enc": "0",
+    "rcost": "1"
+  },
+  {
+    "id": "120",
+    "name": "Leather Cap",
+    "type": "6",
+    "def": "0",
+    "enc": "0",
+    "rcost": "0"
+  },
+  {
+    "id": "121",
+    "name": "Leather Hood",
+    "type": "6",
+    "def": "0",
+    "enc": "0",
+    "rcost": "0"
+  },
+  {
+    "id": "122",
+    "name": "Skull Cap",
+    "type": "6",
+    "def": "0",
+    "enc": "0",
+    "rcost": "0"
+  },
+  {
+    "id": "123",
+    "name": "Hoplite Helmet",
+    "type": "6",
+    "def": "-1",
+    "enc": "0",
+    "rcost": "5"
+  },
+  {
+    "id": "124",
+    "name": "Ice Helmet",
+    "type": "6",
+    "def": "0",
+    "enc": "0",
+    "rcost": "6"
+  },
+  {
+    "id": "125",
+    "name": "Skullface",
+    "type": "6",
+    "def": "0",
+    "enc": "0",
+    "rcost": "0"
+  },
+  {
+    "id": "126",
+    "name": "Legionary Helmet",
+    "type": "6",
+    "def": "0",
+    "enc": "0",
+    "rcost": "3"
+  },
+  {
+    "id": "127",
+    "name": "Legionary Bronze Helmet",
+    "type": "6",
+    "def": "0",
+    "enc": "0",
+    "rcost": "2"
+  },
+  {
+    "id": "128",
+    "name": "Ashigaru Armor",
+    "type": "5",
+    "def": "-1",
+    "enc": "2",
+    "rcost": "7"
+  },
+  {
+    "id": "129",
+    "name": "Samurai Armor",
+    "type": "5",
+    "def": "-2",
+    "enc": "3",
+    "rcost": "10"
+  },
+  {
+    "id": "130",
+    "name": "Heavy Samurai Armor",
+    "type": "5",
+    "def": "-3",
+    "enc": "4",
+    "rcost": "14"
+  },
+  {
+    "id": "131",
+    "name": "Jingasa",
+    "type": "6",
+    "def": "0",
+    "enc": "0",
+    "rcost": "2"
+  },
+  {
+    "id": "132",
+    "name": "Kabuto",
+    "type": "6",
+    "def": "0",
+    "enc": "0",
+    "rcost": "4"
+  },
+  {
+    "id": "133",
+    "name": "Icicle Mail",
+    "type": "5",
+    "def": "-1",
+    "enc": "2",
+    "rcost": "13"
+  },
+  {
+    "id": "134",
+    "name": "Turtle Cap",
+    "type": "6",
+    "def": "0",
+    "enc": "0",
+    "rcost": "1"
+  },
+  {
+    "id": "135",
+    "name": "Bronze Cap",
+    "type": "6",
+    "def": "0",
+    "enc": "0",
+    "rcost": "2"
+  },
+  {
+    "id": "136",
+    "name": "Bronze Scale Hauberk",
+    "type": "5",
+    "def": "-1",
+    "enc": "2",
+    "rcost": "8"
+  },
+  {
+    "id": "137",
+    "name": "Turtle Shell Barding",
+    "type": "5",
+    "def": "0",
+    "enc": "0",
+    "rcost": "4"
+  },
+  {
+    "id": "138",
+    "name": "Ichtycentaur Cuirass",
+    "type": "5",
+    "def": "0",
+    "enc": "0",
+    "rcost": "4"
+  },
+  {
+    "id": "139",
+    "name": "Ichtycentaur Barding",
+    "type": "5",
+    "def": "-2",
+    "enc": "4",
+    "rcost": "20"
+  },
+  {
+    "id": "140",
+    "name": "Shell Armor",
+    "type": "5",
+    "def": "-1",
+    "enc": "1",
+    "rcost": "8"
+  },
+  {
+    "id": "141",
+    "name": "Blind Helmet",
+    "type": "6",
+    "def": "0",
+    "enc": "0",
+    "rcost": "5"
+  },
+  {
+    "id": "142",
+    "name": "Bronze Scale Cuirass",
+    "type": "5",
+    "def": "-1",
+    "enc": "1",
+    "rcost": "5"
+  },
+  {
+    "id": "143",
+    "name": "Stone Shield",
+    "type": "4",
+    "def": "4",
+    "enc": "4",
+    "rcost": "0"
+  },
+  {
+    "id": "144",
+    "name": "Elephant Barding",
+    "type": "5",
+    "def": "0",
+    "enc": "2",
+    "rcost": "10"
+  },
+  {
+    "id": "145",
+    "name": "Mask",
+    "type": "6",
+    "def": "-1",
+    "enc": "0",
+    "rcost": "0"
+  },
+  {
+    "id": "146",
+    "name": "Ancestor Armor",
+    "type": "5",
+    "def": "-3",
+    "enc": "3",
+    "rcost": "15"
+  },
+  {
+    "id": "147",
+    "name": "Armor of the Dragon King",
+    "type": "5",
+    "def": "-2",
+    "enc": "3",
+    "rcost": "1"
+  },
+  {
+    "id": "148",
+    "name": "Crown",
+    "type": "6",
+    "def": "0",
+    "enc": "0",
+    "rcost": "0"
+  },
+  {
+    "id": "149",
+    "name": "Bone Cuirass",
+    "type": "5",
+    "def": "-1",
+    "enc": "1",
+    "rcost": "3"
+  },
+  {
+    "id": "150",
+    "name": "Bone Helmet",
+    "type": "6",
+    "def": "0",
+    "enc": "0",
+    "rcost": "1"
+  },
+  {
+    "id": "151",
+    "name": "Sharkskin Armor",
+    "type": "5",
+    "def": "-1",
+    "enc": "1",
+    "rcost": "3"
+  },
+  {
+    "id": "152",
+    "name": "Sharkskin Cap",
+    "type": "6",
+    "def": "0",
+    "enc": "0",
+    "rcost": "0"
+  },
+  {
+    "id": "153",
+    "name": "Basalt Armor",
+    "type": "5",
+    "def": "-4",
+    "enc": "6",
+    "rcost": "30"
+  },
+  {
+    "id": "154",
+    "name": "Ancestor Cuirass",
+    "type": "5",
+    "def": "-1",
+    "enc": "2",
+    "rcost": "10"
+  },
+  {
+    "id": "155",
+    "name": "Golden Shield",
+    "type": "4",
+    "def": "4",
+    "enc": "1",
+    "rcost": "8"
+  },
+  {
+    "id": "156",
+    "name": "Spectral Shield",
+    "type": "4",
+    "def": "3",
+    "enc": "0",
+    "rcost": "0"
+  },
+  {
+    "id": "157",
+    "name": "Crimson Shield",
+    "type": "4",
+    "def": "4",
+    "enc": "0",
+    "rcost": "10"
+  },
+  {
+    "id": "158",
+    "name": "Robes",
+    "type": "5",
+    "def": "0",
+    "enc": "0",
+    "rcost": "1"
+  },
+  {
+    "id": "159",
+    "name": "Imperial Robes",
+    "type": "5",
+    "def": "0",
+    "enc": "0",
+    "rcost": "3"
+  },
+  {
+    "id": "160",
+    "name": "Fossilized Hauberk",
+    "type": "5",
+    "def": "-2",
+    "enc": "4",
+    "rcost": "0"
+  },
+  {
+    "id": "161",
+    "name": "Jeweled Breastplate",
+    "type": "5",
+    "def": "0",
+    "enc": "0",
+    "rcost": "10"
+  },
+  {
+    "id": "162",
+    "name": "Crested Helmet",
+    "type": "6",
+    "def": "0",
+    "enc": "0",
+    "rcost": "3"
+  },
+  {
+    "id": "163",
+    "name": "Anakite Armor",
+    "type": "5",
+    "def": "-1",
+    "enc": "2",
+    "rcost": "20"
+  },
+  {
+    "id": "164",
+    "name": "Anakite Shield",
+    "type": "4",
+    "def": "4",
+    "enc": "1",
+    "rcost": "8"
+  },
+  {
+    "id": "165",
+    "name": "Dawn Armor",
+    "type": "5",
+    "def": "-1",
+    "enc": "2",
+    "rcost": "25"
+  },
+  {
+    "id": "166",
+    "name": "Dawn Shield",
+    "type": "4",
+    "def": "4",
+    "enc": "1",
+    "rcost": "7"
+  },
+  {
+    "id": "167",
+    "name": "Rotten Buckler",
+    "type": "4",
+    "def": "2",
+    "enc": "0",
+    "rcost": "0"
+  },
+  {
+    "id": "168",
+    "name": "Rotten Shield",
+    "type": "4",
+    "def": "3",
+    "enc": "1",
+    "rcost": "1"
+  },
+  {
+    "id": "169",
+    "name": "Rusty Kite Shield",
+    "type": "4",
+    "def": "4",
+    "enc": "2",
+    "rcost": "2"
+  },
+  {
+    "id": "170",
+    "name": "Rotten Tower Shield",
+    "type": "4",
+    "def": "5",
+    "enc": "2",
+    "rcost": "2"
+  },
+  {
+    "id": "171",
+    "name": "Full Scale Archer Armor",
+    "type": "5",
+    "def": "-4",
+    "enc": "4",
+    "rcost": "15"
+  },
+  {
+    "id": "172",
+    "name": "Mail Barding",
+    "type": "5",
+    "def": "-2",
+    "enc": "4",
+    "rcost": "13"
+  },
+  {
+    "id": "173",
+    "name": "Iron Face",
+    "type": "6",
+    "def": "0",
+    "enc": "0",
+    "rcost": "0"
+  },
+  {
+    "id": "174",
+    "name": "Helmet of Champions",
+    "type": "6",
+    "def": "0",
+    "enc": "0",
+    "rcost": "0"
+  },
+  {
+    "id": "175",
+    "name": "Helmet of Perfection",
+    "type": "6",
+    "def": "0",
+    "enc": "0",
+    "rcost": "0"
+  },
+  {
+    "id": "176",
+    "name": "Dire Wolf Pelt",
+    "type": "5",
+    "def": "0",
+    "enc": "1",
+    "rcost": "10"
+  },
+  {
+    "id": "177",
+    "name": "Mirror Armor",
+    "type": "5",
+    "def": "-1",
+    "enc": "1",
+    "rcost": "20"
+  },
+  {
+    "id": "178",
+    "name": "Shield of the Dawn",
+    "type": "4",
+    "def": "7",
+    "enc": "2",
+    "rcost": "0"
+  },
+  {
+    "id": "179",
+    "name": "Armor of the Dawn",
+    "type": "5",
+    "def": "-1",
+    "enc": "2",
+    "rcost": "0"
+  },
+  {
+    "id": "180",
+    "name": "Helmet of the Dawn",
+    "type": "6",
+    "def": "0",
+    "enc": "0",
+    "rcost": "0"
+  },
+  {
+    "id": "181",
+    "name": "Golden Hoplon",
+    "type": "4",
+    "def": "7",
+    "enc": "1",
+    "rcost": "0"
+  },
+  {
+    "id": "182",
+    "name": "Immaculate Shield",
+    "type": "4",
+    "def": "8",
+    "enc": "1",
+    "rcost": "0"
+  },
+  {
+    "id": "183",
+    "name": "Linen Cuirass",
+    "type": "5",
+    "def": "0",
+    "enc": "0",
+    "rcost": "1"
+  },
+  {
+    "id": "184",
+    "name": "Kithaironic Lion Pelt",
+    "type": "5",
+    "def": "-1",
+    "enc": "1",
+    "rcost": "10"
+  },
+  {
+    "id": "185",
+    "name": "Brightmail Haubergeon",
+    "type": "5",
+    "def": "0",
+    "enc": "0",
+    "rcost": "0"
+  },
+  {
+    "id": "186",
+    "name": "Shademail Haubergeon",
+    "type": "5",
+    "def": "0",
+    "enc": "0",
+    "rcost": "0"
+  },
+  {
+    "id": "187",
+    "name": "Wooden Mask",
+    "type": "6",
+    "def": "-1",
+    "enc": "0",
+    "rcost": "0"
+  },
+  {
+    "id": "188",
+    "name": "Sharkskin Cuirass",
+    "type": "5",
+    "def": "0",
+    "enc": "1",
+    "rcost": "2"
+  },
+  {
+    "id": "189",
+    "name": "Pearl Shield",
+    "type": "4",
+    "def": "4",
+    "enc": "1",
+    "rcost": "8"
+  },
+  {
+    "id": "190",
+    "name": "Coral Barding",
+    "type": "5",
+    "def": "-2",
+    "enc": "4",
+    "rcost": "12"
+  },
+  {
+    "id": "191",
+    "name": "Helmet of Invisibility",
+    "type": "6",
+    "def": "0",
+    "enc": "0",
+    "rcost": "0"
+  },
+  {
+    "id": "192",
+    "name": "Magic Furs",
+    "type": "5",
+    "def": "0",
+    "enc": "0",
+    "rcost": "1"
+  },
+  {
+    "id": "193",
+    "name": "Champion's Helmet",
+    "type": "6",
+    "def": "0",
+    "enc": "0",
+    "rcost": "0"
+  },
+  {
+    "id": "194",
+    "name": "Enchanted Ring Mail Hauberk",
+    "type": "5",
+    "def": "-1",
+    "enc": "1",
+    "rcost": "0"
+  },
+  {
+    "id": "195",
+    "name": "Fish Mitre",
+    "type": "6",
+    "def": "0",
+    "enc": "0",
+    "rcost": "0"
+  },
+  {
+    "id": "196",
+    "name": "Golden Scale Mail",
+    "type": "5",
+    "def": "-2",
+    "enc": "2",
+    "rcost": "25"
+  },
+  {
+    "id": "197",
+    "name": "Fossilized Helmet",
+    "type": "6",
+    "def": "0",
+    "enc": "0",
+    "rcost": "2"
+  },
+  {
+    "id": "198",
+    "name": "Raptorian Plate Cuirass",
+    "type": "5",
+    "def": "-1",
+    "enc": "1",
+    "rcost": "17"
+  },
+  {
+    "id": "199",
+    "name": "Turan Plated Mail",
+    "type": "5",
+    "def": "-3",
+    "enc": "4",
+    "rcost": "17"
+  },
+  {
+    "id": "200",
+    "name": "Champion's Cuirass",
+    "type": "5",
+    "def": "-1",
+    "enc": "3",
+    "rcost": "20"
+  },
+  {
+    "id": "201",
+    "name": "Armor of Knights",
+    "type": "5",
+    "def": "-1",
+    "enc": "2",
+    "rcost": "20"
+  },
+  {
+    "id": "202",
+    "name": "Cloth Armor",
+    "type": "5",
+    "def": "0",
+    "enc": "0",
+    "rcost": "1"
+  },
+  {
+    "id": "203",
+    "name": "Reinforced Cloth Armor",
+    "type": "5",
+    "def": "0",
+    "enc": "1",
+    "rcost": "4"
+  },
+  {
+    "id": "204",
+    "name": "Armor of the Sun",
+    "type": "5",
+    "def": "-2",
+    "enc": "3",
+    "rcost": "20"
+  },
+  {
+    "id": "205",
+    "name": "Sun Cuirass",
+    "type": "5",
+    "def": "-1",
+    "enc": "2",
+    "rcost": "14"
+  },
+  {
+    "id": "206",
+    "name": "Obsidian Cuirass",
+    "type": "5",
+    "def": "-1",
+    "enc": "2",
+    "rcost": "18"
+  },
+  {
+    "id": "207",
+    "name": "Wicker Shield",
+    "type": "4",
+    "def": "3",
+    "enc": "1",
+    "rcost": "1"
+  },
+  {
+    "id": "208",
+    "name": "Iron Shield",
+    "type": "4",
+    "def": "3",
+    "enc": "1",
+    "rcost": "3"
+  },
+  {
+    "id": "209",
+    "name": "Hoplon",
+    "type": "4",
+    "def": "3",
+    "enc": "1",
+    "rcost": "3"
+  },
+  {
+    "id": "210",
+    "name": "Meteorite Cuirass",
+    "type": "5",
+    "def": "-1",
+    "enc": "2",
+    "rcost": "18"
+  },
+  {
+    "id": "211",
+    "name": "Meteorite Cap",
+    "type": "6",
+    "def": "0",
+    "enc": "0",
+    "rcost": "2"
+  },
+  {
+    "id": "212",
+    "name": "Magic Crown",
+    "type": "6",
+    "def": "0",
+    "enc": "0",
+    "rcost": "0"
+  },
+  {
+    "id": "213",
+    "name": "Golden Helmet",
+    "type": "6",
+    "def": "0",
+    "enc": "0",
+    "rcost": "0"
+  },
+  {
+    "id": "214",
+    "name": "Golden Armor",
+    "type": "5",
+    "def": "-2",
+    "enc": "4",
+    "rcost": "0"
+  },
+  {
+    "id": "215",
+    "name": "Full Plate of Ulm",
+    "type": "5",
+    "def": "-3",
+    "enc": "4",
+    "rcost": "28"
+  },
+  {
+    "id": "216",
+    "name": "Full Chain of Ulm",
+    "type": "5",
+    "def": "-3",
+    "enc": "3",
+    "rcost": "19"
+  },
+  {
+    "id": "217",
+    "name": "Plate Cuirass of Ulm",
+    "type": "5",
+    "def": "-1",
+    "enc": "2",
+    "rcost": "17"
+  },
+  {
+    "id": "218",
+    "name": "Full Helmet of Ulm",
+    "type": "6",
+    "def": "-1",
+    "enc": "0",
+    "rcost": "6"
+  },
+  {
+    "id": "219",
+    "name": "Half Helmet of Ulm",
+    "type": "6",
+    "def": "0",
+    "enc": "0",
+    "rcost": "4"
+  },
+  {
+    "id": "220",
+    "name": "Tower Shield of Ulm",
+    "type": "4",
+    "def": "5",
+    "enc": "2",
+    "rcost": "4"
+  },
+  {
+    "id": "221",
+    "name": "Kite Shield of Ulm",
+    "type": "4",
+    "def": "4",
+    "enc": "2",
+    "rcost": "5"
+  },
+  {
+    "id": "222",
+    "name": "Fish Cloak",
+    "type": "5",
+    "def": "0",
+    "enc": "0",
+    "rcost": "0"
+  },
+  {
+    "id": "223",
+    "name": "Enchanted Helmet",
+    "type": "6",
+    "def": "0",
+    "enc": "0",
+    "rcost": "0"
+  },
+  {
+    "id": "224",
+    "name": "Shell Cap",
+    "type": "6",
+    "def": "0",
+    "enc": "0",
+    "rcost": "1"
+  },
+  {
+    "id": "225",
+    "name": "Ice Aegis",
+    "type": "4",
+    "def": "7",
+    "enc": "1",
+    "rcost": "0"
+  },
+  {
+    "id": "226",
+    "name": "Ice Cap",
+    "type": "6",
+    "def": "0",
+    "enc": "0",
+    "rcost": "0"
+  },
+  {
+    "id": "227",
+    "name": "Magic Helmet",
+    "type": "6",
+    "def": "0",
+    "enc": "0",
+    "rcost": "0"
+  },
+  {
+    "id": "228",
+    "name": "Skullface",
+    "type": "6",
+    "def": "-1",
+    "enc": "0",
+    "rcost": "0"
+  },
+  {
+    "id": "229",
+    "name": "Metal Scale Armor",
+    "type": "5",
+    "def": "-2",
+    "enc": "3",
+    "rcost": "14"
+  },
+  {
+    "id": "230",
+    "name": "Magic Robes",
+    "type": "5",
+    "def": "0",
+    "enc": "0",
+    "rcost": "1"
+  },
+  {
+    "id": "231",
+    "name": "Heavy Magic Robes",
+    "type": "5",
+    "def": "0",
+    "enc": "0",
+    "rcost": "1"
+  },
+  {
+    "id": "232",
+    "name": "Light Magic Furs",
+    "type": "5",
+    "def": "0",
+    "enc": "0",
+    "rcost": "1"
+  },
+  {
+    "id": "233",
+    "name": "Armor of the Five Elements",
+    "type": "5",
+    "def": "-1",
+    "enc": "2",
+    "rcost": "0"
+  },
+  {
+    "id": "234",
+    "name": "Magic Headdress",
+    "type": "6",
+    "def": "0",
+    "enc": "0",
+    "rcost": "0"
+  },
+  {
+    "id": "235",
+    "name": "Magic Leather Shield",
+    "type": "4",
+    "def": "4",
+    "enc": "0",
+    "rcost": "0"
+  },
+  {
+    "id": "236",
+    "name": "Gleaming Cuirass",
+    "type": "5",
+    "def": "-1",
+    "enc": "1",
+    "rcost": "9"
+  },
+  {
+    "id": "237",
+    "name": "Gleaming Hauberk",
+    "type": "5",
+    "def": "-2",
+    "enc": "4",
+    "rcost": "21"
+  },
+  {
+    "id": "238",
+    "name": "Gleaming Hoplon",
+    "type": "4",
+    "def": "4",
+    "enc": "1",
+    "rcost": "5"
+  },
+  {
+    "id": "239",
+    "name": "Gleaming Helmet",
+    "type": "6",
+    "def": "-1",
+    "enc": "0",
+    "rcost": "6"
+  },
+  {
+    "id": "240",
+    "name": "Champion's Headband",
+    "type": "6",
+    "def": "0",
+    "enc": "0",
+    "rcost": "0"
+  },
+  {
+    "id": "241",
+    "name": "Orichalcum Cuirass",
+    "type": "5",
+    "def": "-1",
+    "enc": "2",
+    "rcost": "20"
+  },
+  {
+    "id": "242",
+    "name": "Orichalcum Hoplon",
+    "type": "4",
+    "def": "4",
+    "enc": "1",
+    "rcost": "6"
+  },
+  {
+    "id": "243",
+    "name": "Orichalcum Helmet",
+    "type": "6",
+    "def": "-1",
+    "enc": "0",
+    "rcost": "7"
+  },
+  {
+    "id": "244",
+    "name": "Magic Silk Garments",
+    "type": "5",
+    "def": "0",
+    "enc": "0",
+    "rcost": "0"
+  },
+  {
+    "id": "245",
+    "name": "Cyclope Cuirass",
+    "type": "5",
+    "def": "-1",
+    "enc": "2",
+    "rcost": "17"
+  },
+  {
+    "id": "246",
+    "name": "Cyclope Hauberk",
+    "type": "5",
+    "def": "-2",
+    "enc": "4",
+    "rcost": "23"
+  },
+  {
+    "id": "247",
+    "name": "Cyclope Hoplon",
+    "type": "4",
+    "def": "4",
+    "enc": "1",
+    "rcost": "5"
+  },
+  {
+    "id": "248",
+    "name": "Cyclope Helmet",
+    "type": "6",
+    "def": "0",
+    "enc": "0",
+    "rcost": "6"
+  },
+  {
+    "id": "249",
+    "name": "Cloth Headpiece",
+    "type": "6",
+    "def": "0",
+    "enc": "0",
+    "rcost": "0"
+  },
+  {
+    "id": "250",
+    "name": "Shield of Wisdom",
+    "type": "4",
+    "def": "5",
+    "enc": "1",
+    "rcost": "0"
+  }
+]
