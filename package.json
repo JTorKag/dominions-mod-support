@@ -5,29 +5,42 @@
   "version": "1.0.1",
   "repository": "https://github.com/JTorKag/dominions-mod-support",
   "publisher": "jtorkag",
-  "license":"LGPL-3.0-only",
+  "license": "LGPL-3.0-only",
   "engines": {
     "vscode": "^1.80.0"
   },
   "categories": [
-    "Programming Languages","Snippets"
+    "Programming Languages",
+    "Snippets"
   ],
-  "main": "./hover.js",
+  "main": "./extension.js",
   "contributes": {
-    "languages": [{
-      "id": "dominionsmod",
-      "aliases": ["Dominions 5 Mod", "dominionsmod"],
-      "extensions": [".dm"],
-      "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "dominionsmod",
-      "scopeName": "source.dm",
-      "path": "./syntaxes/dominionsmod.tmLanguage.json"
-    }],
-    "snippets": [{
+    "languages": [
+      {
+        "id": "dominionsmod",
+        "aliases": ["Dominions 5 Mod", "dominionsmod"],
+        "extensions": [".dm"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "dominionsmod",
+        "scopeName": "source.dm",
+        "path": "./syntaxes/dominionsmod.tmLanguage.json"
+      }
+    ],
+    "hover": {
+      "documentSelector": [
+        { "language": "dominionsmod" }
+      ],
+      "provider": "./hover.js"
+    },
+    "snippets": [
+      {
         "language": "dominionsmod",
         "path": "./snippets.json"
-    }]
+      }
+    ]
   }
 }
