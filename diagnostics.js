@@ -54,9 +54,6 @@ class ErrorDiagnosticProvider {
         }
     }
     
-
-    
-
     checkFloatValues(lines, diagnostics) {
         const exclusionCommands = ['#color', '#maptextcol', '#secondarycolor', '#version'];
         
@@ -117,7 +114,64 @@ class ErrorDiagnosticProvider {
         }
     }
     
+    checkCustomRangeValues(lines, diagnostics, command, minValue, maxValue, allowEmptyValue = false) {
+        for (let i = 0; i < lines.length; i++) {
+            const line = lines[i].trim();
     
+            if (line.startsWith(command)) {
+                const valueMatch = line.match(/(\d+)/);
+    
+                if (valueMatch) {
+                    const value = parseInt(valueMatch[0]);
+                    if (value < minValue || value > maxValue) {
+                        const range = new vscode.Range(
+                            new vscode.Position(i, line.indexOf(valueMatch[0])),
+                            new vscode.Position(i, line.indexOf(valueMatch[0]) + valueMatch[0].length)
+                        );
+                        const diagnostic = new vscode.Diagnostic(
+                            range,
+                            `Value ${value} for ${command} should be between ${minValue} and ${maxValue}`,
+                            vscode.DiagnosticSeverity.Error
+                        );
+                        diagnostics.push(diagnostic);
+                    }
+                } else if (!allowEmptyValue && !line.endsWith(command)) {
+                    const range = new vscode.Range(
+                        new vscode.Position(i, line.indexOf(command)),
+                        new vscode.Position(i, line.indexOf(command) + command.length)
+                    );
+                    const diagnostic = new vscode.Diagnostic(
+                        range,
+                        `Missing or invalid value for ${command} command`,
+                        vscode.DiagnosticSeverity.Error
+                    );
+                    diagnostics.push(diagnostic);
+                } else if (!allowEmptyValue && line.endsWith(command)) {
+                    const range = new vscode.Range(
+                        new vscode.Position(i, line.indexOf(command)),
+                        new vscode.Position(i, line.indexOf(command) + command.length)
+                    );
+                    const diagnostic = new vscode.Diagnostic(
+                        range,
+                        `Value missing for ${command} command`,
+                        vscode.DiagnosticSeverity.Error
+                    );
+                    diagnostics.push(diagnostic);
+                } else if (allowEmptyValue && !line.endsWith(command)) {
+                    const range = new vscode.Range(
+                        new vscode.Position(i, line.indexOf(command)),
+                        new vscode.Position(i, line.indexOf(command) + command.length)
+                    );
+                    const diagnostic = new vscode.Diagnostic(
+                        range,
+                        `String value not allowed for ${command} command`,
+                        vscode.DiagnosticSeverity.Error
+                    );
+                    diagnostics.push(diagnostic);
+                }
+            }
+        }
+    }
     
     
 
@@ -129,6 +183,10 @@ class ErrorDiagnosticProvider {
         this.checkMissingEnd(lines, diagnostics, startValues);
         this.checkFloatValues(lines, diagnostics);
         this.checkColorValues(lines,diagnostics);
+        this.checkCustomRangeValues(lines, diagnostics, '#newsite', 1500, 1998, true);
+        this.checkCustomRangeValues(lines, diagnostics, '#newweapon', 800, 1999);
+
+
 
         diagnosticCollection.set(document.uri, diagnostics);
     }
@@ -190,7 +248,7 @@ class ErrorDiagnosticProvider {
     
 
     dispose() {
-        // Dispose of resources if needed
+        
     }
 }
 

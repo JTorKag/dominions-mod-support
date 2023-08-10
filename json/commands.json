@@ -25,7 +25,7 @@
   },
   {
     "Friendly name": "newsite",
-    "description": "Site nbr (optional) should be a number between 1500 and 1999. It must not be the same as any other site. This new site will be affected by the following modding commands and there should be an #end command at the end."
+    "description": "Site nbr (optional) should be a number between 1500 and 1998. It must not be the same as any other site. This new site will be affected by the following modding commands and there should be an #end command at the end."
   },
   {
     "Friendly name": "newspell",

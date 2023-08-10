@@ -46,7 +46,7 @@ class HoverProvider {
     }
 
     async activate(context) {
-        console.log('Hover active');
+        console.log('Hover provider active');
 
         this.commandJson = await this.loadJson(context.asAbsolutePath('/json/commands.json'));
 
