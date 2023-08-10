@@ -156,31 +156,20 @@ class HoverProvider {
                     const matchedValue = this.commandJson.find(obj => obj["Friendly name"] === word);
                     //console.log("word not null");
 
-                return new vscode.Hover({
-                    language: "English",
-                    value: matchedValue.description
-                });
-            }
+                    return new vscode.Hover({
+                        language: "English",
+                        value: matchedValue.description
+                        });
+                }
 
                else {
-
-
                }
-
-               
-   
-   
-               
            }
        });
     }
 
-    deactivate() {
-        
+    deactivate() {   
     }
-
-
-
 }
 
 module.exports = HoverProvider;

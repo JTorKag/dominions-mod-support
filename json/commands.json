@@ -1,5 +1,77 @@
 [
   {
+    "Friendly name": "newarmor",
+    "description": "Armor nbr should be a number between 300 and 999. It must not be the same as any other armor. This new armor will be affected by the following modding commands and there should be an #end command at the end."
+  },
+  {
+    "Friendly name": "newevent",
+    "description": "This command creates a new event. All subsequent commands will modify this event until modding the event is finished with the #end command."
+  },
+  {
+    "Friendly name": "newitem",
+    "description": "Creates a new magic item and selects it for modding by the following commands. End modding the magic item with the #end command."
+  },
+  {
+    "Friendly name": "newmerc",
+    "description": "Creates a new mercenary band. Always end modifying it with an #end command."
+  },
+  {
+    "Friendly name": "newmonster",
+    "description": "Monster nbr should be a number between 3500 and 8999. It must not be the same as any other monster. This new monster will be affected by the following modding commands and there should be an #end command at the end. It is not necessary to set a monster number when creating a new monster. It is not recommended to use a monster number with monsters that have unique names like Sorceress of the Sacred Fire because that will reduce the risk of conflicts between mods. If a monster number is not used, Dominions will automatically use the first free number from 3500+ for the monster. In this instance all references to the monster in other modding (such as spells or magic sites) must be by name. Using lower hard coded numbers later in the mod may overwrite the number initially assigned by a numberless #newmonster command."
+  },
+  {
+    "Friendly name": "newnation",
+    "description": "This command can be used to add a new nation instead of #selectnation. The command automatically uses the first free nation number of 120 or higher that is available. Always use #end command at the end of modifying a nation."
+  },
+  {
+    "Friendly name": "newsite",
+    "description": "Site nbr (optional) should be a number between 1500 and 1999. It must not be the same as any other site. This new site will be affected by the following modding commands and there should be an #end command at the end."
+  },
+  {
+    "Friendly name": "newspell",
+    "description": "Creates a new spell and selects it for modding by the following commands. End creating the spell with the #end command."
+  },
+  {
+    "Friendly name": "newweapon",
+    "description": "Weapon number for new weapons should be a number between 800 and 1999. It must not be the same as any other weapon. This new weapon will be affected by the following modding commands and there should be an #end command at the end."
+  },
+  {
+    "Friendly name": "selectarmor",
+    "description": "Selects the armor that will be affected by the following modding commands. End modding this armor with the #end command. To find out what the number of a particular unit’s armor, look at the unit’s stats in the game and press ctrl+i."
+  },
+  {
+    "Friendly name": "selectitem",
+    "description": "Selects the magic item that will be affected by the following modding commands. End modding this item with the #end command. In the game you can press shift+i when viewing a magic item to see what number it has. Use numbers 500 – 999 for modding."
+  },
+  {
+    "Friendly name": "selectnametype",
+    "description": "Selects the nametype that will be affected by the following modding commands. Nametype nbr is a number between 100 and 200. See hover for nametype table. Numbers 127 and 128 as well as numbers 165 – 299 can be used to make your own name tables without altering existing ones.  Always #end command at the end of modifying a nametype."
+  },
+  {
+    "Friendly name": "selectmonster",
+    "description": "Selects the monster that will be affected by the following modding commands. End modding this unit with the #end command. To find out what number a particular unit has, look at his stats in the game and press ctrl+i."
+  },
+  {
+    "Friendly name": "selectnation",
+    "description": "Selects the nation that will be affected by the following modding commands. End modding this nation with the #end command. Nation number is a number between 5 and 249. See hover tables for currently used numbers.  Always #end command at the end of modifying a nametype.You can use number 120 to 249 in order to create new nations without overwriting an existing one. Numbers 0 – 4 are used for various independents and temporary monsters in the game and cannot be used for modding. Always #end command at the end of modifying a nametype."
+  },
+  {
+    "Friendly name": "selectpoptype",
+    "description": "Selects the poptype that will be affected by the following modding commands. See hover table for poptype numbers. End modding this poptype with the #end command."
+  },
+  {
+    "Friendly name": "selectsite",
+    "description": "Selects the magic site that will be affected by the following modding commands. End modding this site with the #end command."
+  },
+  {
+    "Friendly name": "selectspell",
+    "description": "Selects an existing spell that will be affected by the following modding commands. End modding this spell with the #end command."
+  },
+  {
+    "Friendly name": "selectweapon",
+    "description": "Selects the weapon that will be affected by the following modding commands. End modding this weapon with the #end command. To find out the numbers of a particular unit’s weapons, look at the unit’s stats in the game and press ctrl+i."
+  },
+  {
     "Friendly name": "10d6units",
     "description": "The nation that owns the event gains 10d6 units."
   },
