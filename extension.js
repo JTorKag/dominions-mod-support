@@ -1,5 +1,6 @@
 const vscode = require('vscode');
 const HoverProvider = require('./hover'); 
+const ErrorDiagnosticProvider = require('./diagnostics');
 
 
 function activate(context) {
@@ -7,6 +8,10 @@ function activate(context) {
 
     const hoverProvider = new HoverProvider(); 
     hoverProvider.activate(context); 
+
+    const errorProvider = new ErrorDiagnosticProvider();
+    errorProvider.activate(context);
+    
 }
 
 
