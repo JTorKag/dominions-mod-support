@@ -10,6 +10,8 @@ Full list of known commands and information about it. As well as auto formated s
 
 Addtional details including relevent tables for some keywords. Will add more in the future
 ![Hover Details](examples/hoverexample.png)
+
+Error checking for illegal values and missing #end commands.
  
 
 ## Known Issues
