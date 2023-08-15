@@ -22,9 +22,9 @@ I'm sure there's a handful. Just undocumented so far. See below.
 
 There is likely errors in my data for all the commands. I did a lot of scraping and regex instead of going through it by hand. If you catch any and are feeling extra generous please fix and submit a pull request. Or if not and it's small just let me know via discord @zegma and I can include the fix in during an update. 
 
-### 1.0.1
+### 1.1
 
-Added hover details for unit, spell, item, site, ench ids. 
+Added diagnostics and some error correction. As well as a lot of strcutural changes to improve maintainability long term. 
 
 ### Credits
 I wanted to highlight [djmcgill](https://github.com/djmcgill/vscode-syntax-highlighting-dominions-5-) for creating a syntax highlighting tool years ago. Used that for a while and the decided I wanted to improve on that base. 
@@ -32,6 +32,8 @@ I wanted to highlight [djmcgill](https://github.com/djmcgill/vscode-syntax-highl
 Thanks [logg-y](https://github.com/Logg-y) for the list of mod manual missing commands. 
 
 Thanks [larzm42](https://github.com/larzm42/dom5inspector) for raw game data.
+
+General thanks to all the folks in the [Dom5 Modding Discord](https://discord.gg/4nX6bHPP). Plenty of help when getting clarification of mechanics to provide more accurate information in this extension. 
 
 ### ToDO
 

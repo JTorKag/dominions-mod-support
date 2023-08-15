@@ -230,7 +230,7 @@ class ErrorDiagnosticProvider {
             }
         }
     }
-    
+
 
 
     async analyzeDocument(document, diagnosticCollection, startValues) {
