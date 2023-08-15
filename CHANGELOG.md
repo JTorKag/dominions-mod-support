@@ -12,6 +12,6 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 Added hover details for unit, spell, item, site, ench ids. 
 
-### [1.1]
+### [1.1.0]
 
 Added diagnostics and some error correction. As well as a lot of strcutural changes to improve maintainability long term. 
