@@ -2,7 +2,6 @@ const vscode = require('vscode');
 const HoverProvider = require('./hover'); 
 const ErrorDiagnosticProvider = require('./diagnostics');
 
-
 function activate(context) {
     console.log('Congratulations, your extension "Dominions Mod Support" is now active!');
 
@@ -13,7 +12,6 @@ function activate(context) {
     errorProvider.activate(context);
     
 }
-
 
 function deactivate() {
     

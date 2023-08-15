@@ -4,11 +4,8 @@ const fs = require('fs');
 
 class HoverProvider {
     constructor() {
-
         this.commandJson = {};
-        
     }
-    
 
     separateCommand(inputString) {
         const pattern = /#(\w+)\s+(\d+)/;
@@ -55,13 +52,12 @@ class HoverProvider {
 
                 const diagnostics = vscode.languages.getDiagnostics(document.uri);
 
-                const isPositionInDiagnosticRange = diagnostics.some(diagnostic =>
-                    diagnostic.range.contains(position)
-                );
-            
-                if (isPositionInDiagnosticRange) {
-                    return null; // Disable hover if there's an error at the current position
+                const shouldDisableHover = diagnostics.some(diagnostic => diagnostic.range.contains(position) && diagnostic.code !== 'show-hover');
+
+                if (shouldDisableHover) {
+                return null; // Disable hover if there's an error at the current position and code is not 'show-hover'
                 }
+
     
                 const range = document.getWordRangeAtPosition(position);
                 const word = document.getText(range);

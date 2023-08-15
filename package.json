@@ -39,7 +39,7 @@
     "snippets": [
       {
         "language": "dominionsmod",
-        "path": "./snippets.json"
+        "path": "./json/snippets.json"
       }
     ]
   }
