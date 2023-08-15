@@ -56,16 +56,35 @@ class ErrorDiagnosticProvider {
     
     checkFloatValues(lines, diagnostics) {
         const exclusionCommands = ['#color', '#maptextcol', '#secondarycolor', '#version'];
-        
+    
+        let insideQuotes = false;
+    
         for (let i = 0; i < lines.length; i++) {
             const line = lines[i].trim();
-            
+    
             // Check if the line starts with any of the exclusion commands
             if (exclusionCommands.some(command => line.startsWith(command))) {
                 continue;
             }
-            
-            const words = line.split(/\s+/);
+    
+            let lineWithoutComment = line;
+            const commentIndex = line.indexOf('--');
+            if (commentIndex !== -1) {
+                lineWithoutComment = line.substring(0, commentIndex).trim();
+            }
+    
+            let lineWithoutQuotes = '';
+            for (let j = 0; j < lineWithoutComment.length; j++) {
+                const char = lineWithoutComment[j];
+                if (char === '"') {
+                    insideQuotes = !insideQuotes;
+                }
+                if (!insideQuotes) {
+                    lineWithoutQuotes += char;
+                }
+            }
+    
+            const words = lineWithoutQuotes.split(/\s+/);
             for (const word of words) {
                 // Check if the word contains a period (.) indicating a potential floating-point number
                 if (/\d+\./.test(word)) {
@@ -83,6 +102,7 @@ class ErrorDiagnosticProvider {
             }
         }
     }
+    
 
     checkColorValues(lines, diagnostics) {
         const colorCommands = ['#color', '#maptextcol', '#secondarycolor'];
