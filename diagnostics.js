@@ -92,21 +92,36 @@ class ErrorDiagnosticProvider {
     
             for (const command of colorCommands) {
                 if (line.startsWith(command)) {
-                    const valueMatch = line.match(/(\d+\.\d+)/);
-                    if (valueMatch) {
-                        const value = parseFloat(valueMatch[0]);
-                        if (value < 0.0 || value > 1.0) {
+                    const valueMatches = line.match(/(\d+\.\d+)/g);
+    
+                    if (valueMatches && valueMatches.length === 3) {
+                        const values = valueMatches.map(match => parseFloat(match));
+                        const isValid = values.every(value => value >= 0.0 && value <= 1.0);
+    
+                        if (!isValid) {
                             const range = new vscode.Range(
-                                new vscode.Position(i, line.indexOf(valueMatch[0])),
-                                new vscode.Position(i, line.indexOf(valueMatch[0]) + valueMatch[0].length)
+                                new vscode.Position(i, line.indexOf(valueMatches[0])),
+                                new vscode.Position(i, line.indexOf(valueMatches[2]) + valueMatches[2].length)
                             );
                             const diagnostic = new vscode.Diagnostic(
                                 range,
-                                `Value for ${command} should be between 0.0 and 1.0`,
+                                `Values for ${command} should be between 0.0 and 1.0`,
                                 vscode.DiagnosticSeverity.Error
                             );
                             diagnostics.push(diagnostic);
                         }
+                    } else {
+                        const range = new vscode.Range(
+                            new vscode.Position(i, line.indexOf(command)),
+                            new vscode.Position(i, line.indexOf(command) + command.length)
+                        );
+                        const diagnostic = new vscode.Diagnostic(
+                            range,
+                            `Invalid or missing values for ${command} command`,
+                            vscode.DiagnosticSeverity.Error
+                        );
+                        diagnostic.code = 'show-hover';
+                        diagnostics.push(diagnostic);
                     }
                     break; // No need to continue checking after a match
                 }
@@ -114,12 +129,12 @@ class ErrorDiagnosticProvider {
         }
     }
     
-    checkCustomRangeValues(lines, diagnostics, command, minValue, maxValue, allowEmptyValue = false) {
+    checkCustomRangeValues(lines, diagnostics, command, minValue, maxValue, allowEmptyValue = false, showHover = false) {
         for (let i = 0; i < lines.length; i++) {
             const line = lines[i].trim();
     
             if (line.startsWith(command)) {
-                const valueMatch = line.match(/(\d+)/);
+                const valueMatch = line.match(/(-?\d+)/);
     
                 if (valueMatch) {
                     const value = parseInt(valueMatch[0]);
@@ -172,8 +187,51 @@ class ErrorDiagnosticProvider {
             }
         }
     }
+
+    checkTwoCustomRangeValues(lines, diagnostics, command, minValueSet1, maxValueSet1, minValueSet2, maxValueSet2) {
+        for (let i = 0; i < lines.length; i++) {
+            const line = lines[i].trim();
     
+            if (line.startsWith(command)) {
+                const valueMatches = line.match(/(-?\d+)/g);
     
+                if (valueMatches && valueMatches.length >= 2) {
+                    const value1 = parseInt(valueMatches[0]);
+                    const value2 = parseInt(valueMatches[1]);
+    
+                    if (
+                        (value1 < minValueSet1 || value1 > maxValueSet1) ||
+                        (value2 < minValueSet2 || value2 > maxValueSet2)
+                    ) {
+                        const range = new vscode.Range(
+                            new vscode.Position(i, line.indexOf(valueMatches[0])),
+                            new vscode.Position(i, line.indexOf(valueMatches[1]) + valueMatches[1].length)
+                        );
+                        const diagnostic = new vscode.Diagnostic(
+                            range,
+                            `Values for ${command} should be within specified ranges`,
+                            vscode.DiagnosticSeverity.Error
+                        );
+                        diagnostics.push(diagnostic);
+                    }
+                } else {
+                    const range = new vscode.Range(
+                        new vscode.Position(i, line.indexOf(command)),
+                        new vscode.Position(i, line.indexOf(command) + command.length)
+                    );
+                    const diagnostic = new vscode.Diagnostic(
+                        range,
+                        `Missing or invalid values for ${command} command`,
+                        vscode.DiagnosticSeverity.Error
+                    );
+                    diagnostic.code = 'show-hover';
+                    diagnostics.push(diagnostic);
+                }
+            }
+        }
+    }
+    
+
 
     async analyzeDocument(document, diagnosticCollection, startValues) {
         const diagnostics = [];
@@ -183,10 +241,25 @@ class ErrorDiagnosticProvider {
         this.checkMissingEnd(lines, diagnostics, startValues);
         this.checkFloatValues(lines, diagnostics);
         this.checkColorValues(lines,diagnostics);
-        this.checkCustomRangeValues(lines, diagnostics, '#newsite', 1500, 1998, true);
         this.checkCustomRangeValues(lines, diagnostics, '#newweapon', 800, 1999);
-
-
+        this.checkCustomRangeValues(lines, diagnostics, '#newarmor', 300, 999);
+        this.checkCustomRangeValues(lines, diagnostics, '#newmonster', 3500, 8999, true);
+        this.checkCustomRangeValues(lines, diagnostics, '#ressize', 1, 6);
+        this.checkCustomRangeValues(lines, diagnostics, '#montag', 1000, 100000);
+        this.checkCustomRangeValues(lines, diagnostics, '#researchlevel', 0, 9);
+        //make a custom checker for #path, needs two values, just check mod manual this is complicated cuz there's two #paths. will need to check for command after previous #end
+        this.checkCustomRangeValues(lines, diagnostics, '#selectnametype', 100, 299);
+        this.checkCustomRangeValues(lines, diagnostics, '#newsite', 1500, 1998, true);
+        this.checkTwoCustomRangeValues(lines, diagnostics, '#gems', 0, 7, 0, 99);
+        this.checkCustomRangeValues(lines, diagnostics, '#level', 0, 4);
+        this.checkCustomRangeValues(lines, diagnostics, '#selectnation', 5, 249);
+        this.checkCustomRangeValues(lines, diagnostics, '#victorycondition', 0, 6);
+        this.checkCustomRangeValues(lines, diagnostics, '#fort', 1, 29);
+        this.checkTwoCustomRangeValues(lines, diagnostics, '#magicskill', 1, 10, 1, 10);
+        // create a custom checker for #custommagic, needs two values 1st is path mask (from table 18) and 2nd is the chance (1 to 100)
+        this.checkCustomRangeValues(lines, diagnostics, '#mainpath', 0, 7);
+        this.checkCustomRangeValues(lines, diagnostics, '#secondarypath', -1, 7);
+        this.checkCustomRangeValues(lines, diagnostics, '#cluster', 1, 32000);
 
         diagnosticCollection.set(document.uri, diagnostics);
     }
@@ -244,8 +317,6 @@ class ErrorDiagnosticProvider {
     
         context.subscriptions.push(diagnosticCollection, codeActionProvider);
     }
-    
-    
 
     dispose() {
         
