@@ -16,10 +16,6 @@
     "name": "Fatigue  {Wpn: #dt_stun}"
   },
   {
-    "number": "4",
-    "name": "Cause Fear (Type I)"
-  },
-  {
     "number": "7",
     "name": "Poison (HP damage) {Wpn: #dt_poison}"
   },
