@@ -1,0 +1,254 @@
+[
+  {
+    "bit_value": "1",
+    "bit_name": "Adds Strength of Wielder {Wpn: not #nostr}"
+  },
+  {
+    "bit_value": "2",
+    "bit_name": "Requires Two Hands {Wpn: #twohanded}"
+  },
+  {
+    "bit_value": "4",
+    "bit_name": "Doesn't affect illusions or spiritforms {Wpn: #noillusion}"
+  },
+  {
+    "bit_value": "8",
+    "bit_name": "Affects Demons and Undead {Wpn: #demonundead}"
+  },
+  {
+    "bit_value": "16",
+    "bit_name": "Affects Magic Beings Only {Wpn: #magiconly}"
+  },
+  {
+    "bit_value": "32",
+    "bit_name": "Heat/Fire {Wpn: #fire}"
+  },
+  {
+    "bit_value": "64",
+    "bit_name": "Armor Piercing {Wpn: #armorpiercing}"
+  },
+  {
+    "bit_value": "128",
+    "bit_name": "Armor Negating {Wpn: #armornegating}"
+  },
+  {
+    "bit_value": "256",
+    "bit_name": "Soul Slaying {Wpn: #soulslaying}"
+  },
+  {
+    "bit_value": "512",
+    "bit_name": "Chill/Cold {Wpn: #cold}"
+  },
+  {
+    "bit_value": "1024",
+    "bit_name": "Unknown Modifier {Wpn: #1024}"
+  },
+  {
+    "bit_value": "2048",
+    "bit_name": "Shock {Wpn: #shock}"
+  },
+  {
+    "bit_value": "4096",
+    "bit_name": "Magic Resistance Negates {Wpn: #mrnegates}"
+  },
+  {
+    "bit_value": "8192",
+    "bit_name": "Poison {Wpn: #poison}"
+  },
+  {
+    "bit_value": "16384",
+    "bit_name": "Ignores Shields {Wpn: #ignoreshield}"
+  },
+  {
+    "bit_value": "32768",
+    "bit_name": "Affects Sacreds Only {Wpn: #sacredonly}"
+  },
+  {
+    "bit_value": "65536",
+    "bit_name": "Affects Air Breathers Only {Wpn: #aironly}"
+  },
+  {
+    "bit_value": "131072",
+    "bit_name": "No Effect on Mindless {Wpn: #mind}"
+  },
+  {
+    "bit_value": "262144",
+    "bit_name": "Affects Enemies Only {Wpn: #friendlyimmune}"
+  },
+  {
+    "bit_value": "524288",
+    "bit_name": "No Effect on Undead {Wpn: #undeadimmune}"
+  },
+  {
+    "bit_value": "1048576",
+    "bit_name": "Defense Negate {Wpn: #defnegate}"
+  },
+  {
+    "bit_value": "2097152",
+    "bit_name": "Nonmagical {Wpn: not #magic}"
+  },
+  {
+    "bit_value": "4194304",
+    "bit_name": "Affects Friendlies Only {Wpn: #enemyimmune}"
+  },
+  {
+    "bit_value": "8388608",
+    "bit_name": "May Use Underwater {Wpn: #uwok}"
+  },
+  {
+    "bit_value": "16777216",
+    "bit_name": "Magic Resistance Negates Easily {Wpn: #mrnegateseasily}"
+  },
+  {
+    "bit_value": "33554432",
+    "bit_name": "Use Underwater Only {Wpn: #uwonly}"
+  },
+  {
+    "bit_value": "67108864",
+    "bit_name": "Made of Iron {Wpn: #ironweapon}"
+  },
+  {
+    "bit_value": "134217728",
+    "bit_name": "Intrinsic Weapon {Wpn: #bonus}"
+  },
+  {
+    "bit_value": "268435456",
+    "bit_name": "No effect on Demons {Wpn: #demonimmune}"
+  },
+  {
+    "bit_value": "536870912",
+    "bit_name": "No effect on Inanimate {Wpn: #inanimateimmune}"
+  },
+  {
+    "bit_value": "1073741824",
+    "bit_name": "Internally added to all spells {Wpn: #1073741824}"
+  },
+  {
+    "bit_value": "2147483648",
+    "bit_name": "Damage Bonus on 1st Attack {Wpn: #charge}"
+  },
+  {
+    "bit_value": "4294967296",
+    "bit_name": "Beam/Breath {Wpn: #beam}"
+  },
+  {
+    "bit_value": "8589934592",
+    "bit_name": "Used in melee too {Wpn: #usedinmelee}"
+  },
+  {
+    "bit_value": "17179869184",
+    "bit_name": "False Damage {Wpn: #falsedamage}"
+  },
+  {
+    "bit_value": "34359738368",
+    "bit_name": "Bypasses mirror image, internally added to spells with aoe 1+ {Wpn: #hasaoe}"
+  },
+  {
+    "bit_value": "68719476736",
+    "bit_name": "Higher charge bonus cap {Wpn: #heavyweapon}"
+  },
+  {
+    "bit_value": "137438953472",
+    "bit_name": "Cannot be used for repelling {Wpn: #norepel}"
+  },
+  {
+    "bit_value": "274877906944",
+    "bit_name": "Piercing Damage {Wpn: #pierce}"
+  },
+  {
+    "bit_value": "549755813888",
+    "bit_name": "Bludgeoning Damage {Wpn: #blunt}"
+  },
+  {
+    "bit_value": "1099511627776",
+    "bit_name": "Slashing Damage {Wpn: #slash}"
+  },
+  {
+    "bit_value": "2199023255552",
+    "bit_name": "Acid Damage {Wpn: #acid}"
+  },
+  {
+    "bit_value": "4398046511104",
+    "bit_name": "Size or Strength negates {Wpn: #sizeresist}"
+  },
+  {
+    "bit_value": "8796093022208",
+    "bit_name": "Only a chance of this being used {Wpn: #melee50}"
+  },
+  {
+    "bit_value": "17592186044416",
+    "bit_name": "Magic Resistance Hard to Negate {Wpn: #hardmrneg}"
+  },
+  {
+    "bit_value": "35184372088832",
+    "bit_name": "Cannot be repelled {Wpn: #unrepel}"
+  },
+  {
+    "bit_value": "70368744177664",
+    "bit_name": "No Effect on Fliers/Floaters {Wpn: #flyingimmune}"
+  },
+  {
+    "bit_value": "140737488355328",
+    "bit_name": "Does not affect user unless hitting x% of battlefield {Wpn: #userimmune}"
+  },
+  {
+    "bit_value": "281474976710656",
+    "bit_name": "Affects Animals Only {Wpn: #animalonly}"
+  },
+  {
+    "bit_value": "562949953421312",
+    "bit_name": "More likely to hit head {Wpn: #hithead}"
+  },
+  {
+    "bit_value": "1125899906842624",
+    "bit_name": "Size negates (bugged, is never checked) {Wpn: #fivegates}"
+  },
+  {
+    "bit_value": "2251799813685248",
+    "bit_name": "? Adds fire particles (weapon projectiles only) {Wpn: #fireparticles}"
+  },
+  {
+    "bit_value": "4503599627370496",
+    "bit_name": "Creatures with Void Sanity immune {Wpn: #voidsanityimmune}"
+  },
+  {
+    "bit_value": "9007199254740992",
+    "bit_name": "Natural Ranged Weapon {Wpn: #natural}"
+  },
+  {
+    "bit_value": "18014398509481984",
+    "bit_name": "True Damage {Wpn: #true}"
+  },
+  {
+    "bit_value": "36028797018963968",
+    "bit_name": "Internal Damage {Wpn: #internal}"
+  },
+  {
+    "bit_value": "72057594037927936",
+    "bit_name": "Magic Damage {Wpn: #dt_magic}"
+  },
+  {
+    "bit_value": "144115188075855872",
+    "bit_name": "Projectiles fly along ground {Wpn: #groundprojectile}"
+  },
+  {
+    "bit_value": "288230376151711744",
+    "bit_name": "Half Strength added {Wpn: #halfstr}"
+  },
+  {
+    "bit_value": "576460752303423488",
+    "bit_name": "Extra Effect {Wpn: #extraeffect}"
+  },
+  {
+    "bit_value": "1152921504606846976",
+    "bit_name": "Extra Effect on Damage {Wpn: #extraeffectondmg}"
+  },
+  {
+    "bit_value": "2305843009213693952",
+    "bit_name": "MR check for Half Damage {Wpn: #mrcheckhalfdmg}"
+  },
+  {
+    "bit_value": "4611686018427387904",
+    "bit_name": "One Third Strength added {Wpn: #bowstr}"
+  }
+]

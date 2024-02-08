@@ -1473,7 +1473,7 @@
   },
   {
     "Friendly name": "dt_aff",
-    "description": "Sets the damage type of the weapon to a special effect or affliction. The specific affliction the weapon inflicts is set with the #dmg command so the weapons damage value is interpreted as a bitmask value according to the (affliction table)(#afflictions). The table uses bitmask values meaning powers of 2. The numbers are expressed as powers of 2 because numbers after about 2|20 get very big very quickly."
+    "description": "Sets the damage type of the weapon to a special effect or affliction. The specific affliction the weapon inflicts is set with the #dmg command so the weapons damage value is interpreted as a bitmask value according to the (affliction table)(#afflictions). The table uses bitmask values meaning powers of 2. The numbers are expressed as powers of 2 because numbers after about 2^20 get very big very quickly."
   },
   {
     "Friendly name": "dt_bouncekill",
@@ -5094,5 +5094,245 @@
   {
     "Friendly name": "yearturn",
     "description": "Power of the Turning Year. This unit is more powerful during the height of each season and will get increased Strength Attack and Defence during those months."
+  },
+  {
+    "Friendly name": "truesight",
+    "description": "Monster has True Sight"
+  },
+  {
+    "Friendly name": "glamourrange",
+    "description": "Glamour magic cast by the monster have increased range."
+  },
+  {
+    "Friendly name": "tmpglamourgems",
+    "description": "The monster produces a number of glamour gems that can be used in combat. The gems are not stable enough to be used for ritual spellcasting."
+  },
+  {
+    "Friendly name": "aiglamournation",
+    "description": "Hint to AI that Glamour magic is used a lot in this nation and that an air god is probably good."
+  },
+  {
+    "Friendly name": "deathshock",
+    "description": "The monster erupts in a shock explosion when it dies, inflicting capped 1 AN shock damage to everyone in the area of effect."
+  },
+  {
+    "Friendly name": "deathslime",
+    "description": "The monster erupts in a slime explosion when it dies, inflicting slime (water breathers immune) to everyone in the area of effect."
+  },
+  {
+    "Friendly name": "deathgrab",
+    "description": "The monster erupts in a earth grip explosion when it dies, inflicting earth grip to everyone in the area of effect."
+  },
+  {
+    "Friendly name": "nightmareaura",
+    "description": "Any nearby enemy units will experience horrible visions and take false damage (1 point) if they fail a magic resistance roll. Mindless beings are immune."
+  },
+  {
+    "Friendly name": "falseregen",
+    "description": "Heals false damage by this amount of points per combat round."
+  },
+  {
+    "Friendly name": "reconst",
+    "description": "Works like regeneration, but only affects inanimate beings."
+  },
+  {
+    "Friendly name": "dread",
+    "description": "Fear but negated by True Sight"
+  },
+  {
+    "Friendly name": "fireelementals",
+    "description": "Please let me know if you know what this does."
+  },
+  {
+    "Friendly name": "waterelementals",
+    "description": "Please let me know if you know what this does."
+  },
+  {
+    "Friendly name": "airelementals",
+    "description": "Please let me know if you know what this does."
+  },
+  {
+    "Friendly name": "earthelementals",
+    "description": "Please let me know if you know what this does."
+  },
+  {
+    "Friendly name": "undisleader",
+    "description": "1=will negate undisciplined on his followers"
+  },
+  {
+    "Friendly name": "assencloc",
+    "description": "Specifies an encounter location that the assassinations will appear in. If not specified, a suitable one for each occasion will be used. Possible values can be seen below."
+  },
+  {
+    "Friendly name": "extralives",
+    "description": "Will get dominion times this value amount of scar souls (extra lives)"
+  },
+  {
+    "Friendly name": "forestfortrec",
+    "description": "This unit can be recruited in (terrain) provinces with a fort. "
+  },
+  {
+    "Friendly name": "forestfortcom",
+    "description": "This unit can be recruited in (terrain) provinces with a fort. "
+  },
+  {
+    "Friendly name": "mountainfortrec",
+    "description": "This unit can be recruited in (terrain) provinces with a fort. "
+  },
+  {
+    "Friendly name": "mountainfortcom",
+    "description": "This unit can be recruited in (terrain) provinces with a fort. "
+  },
+  {
+    "Friendly name": "swampfortrec",
+    "description": "This unit can be recruited in (terrain) provinces with a fort. "
+  },
+  {
+    "Friendly name": "swampfortcom",
+    "description": "This unit can be recruited in (terrain) provinces with a fort. "
+  },
+  {
+    "Friendly name": "wastefortrec",
+    "description": "This unit can be recruited in (terrain) provinces with a fort. "
+  },
+  {
+    "Friendly name": "wastefortcom",
+    "description": "This unit can be recruited in (terrain) provinces with a fort. "
+  },
+  {
+    "Friendly name": "farmfortrec",
+    "description": "This unit can be recruited in (terrain) provinces with a fort. "
+  },
+  {
+    "Friendly name": "farmfortcom",
+    "description": "This unit can be recruited in (terrain) provinces with a fort. "
+  },
+  {
+    "Friendly name": "cavefortrec",
+    "description": "This unit can be recruited in (terrain) provinces with a fort. "
+  },
+  {
+    "Friendly name": "cavefortcom",
+    "description": "This unit can be recruited in (terrain) provinces with a fort. "
+  },
+  {
+    "Friendly name": "dripfortrec",
+    "description": "This unit can be recruited in (terrain) provinces with a fort. "
+  },
+  {
+    "Friendly name": "dripfortcom",
+    "description": "This unit can be recruited in (terrain) provinces with a fort. "
+  },
+  {
+    "Friendly name": "coastfortrec",
+    "description": "This unit can be recruited in (terrain) provinces with a fort. "
+  },
+  {
+    "Friendly name": "coastfortcom",
+    "description": "This unit can be recruited in (terrain) provinces with a fort. "
+  },
+  {
+    "Friendly name": "seafortrec",
+    "description": "This unit can be recruited in (terrain) provinces with a fort. "
+  },
+  {
+    "Friendly name": "seafortcom",
+    "description": "This unit can be recruited in (terrain) provinces with a fort. "
+  },
+  {
+    "Friendly name": "deepfortrec",
+    "description": "This unit can be recruited in (terrain) provinces with a fort. "
+  },
+  {
+    "Friendly name": "deepfortcom",
+    "description": "This unit can be recruited in (terrain) provinces with a fort. "
+  },
+  {
+    "Friendly name": "kelpfortrec",
+    "description": "This unit can be recruited in (terrain) provinces with a fort. "
+  },
+  {
+    "Friendly name": "kelpfortcom",
+    "description": "This unit can be recruited in (terrain) provinces with a fort. "
+  },
+  {
+    "Friendly name": "reqnospellsinger",
+    "description": "Units with the spell singing ability cannot cast this spell."
+  },
+  {
+    "Friendly name": "reqnotaskmaster",
+    "description": "Units with the task master ability cannot cast this spell"
+  },
+  {
+    "Friendly name": "reqnoseduce",
+    "description": "Units with the seduce ability cannot cast this spell"
+  },
+  {
+    "Friendly name": "remount",
+    "description": "The commander determined by target requirements regains his mount, should he have lost it."
+  },
+  {
+    "Friendly name": "startresearch",
+    "description": "The amount of start research per magic scale above -3. Default is 50 research points."
+  },
+  {
+    "Friendly name": "nodeepchoice",
+    "description": "Don't generate caves"
+  },
+  {
+    "Friendly name": "regainmount",
+    "description": "If this is set to 1 the rider will regain any lost mount(s) for free after the battle"
+  },
+  {
+    "Friendly name": "noremount",
+    "description": "The commander will not be able to reclaim his mount through a reclaim mount order. This is used for certain gods that have divine mounts that must be prayed back"
+  },
+  {
+    "Friendly name": "skilledrider",
+    "description": "A skilled rider will increase the Morale and Defence Skill of his mount. The defence increase is most effective on lightly armored horses as it is reduced by the encumbrance value of the mount's armor. This ability should be given to the rider and not to the mount"
+  },
+  {
+    "Friendly name": "mountiscom",
+    "description": "If this is set to one the mount is also a commander. This command is used for some gods that have divine mounts."
+  },
+  {
+    "Friendly name": "nobarding",
+    "description": "This mount does not have a barding slot. This is used for e.g. the humans that carry a throne with an emperor in it"
+  },
+  {
+    "Friendly name": "nothrowoff",
+    "description": "This mount will not throw off its rider if it routs or gets paralyzed. This is used on mounts that are more important than the rider, e.g. elephants, where the rider will never get off voluntarily in order to fight on the ground."
+  },
+  {
+    "Friendly name": "nofalldmg",
+    "description": "This rider will not take any damage when falling off his mount. This is used for chariot drivers that are always close to the ground"
+  },
+  {
+    "Friendly name": "bravemount",
+    "description": "The chance of the mount remaining on the battlefield and continuing to fight. Default is 0"
+  },
+  {
+    "Friendly name": "smartmount",
+    "description": "The smartness determines the chance for the mount to try to make it home. A smart magical unicorn has smartness 100, a normal horse doesn't have this ability at all."
+  },
+  {
+    "Friendly name": "req_pathglamour",
+    "description": "There must be a Glamour mage of at least this level in the province"
+  },
+  {
+    "Friendly name": "req_nopathglamour",
+    "description": "There cannot be a Glamour mage of this level or higher in the province"
+  },
+  {
+    "Friendly name": "glamourboost",
+    "description": "One commander determined by target requirements or the monster number may gain +1 Glamour magic."
+  },
+  {
+    "Friendly name": "killtarg",
+    "description": "One commander determined by target requirements is killed. The mount is also killed if any."
+  },
+  {
+    "Friendly name": "mag_glamour",
+    "description": "Gives active commander Glamour magic."
   }
 ]

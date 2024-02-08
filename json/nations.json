@@ -9,26 +9,26 @@
   },
   {
     "id": "6",
-    "name": "Ermor",
-    "epithet": "New Faith",
-    "abbreviation": "Er",
-    "file_name_base": "early_ermor",
+    "name": "Mekone",
+    "epithet": "Brazen Giants",
+    "abbreviation": "Mek",
+    "file_name_base": "early_mekone",
     "era": "1"
   },
   {
     "id": "7",
-    "name": "Ulm",
-    "epithet": "Enigma of Steel",
-    "abbreviation": "Ul",
-    "file_name_base": "early_ulm",
+    "name": "Pangaea",
+    "epithet": "Age of Revelry",
+    "abbreviation": "Pa",
+    "file_name_base": "early_pangaea",
     "era": "1"
   },
   {
     "id": "8",
-    "name": "Marverni",
-    "epithet": "Time of Druids",
-    "abbreviation": "Mav",
-    "file_name_base": "early_marverni",
+    "name": "Ermor",
+    "epithet": "New Faith",
+    "abbreviation": "Er",
+    "file_name_base": "early_ermor",
     "era": "1"
   },
   {
@@ -41,78 +41,6 @@
   },
   {
     "id": "10",
-    "name": "T'ien Ch'i",
-    "epithet": "Spring and Autumn",
-    "abbreviation": "Ti",
-    "file_name_base": "early_tienchi",
-    "era": "1"
-  },
-  {
-    "id": "11",
-    "name": "Machaka",
-    "epithet": "Lion Kings",
-    "abbreviation": "Mac",
-    "file_name_base": "early_machaka",
-    "era": "1"
-  },
-  {
-    "id": "12",
-    "name": "Mictlan",
-    "epithet": "Reign of Blood",
-    "abbreviation": "Mi",
-    "file_name_base": "early_mictlan",
-    "era": "1"
-  },
-  {
-    "id": "13",
-    "name": "Abysia",
-    "epithet": "Children of Flame",
-    "abbreviation": "Aby",
-    "file_name_base": "early_abysia",
-    "era": "1"
-  },
-  {
-    "id": "14",
-    "name": "Caelum",
-    "epithet": "Eagle Kings",
-    "abbreviation": "Ca",
-    "file_name_base": "early_caelum",
-    "era": "1"
-  },
-  {
-    "id": "15",
-    "name": "C'tis",
-    "epithet": "Lizard Kings",
-    "abbreviation": "Ct",
-    "file_name_base": "early_ctis",
-    "era": "1"
-  },
-  {
-    "id": "16",
-    "name": "Pangaea",
-    "epithet": "Age of Revelry",
-    "abbreviation": "Pa",
-    "file_name_base": "early_pangaea",
-    "era": "1"
-  },
-  {
-    "id": "17",
-    "name": "Agartha",
-    "epithet": "Pale Ones",
-    "abbreviation": "Ag",
-    "file_name_base": "early_agartha",
-    "era": "1"
-  },
-  {
-    "id": "18",
-    "name": "Tir na n'Og",
-    "epithet": "Land of the Ever Young",
-    "abbreviation": "Tir",
-    "file_name_base": "early_tirnanog",
-    "era": "1"
-  },
-  {
-    "id": "19",
     "name": "Fomoria",
     "epithet": "The Cursed Ones",
     "abbreviation": "Fom",
@@ -120,63 +48,55 @@
     "era": "1"
   },
   {
-    "id": "20",
-    "name": "Vanheim",
-    "epithet": "Age of Vanir",
-    "abbreviation": "Va",
-    "file_name_base": "early_vanheim",
+    "id": "11",
+    "name": "Tir na n'Og",
+    "epithet": "Land of the Ever Young",
+    "abbreviation": "Tir",
+    "file_name_base": "early_tirnanog",
     "era": "1"
   },
   {
-    "id": "21",
-    "name": "Helheim",
-    "epithet": "Dusk and Death",
-    "abbreviation": "He",
-    "file_name_base": "early_helheim",
+    "id": "12",
+    "name": "Marverni",
+    "epithet": "Time of Druids",
+    "abbreviation": "Mav",
+    "file_name_base": "early_marverni",
     "era": "1"
   },
   {
-    "id": "22",
-    "name": "Niefelheim",
-    "epithet": "Sons of Winter",
-    "abbreviation": "Ni",
-    "file_name_base": "early_niefelheim",
+    "id": "13",
+    "name": "Ulm",
+    "epithet": "Enigma of Steel",
+    "abbreviation": "Ul",
+    "file_name_base": "early_ulm",
     "era": "1"
   },
   {
-    "id": "24",
-    "name": "Rus",
-    "epithet": "Sons of Heaven",
-    "abbreviation": "Rus",
-    "file_name_base": "early_bogarus",
+    "id": "14",
+    "name": "Pyr\u00e8ne",
+    "epithet": "Kingdom of the Bekrydes",
+    "abbreviation": "Pyr",
+    "file_name_base": "early_pyrene",
     "era": "1"
   },
   {
-    "id": "25",
-    "name": "Kailasa",
-    "epithet": "Rise of the Ape Kings",
-    "abbreviation": "Ka",
-    "file_name_base": "early_kailasa",
+    "id": "15",
+    "name": "Agartha",
+    "epithet": "Pale Ones",
+    "abbreviation": "Ag",
+    "file_name_base": "early_agartha",
     "era": "1"
   },
   {
-    "id": "26",
-    "name": "Lanka",
-    "epithet": "Land of Demons",
-    "abbreviation": "La",
-    "file_name_base": "early_lanka",
+    "id": "16",
+    "name": "Abysia",
+    "epithet": "Children of Flame",
+    "abbreviation": "Aby",
+    "file_name_base": "early_abysia",
     "era": "1"
   },
   {
-    "id": "27",
-    "name": "Yomi",
-    "epithet": "Oni Kings",
-    "abbreviation": "Yom",
-    "file_name_base": "early_yomi",
-    "era": "1"
-  },
-  {
-    "id": "28",
+    "id": "17",
     "name": "Hinnom",
     "epithet": "Sons of the Fallen",
     "abbreviation": "Hi",
@@ -184,39 +104,7 @@
     "era": "1"
   },
   {
-    "id": "29",
-    "name": "Ur",
-    "epithet": "The First City",
-    "abbreviation": "Ur",
-    "file_name_base": "early_ur",
-    "era": "1"
-  },
-  {
-    "id": "30",
-    "name": "Berytos",
-    "epithet": "The Phoenix Empire",
-    "abbreviation": "Be",
-    "file_name_base": "early_berytos",
-    "era": "1"
-  },
-  {
-    "id": "31",
-    "name": "Xibalba",
-    "epithet": "Vigil of the Sun",
-    "abbreviation": "Xi",
-    "file_name_base": "early_xibalba",
-    "era": "1"
-  },
-  {
-    "id": "32",
-    "name": "Mekone",
-    "epithet": "Brazen Giants",
-    "abbreviation": "Mek",
-    "file_name_base": "early_mekone",
-    "era": "1"
-  },
-  {
-    "id": "33",
+    "id": "18",
     "name": "Ubar",
     "epithet": "Kingdom of the Unseen",
     "abbreviation": "Ub",
@@ -224,23 +112,135 @@
     "era": "1"
   },
   {
-    "id": "36",
-    "name": "Atlantis",
-    "epithet": "Emergence of the Deep Ones",
-    "abbreviation": "Atl",
-    "file_name_base": "early_atlantis",
+    "id": "19",
+    "name": "Ur",
+    "epithet": "The First City",
+    "abbreviation": "Ur",
+    "file_name_base": "early_ur",
     "era": "1"
   },
   {
-    "id": "37",
-    "name": "R'lyeh",
-    "epithet": "Time of Aboleths",
-    "abbreviation": "Rl",
-    "file_name_base": "early_rlyeh",
+    "id": "20",
+    "name": "Kailasa",
+    "epithet": "Rise of the Ape Kings",
+    "abbreviation": "Ka",
+    "file_name_base": "early_kailasa",
     "era": "1"
   },
   {
-    "id": "38",
+    "id": "21",
+    "name": "Lanka",
+    "epithet": "Land of Demons",
+    "abbreviation": "La",
+    "file_name_base": "early_lanka",
+    "era": "1"
+  },
+  {
+    "id": "22",
+    "name": "T'ien Ch'i",
+    "epithet": "Spring and Autumn",
+    "abbreviation": "Ti",
+    "file_name_base": "early_tienchi",
+    "era": "1"
+  },
+  {
+    "id": "23",
+    "name": "Yomi",
+    "epithet": "Oni Kings",
+    "abbreviation": "Yom",
+    "file_name_base": "early_yomi",
+    "era": "1"
+  },
+  {
+    "id": "24",
+    "name": "Caelum",
+    "epithet": "Eagle Kings",
+    "abbreviation": "Ca",
+    "file_name_base": "early_caelum",
+    "era": "1"
+  },
+  {
+    "id": "25",
+    "name": "Mictlan",
+    "epithet": "Reign of Blood",
+    "abbreviation": "Mi",
+    "file_name_base": "early_mictlan",
+    "era": "1"
+  },
+  {
+    "id": "26",
+    "name": "Xibalba",
+    "epithet": "Vigil of the Sun",
+    "abbreviation": "Xi",
+    "file_name_base": "early_xibalba",
+    "era": "1"
+  },
+  {
+    "id": "27",
+    "name": "C'tis",
+    "epithet": "Lizard Kings",
+    "abbreviation": "Ct",
+    "file_name_base": "early_ctis",
+    "era": "1"
+  },
+  {
+    "id": "28",
+    "name": "Machaka",
+    "epithet": "Lion Kings",
+    "abbreviation": "Mac",
+    "file_name_base": "early_machaka",
+    "era": "1"
+  },
+  {
+    "id": "29",
+    "name": "Berytos",
+    "epithet": "The Phoenix Empire",
+    "abbreviation": "Be",
+    "file_name_base": "early_berytos",
+    "era": "1"
+  },
+  {
+    "id": "30",
+    "name": "Vanheim",
+    "epithet": "Age of Vanir",
+    "abbreviation": "Va",
+    "file_name_base": "early_vanheim",
+    "era": "1"
+  },
+  {
+    "id": "31",
+    "name": "Helheim",
+    "epithet": "Dusk and Death",
+    "abbreviation": "He",
+    "file_name_base": "early_helheim",
+    "era": "1"
+  },
+  {
+    "id": "32",
+    "name": "Rus",
+    "epithet": "Sons of Heaven",
+    "abbreviation": "Rus",
+    "file_name_base": "early_bogarus",
+    "era": "1"
+  },
+  {
+    "id": "33",
+    "name": "Niefelheim",
+    "epithet": "Sons of Winter",
+    "abbreviation": "Ni",
+    "file_name_base": "early_niefelheim",
+    "era": "1"
+  },
+  {
+    "id": "34",
+    "name": "Muspelheim",
+    "epithet": "Sons of Fire",
+    "abbreviation": "Mu",
+    "file_name_base": "early_muspelheim",
+    "era": "1"
+  },
+  {
+    "id": "40",
     "name": "Pelagia",
     "epithet": "Pearl Kings",
     "abbreviation": "Pe",
@@ -248,7 +248,7 @@
     "era": "1"
   },
   {
-    "id": "39",
+    "id": "41",
     "name": "Oceania",
     "epithet": "Coming of the Capricorns",
     "abbreviation": "Oc",
@@ -256,7 +256,7 @@
     "era": "1"
   },
   {
-    "id": "40",
+    "id": "42",
     "name": "Therodos",
     "epithet": "Telkhine Spectre",
     "abbreviation": "Ther",
@@ -265,6 +265,22 @@
   },
   {
     "id": "43",
+    "name": "Atlantis",
+    "epithet": "Emergence of the Deep Ones",
+    "abbreviation": "Atl",
+    "file_name_base": "early_atlantis",
+    "era": "1"
+  },
+  {
+    "id": "44",
+    "name": "R'lyeh",
+    "epithet": "Time of Aboleths",
+    "abbreviation": "Rl",
+    "file_name_base": "early_rlyeh",
+    "era": "1"
+  },
+  {
+    "id": "50",
     "name": "Arcoscephale",
     "epithet": "The Old Kingdom",
     "abbreviation": "Arc",
@@ -272,119 +288,15 @@
     "era": "2"
   },
   {
-    "id": "44",
-    "name": "Ermor",
-    "epithet": "Ashen Empire",
-    "abbreviation": "Ash",
-    "file_name_base": "mid_ermor",
-    "era": "2"
-  },
-  {
-    "id": "45",
-    "name": "Sceleria",
-    "epithet": "The Reformed Empire",
-    "abbreviation": "Sc",
-    "file_name_base": "mid_sceleria",
-    "era": "2"
-  },
-  {
-    "id": "46",
-    "name": "Pythium",
-    "epithet": "Emerald Empire",
-    "abbreviation": "Py",
-    "file_name_base": "mid_pythium",
-    "era": "2"
-  },
-  {
-    "id": "47",
-    "name": "Man",
-    "epithet": "Tower of Avalon",
-    "abbreviation": "Man",
-    "file_name_base": "mid_man",
-    "era": "2"
-  },
-  {
-    "id": "48",
-    "name": "Eriu",
-    "epithet": "Last of the Tuatha",
-    "abbreviation": "Er",
-    "file_name_base": "mid_eriu",
-    "era": "2"
-  },
-  {
-    "id": "49",
-    "name": "Ulm",
-    "epithet": "Forges of Ulm",
-    "abbreviation": "Ul",
-    "file_name_base": "mid_ulm",
-    "era": "2"
-  },
-  {
-    "id": "50",
-    "name": "Marignon",
-    "epithet": "Fiery Justice",
-    "abbreviation": "Mar",
-    "file_name_base": "mid_marignon",
-    "era": "2"
-  },
-  {
     "id": "51",
-    "name": "Mictlan",
-    "epithet": "Reign of the Lawgiver",
-    "abbreviation": "Mi",
-    "file_name_base": "mid_mictlan",
+    "name": "Phlegra",
+    "epithet": "Deformed Giants",
+    "abbreviation": "Phl",
+    "file_name_base": "mid_phlegra",
     "era": "2"
   },
   {
     "id": "52",
-    "name": "T'ien Ch'i",
-    "epithet": "Imperial Bureaucracy",
-    "abbreviation": "Ti",
-    "file_name_base": "mid_tienchi",
-    "era": "2"
-  },
-  {
-    "id": "53",
-    "name": "Machaka",
-    "epithet": "Reign of Sorcerors",
-    "abbreviation": "Mac",
-    "file_name_base": "mid_machaka",
-    "era": "2"
-  },
-  {
-    "id": "54",
-    "name": "Agartha",
-    "epithet": "Golem Cult",
-    "abbreviation": "Ag",
-    "file_name_base": "mid_agartha",
-    "era": "2"
-  },
-  {
-    "id": "55",
-    "name": "Abysia",
-    "epithet": "Blood and Fire",
-    "abbreviation": "Aby",
-    "file_name_base": "mid_abysia",
-    "era": "2"
-  },
-  {
-    "id": "56",
-    "name": "Caelum",
-    "epithet": "Reign of the Seraphim",
-    "abbreviation": "Ca",
-    "file_name_base": "mid_caelum",
-    "era": "2"
-  },
-  {
-    "id": "57",
-    "name": "C'tis",
-    "epithet": "Miasma",
-    "abbreviation": "Ct",
-    "file_name_base": "mid_ctis",
-    "era": "2"
-  },
-  {
-    "id": "58",
     "name": "Pangaea",
     "epithet": "Age of Bronze",
     "abbreviation": "Pa",
@@ -392,7 +304,7 @@
     "era": "2"
   },
   {
-    "id": "59",
+    "id": "53",
     "name": "Asphodel",
     "epithet": "Carrion Woods",
     "abbreviation": "CW",
@@ -400,51 +312,99 @@
     "era": "2"
   },
   {
+    "id": "54",
+    "name": "Ermor",
+    "epithet": "Ashen Empire",
+    "abbreviation": "Ash",
+    "file_name_base": "mid_ermor",
+    "era": "2"
+  },
+  {
+    "id": "55",
+    "name": "Sceleria",
+    "epithet": "The Reformed Empire",
+    "abbreviation": "Sc",
+    "file_name_base": "mid_sceleria",
+    "era": "2"
+  },
+  {
+    "id": "56",
+    "name": "Pythium",
+    "epithet": "Emerald Empire",
+    "abbreviation": "Py",
+    "file_name_base": "mid_pythium",
+    "era": "2"
+  },
+  {
+    "id": "57",
+    "name": "Man",
+    "epithet": "Tower of Avalon",
+    "abbreviation": "Man",
+    "file_name_base": "mid_man",
+    "era": "2"
+  },
+  {
+    "id": "58",
+    "name": "Eriu",
+    "epithet": "Last of the Tuatha",
+    "abbreviation": "Er",
+    "file_name_base": "mid_eriu",
+    "era": "2"
+  },
+  {
+    "id": "59",
+    "name": "Agartha",
+    "epithet": "Golem Cult",
+    "abbreviation": "Ag",
+    "file_name_base": "mid_agartha",
+    "era": "2"
+  },
+  {
     "id": "60",
-    "name": "Vanheim",
-    "epithet": "Arrival of Man",
-    "abbreviation": "Va",
-    "file_name_base": "mid_vanheim",
+    "name": "Ulm",
+    "epithet": "Forges of Ulm",
+    "abbreviation": "Ul",
+    "file_name_base": "mid_ulm",
     "era": "2"
   },
   {
     "id": "61",
-    "name": "Jotunheim",
-    "epithet": "Iron Woods",
-    "abbreviation": "Jo",
-    "file_name_base": "mid_jotunheim",
+    "name": "Marignon",
+    "epithet": "Fiery Justice",
+    "abbreviation": "Mar",
+    "file_name_base": "mid_marignon",
     "era": "2"
   },
   {
     "id": "62",
-    "name": "Vanarus",
-    "epithet": "Land of the Chuds",
-    "abbreviation": "Rus",
-    "file_name_base": "mid_rus",
+    "name": "Pyr\u00e8ne",
+    "epithet": "Time of the Akelarre",
+    "abbreviation": "Pyr",
+    "file_name_base": "mid_pyrene",
     "era": "2"
   },
   {
     "id": "63",
-    "name": "Bandar Log",
-    "epithet": "Land of the Apes",
-    "abbreviation": "Ba",
-    "file_name_base": "mid_bandarlog",
+    "name": "Abysia",
+    "epithet": "Blood and Fire",
+    "abbreviation": "Aby",
+    "file_name_base": "mid_abysia",
     "era": "2"
   },
   {
     "id": "64",
-    "name": "Shinuyama",
-    "epithet": "Land of the Bakemono",
-    "abbreviation": "shi",
-    "file_name_base": "mid_bakemono",
-    "era": "2"
-  },
-  {
-    "id": "65",
     "name": "Ashdod",
     "epithet": "Reign of the Anakim",
     "abbreviation": "As",
     "file_name_base": "mid_gath",
+    "era": "2"
+  },
+  {
+    "id": "65",
+    "name": "Na'Ba",
+    "epithet": "Queens of the Desert",
+    "abbreviation": "Nab",
+    "file_name_base": "mid_naba",
     "era": "2"
   },
   {
@@ -457,38 +417,6 @@
   },
   {
     "id": "67",
-    "name": "Nazca",
-    "epithet": "Kingdom of the Sun",
-    "abbreviation": "Naz",
-    "file_name_base": "mid_nazca",
-    "era": "2"
-  },
-  {
-    "id": "68",
-    "name": "Xibalba",
-    "epithet": "Flooded Caves",
-    "abbreviation": "Xi",
-    "file_name_base": "mid_xibalba",
-    "era": "2"
-  },
-  {
-    "id": "69",
-    "name": "Phlegra",
-    "epithet": "Deformed Giants",
-    "abbreviation": "Phl",
-    "file_name_base": "mid_phlegra",
-    "era": "2"
-  },
-  {
-    "id": "70",
-    "name": "Phaeacia",
-    "epithet": "Isle of the Dark Ships",
-    "abbreviation": "Pha",
-    "file_name_base": "mid_phaeacia",
-    "era": "2"
-  },
-  {
-    "id": "71",
     "name": "Ind",
     "epithet": "Magnificent Kingdom of Exalted Virtue",
     "abbreviation": "Ind",
@@ -496,47 +424,119 @@
     "era": "2"
   },
   {
+    "id": "68",
+    "name": "Bandar Log",
+    "epithet": "Land of the Apes",
+    "abbreviation": "Ba",
+    "file_name_base": "mid_bandarlog",
+    "era": "2"
+  },
+  {
+    "id": "69",
+    "name": "T'ien Ch'i",
+    "epithet": "Imperial Bureaucracy",
+    "abbreviation": "Ti",
+    "file_name_base": "mid_tienchi",
+    "era": "2"
+  },
+  {
+    "id": "70",
+    "name": "Shinuyama",
+    "epithet": "Land of the Bakemono",
+    "abbreviation": "shi",
+    "file_name_base": "mid_bakemono",
+    "era": "2"
+  },
+  {
+    "id": "71",
+    "name": "Caelum",
+    "epithet": "Reign of the Seraphim",
+    "abbreviation": "Ca",
+    "file_name_base": "mid_caelum",
+    "era": "2"
+  },
+  {
     "id": "72",
-    "name": "Na'Ba",
-    "epithet": "Queens of the Desert",
-    "abbreviation": "Nab",
-    "file_name_base": "mid_naba",
+    "name": "Nazca",
+    "epithet": "Kingdom of the Sun",
+    "abbreviation": "Naz",
+    "file_name_base": "mid_nazca",
     "era": "2"
   },
   {
     "id": "73",
-    "name": "Atlantis",
-    "epithet": "Kings of the Deep",
-    "abbreviation": "Atl",
-    "file_name_base": "mid_atlantis",
+    "name": "Mictlan",
+    "epithet": "Reign of the Lawgiver",
+    "abbreviation": "Mi",
+    "file_name_base": "mid_mictlan",
     "era": "2"
   },
   {
     "id": "74",
-    "name": "R'lyeh",
-    "epithet": "Fallen Star",
-    "abbreviation": "Rl",
-    "file_name_base": "mid_rlyeh",
+    "name": "Xibalba",
+    "epithet": "Flooded Caves",
+    "abbreviation": "Xi",
+    "file_name_base": "mid_xibalba",
     "era": "2"
   },
   {
     "id": "75",
-    "name": "Pelagia",
-    "epithet": "Triton Kings",
-    "abbreviation": "Pe",
-    "file_name_base": "mid_pelagia",
+    "name": "C'tis",
+    "epithet": "Miasma",
+    "abbreviation": "Ct",
+    "file_name_base": "mid_ctis",
     "era": "2"
   },
   {
     "id": "76",
-    "name": "Oceania",
-    "epithet": "Mermidons",
-    "abbreviation": "Oc",
-    "file_name_base": "mid_oceania",
+    "name": "Machaka",
+    "epithet": "Reign of Sorcerors",
+    "abbreviation": "Mac",
+    "file_name_base": "mid_machaka",
     "era": "2"
   },
   {
     "id": "77",
+    "name": "Phaeacia",
+    "epithet": "Isle of the Dark Ships",
+    "abbreviation": "Pha",
+    "file_name_base": "mid_phaeacia",
+    "era": "2"
+  },
+  {
+    "id": "78",
+    "name": "Vanheim",
+    "epithet": "Arrival of Man",
+    "abbreviation": "Va",
+    "file_name_base": "mid_vanheim",
+    "era": "2"
+  },
+  {
+    "id": "79",
+    "name": "Vanarus",
+    "epithet": "Land of the Chuds",
+    "abbreviation": "Rus",
+    "file_name_base": "mid_rus",
+    "era": "2"
+  },
+  {
+    "id": "80",
+    "name": "Jotunheim",
+    "epithet": "Iron Woods",
+    "abbreviation": "Jo",
+    "file_name_base": "mid_jotunheim",
+    "era": "2"
+  },
+  {
+    "id": "81",
+    "name": "Nidavangr",
+    "epithet": "Bear, Wolf and Crow",
+    "abbreviation": "Nid",
+    "file_name_base": "mid_nid",
+    "era": "2"
+  },
+  {
+    "id": "85",
     "name": "Ys",
     "epithet": "Morgen Queens",
     "abbreviation": "Ys",
@@ -544,7 +544,39 @@
     "era": "2"
   },
   {
-    "id": "80",
+    "id": "86",
+    "name": "Pelagia",
+    "epithet": "Triton Kings",
+    "abbreviation": "Pe",
+    "file_name_base": "mid_pelagia",
+    "era": "2"
+  },
+  {
+    "id": "87",
+    "name": "Oceania",
+    "epithet": "Mermidons",
+    "abbreviation": "Oc",
+    "file_name_base": "mid_oceania",
+    "era": "2"
+  },
+  {
+    "id": "88",
+    "name": "Atlantis",
+    "epithet": "Kings of the Deep",
+    "abbreviation": "Atl",
+    "file_name_base": "mid_atlantis",
+    "era": "2"
+  },
+  {
+    "id": "89",
+    "name": "R'lyeh",
+    "epithet": "Fallen Star",
+    "abbreviation": "Rl",
+    "file_name_base": "mid_rlyeh",
+    "era": "2"
+  },
+  {
+    "id": "95",
     "name": "Arcoscephale",
     "epithet": "Sibylline Guidance",
     "abbreviation": "Arc",
@@ -552,167 +584,7 @@
     "era": "3"
   },
   {
-    "id": "81",
-    "name": "Pythium",
-    "epithet": "Serpent Cult",
-    "abbreviation": "Py",
-    "file_name_base": "late_pythium",
-    "era": "3"
-  },
-  {
-    "id": "82",
-    "name": "Lemuria",
-    "epithet": "Soul Gates",
-    "abbreviation": "Lem",
-    "file_name_base": "late_lemur",
-    "era": "3"
-  },
-  {
-    "id": "83",
-    "name": "Man",
-    "epithet": "Towers of Chelms",
-    "abbreviation": "Che",
-    "file_name_base": "late_chelms",
-    "era": "3"
-  },
-  {
-    "id": "84",
-    "name": "Ulm",
-    "epithet": "Black Forest",
-    "abbreviation": "BF",
-    "file_name_base": "late_ulm",
-    "era": "3"
-  },
-  {
-    "id": "85",
-    "name": "Marignon",
-    "epithet": "Conquerors of the Sea",
-    "abbreviation": "CoS",
-    "file_name_base": "late_marignon",
-    "era": "3"
-  },
-  {
-    "id": "86",
-    "name": "Mictlan",
-    "epithet": "Blood and Rain",
-    "abbreviation": "Mi",
-    "file_name_base": "late_mictlan",
-    "era": "3"
-  },
-  {
-    "id": "87",
-    "name": "T'ien Ch'i",
-    "epithet": "Barbarian Kings",
-    "abbreviation": "BK",
-    "file_name_base": "late_tienchi",
-    "era": "3"
-  },
-  {
-    "id": "89",
-    "name": "Jomon",
-    "epithet": "Human Daimyos",
-    "abbreviation": "Jom",
-    "file_name_base": "late_jomon",
-    "era": "3"
-  },
-  {
-    "id": "90",
-    "name": "Agartha",
-    "epithet": "Ktonian Dead",
-    "abbreviation": "KD",
-    "file_name_base": "late_agartha",
-    "era": "3"
-  },
-  {
-    "id": "91",
-    "name": "Abysia",
-    "epithet": "Blood of Humans",
-    "abbreviation": "BoH",
-    "file_name_base": "late_abysia",
-    "era": "3"
-  },
-  {
-    "id": "92",
-    "name": "Caelum",
-    "epithet": "Return of the Raptors",
-    "abbreviation": "Rap",
-    "file_name_base": "late_caelum",
-    "era": "3"
-  },
-  {
-    "id": "93",
-    "name": "C'tis",
-    "epithet": "Desert Tombs",
-    "abbreviation": "DT",
-    "file_name_base": "late_ctis",
-    "era": "3"
-  },
-  {
-    "id": "94",
-    "name": "Pangaea",
-    "epithet": "New Era",
-    "abbreviation": "NE",
-    "file_name_base": "late_pangaea",
-    "era": "3"
-  },
-  {
-    "id": "95",
-    "name": "Midg\u00c3\u00a5rd",
-    "epithet": "Age of Men",
-    "abbreviation": "Mid",
-    "file_name_base": "late_midgard",
-    "era": "3"
-  },
-  {
     "id": "96",
-    "name": "Utg\u00c3\u00a5rd",
-    "epithet": "Well of Urd",
-    "abbreviation": "Ut",
-    "file_name_base": "late_utgard",
-    "era": "3"
-  },
-  {
-    "id": "97",
-    "name": "Bogarus",
-    "epithet": "Age of Heroes",
-    "abbreviation": "Bog",
-    "file_name_base": "late_rus",
-    "era": "3"
-  },
-  {
-    "id": "98",
-    "name": "Patala",
-    "epithet": "Reign of the Nagas",
-    "abbreviation": "Pa",
-    "file_name_base": "late_patala",
-    "era": "3"
-  },
-  {
-    "id": "99",
-    "name": "Gath",
-    "epithet": "Last of the Giants",
-    "abbreviation": "Ga",
-    "file_name_base": "late_gath",
-    "era": "3"
-  },
-  {
-    "id": "100",
-    "name": "Ragha",
-    "epithet": "Dual Kingdom",
-    "abbreviation": "Rag",
-    "file_name_base": "late_ragha",
-    "era": "3"
-  },
-  {
-    "id": "101",
-    "name": "Xibalba",
-    "epithet": "Return of the Zotz",
-    "abbreviation": "Xi",
-    "file_name_base": "late_xibalba",
-    "era": "3"
-  },
-  {
-    "id": "102",
     "name": "Phlegra",
     "epithet": "Sleeping Giants",
     "abbreviation": "Phl",
@@ -720,7 +592,167 @@
     "era": "3"
   },
   {
+    "id": "97",
+    "name": "Pangaea",
+    "epithet": "New Era",
+    "abbreviation": "NE",
+    "file_name_base": "late_pangaea",
+    "era": "3"
+  },
+  {
+    "id": "98",
+    "name": "Pythium",
+    "epithet": "Serpent Cult",
+    "abbreviation": "Py",
+    "file_name_base": "late_pythium",
+    "era": "3"
+  },
+  {
+    "id": "99",
+    "name": "Lemuria",
+    "epithet": "Soul Gates",
+    "abbreviation": "Lem",
+    "file_name_base": "late_lemur",
+    "era": "3"
+  },
+  {
+    "id": "100",
+    "name": "Man",
+    "epithet": "Towers of Chelms",
+    "abbreviation": "Che",
+    "file_name_base": "late_chelms",
+    "era": "3"
+  },
+  {
+    "id": "101",
+    "name": "Ulm",
+    "epithet": "Black Forest",
+    "abbreviation": "BF",
+    "file_name_base": "late_ulm",
+    "era": "3"
+  },
+  {
+    "id": "102",
+    "name": "Agartha",
+    "epithet": "Ktonian Dead",
+    "abbreviation": "KD",
+    "file_name_base": "late_agartha",
+    "era": "3"
+  },
+  {
     "id": "103",
+    "name": "Marignon",
+    "epithet": "Conquerors of the Sea",
+    "abbreviation": "CoS",
+    "file_name_base": "late_marignon",
+    "era": "3"
+  },
+  {
+    "id": "104",
+    "name": "Abysia",
+    "epithet": "Blood of Humans",
+    "abbreviation": "BoH",
+    "file_name_base": "late_abysia",
+    "era": "3"
+  },
+  {
+    "id": "105",
+    "name": "Ragha",
+    "epithet": "Dual Kingdom",
+    "abbreviation": "Rag",
+    "file_name_base": "late_ragha",
+    "era": "3"
+  },
+  {
+    "id": "106",
+    "name": "Caelum",
+    "epithet": "Return of the Raptors",
+    "abbreviation": "Rap",
+    "file_name_base": "late_caelum",
+    "era": "3"
+  },
+  {
+    "id": "107",
+    "name": "Gath",
+    "epithet": "Last of the Giants",
+    "abbreviation": "Ga",
+    "file_name_base": "late_gath",
+    "era": "3"
+  },
+  {
+    "id": "108",
+    "name": "Patala",
+    "epithet": "Reign of the Nagas",
+    "abbreviation": "Pa",
+    "file_name_base": "late_patala",
+    "era": "3"
+  },
+  {
+    "id": "109",
+    "name": "T'ien Ch'i",
+    "epithet": "Barbarian Kings",
+    "abbreviation": "BK",
+    "file_name_base": "late_tienchi",
+    "era": "3"
+  },
+  {
+    "id": "110",
+    "name": "Jomon",
+    "epithet": "Human Daimyos",
+    "abbreviation": "Jom",
+    "file_name_base": "late_jomon",
+    "era": "3"
+  },
+  {
+    "id": "111",
+    "name": "Mictlan",
+    "epithet": "Blood and Rain",
+    "abbreviation": "Mi",
+    "file_name_base": "late_mictlan",
+    "era": "3"
+  },
+  {
+    "id": "112",
+    "name": "Xibalba",
+    "epithet": "Return of the Zotz",
+    "abbreviation": "Xi",
+    "file_name_base": "late_xibalba",
+    "era": "3"
+  },
+  {
+    "id": "113",
+    "name": "C'tis",
+    "epithet": "Desert Tombs",
+    "abbreviation": "DT",
+    "file_name_base": "late_ctis",
+    "era": "3"
+  },
+  {
+    "id": "115",
+    "name": "Midg\u00e5rd",
+    "epithet": "Age of Men",
+    "abbreviation": "Mid",
+    "file_name_base": "late_midgard",
+    "era": "3"
+  },
+  {
+    "id": "116",
+    "name": "Bogarus",
+    "epithet": "Age of Heroes",
+    "abbreviation": "Bog",
+    "file_name_base": "late_rus",
+    "era": "3"
+  },
+  {
+    "id": "117",
+    "name": "Utg\u00e5rd",
+    "epithet": "Well of Urd",
+    "abbreviation": "Ut",
+    "file_name_base": "late_utgard",
+    "era": "3"
+  },
+  {
+    "id": "118",
     "name": "Vaettiheim",
     "epithet": "Wolf Kin Jarldom",
     "abbreviation": "Va",
@@ -728,7 +760,63 @@
     "era": "3"
   },
   {
-    "id": "106",
+    "id": "119",
+    "name": "Feminie",
+    "epithet": "Sage-Queens",
+    "abbreviation": "Fem",
+    "file_name_base": "late_feminie",
+    "era": "3"
+  },
+  {
+    "id": "120",
+    "name": "Piconye",
+    "epithet": "Legacy of the Prester King",
+    "abbreviation": "Pic",
+    "file_name_base": "late_piconye",
+    "era": "3"
+  },
+  {
+    "id": "121",
+    "name": "Andramania",
+    "epithet": "Dog Republic",
+    "abbreviation": "And",
+    "file_name_base": "late_andramania",
+    "era": "3"
+  },
+  {
+    "id": "122",
+    "name": "Oman",
+    "epithet": "",
+    "abbreviation": "",
+    "file_name_base": "nation_122",
+    "era": "0"
+  },
+  {
+    "id": "123",
+    "name": "Pyr\u00e8ne",
+    "epithet": "Cambion Kings",
+    "abbreviation": "",
+    "file_name_base": "late_pyrene",
+    "era": "0"
+  },
+  {
+    "id": "124",
+    "name": "Rig",
+    "epithet": "Sylvan Knights",
+    "abbreviation": "",
+    "file_name_base": "nation_124",
+    "era": "0"
+  },
+  {
+    "id": "125",
+    "name": "Erytheia",
+    "epithet": "Kingdom of Two Worlds",
+    "abbreviation": "Ery",
+    "file_name_base": "late_erytheia",
+    "era": "3"
+  },
+  {
+    "id": "126",
     "name": "Atlantis",
     "epithet": "Frozen Sea",
     "abbreviation": "Atl",
@@ -736,19 +824,11 @@
     "era": "3"
   },
   {
-    "id": "107",
+    "id": "127",
     "name": "R'lyeh",
     "epithet": "Dreamlands",
     "abbreviation": "Rl",
     "file_name_base": "late_rlyeh",
-    "era": "3"
-  },
-  {
-    "id": "108",
-    "name": "Erytheia",
-    "epithet": "Kingdom of Two Worlds",
-    "abbreviation": "Ery",
-    "file_name_base": "late_erytheia",
     "era": "3"
   }
 ]

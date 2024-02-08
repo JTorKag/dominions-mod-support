@@ -213,14 +213,6 @@ clearsites,#clearsites,~#clearsites~,Clears all start sites for this nation.
 clearspec,#clearspec,~#clearspec~,Removes all special abilities from the active monster. The special abilities are stuff like Holy Fire Resistance Awe etc.
 clearweapons,#clearweapons,~#clearweapons~,Removes all weapons from the active monster. Must be used before assigning new weapons or the monster will have both old and new weapons.
 cluster,#cluster,~#cluster~,Assigns a cluster value to a throne. A throne is likely to appear together with other thrones of same cluster value when a map is created. For example the Throne of Spring and the Throne of Autumn have the same cluster value and if one of them appears on the map the other is also very likely to appear. Cluster value can be a number from 1 to 32000.
-coastcom,#coastcom,~#coastcom~,This commander can be recruited in coast provinces with or without fort. See the box below for all command names.
-coastcom1,#coastcom1,~#coastcom1~,Add a unit to the list of recruitable commanders for this nation in coastal forts only.
-coastcom2,#coastcom2,~#coastcom2~,Add a unit to the list of recruitable commanders for this nation in coastal forts only.
-coastnation,#coastnation,~#coastnation~,The nations capital is in a coastal land province.
-coastrec,#coastrec,~#coastrec~,This unit can be recruited in coast provinces with or without fort. See the box below for all command names.
-coastunit1,#coastunit1,~#coastunit1~,Add a unit to the list of recruitable units for this nation in coastal forts only.
-coastunit2,#coastunit2,~#coastunit2~,Add a unit to the list of recruitable units for this nation in coastal forts only.
-coastunit3,#coastunit3,~#coastunit3~,Add a unit to the list of recruitable units for this nation in coastal forts only.
 code,#code,~#code~,Sets the event code of the current province (when planned for globals)
 code2,#code2,~#code2~,Sets the eventcode of the current province (when executed for globals)
 codedelay,#codedelay,~#codedelay~,"Sets the event code of the current province, but not immediately. It will be set after all events have been executed this turn."
@@ -1255,3 +1247,64 @@ xploss,#xploss,~#xploss~,The monster loses 0-100% of xp when changing shape (e.g
 xpshape,#xpshape,~#xpshape~,The monster will change into the next monster type (next monster number) after reaching this amount of xp.
 yearaging,#yearaging,~#yearaging~,The wielder of this item will age this many extra years each year.
 yearturn,#yearturn,~#yearturn~,Power of the Turning Year. This unit is more powerful during the height of each season and will get increased Strength Attack and Defence during those months.
+truesight,#truesight,~#truesight~,Monster has True Sight
+glamourrange,#glamourrange,~#glamourrange~,Glamour magic cast by the monster have increased range.
+tmpglamourgems,#tmpglamourgems,~#tmpglamourgems~,The monster produces a number of glamour gems that can be used in combat. The gems are not stable enough to be used for ritual spellcasting.
+aiglamournation,#aiglamournation,~#aiglamournation~,Hint to AI that Glamour magic is used a lot in this nation and that an air god is probably good.
+deathshock,#deathshock,~#deathshock~,"The monster erupts in a shock explosion when it dies, inflicting capped 1 AN shock damage to everyone in the area of effect."
+deathslime,#deathslime,~#deathslime~,"The monster erupts in a slime explosion when it dies, inflicting slime (water breathers immune) to everyone in the area of effect."
+deathgrab,#deathgrab,~#deathgrab~,"The monster erupts in a earth grip explosion when it dies, inflicting earth grip to everyone in the area of effect."
+nightmareaura,#nightmareaura,~#nightmareaura~,Any nearby enemy units will experience horrible visions and take false damage (1 point) if they fail a magic resistance roll. Mindless beings are immune.
+falseregen,#falseregen,~#falseregen~,Heals false damage by this amount of points per combat round.
+reconst,#reconst,~#reconst~,"Works like regeneration, but only affects inanimate beings."
+dread,#dread,~#dread~,Fear but negated by True Sight
+fireelementals,#fireelementals,~#fireelementals~,Please let me know if you know what this does.
+waterelementals,#waterelementals,~#waterelementals~,Please let me know if you know what this does.
+airelementals,#airelementals,~#airelementals~,Please let me know if you know what this does.
+earthelementals,#earthelementals,~#earthelementals~,Please let me know if you know what this does.
+undisleader,#undisleader,~#undisleader~,1=will negate undisciplined on his followers
+assencloc,#assencloc,~#assencloc~,"Specifies an encounter location that the assassinations will appear in. If not specified, a suitable one for each occasion will be used. Possible values can be seen below."
+extralives,#extralives,~#extralives~,Will get dominion times this value amount of scar souls (extra lives)
+forestfortrec,#forestfortrec,~#forestfortrec~,This unit can be recruited in (terrain) provinces with a fort. 
+forestfortcom,#forestfortcom,~#forestfortcom~,This unit can be recruited in (terrain) provinces with a fort. 
+mountainfortrec,#mountainfortrec,~#mountainfortrec~,This unit can be recruited in (terrain) provinces with a fort. 
+mountainfortcom,#mountainfortcom,~#mountainfortcom~,This unit can be recruited in (terrain) provinces with a fort. 
+swampfortrec,#swampfortrec,~#swampfortrec~,This unit can be recruited in (terrain) provinces with a fort. 
+swampfortcom,#swampfortcom,~#swampfortcom~,This unit can be recruited in (terrain) provinces with a fort. 
+wastefortrec,#wastefortrec,~#wastefortrec~,This unit can be recruited in (terrain) provinces with a fort. 
+wastefortcom,#wastefortcom,~#wastefortcom~,This unit can be recruited in (terrain) provinces with a fort. 
+farmfortrec,#farmfortrec,~#farmfortrec~,This unit can be recruited in (terrain) provinces with a fort. 
+farmfortcom,#farmfortcom,~#farmfortcom~,This unit can be recruited in (terrain) provinces with a fort. 
+cavefortrec,#cavefortrec,~#cavefortrec~,This unit can be recruited in (terrain) provinces with a fort. 
+cavefortcom,#cavefortcom,~#cavefortcom~,This unit can be recruited in (terrain) provinces with a fort. 
+dripfortrec,#dripfortrec,~#dripfortrec~,This unit can be recruited in (terrain) provinces with a fort. 
+dripfortcom,#dripfortcom,~#dripfortcom~,This unit can be recruited in (terrain) provinces with a fort. 
+coastfortrec,#coastfortrec,~#coastfortrec~,This unit can be recruited in (terrain) provinces with a fort. 
+coastfortcom,#coastfortcom,~#coastfortcom~,This unit can be recruited in (terrain) provinces with a fort. 
+seafortrec,#seafortrec,~#seafortrec~,This unit can be recruited in (terrain) provinces with a fort. 
+seafortcom,#seafortcom,~#seafortcom~,This unit can be recruited in (terrain) provinces with a fort. 
+deepfortrec,#deepfortrec,~#deepfortrec~,This unit can be recruited in (terrain) provinces with a fort. 
+deepfortcom,#deepfortcom,~#deepfortcom~,This unit can be recruited in (terrain) provinces with a fort. 
+kelpfortrec,#kelpfortrec,~#kelpfortrec~,This unit can be recruited in (terrain) provinces with a fort. 
+kelpfortcom,#kelpfortcom,~#kelpfortcom~,This unit can be recruited in (terrain) provinces with a fort. 
+reqnospellsinger,#reqnospellsinger,~#reqnospellsinger~,Units with the spell singing ability cannot cast this spell.
+reqnotaskmaster,#reqnotaskmaster,~#reqnotaskmaster~,Units with the task master ability cannot cast this spell
+reqnoseduce,#reqnoseduce,~#reqnoseduce~,Units with the seduce ability cannot cast this spell
+remount,#remount,~#remount~,"The commander determined by target requirements regains his mount, should he have lost it."
+startresearch,#startresearch,~#startresearch~,The amount of start research per magic scale above -3. Default is 50 research points.
+nodeepchoice,#nodeepchoice,~#nodeepchoice~,Don't generate caves
+regainmount,#regainmount,~#regainmount~,If this is set to 1 the rider will regain any lost mount(s) for free after the battle
+noremount,#noremount,~#noremount~,The commander will no be able to reclaim his mount through a reclaim mount order. This is used for certain gods that have divine mounts that must be prayed back
+skilledrider,#skilledrider,~#skilledrider~,A skilled rider will increase the Morale and Defence Skill of his mount. The defence increase is most effective on lightly armored horses as it is reduced by the encumbrance value of the mount's armor. This ability should be given to the rider and not to the mount
+mountiscom,#mountiscom,~#mountiscom~,If this is set to one the mount is also a commander. This command is used for some gods that has divine mounts.
+nobarding,#nobarding,~#nobarding~,This mount does not have a barding slot. This is used for e.g. the humans that carry a throne with an emperor in it
+nothrowoff,#nothrowoff,~#nothrowoff~,"This mount will not throw off its rider if it routs or gets paralyzed. This is used on mounts that are more important than the rider, e.g. elephants, where the rider will never get off voluntarily in order to fight on the ground."
+nofalldmg,#nofalldmg,~#nofalldmg~,This rider will not take any damage when falling off his mount. This is used for chariot drivers that are always close to the ground
+mounted,#mounted,~#mounted~,This command should only be used in rare cases where the Dominions 6 system of seperate stats for rider and mount is not suitable. It was used for mounted units in Dominions 5 where the rider and horse shared the same stats. This command will give a defence bonus to the unit as well as reduced encumbrance
+bravemount,#bravemount,~#bravemount~,The chance of the mount remaining on the battlefield and continuing to fight. Default is 0
+smartmount,#smartmount,~#smartmount~,"The smartness determines the chance for the mount to try to make it home. A smart magical unicorn has smartness 100, a normal horse doesn't have this ability at all."
+req_pathglamour,#req_pathglamour,~#req_pathglamour~,There must be a Glamour mage of at least this level in the province
+req_nopathglamour,#req_nopathglamour,~#req_nopathglamour~,There cannot be a Glamour mage of this level or higher in the province
+glamourboost,#glamourboost,~#glamourboost~,One commander determined by target requirements or the monster number may gain +1 Glamour magic.
+killtarg,#killtarg,~#killtarg~,One commander determined by target requirements is killed. The mount is also killed if any.
+mag_glamour,#mag_glamour,~#mag_glamour~,Gives active commander Glamour magic.

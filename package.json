@@ -2,7 +2,7 @@
   "name": "dominions-mod-support",
   "displayName": "Dominions Mod Support",
   "description": "Syntax highlighting, Diagnostics, & Hover information on keywords and IDs.",
-  "version": "1.1.1",
+  "version": "2.0.0",
   "repository": "https://github.com/JTorKag/dominions-mod-support",
   "publisher": "jtorkag",
   "license": "LGPL-3.0-only",
@@ -18,7 +18,7 @@
     "languages": [
       {
         "id": "dominionsmod",
-        "aliases": ["Dominions 5 Mod", "dominionsmod"],
+        "aliases": ["Dominions 6 Mod", "dominionsmod"],
         "extensions": [".dm"],
         "configuration": "./language-configuration.json"
       }

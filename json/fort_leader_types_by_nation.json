@@ -1,0 +1,2726 @@
+[
+  {
+    "monster_number": "431",
+    "nation_number": "5"
+  },
+  {
+    "monster_number": "1076",
+    "nation_number": "5"
+  },
+  {
+    "monster_number": "1081",
+    "nation_number": "5"
+  },
+  {
+    "monster_number": "3197",
+    "nation_number": "5"
+  },
+  {
+    "monster_number": "1083",
+    "nation_number": "5"
+  },
+  {
+    "monster_number": "1071",
+    "nation_number": "5"
+  },
+  {
+    "monster_number": "311",
+    "nation_number": "5"
+  },
+  {
+    "monster_number": "1072",
+    "nation_number": "5"
+  },
+  {
+    "monster_number": "3107",
+    "nation_number": "6"
+  },
+  {
+    "monster_number": "3108",
+    "nation_number": "6"
+  },
+  {
+    "monster_number": "3111",
+    "nation_number": "6"
+  },
+  {
+    "monster_number": "3114",
+    "nation_number": "6"
+  },
+  {
+    "monster_number": "3115",
+    "nation_number": "6"
+  },
+  {
+    "monster_number": "3116",
+    "nation_number": "6"
+  },
+  {
+    "monster_number": "430",
+    "nation_number": "7"
+  },
+  {
+    "monster_number": "2485",
+    "nation_number": "7"
+  },
+  {
+    "monster_number": "1534",
+    "nation_number": "7"
+  },
+  {
+    "monster_number": "2158",
+    "nation_number": "7"
+  },
+  {
+    "monster_number": "231",
+    "nation_number": "7"
+  },
+  {
+    "monster_number": "2187",
+    "nation_number": "7"
+  },
+  {
+    "monster_number": "2487",
+    "nation_number": "7"
+  },
+  {
+    "monster_number": "1535",
+    "nation_number": "7"
+  },
+  {
+    "monster_number": "426",
+    "nation_number": "8"
+  },
+  {
+    "monster_number": "428",
+    "nation_number": "8"
+  },
+  {
+    "monster_number": "671",
+    "nation_number": "8"
+  },
+  {
+    "monster_number": "1386",
+    "nation_number": "8"
+  },
+  {
+    "monster_number": "1112",
+    "nation_number": "8"
+  },
+  {
+    "monster_number": "1113",
+    "nation_number": "8"
+  },
+  {
+    "monster_number": "1114",
+    "nation_number": "8"
+  },
+  {
+    "monster_number": "1115",
+    "nation_number": "8"
+  },
+  {
+    "monster_number": "426",
+    "nation_number": "9"
+  },
+  {
+    "monster_number": "1169",
+    "nation_number": "9"
+  },
+  {
+    "monster_number": "1173",
+    "nation_number": "9"
+  },
+  {
+    "monster_number": "1174",
+    "nation_number": "9"
+  },
+  {
+    "monster_number": "1175",
+    "nation_number": "9"
+  },
+  {
+    "monster_number": "1188",
+    "nation_number": "9"
+  },
+  {
+    "monster_number": "1180",
+    "nation_number": "9"
+  },
+  {
+    "monster_number": "1181",
+    "nation_number": "9"
+  },
+  {
+    "monster_number": "1186",
+    "nation_number": "9"
+  },
+  {
+    "monster_number": "1811",
+    "nation_number": "10"
+  },
+  {
+    "monster_number": "1815",
+    "nation_number": "10"
+  },
+  {
+    "monster_number": "2469",
+    "nation_number": "10"
+  },
+  {
+    "monster_number": "1816",
+    "nation_number": "10"
+  },
+  {
+    "monster_number": "1800",
+    "nation_number": "10"
+  },
+  {
+    "monster_number": "1818",
+    "nation_number": "10"
+  },
+  {
+    "monster_number": "1819",
+    "nation_number": "10"
+  },
+  {
+    "monster_number": "1755",
+    "nation_number": "11"
+  },
+  {
+    "monster_number": "1750",
+    "nation_number": "11"
+  },
+  {
+    "monster_number": "2469",
+    "nation_number": "11"
+  },
+  {
+    "monster_number": "1752",
+    "nation_number": "11"
+  },
+  {
+    "monster_number": "1759",
+    "nation_number": "11"
+  },
+  {
+    "monster_number": "1774",
+    "nation_number": "11"
+  },
+  {
+    "monster_number": "1775",
+    "nation_number": "11"
+  },
+  {
+    "monster_number": "1209",
+    "nation_number": "12"
+  },
+  {
+    "monster_number": "1215",
+    "nation_number": "12"
+  },
+  {
+    "monster_number": "1218",
+    "nation_number": "12"
+  },
+  {
+    "monster_number": "1221",
+    "nation_number": "12"
+  },
+  {
+    "monster_number": "1207",
+    "nation_number": "12"
+  },
+  {
+    "monster_number": "1206",
+    "nation_number": "12"
+  },
+  {
+    "monster_number": "1225",
+    "nation_number": "12"
+  },
+  {
+    "monster_number": "1205",
+    "nation_number": "12"
+  },
+  {
+    "monster_number": "2468",
+    "nation_number": "12"
+  },
+  {
+    "monster_number": "2279",
+    "nation_number": "13"
+  },
+  {
+    "monster_number": "1158",
+    "nation_number": "13"
+  },
+  {
+    "monster_number": "1159",
+    "nation_number": "13"
+  },
+  {
+    "monster_number": "1160",
+    "nation_number": "13"
+  },
+  {
+    "monster_number": "3589",
+    "nation_number": "14"
+  },
+  {
+    "monster_number": "3590",
+    "nation_number": "14"
+  },
+  {
+    "monster_number": "3594",
+    "nation_number": "14"
+  },
+  {
+    "monster_number": "3596",
+    "nation_number": "14"
+  },
+  {
+    "monster_number": "1466",
+    "nation_number": "15"
+  },
+  {
+    "monster_number": "1463",
+    "nation_number": "15"
+  },
+  {
+    "monster_number": "1461",
+    "nation_number": "15"
+  },
+  {
+    "monster_number": "1470",
+    "nation_number": "15"
+  },
+  {
+    "monster_number": "2491",
+    "nation_number": "15"
+  },
+  {
+    "monster_number": "1460",
+    "nation_number": "15"
+  },
+  {
+    "monster_number": "429",
+    "nation_number": "16"
+  },
+  {
+    "monster_number": "119",
+    "nation_number": "16"
+  },
+  {
+    "monster_number": "214",
+    "nation_number": "16"
+  },
+  {
+    "monster_number": "1698",
+    "nation_number": "16"
+  },
+  {
+    "monster_number": "1699",
+    "nation_number": "16"
+  },
+  {
+    "monster_number": "2020",
+    "nation_number": "17"
+  },
+  {
+    "monster_number": "2024",
+    "nation_number": "17"
+  },
+  {
+    "monster_number": "2023",
+    "nation_number": "17"
+  },
+  {
+    "monster_number": "2016",
+    "nation_number": "17"
+  },
+  {
+    "monster_number": "2017",
+    "nation_number": "17"
+  },
+  {
+    "monster_number": "2013",
+    "nation_number": "17"
+  },
+  {
+    "monster_number": "2014",
+    "nation_number": "17"
+  },
+  {
+    "monster_number": "2033",
+    "nation_number": "17"
+  },
+  {
+    "monster_number": "3457",
+    "nation_number": "18"
+  },
+  {
+    "monster_number": "3458",
+    "nation_number": "18"
+  },
+  {
+    "monster_number": "3459",
+    "nation_number": "18"
+  },
+  {
+    "monster_number": "3460",
+    "nation_number": "18"
+  },
+  {
+    "monster_number": "3461",
+    "nation_number": "18"
+  },
+  {
+    "monster_number": "3462",
+    "nation_number": "18"
+  },
+  {
+    "monster_number": "2161",
+    "nation_number": "19"
+  },
+  {
+    "monster_number": "2177",
+    "nation_number": "19"
+  },
+  {
+    "monster_number": "2178",
+    "nation_number": "19"
+  },
+  {
+    "monster_number": "2182",
+    "nation_number": "19"
+  },
+  {
+    "monster_number": "2179",
+    "nation_number": "19"
+  },
+  {
+    "monster_number": "2268",
+    "nation_number": "19"
+  },
+  {
+    "monster_number": "2180",
+    "nation_number": "19"
+  },
+  {
+    "monster_number": "1119",
+    "nation_number": "20"
+  },
+  {
+    "monster_number": "1127",
+    "nation_number": "20"
+  },
+  {
+    "monster_number": "1334",
+    "nation_number": "20"
+  },
+  {
+    "monster_number": "1145",
+    "nation_number": "20"
+  },
+  {
+    "monster_number": "1143",
+    "nation_number": "20"
+  },
+  {
+    "monster_number": "2542",
+    "nation_number": "20"
+  },
+  {
+    "monster_number": "1119",
+    "nation_number": "21"
+  },
+  {
+    "monster_number": "1127",
+    "nation_number": "21"
+  },
+  {
+    "monster_number": "1761",
+    "nation_number": "21"
+  },
+  {
+    "monster_number": "1760",
+    "nation_number": "21"
+  },
+  {
+    "monster_number": "1733",
+    "nation_number": "21"
+  },
+  {
+    "monster_number": "1734",
+    "nation_number": "21"
+  },
+  {
+    "monster_number": "1735",
+    "nation_number": "21"
+  },
+  {
+    "monster_number": "426",
+    "nation_number": "22"
+  },
+  {
+    "monster_number": "1665",
+    "nation_number": "22"
+  },
+  {
+    "monster_number": "806",
+    "nation_number": "22"
+  },
+  {
+    "monster_number": "3936",
+    "nation_number": "22"
+  },
+  {
+    "monster_number": "2467",
+    "nation_number": "23"
+  },
+  {
+    "monster_number": "1313",
+    "nation_number": "23"
+  },
+  {
+    "monster_number": "1314",
+    "nation_number": "23"
+  },
+  {
+    "monster_number": "3069",
+    "nation_number": "23"
+  },
+  {
+    "monster_number": "1315",
+    "nation_number": "23"
+  },
+  {
+    "monster_number": "1609",
+    "nation_number": "23"
+  },
+  {
+    "monster_number": "1276",
+    "nation_number": "23"
+  },
+  {
+    "monster_number": "484",
+    "nation_number": "24"
+  },
+  {
+    "monster_number": "1288",
+    "nation_number": "24"
+  },
+  {
+    "monster_number": "1284",
+    "nation_number": "24"
+  },
+  {
+    "monster_number": "2557",
+    "nation_number": "24"
+  },
+  {
+    "monster_number": "2570",
+    "nation_number": "24"
+  },
+  {
+    "monster_number": "1663",
+    "nation_number": "24"
+  },
+  {
+    "monster_number": "729",
+    "nation_number": "25"
+  },
+  {
+    "monster_number": "730",
+    "nation_number": "25"
+  },
+  {
+    "monster_number": "731",
+    "nation_number": "25"
+  },
+  {
+    "monster_number": "1361",
+    "nation_number": "25"
+  },
+  {
+    "monster_number": "2674",
+    "nation_number": "26"
+  },
+  {
+    "monster_number": "2675",
+    "nation_number": "26"
+  },
+  {
+    "monster_number": "2676",
+    "nation_number": "26"
+  },
+  {
+    "monster_number": "2691",
+    "nation_number": "26"
+  },
+  {
+    "monster_number": "2678",
+    "nation_number": "26"
+  },
+  {
+    "monster_number": "2679",
+    "nation_number": "26"
+  },
+  {
+    "monster_number": "2677",
+    "nation_number": "26"
+  },
+  {
+    "monster_number": "2680",
+    "nation_number": "26"
+  },
+  {
+    "monster_number": "2681",
+    "nation_number": "26"
+  },
+  {
+    "monster_number": "169",
+    "nation_number": "27"
+  },
+  {
+    "monster_number": "163",
+    "nation_number": "27"
+  },
+  {
+    "monster_number": "162",
+    "nation_number": "27"
+  },
+  {
+    "monster_number": "160",
+    "nation_number": "27"
+  },
+  {
+    "monster_number": "510",
+    "nation_number": "27"
+  },
+  {
+    "monster_number": "170",
+    "nation_number": "27"
+  },
+  {
+    "monster_number": "1387",
+    "nation_number": "27"
+  },
+  {
+    "monster_number": "161",
+    "nation_number": "27"
+  },
+  {
+    "monster_number": "2288",
+    "nation_number": "28"
+  },
+  {
+    "monster_number": "2289",
+    "nation_number": "28"
+  },
+  {
+    "monster_number": "2290",
+    "nation_number": "28"
+  },
+  {
+    "monster_number": "2291",
+    "nation_number": "28"
+  },
+  {
+    "monster_number": "2292",
+    "nation_number": "28"
+  },
+  {
+    "monster_number": "2293",
+    "nation_number": "28"
+  },
+  {
+    "monster_number": "2310",
+    "nation_number": "28"
+  },
+  {
+    "monster_number": "2403",
+    "nation_number": "28"
+  },
+  {
+    "monster_number": "2252",
+    "nation_number": "29"
+  },
+  {
+    "monster_number": "2253",
+    "nation_number": "29"
+  },
+  {
+    "monster_number": "2265",
+    "nation_number": "29"
+  },
+  {
+    "monster_number": "2424",
+    "nation_number": "29"
+  },
+  {
+    "monster_number": "1512",
+    "nation_number": "30"
+  },
+  {
+    "monster_number": "263",
+    "nation_number": "30"
+  },
+  {
+    "monster_number": "264",
+    "nation_number": "30"
+  },
+  {
+    "monster_number": "1512",
+    "nation_number": "31"
+  },
+  {
+    "monster_number": "1505",
+    "nation_number": "31"
+  },
+  {
+    "monster_number": "1506",
+    "nation_number": "31"
+  },
+  {
+    "monster_number": "1502",
+    "nation_number": "31"
+  },
+  {
+    "monster_number": "2984",
+    "nation_number": "32"
+  },
+  {
+    "monster_number": "2985",
+    "nation_number": "32"
+  },
+  {
+    "monster_number": "2986",
+    "nation_number": "32"
+  },
+  {
+    "monster_number": "2987",
+    "nation_number": "32"
+  },
+  {
+    "monster_number": "786",
+    "nation_number": "33"
+  },
+  {
+    "monster_number": "1301",
+    "nation_number": "33"
+  },
+  {
+    "monster_number": "1299",
+    "nation_number": "33"
+  },
+  {
+    "monster_number": "1300",
+    "nation_number": "33"
+  },
+  {
+    "monster_number": "553",
+    "nation_number": "33"
+  },
+  {
+    "monster_number": "785",
+    "nation_number": "33"
+  },
+  {
+    "monster_number": "3972",
+    "nation_number": "34"
+  },
+  {
+    "monster_number": "1050",
+    "nation_number": "40"
+  },
+  {
+    "monster_number": "1293",
+    "nation_number": "40"
+  },
+  {
+    "monster_number": "2390",
+    "nation_number": "40"
+  },
+  {
+    "monster_number": "1696",
+    "nation_number": "40"
+  },
+  {
+    "monster_number": "1415",
+    "nation_number": "40"
+  },
+  {
+    "monster_number": "2395",
+    "nation_number": "40"
+  },
+  {
+    "monster_number": "2396",
+    "nation_number": "40"
+  },
+  {
+    "monster_number": "2370",
+    "nation_number": "41"
+  },
+  {
+    "monster_number": "2372",
+    "nation_number": "41"
+  },
+  {
+    "monster_number": "2374",
+    "nation_number": "41"
+  },
+  {
+    "monster_number": "2392",
+    "nation_number": "41"
+  },
+  {
+    "monster_number": "1054",
+    "nation_number": "41"
+  },
+  {
+    "monster_number": "2861",
+    "nation_number": "41"
+  },
+  {
+    "monster_number": "1038",
+    "nation_number": "41"
+  },
+  {
+    "monster_number": "2833",
+    "nation_number": "42"
+  },
+  {
+    "monster_number": "1680",
+    "nation_number": "43"
+  },
+  {
+    "monster_number": "1694",
+    "nation_number": "43"
+  },
+  {
+    "monster_number": "1700",
+    "nation_number": "43"
+  },
+  {
+    "monster_number": "1701",
+    "nation_number": "43"
+  },
+  {
+    "monster_number": "1693",
+    "nation_number": "43"
+  },
+  {
+    "monster_number": "1692",
+    "nation_number": "43"
+  },
+  {
+    "monster_number": "432",
+    "nation_number": "44"
+  },
+  {
+    "monster_number": "1523",
+    "nation_number": "44"
+  },
+  {
+    "monster_number": "1527",
+    "nation_number": "44"
+  },
+  {
+    "monster_number": "1518",
+    "nation_number": "44"
+  },
+  {
+    "monster_number": "2886",
+    "nation_number": "44"
+  },
+  {
+    "monster_number": "1520",
+    "nation_number": "44"
+  },
+  {
+    "monster_number": "431",
+    "nation_number": "50"
+  },
+  {
+    "monster_number": "46",
+    "nation_number": "50"
+  },
+  {
+    "monster_number": "13",
+    "nation_number": "50"
+  },
+  {
+    "monster_number": "15",
+    "nation_number": "50"
+  },
+  {
+    "monster_number": "746",
+    "nation_number": "50"
+  },
+  {
+    "monster_number": "242",
+    "nation_number": "50"
+  },
+  {
+    "monster_number": "3198",
+    "nation_number": "50"
+  },
+  {
+    "monster_number": "311",
+    "nation_number": "50"
+  },
+  {
+    "monster_number": "3129",
+    "nation_number": "51"
+  },
+  {
+    "monster_number": "3130",
+    "nation_number": "51"
+  },
+  {
+    "monster_number": "3131",
+    "nation_number": "51"
+  },
+  {
+    "monster_number": "3161",
+    "nation_number": "51"
+  },
+  {
+    "monster_number": "3162",
+    "nation_number": "51"
+  },
+  {
+    "monster_number": "3135",
+    "nation_number": "51"
+  },
+  {
+    "monster_number": "3141",
+    "nation_number": "51"
+  },
+  {
+    "monster_number": "430",
+    "nation_number": "52"
+  },
+  {
+    "monster_number": "2118",
+    "nation_number": "52"
+  },
+  {
+    "monster_number": "232",
+    "nation_number": "52"
+  },
+  {
+    "monster_number": "236",
+    "nation_number": "52"
+  },
+  {
+    "monster_number": "2158",
+    "nation_number": "52"
+  },
+  {
+    "monster_number": "231",
+    "nation_number": "52"
+  },
+  {
+    "monster_number": "237",
+    "nation_number": "52"
+  },
+  {
+    "monster_number": "238",
+    "nation_number": "52"
+  },
+  {
+    "monster_number": "430",
+    "nation_number": "53"
+  },
+  {
+    "monster_number": "2485",
+    "nation_number": "53"
+  },
+  {
+    "monster_number": "1534",
+    "nation_number": "53"
+  },
+  {
+    "monster_number": "2311",
+    "nation_number": "53"
+  },
+  {
+    "monster_number": "2312",
+    "nation_number": "53"
+  },
+  {
+    "monster_number": "901",
+    "nation_number": "53"
+  },
+  {
+    "monster_number": "2480",
+    "nation_number": "53"
+  },
+  {
+    "monster_number": "709",
+    "nation_number": "53"
+  },
+  {
+    "monster_number": "426",
+    "nation_number": "55"
+  },
+  {
+    "monster_number": "428",
+    "nation_number": "55"
+  },
+  {
+    "monster_number": "671",
+    "nation_number": "55"
+  },
+  {
+    "monster_number": "1386",
+    "nation_number": "55"
+  },
+  {
+    "monster_number": "2244",
+    "nation_number": "55"
+  },
+  {
+    "monster_number": "669",
+    "nation_number": "55"
+  },
+  {
+    "monster_number": "426",
+    "nation_number": "56"
+  },
+  {
+    "monster_number": "428",
+    "nation_number": "56"
+  },
+  {
+    "monster_number": "683",
+    "nation_number": "56"
+  },
+  {
+    "monster_number": "1385",
+    "nation_number": "56"
+  },
+  {
+    "monster_number": "6",
+    "nation_number": "56"
+  },
+  {
+    "monster_number": "5",
+    "nation_number": "56"
+  },
+  {
+    "monster_number": "52",
+    "nation_number": "56"
+  },
+  {
+    "monster_number": "43",
+    "nation_number": "56"
+  },
+  {
+    "monster_number": "42",
+    "nation_number": "56"
+  },
+  {
+    "monster_number": "56",
+    "nation_number": "57"
+  },
+  {
+    "monster_number": "54",
+    "nation_number": "57"
+  },
+  {
+    "monster_number": "60",
+    "nation_number": "57"
+  },
+  {
+    "monster_number": "658",
+    "nation_number": "57"
+  },
+  {
+    "monster_number": "151",
+    "nation_number": "57"
+  },
+  {
+    "monster_number": "152",
+    "nation_number": "57"
+  },
+  {
+    "monster_number": "1789",
+    "nation_number": "58"
+  },
+  {
+    "monster_number": "1783",
+    "nation_number": "58"
+  },
+  {
+    "monster_number": "1784",
+    "nation_number": "58"
+  },
+  {
+    "monster_number": "2425",
+    "nation_number": "58"
+  },
+  {
+    "monster_number": "3887",
+    "nation_number": "58"
+  },
+  {
+    "monster_number": "850",
+    "nation_number": "58"
+  },
+  {
+    "monster_number": "848",
+    "nation_number": "58"
+  },
+  {
+    "monster_number": "1774",
+    "nation_number": "58"
+  },
+  {
+    "monster_number": "1448",
+    "nation_number": "59"
+  },
+  {
+    "monster_number": "1445",
+    "nation_number": "59"
+  },
+  {
+    "monster_number": "2483",
+    "nation_number": "59"
+  },
+  {
+    "monster_number": "1471",
+    "nation_number": "59"
+  },
+  {
+    "monster_number": "1475",
+    "nation_number": "59"
+  },
+  {
+    "monster_number": "1473",
+    "nation_number": "59"
+  },
+  {
+    "monster_number": "1474",
+    "nation_number": "59"
+  },
+  {
+    "monster_number": "1591",
+    "nation_number": "60"
+  },
+  {
+    "monster_number": "114",
+    "nation_number": "60"
+  },
+  {
+    "monster_number": "115",
+    "nation_number": "60"
+  },
+  {
+    "monster_number": "116",
+    "nation_number": "60"
+  },
+  {
+    "monster_number": "117",
+    "nation_number": "60"
+  },
+  {
+    "monster_number": "70",
+    "nation_number": "60"
+  },
+  {
+    "monster_number": "325",
+    "nation_number": "60"
+  },
+  {
+    "monster_number": "1974",
+    "nation_number": "60"
+  },
+  {
+    "monster_number": "426",
+    "nation_number": "61"
+  },
+  {
+    "monster_number": "428",
+    "nation_number": "61"
+  },
+  {
+    "monster_number": "2107",
+    "nation_number": "61"
+  },
+  {
+    "monster_number": "440",
+    "nation_number": "61"
+  },
+  {
+    "monster_number": "148",
+    "nation_number": "61"
+  },
+  {
+    "monster_number": "149",
+    "nation_number": "61"
+  },
+  {
+    "monster_number": "225",
+    "nation_number": "61"
+  },
+  {
+    "monster_number": "224",
+    "nation_number": "61"
+  },
+  {
+    "monster_number": "3638",
+    "nation_number": "61"
+  },
+  {
+    "monster_number": "3614",
+    "nation_number": "62"
+  },
+  {
+    "monster_number": "3615",
+    "nation_number": "62"
+  },
+  {
+    "monster_number": "3618",
+    "nation_number": "62"
+  },
+  {
+    "monster_number": "3619",
+    "nation_number": "62"
+  },
+  {
+    "monster_number": "3620",
+    "nation_number": "62"
+  },
+  {
+    "monster_number": "429",
+    "nation_number": "63"
+  },
+  {
+    "monster_number": "119",
+    "nation_number": "63"
+  },
+  {
+    "monster_number": "214",
+    "nation_number": "63"
+  },
+  {
+    "monster_number": "85",
+    "nation_number": "63"
+  },
+  {
+    "monster_number": "86",
+    "nation_number": "63"
+  },
+  {
+    "monster_number": "2010",
+    "nation_number": "64"
+  },
+  {
+    "monster_number": "2009",
+    "nation_number": "64"
+  },
+  {
+    "monster_number": "2029",
+    "nation_number": "64"
+  },
+  {
+    "monster_number": "2060",
+    "nation_number": "64"
+  },
+  {
+    "monster_number": "2038",
+    "nation_number": "64"
+  },
+  {
+    "monster_number": "3347",
+    "nation_number": "65"
+  },
+  {
+    "monster_number": "3334",
+    "nation_number": "65"
+  },
+  {
+    "monster_number": "3358",
+    "nation_number": "65"
+  },
+  {
+    "monster_number": "3337",
+    "nation_number": "65"
+  },
+  {
+    "monster_number": "3357",
+    "nation_number": "65"
+  },
+  {
+    "monster_number": "3343",
+    "nation_number": "65"
+  },
+  {
+    "monster_number": "3340",
+    "nation_number": "65"
+  },
+  {
+    "monster_number": "2934",
+    "nation_number": "66"
+  },
+  {
+    "monster_number": "2942",
+    "nation_number": "66"
+  },
+  {
+    "monster_number": "2943",
+    "nation_number": "66"
+  },
+  {
+    "monster_number": "2949",
+    "nation_number": "66"
+  },
+  {
+    "monster_number": "2950",
+    "nation_number": "66"
+  },
+  {
+    "monster_number": "2951",
+    "nation_number": "66"
+  },
+  {
+    "monster_number": "2944",
+    "nation_number": "66"
+  },
+  {
+    "monster_number": "2945",
+    "nation_number": "66"
+  },
+  {
+    "monster_number": "2946",
+    "nation_number": "66"
+  },
+  {
+    "monster_number": "2947",
+    "nation_number": "66"
+  },
+  {
+    "monster_number": "3284",
+    "nation_number": "67"
+  },
+  {
+    "monster_number": "1119",
+    "nation_number": "68"
+  },
+  {
+    "monster_number": "1127",
+    "nation_number": "68"
+  },
+  {
+    "monster_number": "1128",
+    "nation_number": "68"
+  },
+  {
+    "monster_number": "1135",
+    "nation_number": "68"
+  },
+  {
+    "monster_number": "1136",
+    "nation_number": "68"
+  },
+  {
+    "monster_number": "1146",
+    "nation_number": "68"
+  },
+  {
+    "monster_number": "1145",
+    "nation_number": "68"
+  },
+  {
+    "monster_number": "1143",
+    "nation_number": "68"
+  },
+  {
+    "monster_number": "426",
+    "nation_number": "69"
+  },
+  {
+    "monster_number": "792",
+    "nation_number": "69"
+  },
+  {
+    "monster_number": "805",
+    "nation_number": "69"
+  },
+  {
+    "monster_number": "813",
+    "nation_number": "69"
+  },
+  {
+    "monster_number": "807",
+    "nation_number": "69"
+  },
+  {
+    "monster_number": "804",
+    "nation_number": "69"
+  },
+  {
+    "monster_number": "808",
+    "nation_number": "69"
+  },
+  {
+    "monster_number": "1890",
+    "nation_number": "69"
+  },
+  {
+    "monster_number": "1891",
+    "nation_number": "69"
+  },
+  {
+    "monster_number": "1894",
+    "nation_number": "69"
+  },
+  {
+    "monster_number": "1893",
+    "nation_number": "69"
+  },
+  {
+    "monster_number": "1963",
+    "nation_number": "70"
+  },
+  {
+    "monster_number": "2467",
+    "nation_number": "70"
+  },
+  {
+    "monster_number": "1313",
+    "nation_number": "70"
+  },
+  {
+    "monster_number": "1398",
+    "nation_number": "70"
+  },
+  {
+    "monster_number": "1531",
+    "nation_number": "70"
+  },
+  {
+    "monster_number": "1436",
+    "nation_number": "70"
+  },
+  {
+    "monster_number": "1549",
+    "nation_number": "70"
+  },
+  {
+    "monster_number": "1429",
+    "nation_number": "70"
+  },
+  {
+    "monster_number": "1608",
+    "nation_number": "70"
+  },
+  {
+    "monster_number": "1427",
+    "nation_number": "70"
+  },
+  {
+    "monster_number": "484",
+    "nation_number": "71"
+  },
+  {
+    "monster_number": "418",
+    "nation_number": "71"
+  },
+  {
+    "monster_number": "2575",
+    "nation_number": "71"
+  },
+  {
+    "monster_number": "1284",
+    "nation_number": "71"
+  },
+  {
+    "monster_number": "1283",
+    "nation_number": "71"
+  },
+  {
+    "monster_number": "202",
+    "nation_number": "71"
+  },
+  {
+    "monster_number": "204",
+    "nation_number": "71"
+  },
+  {
+    "monster_number": "203",
+    "nation_number": "71"
+  },
+  {
+    "monster_number": "2666",
+    "nation_number": "72"
+  },
+  {
+    "monster_number": "2647",
+    "nation_number": "72"
+  },
+  {
+    "monster_number": "2654",
+    "nation_number": "72"
+  },
+  {
+    "monster_number": "2655",
+    "nation_number": "72"
+  },
+  {
+    "monster_number": "2656",
+    "nation_number": "72"
+  },
+  {
+    "monster_number": "2657",
+    "nation_number": "72"
+  },
+  {
+    "monster_number": "2660",
+    "nation_number": "72"
+  },
+  {
+    "monster_number": "2661",
+    "nation_number": "72"
+  },
+  {
+    "monster_number": "2662",
+    "nation_number": "72"
+  },
+  {
+    "monster_number": "729",
+    "nation_number": "73"
+  },
+  {
+    "monster_number": "730",
+    "nation_number": "73"
+  },
+  {
+    "monster_number": "1189",
+    "nation_number": "73"
+  },
+  {
+    "monster_number": "1361",
+    "nation_number": "73"
+  },
+  {
+    "monster_number": "1888",
+    "nation_number": "73"
+  },
+  {
+    "monster_number": "2715",
+    "nation_number": "74"
+  },
+  {
+    "monster_number": "2718",
+    "nation_number": "74"
+  },
+  {
+    "monster_number": "2717",
+    "nation_number": "74"
+  },
+  {
+    "monster_number": "2716",
+    "nation_number": "74"
+  },
+  {
+    "monster_number": "169",
+    "nation_number": "75"
+  },
+  {
+    "monster_number": "163",
+    "nation_number": "75"
+  },
+  {
+    "monster_number": "162",
+    "nation_number": "75"
+  },
+  {
+    "monster_number": "160",
+    "nation_number": "75"
+  },
+  {
+    "monster_number": "510",
+    "nation_number": "75"
+  },
+  {
+    "monster_number": "170",
+    "nation_number": "75"
+  },
+  {
+    "monster_number": "177",
+    "nation_number": "75"
+  },
+  {
+    "monster_number": "937",
+    "nation_number": "75"
+  },
+  {
+    "monster_number": "2288",
+    "nation_number": "76"
+  },
+  {
+    "monster_number": "881",
+    "nation_number": "76"
+  },
+  {
+    "monster_number": "883",
+    "nation_number": "76"
+  },
+  {
+    "monster_number": "887",
+    "nation_number": "76"
+  },
+  {
+    "monster_number": "895",
+    "nation_number": "76"
+  },
+  {
+    "monster_number": "896",
+    "nation_number": "76"
+  },
+  {
+    "monster_number": "897",
+    "nation_number": "76"
+  },
+  {
+    "monster_number": "892",
+    "nation_number": "76"
+  },
+  {
+    "monster_number": "893",
+    "nation_number": "76"
+  },
+  {
+    "monster_number": "3153",
+    "nation_number": "77"
+  },
+  {
+    "monster_number": "3154",
+    "nation_number": "77"
+  },
+  {
+    "monster_number": "3166",
+    "nation_number": "77"
+  },
+  {
+    "monster_number": "3151",
+    "nation_number": "77"
+  },
+  {
+    "monster_number": "3155",
+    "nation_number": "77"
+  },
+  {
+    "monster_number": "3156",
+    "nation_number": "77"
+  },
+  {
+    "monster_number": "426",
+    "nation_number": "78"
+  },
+  {
+    "monster_number": "422",
+    "nation_number": "78"
+  },
+  {
+    "monster_number": "263",
+    "nation_number": "78"
+  },
+  {
+    "monster_number": "264",
+    "nation_number": "78"
+  },
+  {
+    "monster_number": "2353",
+    "nation_number": "79"
+  },
+  {
+    "monster_number": "2354",
+    "nation_number": "79"
+  },
+  {
+    "monster_number": "2355",
+    "nation_number": "79"
+  },
+  {
+    "monster_number": "2356",
+    "nation_number": "79"
+  },
+  {
+    "monster_number": "2341",
+    "nation_number": "79"
+  },
+  {
+    "monster_number": "2357",
+    "nation_number": "79"
+  },
+  {
+    "monster_number": "283",
+    "nation_number": "80"
+  },
+  {
+    "monster_number": "786",
+    "nation_number": "80"
+  },
+  {
+    "monster_number": "437",
+    "nation_number": "80"
+  },
+  {
+    "monster_number": "274",
+    "nation_number": "80"
+  },
+  {
+    "monster_number": "275",
+    "nation_number": "80"
+  },
+  {
+    "monster_number": "913",
+    "nation_number": "80"
+  },
+  {
+    "monster_number": "3429",
+    "nation_number": "80"
+  },
+  {
+    "monster_number": "3397",
+    "nation_number": "80"
+  },
+  {
+    "monster_number": "3672",
+    "nation_number": "81"
+  },
+  {
+    "monster_number": "3671",
+    "nation_number": "81"
+  },
+  {
+    "monster_number": "3670",
+    "nation_number": "81"
+  },
+  {
+    "monster_number": "3830",
+    "nation_number": "81"
+  },
+  {
+    "monster_number": "3682",
+    "nation_number": "81"
+  },
+  {
+    "monster_number": "3679",
+    "nation_number": "81"
+  },
+  {
+    "monster_number": "3680",
+    "nation_number": "81"
+  },
+  {
+    "monster_number": "2912",
+    "nation_number": "85"
+  },
+  {
+    "monster_number": "2913",
+    "nation_number": "85"
+  },
+  {
+    "monster_number": "2914",
+    "nation_number": "85"
+  },
+  {
+    "monster_number": "2931",
+    "nation_number": "85"
+  },
+  {
+    "monster_number": "1050",
+    "nation_number": "86"
+  },
+  {
+    "monster_number": "1052",
+    "nation_number": "86"
+  },
+  {
+    "monster_number": "1069",
+    "nation_number": "86"
+  },
+  {
+    "monster_number": "2421",
+    "nation_number": "86"
+  },
+  {
+    "monster_number": "1696",
+    "nation_number": "86"
+  },
+  {
+    "monster_number": "1415",
+    "nation_number": "86"
+  },
+  {
+    "monster_number": "2823",
+    "nation_number": "86"
+  },
+  {
+    "monster_number": "1418",
+    "nation_number": "86"
+  },
+  {
+    "monster_number": "1417",
+    "nation_number": "86"
+  },
+  {
+    "monster_number": "2422",
+    "nation_number": "86"
+  },
+  {
+    "monster_number": "2423",
+    "nation_number": "86"
+  },
+  {
+    "monster_number": "2370",
+    "nation_number": "87"
+  },
+  {
+    "monster_number": "2372",
+    "nation_number": "87"
+  },
+  {
+    "monster_number": "2410",
+    "nation_number": "87"
+  },
+  {
+    "monster_number": "2392",
+    "nation_number": "87"
+  },
+  {
+    "monster_number": "1054",
+    "nation_number": "87"
+  },
+  {
+    "monster_number": "2861",
+    "nation_number": "87"
+  },
+  {
+    "monster_number": "1038",
+    "nation_number": "87"
+  },
+  {
+    "monster_number": "432",
+    "nation_number": "88"
+  },
+  {
+    "monster_number": "207",
+    "nation_number": "88"
+  },
+  {
+    "monster_number": "441",
+    "nation_number": "88"
+  },
+  {
+    "monster_number": "112",
+    "nation_number": "88"
+  },
+  {
+    "monster_number": "322",
+    "nation_number": "88"
+  },
+  {
+    "monster_number": "3096",
+    "nation_number": "88"
+  },
+  {
+    "monster_number": "432",
+    "nation_number": "89"
+  },
+  {
+    "monster_number": "444",
+    "nation_number": "89"
+  },
+  {
+    "monster_number": "1527",
+    "nation_number": "89"
+  },
+  {
+    "monster_number": "1518",
+    "nation_number": "89"
+  },
+  {
+    "monster_number": "445",
+    "nation_number": "89"
+  },
+  {
+    "monster_number": "443",
+    "nation_number": "89"
+  },
+  {
+    "monster_number": "333",
+    "nation_number": "89"
+  },
+  {
+    "monster_number": "431",
+    "nation_number": "95"
+  },
+  {
+    "monster_number": "1552",
+    "nation_number": "95"
+  },
+  {
+    "monster_number": "13",
+    "nation_number": "95"
+  },
+  {
+    "monster_number": "15",
+    "nation_number": "95"
+  },
+  {
+    "monster_number": "1554",
+    "nation_number": "95"
+  },
+  {
+    "monster_number": "746",
+    "nation_number": "95"
+  },
+  {
+    "monster_number": "3199",
+    "nation_number": "95"
+  },
+  {
+    "monster_number": "3200",
+    "nation_number": "95"
+  },
+  {
+    "monster_number": "311",
+    "nation_number": "95"
+  },
+  {
+    "monster_number": "3128",
+    "nation_number": "95"
+  },
+  {
+    "monster_number": "3217",
+    "nation_number": "96"
+  },
+  {
+    "monster_number": "3218",
+    "nation_number": "96"
+  },
+  {
+    "monster_number": "3219",
+    "nation_number": "96"
+  },
+  {
+    "monster_number": "3220",
+    "nation_number": "96"
+  },
+  {
+    "monster_number": "3221",
+    "nation_number": "96"
+  },
+  {
+    "monster_number": "3222",
+    "nation_number": "96"
+  },
+  {
+    "monster_number": "3223",
+    "nation_number": "96"
+  },
+  {
+    "monster_number": "430",
+    "nation_number": "97"
+  },
+  {
+    "monster_number": "2154",
+    "nation_number": "97"
+  },
+  {
+    "monster_number": "699",
+    "nation_number": "97"
+  },
+  {
+    "monster_number": "701",
+    "nation_number": "97"
+  },
+  {
+    "monster_number": "703",
+    "nation_number": "97"
+  },
+  {
+    "monster_number": "2479",
+    "nation_number": "97"
+  },
+  {
+    "monster_number": "705",
+    "nation_number": "97"
+  },
+  {
+    "monster_number": "706",
+    "nation_number": "97"
+  },
+  {
+    "monster_number": "426",
+    "nation_number": "98"
+  },
+  {
+    "monster_number": "1869",
+    "nation_number": "98"
+  },
+  {
+    "monster_number": "1870",
+    "nation_number": "98"
+  },
+  {
+    "monster_number": "1871",
+    "nation_number": "98"
+  },
+  {
+    "monster_number": "2151",
+    "nation_number": "98"
+  },
+  {
+    "monster_number": "830",
+    "nation_number": "98"
+  },
+  {
+    "monster_number": "1877",
+    "nation_number": "98"
+  },
+  {
+    "monster_number": "1878",
+    "nation_number": "98"
+  },
+  {
+    "monster_number": "1879",
+    "nation_number": "98"
+  },
+  {
+    "monster_number": "56",
+    "nation_number": "100"
+  },
+  {
+    "monster_number": "54",
+    "nation_number": "100"
+  },
+  {
+    "monster_number": "1645",
+    "nation_number": "100"
+  },
+  {
+    "monster_number": "1644",
+    "nation_number": "100"
+  },
+  {
+    "monster_number": "1646",
+    "nation_number": "100"
+  },
+  {
+    "monster_number": "1643",
+    "nation_number": "100"
+  },
+  {
+    "monster_number": "1647",
+    "nation_number": "100"
+  },
+  {
+    "monster_number": "1016",
+    "nation_number": "101"
+  },
+  {
+    "monster_number": "1018",
+    "nation_number": "101"
+  },
+  {
+    "monster_number": "739",
+    "nation_number": "101"
+  },
+  {
+    "monster_number": "740",
+    "nation_number": "101"
+  },
+  {
+    "monster_number": "1023",
+    "nation_number": "101"
+  },
+  {
+    "monster_number": "1012",
+    "nation_number": "101"
+  },
+  {
+    "monster_number": "1448",
+    "nation_number": "102"
+  },
+  {
+    "monster_number": "1445",
+    "nation_number": "102"
+  },
+  {
+    "monster_number": "1446",
+    "nation_number": "102"
+  },
+  {
+    "monster_number": "1444",
+    "nation_number": "102"
+  },
+  {
+    "monster_number": "1451",
+    "nation_number": "102"
+  },
+  {
+    "monster_number": "1442",
+    "nation_number": "102"
+  },
+  {
+    "monster_number": "1443",
+    "nation_number": "102"
+  },
+  {
+    "monster_number": "2456",
+    "nation_number": "102"
+  },
+  {
+    "monster_number": "2521",
+    "nation_number": "102"
+  },
+  {
+    "monster_number": "426",
+    "nation_number": "103"
+  },
+  {
+    "monster_number": "2197",
+    "nation_number": "103"
+  },
+  {
+    "monster_number": "2107",
+    "nation_number": "103"
+  },
+  {
+    "monster_number": "3419",
+    "nation_number": "103"
+  },
+  {
+    "monster_number": "2116",
+    "nation_number": "103"
+  },
+  {
+    "monster_number": "1029",
+    "nation_number": "103"
+  },
+  {
+    "monster_number": "2428",
+    "nation_number": "103"
+  },
+  {
+    "monster_number": "1033",
+    "nation_number": "103"
+  },
+  {
+    "monster_number": "2198",
+    "nation_number": "103"
+  },
+  {
+    "monster_number": "744",
+    "nation_number": "103"
+  },
+  {
+    "monster_number": "2200",
+    "nation_number": "103"
+  },
+  {
+    "monster_number": "1031",
+    "nation_number": "103"
+  },
+  {
+    "monster_number": "3859",
+    "nation_number": "103"
+  },
+  {
+    "monster_number": "3862",
+    "nation_number": "103"
+  },
+  {
+    "monster_number": "1964",
+    "nation_number": "104"
+  },
+  {
+    "monster_number": "1965",
+    "nation_number": "104"
+  },
+  {
+    "monster_number": "992",
+    "nation_number": "104"
+  },
+  {
+    "monster_number": "1091",
+    "nation_number": "104"
+  },
+  {
+    "monster_number": "991",
+    "nation_number": "104"
+  },
+  {
+    "monster_number": "1969",
+    "nation_number": "104"
+  },
+  {
+    "monster_number": "1092",
+    "nation_number": "104"
+  },
+  {
+    "monster_number": "2595",
+    "nation_number": "105"
+  },
+  {
+    "monster_number": "2597",
+    "nation_number": "105"
+  },
+  {
+    "monster_number": "2588",
+    "nation_number": "105"
+  },
+  {
+    "monster_number": "2596",
+    "nation_number": "105"
+  },
+  {
+    "monster_number": "2599",
+    "nation_number": "105"
+  },
+  {
+    "monster_number": "2600",
+    "nation_number": "105"
+  },
+  {
+    "monster_number": "2601",
+    "nation_number": "105"
+  },
+  {
+    "monster_number": "2602",
+    "nation_number": "105"
+  },
+  {
+    "monster_number": "2603",
+    "nation_number": "105"
+  },
+  {
+    "monster_number": "2604",
+    "nation_number": "105"
+  },
+  {
+    "monster_number": "2605",
+    "nation_number": "105"
+  },
+  {
+    "monster_number": "2606",
+    "nation_number": "105"
+  },
+  {
+    "monster_number": "2595",
+    "nation_number": "106"
+  },
+  {
+    "monster_number": "418",
+    "nation_number": "106"
+  },
+  {
+    "monster_number": "2313",
+    "nation_number": "106"
+  },
+  {
+    "monster_number": "951",
+    "nation_number": "106"
+  },
+  {
+    "monster_number": "1281",
+    "nation_number": "106"
+  },
+  {
+    "monster_number": "1282",
+    "nation_number": "106"
+  },
+  {
+    "monster_number": "1995",
+    "nation_number": "107"
+  },
+  {
+    "monster_number": "2486",
+    "nation_number": "107"
+  },
+  {
+    "monster_number": "1997",
+    "nation_number": "107"
+  },
+  {
+    "monster_number": "2069",
+    "nation_number": "107"
+  },
+  {
+    "monster_number": "1984",
+    "nation_number": "107"
+  },
+  {
+    "monster_number": "2002",
+    "nation_number": "107"
+  },
+  {
+    "monster_number": "2012",
+    "nation_number": "107"
+  },
+  {
+    "monster_number": "1988",
+    "nation_number": "107"
+  },
+  {
+    "monster_number": "1986",
+    "nation_number": "107"
+  },
+  {
+    "monster_number": "1119",
+    "nation_number": "108"
+  },
+  {
+    "monster_number": "1127",
+    "nation_number": "108"
+  },
+  {
+    "monster_number": "1128",
+    "nation_number": "108"
+  },
+  {
+    "monster_number": "1135",
+    "nation_number": "108"
+  },
+  {
+    "monster_number": "1146",
+    "nation_number": "108"
+  },
+  {
+    "monster_number": "1145",
+    "nation_number": "108"
+  },
+  {
+    "monster_number": "1143",
+    "nation_number": "108"
+  },
+  {
+    "monster_number": "1771",
+    "nation_number": "109"
+  },
+  {
+    "monster_number": "3979",
+    "nation_number": "109"
+  },
+  {
+    "monster_number": "930",
+    "nation_number": "109"
+  },
+  {
+    "monster_number": "1895",
+    "nation_number": "109"
+  },
+  {
+    "monster_number": "808",
+    "nation_number": "109"
+  },
+  {
+    "monster_number": "1709",
+    "nation_number": "109"
+  },
+  {
+    "monster_number": "1710",
+    "nation_number": "109"
+  },
+  {
+    "monster_number": "1711",
+    "nation_number": "109"
+  },
+  {
+    "monster_number": "1257",
+    "nation_number": "110"
+  },
+  {
+    "monster_number": "1249",
+    "nation_number": "110"
+  },
+  {
+    "monster_number": "1250",
+    "nation_number": "110"
+  },
+  {
+    "monster_number": "1251",
+    "nation_number": "110"
+  },
+  {
+    "monster_number": "1253",
+    "nation_number": "110"
+  },
+  {
+    "monster_number": "1258",
+    "nation_number": "110"
+  },
+  {
+    "monster_number": "2098",
+    "nation_number": "110"
+  },
+  {
+    "monster_number": "1254",
+    "nation_number": "110"
+  },
+  {
+    "monster_number": "1255",
+    "nation_number": "110"
+  },
+  {
+    "monster_number": "1259",
+    "nation_number": "110"
+  },
+  {
+    "monster_number": "729",
+    "nation_number": "111"
+  },
+  {
+    "monster_number": "730",
+    "nation_number": "111"
+  },
+  {
+    "monster_number": "731",
+    "nation_number": "111"
+  },
+  {
+    "monster_number": "1361",
+    "nation_number": "111"
+  },
+  {
+    "monster_number": "2782",
+    "nation_number": "112"
+  },
+  {
+    "monster_number": "2675",
+    "nation_number": "112"
+  },
+  {
+    "monster_number": "2676",
+    "nation_number": "112"
+  },
+  {
+    "monster_number": "2750",
+    "nation_number": "112"
+  },
+  {
+    "monster_number": "2751",
+    "nation_number": "112"
+  },
+  {
+    "monster_number": "2753",
+    "nation_number": "112"
+  },
+  {
+    "monster_number": "2751",
+    "nation_number": "112"
+  },
+  {
+    "monster_number": "2748",
+    "nation_number": "112"
+  },
+  {
+    "monster_number": "163",
+    "nation_number": "113"
+  },
+  {
+    "monster_number": "162",
+    "nation_number": "113"
+  },
+  {
+    "monster_number": "9",
+    "nation_number": "113"
+  },
+  {
+    "monster_number": "510",
+    "nation_number": "113"
+  },
+  {
+    "monster_number": "177",
+    "nation_number": "113"
+  },
+  {
+    "monster_number": "2314",
+    "nation_number": "113"
+  },
+  {
+    "monster_number": "1036",
+    "nation_number": "113"
+  },
+  {
+    "monster_number": "426",
+    "nation_number": "115"
+  },
+  {
+    "monster_number": "2150",
+    "nation_number": "115"
+  },
+  {
+    "monster_number": "2139",
+    "nation_number": "115"
+  },
+  {
+    "monster_number": "2140",
+    "nation_number": "115"
+  },
+  {
+    "monster_number": "846",
+    "nation_number": "115"
+  },
+  {
+    "monster_number": "950",
+    "nation_number": "115"
+  },
+  {
+    "monster_number": "3099",
+    "nation_number": "116"
+  },
+  {
+    "monster_number": "1918",
+    "nation_number": "116"
+  },
+  {
+    "monster_number": "1917",
+    "nation_number": "116"
+  },
+  {
+    "monster_number": "1916",
+    "nation_number": "116"
+  },
+  {
+    "monster_number": "1960",
+    "nation_number": "116"
+  },
+  {
+    "monster_number": "1920",
+    "nation_number": "116"
+  },
+  {
+    "monster_number": "1919",
+    "nation_number": "116"
+  },
+  {
+    "monster_number": "1934",
+    "nation_number": "116"
+  },
+  {
+    "monster_number": "1933",
+    "nation_number": "116"
+  },
+  {
+    "monster_number": "1935",
+    "nation_number": "116"
+  },
+  {
+    "monster_number": "1936",
+    "nation_number": "116"
+  },
+  {
+    "monster_number": "1932",
+    "nation_number": "116"
+  },
+  {
+    "monster_number": "426",
+    "nation_number": "117"
+  },
+  {
+    "monster_number": "839",
+    "nation_number": "117"
+  },
+  {
+    "monster_number": "2149",
+    "nation_number": "117"
+  },
+  {
+    "monster_number": "280",
+    "nation_number": "117"
+  },
+  {
+    "monster_number": "786",
+    "nation_number": "117"
+  },
+  {
+    "monster_number": "437",
+    "nation_number": "117"
+  },
+  {
+    "monster_number": "274",
+    "nation_number": "117"
+  },
+  {
+    "monster_number": "275",
+    "nation_number": "117"
+  },
+  {
+    "monster_number": "3432",
+    "nation_number": "117"
+  },
+  {
+    "monster_number": "3435",
+    "nation_number": "118"
+  },
+  {
+    "monster_number": "3410",
+    "nation_number": "118"
+  },
+  {
+    "monster_number": "3411",
+    "nation_number": "118"
+  },
+  {
+    "monster_number": "3408",
+    "nation_number": "118"
+  },
+  {
+    "monster_number": "3810",
+    "nation_number": "119"
+  },
+  {
+    "monster_number": "3811",
+    "nation_number": "119"
+  },
+  {
+    "monster_number": "3812",
+    "nation_number": "119"
+  },
+  {
+    "monster_number": "3817",
+    "nation_number": "119"
+  },
+  {
+    "monster_number": "3818",
+    "nation_number": "119"
+  },
+  {
+    "monster_number": "3813",
+    "nation_number": "119"
+  },
+  {
+    "monster_number": "3814",
+    "nation_number": "119"
+  },
+  {
+    "monster_number": "3815",
+    "nation_number": "119"
+  },
+  {
+    "monster_number": "3802",
+    "nation_number": "120"
+  },
+  {
+    "monster_number": "3794",
+    "nation_number": "120"
+  },
+  {
+    "monster_number": "3796",
+    "nation_number": "120"
+  },
+  {
+    "monster_number": "3797",
+    "nation_number": "120"
+  },
+  {
+    "monster_number": "3798",
+    "nation_number": "120"
+  },
+  {
+    "monster_number": "3799",
+    "nation_number": "120"
+  },
+  {
+    "monster_number": "3800",
+    "nation_number": "120"
+  },
+  {
+    "monster_number": "3848",
+    "nation_number": "121"
+  },
+  {
+    "monster_number": "3849",
+    "nation_number": "121"
+  },
+  {
+    "monster_number": "3973",
+    "nation_number": "121"
+  },
+  {
+    "monster_number": "3919",
+    "nation_number": "121"
+  },
+  {
+    "monster_number": "3920",
+    "nation_number": "121"
+  },
+  {
+    "monster_number": "3921",
+    "nation_number": "121"
+  },
+  {
+    "monster_number": "3922",
+    "nation_number": "121"
+  },
+  {
+    "monster_number": "3025",
+    "nation_number": "125"
+  },
+  {
+    "monster_number": "3029",
+    "nation_number": "125"
+  },
+  {
+    "monster_number": "3039",
+    "nation_number": "125"
+  },
+  {
+    "monster_number": "3041",
+    "nation_number": "125"
+  },
+  {
+    "monster_number": "1631",
+    "nation_number": "126"
+  },
+  {
+    "monster_number": "1632",
+    "nation_number": "126"
+  },
+  {
+    "monster_number": "1633",
+    "nation_number": "126"
+  },
+  {
+    "monster_number": "1623",
+    "nation_number": "126"
+  },
+  {
+    "monster_number": "432",
+    "nation_number": "127"
+  },
+  {
+    "monster_number": "444",
+    "nation_number": "127"
+  },
+  {
+    "monster_number": "1527",
+    "nation_number": "127"
+  },
+  {
+    "monster_number": "1518",
+    "nation_number": "127"
+  },
+  {
+    "monster_number": "445",
+    "nation_number": "127"
+  },
+  {
+    "monster_number": "443",
+    "nation_number": "127"
+  },
+  {
+    "monster_number": "3858",
+    "nation_number": "127"
+  }
+]

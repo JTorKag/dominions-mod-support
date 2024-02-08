@@ -403,8 +403,8 @@
     "id": "51",
     "name": "Bone Armor",
     "type": "5",
-    "def": "-3",
-    "enc": "3",
+    "def": "-2",
+    "enc": "2",
     "rcost": "0"
   },
   {
@@ -1603,8 +1603,8 @@
     "id": "201",
     "name": "Armor of Knights",
     "type": "5",
-    "def": "-1",
-    "enc": "2",
+    "def": "-2",
+    "enc": "3",
     "rcost": "20"
   },
   {
@@ -1717,7 +1717,7 @@
     "type": "5",
     "def": "-3",
     "enc": "4",
-    "rcost": "28"
+    "rcost": "30"
   },
   {
     "id": "216",
@@ -1725,7 +1725,7 @@
     "type": "5",
     "def": "-3",
     "enc": "3",
-    "rcost": "19"
+    "rcost": "21"
   },
   {
     "id": "217",
@@ -1733,7 +1733,7 @@
     "type": "5",
     "def": "-1",
     "enc": "2",
-    "rcost": "17"
+    "rcost": "19"
   },
   {
     "id": "218",
@@ -1998,5 +1998,333 @@
     "def": "5",
     "enc": "1",
     "rcost": "0"
+  },
+  {
+    "id": "251",
+    "name": "Leather Barding",
+    "type": "5",
+    "def": "0",
+    "enc": "0",
+    "rcost": "3"
+  },
+  {
+    "id": "252",
+    "name": "Light Scale Barding",
+    "type": "5",
+    "def": "0",
+    "enc": "1",
+    "rcost": "6"
+  },
+  {
+    "id": "253",
+    "name": "Cataphract Barding",
+    "type": "5",
+    "def": "-1",
+    "enc": "2",
+    "rcost": "10"
+  },
+  {
+    "id": "254",
+    "name": "Plate Barding",
+    "type": "5",
+    "def": "-2",
+    "enc": "3",
+    "rcost": "15"
+  },
+  {
+    "id": "255",
+    "name": "Silver Barding",
+    "type": "5",
+    "def": "-1",
+    "enc": "2",
+    "rcost": "20"
+  },
+  {
+    "id": "256",
+    "name": "Rusty Scale Barding",
+    "type": "5",
+    "def": "0",
+    "enc": "1",
+    "rcost": "0"
+  },
+  {
+    "id": "257",
+    "name": "Rusty Cataphract Barding",
+    "type": "5",
+    "def": "-1",
+    "enc": "2",
+    "rcost": "0"
+  },
+  {
+    "id": "258",
+    "name": "Bloodstone Armor",
+    "type": "5",
+    "def": "-3",
+    "enc": "6",
+    "rcost": "0"
+  },
+  {
+    "id": "259",
+    "name": "Gossamer Vest",
+    "type": "5",
+    "def": "0",
+    "enc": "0",
+    "rcost": "0"
+  },
+  {
+    "id": "260",
+    "name": "Twilight Shield",
+    "type": "4",
+    "def": "4",
+    "enc": "1",
+    "rcost": "0"
+  },
+  {
+    "id": "261",
+    "name": "Fay Cap",
+    "type": "6",
+    "def": "0",
+    "enc": "0",
+    "rcost": "0"
+  },
+  {
+    "id": "262",
+    "name": "Mirror Shield",
+    "type": "4",
+    "def": "6",
+    "enc": "2",
+    "rcost": "0"
+  },
+  {
+    "id": "263",
+    "name": "Bronze Barding",
+    "type": "5",
+    "def": "-2",
+    "enc": "3",
+    "rcost": "14"
+  },
+  {
+    "id": "264",
+    "name": "Light Bronze Barding",
+    "type": "5",
+    "def": "0",
+    "enc": "1",
+    "rcost": "8"
+  },
+  {
+    "id": "265",
+    "name": "Brightmail Hauberk",
+    "type": "5",
+    "def": "0",
+    "enc": "0",
+    "rcost": "0"
+  },
+  {
+    "id": "266",
+    "name": "War Crown",
+    "type": "6",
+    "def": "0",
+    "enc": "0",
+    "rcost": "0"
+  },
+  {
+    "id": "267",
+    "name": "Heavenly Shield",
+    "type": "4",
+    "def": "4",
+    "enc": "1",
+    "rcost": "8"
+  },
+  {
+    "id": "268",
+    "name": "Heavenly Plate",
+    "type": "5",
+    "def": "-2",
+    "enc": "3",
+    "rcost": "25"
+  },
+  {
+    "id": "269",
+    "name": "Fur Mask",
+    "type": "6",
+    "def": "0",
+    "enc": "0",
+    "rcost": "0"
+  },
+  {
+    "id": "270",
+    "name": "Enchanted Leather Barding",
+    "type": "5",
+    "def": "0",
+    "enc": "0",
+    "rcost": "3"
+  },
+  {
+    "id": "271",
+    "name": "Boar Leather Barding",
+    "type": "5",
+    "def": "0",
+    "enc": "0",
+    "rcost": "3"
+  },
+  {
+    "id": "272",
+    "name": "Enchanted Plate Barding",
+    "type": "5",
+    "def": "-1",
+    "enc": "2",
+    "rcost": "15"
+  },
+  {
+    "id": "273",
+    "name": "Blacksteel Barding",
+    "type": "5",
+    "def": "-2",
+    "enc": "3",
+    "rcost": "15"
+  },
+  {
+    "id": "274",
+    "name": "Gossamer Barding",
+    "type": "5",
+    "def": "0",
+    "enc": "0",
+    "rcost": "3"
+  },
+  {
+    "id": "275",
+    "name": "Fay Steed Barding",
+    "type": "5",
+    "def": "-1",
+    "enc": "2",
+    "rcost": "15"
+  },
+  {
+    "id": "276",
+    "name": "Lightweight Cataphract Barding",
+    "type": "5",
+    "def": "0",
+    "enc": "1",
+    "rcost": "10"
+  },
+  {
+    "id": "277",
+    "name": "Golden Barding",
+    "type": "5",
+    "def": "-2",
+    "enc": "3",
+    "rcost": "15"
+  },
+  {
+    "id": "278",
+    "name": "Magic Crown",
+    "type": "6",
+    "def": "0",
+    "enc": "0",
+    "rcost": "0"
+  },
+  {
+    "id": "279",
+    "name": "Armor of Meteoritic Iron",
+    "type": "5",
+    "def": "-3",
+    "enc": "5",
+    "rcost": "0"
+  },
+  {
+    "id": "280",
+    "name": "Plate Barding of Ulm",
+    "type": "5",
+    "def": "-2",
+    "enc": "3",
+    "rcost": "15"
+  },
+  {
+    "id": "281",
+    "name": "Gossamer Mail",
+    "type": "5",
+    "def": "-1",
+    "enc": "1",
+    "rcost": "13"
+  },
+  {
+    "id": "282",
+    "name": "Fay Plate Armor",
+    "type": "5",
+    "def": "-2",
+    "enc": "3",
+    "rcost": "25"
+  },
+  {
+    "id": "283",
+    "name": "Fay Cap",
+    "type": "6",
+    "def": "0",
+    "enc": "0",
+    "rcost": "2"
+  },
+  {
+    "id": "284",
+    "name": "Fay Helmet",
+    "type": "6",
+    "def": "-1",
+    "enc": "0",
+    "rcost": "5"
+  },
+  {
+    "id": "285",
+    "name": "Gossamer Shield",
+    "type": "4",
+    "def": "4",
+    "enc": "0",
+    "rcost": "6"
+  },
+  {
+    "id": "286",
+    "name": "Bone Mask",
+    "type": "6",
+    "def": "-1",
+    "enc": "0",
+    "rcost": "0"
+  },
+  {
+    "id": "287",
+    "name": "Cat Barding",
+    "type": "5",
+    "def": "-1",
+    "enc": "1",
+    "rcost": "10"
+  },
+  {
+    "id": "288",
+    "name": "Charred Shield",
+    "type": "4",
+    "def": "4",
+    "enc": "1",
+    "rcost": "0"
+  },
+  {
+    "id": "289",
+    "name": "Lizard Barding",
+    "type": "5",
+    "def": "-1",
+    "enc": "2",
+    "rcost": "12"
+  },
+  {
+    "id": "290",
+    "name": "King's Barding",
+    "type": "5",
+    "def": "0",
+    "enc": "1",
+    "rcost": "15"
+  },
+  {
+    "id": "291",
+    "name": "Icicle Dress",
+    "type": "5",
+    "def": "0",
+    "enc": "0",
+    "rcost": "1"
   }
 ]

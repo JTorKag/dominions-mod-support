@@ -480,6 +480,118 @@
     "name": "Salt Damage"
   },
   {
+    "number": "143",
+    "name": "Unknown"
+  },
+  {
+    "number": "144",
+    "name": "Unknown"
+  },
+  {
+    "number": "145",
+    "name": "Unknown"
+  },
+  {
+    "number": "146",
+    "name": "Cloud"
+  },
+  {
+    "number": "147",
+    "name": "Lingering Cloud"
+  },
+  {
+    "number": "148",
+    "name": "Unknown"
+  },
+  {
+    "number": "149",
+    "name": "Unknown"
+  },
+  {
+    "number": "150",
+    "name": "Unknown"
+  },
+  {
+    "number": "151",
+    "name": "Unknown"
+  },
+  {
+    "number": "152",
+    "name": "Unknown"
+  },
+  {
+    "number": "153",
+    "name": "Elemental Opposition"
+  },
+  {
+    "number": "154",
+    "name": "Unknown"
+  },
+  {
+    "number": "155",
+    "name": "Unknown"
+  },
+  {
+    "number": "156",
+    "name": "Unknown"
+  },
+  {
+    "number": "157",
+    "name": "Unknown"
+  },
+  {
+    "number": "158",
+    "name": "Unknown"
+  },
+  {
+    "number": "159",
+    "name": "Unknown"
+  },
+  {
+    "number": "160",
+    "name": "Transport gems"
+  },
+  {
+    "number": "161",
+    "name": "Transport heavy item"
+  },
+  {
+    "number": "162",
+    "name": "Unknown"
+  },
+  {
+    "number": "163",
+    "name": "Unknown"
+  },
+  {
+    "number": "164",
+    "name": "Unknown"
+  },
+  {
+    "number": "165",
+    "name": "Unknown"
+  },
+  {
+    "number": "166",
+    "name": "Unknown"
+  },
+  {
+    "number": "167",
+    "name": "Unknown"
+  },
+  {
+    "number": "168",
+    "name": "Unknown"
+  },
+  {
+    "number": "169",
+    "name": "Unknown"
+  },
+  {
+    "number": "170",
+    "name": "Unknown"
+  },
+  {
     "number": "500",
     "name": "Set Effect Value (1) if lower"
   },

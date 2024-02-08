@@ -1,0 +1,3137 @@
+[
+  {
+    "zone_number": "5",
+    "protection": "14",
+    "armor_number": "1"
+  },
+  {
+    "zone_number": "5",
+    "protection": "16",
+    "armor_number": "2"
+  },
+  {
+    "zone_number": "5",
+    "protection": "19",
+    "armor_number": "3"
+  },
+  {
+    "zone_number": "5",
+    "protection": "16",
+    "armor_number": "4"
+  },
+  {
+    "zone_number": "2",
+    "protection": "7",
+    "armor_number": "5"
+  },
+  {
+    "zone_number": "3",
+    "protection": "3",
+    "armor_number": "5"
+  },
+  {
+    "zone_number": "4",
+    "protection": "3",
+    "armor_number": "5"
+  },
+  {
+    "zone_number": "2",
+    "protection": "11",
+    "armor_number": "6"
+  },
+  {
+    "zone_number": "3",
+    "protection": "5",
+    "armor_number": "6"
+  },
+  {
+    "zone_number": "4",
+    "protection": "5",
+    "armor_number": "6"
+  },
+  {
+    "zone_number": "2",
+    "protection": "14",
+    "armor_number": "7"
+  },
+  {
+    "zone_number": "3",
+    "protection": "6",
+    "armor_number": "7"
+  },
+  {
+    "zone_number": "4",
+    "protection": "6",
+    "armor_number": "7"
+  },
+  {
+    "zone_number": "2",
+    "protection": "18",
+    "armor_number": "8"
+  },
+  {
+    "zone_number": "3",
+    "protection": "7",
+    "armor_number": "8"
+  },
+  {
+    "zone_number": "4",
+    "protection": "7",
+    "armor_number": "8"
+  },
+  {
+    "zone_number": "2",
+    "protection": "21",
+    "armor_number": "9"
+  },
+  {
+    "zone_number": "3",
+    "protection": "8",
+    "armor_number": "9"
+  },
+  {
+    "zone_number": "4",
+    "protection": "8",
+    "armor_number": "9"
+  },
+  {
+    "zone_number": "2",
+    "protection": "9",
+    "armor_number": "10"
+  },
+  {
+    "zone_number": "3",
+    "protection": "7",
+    "armor_number": "10"
+  },
+  {
+    "zone_number": "4",
+    "protection": "7",
+    "armor_number": "10"
+  },
+  {
+    "zone_number": "2",
+    "protection": "12",
+    "armor_number": "11"
+  },
+  {
+    "zone_number": "3",
+    "protection": "9",
+    "armor_number": "11"
+  },
+  {
+    "zone_number": "4",
+    "protection": "9",
+    "armor_number": "11"
+  },
+  {
+    "zone_number": "2",
+    "protection": "15",
+    "armor_number": "12"
+  },
+  {
+    "zone_number": "3",
+    "protection": "11",
+    "armor_number": "12"
+  },
+  {
+    "zone_number": "4",
+    "protection": "11",
+    "armor_number": "12"
+  },
+  {
+    "zone_number": "2",
+    "protection": "18",
+    "armor_number": "13"
+  },
+  {
+    "zone_number": "3",
+    "protection": "13",
+    "armor_number": "13"
+  },
+  {
+    "zone_number": "4",
+    "protection": "13",
+    "armor_number": "13"
+  },
+  {
+    "zone_number": "2",
+    "protection": "21",
+    "armor_number": "14"
+  },
+  {
+    "zone_number": "3",
+    "protection": "15",
+    "armor_number": "14"
+  },
+  {
+    "zone_number": "4",
+    "protection": "15",
+    "armor_number": "14"
+  },
+  {
+    "zone_number": "2",
+    "protection": "9",
+    "armor_number": "15"
+  },
+  {
+    "zone_number": "3",
+    "protection": "9",
+    "armor_number": "15"
+  },
+  {
+    "zone_number": "4",
+    "protection": "9",
+    "armor_number": "15"
+  },
+  {
+    "zone_number": "2",
+    "protection": "12",
+    "armor_number": "16"
+  },
+  {
+    "zone_number": "3",
+    "protection": "12",
+    "armor_number": "16"
+  },
+  {
+    "zone_number": "4",
+    "protection": "12",
+    "armor_number": "16"
+  },
+  {
+    "zone_number": "2",
+    "protection": "15",
+    "armor_number": "17"
+  },
+  {
+    "zone_number": "3",
+    "protection": "15",
+    "armor_number": "17"
+  },
+  {
+    "zone_number": "4",
+    "protection": "15",
+    "armor_number": "17"
+  },
+  {
+    "zone_number": "2",
+    "protection": "18",
+    "armor_number": "18"
+  },
+  {
+    "zone_number": "3",
+    "protection": "18",
+    "armor_number": "18"
+  },
+  {
+    "zone_number": "4",
+    "protection": "18",
+    "armor_number": "18"
+  },
+  {
+    "zone_number": "2",
+    "protection": "21",
+    "armor_number": "19"
+  },
+  {
+    "zone_number": "3",
+    "protection": "21",
+    "armor_number": "19"
+  },
+  {
+    "zone_number": "4",
+    "protection": "21",
+    "armor_number": "19"
+  },
+  {
+    "zone_number": "1",
+    "protection": "16",
+    "armor_number": "20"
+  },
+  {
+    "zone_number": "1",
+    "protection": "21",
+    "armor_number": "21"
+  },
+  {
+    "zone_number": "2",
+    "protection": "14",
+    "armor_number": "22"
+  },
+  {
+    "zone_number": "3",
+    "protection": "6",
+    "armor_number": "22"
+  },
+  {
+    "zone_number": "4",
+    "protection": "6",
+    "armor_number": "22"
+  },
+  {
+    "zone_number": "2",
+    "protection": "14",
+    "armor_number": "23"
+  },
+  {
+    "zone_number": "3",
+    "protection": "10",
+    "armor_number": "23"
+  },
+  {
+    "zone_number": "4",
+    "protection": "10",
+    "armor_number": "23"
+  },
+  {
+    "zone_number": "1",
+    "protection": "14",
+    "armor_number": "24"
+  },
+  {
+    "zone_number": "5",
+    "protection": "15",
+    "armor_number": "25"
+  },
+  {
+    "zone_number": "2",
+    "protection": "20",
+    "armor_number": "26"
+  },
+  {
+    "zone_number": "3",
+    "protection": "9",
+    "armor_number": "26"
+  },
+  {
+    "zone_number": "4",
+    "protection": "9",
+    "armor_number": "26"
+  },
+  {
+    "zone_number": "2",
+    "protection": "20",
+    "armor_number": "27"
+  },
+  {
+    "zone_number": "3",
+    "protection": "15",
+    "armor_number": "27"
+  },
+  {
+    "zone_number": "4",
+    "protection": "15",
+    "armor_number": "27"
+  },
+  {
+    "zone_number": "5",
+    "protection": "18",
+    "armor_number": "28"
+  },
+  {
+    "zone_number": "1",
+    "protection": "15",
+    "armor_number": "29"
+  },
+  {
+    "zone_number": "2",
+    "protection": "19",
+    "armor_number": "30"
+  },
+  {
+    "zone_number": "3",
+    "protection": "13",
+    "armor_number": "30"
+  },
+  {
+    "zone_number": "4",
+    "protection": "13",
+    "armor_number": "30"
+  },
+  {
+    "zone_number": "2",
+    "protection": "13",
+    "armor_number": "31"
+  },
+  {
+    "zone_number": "3",
+    "protection": "9",
+    "armor_number": "31"
+  },
+  {
+    "zone_number": "4",
+    "protection": "9",
+    "armor_number": "31"
+  },
+  {
+    "zone_number": "2",
+    "protection": "10",
+    "armor_number": "32"
+  },
+  {
+    "zone_number": "3",
+    "protection": "7",
+    "armor_number": "32"
+  },
+  {
+    "zone_number": "4",
+    "protection": "7",
+    "armor_number": "32"
+  },
+  {
+    "zone_number": "2",
+    "protection": "16",
+    "armor_number": "33"
+  },
+  {
+    "zone_number": "3",
+    "protection": "11",
+    "armor_number": "33"
+  },
+  {
+    "zone_number": "4",
+    "protection": "11",
+    "armor_number": "33"
+  },
+  {
+    "zone_number": "6",
+    "protection": "13",
+    "armor_number": "34"
+  },
+  {
+    "zone_number": "2",
+    "protection": "30",
+    "armor_number": "35"
+  },
+  {
+    "zone_number": "3",
+    "protection": "30",
+    "armor_number": "35"
+  },
+  {
+    "zone_number": "4",
+    "protection": "30",
+    "armor_number": "35"
+  },
+  {
+    "zone_number": "2",
+    "protection": "22",
+    "armor_number": "36"
+  },
+  {
+    "zone_number": "3",
+    "protection": "11",
+    "armor_number": "36"
+  },
+  {
+    "zone_number": "4",
+    "protection": "11",
+    "armor_number": "36"
+  },
+  {
+    "zone_number": "2",
+    "protection": "11",
+    "armor_number": "37"
+  },
+  {
+    "zone_number": "3",
+    "protection": "8",
+    "armor_number": "37"
+  },
+  {
+    "zone_number": "4",
+    "protection": "7",
+    "armor_number": "37"
+  },
+  {
+    "zone_number": "2",
+    "protection": "24",
+    "armor_number": "38"
+  },
+  {
+    "zone_number": "3",
+    "protection": "24",
+    "armor_number": "38"
+  },
+  {
+    "zone_number": "4",
+    "protection": "24",
+    "armor_number": "38"
+  },
+  {
+    "zone_number": "2",
+    "protection": "24",
+    "armor_number": "39"
+  },
+  {
+    "zone_number": "3",
+    "protection": "10",
+    "armor_number": "39"
+  },
+  {
+    "zone_number": "4",
+    "protection": "10",
+    "armor_number": "39"
+  },
+  {
+    "zone_number": "1",
+    "protection": "24",
+    "armor_number": "40"
+  },
+  {
+    "zone_number": "5",
+    "protection": "23",
+    "armor_number": "41"
+  },
+  {
+    "zone_number": "5",
+    "protection": "23",
+    "armor_number": "42"
+  },
+  {
+    "zone_number": "2",
+    "protection": "12",
+    "armor_number": "43"
+  },
+  {
+    "zone_number": "3",
+    "protection": "12",
+    "armor_number": "43"
+  },
+  {
+    "zone_number": "4",
+    "protection": "12",
+    "armor_number": "43"
+  },
+  {
+    "zone_number": "2",
+    "protection": "8",
+    "armor_number": "44"
+  },
+  {
+    "zone_number": "3",
+    "protection": "6",
+    "armor_number": "44"
+  },
+  {
+    "zone_number": "4",
+    "protection": "6",
+    "armor_number": "44"
+  },
+  {
+    "zone_number": "1",
+    "protection": "20",
+    "armor_number": "45"
+  },
+  {
+    "zone_number": "2",
+    "protection": "19",
+    "armor_number": "46"
+  },
+  {
+    "zone_number": "3",
+    "protection": "13",
+    "armor_number": "46"
+  },
+  {
+    "zone_number": "4",
+    "protection": "13",
+    "armor_number": "46"
+  },
+  {
+    "zone_number": "2",
+    "protection": "34",
+    "armor_number": "47"
+  },
+  {
+    "zone_number": "3",
+    "protection": "34",
+    "armor_number": "47"
+  },
+  {
+    "zone_number": "4",
+    "protection": "34",
+    "armor_number": "47"
+  },
+  {
+    "zone_number": "2",
+    "protection": "20",
+    "armor_number": "48"
+  },
+  {
+    "zone_number": "3",
+    "protection": "14",
+    "armor_number": "48"
+  },
+  {
+    "zone_number": "4",
+    "protection": "14",
+    "armor_number": "48"
+  },
+  {
+    "zone_number": "2",
+    "protection": "16",
+    "armor_number": "49"
+  },
+  {
+    "zone_number": "3",
+    "protection": "8",
+    "armor_number": "49"
+  },
+  {
+    "zone_number": "4",
+    "protection": "8",
+    "armor_number": "49"
+  },
+  {
+    "zone_number": "2",
+    "protection": "16",
+    "armor_number": "50"
+  },
+  {
+    "zone_number": "3",
+    "protection": "8",
+    "armor_number": "50"
+  },
+  {
+    "zone_number": "4",
+    "protection": "8",
+    "armor_number": "50"
+  },
+  {
+    "zone_number": "2",
+    "protection": "15",
+    "armor_number": "51"
+  },
+  {
+    "zone_number": "2",
+    "protection": "12",
+    "armor_number": "52"
+  },
+  {
+    "zone_number": "3",
+    "protection": "9",
+    "armor_number": "52"
+  },
+  {
+    "zone_number": "4",
+    "protection": "9",
+    "armor_number": "52"
+  },
+  {
+    "zone_number": "2",
+    "protection": "22",
+    "armor_number": "53"
+  },
+  {
+    "zone_number": "3",
+    "protection": "15",
+    "armor_number": "53"
+  },
+  {
+    "zone_number": "4",
+    "protection": "15",
+    "armor_number": "53"
+  },
+  {
+    "zone_number": "2",
+    "protection": "11",
+    "armor_number": "54"
+  },
+  {
+    "zone_number": "3",
+    "protection": "9",
+    "armor_number": "54"
+  },
+  {
+    "zone_number": "4",
+    "protection": "6",
+    "armor_number": "54"
+  },
+  {
+    "zone_number": "1",
+    "protection": "21",
+    "armor_number": "55"
+  },
+  {
+    "zone_number": "2",
+    "protection": "19",
+    "armor_number": "56"
+  },
+  {
+    "zone_number": "3",
+    "protection": "13",
+    "armor_number": "56"
+  },
+  {
+    "zone_number": "4",
+    "protection": "13",
+    "armor_number": "56"
+  },
+  {
+    "zone_number": "5",
+    "protection": "21",
+    "armor_number": "57"
+  },
+  {
+    "zone_number": "2",
+    "protection": "21",
+    "armor_number": "58"
+  },
+  {
+    "zone_number": "3",
+    "protection": "15",
+    "armor_number": "58"
+  },
+  {
+    "zone_number": "4",
+    "protection": "13",
+    "armor_number": "58"
+  },
+  {
+    "zone_number": "2",
+    "protection": "24",
+    "armor_number": "59"
+  },
+  {
+    "zone_number": "3",
+    "protection": "16",
+    "armor_number": "59"
+  },
+  {
+    "zone_number": "4",
+    "protection": "16",
+    "armor_number": "59"
+  },
+  {
+    "zone_number": "5",
+    "protection": "26",
+    "armor_number": "60"
+  },
+  {
+    "zone_number": "5",
+    "protection": "16",
+    "armor_number": "61"
+  },
+  {
+    "zone_number": "5",
+    "protection": "21",
+    "armor_number": "62"
+  },
+  {
+    "zone_number": "5",
+    "protection": "13",
+    "armor_number": "63"
+  },
+  {
+    "zone_number": "5",
+    "protection": "25",
+    "armor_number": "64"
+  },
+  {
+    "zone_number": "5",
+    "protection": "16",
+    "armor_number": "65"
+  },
+  {
+    "zone_number": "5",
+    "protection": "21",
+    "armor_number": "66"
+  },
+  {
+    "zone_number": "5",
+    "protection": "19",
+    "armor_number": "67"
+  },
+  {
+    "zone_number": "5",
+    "protection": "40",
+    "armor_number": "68"
+  },
+  {
+    "zone_number": "5",
+    "protection": "29",
+    "armor_number": "69"
+  },
+  {
+    "zone_number": "5",
+    "protection": "11",
+    "armor_number": "70"
+  },
+  {
+    "zone_number": "5",
+    "protection": "23",
+    "armor_number": "71"
+  },
+  {
+    "zone_number": "2",
+    "protection": "20",
+    "armor_number": "72"
+  },
+  {
+    "zone_number": "3",
+    "protection": "13",
+    "armor_number": "72"
+  },
+  {
+    "zone_number": "4",
+    "protection": "13",
+    "armor_number": "72"
+  },
+  {
+    "zone_number": "5",
+    "protection": "30",
+    "armor_number": "73"
+  },
+  {
+    "zone_number": "2",
+    "protection": "24",
+    "armor_number": "74"
+  },
+  {
+    "zone_number": "3",
+    "protection": "16",
+    "armor_number": "74"
+  },
+  {
+    "zone_number": "4",
+    "protection": "10",
+    "armor_number": "74"
+  },
+  {
+    "zone_number": "2",
+    "protection": "23",
+    "armor_number": "75"
+  },
+  {
+    "zone_number": "3",
+    "protection": "9",
+    "armor_number": "75"
+  },
+  {
+    "zone_number": "4",
+    "protection": "9",
+    "armor_number": "75"
+  },
+  {
+    "zone_number": "6",
+    "protection": "2",
+    "armor_number": "76"
+  },
+  {
+    "zone_number": "6",
+    "protection": "4",
+    "armor_number": "78"
+  },
+  {
+    "zone_number": "1",
+    "protection": "20",
+    "armor_number": "79"
+  },
+  {
+    "zone_number": "6",
+    "protection": "5",
+    "armor_number": "80"
+  },
+  {
+    "zone_number": "1",
+    "protection": "21",
+    "armor_number": "80"
+  },
+  {
+    "zone_number": "2",
+    "protection": "19",
+    "armor_number": "81"
+  },
+  {
+    "zone_number": "3",
+    "protection": "19",
+    "armor_number": "81"
+  },
+  {
+    "zone_number": "4",
+    "protection": "19",
+    "armor_number": "81"
+  },
+  {
+    "zone_number": "2",
+    "protection": "0",
+    "armor_number": "82"
+  },
+  {
+    "zone_number": "1",
+    "protection": "8",
+    "armor_number": "83"
+  },
+  {
+    "zone_number": "2",
+    "protection": "19",
+    "armor_number": "84"
+  },
+  {
+    "zone_number": "3",
+    "protection": "13",
+    "armor_number": "84"
+  },
+  {
+    "zone_number": "4",
+    "protection": "13",
+    "armor_number": "84"
+  },
+  {
+    "zone_number": "5",
+    "protection": "16",
+    "armor_number": "85"
+  },
+  {
+    "zone_number": "1",
+    "protection": "16",
+    "armor_number": "86"
+  },
+  {
+    "zone_number": "5",
+    "protection": "21",
+    "armor_number": "87"
+  },
+  {
+    "zone_number": "5",
+    "protection": "23",
+    "armor_number": "88"
+  },
+  {
+    "zone_number": "2",
+    "protection": "18",
+    "armor_number": "89"
+  },
+  {
+    "zone_number": "3",
+    "protection": "8",
+    "armor_number": "89"
+  },
+  {
+    "zone_number": "4",
+    "protection": "8",
+    "armor_number": "89"
+  },
+  {
+    "zone_number": "2",
+    "protection": "16",
+    "armor_number": "90"
+  },
+  {
+    "zone_number": "3",
+    "protection": "7",
+    "armor_number": "90"
+  },
+  {
+    "zone_number": "4",
+    "protection": "7",
+    "armor_number": "90"
+  },
+  {
+    "zone_number": "2",
+    "protection": "22",
+    "armor_number": "91"
+  },
+  {
+    "zone_number": "3",
+    "protection": "22",
+    "armor_number": "91"
+  },
+  {
+    "zone_number": "4",
+    "protection": "22",
+    "armor_number": "91"
+  },
+  {
+    "zone_number": "5",
+    "protection": "17",
+    "armor_number": "92"
+  },
+  {
+    "zone_number": "2",
+    "protection": "13",
+    "armor_number": "93"
+  },
+  {
+    "zone_number": "3",
+    "protection": "6",
+    "armor_number": "93"
+  },
+  {
+    "zone_number": "4",
+    "protection": "6",
+    "armor_number": "93"
+  },
+  {
+    "zone_number": "2",
+    "protection": "25",
+    "armor_number": "95"
+  },
+  {
+    "zone_number": "3",
+    "protection": "25",
+    "armor_number": "95"
+  },
+  {
+    "zone_number": "4",
+    "protection": "25",
+    "armor_number": "95"
+  },
+  {
+    "zone_number": "1",
+    "protection": "25",
+    "armor_number": "96"
+  },
+  {
+    "zone_number": "5",
+    "protection": "25",
+    "armor_number": "97"
+  },
+  {
+    "zone_number": "2",
+    "protection": "16",
+    "armor_number": "98"
+  },
+  {
+    "zone_number": "3",
+    "protection": "16",
+    "armor_number": "98"
+  },
+  {
+    "zone_number": "4",
+    "protection": "16",
+    "armor_number": "98"
+  },
+  {
+    "zone_number": "2",
+    "protection": "17",
+    "armor_number": "99"
+  },
+  {
+    "zone_number": "3",
+    "protection": "9",
+    "armor_number": "99"
+  },
+  {
+    "zone_number": "4",
+    "protection": "11",
+    "armor_number": "99"
+  },
+  {
+    "zone_number": "2",
+    "protection": "20",
+    "armor_number": "100"
+  },
+  {
+    "zone_number": "3",
+    "protection": "7",
+    "armor_number": "100"
+  },
+  {
+    "zone_number": "4",
+    "protection": "7",
+    "armor_number": "100"
+  },
+  {
+    "zone_number": "2",
+    "protection": "20",
+    "armor_number": "101"
+  },
+  {
+    "zone_number": "3",
+    "protection": "14",
+    "armor_number": "101"
+  },
+  {
+    "zone_number": "4",
+    "protection": "14",
+    "armor_number": "101"
+  },
+  {
+    "zone_number": "2",
+    "protection": "20",
+    "armor_number": "102"
+  },
+  {
+    "zone_number": "3",
+    "protection": "14",
+    "armor_number": "102"
+  },
+  {
+    "zone_number": "4",
+    "protection": "13",
+    "armor_number": "102"
+  },
+  {
+    "zone_number": "2",
+    "protection": "9",
+    "armor_number": "103"
+  },
+  {
+    "zone_number": "3",
+    "protection": "6",
+    "armor_number": "103"
+  },
+  {
+    "zone_number": "4",
+    "protection": "6",
+    "armor_number": "103"
+  },
+  {
+    "zone_number": "2",
+    "protection": "12",
+    "armor_number": "104"
+  },
+  {
+    "zone_number": "3",
+    "protection": "10",
+    "armor_number": "104"
+  },
+  {
+    "zone_number": "4",
+    "protection": "10",
+    "armor_number": "104"
+  },
+  {
+    "zone_number": "5",
+    "protection": "11",
+    "armor_number": "105"
+  },
+  {
+    "zone_number": "2",
+    "protection": "15",
+    "armor_number": "106"
+  },
+  {
+    "zone_number": "3",
+    "protection": "11",
+    "armor_number": "106"
+  },
+  {
+    "zone_number": "4",
+    "protection": "11",
+    "armor_number": "106"
+  },
+  {
+    "zone_number": "2",
+    "protection": "19",
+    "armor_number": "107"
+  },
+  {
+    "zone_number": "3",
+    "protection": "14",
+    "armor_number": "107"
+  },
+  {
+    "zone_number": "4",
+    "protection": "14",
+    "armor_number": "107"
+  },
+  {
+    "zone_number": "2",
+    "protection": "23",
+    "armor_number": "108"
+  },
+  {
+    "zone_number": "3",
+    "protection": "18",
+    "armor_number": "108"
+  },
+  {
+    "zone_number": "4",
+    "protection": "18",
+    "armor_number": "108"
+  },
+  {
+    "zone_number": "2",
+    "protection": "23",
+    "armor_number": "109"
+  },
+  {
+    "zone_number": "3",
+    "protection": "10",
+    "armor_number": "109"
+  },
+  {
+    "zone_number": "4",
+    "protection": "10",
+    "armor_number": "109"
+  },
+  {
+    "zone_number": "2",
+    "protection": "22",
+    "armor_number": "110"
+  },
+  {
+    "zone_number": "3",
+    "protection": "10",
+    "armor_number": "110"
+  },
+  {
+    "zone_number": "4",
+    "protection": "10",
+    "armor_number": "110"
+  },
+  {
+    "zone_number": "2",
+    "protection": "19",
+    "armor_number": "111"
+  },
+  {
+    "zone_number": "3",
+    "protection": "19",
+    "armor_number": "111"
+  },
+  {
+    "zone_number": "4",
+    "protection": "19",
+    "armor_number": "111"
+  },
+  {
+    "zone_number": "5",
+    "protection": "11",
+    "armor_number": "112"
+  },
+  {
+    "zone_number": "6",
+    "protection": "11",
+    "armor_number": "113"
+  },
+  {
+    "zone_number": "2",
+    "protection": "12",
+    "armor_number": "114"
+  },
+  {
+    "zone_number": "3",
+    "protection": "7",
+    "armor_number": "114"
+  },
+  {
+    "zone_number": "4",
+    "protection": "7",
+    "armor_number": "114"
+  },
+  {
+    "zone_number": "2",
+    "protection": "11",
+    "armor_number": "115"
+  },
+  {
+    "zone_number": "3",
+    "protection": "6",
+    "armor_number": "115"
+  },
+  {
+    "zone_number": "4",
+    "protection": "7",
+    "armor_number": "115"
+  },
+  {
+    "zone_number": "2",
+    "protection": "13",
+    "armor_number": "116"
+  },
+  {
+    "zone_number": "3",
+    "protection": "7",
+    "armor_number": "116"
+  },
+  {
+    "zone_number": "4",
+    "protection": "8",
+    "armor_number": "116"
+  },
+  {
+    "zone_number": "2",
+    "protection": "15",
+    "armor_number": "117"
+  },
+  {
+    "zone_number": "3",
+    "protection": "8",
+    "armor_number": "117"
+  },
+  {
+    "zone_number": "4",
+    "protection": "10",
+    "armor_number": "117"
+  },
+  {
+    "zone_number": "1",
+    "protection": "18",
+    "armor_number": "118"
+  },
+  {
+    "zone_number": "1",
+    "protection": "9",
+    "armor_number": "119"
+  },
+  {
+    "zone_number": "1",
+    "protection": "7",
+    "armor_number": "120"
+  },
+  {
+    "zone_number": "1",
+    "protection": "6",
+    "armor_number": "121"
+  },
+  {
+    "zone_number": "1",
+    "protection": "11",
+    "armor_number": "122"
+  },
+  {
+    "zone_number": "1",
+    "protection": "21",
+    "armor_number": "123"
+  },
+  {
+    "zone_number": "1",
+    "protection": "19",
+    "armor_number": "124"
+  },
+  {
+    "zone_number": "1",
+    "protection": "11",
+    "armor_number": "125"
+  },
+  {
+    "zone_number": "1",
+    "protection": "19",
+    "armor_number": "126"
+  },
+  {
+    "zone_number": "1",
+    "protection": "18",
+    "armor_number": "127"
+  },
+  {
+    "zone_number": "2",
+    "protection": "15",
+    "armor_number": "128"
+  },
+  {
+    "zone_number": "3",
+    "protection": "11",
+    "armor_number": "128"
+  },
+  {
+    "zone_number": "4",
+    "protection": "9",
+    "armor_number": "128"
+  },
+  {
+    "zone_number": "2",
+    "protection": "16",
+    "armor_number": "129"
+  },
+  {
+    "zone_number": "3",
+    "protection": "14",
+    "armor_number": "129"
+  },
+  {
+    "zone_number": "4",
+    "protection": "14",
+    "armor_number": "129"
+  },
+  {
+    "zone_number": "2",
+    "protection": "19",
+    "armor_number": "130"
+  },
+  {
+    "zone_number": "3",
+    "protection": "17",
+    "armor_number": "130"
+  },
+  {
+    "zone_number": "4",
+    "protection": "17",
+    "armor_number": "130"
+  },
+  {
+    "zone_number": "1",
+    "protection": "13",
+    "armor_number": "131"
+  },
+  {
+    "zone_number": "1",
+    "protection": "17",
+    "armor_number": "132"
+  },
+  {
+    "zone_number": "2",
+    "protection": "14",
+    "armor_number": "133"
+  },
+  {
+    "zone_number": "3",
+    "protection": "11",
+    "armor_number": "133"
+  },
+  {
+    "zone_number": "4",
+    "protection": "11",
+    "armor_number": "133"
+  },
+  {
+    "zone_number": "1",
+    "protection": "10",
+    "armor_number": "134"
+  },
+  {
+    "zone_number": "1",
+    "protection": "15",
+    "armor_number": "135"
+  },
+  {
+    "zone_number": "2",
+    "protection": "14",
+    "armor_number": "136"
+  },
+  {
+    "zone_number": "3",
+    "protection": "10",
+    "armor_number": "136"
+  },
+  {
+    "zone_number": "4",
+    "protection": "10",
+    "armor_number": "136"
+  },
+  {
+    "zone_number": "2",
+    "protection": "12",
+    "armor_number": "137"
+  },
+  {
+    "zone_number": "3",
+    "protection": "7",
+    "armor_number": "137"
+  },
+  {
+    "zone_number": "4",
+    "protection": "6",
+    "armor_number": "137"
+  },
+  {
+    "zone_number": "2",
+    "protection": "12",
+    "armor_number": "138"
+  },
+  {
+    "zone_number": "3",
+    "protection": "7",
+    "armor_number": "138"
+  },
+  {
+    "zone_number": "4",
+    "protection": "0",
+    "armor_number": "138"
+  },
+  {
+    "zone_number": "2",
+    "protection": "20",
+    "armor_number": "139"
+  },
+  {
+    "zone_number": "3",
+    "protection": "14",
+    "armor_number": "139"
+  },
+  {
+    "zone_number": "4",
+    "protection": "13",
+    "armor_number": "139"
+  },
+  {
+    "zone_number": "2",
+    "protection": "13",
+    "armor_number": "140"
+  },
+  {
+    "zone_number": "3",
+    "protection": "8",
+    "armor_number": "140"
+  },
+  {
+    "zone_number": "4",
+    "protection": "8",
+    "armor_number": "140"
+  },
+  {
+    "zone_number": "1",
+    "protection": "23",
+    "armor_number": "141"
+  },
+  {
+    "zone_number": "2",
+    "protection": "14",
+    "armor_number": "142"
+  },
+  {
+    "zone_number": "3",
+    "protection": "5",
+    "armor_number": "142"
+  },
+  {
+    "zone_number": "4",
+    "protection": "5",
+    "armor_number": "142"
+  },
+  {
+    "zone_number": "5",
+    "protection": "26",
+    "armor_number": "143"
+  },
+  {
+    "zone_number": "2",
+    "protection": "9",
+    "armor_number": "144"
+  },
+  {
+    "zone_number": "3",
+    "protection": "9",
+    "armor_number": "144"
+  },
+  {
+    "zone_number": "4",
+    "protection": "9",
+    "armor_number": "144"
+  },
+  {
+    "zone_number": "1",
+    "protection": "9",
+    "armor_number": "144"
+  },
+  {
+    "zone_number": "1",
+    "protection": "7",
+    "armor_number": "145"
+  },
+  {
+    "zone_number": "2",
+    "protection": "19",
+    "armor_number": "146"
+  },
+  {
+    "zone_number": "3",
+    "protection": "16",
+    "armor_number": "146"
+  },
+  {
+    "zone_number": "4",
+    "protection": "16",
+    "armor_number": "146"
+  },
+  {
+    "zone_number": "2",
+    "protection": "20",
+    "armor_number": "147"
+  },
+  {
+    "zone_number": "3",
+    "protection": "18",
+    "armor_number": "147"
+  },
+  {
+    "zone_number": "4",
+    "protection": "18",
+    "armor_number": "147"
+  },
+  {
+    "zone_number": "1",
+    "protection": "5",
+    "armor_number": "148"
+  },
+  {
+    "zone_number": "2",
+    "protection": "14",
+    "armor_number": "149"
+  },
+  {
+    "zone_number": "3",
+    "protection": "9",
+    "armor_number": "149"
+  },
+  {
+    "zone_number": "4",
+    "protection": "9",
+    "armor_number": "149"
+  },
+  {
+    "zone_number": "1",
+    "protection": "14",
+    "armor_number": "150"
+  },
+  {
+    "zone_number": "2",
+    "protection": "10",
+    "armor_number": "151"
+  },
+  {
+    "zone_number": "3",
+    "protection": "7",
+    "armor_number": "151"
+  },
+  {
+    "zone_number": "4",
+    "protection": "7",
+    "armor_number": "151"
+  },
+  {
+    "zone_number": "1",
+    "protection": "10",
+    "armor_number": "152"
+  },
+  {
+    "zone_number": "2",
+    "protection": "22",
+    "armor_number": "153"
+  },
+  {
+    "zone_number": "3",
+    "protection": "16",
+    "armor_number": "153"
+  },
+  {
+    "zone_number": "4",
+    "protection": "16",
+    "armor_number": "153"
+  },
+  {
+    "zone_number": "2",
+    "protection": "19",
+    "armor_number": "154"
+  },
+  {
+    "zone_number": "3",
+    "protection": "9",
+    "armor_number": "154"
+  },
+  {
+    "zone_number": "4",
+    "protection": "9",
+    "armor_number": "154"
+  },
+  {
+    "zone_number": "5",
+    "protection": "23",
+    "armor_number": "155"
+  },
+  {
+    "zone_number": "5",
+    "protection": "15",
+    "armor_number": "156"
+  },
+  {
+    "zone_number": "5",
+    "protection": "19",
+    "armor_number": "157"
+  },
+  {
+    "zone_number": "2",
+    "protection": "3",
+    "armor_number": "158"
+  },
+  {
+    "zone_number": "3",
+    "protection": "3",
+    "armor_number": "158"
+  },
+  {
+    "zone_number": "4",
+    "protection": "3",
+    "armor_number": "158"
+  },
+  {
+    "zone_number": "2",
+    "protection": "4",
+    "armor_number": "159"
+  },
+  {
+    "zone_number": "3",
+    "protection": "4",
+    "armor_number": "159"
+  },
+  {
+    "zone_number": "4",
+    "protection": "4",
+    "armor_number": "159"
+  },
+  {
+    "zone_number": "2",
+    "protection": "17",
+    "armor_number": "160"
+  },
+  {
+    "zone_number": "3",
+    "protection": "11",
+    "armor_number": "160"
+  },
+  {
+    "zone_number": "4",
+    "protection": "11",
+    "armor_number": "160"
+  },
+  {
+    "zone_number": "2",
+    "protection": "15",
+    "armor_number": "161"
+  },
+  {
+    "zone_number": "3",
+    "protection": "0",
+    "armor_number": "161"
+  },
+  {
+    "zone_number": "4",
+    "protection": "0",
+    "armor_number": "161"
+  },
+  {
+    "zone_number": "1",
+    "protection": "14",
+    "armor_number": "162"
+  },
+  {
+    "zone_number": "2",
+    "protection": "20",
+    "armor_number": "163"
+  },
+  {
+    "zone_number": "3",
+    "protection": "14",
+    "armor_number": "163"
+  },
+  {
+    "zone_number": "4",
+    "protection": "17",
+    "armor_number": "163"
+  },
+  {
+    "zone_number": "5",
+    "protection": "20",
+    "armor_number": "164"
+  },
+  {
+    "zone_number": "2",
+    "protection": "21",
+    "armor_number": "165"
+  },
+  {
+    "zone_number": "3",
+    "protection": "15",
+    "armor_number": "165"
+  },
+  {
+    "zone_number": "4",
+    "protection": "18",
+    "armor_number": "165"
+  },
+  {
+    "zone_number": "5",
+    "protection": "19",
+    "armor_number": "166"
+  },
+  {
+    "zone_number": "5",
+    "protection": "9",
+    "armor_number": "167"
+  },
+  {
+    "zone_number": "5",
+    "protection": "12",
+    "armor_number": "168"
+  },
+  {
+    "zone_number": "5",
+    "protection": "15",
+    "armor_number": "169"
+  },
+  {
+    "zone_number": "5",
+    "protection": "12",
+    "armor_number": "170"
+  },
+  {
+    "zone_number": "2",
+    "protection": "19",
+    "armor_number": "171"
+  },
+  {
+    "zone_number": "3",
+    "protection": "11",
+    "armor_number": "171"
+  },
+  {
+    "zone_number": "4",
+    "protection": "19",
+    "armor_number": "171"
+  },
+  {
+    "zone_number": "6",
+    "protection": "14",
+    "armor_number": "172"
+  },
+  {
+    "zone_number": "1",
+    "protection": "23",
+    "armor_number": "173"
+  },
+  {
+    "zone_number": "1",
+    "protection": "19",
+    "armor_number": "174"
+  },
+  {
+    "zone_number": "1",
+    "protection": "25",
+    "armor_number": "175"
+  },
+  {
+    "zone_number": "2",
+    "protection": "9",
+    "armor_number": "176"
+  },
+  {
+    "zone_number": "3",
+    "protection": "7",
+    "armor_number": "176"
+  },
+  {
+    "zone_number": "4",
+    "protection": "7",
+    "armor_number": "176"
+  },
+  {
+    "zone_number": "2",
+    "protection": "17",
+    "armor_number": "177"
+  },
+  {
+    "zone_number": "3",
+    "protection": "9",
+    "armor_number": "177"
+  },
+  {
+    "zone_number": "4",
+    "protection": "9",
+    "armor_number": "177"
+  },
+  {
+    "zone_number": "5",
+    "protection": "35",
+    "armor_number": "178"
+  },
+  {
+    "zone_number": "2",
+    "protection": "23",
+    "armor_number": "179"
+  },
+  {
+    "zone_number": "3",
+    "protection": "17",
+    "armor_number": "179"
+  },
+  {
+    "zone_number": "4",
+    "protection": "20",
+    "armor_number": "179"
+  },
+  {
+    "zone_number": "1",
+    "protection": "23",
+    "armor_number": "180"
+  },
+  {
+    "zone_number": "5",
+    "protection": "23",
+    "armor_number": "181"
+  },
+  {
+    "zone_number": "5",
+    "protection": "30",
+    "armor_number": "182"
+  },
+  {
+    "zone_number": "2",
+    "protection": "10",
+    "armor_number": "183"
+  },
+  {
+    "zone_number": "3",
+    "protection": "6",
+    "armor_number": "183"
+  },
+  {
+    "zone_number": "4",
+    "protection": "6",
+    "armor_number": "183"
+  },
+  {
+    "zone_number": "1",
+    "protection": "6",
+    "armor_number": "184"
+  },
+  {
+    "zone_number": "2",
+    "protection": "7",
+    "armor_number": "184"
+  },
+  {
+    "zone_number": "3",
+    "protection": "6",
+    "armor_number": "184"
+  },
+  {
+    "zone_number": "4",
+    "protection": "6",
+    "armor_number": "184"
+  },
+  {
+    "zone_number": "2",
+    "protection": "20",
+    "armor_number": "185"
+  },
+  {
+    "zone_number": "3",
+    "protection": "7",
+    "armor_number": "185"
+  },
+  {
+    "zone_number": "4",
+    "protection": "7",
+    "armor_number": "185"
+  },
+  {
+    "zone_number": "2",
+    "protection": "20",
+    "armor_number": "186"
+  },
+  {
+    "zone_number": "3",
+    "protection": "7",
+    "armor_number": "186"
+  },
+  {
+    "zone_number": "4",
+    "protection": "7",
+    "armor_number": "186"
+  },
+  {
+    "zone_number": "1",
+    "protection": "10",
+    "armor_number": "187"
+  },
+  {
+    "zone_number": "2",
+    "protection": "10",
+    "armor_number": "188"
+  },
+  {
+    "zone_number": "3",
+    "protection": "4",
+    "armor_number": "188"
+  },
+  {
+    "zone_number": "4",
+    "protection": "4",
+    "armor_number": "188"
+  },
+  {
+    "zone_number": "5",
+    "protection": "16",
+    "armor_number": "189"
+  },
+  {
+    "zone_number": "2",
+    "protection": "14",
+    "armor_number": "190"
+  },
+  {
+    "zone_number": "3",
+    "protection": "10",
+    "armor_number": "190"
+  },
+  {
+    "zone_number": "4",
+    "protection": "9",
+    "armor_number": "190"
+  },
+  {
+    "zone_number": "1",
+    "protection": "23",
+    "armor_number": "191"
+  },
+  {
+    "zone_number": "2",
+    "protection": "10",
+    "armor_number": "192"
+  },
+  {
+    "zone_number": "3",
+    "protection": "8",
+    "armor_number": "192"
+  },
+  {
+    "zone_number": "4",
+    "protection": "8",
+    "armor_number": "192"
+  },
+  {
+    "zone_number": "1",
+    "protection": "24",
+    "armor_number": "193"
+  },
+  {
+    "zone_number": "2",
+    "protection": "15",
+    "armor_number": "194"
+  },
+  {
+    "zone_number": "3",
+    "protection": "11",
+    "armor_number": "194"
+  },
+  {
+    "zone_number": "4",
+    "protection": "11",
+    "armor_number": "194"
+  },
+  {
+    "zone_number": "1",
+    "protection": "5",
+    "armor_number": "195"
+  },
+  {
+    "zone_number": "2",
+    "protection": "17",
+    "armor_number": "196"
+  },
+  {
+    "zone_number": "3",
+    "protection": "17",
+    "armor_number": "196"
+  },
+  {
+    "zone_number": "4",
+    "protection": "17",
+    "armor_number": "196"
+  },
+  {
+    "zone_number": "1",
+    "protection": "17",
+    "armor_number": "197"
+  },
+  {
+    "zone_number": "2",
+    "protection": "20",
+    "armor_number": "198"
+  },
+  {
+    "zone_number": "3",
+    "protection": "7",
+    "armor_number": "198"
+  },
+  {
+    "zone_number": "4",
+    "protection": "7",
+    "armor_number": "198"
+  },
+  {
+    "zone_number": "2",
+    "protection": "21",
+    "armor_number": "199"
+  },
+  {
+    "zone_number": "3",
+    "protection": "18",
+    "armor_number": "199"
+  },
+  {
+    "zone_number": "4",
+    "protection": "21",
+    "armor_number": "199"
+  },
+  {
+    "zone_number": "2",
+    "protection": "23",
+    "armor_number": "200"
+  },
+  {
+    "zone_number": "3",
+    "protection": "13",
+    "armor_number": "200"
+  },
+  {
+    "zone_number": "4",
+    "protection": "13",
+    "armor_number": "200"
+  },
+  {
+    "zone_number": "2",
+    "protection": "23",
+    "armor_number": "201"
+  },
+  {
+    "zone_number": "3",
+    "protection": "18",
+    "armor_number": "201"
+  },
+  {
+    "zone_number": "4",
+    "protection": "18",
+    "armor_number": "201"
+  },
+  {
+    "zone_number": "2",
+    "protection": "7",
+    "armor_number": "202"
+  },
+  {
+    "zone_number": "3",
+    "protection": "5",
+    "armor_number": "202"
+  },
+  {
+    "zone_number": "4",
+    "protection": "5",
+    "armor_number": "202"
+  },
+  {
+    "zone_number": "2",
+    "protection": "10",
+    "armor_number": "203"
+  },
+  {
+    "zone_number": "3",
+    "protection": "7",
+    "armor_number": "203"
+  },
+  {
+    "zone_number": "4",
+    "protection": "7",
+    "armor_number": "203"
+  },
+  {
+    "zone_number": "2",
+    "protection": "19",
+    "armor_number": "204"
+  },
+  {
+    "zone_number": "3",
+    "protection": "14",
+    "armor_number": "204"
+  },
+  {
+    "zone_number": "4",
+    "protection": "14",
+    "armor_number": "204"
+  },
+  {
+    "zone_number": "2",
+    "protection": "19",
+    "armor_number": "205"
+  },
+  {
+    "zone_number": "3",
+    "protection": "8",
+    "armor_number": "205"
+  },
+  {
+    "zone_number": "4",
+    "protection": "8",
+    "armor_number": "205"
+  },
+  {
+    "zone_number": "2",
+    "protection": "22",
+    "armor_number": "206"
+  },
+  {
+    "zone_number": "3",
+    "protection": "8",
+    "armor_number": "206"
+  },
+  {
+    "zone_number": "4",
+    "protection": "8",
+    "armor_number": "206"
+  },
+  {
+    "zone_number": "5",
+    "protection": "13",
+    "armor_number": "207"
+  },
+  {
+    "zone_number": "5",
+    "protection": "19",
+    "armor_number": "208"
+  },
+  {
+    "zone_number": "5",
+    "protection": "19",
+    "armor_number": "209"
+  },
+  {
+    "zone_number": "2",
+    "protection": "21",
+    "armor_number": "210"
+  },
+  {
+    "zone_number": "3",
+    "protection": "8",
+    "armor_number": "210"
+  },
+  {
+    "zone_number": "4",
+    "protection": "8",
+    "armor_number": "210"
+  },
+  {
+    "zone_number": "1",
+    "protection": "16",
+    "armor_number": "211"
+  },
+  {
+    "zone_number": "1",
+    "protection": "9",
+    "armor_number": "212"
+  },
+  {
+    "zone_number": "1",
+    "protection": "20",
+    "armor_number": "213"
+  },
+  {
+    "zone_number": "2",
+    "protection": "20",
+    "armor_number": "214"
+  },
+  {
+    "zone_number": "3",
+    "protection": "16",
+    "armor_number": "214"
+  },
+  {
+    "zone_number": "4",
+    "protection": "16",
+    "armor_number": "214"
+  },
+  {
+    "zone_number": "2",
+    "protection": "23",
+    "armor_number": "215"
+  },
+  {
+    "zone_number": "3",
+    "protection": "23",
+    "armor_number": "215"
+  },
+  {
+    "zone_number": "4",
+    "protection": "23",
+    "armor_number": "215"
+  },
+  {
+    "zone_number": "2",
+    "protection": "19",
+    "armor_number": "216"
+  },
+  {
+    "zone_number": "3",
+    "protection": "19",
+    "armor_number": "216"
+  },
+  {
+    "zone_number": "4",
+    "protection": "19",
+    "armor_number": "216"
+  },
+  {
+    "zone_number": "2",
+    "protection": "23",
+    "armor_number": "217"
+  },
+  {
+    "zone_number": "3",
+    "protection": "10",
+    "armor_number": "217"
+  },
+  {
+    "zone_number": "4",
+    "protection": "10",
+    "armor_number": "217"
+  },
+  {
+    "zone_number": "1",
+    "protection": "23",
+    "armor_number": "218"
+  },
+  {
+    "zone_number": "1",
+    "protection": "19",
+    "armor_number": "219"
+  },
+  {
+    "zone_number": "5",
+    "protection": "19",
+    "armor_number": "220"
+  },
+  {
+    "zone_number": "5",
+    "protection": "22",
+    "armor_number": "221"
+  },
+  {
+    "zone_number": "2",
+    "protection": "5",
+    "armor_number": "222"
+  },
+  {
+    "zone_number": "3",
+    "protection": "3",
+    "armor_number": "222"
+  },
+  {
+    "zone_number": "4",
+    "protection": "3",
+    "armor_number": "222"
+  },
+  {
+    "zone_number": "1",
+    "protection": "15",
+    "armor_number": "223"
+  },
+  {
+    "zone_number": "1",
+    "protection": "10",
+    "armor_number": "224"
+  },
+  {
+    "zone_number": "5",
+    "protection": "21",
+    "armor_number": "225"
+  },
+  {
+    "zone_number": "1",
+    "protection": "18",
+    "armor_number": "226"
+  },
+  {
+    "zone_number": "1",
+    "protection": "22",
+    "armor_number": "227"
+  },
+  {
+    "zone_number": "1",
+    "protection": "18",
+    "armor_number": "228"
+  },
+  {
+    "zone_number": "2",
+    "protection": "15",
+    "armor_number": "229"
+  },
+  {
+    "zone_number": "3",
+    "protection": "15",
+    "armor_number": "229"
+  },
+  {
+    "zone_number": "4",
+    "protection": "15",
+    "armor_number": "229"
+  },
+  {
+    "zone_number": "2",
+    "protection": "3",
+    "armor_number": "230"
+  },
+  {
+    "zone_number": "3",
+    "protection": "3",
+    "armor_number": "230"
+  },
+  {
+    "zone_number": "4",
+    "protection": "3",
+    "armor_number": "230"
+  },
+  {
+    "zone_number": "2",
+    "protection": "4",
+    "armor_number": "231"
+  },
+  {
+    "zone_number": "3",
+    "protection": "4",
+    "armor_number": "231"
+  },
+  {
+    "zone_number": "4",
+    "protection": "4",
+    "armor_number": "231"
+  },
+  {
+    "zone_number": "2",
+    "protection": "6",
+    "armor_number": "232"
+  },
+  {
+    "zone_number": "3",
+    "protection": "4",
+    "armor_number": "232"
+  },
+  {
+    "zone_number": "4",
+    "protection": "4",
+    "armor_number": "232"
+  },
+  {
+    "zone_number": "2",
+    "protection": "17",
+    "armor_number": "233"
+  },
+  {
+    "zone_number": "3",
+    "protection": "17",
+    "armor_number": "233"
+  },
+  {
+    "zone_number": "4",
+    "protection": "17",
+    "armor_number": "233"
+  },
+  {
+    "zone_number": "1",
+    "protection": "8",
+    "armor_number": "234"
+  },
+  {
+    "zone_number": "5",
+    "protection": "13",
+    "armor_number": "235"
+  },
+  {
+    "zone_number": "2",
+    "protection": "16",
+    "armor_number": "236"
+  },
+  {
+    "zone_number": "3",
+    "protection": "8",
+    "armor_number": "236"
+  },
+  {
+    "zone_number": "4",
+    "protection": "8",
+    "armor_number": "236"
+  },
+  {
+    "zone_number": "2",
+    "protection": "21",
+    "armor_number": "237"
+  },
+  {
+    "zone_number": "3",
+    "protection": "15",
+    "armor_number": "237"
+  },
+  {
+    "zone_number": "4",
+    "protection": "15",
+    "armor_number": "237"
+  },
+  {
+    "zone_number": "5",
+    "protection": "22",
+    "armor_number": "238"
+  },
+  {
+    "zone_number": "1",
+    "protection": "23",
+    "armor_number": "239"
+  },
+  {
+    "zone_number": "1",
+    "protection": "10",
+    "armor_number": "240"
+  },
+  {
+    "zone_number": "2",
+    "protection": "22",
+    "armor_number": "241"
+  },
+  {
+    "zone_number": "3",
+    "protection": "9",
+    "armor_number": "241"
+  },
+  {
+    "zone_number": "4",
+    "protection": "9",
+    "armor_number": "241"
+  },
+  {
+    "zone_number": "5",
+    "protection": "22",
+    "armor_number": "242"
+  },
+  {
+    "zone_number": "1",
+    "protection": "23",
+    "armor_number": "243"
+  },
+  {
+    "zone_number": "2",
+    "protection": "8",
+    "armor_number": "244"
+  },
+  {
+    "zone_number": "3",
+    "protection": "8",
+    "armor_number": "244"
+  },
+  {
+    "zone_number": "4",
+    "protection": "8",
+    "armor_number": "244"
+  },
+  {
+    "zone_number": "2",
+    "protection": "22",
+    "armor_number": "245"
+  },
+  {
+    "zone_number": "3",
+    "protection": "9",
+    "armor_number": "245"
+  },
+  {
+    "zone_number": "4",
+    "protection": "9",
+    "armor_number": "245"
+  },
+  {
+    "zone_number": "2",
+    "protection": "22",
+    "armor_number": "246"
+  },
+  {
+    "zone_number": "3",
+    "protection": "16",
+    "armor_number": "246"
+  },
+  {
+    "zone_number": "4",
+    "protection": "16",
+    "armor_number": "246"
+  },
+  {
+    "zone_number": "5",
+    "protection": "22",
+    "armor_number": "247"
+  },
+  {
+    "zone_number": "1",
+    "protection": "22",
+    "armor_number": "248"
+  },
+  {
+    "zone_number": "1",
+    "protection": "3",
+    "armor_number": "249"
+  },
+  {
+    "zone_number": "5",
+    "protection": "19",
+    "armor_number": "250"
+  },
+  {
+    "zone_number": "2",
+    "protection": "7",
+    "armor_number": "251"
+  },
+  {
+    "zone_number": "3",
+    "protection": "3",
+    "armor_number": "251"
+  },
+  {
+    "zone_number": "4",
+    "protection": "3",
+    "armor_number": "251"
+  },
+  {
+    "zone_number": "2",
+    "protection": "13",
+    "armor_number": "252"
+  },
+  {
+    "zone_number": "3",
+    "protection": "8",
+    "armor_number": "252"
+  },
+  {
+    "zone_number": "4",
+    "protection": "8",
+    "armor_number": "252"
+  },
+  {
+    "zone_number": "2",
+    "protection": "15",
+    "armor_number": "253"
+  },
+  {
+    "zone_number": "3",
+    "protection": "11",
+    "armor_number": "253"
+  },
+  {
+    "zone_number": "4",
+    "protection": "11",
+    "armor_number": "253"
+  },
+  {
+    "zone_number": "1",
+    "protection": "21",
+    "armor_number": "253"
+  },
+  {
+    "zone_number": "2",
+    "protection": "21",
+    "armor_number": "254"
+  },
+  {
+    "zone_number": "3",
+    "protection": "15",
+    "armor_number": "254"
+  },
+  {
+    "zone_number": "4",
+    "protection": "15",
+    "armor_number": "254"
+  },
+  {
+    "zone_number": "1",
+    "protection": "21",
+    "armor_number": "254"
+  },
+  {
+    "zone_number": "2",
+    "protection": "22",
+    "armor_number": "255"
+  },
+  {
+    "zone_number": "3",
+    "protection": "16",
+    "armor_number": "255"
+  },
+  {
+    "zone_number": "4",
+    "protection": "16",
+    "armor_number": "255"
+  },
+  {
+    "zone_number": "1",
+    "protection": "22",
+    "armor_number": "255"
+  },
+  {
+    "zone_number": "2",
+    "protection": "11",
+    "armor_number": "256"
+  },
+  {
+    "zone_number": "3",
+    "protection": "6",
+    "armor_number": "256"
+  },
+  {
+    "zone_number": "4",
+    "protection": "6",
+    "armor_number": "256"
+  },
+  {
+    "zone_number": "2",
+    "protection": "13",
+    "armor_number": "257"
+  },
+  {
+    "zone_number": "3",
+    "protection": "9",
+    "armor_number": "257"
+  },
+  {
+    "zone_number": "4",
+    "protection": "9",
+    "armor_number": "257"
+  },
+  {
+    "zone_number": "1",
+    "protection": "19",
+    "armor_number": "257"
+  },
+  {
+    "zone_number": "2",
+    "protection": "23",
+    "armor_number": "258"
+  },
+  {
+    "zone_number": "3",
+    "protection": "18",
+    "armor_number": "258"
+  },
+  {
+    "zone_number": "4",
+    "protection": "18",
+    "armor_number": "258"
+  },
+  {
+    "zone_number": "2",
+    "protection": "12",
+    "armor_number": "259"
+  },
+  {
+    "zone_number": "3",
+    "protection": "6",
+    "armor_number": "259"
+  },
+  {
+    "zone_number": "4",
+    "protection": "6",
+    "armor_number": "259"
+  },
+  {
+    "zone_number": "5",
+    "protection": "14",
+    "armor_number": "260"
+  },
+  {
+    "zone_number": "1",
+    "protection": "12",
+    "armor_number": "261"
+  },
+  {
+    "zone_number": "5",
+    "protection": "22",
+    "armor_number": "262"
+  },
+  {
+    "zone_number": "2",
+    "protection": "20",
+    "armor_number": "263"
+  },
+  {
+    "zone_number": "3",
+    "protection": "14",
+    "armor_number": "263"
+  },
+  {
+    "zone_number": "4",
+    "protection": "14",
+    "armor_number": "263"
+  },
+  {
+    "zone_number": "1",
+    "protection": "20",
+    "armor_number": "263"
+  },
+  {
+    "zone_number": "2",
+    "protection": "12",
+    "armor_number": "264"
+  },
+  {
+    "zone_number": "3",
+    "protection": "7",
+    "armor_number": "264"
+  },
+  {
+    "zone_number": "4",
+    "protection": "7",
+    "armor_number": "264"
+  },
+  {
+    "zone_number": "2",
+    "protection": "20",
+    "armor_number": "265"
+  },
+  {
+    "zone_number": "3",
+    "protection": "14",
+    "armor_number": "265"
+  },
+  {
+    "zone_number": "4",
+    "protection": "14",
+    "armor_number": "265"
+  },
+  {
+    "zone_number": "1",
+    "protection": "14",
+    "armor_number": "266"
+  },
+  {
+    "zone_number": "5",
+    "protection": "23",
+    "armor_number": "267"
+  },
+  {
+    "zone_number": "2",
+    "protection": "23",
+    "armor_number": "268"
+  },
+  {
+    "zone_number": "3",
+    "protection": "23",
+    "armor_number": "268"
+  },
+  {
+    "zone_number": "4",
+    "protection": "23",
+    "armor_number": "268"
+  },
+  {
+    "zone_number": "1",
+    "protection": "5",
+    "armor_number": "269"
+  },
+  {
+    "zone_number": "2",
+    "protection": "10",
+    "armor_number": "270"
+  },
+  {
+    "zone_number": "3",
+    "protection": "6",
+    "armor_number": "270"
+  },
+  {
+    "zone_number": "4",
+    "protection": "6",
+    "armor_number": "270"
+  },
+  {
+    "zone_number": "1",
+    "protection": "10",
+    "armor_number": "270"
+  },
+  {
+    "zone_number": "2",
+    "protection": "15",
+    "armor_number": "271"
+  },
+  {
+    "zone_number": "3",
+    "protection": "7",
+    "armor_number": "271"
+  },
+  {
+    "zone_number": "4",
+    "protection": "7",
+    "armor_number": "271"
+  },
+  {
+    "zone_number": "1",
+    "protection": "15",
+    "armor_number": "271"
+  },
+  {
+    "zone_number": "2",
+    "protection": "23",
+    "armor_number": "272"
+  },
+  {
+    "zone_number": "3",
+    "protection": "17",
+    "armor_number": "272"
+  },
+  {
+    "zone_number": "4",
+    "protection": "17",
+    "armor_number": "272"
+  },
+  {
+    "zone_number": "1",
+    "protection": "23",
+    "armor_number": "272"
+  },
+  {
+    "zone_number": "2",
+    "protection": "24",
+    "armor_number": "273"
+  },
+  {
+    "zone_number": "3",
+    "protection": "18",
+    "armor_number": "273"
+  },
+  {
+    "zone_number": "4",
+    "protection": "18",
+    "armor_number": "273"
+  },
+  {
+    "zone_number": "1",
+    "protection": "24",
+    "armor_number": "273"
+  },
+  {
+    "zone_number": "2",
+    "protection": "13",
+    "armor_number": "274"
+  },
+  {
+    "zone_number": "3",
+    "protection": "7",
+    "armor_number": "274"
+  },
+  {
+    "zone_number": "4",
+    "protection": "7",
+    "armor_number": "274"
+  },
+  {
+    "zone_number": "1",
+    "protection": "13",
+    "armor_number": "274"
+  },
+  {
+    "zone_number": "2",
+    "protection": "21",
+    "armor_number": "275"
+  },
+  {
+    "zone_number": "3",
+    "protection": "16",
+    "armor_number": "275"
+  },
+  {
+    "zone_number": "4",
+    "protection": "16",
+    "armor_number": "275"
+  },
+  {
+    "zone_number": "1",
+    "protection": "21",
+    "armor_number": "275"
+  },
+  {
+    "zone_number": "2",
+    "protection": "16",
+    "armor_number": "276"
+  },
+  {
+    "zone_number": "3",
+    "protection": "12",
+    "armor_number": "276"
+  },
+  {
+    "zone_number": "4",
+    "protection": "12",
+    "armor_number": "276"
+  },
+  {
+    "zone_number": "1",
+    "protection": "22",
+    "armor_number": "276"
+  },
+  {
+    "zone_number": "2",
+    "protection": "23",
+    "armor_number": "277"
+  },
+  {
+    "zone_number": "3",
+    "protection": "17",
+    "armor_number": "277"
+  },
+  {
+    "zone_number": "4",
+    "protection": "17",
+    "armor_number": "277"
+  },
+  {
+    "zone_number": "1",
+    "protection": "23",
+    "armor_number": "277"
+  },
+  {
+    "zone_number": "1",
+    "protection": "6",
+    "armor_number": "278"
+  },
+  {
+    "zone_number": "2",
+    "protection": "23",
+    "armor_number": "279"
+  },
+  {
+    "zone_number": "3",
+    "protection": "23",
+    "armor_number": "279"
+  },
+  {
+    "zone_number": "4",
+    "protection": "23",
+    "armor_number": "279"
+  },
+  {
+    "zone_number": "2",
+    "protection": "23",
+    "armor_number": "280"
+  },
+  {
+    "zone_number": "3",
+    "protection": "17",
+    "armor_number": "280"
+  },
+  {
+    "zone_number": "4",
+    "protection": "17",
+    "armor_number": "280"
+  },
+  {
+    "zone_number": "1",
+    "protection": "23",
+    "armor_number": "280"
+  },
+  {
+    "zone_number": "2",
+    "protection": "18",
+    "armor_number": "281"
+  },
+  {
+    "zone_number": "3",
+    "protection": "13",
+    "armor_number": "281"
+  },
+  {
+    "zone_number": "4",
+    "protection": "13",
+    "armor_number": "281"
+  },
+  {
+    "zone_number": "2",
+    "protection": "21",
+    "armor_number": "282"
+  },
+  {
+    "zone_number": "3",
+    "protection": "21",
+    "armor_number": "282"
+  },
+  {
+    "zone_number": "4",
+    "protection": "21",
+    "armor_number": "282"
+  },
+  {
+    "zone_number": "1",
+    "protection": "16",
+    "armor_number": "283"
+  },
+  {
+    "zone_number": "1",
+    "protection": "21",
+    "armor_number": "284"
+  },
+  {
+    "zone_number": "5",
+    "protection": "15",
+    "armor_number": "285"
+  },
+  {
+    "zone_number": "1",
+    "protection": "9",
+    "armor_number": "286"
+  },
+  {
+    "zone_number": "2",
+    "protection": "19",
+    "armor_number": "287"
+  },
+  {
+    "zone_number": "3",
+    "protection": "5",
+    "armor_number": "287"
+  },
+  {
+    "zone_number": "4",
+    "protection": "5",
+    "armor_number": "287"
+  },
+  {
+    "zone_number": "1",
+    "protection": "19",
+    "armor_number": "287"
+  },
+  {
+    "zone_number": "5",
+    "protection": "22",
+    "armor_number": "288"
+  },
+  {
+    "zone_number": "2",
+    "protection": "20",
+    "armor_number": "289"
+  },
+  {
+    "zone_number": "3",
+    "protection": "7",
+    "armor_number": "289"
+  },
+  {
+    "zone_number": "4",
+    "protection": "7",
+    "armor_number": "289"
+  },
+  {
+    "zone_number": "1",
+    "protection": "20",
+    "armor_number": "289"
+  },
+  {
+    "zone_number": "2",
+    "protection": "23",
+    "armor_number": "290"
+  },
+  {
+    "zone_number": "3",
+    "protection": "20",
+    "armor_number": "290"
+  },
+  {
+    "zone_number": "4",
+    "protection": "20",
+    "armor_number": "290"
+  },
+  {
+    "zone_number": "1",
+    "protection": "23",
+    "armor_number": "290"
+  },
+  {
+    "zone_number": "2",
+    "protection": "5",
+    "armor_number": "291"
+  },
+  {
+    "zone_number": "3",
+    "protection": "5",
+    "armor_number": "291"
+  },
+  {
+    "zone_number": "4",
+    "protection": "5",
+    "armor_number": "291"
+  }
+]

@@ -16,10 +16,6 @@
     "realm": "1"
   },
   {
-    "monster_number": "657",
-    "realm": "1"
-  },
-  {
     "monster_number": "1098",
     "realm": "1"
   },
@@ -149,6 +145,22 @@
   },
   {
     "monster_number": "3082",
+    "realm": "2"
+  },
+  {
+    "monster_number": "3632",
+    "realm": "2"
+  },
+  {
+    "monster_number": "3692",
+    "realm": "2"
+  },
+  {
+    "monster_number": "3693",
+    "realm": "2"
+  },
+  {
+    "monster_number": "3894",
     "realm": "2"
   },
   {
@@ -288,6 +300,18 @@
     "realm": "3"
   },
   {
+    "monster_number": "3650",
+    "realm": "3"
+  },
+  {
+    "monster_number": "3876",
+    "realm": "3"
+  },
+  {
+    "monster_number": "3895",
+    "realm": "3"
+  },
+  {
     "monster_number": "905",
     "realm": "4"
   },
@@ -333,6 +357,22 @@
   },
   {
     "monster_number": "3088",
+    "realm": "4"
+  },
+  {
+    "monster_number": "3928",
+    "realm": "4"
+  },
+  {
+    "monster_number": "3929",
+    "realm": "4"
+  },
+  {
+    "monster_number": "3931",
+    "realm": "4"
+  },
+  {
+    "monster_number": "3932",
     "realm": "4"
   },
   {
@@ -588,6 +628,10 @@
     "realm": "7"
   },
   {
+    "monster_number": "3651",
+    "realm": "7"
+  },
+  {
     "monster_number": "499",
     "realm": "8"
   },
@@ -613,6 +657,26 @@
   },
   {
     "monster_number": "2549",
+    "realm": "8"
+  },
+  {
+    "monster_number": "3661",
+    "realm": "8"
+  },
+  {
+    "monster_number": "3662",
+    "realm": "8"
+  },
+  {
+    "monster_number": "3874",
+    "realm": "8"
+  },
+  {
+    "monster_number": "3875",
+    "realm": "8"
+  },
+  {
+    "monster_number": "3926",
     "realm": "8"
   },
   {
@@ -741,6 +805,26 @@
   },
   {
     "monster_number": "2791",
+    "realm": "10"
+  },
+  {
+    "monster_number": "3641",
+    "realm": "10"
+  },
+  {
+    "monster_number": "3642",
+    "realm": "10"
+  },
+  {
+    "monster_number": "3710",
+    "realm": "10"
+  },
+  {
+    "monster_number": "3711",
+    "realm": "10"
+  },
+  {
+    "monster_number": "3888",
     "realm": "10"
   }
 ]

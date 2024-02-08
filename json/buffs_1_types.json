@@ -148,107 +148,107 @@
     "bit_name": "Slashing Resistance"
   },
   {
-    "bit_value": "1.37439E+11",
+    "bit_value": "137438953472",
     "bit_name": "Bludgeoning Resistance"
   },
   {
-    "bit_value": "2.74878E+11",
+    "bit_value": "274877906944",
     "bit_name": "Piercing Resistance"
   },
   {
-    "bit_value": "5.49756E+11",
+    "bit_value": "549755813888",
     "bit_name": "Protective Force 20"
   },
   {
-    "bit_value": "1.09951E+12",
+    "bit_value": "1099511627776",
     "bit_name": "Limited Enlargement"
   },
   {
-    "bit_value": "2.19902E+12",
+    "bit_value": "2199023255552",
     "bit_name": "Liquid Body"
   },
   {
-    "bit_value": "4.39805E+12",
+    "bit_value": "4398046511104",
     "bit_name": "? AI \"dedicated ritualist\" flag (persists after battle)"
   },
   {
-    "bit_value": "8.79609E+12",
+    "bit_value": "8796093022208",
     "bit_name": "<Unknown>"
   },
   {
-    "bit_value": "1.75922E+13",
+    "bit_value": "17592186044416",
     "bit_name": "? If Soul Butcher, make death gems"
   },
   {
-    "bit_value": "3.51844E+13",
+    "bit_value": "35184372088832",
     "bit_name": "? Flag that causes gladiators to leave (persists after battle)"
   },
   {
-    "bit_value": "7.03687E+13",
+    "bit_value": "70368744177664",
     "bit_name": "<Unknown>"
   },
   {
-    "bit_value": "1.40737E+14",
+    "bit_value": "140737488355328",
     "bit_name": "<Unknown>"
   },
   {
-    "bit_value": "2.81475E+14",
+    "bit_value": "281474976710656",
     "bit_name": "<Unknown>"
   },
   {
-    "bit_value": "5.6295E+14",
+    "bit_value": "562949953421312",
     "bit_name": "<Unknown>"
   },
   {
-    "bit_value": "1.1259E+15",
+    "bit_value": "1125899906842624",
     "bit_name": "<Unknown>"
   },
   {
-    "bit_value": "2.2518E+15",
+    "bit_value": "2251799813685248",
     "bit_name": "<Unknown>"
   },
   {
-    "bit_value": "4.5036E+15",
+    "bit_value": "4503599627370496",
     "bit_name": "<Unknown>"
   },
   {
-    "bit_value": "9.0072E+15",
+    "bit_value": "9007199254740992",
     "bit_name": "<Unknown>"
   },
   {
-    "bit_value": "1.80144E+16",
+    "bit_value": "18014398509481984",
     "bit_name": "<Unknown>"
   },
   {
-    "bit_value": "3.60288E+16",
+    "bit_value": "36028797018963968",
     "bit_name": "<Unknown>"
   },
   {
-    "bit_value": "7.20576E+16",
+    "bit_value": "72057594037927936",
     "bit_name": "<Unknown>"
   },
   {
-    "bit_value": "1.44115E+17",
+    "bit_value": "144115188075855872",
     "bit_name": "<Unknown>"
   },
   {
-    "bit_value": "2.8823E+17",
+    "bit_value": "288230376151711744",
     "bit_name": "<Unknown>"
   },
   {
-    "bit_value": "5.76461E+17",
+    "bit_value": "576460752303423488",
     "bit_name": "<Unknown>"
   },
   {
-    "bit_value": "1.15292E+18",
+    "bit_value": "1152921504606846976",
     "bit_name": "<Unknown>"
   },
   {
-    "bit_value": "2.30584E+18",
+    "bit_value": "2305843009213693952",
     "bit_name": "<Unknown>"
   },
   {
-    "bit_value": "4.61169E+18",
+    "bit_value": "4611686018427387904",
     "bit_name": "<Unknown>"
   }
 ]

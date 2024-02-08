@@ -12,6 +12,8 @@ Addtional details including relevent tables for some keywords. Will add more in 
 ![Hover Details](examples/hoverexample.png)
 
 Error checking for illegal values and missing #end commands.
+
+If you refernce a vanilla asset such as with #selectarmor, if you hover over the value it will give you details of what armor you are selecting. 
  
 
 ## Known Issues
@@ -24,11 +26,9 @@ I'm sure there's a handful. Just undocumented so far. See below.
 
 There is likely errors in my data for all the commands. I did a lot of scraping and regex instead of going through it by hand. If you catch any and are feeling extra generous please fix and submit a pull request. Or if not and it's small just let me know via discord @zegma and I can include the fix in during an update. 
 
-### 1.1.1
+### 2.0.0
 
-Added diagnostics and some error correction. As well as a lot of strcutural changes to improve maintainability long term. 
-
-fixed bug with float numbers diagnostics not ignoring strings and comments. 
+Updated to support dom6 mods. Lots of new commands and increased ranges for existing ones. 
 
 ### Credits
 I wanted to highlight [djmcgill](https://github.com/djmcgill/vscode-syntax-highlighting-dominions-5-) for creating a syntax highlighting tool years ago. Used that for a while and the decided I wanted to improve on that base. 
@@ -45,5 +45,6 @@ In no particular order things I want to do.
 
 + Change the hover for ID on monster and item sprite commands to return sprite in addition to other data
 + Allow hover to return data on items/monsters by name instead of just by ID. Problematic due to all the damn warriors....
++ create warnings when selecting IDs out of vanilla asset range instead of error only when outside of all legal ranges
 
 **Enjoy!**

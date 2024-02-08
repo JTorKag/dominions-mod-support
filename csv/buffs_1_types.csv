@@ -1,4 +1,4 @@
-bit_value,bit_name
+bit_value,bit_name,test
 1,Blessing
 2,Luck
 4,Improved Precision
@@ -36,29 +36,29 @@ bit_value,bit_name
 17179869184,"? AI flag ""dedicated searcher"" (persists after battle)"
 34359738368,Leave communion if over 100 fatigue
 68719476736,Slashing Resistance
-1.37439E+11,Bludgeoning Resistance
-2.74878E+11,Piercing Resistance
-5.49756E+11,Protective Force 20
-1.09951E+12,Limited Enlargement
-2.19902E+12,Liquid Body
-4.39805E+12,"? AI ""dedicated ritualist"" flag (persists after battle)"
-8.79609E+12,<Unknown>
-1.75922E+13,"? If Soul Butcher, make death gems"
-3.51844E+13,? Flag that causes gladiators to leave (persists after battle)
-7.03687E+13,<Unknown>
-1.40737E+14,<Unknown>
-2.81475E+14,<Unknown>
-5.6295E+14,<Unknown>
-1.1259E+15,<Unknown>
-2.2518E+15,<Unknown>
-4.5036E+15,<Unknown>
-9.0072E+15,<Unknown>
-1.80144E+16,<Unknown>
-3.60288E+16,<Unknown>
-7.20576E+16,<Unknown>
-1.44115E+17,<Unknown>
-2.8823E+17,<Unknown>
-5.76461E+17,<Unknown>
-1.15292E+18,<Unknown>
-2.30584E+18,<Unknown>
-4.61169E+18,<Unknown>
+137438953472,Bludgeoning Resistance
+274877906944,Piercing Resistance
+549755813888,Protective Force 20
+1099511627776,Limited Enlargement
+2199023255552,Liquid Body
+4398046511104,"? AI ""dedicated ritualist"" flag (persists after battle)"
+8796093022208,<Unknown>
+17592186044416,"? If Soul Butcher, make death gems"
+35184372088832,? Flag that causes gladiators to leave (persists after battle)
+70368744177664,<Unknown>
+140737488355328,<Unknown>
+281474976710656,<Unknown>
+562949953421312,<Unknown>
+1125899906842624,<Unknown>
+2251799813685248,<Unknown>
+4503599627370496,<Unknown>
+9007199254740992,<Unknown>
+18014398509481984,<Unknown>
+36028797018963968,<Unknown>
+72057594037927936,<Unknown>
+144115188075855872,<Unknown>
+288230376151711744,<Unknown>
+576460752303423488,<Unknown>
+1152921504606846976,<Unknown>
+2305843009213693952,<Unknown>
+4611686018427387904,<Unknown>

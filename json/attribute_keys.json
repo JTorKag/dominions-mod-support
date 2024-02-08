@@ -1,0 +1,1906 @@
+[
+  {
+    "number": "1",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "35",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "36",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "41",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "43",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "46",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "47",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "52",
+    "name": "Capital Magic Site {Ntn: #startsite}"
+  },
+  {
+    "number": "59",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "69",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "73",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "74",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "75",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "76",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "77",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "78",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "79",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "80",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "81",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "82",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "83",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "84",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "85",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "90",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "91",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "92",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "93",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "94",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "95",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "100",
+    "name": "Capital Magic Site (Unholy?) {Ntn: #startsite}"
+  },
+  {
+    "number": "122",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "123",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "124",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "125",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "126",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "127",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "128",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "129",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "131",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "132",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "133",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "134",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "136",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "137",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "138",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "139",
+    "name": "National Unique Hero {Ntn: #hero1}"
+  },
+  {
+    "number": "140",
+    "name": "National Unique Hero {Ntn: #hero2}"
+  },
+  {
+    "number": "141",
+    "name": "National Unique Hero {Ntn: #hero3}"
+  },
+  {
+    "number": "142",
+    "name": "National Unique Hero {Ntn: #hero4}"
+  },
+  {
+    "number": "143",
+    "name": "National Unique Hero {Ntn: #hero5}"
+  },
+  {
+    "number": "144",
+    "name": "National Unique Hero {Ntn: #hero6}"
+  },
+  {
+    "number": "145",
+    "name": "National Generic Hero {Ntn: #multihero1}"
+  },
+  {
+    "number": "146",
+    "name": "National Generic Hero {Ntn: #multihero2}"
+  },
+  {
+    "number": "149",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "156",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "157",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "158",
+    "name": "Coastal Fort Commander {Ntn: #coastcom1}"
+  },
+  {
+    "number": "159",
+    "name": "Coastal Fort Commander {Ntn: #coastcom2}"
+  },
+  {
+    "number": "160",
+    "name": "Coastal Fort Troop {Ntn: #coastunit1}"
+  },
+  {
+    "number": "161",
+    "name": "Coastal Fort Troop {Ntn: #coastunit2}"
+  },
+  {
+    "number": "162",
+    "name": "Coastal Fort Troop {Ntn: #coastunit3}"
+  },
+  {
+    "number": "163",
+    "name": "Non-Coastal Land Troop"
+  },
+  {
+    "number": "167",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "168",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "169",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "170",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "171",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "172",
+    "name": "Underwater Fort Commander {Ntn: #uwcom}"
+  },
+  {
+    "number": "173",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "174",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "175",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "176",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "177",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "178",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "179",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "180",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "185",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "186",
+    "name": "Underwater Fort Commander {Ntn: #uwcom}"
+  },
+  {
+    "number": "187",
+    "name": "Underwater Fort Commander {Ntn: #uwcom}"
+  },
+  {
+    "number": "188",
+    "name": "Underwater Fort Commander {Ntn: #uwcom}"
+  },
+  {
+    "number": "189",
+    "name": "Underwater Fort Troop {Ntn: #uwunit}"
+  },
+  {
+    "number": "190",
+    "name": "Underwater Fort Troop {Ntn: #uwunit}"
+  },
+  {
+    "number": "191",
+    "name": "Underwater Fort Troop {Ntn: #uwunit}"
+  },
+  {
+    "number": "193",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "194",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "195",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "196",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "197",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "198",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "199",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "200",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "205",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "207",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "210",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "211",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "213",
+    "name": "Underwater Fort Troop {Ntn: #uwunit}"
+  },
+  {
+    "number": "217",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "220",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "221",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "222",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "223",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "261",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "262",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "263",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "264",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "265",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "266",
+    "name": "Material Composition: Ferrous"
+  },
+  {
+    "number": "267",
+    "name": "Material Composition: Ferrous"
+  },
+  {
+    "number": "268",
+    "name": "Material Composition: Flammable"
+  },
+  {
+    "number": "269",
+    "name": "Material Composition: Flammable"
+  },
+  {
+    "number": "270",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "271",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "272",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "273",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "274",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "275",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "278",
+    "name": "Restrict to Nation {Spl: #restricted}"
+  },
+  {
+    "number": "279",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "280",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "281",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "287",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "288",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "289",
+    "name": "Home Realm {Ntn: #homerealm}"
+  },
+  {
+    "number": "290",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "293",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "294",
+    "name": "Terrain-Specific Recruit: Forest {Ntn: #forestrec}"
+  },
+  {
+    "number": "295",
+    "name": "Terrain-Specific Commander: Forest {Ntn: #forestcom}"
+  },
+  {
+    "number": "296",
+    "name": "Terrain-Specific Recruit: Swamp {Ntn: #swamprec}"
+  },
+  {
+    "number": "297",
+    "name": "Terrain-Specific Commander: Swamp {Ntn: #swampcom}"
+  },
+  {
+    "number": "298",
+    "name": "Terrain-Specific Recruit: Mountain {Ntn: #mountainrec}"
+  },
+  {
+    "number": "299",
+    "name": "Terrain-Specific Commander: Mountain {Ntn: #mountaincom}"
+  },
+  {
+    "number": "300",
+    "name": "Terrain-Specific Recruit: Waste {Ntn: #wasterec}"
+  },
+  {
+    "number": "301",
+    "name": "Terrain-Specific Commander: Waste {Ntn: #wastecom}"
+  },
+  {
+    "number": "302",
+    "name": "Terrain-Specific Recruit: Cave {Ntn: #caverec}"
+  },
+  {
+    "number": "303",
+    "name": "Terrain-Specific Commander: Cave {Ntn: #cavecom}"
+  },
+  {
+    "number": "304",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "305",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "306",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "307",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "308",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "309",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "310",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "311",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "312",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "313",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "314",
+    "name": "Cheap God 20 {Ntn: #cheapgod20}"
+  },
+  {
+    "number": "315",
+    "name": "Cheap God 40 {Ntn: #cheapgod40}"
+  },
+  {
+    "number": "317",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "318",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "319",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "320",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "321",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "322",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "324",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "325",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "404",
+    "name": "Cannot be cast by mindless"
+  },
+  {
+    "number": "405",
+    "name": "Only affects creatures with astral magic"
+  },
+  {
+    "number": "426",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "465",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "475",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "477",
+    "name": "Increase province magic scale by 3"
+  },
+  {
+    "number": "482",
+    "name": "Not Effected by Fire Bless"
+  },
+  {
+    "number": "495",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "557",
+    "name": "Magic"
+  },
+  {
+    "number": "579",
+    "name": "Gifts from Heaven"
+  },
+  {
+    "number": "582",
+    "name": "Map Move Penalty"
+  },
+  {
+    "number": "599",
+    "name": "Soul Slay"
+  },
+  {
+    "number": "602",
+    "name": "Restricted to Realm"
+  },
+  {
+    "number": "603",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "611",
+    "name": "Weapon affected by penetration bonus"
+  },
+  {
+    "number": "617",
+    "name": "Number of chain lightning bounces {Spl: #maxbounces}"
+  },
+  {
+    "number": "619",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "657",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "700",
+    "name": "Map Range {Spl: #provrange}"
+  },
+  {
+    "number": "701",
+    "name": "Destination Terrain {Spl: #onlygeodst}"
+  },
+  {
+    "number": "702",
+    "name": "Source Terrain {Spl: #onlygeosrc}"
+  },
+  {
+    "number": "703",
+    "name": "Cannot cast from terrain {Spl: #nogeosrc}"
+  },
+  {
+    "number": "704",
+    "name": "Cannot target terrain {Spl: #nogeodst}"
+  },
+  {
+    "number": "705",
+    "name": "Cannot trace range through seas {Spl: #nowatertrace}"
+  },
+  {
+    "number": "706",
+    "name": "No Path over Land {Spl: #nolandtrace}"
+  },
+  {
+    "number": "707",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "708",
+    "name": "Hidden Enchantment {Spl: #hiddenench}"
+  },
+  {
+    "number": "709",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "710",
+    "name": "Does not affect floating commanders"
+  },
+  {
+    "number": "711",
+    "name": "Site Required"
+  },
+  {
+    "number": "713",
+    "name": "Only cast at coast {Spl: #onlycoastsrc}"
+  },
+  {
+    "number": "715",
+    "name": "Caster must be flying"
+  },
+  {
+    "number": "716",
+    "name": "Remote summon commander {Spl: #farsumcom}"
+  },
+  {
+    "number": "717",
+    "name": "Record global enchantment cast location"
+  },
+  {
+    "number": "718",
+    "name": "Requires specific unit ability to cast"
+  },
+  {
+    "number": "719",
+    "name": "Specific unit ability prevents casting"
+  },
+  {
+    "number": "720",
+    "name": "Projectile falls vertically"
+  },
+  {
+    "number": "721",
+    "name": "Sound file played on projectile impact"
+  },
+  {
+    "number": "722",
+    "name": "God Path Restriction {Spl: #godpathspell}"
+  },
+  {
+    "number": "723",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "724",
+    "name": "Extra effect in geo {Spl: #extraeffectgeo}"
+  },
+  {
+    "number": "725",
+    "name": "Can't target same province more than once/turn {Spl: #uniquetarget}"
+  },
+  {
+    "number": "726",
+    "name": "Override percent of units affected in target province"
+  },
+  {
+    "number": "727",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "728",
+    "name": "Adds AN lingering heat {Spl: #anlingeringheat}"
+  },
+  {
+    "number": "729",
+    "name": "Dispelled if province changes owners {Spl: #friendlyench}"
+  },
+  {
+    "number": "730",
+    "name": "Only castable in forted province"
+  },
+  {
+    "number": "731",
+    "name": "Can only be cast by {Spl: #onlymnr}"
+  },
+  {
+    "number": "732",
+    "name": "Unit gets magic of target {Spl: #polygetmagic}"
+  },
+  {
+    "number": "733",
+    "name": "Sets current province as home {Spl: #sethome}"
+  },
+  {
+    "number": "734",
+    "name": "Curses random commander in caster's province"
+  },
+  {
+    "number": "735",
+    "name": "AI will not cast unless path level lower than {Spl: #aibadlvl}"
+  },
+  {
+    "number": "736",
+    "name": "Cannot be cast on unit with effect"
+  },
+  {
+    "number": "737",
+    "name": "Opens target prompt, can only target a unit of type"
+  },
+  {
+    "number": "738",
+    "name": "Only target friendly provinces {Spl: #onlyowndst}"
+  },
+  {
+    "number": "739",
+    "name": "Do not anticipate target's movement regardless of flysprite"
+  },
+  {
+    "number": "740",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "741",
+    "name": "Requires sun presence"
+  },
+  {
+    "number": "742",
+    "name": "AInocast"
+  },
+  {
+    "number": "743",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "744",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "745",
+    "name": "Will not be cast against small numbers of enemies"
+  },
+  {
+    "number": "746",
+    "name": "Requires enchantment"
+  },
+  {
+    "number": "747",
+    "name": "Cost is multiplied by size"
+  },
+  {
+    "number": "748",
+    "name": "Percent to horror mark caster"
+  },
+  {
+    "number": "749",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "750",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "751",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "752",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "753",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "754",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "755",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "756",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "757",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "758",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "759",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "760",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "761",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "762",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "763",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "764",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "765",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "766",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "767",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "768",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "769",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "770",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "771",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "772",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "773",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "774",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "775",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "776",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "777",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "778",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "779",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "780",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "781",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "782",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "783",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "784",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "785",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "786",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "787",
+    "name": "Casting Time {Spl: #casttime}"
+  },
+  {
+    "number": "788",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "789",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "790",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "791",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "792",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "793",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "794",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "795",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "796",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "797",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "798",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "799",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "800",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "801",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "802",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "803",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "804",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "805",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "806",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "807",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "808",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "809",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "810",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "811",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "812",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "813",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "814",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "815",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "816",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "817",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "818",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "819",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "820",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "821",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "822",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "823",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "824",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "825",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "826",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "827",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "828",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "829",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "830",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "831",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "832",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "833",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "834",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "835",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "836",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "837",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "838",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "839",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "840",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "841",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "842",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "843",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "844",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "845",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "846",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "847",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "848",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "849",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "850",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "851",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "852",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "853",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "854",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "855",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "856",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "857",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "858",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "859",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "860",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "861",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "862",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "863",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "864",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "865",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "866",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "867",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "868",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "869",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "870",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "871",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "872",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "873",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "874",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "875",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "876",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "877",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "878",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "879",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "880",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "881",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "882",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "883",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "884",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "885",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "886",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "887",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "888",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "889",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "890",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "891",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "892",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "893",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "894",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "895",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "896",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "897",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "898",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "899",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "900",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "901",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "902",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "903",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "904",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "905",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "906",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "907",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "908",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "909",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "910",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "911",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "912",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "913",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "914",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "915",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "916",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "917",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "918",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "919",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "920",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "921",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "922",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "923",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "924",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "925",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "926",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "927",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "928",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "929",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "930",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "931",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "932",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "933",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "934",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "935",
+    "name": "+2 Att vs shield {Wpn: #flail}"
+  },
+  {
+    "number": "936",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "937",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "938",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "939",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "940",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "941",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "942",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "943",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "944",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "945",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "946",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "947",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "948",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "949",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "950",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "951",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "952",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "953",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "954",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "955",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "956",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "957",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "958",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "959",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "960",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "961",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "962",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "963",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "964",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "965",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "966",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "967",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "968",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "969",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "970",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "971",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "972",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "973",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "974",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "975",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "976",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "977",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "978",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "979",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "980",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "981",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "982",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "983",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "984",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "985",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "986",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "987",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "988",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "989",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "990",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "991",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "992",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "993",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "994",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "995",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "996",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "997",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "998",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "999",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "1000",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "1125",
+    "name": "<Unknown Attribute>"
+  },
+  {
+    "number": "1700",
+    "name": "Underwater summon"
+  },
+  {
+    "number": "1701",
+    "name": "Cold summon"
+  },
+  {
+    "number": "1702",
+    "name": "<Unknown Attribute>"
+  }
+]
