@@ -8,7 +8,7 @@ Full list of known commands and information about it. As well as auto formated s
 ![Auto Complete & Snippets](examples/autocompleteexample.png)
 
 
-Addtional details including relevent tables for some keywords. Will add more in the future
+Addtional details including relevent tables for some keywords. Will add more in the future.
 ![Hover Details](examples/hoverexample.png)
 
 Error checking for illegal values and missing #end commands.
@@ -27,11 +27,11 @@ There's missing diagnostics and some are intentionally disabled due to needing s
 
 There is likely errors in my data for all the commands. I did a lot of scraping and regex instead of going through it by hand. If you catch any and are feeling extra generous please fix and submit a pull request. Or if not and it's small just let me know via discord @zegma and I can include the fix in during an update. 
 
-### 2.0.1
+### 2.0.2
 
 Updated to support dom6 mods. Lots of new commands and increased ranges for existing ones. 
 
-Added Bless commands
+Added Bless commands & end check
 
 ### Credits
 I wanted to highlight [djmcgill](https://github.com/djmcgill/vscode-syntax-highlighting-dominions-5-) for creating a syntax highlighting tool years ago. Used that for a while and the decided I wanted to improve on that base. 
