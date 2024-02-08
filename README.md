@@ -14,21 +14,24 @@ Addtional details including relevent tables for some keywords. Will add more in 
 Error checking for illegal values and missing #end commands.
 
 If you refernce a vanilla asset such as with #selectarmor, if you hover over the value it will give you details of what armor you are selecting. 
+![ArmorExample](examples/armorexample.png)
  
 
 ## Known Issues
 
 I'm sure there's a handful. Just undocumented so far. See below.
-
+There's missing diagnostics and some are intentionally disabled due to needing some refactoring to account for edge cases. 
 + Copy Sprite hover will always show monster details regardless if its in an item's section. 
 
 ## Release Notes
 
 There is likely errors in my data for all the commands. I did a lot of scraping and regex instead of going through it by hand. If you catch any and are feeling extra generous please fix and submit a pull request. Or if not and it's small just let me know via discord @zegma and I can include the fix in during an update. 
 
-### 2.0.0
+### 2.0.1
 
 Updated to support dom6 mods. Lots of new commands and increased ranges for existing ones. 
+
+Added Bless commands
 
 ### Credits
 I wanted to highlight [djmcgill](https://github.com/djmcgill/vscode-syntax-highlighting-dominions-5-) for creating a syntax highlighting tool years ago. Used that for a while and the decided I wanted to improve on that base. 

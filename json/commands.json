@@ -5334,5 +5334,34 @@
   {
     "Friendly name": "mag_glamour",
     "description": "Gives active commander Glamour magic."
+  },
+  {
+    "Friendly name": "selectbless",
+    "description": "Selects an existing blessing that will be affected by the following modding commands. End modding this blessing with the #end command"
+  },
+  {
+    "Friendly name": "path0",
+    "description": "The path (0-8) required to choose this blessing."
+  },
+  {
+    "Friendly name": "cost0",
+    "description": "The minimum skill required in path0 and also the cost in bless points."
+  },
+  {
+    "Friendly name": "path1",
+    "description": "An optional secondary path requirement."
+  },
+  {
+    "Friendly name": "cost1",
+    "description": "The minimum skill required in path0 and also the cost in bless points."
+  },
+  {
+    "Friendly name": "clearscales",
+    "description": "Clear the scale requirements."
+  },
+  {
+    "Friendly name": "clearfx",
+    "description": "Clear all effects of this bless"
   }
+  
 ]

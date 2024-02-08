@@ -9334,5 +9334,56 @@
             "#mag_glamour"
         ],
         "description": "Gives active commander Glamour magic."
+    },
+    "#selectbless": {
+        "prefix": "#selectbless",
+        "body": [
+            "#selectbless \"<NAME>\" | <ID>",
+            "",
+            "#end"
+        ],
+        "description": "Selects an existing blessing that will be affected by the following modding commands. End modding this blessing with the #end command."
+    },
+    "#path0": {
+        "prefix": "#path0",
+        "body": [
+            "#path0"
+        ],
+        "description": "The path (0-8) required to choose this blessing."
+    },
+    "#cost0": {
+        "prefix": "#cost0",
+        "body": [
+            "#cost0"
+        ],
+        "description": "The minimum skill required in path0 and also the cost in bless points."
+    },
+    "#path1": {
+        "prefix": "#path1",
+        "body": [
+            "#path1"
+        ],
+        "description": "An optional secondary path requirement."
+    },
+    "#cost1": {
+        "prefix": "#cost1",
+        "body": [
+            "#cost1"
+        ],
+        "description": "The minimum skill required in path1 and also added to the cost in bless points"
+    },
+    "#clearscales": {
+        "prefix": "#clearscales",
+        "body": [
+            "#clearscales"
+        ],
+        "description": "Clear the scale requirements."
+    },
+    "#clearfx": {
+        "prefix": "#clearfx",
+        "body": [
+            "#clearfx"
+        ],
+        "description": "Clear all effects of this bless."
     }
 }

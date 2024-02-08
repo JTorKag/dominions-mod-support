@@ -25,3 +25,7 @@ Fixed bug with float numbers diagnostics not ignoring strings and comments.
 Updated to support d6 commands
 Added more diagnostic checks
 Added better snippets support loading and displaying some associated tables. 
+
+### [2.0.1]
+
+Added Bless modding commands

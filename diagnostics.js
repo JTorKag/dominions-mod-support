@@ -426,6 +426,12 @@ checkTwoCustomRangeValues(lines, diagnostics, command, minValueSet1, maxValueSet
         this.checkCustomRangeValues(lines, diagnostics, "#enchrebate50", 0, 101);
         this.checkCustomRangeValues(lines, diagnostics, "#enchrebate25p", 0, 101);
         this.checkCustomRangeValues(lines, diagnostics, "#enchrebate50p", 0, 101);
+/*      These all need revision because the trailing number is being counted as the value for the command.
+        this.checkCustomRangeValues(lines, diagnostics, "#path0", 0, 8);
+        this.checkCustomRangeValues(lines, diagnostics, "#cost0", 1, 10);
+        this.checkCustomRangeValues(lines, diagnostics, "#path1", 0, 8);
+        this.checkCustomRangeValues(lines, diagnostics, "#cost1", 1, 10);
+         */
         
         diagnosticCollection.set(document.uri, diagnostics);
     }
