@@ -19,3 +19,9 @@ Added diagnostics and some error correction. As well as a lot of strcutural chan
 ### [1.1.1]
 
 Fixed bug with float numbers diagnostics not ignoring strings and comments. 
+
+### [2.0.0]
+
+Updated to support d6 commands
+Added more diagnostic checks
+Added better snippets support loading and displaying some associated tables. 
