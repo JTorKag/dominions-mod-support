@@ -1,0 +1,42 @@
+[
+  {
+    "Nbr": "1",
+    "Realm": "North"
+  },
+  {
+    "Nbr": "2",
+    "Realm": "Celtic"
+  },
+  {
+    "Nbr": "3",
+    "Realm": "Mediterranean"
+  },
+  {
+    "Nbr": "4",
+    "Realm": "Far East"
+  },
+  {
+    "Nbr": "5",
+    "Realm": "Middle East"
+  },
+  {
+    "Nbr": "6",
+    "Realm": "Middle America"
+  },
+  {
+    "Nbr": "7",
+    "Realm": "Africa"
+  },
+  {
+    "Nbr": "8",
+    "Realm": "India"
+  },
+  {
+    "Nbr": "9",
+    "Realm": "Deeps"
+  },
+  {
+    "Nbr": "10",
+    "Realm": "Default"
+  }
+]

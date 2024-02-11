@@ -1,0 +1,30 @@
+[
+  {
+    "Mask": "1",
+    "Era": "Early era"
+  },
+  {
+    "Mask": "2",
+    "Era": "Middle era"
+  },
+  {
+    "Mask": "3",
+    "Era": "Early + middle"
+  },
+  {
+    "Mask": "4",
+    "Era": "Late era"
+  },
+  {
+    "Mask": "5",
+    "Era": "Early + late"
+  },
+  {
+    "Mask": "6",
+    "Era": "Middle + late"
+  },
+  {
+    "Mask": "7",
+    "Era": "All eras"
+  }
+]

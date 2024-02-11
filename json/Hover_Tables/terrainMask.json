@@ -1,0 +1,62 @@
+[
+  {
+    "Nbr": "0",
+    "Terrain": "Plains"
+  },
+  {
+    "Nbr": "1",
+    "Terrain": "Small Province"
+  },
+  {
+    "Nbr": "2",
+    "Terrain": "Large Province"
+  },
+  {
+    "Nbr": "4",
+    "Terrain": "Sea"
+  },
+  {
+    "Nbr": "8",
+    "Terrain": "Freshwater"
+  },
+  {
+    "Nbr": "16",
+    "Terrain": "Mountain"
+  },
+  {
+    "Nbr": "32",
+    "Terrain": "Swamp"
+  },
+  {
+    "Nbr": "64",
+    "Terrain": "Waste"
+  },
+  {
+    "Nbr": "128",
+    "Terrain": "Forest"
+  },
+  {
+    "Nbr": "256",
+    "Terrain": "Farm"
+  },
+  {
+    "Nbr": "512",
+    "Terrain": "Nostart"
+  },
+  {
+    "Nbr": "1024",
+    "Terrain": "Many Sites"
+  },
+  {
+    "Nbr": "2048",
+    "Terrain": "Deep Sea"
+  },
+  {
+    "Nbr": "4096",
+    "Terrain": "Cave"
+  },
+  {
+    "Nbr": "4194304",
+    "Terrain": "Border Mountain"
+  }
+]

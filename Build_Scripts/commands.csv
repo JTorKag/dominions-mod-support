@@ -489,7 +489,7 @@ gainmark,One commander determined by target requirements gains one level of horr
 gcost,The cost in gold. Most human troops have a gold cost of 10.
 gemloss,"Lose 3d6 gems of specified type. Gem type 53 can be used for all types, then 1d6 will be lost of each type of gem. Use gem type 56 to exclude blood slaves."
 gemprod,This monster produces a number of magic gems each month. The type ranges from 0 (fire gems) to 7 (blood slaves). See table Magic path numbers.
-gems,Gives gem income to the magic site. First value is the Path and should be a number between 0 and 7. The second is the amount up to 99. See table magic paths numbers.
+gems,Gives gem income to the magic site. First value is the Path and should be a number between 0 and 8. The second is the amount up to 99. See table magic paths numbers.
 ghostreanim,"Reanimating priest of this nation will create ghosts like Lemuria.  NOTE, Caelian Atlantian Jotun Rephaite and monkey undead are hard coded for their respective nations and their reanimation cannot be unlocked for modding using reanimation commands.  National Reanimation Lists Use the various monster summoning commands such as #makemonsters15 with a #montag value to create custom reanimation lists for those priests that need it.  18 Poptype Modding Use these commands to mod poptypes."
 giftofwater,A commander with this ability is able to bring a number of units underwater with him as long as their combined size points do not exceed the value of this ability.
 glamourboost,One commander determined by target requirements or the monster number may gain +1 Glamour magic.
@@ -574,7 +574,7 @@ incdom,Increases dominion in the province by  candles.
 incorporate,The monster incorporates any swallowed creatures as a part of itself. Swallowed creatures take damage every combat round until dead or until the monster that swallowed them is killed.  The monster that incorporates them heals a number of hit points equal to damage inflicted every combat round.
 incpop,Province population increases by this amount +/- 25%.
 incprovdef,The monster is good at organizing province defenses. PD is increased by
-incscale,Increases the specified scale in the province by one step.
+incscale,Increases the selected scale by one point per turn to a maximum of -3 / 3. This command functions as #decscale for the opposite scales.
 incscale2,Increases the specified scale in the province by two steps.
 incscale3,Increases the specified scale in the province by three steps.
 incunrest,The monster will increase or decrease unrest at his location. The value divided by 10 is the amount increased per month. A negative can be used to decrease unrest instead.
@@ -1335,7 +1335,7 @@ woodenweapon,The weapon is made of wood.
 worldage,Everyone in the world ages this many years. Negative numbers reduce age.
 worldcurse,Every unit in the world has a  chance of being cursed.
 worlddarkness,The entire world is covered in darkness for this turn.
-worlddecscale,Decreases the specified scale in every province in the world by one step.
+worlddecscale,Decreases the selected scale by one point per turn to a maximum of -3 / 3. This command functions as #incscale for the opposite scales.
 worlddecscale2,Decreases the specified scale in every province in the world by two steps.
 worlddecscale3,Decreases the specified scale in every province in the world by three steps.
 worlddisease,Every unit in the world has a  chance of becoming diseased.

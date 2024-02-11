@@ -1,0 +1,42 @@
+[
+  {
+    "Number": "128",
+    "Magic Path": "Fire"
+  },
+  {
+    "Number": "256",
+    "Magic Path": "Air"
+  },
+  {
+    "Number": "512",
+    "Magic Path": "Water"
+  },
+  {
+    "Number": "1024",
+    "Magic Path": "Earth"
+  },
+  {
+    "Number": "2048",
+    "Magic Path": "Astral"
+  },
+  {
+    "Number": "4096",
+    "Magic Path": "Death"
+  },
+  {
+    "Number": "8192",
+    "Magic Path": "Nature"
+  },
+  {
+    "Number": "16384",
+    "Magic Path": "Glamour"
+  },
+  {
+    "Number": "32768",
+    "Magic Path": "Blood"
+  },
+  {
+    "Number": "65536",
+    "Magic Path": "Priest"
+  }
+]

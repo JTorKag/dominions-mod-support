@@ -14,6 +14,7 @@ Addtional details including relevent tables for some keywords. Will add more in 
 Error checking for illegal values and missing #end commands.
 
 If you refernce a vanilla asset such as with #selectarmor, if you hover over the value it will give you details of what armor you are selecting. 
+
 ![ArmorExample](examples/armorexample.png)
  
 
@@ -27,11 +28,9 @@ There's missing diagnostics and some are intentionally disabled due to needing s
 
 There is likely errors in my data for all the commands. I did a lot of scraping and regex instead of going through it by hand. If you catch any and are feeling extra generous please fix and submit a pull request. Or if not and it's small just let me know via discord @zegma and I can include the fix in during an update. 
 
-### 2.0.2
+### 2.0.3
 
-Updated to support dom6 mods. Lots of new commands and increased ranges for existing ones. 
-
-Added Bless commands & end check
+Added addtional missing dom6 commands and added addtional hover tables and value results. Ex. #gems 
 
 ### Credits
 I wanted to highlight [djmcgill](https://github.com/djmcgill/vscode-syntax-highlighting-dominions-5-) for creating a syntax highlighting tool years ago. Used that for a while and the decided I wanted to improve on that base. 
@@ -40,7 +39,7 @@ Thanks [logg-y](https://github.com/Logg-y) for the list of mod manual missing co
 
 Thanks [larzm42](https://github.com/larzm42/dom5inspector) for raw game data.
 
-General thanks to all the folks in the [Dom5 Modding Discord](https://discord.gg/4nX6bHPP). Plenty of help when getting clarification of mechanics to provide more accurate information in this extension. 
+General thanks to all the folks in the [Dom Modding Discord](https://discord.gg/4nX6bHPP). Plenty of help when getting clarification of mechanics to provide more accurate information in this extension. 
 
 ### ToDO
 

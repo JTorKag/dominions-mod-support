@@ -1,0 +1,62 @@
+[
+  {
+    "Nbr": "-1",
+    "Magic Path": "None"
+  },
+  {
+    "Nbr": "0",
+    "Magic Path": "Fire"
+  },
+  {
+    "Nbr": "1",
+    "Magic Path": "Air"
+  },
+  {
+    "Nbr": "2",
+    "Magic Path": "Water"
+  },
+  {
+    "Nbr": "3",
+    "Magic Path": "Earth"
+  },
+  {
+    "Nbr": "4",
+    "Magic Path": "Astral"
+  },
+  {
+    "Nbr": "5",
+    "Magic Path": "Death"
+  },
+  {
+    "Nbr": "6",
+    "Magic Path": "Nature"
+  },
+  {
+    "Nbr": "7",
+    "Magic Path": "Glamour"
+  },
+  {
+    "Nbr": "8",
+    "Magic Path": "Blood"
+  },
+  {
+    "Nbr": "9",
+    "Magic Path": "Priest"
+  },
+  {
+    "Nbr": "50",
+    "Magic Path": "Random"
+  },
+  {
+    "Nbr": "51",
+    "Magic Path": "Elemental"
+  },
+  {
+    "Nbr": "52",
+    "Magic Path": "Sorcery"
+  },
+  {
+    "Nbr": "53",
+    "Magic Path": "All (not priest)"
+  }
+]

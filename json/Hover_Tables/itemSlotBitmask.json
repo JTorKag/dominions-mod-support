@@ -1,0 +1,62 @@
+[
+  {
+    "Mask": "1",
+    "Item Slots": "No slots"
+  },
+  {
+    "Mask": "2",
+    "Item Slots": "1 hand"
+  },
+  {
+    "Mask": "6",
+    "Item Slots": "2 hands"
+  },
+  {
+    "Mask": "14",
+    "Item Slots": "3 hands"
+  },
+  {
+    "Mask": "30",
+    "Item Slots": "4 hands"
+  },
+  {
+    "Mask": "126",
+    "Item Slots": "6 hands"
+  },
+  {
+    "Mask": "512",
+    "Item Slots": "1 bow"
+  },
+  {
+    "Mask": "8192",
+    "Item Slots": "1 head"
+  },
+  {
+    "Mask": "24576",
+    "Item Slots": "2 heads"
+  },
+  {
+    "Mask": "65536",
+    "Item Slots": "1 body"
+  },
+  {
+    "Mask": "131072",
+    "Item Slots": "1 feet"
+  },
+  {
+    "Mask": "262144",
+    "Item Slots": "1 misc"
+  },
+  {
+    "Mask": "786432",
+    "Item Slots": "2 miscs"
+  },
+  {
+    "Mask": "1835008",
+    "Item Slots": "3 miscs"
+  },
+  {
+    "Mask": "3932160",
+    "Item Slots": "4 miscs"
+  }
+]

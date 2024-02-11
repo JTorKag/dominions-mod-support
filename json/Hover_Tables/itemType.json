@@ -1,0 +1,38 @@
+[
+  {
+    "Nbr": "1",
+    "Item Type": "1-handed Weapon"
+  },
+  {
+    "Nbr": "2",
+    "Item Type": "2-handed Weapon"
+  },
+  {
+    "Nbr": "3",
+    "Item Type": "Missile Weapon"
+  },
+  {
+    "Nbr": "4",
+    "Item Type": "Shield"
+  },
+  {
+    "Nbr": "5",
+    "Item Type": "Body Armor"
+  },
+  {
+    "Nbr": "6",
+    "Item Type": "Helmet"
+  },
+  {
+    "Nbr": "7",
+    "Item Type": "Boots"
+  },
+  {
+    "Nbr": "8",
+    "Item Type": "Misc Item"
+  },
+  {
+    "Nbr": "9",
+    "Item Type": "Crown"
+  }
+]

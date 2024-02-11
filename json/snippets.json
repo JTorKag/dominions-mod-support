@@ -4071,7 +4071,7 @@
     "body": [
       "#incscale"
     ],
-    "description": "Increases the specified scale in the province by one step."
+    "description": "Increases the selected scale by one point per turn to a maximum of -3 / 3. This command functions as #decscale for the opposite scales."
   },
   "#incscale2": {
     "prefix": "#incscale2",
@@ -9438,7 +9438,7 @@
     "body": [
       "#worlddecscale"
     ],
-    "description": "Decreases the specified scale in every province in the world by one step."
+    "description": "Decreases the selected scale by one point per turn to a maximum of -3 / 3. This command functions as #incscale for the opposite scales."
   },
   "#worlddecscale2": {
     "prefix": "#worlddecscale2",

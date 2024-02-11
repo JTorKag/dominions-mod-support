@@ -33,3 +33,7 @@ Added Bless modding commands
 ### [2.0.2]
 
 Added #end check for bless modding
+
+### [2.0.3]
+
+Added addtional missing d6 commands and added addtional hover tables and value results

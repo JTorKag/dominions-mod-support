@@ -1,0 +1,46 @@
+[
+  {
+    "Mask": "1",
+    "Terrain": "Plain"
+  },
+  {
+    "Mask": "2",
+    "Terrain": "Forest"
+  },
+  {
+    "Mask": "4",
+    "Terrain": "Mountain"
+  },
+  {
+    "Mask": "8",
+    "Terrain": "Waste"
+  },
+  {
+    "Mask": "16",
+    "Terrain": "Farm"
+  },
+  {
+    "Mask": "32",
+    "Terrain": "Sea"
+  },
+  {
+    "Mask": "64",
+    "Terrain": "Coast"
+  },
+  {
+    "Mask": "128",
+    "Terrain": "Swamp"
+  },
+  {
+    "Mask": "256",
+    "Terrain": "Deep sea"
+  },
+  {
+    "Mask": "512",
+    "Terrain": "Cave"
+  },
+  {
+    "Mask": "16384",
+    "Terrain": "unique"
+  }
+]

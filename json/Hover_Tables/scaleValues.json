@@ -1,0 +1,32 @@
+[
+  {
+    "Nbr": "0",
+    "Scale": "Turmoil",
+    "Opposite": "Order"
+  },
+  {
+    "Nbr": "1",
+    "Scale": "Sloth",
+    "Opposite": "Productivity"
+  },
+  {
+    "Nbr": "2",
+    "Scale": "Cold",
+    "Opposite": "Heat"
+  },
+  {
+    "Nbr": "3",
+    "Scale": "Death",
+    "Opposite": "Growth"
+  },
+  {
+    "Nbr": "4",
+    "Scale": "Misfortune",
+    "Opposite": "Luck"
+  },
+  {
+    "Nbr": "5",
+    "Scale": "Drain",
+    "Opposite": "Magic"
+  }
+]

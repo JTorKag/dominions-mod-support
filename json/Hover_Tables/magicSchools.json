@@ -1,0 +1,38 @@
+[
+  {
+    "Nbr": "-1",
+    "School": "cannot be researched"
+  },
+  {
+    "Nbr": "0",
+    "School": "Conjuration"
+  },
+  {
+    "Nbr": "1",
+    "School": "Alteration"
+  },
+  {
+    "Nbr": "2",
+    "School": "Evocation"
+  },
+  {
+    "Nbr": "3",
+    "School": "Construction"
+  },
+  {
+    "Nbr": "4",
+    "School": "Enchantment"
+  },
+  {
+    "Nbr": "5",
+    "School": "Thaumaturgy"
+  },
+  {
+    "Nbr": "6",
+    "School": "Blood"
+  },
+  {
+    "Nbr": "7",
+    "School": "Divine"
+  }
+]

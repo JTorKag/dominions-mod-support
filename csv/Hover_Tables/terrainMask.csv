@@ -1,0 +1,16 @@
+Nbr,Terrain
+0,Plains
+1,Small Province
+2,Large Province
+4,Sea
+8,Freshwater
+16,Mountain
+32,Swamp
+64,Waste
+128,Forest
+256,Farm
+512,Nostart
+1024,Many Sites
+2048,Deep Sea
+4096,Cave
+4194304,Border Mountain
