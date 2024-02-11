@@ -1,0 +1,91 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Run All Build Tasks",
+        "dependsOrder": "sequence",
+        "dependsOn": [
+          "Run commandsJSON.py",
+          "Run languageJSON.py",
+          "Run needEndJSON.py",
+          "Run snippetsJSON.py",
+          "Run snipTemplates.py"
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        }
+      },
+      {
+        "label": "Run commandsJSON.py",
+        "type": "shell",
+        "command": "python",
+        "args": [
+          "${workspaceFolder}/Build_Scripts/commandsJSON.py",
+          "${workspaceFolder}/Build_Scripts/commands.csv",
+          "${workspaceFolder}/json/commands.json"
+        ],
+        "options": {
+          "cwd": "${workspaceFolder}"
+        },
+        "problemMatcher": []
+      },
+      {
+        "label": "Run languageJSON.py",
+        "type": "shell",
+        "command": "python",
+        "args": [
+          "${workspaceFolder}/Build_Scripts/languageJSON.py",
+          "${workspaceFolder}/Build_Scripts/commands.csv",
+          "${workspaceFolder}/syntaxes/dominionsmod.tmLanguage.json"
+        ],
+        "options": {
+          "cwd": "${workspaceFolder}"
+        },
+        "problemMatcher": []
+      },
+      {
+        "label": "Run needEndJSON.py",
+        "type": "shell",
+        "command": "python",
+        "args": [
+          "${workspaceFolder}/Build_Scripts/needEndJSON.py",
+          "${workspaceFolder}/Build_Scripts/commands.csv",
+          "${workspaceFolder}/json/needEnd.json"
+        ],
+        "options": {
+          "cwd": "${workspaceFolder}"
+        },
+        "problemMatcher": []
+      },
+      {
+        "label": "Run snippetsJSON.py",
+        "type": "shell",
+        "command": "python",
+        "args": [
+          "${workspaceFolder}/Build_Scripts/snippetsJSON.py",
+          "${workspaceFolder}/Build_Scripts/commands.csv",
+          "${workspaceFolder}/json/snippets.json"
+        ],
+        "options": {
+          "cwd": "${workspaceFolder}"
+        },
+        "problemMatcher": []
+      },
+      {
+        "label": "Run snipTemplates.py",
+        "type": "shell",
+        "command": "python",
+        "args": [
+          "${workspaceFolder}/Build_Scripts/snipTemplates.py",
+          "${workspaceFolder}/json/snippets.json",
+          "${workspaceFolder}/Build_Scripts/snippetsTemplate.json"
+        ],
+        "options": {
+          "cwd": "${workspaceFolder}"
+        },
+        "problemMatcher": []
+      }
+    ]
+  }
+  

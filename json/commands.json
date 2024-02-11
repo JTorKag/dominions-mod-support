@@ -1,77 +1,5 @@
 [
   {
-    "Friendly name": "newarmor",
-    "description": "Armor nbr should be a number between 300 and 999. It must not be the same as any other armor. This new armor will be affected by the following modding commands and there should be an #end command at the end."
-  },
-  {
-    "Friendly name": "newevent",
-    "description": "This command creates a new event. All subsequent commands will modify this event until modding the event is finished with the #end command."
-  },
-  {
-    "Friendly name": "newitem",
-    "description": "Creates a new magic item and selects it for modding by the following commands. End modding the magic item with the #end command."
-  },
-  {
-    "Friendly name": "newmerc",
-    "description": "Creates a new mercenary band. Always end modifying it with an #end command."
-  },
-  {
-    "Friendly name": "newmonster",
-    "description": "Monster nbr should be a number between 3500 and 8999. It must not be the same as any other monster. This new monster will be affected by the following modding commands and there should be an #end command at the end. It is not necessary to set a monster number when creating a new monster. It is not recommended to use a monster number with monsters that have unique names like Sorceress of the Sacred Fire because that will reduce the risk of conflicts between mods. If a monster number is not used, Dominions will automatically use the first free number from 3500+ for the monster. In this instance all references to the monster in other modding (such as spells or magic sites) must be by name. Using lower hard coded numbers later in the mod may overwrite the number initially assigned by a numberless #newmonster command."
-  },
-  {
-    "Friendly name": "newnation",
-    "description": "This command can be used to add a new nation instead of #selectnation. The command automatically uses the first free nation number of 120 or higher that is available. Always use #end command at the end of modifying a nation."
-  },
-  {
-    "Friendly name": "newsite",
-    "description": "Site nbr (optional) should be a number between 1500 and 1998. It must not be the same as any other site. This new site will be affected by the following modding commands and there should be an #end command at the end."
-  },
-  {
-    "Friendly name": "newspell",
-    "description": "Creates a new spell and selects it for modding by the following commands. End creating the spell with the #end command."
-  },
-  {
-    "Friendly name": "newweapon",
-    "description": "Weapon number for new weapons should be a number between 800 and 1999. It must not be the same as any other weapon. This new weapon will be affected by the following modding commands and there should be an #end command at the end."
-  },
-  {
-    "Friendly name": "selectarmor",
-    "description": "Selects the armor that will be affected by the following modding commands. End modding this armor with the #end command. To find out what the number of a particular unit’s armor, look at the unit’s stats in the game and press ctrl+i."
-  },
-  {
-    "Friendly name": "selectitem",
-    "description": "Selects the magic item that will be affected by the following modding commands. End modding this item with the #end command. In the game you can press shift+i when viewing a magic item to see what number it has. Use numbers 500 – 999 for modding."
-  },
-  {
-    "Friendly name": "selectnametype",
-    "description": "Selects the nametype that will be affected by the following modding commands. Nametype nbr is a number between 100 and 200. See hover for nametype table. Numbers 127 and 128 as well as numbers 165 – 299 can be used to make your own name tables without altering existing ones.  Always #end command at the end of modifying a nametype."
-  },
-  {
-    "Friendly name": "selectmonster",
-    "description": "Selects the monster that will be affected by the following modding commands. End modding this unit with the #end command. To find out what number a particular unit has, look at his stats in the game and press ctrl+i."
-  },
-  {
-    "Friendly name": "selectnation",
-    "description": "Selects the nation that will be affected by the following modding commands. End modding this nation with the #end command. Nation number is a number between 5 and 249. See hover tables for currently used numbers.  Always #end command at the end of modifying a nametype.You can use number 120 to 249 in order to create new nations without overwriting an existing one. Numbers 0 – 4 are used for various independents and temporary monsters in the game and cannot be used for modding. Always #end command at the end of modifying a nametype."
-  },
-  {
-    "Friendly name": "selectpoptype",
-    "description": "Selects the poptype that will be affected by the following modding commands. See hover table for poptype numbers. End modding this poptype with the #end command."
-  },
-  {
-    "Friendly name": "selectsite",
-    "description": "Selects the magic site that will be affected by the following modding commands. End modding this site with the #end command."
-  },
-  {
-    "Friendly name": "selectspell",
-    "description": "Selects an existing spell that will be affected by the following modding commands. End modding this spell with the #end command."
-  },
-  {
-    "Friendly name": "selectweapon",
-    "description": "Selects the weapon that will be affected by the following modding commands. End modding this weapon with the #end command. To find out the numbers of a particular unit’s weapons, look at the unit’s stats in the game and press ctrl+i."
-  },
-  {
     "Friendly name": "10d6units",
     "description": "The nation that owns the event gains 10d6 units."
   },
@@ -284,6 +212,10 @@
     "description": "Hint to AI that Fire magic is used a lot in this nation and that a fire god is probably good."
   },
   {
+    "Friendly name": "aiglamournation",
+    "description": "Hint to AI that Glamour magic is used a lot in this nation and that an air god is probably good."
+  },
+  {
     "Friendly name": "aigoodbless",
     "description": "Use to increase the chance of creating a powerful bless. 100=only do gods with a powerful bless effects for this nation."
   },
@@ -322,6 +254,10 @@
   {
     "Friendly name": "airboost",
     "description": "One commander determined by target requirements or the monster number may gain +1 Air magic."
+  },
+  {
+    "Friendly name": "airelementals",
+    "description": "Please let me know if you know what this does."
   },
   {
     "Friendly name": "airrange",
@@ -426,6 +362,10 @@
   {
     "Friendly name": "assassin",
     "description": "An assassin of this type attacks a random commander in the province. If a target requirement for the event is set, the assassin attacks that commander."
+  },
+  {
+    "Friendly name": "assencloc",
+    "description": "Specifies an encounter location that the assassinations will appear in. If not specified, a suitable one for each occasion will be used. Possible values can be seen below."
   },
   {
     "Friendly name": "assowner",
@@ -772,6 +712,10 @@
     "description": "Only one third of the weapon wielders strength will be added to the damage. This is normally used for missile weapons like bows."
   },
   {
+    "Friendly name": "bravemount",
+    "description": "The chance of the mount remaining on the battlefield and continuing to fight. Default is 0"
+  },
+  {
     "Friendly name": "brief",
     "description": "A very brief description for popups."
   },
@@ -818,6 +762,14 @@
   {
     "Friendly name": "cavecom",
     "description": "This commander can be recruited in cave provinces with or without fort. See the box below for all command names."
+  },
+  {
+    "Friendly name": "cavefortcom",
+    "description": "This unit can be recruited in (terrain) provinces with a fort. "
+  },
+  {
+    "Friendly name": "cavefortrec",
+    "description": "This unit can be recruited in (terrain) provinces with a fort. "
   },
   {
     "Friendly name": "cavenation",
@@ -892,6 +844,10 @@
     "description": "Clears province defence units from the poptype."
   },
   {
+    "Friendly name": "clearfx",
+    "description": "Clear all effects of this bless"
+  },
+  {
     "Friendly name": "cleargods",
     "description": "Clears the list of pretender gods for this nation. The #clearnation command also does this. This command does not clear homerealm but #clearnation does. Homerealm gods must be removed with the #delgod command."
   },
@@ -910,6 +866,10 @@
   {
     "Friendly name": "clearrec",
     "description": "Clears the recruitment list of all units and commanders."
+  },
+  {
+    "Friendly name": "clearscales",
+    "description": "Clear the scale requirements."
   },
   {
     "Friendly name": "clearsites",
@@ -938,6 +898,14 @@
   {
     "Friendly name": "coastcom2",
     "description": "Add a unit to the list of recruitable commanders for this nation in coastal forts only."
+  },
+  {
+    "Friendly name": "coastfortcom",
+    "description": "This unit can be recruited in (terrain) provinces with a fort. "
+  },
+  {
+    "Friendly name": "coastfortrec",
+    "description": "This unit can be recruited in (terrain) provinces with a fort. "
   },
   {
     "Friendly name": "coastnation",
@@ -1076,12 +1044,24 @@
     "description": "Copies all stats from an existing weapon. This command will overwrite all stats for the selected weapon so it should be used as the first command after the #newweapon command."
   },
   {
+    "Friendly name": "coridermnr",
+    "description": "Use this to set the type of co-riders if any. Unless there are more than one rider on the same mount there is no need for this command."
+  },
+  {
     "Friendly name": "corpseeater",
     "description": "The monster will eat this amount of corpses per month if possible and gain HP for it equal to the value in #deadhp."
   },
   {
     "Friendly name": "corpselord",
     "description": "This monster will receive extra units when creating Corpse Men. This ability will not be visible when inspecting the monster."
+  },
+  {
+    "Friendly name": "cost0",
+    "description": "The minimum skill required in path0 and also the cost in bless points."
+  },
+  {
+    "Friendly name": "cost1",
+    "description": "The minimum skill required in path0 and also the cost in bless points."
   },
   {
     "Friendly name": "crippled",
@@ -1164,6 +1144,10 @@
     "description": "The monster erupts in a fiery explosion when it dies inflicting 10 AP fire damage to everyone in the area of effect."
   },
   {
+    "Friendly name": "deathgrab",
+    "description": "The monster erupts in a earth grip explosion when it dies, inflicting earth grip to everyone in the area of effect."
+  },
+  {
     "Friendly name": "deathincome",
     "description": "The effect death and growth has on income. Default is 2."
   },
@@ -1184,6 +1168,14 @@
     "description": "The monster is cheaper to recruit if there are Death scales in the province. Works identically to #chaosrec. Growth scales do not affect the price."
   },
   {
+    "Friendly name": "deathshock",
+    "description": "The monster erupts in a shock explosion when it dies, inflicting capped 1 AN shock damage to everyone in the area of effect."
+  },
+  {
+    "Friendly name": "deathslime",
+    "description": "The monster erupts in a slime explosion when it dies, inflicting slime (water breathers immune) to everyone in the area of effect."
+  },
+  {
     "Friendly name": "deathsupply",
     "description": "The effect death and growth has on supplies. Default is 10."
   },
@@ -1202,6 +1194,14 @@
   {
     "Friendly name": "decunrest",
     "description": "The site decreases unrest in the province. The value can be negative in order to increase unrest."
+  },
+  {
+    "Friendly name": "deepfortcom",
+    "description": "This unit can be recruited in (terrain) provinces with a fort. "
+  },
+  {
+    "Friendly name": "deepfortrec",
+    "description": "This unit can be recruited in (terrain) provinces with a fort. "
   },
   {
     "Friendly name": "def",
@@ -1240,6 +1240,10 @@
     "description": "Sets the default value of the misfortune scale for this nation."
   },
   {
+    "Friendly name": "defmult",
+    "description": "Number of units per 10 points of defense. Default is 10."
+  },
+  {
     "Friendly name": "defmult1",
     "description": "Number of units per 10 points of defense. E.g. __#defmult1 20 will yield 2 units per point of defense which is also the default."
   },
@@ -1266,6 +1270,10 @@
   {
     "Friendly name": "defsloth",
     "description": "Sets the default value of the sloth scale for this nation."
+  },
+  {
+    "Friendly name": "defunit",
+    "description": "Extra units for province defense. This will be in addition to the normal defence."
   },
   {
     "Friendly name": "defunit1",
@@ -1318,14 +1326,6 @@
   {
     "Friendly name": "demononly",
     "description": "The weapon only causes affects demons."
-  },
-  {
-    "Friendly name": "demononly",
-    "description": "The weapon only causes affects demons."
-  },
-  {
-    "Friendly name": "demonundead",
-    "description": "The weapon only affects demons and undead."
   },
   {
     "Friendly name": "demonundead",
@@ -1472,6 +1472,18 @@
     "description": "The value indicates how many percent larger size the sprite should be drawn at. A negative value means it will be draw at a smaller size than normal."
   },
   {
+    "Friendly name": "dread",
+    "description": "Fear but negated by True Sight"
+  },
+  {
+    "Friendly name": "dripfortcom",
+    "description": "This unit can be recruited in (terrain) provinces with a fort. "
+  },
+  {
+    "Friendly name": "dripfortrec",
+    "description": "This unit can be recruited in (terrain) provinces with a fort. "
+  },
+  {
     "Friendly name": "dt_aff",
     "description": "Sets the damage type of the weapon to a special effect or affliction. The specific affliction the weapon inflicts is set with the #dmg command so the weapons damage value is interpreted as a bitmask value according to the (affliction table)(#afflictions). The table uses bitmask values meaning powers of 2. The numbers are expressed as powers of 2 because numbers after about 2^20 get very big very quickly."
   },
@@ -1570,6 +1582,10 @@
   {
     "Friendly name": "earthboost",
     "description": "One commander determined by target requirements or the monster number may gain +1 Earth magic."
+  },
+  {
+    "Friendly name": "earthelementals",
+    "description": "Please let me know if you know what this does."
   },
   {
     "Friendly name": "earthrange",
@@ -1676,6 +1692,10 @@
     "description": "The bearer of the item is resurrected once when killed in combat. The item disappears when the bearer is resurrected."
   },
   {
+    "Friendly name": "extralives",
+    "description": "Will get dominion times this value amount of scar souls (extra lives)"
+  },
+  {
     "Friendly name": "eyeloss",
     "description": "Anyone striking this monster may lose an eye."
   },
@@ -1690,6 +1710,18 @@
   {
     "Friendly name": "falsearmy",
     "description": "The monster creates the false impression of greater numbers than there really are. Enemy scouting reports will inflate the size of the army by"
+  },
+  {
+    "Friendly name": "falseregen",
+    "description": "Heals false damage by this amount of points per combat round."
+  },
+  {
+    "Friendly name": "farmfortcom",
+    "description": "This unit can be recruited in (terrain) provinces with a fort. "
+  },
+  {
+    "Friendly name": "farmfortrec",
+    "description": "This unit can be recruited in (terrain) provinces with a fort. "
   },
   {
     "Friendly name": "farsail",
@@ -1746,6 +1778,10 @@
   {
     "Friendly name": "fireboost",
     "description": "One commander determined by target requirements or the monster number may gain +1 Fire magic."
+  },
+  {
+    "Friendly name": "fireelementals",
+    "description": "Please let me know if you know what this does."
   },
   {
     "Friendly name": "firepower",
@@ -1824,16 +1860,20 @@
     "description": "The monster creates the false impression of uniformity in its own army. Enemy scouting reports will perceive the army to only contain one type of troop. The reported troop type is usually the most common troop type present."
   },
   {
-    "Friendly name": "foolscouts",
-    "description": "The monster creates the false impression of uniformity in its own army. Enemy scouting reports will perceive the army to only contain one type of troop. The reported troop type is usually the most common troop type present."
-  },
-  {
     "Friendly name": "foreignshape",
     "description": "The monster changes to this shape when moving out of its home province."
   },
   {
     "Friendly name": "forestcom",
     "description": "This commander can be recruited in forest provinces with or without fort. See the box below for all command names."
+  },
+  {
+    "Friendly name": "forestfortcom",
+    "description": "This unit can be recruited in (terrain) provinces with a fort. "
+  },
+  {
+    "Friendly name": "forestfortrec",
+    "description": "This unit can be recruited in (terrain) provinces with a fort. "
   },
   {
     "Friendly name": "forestlabcost",
@@ -1884,6 +1924,10 @@
     "description": "Unrest will increase by 1-value (open ended die roll) in all forts each month.  These commands are set the special attributes of the nation and its Dominion."
   },
   {
+    "Friendly name": "Friendly name",
+    "description": "description"
+  },
+  {
     "Friendly name": "friendlyench",
     "description": "1 means the enchantment created by this spell is friendly. It will be dispelled automatically if the province is conquered by the enemy."
   },
@@ -1930,6 +1974,14 @@
   {
     "Friendly name": "giftofwater",
     "description": "A commander with this ability is able to bring a number of units underwater with him as long as their combined size points do not exceed the value of this ability."
+  },
+  {
+    "Friendly name": "glamourboost",
+    "description": "One commander determined by target requirements or the monster number may gain +1 Glamour magic."
+  },
+  {
+    "Friendly name": "glamourrange",
+    "description": "Glamour magic cast by the monster have increased range."
   },
   {
     "Friendly name": "goddomchaos",
@@ -2000,12 +2052,24 @@
     "description": "The monster grows into the previous monster once it has this many hit points or more. Hydras use this mechanic."
   },
   {
+    "Friendly name": "guardcom",
+    "description": "Commander that is in charge of the castle gate defenders. There can be multiple of these commands."
+  },
+  {
+    "Friendly name": "guardmulti",
+    "description": "Modifier for the number of castle gate guards from the previous #guardunit command. 10 is the standard amount."
+  },
+  {
     "Friendly name": "guardspirit",
     "description": "Priests of this nation have a chance of receiving a guardian angel when in battle. Nbr can be negative for montags."
   },
   {
     "Friendly name": "guardspiritbonus",
     "description": "Increases the chance of receiving a guardian spirit with +value percent."
+  },
+  {
+    "Friendly name": "guardunit",
+    "description": "Unit type the will guard the gates when the castle is stormed. There can be multiple of these commands, each one should be followed by a #guardmult command. The first gate guard type will also be used as city guards during assassin encounters. If there are no gate guards the first wall unit will be used instead."
   },
   {
     "Friendly name": "halfdeathinc",
@@ -2360,6 +2424,14 @@
     "description": "This monster will receive extra units when summoning Vine Men of different kind."
   },
   {
+    "Friendly name": "kelpfortcom",
+    "description": "This unit can be recruited in (terrain) provinces with a fort. "
+  },
+  {
+    "Friendly name": "kelpfortrec",
+    "description": "This unit can be recruited in (terrain) provinces with a fort. "
+  },
+  {
     "Friendly name": "kill",
     "description": "Kills off a percentage of the province population."
   },
@@ -2386,6 +2458,10 @@
   {
     "Friendly name": "killpop",
     "description": "Kills off a fixed number of province population. One dekapop equals 10 inhabitants. The exact amount varies with +/- 25%."
+  },
+  {
+    "Friendly name": "killtarg",
+    "description": "One commander determined by target requirements is killed. The mount is also killed if any."
   },
   {
     "Friendly name": "knownfeature",
@@ -2524,6 +2600,10 @@
     "description": " Gives active commander Fire magic."
   },
   {
+    "Friendly name": "mag_glamour",
+    "description": "Gives active commander Glamour magic."
+  },
+  {
     "Friendly name": "mag_nature",
     "description": " Gives active commander Nature magic."
   },
@@ -2660,10 +2740,6 @@
     "description": "This melee weapon only has 50% chance of being used."
   },
   {
-    "Friendly name": "melee50",
-    "description": "This melee weapon only has 50% chance of being used."
-  },
-  {
     "Friendly name": "merccost",
     "description": "Mercenaries are this much more expensive. Can be negative."
   },
@@ -2736,8 +2812,40 @@
     "description": "The item grants a morale bonus."
   },
   {
+    "Friendly name": "moregrowth",
+    "description": "Alters the minimum/maximum allowed value of this scale when designing the pretender's dominion."
+  },
+  {
+    "Friendly name": "moreheat",
+    "description": "Alters the minimum/maximum allowed value of this scale when designing the pretender's dominion."
+  },
+  {
+    "Friendly name": "moreluck",
+    "description": "Alters the minimum/maximum allowed value of this scale when designing the pretender's dominion."
+  },
+  {
+    "Friendly name": "moremagic ",
+    "description": "Alters the minimum/maximum allowed value of this scale when designing the pretender's dominion."
+  },
+  {
+    "Friendly name": "moreorder",
+    "description": "Alters the minimum/maximum allowed value of this scale when designing the pretender's dominion."
+  },
+  {
+    "Friendly name": "moreprod",
+    "description": "Alters the minimum/maximum allowed value of this scale when designing the pretender's dominion."
+  },
+  {
     "Friendly name": "mountaincom",
     "description": "This commander can be recruited in mountain provinces with or without fort. See the box below for all command names."
+  },
+  {
+    "Friendly name": "mountainfortcom",
+    "description": "This unit can be recruited in (terrain) provinces with a fort. "
+  },
+  {
+    "Friendly name": "mountainfortrec",
+    "description": "This unit can be recruited in (terrain) provinces with a fort. "
   },
   {
     "Friendly name": "mountainrec",
@@ -2754,6 +2862,14 @@
   {
     "Friendly name": "mountedhumanoid",
     "description": "Regarding hit locations this is the same as humanoid but it removes the boot item slot and is provided for convenience because humanoid cavalry is very common. Use this for cavalry centaurs and similar."
+  },
+  {
+    "Friendly name": "mountiscom",
+    "description": "If this is set to one the mount is also a commander. This command is used for some gods that have divine mounts."
+  },
+  {
+    "Friendly name": "mountmnr",
+    "description": "Use this to give a mount to a rider. The sprite of the unit should be the standard sprite of the rider sitting on his mount."
   },
   {
     "Friendly name": "mr",
@@ -2876,8 +2992,44 @@
     "description": " This command can be used to create a mountain pass or other type of special border between two provinces. Spcnbr indicates a special border types from these values: 0 = standard border"
   },
   {
+    "Friendly name": "newarmor",
+    "description": "Armor nbr should be a number between 300 and 999. It must not be the same as any other armor. This new armor will be affected by the following modding commands and there should be an #end command at the end."
+  },
+  {
     "Friendly name": "newdom ",
     "description": "Changes dominion to that of the event owner and sets it to the level of 1d(value) candles."
+  },
+  {
+    "Friendly name": "newevent",
+    "description": "This command creates a new event. All subsequent commands will modify this event until modding the event is finished with the #end command."
+  },
+  {
+    "Friendly name": "newitem",
+    "description": "Creates a new magic item and selects it for modding by the following commands. End modding the magic item with the #end command."
+  },
+  {
+    "Friendly name": "newmerc",
+    "description": "Creates a new mercenary band. Always end modifying it with an #end command."
+  },
+  {
+    "Friendly name": "newmonster",
+    "description": "Monster nbr should be a number between 3500 and 8999. It must not be the same as any other monster. This new monster will be affected by the following modding commands and there should be an #end command at the end. It is not necessary to set a monster number when creating a new monster. It is not recommended to use a monster number with monsters that have unique names like Sorceress of the Sacred Fire because that will reduce the risk of conflicts between mods. If a monster number is not used, Dominions will automatically use the first free number from 3500+ for the monster. In this instance all references to the monster in other modding (such as spells or magic sites) must be by name. Using lower hard coded numbers later in the mod may overwrite the number initially assigned by a numberless #newmonster command."
+  },
+  {
+    "Friendly name": "newnation",
+    "description": "This command can be used to add a new nation instead of #selectnation. The command automatically uses the first free nation number of 120 or higher that is available. Always use #end command at the end of modifying a nation."
+  },
+  {
+    "Friendly name": "newsite",
+    "description": "Site nbr (optional) should be a number between 1500 and 1998. It must not be the same as any other site. This new site will be affected by the following modding commands and there should be an #end command at the end."
+  },
+  {
+    "Friendly name": "newspell",
+    "description": "Creates a new spell and selects it for modding by the following commands. End creating the spell with the #end command."
+  },
+  {
+    "Friendly name": "newweapon",
+    "description": "Weapon number for new weapons should be a number between 800 and 1999. It must not be the same as any other weapon. This new weapon will be affected by the following modding commands and there should be an #end command at the end."
   },
   {
     "Friendly name": "nextingeo",
@@ -2892,6 +3044,10 @@
     "description": "The item bearer suffers a Never Healing Wound which cannot be healed until the item is removed."
   },
   {
+    "Friendly name": "nightmareaura",
+    "description": "Any nearby enemy units will experience horrible visions and take false damage (1 point) if they fail a magic resistance roll. Mindless beings are immune."
+  },
+  {
     "Friendly name": "noaging",
     "description": "The wielder of this item has a chance of not aging each year."
   },
@@ -2902,6 +3058,10 @@
   {
     "Friendly name": "nobadevents",
     "description": "The monster will reduce the chance of negative events in his current province. The value is the percent chance of negating a possible bad event."
+  },
+  {
+    "Friendly name": "nobarding",
+    "description": "This mount does not have a barding slot. This is used for e.g. the humans that carry a throne with an emperor in it"
   },
   {
     "Friendly name": "nocastmindless",
@@ -2916,12 +3076,24 @@
     "description": "A death scale does not adversely affect supplies. Abysia has this ability."
   },
   {
+    "Friendly name": "nodeepchoice",
+    "description": "Don't generate caves"
+  },
+  {
     "Friendly name": "nodemon",
     "description": "The item cannot be used by demons."
   },
   {
+    "Friendly name": "nofalldmg",
+    "description": "This rider will not take any damage when falling off his mount. This is used for chariot drivers that are always close to the ground"
+  },
+  {
     "Friendly name": "nofind",
     "description": "The item cannot be found after battle."
+  },
+  {
+    "Friendly name": "nofmounts",
+    "description": "Sets the number of mounts that this rider has. The default is one and usually there is no need for this command. But e.g. an emperor with two people carrying his throne needs two mounts"
   },
   {
     "Friendly name": "noforeignrec",
@@ -2930,6 +3102,10 @@
   {
     "Friendly name": "noforgebonus",
     "description": "Dwarven hammers and similar will not grant any rebate when used to create this item."
+  },
+  {
+    "Friendly name": "nofriders",
+    "description": "Sets the number of riders that sits on the same mount. The default is one and usually there is no need for this command. But e.g. a elephant rider that is accomanied by two more people on top of the elephant would need this command with a value of 3"
   },
   {
     "Friendly name": "nogeodst",
@@ -3000,6 +3176,10 @@
     "description": "This monster will never stay put in order to fire. Horrors with range weapons have this ability."
   },
   {
+    "Friendly name": "noremount",
+    "description": "The commander will not be able to reclaim his mount through a reclaim mount order. This is used for certain gods that have divine mounts that must be prayed back"
+  },
+  {
     "Friendly name": "norepel",
     "description": "This weapon cannot be used to repel attacks."
   },
@@ -3038,6 +3218,10 @@
   {
     "Friendly name": "notfornation",
     "description": "Restricts a spell so that it cannot be used by this nation. This command can be used multiple times on the same spell."
+  },
+  {
+    "Friendly name": "nothrowoff",
+    "description": "This mount will not throw off its rider if it routs or gets paralyzed. This is used on mounts that are more important than the rider, e.g. elephants, where the rider will never get off voluntarily in order to fight on the ground."
   },
   {
     "Friendly name": "notmnr",
@@ -3169,7 +3353,15 @@
   },
   {
     "Friendly name": "path",
-    "description": "The path of the spell OR site. \nSpell: First value should be 0 for the first required path and 1 for the second required path. The path nbr should be a number between -1 and 8. \nSite: The first value should be the path."
+    "description": "The path of the spell. Reqnr should be 0 for the first required path and 1 for the second required path. The path nbr should be a number between -1 and 9, see table \"Magic path numbers for spells\"."
+  },
+  {
+    "Friendly name": "path0",
+    "description": "The path (0-8) required to choose this blessing."
+  },
+  {
+    "Friendly name": "path1",
+    "description": "An optional secondary path requirement."
   },
   {
     "Friendly name": "pathboost",
@@ -3376,6 +3568,10 @@
     "description": "The monster can only be recruited in limited numbers. You can only recruit"
   },
   {
+    "Friendly name": "reconst",
+    "description": "Works like regeneration, but only affects inanimate beings."
+  },
+  {
     "Friendly name": "recrate",
     "description": "The rate at which new troops are bought. A value of 100 means one per month."
   },
@@ -3392,12 +3588,20 @@
     "description": " Alters the time taken to reform the immortal\u00e2\u20ac\u2122s body. The standard time is 3 months, use #reformtime -2 if you want the immortal to reappear the next month."
   },
   {
+    "Friendly name": "regainmount",
+    "description": "If this is set to 1 the rider will regain any lost mount(s) for free after the battle"
+  },
+  {
     "Friendly name": "regeneration",
     "description": "The monster regenerates like a troll and heals damage every combat round. The percent value indicates how many percent of its total hit points are regenerated every turn. The standard value for regeneration is 10."
   },
   {
     "Friendly name": "reinvigoration",
     "description": "Reduces the fatigue by points amount every turn in battle. This value can be negative to gain extra fatigue in battle instead. Lower fatigue reduces the chance of the monster suffering critical hits while higher fatigue increases it."
+  },
+  {
+    "Friendly name": "remount",
+    "description": "The commander determined by target requirements regains his mount, should he have lost it."
   },
   {
     "Friendly name": "removesite",
@@ -3700,6 +3904,10 @@
     "description": "There cannot be a Fire mage of this level or higher in the province."
   },
   {
+    "Friendly name": "req_nopathglamour",
+    "description": "There cannot be a Glamour mage of this level or higher in the province"
+  },
+  {
     "Friendly name": "req_nopathholy",
     "description": "There cannot be a Priest of this level or higher in the province."
   },
@@ -3770,6 +3978,10 @@
   {
     "Friendly name": "req_pathfire",
     "description": "There must be a Fire mage of at least this level in the province."
+  },
+  {
+    "Friendly name": "req_pathglamour",
+    "description": "There must be a Glamour mage of at least this level in the province"
   },
   {
     "Friendly name": "req_pathholy",
@@ -4012,6 +4224,18 @@
     "description": "If you figure this one out please tell me so I can add it. "
   },
   {
+    "Friendly name": "reqnoseduce",
+    "description": "Units with the seduce ability cannot cast this spell"
+  },
+  {
+    "Friendly name": "reqnospellsinger",
+    "description": "Units with the spell singing ability cannot cast this spell."
+  },
+  {
+    "Friendly name": "reqnotaskmaster",
+    "description": "Units with the task master ability cannot cast this spell"
+  },
+  {
     "Friendly name": "reqplant",
     "description": "If you figure this one out please tell me so I can add it. "
   },
@@ -4164,6 +4388,14 @@
     "description": "Set the maximum range of the scry ability. If not set a maximum range of 6 provinces will be used."
   },
   {
+    "Friendly name": "seafortcom",
+    "description": "This unit can be recruited in (terrain) provinces with a fort. "
+  },
+  {
+    "Friendly name": "seafortrec",
+    "description": "This unit can be recruited in (terrain) provinces with a fort. "
+  },
+  {
     "Friendly name": "secondarycolor",
     "description": "The animated background is made up of two colors the primary color (from #color) and this one. If the secondary color is not set it will be the same as the primary."
   },
@@ -4194,6 +4426,46 @@
   {
     "Friendly name": "seduce",
     "description": "Gives the monster the ability to seduce like a Nagini. The value indicates the difficulty of the morale check 10 is standard."
+  },
+  {
+    "Friendly name": "selectarmor",
+    "description": "Selects the armor that will be affected by the following modding commands. End modding this armor with the #end command. To find out what the number of a particular unit\u00e2\u20ac\u2122s armor, look at the unit\u00e2\u20ac\u2122s stats in the game and press ctrl+i."
+  },
+  {
+    "Friendly name": "selectbless",
+    "description": "Selects an existing blessing that will be affected by the following modding commands. End modding this blessing with the #end command"
+  },
+  {
+    "Friendly name": "selectitem",
+    "description": "Selects the magic item that will be affected by the following modding commands. End modding this item with the #end command. In the game you can press shift+i when viewing a magic item to see what number it has. Use numbers 500 \u00e2\u20ac\u201c 999 for modding."
+  },
+  {
+    "Friendly name": "selectmonster",
+    "description": "Selects the monster that will be affected by the following modding commands. End modding this unit with the #end command. To find out what number a particular unit has, look at his stats in the game and press ctrl+i."
+  },
+  {
+    "Friendly name": "selectnametype",
+    "description": "Selects the nametype that will be affected by the following modding commands. Nametype nbr is a number between 100 and 200. See hover for nametype table. Numbers 127 and 128 as well as numbers 165 \u00e2\u20ac\u201c 299 can be used to make your own name tables without altering existing ones.  Always #end command at the end of modifying a nametype."
+  },
+  {
+    "Friendly name": "selectnation",
+    "description": "Selects the nation that will be affected by the following modding commands. End modding this nation with the #end command. Nation number is a number between 5 and 249. See hover tables for currently used numbers.  Always #end command at the end of modifying a nametype.You can use number 120 to 249 in order to create new nations without overwriting an existing one. Numbers 0 \u00e2\u20ac\u201c 4 are used for various independents and temporary monsters in the game and cannot be used for modding. Always #end command at the end of modifying a nametype."
+  },
+  {
+    "Friendly name": "selectpoptype",
+    "description": "Selects the poptype that will be affected by the following modding commands. See hover table for poptype numbers. End modding this poptype with the #end command."
+  },
+  {
+    "Friendly name": "selectsite",
+    "description": "Selects the magic site that will be affected by the following modding commands. End modding this site with the #end command."
+  },
+  {
+    "Friendly name": "selectspell",
+    "description": "Selects an existing spell that will be affected by the following modding commands. End modding this spell with the #end command."
+  },
+  {
+    "Friendly name": "selectweapon",
+    "description": "Selects the weapon that will be affected by the following modding commands. End modding this weapon with the #end command. To find out the numbers of a particular unit\u00e2\u20ac\u2122s weapons, look at the unit\u00e2\u20ac\u2122s stats in the game and press ctrl+i."
   },
   {
     "Friendly name": "sethome",
@@ -4242,6 +4514,10 @@
   {
     "Friendly name": "sizeresist",
     "description": "Units that are size 3 or 4 have a chance of resisting the effects of the weapon. Size 5+ units always resist the effects and size 1 and 2 units never resist the effect. Str 15+ also has a chance to resist and Str 35+ always resists."
+  },
+  {
+    "Friendly name": "skilledrider",
+    "description": "A skilled rider will increase the Morale and Defence Skill of his mount. The defence increase is most effective on lightly armored horses as it is reduced by the encumbrance value of the mount's armor. This ability should be given to the rider and not to the mount"
   },
   {
     "Friendly name": "skip",
@@ -4306,6 +4582,10 @@
   {
     "Friendly name": "slowrec",
     "description": "Takes double the amount of commander points to recruit this monster it can only be used on commanders."
+  },
+  {
+    "Friendly name": "smartmount",
+    "description": "The smartness determines the chance for the mount to try to make it home. A smart magical unicorn has smartness 100, a normal horse doesn't have this ability at all."
   },
   {
     "Friendly name": "snake",
@@ -4450,6 +4730,10 @@
   {
     "Friendly name": "startmajoraff",
     "description": "The monster has a chance of starting with a random major affliction."
+  },
+  {
+    "Friendly name": "startresearch",
+    "description": "The amount of start research per magic scale above -3. Default is 50 research points."
   },
   {
     "Friendly name": "startscout",
@@ -4600,6 +4884,14 @@
     "description": "This commander can be recruited in swamp provinces with or without fort. See the box below for all command names."
   },
   {
+    "Friendly name": "swampfortcom",
+    "description": "This unit can be recruited in (terrain) provinces with a fort. "
+  },
+  {
+    "Friendly name": "swampfortrec",
+    "description": "This unit can be recruited in (terrain) provinces with a fort. "
+  },
+  {
     "Friendly name": "swamprec",
     "description": "This unit can be recruited in swamp provinces with or without fort. See the box below for all command names."
   },
@@ -4704,6 +4996,10 @@
     "description": "The monster produces a number of fire gems that can be used in combat. The gems are not stable enough to be used for ritual spellcasting."
   },
   {
+    "Friendly name": "tmpglamourgems",
+    "description": "The monster produces a number of glamour gems that can be used in combat. The gems are not stable enough to be used for ritual spellcasting."
+  },
+  {
     "Friendly name": "tmpnaturegems",
     "description": "The monster produces a number of nature gems that can be used in combat. The gems are not stable enough to be used for ritual spellcasting."
   },
@@ -4752,6 +5048,10 @@
     "description": "Use this for humanoids without a head."
   },
   {
+    "Friendly name": "truesight",
+    "description": "Monster has True Sight"
+  },
+  {
     "Friendly name": "turmoilevents",
     "description": "How turmoil affects the event frequency. Default is 2."
   },
@@ -4796,6 +5096,10 @@
     "description": "Undisciplined monsters cannot be given orders in battle. They can only deploy in the skirmish formation and will attack the enemy without regard for any battle plan."
   },
   {
+    "Friendly name": "undisleader",
+    "description": "1=will negate undisciplined on his followers"
+  },
+  {
     "Friendly name": "undregen",
     "description": "Works like regeneration but only affects undead beings."
   },
@@ -4814,6 +5118,14 @@
   {
     "Friendly name": "units",
     "description": " Gives a squad of soldiers to the active commander."
+  },
+  {
+    "Friendly name": "unmountedspr1",
+    "description": "Creates a sprite that is used when the rider loses his mount."
+  },
+  {
+    "Friendly name": "unmountedspr2",
+    "description": "The attack animation sprite for the unmounted sprite. This must always be set after unmountedspr1 has been set, not before."
   },
   {
     "Friendly name": "unrepel",
@@ -4948,6 +5260,14 @@
     "description": "This commander can be recruited in wasteland provinces with or without fort. See the box below for all command names."
   },
   {
+    "Friendly name": "wastefortcom",
+    "description": "This unit can be recruited in (terrain) provinces with a fort. "
+  },
+  {
+    "Friendly name": "wastefortrec",
+    "description": "This unit can be recruited in (terrain) provinces with a fort. "
+  },
+  {
     "Friendly name": "wasterec",
     "description": "This unit can be recruited in wasteland provinces with or without fort. See the box below for all command names."
   },
@@ -4970,6 +5290,10 @@
   {
     "Friendly name": "waterbreathing",
     "description": "The item grants water breathing to its bearer."
+  },
+  {
+    "Friendly name": "waterelementals",
+    "description": "Please let me know if you know what this does."
   },
   {
     "Friendly name": "waterrange",
@@ -5088,280 +5412,19 @@
     "description": "The monster will change into the next monster type (next monster number) after reaching this amount of xp."
   },
   {
+    "Friendly name": "xspr1",
+    "description": "Creates a sprite that is used when one corider is lost. This command must be placed right after the #spr1 and #spr2 commands. If a there are more than 1 corider the #xspr1 and #xspr2 commands can be repeated multiple times to create sprites with fewer and fewer riders left."
+  },
+  {
+    "Friendly name": "xspr2",
+    "description": "Creates the attack sprite that is used when one corider is lost. This command must be place right after the #xspr1 command."
+  },
+  {
     "Friendly name": "yearaging",
     "description": "The wielder of this item will age this many extra years each year."
   },
   {
     "Friendly name": "yearturn",
     "description": "Power of the Turning Year. This unit is more powerful during the height of each season and will get increased Strength Attack and Defence during those months."
-  },
-  {
-    "Friendly name": "truesight",
-    "description": "Monster has True Sight"
-  },
-  {
-    "Friendly name": "glamourrange",
-    "description": "Glamour magic cast by the monster have increased range."
-  },
-  {
-    "Friendly name": "tmpglamourgems",
-    "description": "The monster produces a number of glamour gems that can be used in combat. The gems are not stable enough to be used for ritual spellcasting."
-  },
-  {
-    "Friendly name": "aiglamournation",
-    "description": "Hint to AI that Glamour magic is used a lot in this nation and that an air god is probably good."
-  },
-  {
-    "Friendly name": "deathshock",
-    "description": "The monster erupts in a shock explosion when it dies, inflicting capped 1 AN shock damage to everyone in the area of effect."
-  },
-  {
-    "Friendly name": "deathslime",
-    "description": "The monster erupts in a slime explosion when it dies, inflicting slime (water breathers immune) to everyone in the area of effect."
-  },
-  {
-    "Friendly name": "deathgrab",
-    "description": "The monster erupts in a earth grip explosion when it dies, inflicting earth grip to everyone in the area of effect."
-  },
-  {
-    "Friendly name": "nightmareaura",
-    "description": "Any nearby enemy units will experience horrible visions and take false damage (1 point) if they fail a magic resistance roll. Mindless beings are immune."
-  },
-  {
-    "Friendly name": "falseregen",
-    "description": "Heals false damage by this amount of points per combat round."
-  },
-  {
-    "Friendly name": "reconst",
-    "description": "Works like regeneration, but only affects inanimate beings."
-  },
-  {
-    "Friendly name": "dread",
-    "description": "Fear but negated by True Sight"
-  },
-  {
-    "Friendly name": "fireelementals",
-    "description": "Please let me know if you know what this does."
-  },
-  {
-    "Friendly name": "waterelementals",
-    "description": "Please let me know if you know what this does."
-  },
-  {
-    "Friendly name": "airelementals",
-    "description": "Please let me know if you know what this does."
-  },
-  {
-    "Friendly name": "earthelementals",
-    "description": "Please let me know if you know what this does."
-  },
-  {
-    "Friendly name": "undisleader",
-    "description": "1=will negate undisciplined on his followers"
-  },
-  {
-    "Friendly name": "assencloc",
-    "description": "Specifies an encounter location that the assassinations will appear in. If not specified, a suitable one for each occasion will be used. Possible values can be seen below."
-  },
-  {
-    "Friendly name": "extralives",
-    "description": "Will get dominion times this value amount of scar souls (extra lives)"
-  },
-  {
-    "Friendly name": "forestfortrec",
-    "description": "This unit can be recruited in (terrain) provinces with a fort. "
-  },
-  {
-    "Friendly name": "forestfortcom",
-    "description": "This unit can be recruited in (terrain) provinces with a fort. "
-  },
-  {
-    "Friendly name": "mountainfortrec",
-    "description": "This unit can be recruited in (terrain) provinces with a fort. "
-  },
-  {
-    "Friendly name": "mountainfortcom",
-    "description": "This unit can be recruited in (terrain) provinces with a fort. "
-  },
-  {
-    "Friendly name": "swampfortrec",
-    "description": "This unit can be recruited in (terrain) provinces with a fort. "
-  },
-  {
-    "Friendly name": "swampfortcom",
-    "description": "This unit can be recruited in (terrain) provinces with a fort. "
-  },
-  {
-    "Friendly name": "wastefortrec",
-    "description": "This unit can be recruited in (terrain) provinces with a fort. "
-  },
-  {
-    "Friendly name": "wastefortcom",
-    "description": "This unit can be recruited in (terrain) provinces with a fort. "
-  },
-  {
-    "Friendly name": "farmfortrec",
-    "description": "This unit can be recruited in (terrain) provinces with a fort. "
-  },
-  {
-    "Friendly name": "farmfortcom",
-    "description": "This unit can be recruited in (terrain) provinces with a fort. "
-  },
-  {
-    "Friendly name": "cavefortrec",
-    "description": "This unit can be recruited in (terrain) provinces with a fort. "
-  },
-  {
-    "Friendly name": "cavefortcom",
-    "description": "This unit can be recruited in (terrain) provinces with a fort. "
-  },
-  {
-    "Friendly name": "dripfortrec",
-    "description": "This unit can be recruited in (terrain) provinces with a fort. "
-  },
-  {
-    "Friendly name": "dripfortcom",
-    "description": "This unit can be recruited in (terrain) provinces with a fort. "
-  },
-  {
-    "Friendly name": "coastfortrec",
-    "description": "This unit can be recruited in (terrain) provinces with a fort. "
-  },
-  {
-    "Friendly name": "coastfortcom",
-    "description": "This unit can be recruited in (terrain) provinces with a fort. "
-  },
-  {
-    "Friendly name": "seafortrec",
-    "description": "This unit can be recruited in (terrain) provinces with a fort. "
-  },
-  {
-    "Friendly name": "seafortcom",
-    "description": "This unit can be recruited in (terrain) provinces with a fort. "
-  },
-  {
-    "Friendly name": "deepfortrec",
-    "description": "This unit can be recruited in (terrain) provinces with a fort. "
-  },
-  {
-    "Friendly name": "deepfortcom",
-    "description": "This unit can be recruited in (terrain) provinces with a fort. "
-  },
-  {
-    "Friendly name": "kelpfortrec",
-    "description": "This unit can be recruited in (terrain) provinces with a fort. "
-  },
-  {
-    "Friendly name": "kelpfortcom",
-    "description": "This unit can be recruited in (terrain) provinces with a fort. "
-  },
-  {
-    "Friendly name": "reqnospellsinger",
-    "description": "Units with the spell singing ability cannot cast this spell."
-  },
-  {
-    "Friendly name": "reqnotaskmaster",
-    "description": "Units with the task master ability cannot cast this spell"
-  },
-  {
-    "Friendly name": "reqnoseduce",
-    "description": "Units with the seduce ability cannot cast this spell"
-  },
-  {
-    "Friendly name": "remount",
-    "description": "The commander determined by target requirements regains his mount, should he have lost it."
-  },
-  {
-    "Friendly name": "startresearch",
-    "description": "The amount of start research per magic scale above -3. Default is 50 research points."
-  },
-  {
-    "Friendly name": "nodeepchoice",
-    "description": "Don't generate caves"
-  },
-  {
-    "Friendly name": "regainmount",
-    "description": "If this is set to 1 the rider will regain any lost mount(s) for free after the battle"
-  },
-  {
-    "Friendly name": "noremount",
-    "description": "The commander will not be able to reclaim his mount through a reclaim mount order. This is used for certain gods that have divine mounts that must be prayed back"
-  },
-  {
-    "Friendly name": "skilledrider",
-    "description": "A skilled rider will increase the Morale and Defence Skill of his mount. The defence increase is most effective on lightly armored horses as it is reduced by the encumbrance value of the mount's armor. This ability should be given to the rider and not to the mount"
-  },
-  {
-    "Friendly name": "mountiscom",
-    "description": "If this is set to one the mount is also a commander. This command is used for some gods that have divine mounts."
-  },
-  {
-    "Friendly name": "nobarding",
-    "description": "This mount does not have a barding slot. This is used for e.g. the humans that carry a throne with an emperor in it"
-  },
-  {
-    "Friendly name": "nothrowoff",
-    "description": "This mount will not throw off its rider if it routs or gets paralyzed. This is used on mounts that are more important than the rider, e.g. elephants, where the rider will never get off voluntarily in order to fight on the ground."
-  },
-  {
-    "Friendly name": "nofalldmg",
-    "description": "This rider will not take any damage when falling off his mount. This is used for chariot drivers that are always close to the ground"
-  },
-  {
-    "Friendly name": "bravemount",
-    "description": "The chance of the mount remaining on the battlefield and continuing to fight. Default is 0"
-  },
-  {
-    "Friendly name": "smartmount",
-    "description": "The smartness determines the chance for the mount to try to make it home. A smart magical unicorn has smartness 100, a normal horse doesn't have this ability at all."
-  },
-  {
-    "Friendly name": "req_pathglamour",
-    "description": "There must be a Glamour mage of at least this level in the province"
-  },
-  {
-    "Friendly name": "req_nopathglamour",
-    "description": "There cannot be a Glamour mage of this level or higher in the province"
-  },
-  {
-    "Friendly name": "glamourboost",
-    "description": "One commander determined by target requirements or the monster number may gain +1 Glamour magic."
-  },
-  {
-    "Friendly name": "killtarg",
-    "description": "One commander determined by target requirements is killed. The mount is also killed if any."
-  },
-  {
-    "Friendly name": "mag_glamour",
-    "description": "Gives active commander Glamour magic."
-  },
-  {
-    "Friendly name": "selectbless",
-    "description": "Selects an existing blessing that will be affected by the following modding commands. End modding this blessing with the #end command"
-  },
-  {
-    "Friendly name": "path0",
-    "description": "The path (0-8) required to choose this blessing."
-  },
-  {
-    "Friendly name": "cost0",
-    "description": "The minimum skill required in path0 and also the cost in bless points."
-  },
-  {
-    "Friendly name": "path1",
-    "description": "An optional secondary path requirement."
-  },
-  {
-    "Friendly name": "cost1",
-    "description": "The minimum skill required in path0 and also the cost in bless points."
-  },
-  {
-    "Friendly name": "clearscales",
-    "description": "Clear the scale requirements."
-  },
-  {
-    "Friendly name": "clearfx",
-    "description": "Clear all effects of this bless"
   }
-  
 ]

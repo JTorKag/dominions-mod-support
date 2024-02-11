@@ -1,0 +1,44 @@
+{
+	"New Armor Template": {
+		"prefix": "#newarmor",
+		"body": [
+			"#newarmor <ID>",
+			"#name \"<name>\"",
+			"#type <type>",
+			"#prot <protection>",
+			"#def <defense>",
+			"#enc <encumbrance>",
+			"",
+			"#end"
+		],
+		"description": "Create new armor with template"
+	},
+	"New Melee Weapon": {
+		"prefix": "#newweapon",
+		"body": [
+			"#newweapon ",
+			"#name \"NAME\"",
+			"#dmg <damage>",
+			"#att <attack>",
+			"#def <defense>",
+			"#nratt <nbr of attacks>",
+			"",
+			"#end"
+		],
+		"description": "Create new melee weapon"
+	},
+	"New Ranged Weapon": {
+		"prefix": "#newweapon",
+		"body": [
+			"#newweapon ",
+			"#name \"NAME\"",
+			"#dmg <damage>",
+			"#nratt <nbr of attacks>",
+			"#range <range>",
+			"#ammo <ammo>",
+			"",
+			"#end"
+		],
+		"description": "Create new ranged weapon"
+	}
+}
