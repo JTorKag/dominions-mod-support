@@ -1965,7 +1965,7 @@
   },
   {
     "Friendly name": "gems",
-    "description": "Gives gem income to the magic site. First value is the Path and should be a number between 0 and 7. The second is the amount up to 99. See table magic paths numbers."
+    "description": "Gives gem income to the magic site. First value is the Path and should be a number between 0 and 8. The second is the amount up to 99. See table magic paths numbers."
   },
   {
     "Friendly name": "ghostreanim",
@@ -2056,7 +2056,7 @@
     "description": "Commander that is in charge of the castle gate defenders. There can be multiple of these commands."
   },
   {
-    "Friendly name": "guardmulti",
+    "Friendly name": "guardmult",
     "description": "Modifier for the number of castle gate guards from the previous #guardunit command. 10 is the standard amount."
   },
   {

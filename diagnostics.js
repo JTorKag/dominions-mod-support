@@ -17,6 +17,53 @@ class ErrorDiagnosticProvider {
         }
     }
 
+    /* separateCommand(inputString) {
+        // Exclude anything that follows "--" in the line
+        const lineWithoutComments = inputString.split('--')[0].trim();
+    
+        const pattern = /#(\S+(?:\s+\S+)*)/;
+        const match = lineWithoutComments.match(pattern);
+    
+        if (match) {
+            const values = match[1].split(/\s+/);
+    
+            // Convert numeric strings to numbers (floats or integers)
+            const parsedValues = values.map(value => {
+                const numericValue = parseFloat(value);
+                return isNaN(numericValue) ? value : numericValue;
+            });
+    
+            return parsedValues;
+        } else {
+            return [null];
+        }
+    } */
+
+    separateCommand(inputString) {
+        // Exclude anything that follows "--" in the line
+        const lineWithoutComments = inputString.split('--')[0].trim();
+    
+        const pattern = /#(\S+(?:\s+\S+)*)/;
+        const match = lineWithoutComments.match(pattern);
+    
+        if (match) {
+            const values = match[1].split(/\s+/);
+    
+            // Convert numeric strings to numbers (floats or integers)
+            const parsedValues = values.map(value => {
+                const numericValue = /^-?\d+(\.\d+)?$/.test(value) ? parseFloat(value) : value;
+                return isNaN(numericValue) ? value : numericValue;
+            });
+    
+            return parsedValues;
+        } else {
+            return [null];
+        }
+    }
+    
+    
+    
+
     checkMissingEnd(lines, diagnostics, startValues) {
         let lastCommand = null;
         
@@ -148,129 +195,307 @@ class ErrorDiagnosticProvider {
             }
         }
     }
+
+
+    checkCustomRangeValues(lines, diagnostics, command, minValue, maxValue, allowString = false, allowEmptyValue = false, legalValuesSet = []) {
+        for (let i = 0; i < lines.length; i++) {
+            const line = lines[i].trim();
     
-checkCustomRangeValues(lines, diagnostics, command, minValue, maxValue, allowEmptyValue = false, showHover = false, legalValuesSet = []) {
-    for (let i = 0; i < lines.length; i++) {
-        const line = lines[i].trim();
-
-        if (line.startsWith(command)) {
-            const valueMatch = line.match(/(-?\d+)/);
-
-            if (valueMatch) {
-                const value = parseInt(valueMatch[0]);
-                if (
-                    (value < minValue || value > maxValue) &&
-                    (legalValuesSet.length === 0 || !legalValuesSet.includes(value))
-                ) {
+            if (line.startsWith(`${command} `) || line === command) {
+                const matchedValue = this.separateCommand(line);
+    
+                // Check if matchedValue array has more than 2 objects
+                if (matchedValue.length > 2) {
                     const range = new vscode.Range(
-                        new vscode.Position(i, line.indexOf(valueMatch[0])),
-                        new vscode.Position(i, line.indexOf(valueMatch[0]) + valueMatch[0].length)
+                        new vscode.Position(i, 0),
+                        new vscode.Position(i, line.length)
                     );
                     const diagnostic = new vscode.Diagnostic(
                         range,
-                        `Value ${value} for ${command} should be between ${minValue} and ${maxValue}`,
+                        `Invalid format for ${command} command`,
+                        vscode.DiagnosticSeverity.Error
+                    );
+                    diagnostics.push(diagnostic);
+                    continue;  // Skip further checks for this line
+                }
+    
+                if (matchedValue) {
+                    const value = matchedValue[1];
+    
+                    if (value === null || value === undefined) {
+                        const range = new vscode.Range(
+                            new vscode.Position(i, line.indexOf(command)),
+                            new vscode.Position(i, line.indexOf(command) + command.length)
+                        );
+                        const diagnostic = new vscode.Diagnostic(
+                            range,
+                            `Invalid value format for ${command} command.`,
+                            vscode.DiagnosticSeverity.Error
+                        );
+                        diagnostics.push(diagnostic);
+                    } else if (allowString && typeof value === 'string' && value !== matchedValue[0]) {
+                        // Check if the string is wrapped in quotes
+                        const isQuotedString = /^".*"$/.test(value);
+    
+                        if (!isQuotedString) {
+                            const range = new vscode.Range(
+                                new vscode.Position(i, line.indexOf(value)),
+                                new vscode.Position(i, line.indexOf(value) + value.length)
+                            );
+                            const diagnostic = new vscode.Diagnostic(
+                                range,
+                                `String values for ${command} should be wrapped in quotes`,
+                                vscode.DiagnosticSeverity.Error
+                            );
+                            diagnostics.push(diagnostic);
+                        }
+                    } else if (!allowString && typeof matchedValue[1] === 'string') {
+                        const range = new vscode.Range(
+                            new vscode.Position(i, line.indexOf(matchedValue[1])),
+                            new vscode.Position(i, line.indexOf(matchedValue[1]) + matchedValue[1].length)
+                        );
+                        const diagnostic = new vscode.Diagnostic(
+                            range,
+                            `String values are not allowed for ${command} command`,
+                            vscode.DiagnosticSeverity.Error
+                        );
+                        diagnostics.push(diagnostic);
+                    } else if (typeof value === 'number') {
+                        if ((value < minValue || value > maxValue) || (legalValuesSet.length > 0 && !legalValuesSet.includes(value))) {
+                            const range = new vscode.Range(
+                                new vscode.Position(i, line.indexOf(value)),
+                                new vscode.Position(i, line.indexOf(value) + value.length)
+                            );
+                            const diagnostic = new vscode.Diagnostic(
+                                range,
+                                `Value ${value} for ${command} should be between ${minValue} and ${maxValue}`,
+                                vscode.DiagnosticSeverity.Error
+                            );
+                            diagnostics.push(diagnostic);
+                        }
+                    }
+                } else if (!allowEmptyValue && !line.endsWith(command)) {
+                    const range = new vscode.Range(
+                        new vscode.Position(i, line.indexOf(command)),
+                        new vscode.Position(i, line.indexOf(command) + command.length)
+                    );
+                    const diagnostic = new vscode.Diagnostic(
+                        range,
+                        `Missing or invalid value for ${command} command`,
+                        vscode.DiagnosticSeverity.Error
+                    );
+                    diagnostics.push(diagnostic);
+                } else if (!allowEmptyValue && line.endsWith(command)) {
+                    const range = new vscode.Range(
+                        new vscode.Position(i, line.indexOf(command)),
+                        new vscode.Position(i, line.indexOf(command) + command.length)
+                    );
+                    const diagnostic = new vscode.Diagnostic(
+                        range,
+                        `Value missing for ${command} command`,
                         vscode.DiagnosticSeverity.Error
                     );
                     diagnostics.push(diagnostic);
                 }
-            } else if (!allowEmptyValue && !line.endsWith(command)) {
-                const range = new vscode.Range(
-                    new vscode.Position(i, line.indexOf(command)),
-                    new vscode.Position(i, line.indexOf(command) + command.length)
-                );
-                const diagnostic = new vscode.Diagnostic(
-                    range,
-                    `Missing or invalid value for ${command} command`,
-                    vscode.DiagnosticSeverity.Error
-                );
-                diagnostics.push(diagnostic);
-            } else if (!allowEmptyValue && line.endsWith(command)) {
-                const range = new vscode.Range(
-                    new vscode.Position(i, line.indexOf(command)),
-                    new vscode.Position(i, line.indexOf(command) + command.length)
-                );
-                const diagnostic = new vscode.Diagnostic(
-                    range,
-                    `Value missing for ${command} command`,
-                    vscode.DiagnosticSeverity.Error
-                );
-                diagnostics.push(diagnostic);
-            } else if (allowEmptyValue && !line.endsWith(command)) {
-                const range = new vscode.Range(
-                    new vscode.Position(i, line.indexOf(command)),
-                    new vscode.Position(i, line.indexOf(command) + command.length)
-                );
-                const diagnostic = new vscode.Diagnostic(
-                    range,
-                    `String value not allowed for ${command} command`,
-                    vscode.DiagnosticSeverity.Error
-                );
-                diagnostics.push(diagnostic);
             }
         }
     }
-}
     
-checkPowerOfTwoValues(lines, diagnostics, command, maxPower, allowEmptyValue = false, showHover = false, legalValuesSet = []) {
-    for (let i = 0; i < lines.length; i++) {
-        const line = lines[i].trim();
-
-        if (line.startsWith(command)) {
-            const valueMatch = line.match(/(-?\d+)/);
-
-            if (valueMatch) {
-                const value = parseInt(valueMatch[0]);
-                const isPowerOfTwo = (value & (value - 1)) === 0 && value !== 0 && value <= Math.pow(2, maxPower);
-
-                if (!isPowerOfTwo || (legalValuesSet.length !== 0 && legalValuesSet.includes(value))) {
+    // use this when there's two ranges a single value for a command can exist in
+    checkCustomRangeTwoSetsValues(lines, diagnostics, command, minValue1, maxValue1, minValue2, maxValue2, allowString = false, allowEmptyValue = false, legalValuesSet = []) {
+        for (let i = 0; i < lines.length; i++) {
+            const line = lines[i].trim();
+    
+            if (line.startsWith(`${command} `) || line === command) {
+                const matchedValue = this.separateCommand(line);
+    
+                // Check if matchedValue array has more than 2 objects
+                if (matchedValue.length > 2) {
                     const range = new vscode.Range(
-                        new vscode.Position(i, line.indexOf(valueMatch[0])),
-                        new vscode.Position(i, line.indexOf(valueMatch[0]) + valueMatch[0].length)
+                        new vscode.Position(i, 0),
+                        new vscode.Position(i, line.length)
                     );
                     const diagnostic = new vscode.Diagnostic(
                         range,
-                        `Value ${value} for ${command} should be a power of 2 up to 2^${maxPower}`,
+                        `Invalid format for ${command} command`,
+                        vscode.DiagnosticSeverity.Error
+                    );
+                    diagnostics.push(diagnostic);
+                    continue;  // Skip further checks for this line
+                }
+    
+                if (matchedValue[1]) {
+                    const value = matchedValue[1];
+    
+                    if (value === null) {
+                        const range = new vscode.Range(
+                            new vscode.Position(i, line.indexOf(command)),
+                            new vscode.Position(i, line.indexOf(command) + command.length)
+                        );
+                        const diagnostic = new vscode.Diagnostic(
+                            range,
+                            `Invalid value format for ${command} command`,
+                            vscode.DiagnosticSeverity.Error
+                        );
+                        diagnostics.push(diagnostic);
+                    } else if (allowString && typeof value === 'string' && value !== matchedValue[0]) {
+                        // Check if the string is wrapped in quotes
+                        const isQuotedString = /^".*"$/.test(value);
+    
+                        if (!isQuotedString) {
+                            const range = new vscode.Range(
+                                new vscode.Position(i, line.indexOf(value)),
+                                new vscode.Position(i, line.indexOf(value) + value.length)
+                            );
+                            const diagnostic = new vscode.Diagnostic(
+                                range,
+                                `String values for ${command} should be wrapped in quotes`,
+                                vscode.DiagnosticSeverity.Error
+                            );
+                            diagnostics.push(diagnostic);
+                        }
+                    } else if (typeof value === 'number') {
+                        const isInRange1 = (value >= minValue1 && value <= maxValue1);
+                        const isInRange2 = (value >= minValue2 && value <= maxValue2);
+                        
+                        if (!((isInRange1 || isInRange2) || (legalValuesSet.length > 0 && legalValuesSet.includes(value)))) {
+                            const range = new vscode.Range(
+                                new vscode.Position(i, line.indexOf(value)),
+                                new vscode.Position(i, line.indexOf(value) + value.length)
+                            );
+                            const diagnostic = new vscode.Diagnostic(
+                                range,
+                                `Value ${value} for ${command} should be between ${minValue1} and ${maxValue1} or between ${minValue2} and ${maxValue2}`,
+                                vscode.DiagnosticSeverity.Error
+                            );
+                            diagnostics.push(diagnostic);
+                        }
+                    }
+                } else if (!allowEmptyValue && !line.endsWith(command)) {
+                    const range = new vscode.Range(
+                        new vscode.Position(i, line.indexOf(command)),
+                        new vscode.Position(i, line.indexOf(command) + command.length)
+                    );
+                    const diagnostic = new vscode.Diagnostic(
+                        range,
+                        `Missing or invalid value for ${command} command`,
+                        vscode.DiagnosticSeverity.Error
+                    );
+                    diagnostics.push(diagnostic);
+                } else if (!allowEmptyValue && line.endsWith(command)) {
+                    const range = new vscode.Range(
+                        new vscode.Position(i, line.indexOf(command)),
+                        new vscode.Position(i, line.indexOf(command) + command.length)
+                    );
+                    const diagnostic = new vscode.Diagnostic(
+                        range,
+                        `Value missing for ${command} command`,
                         vscode.DiagnosticSeverity.Error
                     );
                     diagnostics.push(diagnostic);
                 }
-            } else if (!allowEmptyValue && !line.endsWith(command)) {
-                const range = new vscode.Range(
-                    new vscode.Position(i, line.indexOf(command)),
-                    new vscode.Position(i, line.indexOf(command) + command.length)
-                );
-                const diagnostic = new vscode.Diagnostic(
-                    range,
-                    `Missing or invalid value for ${command} command`,
-                    vscode.DiagnosticSeverity.Error
-                );
-                diagnostics.push(diagnostic);
-            } else if (!allowEmptyValue && line.endsWith(command)) {
-                const range = new vscode.Range(
-                    new vscode.Position(i, line.indexOf(command)),
-                    new vscode.Position(i, line.indexOf(command) + command.length)
-                );
-                const diagnostic = new vscode.Diagnostic(
-                    range,
-                    `Value missing for ${command} command`,
-                    vscode.DiagnosticSeverity.Error
-                );
-                diagnostics.push(diagnostic);
-            } else if (allowEmptyValue && !line.endsWith(command)) {
-                const range = new vscode.Range(
-                    new vscode.Position(i, line.indexOf(command)),
-                    new vscode.Position(i, line.indexOf(command) + command.length)
-                );
-                const diagnostic = new vscode.Diagnostic(
-                    range,
-                    `String value not allowed for ${command} command`,
-                    vscode.DiagnosticSeverity.Error
-                );
-                diagnostics.push(diagnostic);
             }
         }
     }
-}
+    
+    
+    
+    
+    
+    
+    
+    
+    checkPowerOfTwoValues(lines, diagnostics, command, maxPower, allowEmptyValue = false, legalValuesSet = []) {
+        for (let i = 0; i < lines.length; i++) {
+            const line = lines[i].trim();
+    
+            if (line.startsWith(command)) {
+                const matchedValue = this.separateCommand(line);
+    
+                if (matchedValue.length > 2) {
+                    const range = new vscode.Range(
+                        new vscode.Position(i, 0),
+                        new vscode.Position(i, line.length)
+                    );
+                    const diagnostic = new vscode.Diagnostic(
+                        range,
+                        `Invalid format for ${command} command`,
+                        vscode.DiagnosticSeverity.Error
+                    );
+                    diagnostics.push(diagnostic);
+                    continue;  // Skip further checks for this line
+                }
+    
+                // Add code here
+                if (matchedValue && typeof matchedValue[1] !== 'undefined' && typeof matchedValue[1] !== 'number') {
+                    const range = new vscode.Range(
+                        new vscode.Position(i, line.indexOf(matchedValue[0])),
+                        new vscode.Position(i, line.indexOf(matchedValue[0]) + matchedValue[0].length)
+                    );
+                    const diagnostic = new vscode.Diagnostic(
+                        range,
+                        `Invalid value ${matchedValue[1]} for ${command}. Value should be a valid float.`,
+                        vscode.DiagnosticSeverity.Error
+                    );
+                    diagnostics.push(diagnostic);
+                    continue; // Skip further checks for this line
+                }
+    
+                if (matchedValue) {
+                    const value = parseFloat(matchedValue[1]);
+    
+                    const isPowerOfTwo = (value & (value - 1)) === 0 && value !== 0 && value <= Math.pow(2, maxPower);
+    
+                    if (!isPowerOfTwo || (legalValuesSet.length !== 0 && legalValuesSet.includes(value))) {
+                        const range = new vscode.Range(
+                            new vscode.Position(i, line.indexOf(matchedValue[0])),
+                            new vscode.Position(i, line.indexOf(matchedValue[0]) + matchedValue[0].length)
+                        );
+                        const diagnostic = new vscode.Diagnostic(
+                            range,
+                            `Value ${value} for ${command} should be a power of 2 up to 2^${maxPower}`,
+                            vscode.DiagnosticSeverity.Error
+                        );
+                        diagnostics.push(diagnostic);
+                    }
+                } else if (!allowEmptyValue && !line.endsWith(command)) {
+                    const range = new vscode.Range(
+                        new vscode.Position(i, line.indexOf(command)),
+                        new vscode.Position(i, line.indexOf(command) + command.length)
+                    );
+                    const diagnostic = new vscode.Diagnostic(
+                        range,
+                        `Missing or invalid value for ${command} command`,
+                        vscode.DiagnosticSeverity.Error
+                    );
+                    diagnostics.push(diagnostic);
+                } else if (!allowEmptyValue && line.endsWith(command)) {
+                    const range = new vscode.Range(
+                        new vscode.Position(i, line.indexOf(command)),
+                        new vscode.Position(i, line.indexOf(command) + command.length)
+                    );
+                    const diagnostic = new vscode.Diagnostic(
+                        range,
+                        `Value missing for ${command} command`,
+                        vscode.DiagnosticSeverity.Error
+                    );
+                    diagnostics.push(diagnostic);
+                } else if (allowEmptyValue && !line.endsWith(command)) {
+                    const range = new vscode.Range(
+                        new vscode.Position(i, line.indexOf(command)),
+                        new vscode.Position(i, line.indexOf(command) + command.length)
+                    );
+                    const diagnostic = new vscode.Diagnostic(
+                        range,
+                        `String value not allowed for ${command} command`,
+                        vscode.DiagnosticSeverity.Error
+                    );
+                    diagnostics.push(diagnostic);
+                }
+            }
+        }
+    }
+    
     
 
 
@@ -401,31 +626,30 @@ checkTwoCustomRangeValues(lines, diagnostics, command, minValueSet1, maxValueSet
         this.checkCustomRangeValues(lines, diagnostics, '#req_nopathblood', 1, 10);
         this.checkCustomRangeValues(lines, diagnostics, '#req_nopathholy', 1, 10);
         this.checkCustomRangeValues(lines, diagnostics, '#req_nopathall', 1, 10);
-        this.checkPowerOfTwoValues(lines, diagnostics, '#dt_aff', 50)
-        this.checkCustomRangeValues(lines, diagnostics, "#armor", 0, 1999);
-        this.checkCustomRangeValues(lines, diagnostics, "#selectarmor", 0, 1999);
-        this.checkCustomRangeValues(lines, diagnostics, "#copyarmor", 0, 1999);
-        this.checkCustomRangeValues(lines, diagnostics, "#weapon", 0, 3999);
-        this.checkCustomRangeValues(lines, diagnostics, "#selectweapon", 0, 3999);
-        this.checkCustomRangeValues(lines, diagnostics, "#copyweapon", 0, 3999);
-        this.checkCustomRangeValues(lines, diagnostics, "#secondaryeffect", 0, 3999);
-        this.checkCustomRangeValues(lines, diagnostics, "#secondaryeffectalways", 0, 3999);
+        this.checkPowerOfTwoValues(lines, diagnostics, '#dt_aff', 50);
+        this.checkCustomRangeValues(lines, diagnostics, "#armor", 0, 1999, true);
+        this.checkCustomRangeValues(lines, diagnostics, "#selectarmor", 0, 1999, true);
+        this.checkCustomRangeValues(lines, diagnostics, "#copyarmor", 0, 199, true);
+        this.checkCustomRangeValues(lines, diagnostics, "#weapon", 0, 3999, true);
+        this.checkCustomRangeValues(lines, diagnostics, "#selectweapon", 0, 3999, true);
+        this.checkCustomRangeValues(lines, diagnostics, "#copyweapon", 0, 3999, true);
+        this.checkCustomRangeValues(lines, diagnostics, "#secondaryeffect", 0, 3999, true);
+        this.checkCustomRangeValues(lines, diagnostics, "#secondaryeffectalways", 0, 3999, true);
         this.checkCustomRangeValues(lines, diagnostics, "#restricted", 0, 499);
         this.checkCustomRangeValues(lines, diagnostics, "#nationrebate", 0, 499);
         this.checkCustomRangeValues(lines, diagnostics, "#notfornation", 0, 499);
         this.checkCustomRangeValues(lines, diagnostics, "#nat", 0, 499);
-        this.checkCustomRangeValues(lines, diagnostics, "#selectnation", 0, 499);
-        this.checkCustomRangeValues(lines, diagnostics, "#startitem", 0, 1999);
-        this.checkCustomRangeValues(lines, diagnostics, "#selectitem", 0, 1999);
-        this.checkCustomRangeValues(lines, diagnostics, "#copyitem", 0, 1999);
-        this.checkCustomRangeValues(lines, diagnostics, "#onebattlespell", 0, 1999);
-        this.checkCustomRangeValues(lines, diagnostics, "#selectspell", 0, 7999);
-        this.checkCustomRangeValues(lines, diagnostics, "#nextspell", 0, 7999);
-        this.checkCustomRangeValues(lines, diagnostics, "#selectsite", 0, 3999);
-        this.checkCustomRangeValues(lines, diagnostics, "#newsite", 0, 3999);
+        this.checkCustomRangeValues(lines, diagnostics, "#startitem", 0, 1999, true);
+        this.checkCustomRangeValues(lines, diagnostics, "#selectitem", 0, 1999, true);
+        this.checkCustomRangeValues(lines, diagnostics, "#copyitem", 0, 1999, true);
+        this.checkCustomRangeValues(lines, diagnostics, "#onebattlespell", 0, 1999, true);
+        this.checkCustomRangeValues(lines, diagnostics, "#selectspell", 0, 7999, true);
+        this.checkCustomRangeValues(lines, diagnostics, "#nextspell", 0, 7999, true);
+        this.checkCustomRangeValues(lines, diagnostics, "#selectsite", 0, 3999, true);
         this.checkCustomRangeValues(lines, diagnostics, "#enchrebate50", 0, 101);
         this.checkCustomRangeValues(lines, diagnostics, "#enchrebate25p", 0, 101);
         this.checkCustomRangeValues(lines, diagnostics, "#enchrebate50p", 0, 101);
+        this.checkCustomRangeTwoSetsValues(lines, diagnostics, "#effect",0, 699, 10000, 10699);
 /*      These all need revision because the trailing number is being counted as the value for the command.
         this.checkCustomRangeValues(lines, diagnostics, "#path0", 0, 8);
         this.checkCustomRangeValues(lines, diagnostics, "#cost0", 1, 10);

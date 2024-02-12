@@ -8,10 +8,13 @@ class HoverProvider {
     }
 
     separateCommand(inputString) {
-        const pattern = /#(\w+)\s+(\d+)/;
+        const pattern = /#(\S+(?:\s+\S+)*)/;
         const match = inputString.match(pattern);
-        return match ? [match[1], parseInt(match[2])] : [null, null];
+        return match ? match[1].split(/\s+/) : [null];
     }
+    
+    
+    
 
     async loadJson(filename) {
         try {
@@ -85,7 +88,7 @@ class HoverProvider {
                 const command = this.separateCommand(line);
     
                 console.log('Hovered command', command[0]);
-                console.log('Hovered value', command[1]);
+                console.log('Hovered value', command[1]); // fix this for multivalue commands
                 console.log('Hovered Word', word);
     
                 const nationcmds = ["restricted", "nationrebate", "notfornation", "nat", "selectnation"]

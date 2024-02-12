@@ -512,7 +512,7 @@ greekreanim,Reanimating priest of this nation will create greek ghosts like Ther
 groundcol, Color the world with the specified colors for fights in the current province. Color values range from 0 to 255.
 growhp,The monster grows into the previous monster once it has this many hit points or more. Hydras use this mechanic.
 guardcom,Commander that is in charge of the castle gate defenders. There can be multiple of these commands.
-guardmulti,Modifier for the number of castle gate guards from the previous #guardunit command. 10 is the standard amount.
+guardmult,Modifier for the number of castle gate guards from the previous #guardunit command. 10 is the standard amount.
 guardspirit,Priests of this nation have a chance of receiving a guardian angel when in battle. Nbr can be negative for montags.
 guardspiritbonus,Increases the chance of receiving a guardian spirit with +value percent.
 guardunit,"Unit type the will guard the gates when the castle is stormed. There can be multiple of these commands, each one should be followed by a #guardmult command. The first gate guard type will also be used as city guards during assassin encounters. If there are no gate guards the first wall unit will be used instead."

@@ -37,3 +37,7 @@ Added #end check for bless modding
 ### [2.0.3]
 
 Added addtional missing d6 commands and added addtional hover tables and value results
+
+### [2.0.4]
+
+Fixed some broken diagnostics

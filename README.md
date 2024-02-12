@@ -28,9 +28,9 @@ There's missing diagnostics and some are intentionally disabled due to needing s
 
 There is likely errors in my data for all the commands. I did a lot of scraping and regex instead of going through it by hand. If you catch any and are feeling extra generous please fix and submit a pull request. Or if not and it's small just let me know via discord @zegma and I can include the fix in during an update. 
 
-### 2.0.3
+### 2.0.4
 
-Added addtional missing dom6 commands and added addtional hover tables and value results. Ex. #gems 
+Fixed some broken diagnostics
 
 ### Credits
 I wanted to highlight [djmcgill](https://github.com/djmcgill/vscode-syntax-highlighting-dominions-5-) for creating a syntax highlighting tool years ago. Used that for a while and the decided I wanted to improve on that base. 
