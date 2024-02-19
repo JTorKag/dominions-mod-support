@@ -91,7 +91,7 @@ class HoverProvider {
                 console.log('Hovered value', command[1]); // fix this for multivalue commands
                 console.log('Hovered Word', word);
     
-                const nationcmds = ["restricted", "nationrebate", "notfornation", "nat", "selectnation"]
+                const nationcmds = ["restricted", "nationrebate", "notfornation", "nat", "selectnation","extramsg"]
                 const unitcmds = ["selectmonster","copystats", "copyspr", "monpresentrec","ownsmonrec","raiseshape","shapechange","prophetshape","firstshape","secondshape","secondtmpshape","forestshape","plainshape","foreignshape","homeshape","domshape","notdomshape","springshape","summershape","autumnshape","wintershape","landshape","watershape","twiceborn","domsummon","domsummon2","domsummon20","raredomsummon","templetrainer","makemonsters1","makemonsters2","makemonsters3","makemonsters4","makemonsters5","summon1","summon2","summon3","summon4","summon5","battlesum1", "battlesum2","battlesum3", "battlesum4", "battlesum5","batstartsum1","batstartsum2","batstartsum3","batstartsum4","batstartsum5","batstartsum1d3","batstartsum1d6","batstartsum2d6","batstartsum3d6","batstartsum4d6","batstartsum5d6","batstartsum6d6","batstartsum7d6","batstartsum8d6","batstartsum9d6","slaver","farsumcom","onlymnr","notmnr","homemon","homecom","mon","com","natmon","natcom","summon","summonlvl2","summonlvl3","summonlvl4","wallcom","wallunit","uwwallunit","uwwallcom","startcom","coastcom1","coastcom2","addforeignunit", "addforeigncom","forestrec", "mountainrec", "swamprec","wasterec","caverec","coastrec","startscout","forestcom","mountaincom","swampcom","wastecom","cavecom","coastcom","startunittype1","startunittype2","addrecunit","addreccom","uwrec","uwcom","coastunit1","coastunit2","coastunit3","landrec","landcom","hero1","hero2","hero3","hero4","hero5","hero6","hero7","hero8","hero9","hero10","multihero1","multihero2","multihero3","multihero4","multihero5","multihero6","multihero7","defcom1","defcom2","defunit1", "defunit1b","defunit1c", "defunit1d", "defunit2","defunit2b","delgod","cheapgod20","cheapgod40"]
                 const itemcmds = ["startitem","selectitem","copyitem"]
                 const spellcmds = ["onebattlespell", "selectspell","nextspell"]
@@ -112,6 +112,7 @@ class HoverProvider {
                 const spelleffectscmds =["effect"] // effects_info.csv
                 const terrainmaskcmds = ["nextingeo","likesterr","hatesterr","onlygeosrc","nogeosrc","nogeodst"]
                 const eramaskcmds = ["eramask"] // technically a mask but presolved
+                const enchlookcmds = ["globallook"]
    
                 if (nationcmds.some(cmd => cmd === command[0])) {
                 
@@ -236,6 +237,49 @@ class HoverProvider {
 
                 
                 }
+
+                else if (enchlookcmds.some(cmd => cmd === command[0])) {
+
+                    const jsonData = await this.loadJson(context.asAbsolutePath('/json/Hover_Tables/enchlook.json'));
+                
+                    if (word !== command[0]) {
+                        const keyToFind = "Nbr";
+                        const matchedValue = jsonData.find(obj => obj[keyToFind] === word);
+        
+                        if (matchedValue) {
+                            const customMessage = null;
+                
+                            // Call the function to generate the hover content
+                            return this.generateHoverTableContent(matchedValue, customMessage);
+                        }
+                    }
+                    
+                    else if (word == command[0]) {
+                        const firstValue = this.commandJson.find(obj => obj["Friendly name"] === word);
+                        const secondValue = this.generateMarkdownTable(jsonData);
+                        
+                        if (secondValue){
+                            
+                        return this.generateHoverTableContent(jsonData, firstValue.description);
+                        }
+                    }
+
+                
+                }
+
+                /* else if (enchlookcmds.some(cmd => cmd === command[0]) && word !== command[0]) {
+                
+                    const jsonData = await this.loadJson(context.asAbsolutePath('/json/Hover_Tables/enchlook.json'));
+                    const keyToFind = "nbr";
+                    const matchedValue = jsonData.find(obj => obj[keyToFind] === word);
+    
+                    if (matchedValue) {
+                        const customMessage = null;
+            
+                        // Call the function to generate the hover content
+                        return this.generateHoverTableContent(matchedValue, customMessage);
+                    }
+                } */
 
                 else if (weaponscmds.some(cmd => cmd === command[0]) && word !== command[0]) {
                 

@@ -2,7 +2,7 @@ import csv
 import json
 import os
 
-folder_path = r'path'  # Replace this with the path to your folder containing CSV files
+folder_path = r'C:\Users\jimmy\dominions-mod-support\csv\Hover_Tables'  # Replace this with the path to your folder containing CSV files
 
 def csv_to_json(csv_file_path, json_file_path):
     data = []

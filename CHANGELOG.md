@@ -41,3 +41,7 @@ Added addtional missing d6 commands and added addtional hover tables and value r
 ### [2.0.4]
 
 Fixed some broken diagnostics
+
+### [2.0.5]
+
+Added more commands. Thanks everyone who points these out. 

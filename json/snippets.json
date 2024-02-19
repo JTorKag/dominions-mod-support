@@ -433,6 +433,13 @@
     ],
     "description": "Informs the AI that this nation has sacred ranged units. So a Wind Guide bless or something similar could be appropriate."
   },
+  "#aimagerec": {
+    "prefix": "#aimagerec",
+    "body": [
+      "#aimagerec"
+    ],
+    "description": "Will make the AI more likely to recruit mage commanders than other commanders. The number is the chance for the AI reconsider a non-mage commander recruitment."
+  },
   "#aimusthavemag": {
     "prefix": "#aimusthavemag",
     "body": [
@@ -677,6 +684,34 @@
       "#assencloc"
     ],
     "description": "Specifies an encounter location that the assassinations will appear in. If not specified, a suitable one for each occasion will be used. Possible values can be seen below."
+  },
+  "#assfollower1": {
+    "prefix": "#assfollower1",
+    "body": [
+      "#assfollower1"
+    ],
+    "description": "Assassins from following event commands will receive 1 follower of this type."
+  },
+  "#assfollower1d3": {
+    "prefix": "#assfollower1d3",
+    "body": [
+      "#assfollower1d3"
+    ],
+    "description": "Assassins from following event commands will receive 1d3 followers of this type."
+  },
+  "#assfollower2": {
+    "prefix": "#assfollower2",
+    "body": [
+      "#assfollower2"
+    ],
+    "description": "Assassins from following event commands will receive 2 follower of this type."
+  },
+  "#assfollower3": {
+    "prefix": "#assfollower3",
+    "body": [
+      "#assfollower3"
+    ],
+    "description": "Assassins from following event commands will receive 3 follower of this type."
   },
   "#assowner": {
     "prefix": "#assowner",
@@ -1385,6 +1420,13 @@
     ],
     "description": "This unit can be recruited in (terrain) provinces with a fort."
   },
+  "#cavelabcost ": {
+    "prefix": "#cavelabcost ",
+    "body": [
+      "#cavelabcost "
+    ],
+    "description": "Gold cost for building a lab in a cave. Default is 600."
+  },
   "#cavenation": {
     "prefix": "#cavenation",
     "body": [
@@ -1398,6 +1440,13 @@
       "#caverec"
     ],
     "description": "This unit can be recruited in cave provinces with or without fort. See the box below for all command names."
+  },
+  "#cavetemplecost": {
+    "prefix": "#cavetemplecost",
+    "body": [
+      "#cavetemplecost"
+    ],
+    "description": "Gold cost for building a temple in a cave. Default is 600."
   },
   "#champprize": {
     "prefix": "#champprize",
@@ -3002,6 +3051,13 @@
     ],
     "description": "Will get dominion times this value amount of scar souls (extra lives)"
   },
+  "#extramsg": {
+    "prefix": "#extramsg",
+    "body": [
+      "#extramsg"
+    ],
+    "description": "This nation will also get the event message."
+  },
   "#eyeloss": {
     "prefix": "#eyeloss",
     "body": [
@@ -3289,6 +3345,13 @@
     ],
     "description": "The monster creates the false impression of uniformity in its own army. Enemy scouting reports will perceive the army to only contain one type of troop. The reported troop type is usually the most common troop type present."
   },
+  "#forcetransform": {
+    "prefix": "#forcetransform",
+    "body": [
+      "#forcetransform"
+    ],
+    "description": "One commander determined by target requirements is transformed into another monster, negative numbers can be used for montags. This command can even transform gods and other units that are immune to polymorph."
+  },
   "#foreignshape": {
     "prefix": "#foreignshape",
     "body": [
@@ -3464,6 +3527,20 @@
     ],
     "description": "Lose 3d6 gems of specified type. Gem type 53 can be used for all types, then 1d6 will be lost of each type of gem. Use gem type 56 to exclude blood slaves."
   },
+  "#gemlosslarge": {
+    "prefix": "#gemlosslarge",
+    "body": [
+      "#gemlosslarge"
+    ],
+    "description": "Like #gemloss, but 3d6 gems instead."
+  },
+  "#gemlosssmall": {
+    "prefix": "#gemlosssmall",
+    "body": [
+      "#gemlosssmall"
+    ],
+    "description": "Like #gemloss, but 1d6 gems instead."
+  },
   "#gemprod": {
     "prefix": "#gemprod",
     "body": [
@@ -3505,6 +3582,13 @@
       "#glamourrange"
     ],
     "description": "Glamour magic cast by the monster have increased range."
+  },
+  "#globallook": {
+    "prefix": "#globallook",
+    "body": [
+      "#globallook"
+    ],
+    "description": "If global should be visible from map (localglobal only) this command can be used to determine what it should look like. 1-9"
   },
   "#goddomchaos": {
     "prefix": "#goddomchaos",
@@ -4521,6 +4605,13 @@
     ],
     "description": "This command can restrict the random placement of a site to certain terrains or flag the site as unique."
   },
+  "#localglobal": {
+    "prefix": "#localglobal",
+    "body": [
+      "#localglobal"
+    ],
+    "description": "This is a localized global enchantment. It will have its origin in the province where it was cast."
+  },
   "#loseeye": {
     "prefix": "#loseeye",
     "body": [
@@ -5053,12 +5144,26 @@
     ],
     "description": "If this is set to one the mount is also a commander. This command is used for some gods that have divine mounts."
   },
+  "#mountlabcost": {
+    "prefix": "#mountlabcost",
+    "body": [
+      "#mountlabcost"
+    ],
+    "description": "Gold cost for building a lab in highlands. Default is 600."
+  },
   "#mountmnr": {
     "prefix": "#mountmnr",
     "body": [
       "#mountmnr"
     ],
     "description": "Use this to give a mount to a rider. The sprite of the unit should be the standard sprite of the rider sitting on his mount."
+  },
+  "#mounttemplecost": {
+    "prefix": "#mounttemplecost",
+    "body": [
+      "#mounttemplecost"
+    ],
+    "description": "Gold cost for building a temple in highlands. Default is 600."
   },
   "#mr": {
     "prefix": "#mr",
@@ -5687,7 +5792,7 @@
     "body": [
       "#notfornation"
     ],
-    "description": "Restricts a spell so that it cannot be used by this nation. This command can be used multiple times on the same spell."
+    "description": "Restricts a spell or item so that it cannot be used by this nation. This command can be used multiple times on the same spell."
   },
   "#nothrowoff": {
     "prefix": "#nothrowoff",
@@ -6501,6 +6606,13 @@
     ],
     "description": "This enchantment must be active and in its owners dominion."
   },
+  "#req_enchtarget": {
+    "prefix": "#req_enchtarget",
+    "body": [
+      "#req_enchtarget"
+    ],
+    "description": "This global enchantment must be active and have its origin in the current province"
+  },
   "#req_era": {
     "prefix": "#req_era",
     "body": [
@@ -6753,6 +6865,13 @@
     ],
     "description": "This monster must be present in the province."
   },
+  "#req_month": {
+    "prefix": "#req_month",
+    "body": [
+      "#req_month"
+    ],
+    "description": "Month of the year required. E.g. 4 = mid summer, 10 = mid winter"
+  },
   "#req_mountain": {
     "prefix": "#req_mountain",
     "body": [
@@ -6794,6 +6913,13 @@
       "#req_nearbysite"
     ],
     "description": "Event requires [sitename] to be in the province or adjacent provinces."
+  },
+  "#req_nearbythrone": {
+    "prefix": "#req_nearbythrone",
+    "body": [
+      "#req_nearbythrone"
+    ],
+    "description": "Event requires a throne to be in the province or in adjacent provinces."
   },
   "#req_nearowncode": {
     "prefix": "#req_nearowncode",
@@ -6934,6 +7060,13 @@
       "#req_notanycode"
     ],
     "description": "Event code must not be present in the world. Can be used multiple times for an event. If the command is used multiple times, none of the codes may be present."
+  },
+  "#req_notcode": {
+    "prefix": "#req_notcode",
+    "body": [
+      "#req_notcode"
+    ],
+    "description": "Province must not have this event code. Can be used multiple times for an event."
   },
   "#req_notforally": {
     "prefix": "#req_notforally",
@@ -7215,6 +7348,13 @@
     ],
     "description": "Sets targets gender requirement.  1 = must be male 0 = must be female"
   },
+  "#req_targmanygems": {
+    "prefix": "#req_targmanygems",
+    "body": [
+      "#req_targmanygems"
+    ],
+    "description": "Target must carry many gems (>d20) of this type. Use path number 53 for all type of gems and 56 for all but blood."
+  },
   "#req_targmaxsize": {
     "prefix": "#req_targmaxsize",
     "body": [
@@ -7362,6 +7502,13 @@
     ],
     "description": "Target must be a prophet.  1 = must be a prophet 0 = cannot be a prophet"
   },
+  "#req_targsight": {
+    "prefix": "#req_targsight",
+    "body": [
+      "#req_targsight"
+    ],
+    "description": "Target must have eyes and be able to see with them. 1 = must have sight, 0 = cannot have sight"
+  },
   "#req_targundead": {
     "prefix": "#req_targundead",
     "body": [
@@ -7375,6 +7522,13 @@
       "#req_temple"
     ],
     "description": "There must be a temple in the province. 1 = yes, 0 = no"
+  },
+  "#req_thronesite": {
+    "prefix": "#req_thronesite",
+    "body": [
+      "#req_thronesite"
+    ],
+    "description": "Event requires a throne (any type) to be in the province"
   },
   "#req_turn": {
     "prefix": "#req_turn",
@@ -8138,6 +8292,13 @@
     ],
     "description": "All Sorcery magic (Astral Death Nature Blood) rituals cast in this province have their range increased by"
   },
+  "#soulslaying": {
+    "prefix": "#soulslaying",
+    "body": [
+      "#soulslaying"
+    ],
+    "description": "Undocumented: I assume it applies a soulslay affect for immortals and alike."
+  },
   "#sound": {
     "prefix": "#sound",
     "body": [
@@ -8165,6 +8326,13 @@
       "#specstart"
     ],
     "description": "Use this command to assign a specific nation to a specific start location. Nation numbers can be found in the Early Era Nations table and the three following tables. If you use the #specstart command"
+  },
+  "#speedmult": {
+    "prefix": "#speedmult",
+    "body": [
+      "#speedmult"
+    ],
+    "description": "Use this command to make the projectiles fly slower or faster. By default weapon projectiles have a speed of 2."
   },
   "#spell": {
     "prefix": "#spell",
@@ -8635,6 +8803,13 @@
     ],
     "description": "This unit can be recruited in (terrain) provinces with a fort."
   },
+  "#swamplabcost": {
+    "prefix": "#swamplabcost",
+    "body": [
+      "#swamplabcost"
+    ],
+    "description": "Gold cost for building a lab in a swamp. Default is 600"
+  },
   "#swamprec": {
     "prefix": "#swamprec",
     "body": [
@@ -8648,6 +8823,13 @@
       "#swampsurvival"
     ],
     "description": "Monster has the Swamp Survival skill. Swamp terrain does not hinder movement."
+  },
+  "#swamptemplecost": {
+    "prefix": "#swamptemplecost",
+    "body": [
+      "#swamptemplecost"
+    ],
+    "description": "Gold cost for building a temple in a swamp. Default is 600."
   },
   "#swift": {
     "prefix": "#swift",
@@ -9209,6 +9391,20 @@
     ],
     "description": "The player who has control over this province will control from one to seven victory points. If the province has a fort then the controller of the fort controls the victory points."
   },
+  "#viewallbat": {
+    "prefix": "#viewallbat",
+    "body": [
+      "#viewallbat"
+    ],
+    "description": "This nation gets to view all battles for all players, including assassinations. This command is intended for debug or observer mods and should not be used for any real nations"
+  },
+  "#viewallprov": {
+    "prefix": "#viewallprov",
+    "body": [
+      "#viewallprov"
+    ],
+    "description": "This nation gets to view all provinces regardless of owner. This command is intended for debug or observer mods and should not be used for any real nations"
+  },
   "#visitors": {
     "prefix": "#visitors",
     "body": [
@@ -9293,6 +9489,13 @@
     ],
     "description": "This unit can be recruited in (terrain) provinces with a fort."
   },
+  "#wastelabcost": {
+    "prefix": "#wastelabcost",
+    "body": [
+      "#wastelabcost"
+    ],
+    "description": "Gold cost for building a lab in a waste. Default is 600."
+  },
   "#wasterec": {
     "prefix": "#wasterec",
     "body": [
@@ -9306,6 +9509,13 @@
       "#wastesurvival"
     ],
     "description": "Monster has the Waste Survival skill. Waste terrain does not hinder movement."
+  },
+  "#wastetemplecost": {
+    "prefix": "#wastetemplecost",
+    "body": [
+      "#wastetemplecost"
+    ],
+    "description": "Gold cost for building a temple in a waste. Default is 600."
   },
   "#waterattuned": {
     "prefix": "#waterattuned",
@@ -9516,6 +9726,13 @@
       "#worldunrest"
     ],
     "description": "Unrest in every province in the world is increased by . Can be negative to reduce unrest."
+  },
+  "#worldvisible": {
+    "prefix": "#worldvisible",
+    "body": [
+      "#worldvisible"
+    ],
+    "description": "This enchantment can be seen from all over the world. Use together with #localglobal."
   },
   "#woundfend": {
     "prefix": "#woundfend",

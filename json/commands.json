@@ -228,6 +228,10 @@
     "description": "Informs the AI that this nation has sacred ranged units. So a Wind Guide bless or something similar could be appropriate."
   },
   {
+    "Friendly name": "aimagerec",
+    "description": "Will make the AI more likely to recruit mage commanders than other commanders. The number is the chance for the AI reconsider a non-mage commander recruitment."
+  },
+  {
     "Friendly name": "aimusthavemag",
     "description": "Makes AI pretender have at least 3 in this magic school. Only one of these possible per nation."
   },
@@ -366,6 +370,22 @@
   {
     "Friendly name": "assencloc",
     "description": "Specifies an encounter location that the assassinations will appear in. If not specified, a suitable one for each occasion will be used. Possible values can be seen below."
+  },
+  {
+    "Friendly name": "assfollower1",
+    "description": "Assassins from following event commands will receive 1 follower of this type."
+  },
+  {
+    "Friendly name": "assfollower1d3",
+    "description": "Assassins from following event commands will receive 1d3 followers of this type."
+  },
+  {
+    "Friendly name": "assfollower2",
+    "description": "Assassins from following event commands will receive 2 follower of this type."
+  },
+  {
+    "Friendly name": "assfollower3",
+    "description": "Assassins from following event commands will receive 3 follower of this type."
   },
   {
     "Friendly name": "assowner",
@@ -772,12 +792,20 @@
     "description": "This unit can be recruited in (terrain) provinces with a fort. "
   },
   {
+    "Friendly name": "cavelabcost ",
+    "description": "Gold cost for building a lab in a cave. Default is 600."
+  },
+  {
     "Friendly name": "cavenation",
     "description": "Sets the nations preference for starting in cave provinces.  0 = never start in caves 1 = can start in caves 2 = always start in a cave"
   },
   {
     "Friendly name": "caverec",
     "description": "This unit can be recruited in cave provinces with or without fort. See the box below for all command names."
+  },
+  {
+    "Friendly name": "cavetemplecost",
+    "description": "Gold cost for building a temple in a cave. Default is 600."
   },
   {
     "Friendly name": "champprize",
@@ -1696,6 +1724,10 @@
     "description": "Will get dominion times this value amount of scar souls (extra lives)"
   },
   {
+    "Friendly name": "extramsg",
+    "description": "This nation will also get the event message."
+  },
+  {
     "Friendly name": "eyeloss",
     "description": "Anyone striking this monster may lose an eye."
   },
@@ -1860,6 +1892,10 @@
     "description": "The monster creates the false impression of uniformity in its own army. Enemy scouting reports will perceive the army to only contain one type of troop. The reported troop type is usually the most common troop type present."
   },
   {
+    "Friendly name": "forcetransform",
+    "description": "One commander determined by target requirements is transformed into another monster, negative numbers can be used for montags. This command can even transform gods and other units that are immune to polymorph."
+  },
+  {
     "Friendly name": "foreignshape",
     "description": "The monster changes to this shape when moving out of its home province."
   },
@@ -1960,6 +1996,14 @@
     "description": "Lose 3d6 gems of specified type. Gem type 53 can be used for all types, then 1d6 will be lost of each type of gem. Use gem type 56 to exclude blood slaves."
   },
   {
+    "Friendly name": "gemlosslarge",
+    "description": "Like #gemloss, but 3d6 gems instead."
+  },
+  {
+    "Friendly name": "gemlosssmall",
+    "description": "Like #gemloss, but 1d6 gems instead."
+  },
+  {
     "Friendly name": "gemprod",
     "description": "This monster produces a number of magic gems each month. The type ranges from 0 (fire gems) to 7 (blood slaves). See table Magic path numbers."
   },
@@ -1982,6 +2026,10 @@
   {
     "Friendly name": "glamourrange",
     "description": "Glamour magic cast by the monster have increased range."
+  },
+  {
+    "Friendly name": "globallook",
+    "description": "If global should be visible from map (localglobal only) this command can be used to determine what it should look like. 1-9"
   },
   {
     "Friendly name": "goddomchaos",
@@ -2564,6 +2612,10 @@
     "description": "This command can restrict the random placement of a site to certain terrains or flag the site as unique."
   },
   {
+    "Friendly name": "localglobal",
+    "description": "This is a localized global enchantment. It will have its origin in the province where it was cast."
+  },
+  {
     "Friendly name": "loseeye",
     "description": "The item bearer loses an eye. The affliction cannot be healed until the item is removed."
   },
@@ -2868,8 +2920,16 @@
     "description": "If this is set to one the mount is also a commander. This command is used for some gods that have divine mounts."
   },
   {
+    "Friendly name": "mountlabcost",
+    "description": "Gold cost for building a lab in highlands. Default is 600."
+  },
+  {
     "Friendly name": "mountmnr",
     "description": "Use this to give a mount to a rider. The sprite of the unit should be the standard sprite of the rider sitting on his mount."
+  },
+  {
+    "Friendly name": "mounttemplecost",
+    "description": "Gold cost for building a temple in highlands. Default is 600."
   },
   {
     "Friendly name": "mr",
@@ -3217,7 +3277,7 @@
   },
   {
     "Friendly name": "notfornation",
-    "description": "Restricts a spell so that it cannot be used by this nation. This command can be used multiple times on the same spell."
+    "description": "Restricts a spell or item so that it cannot be used by this nation. This command can be used multiple times on the same spell."
   },
   {
     "Friendly name": "nothrowoff",
@@ -3684,6 +3744,10 @@
     "description": "This enchantment must be active and in its owners dominion."
   },
   {
+    "Friendly name": "req_enchtarget",
+    "description": "This global enchantment must be active and have its origin in the current province"
+  },
+  {
     "Friendly name": "req_era",
     "description": "Can only happen in this era.  1 = early 2 = mid 3 = late"
   },
@@ -3828,6 +3892,10 @@
     "description": "This monster must be present in the province."
   },
   {
+    "Friendly name": "req_month",
+    "description": "Month of the year required. E.g. 4 = mid summer, 10 = mid winter"
+  },
+  {
     "Friendly name": "req_mountain",
     "description": "Event requires the province to have mountain or border mountain terrain. 1 = must be mountain, 0 = cannot be mountain."
   },
@@ -3850,6 +3918,10 @@
   {
     "Friendly name": "req_nearbysite",
     "description": "Event requires [sitename] to be in the province or adjacent provinces."
+  },
+  {
+    "Friendly name": "req_nearbythrone",
+    "description": "Event requires a throne to be in the province or in adjacent provinces."
   },
   {
     "Friendly name": "req_nearowncode",
@@ -3930,6 +4002,10 @@
   {
     "Friendly name": "req_notanycode",
     "description": "Event code must not be present in the world. Can be used multiple times for an event. If the command is used multiple times, none of the codes may be present."
+  },
+  {
+    "Friendly name": "req_notcode",
+    "description": "Province must not have this event code. Can be used multiple times for an event."
   },
   {
     "Friendly name": "req_notforally",
@@ -4092,6 +4168,10 @@
     "description": "Sets targets gender requirement.  1 = must be male 0 = must be female"
   },
   {
+    "Friendly name": "req_targmanygems",
+    "description": "Target must carry many gems (>d20) of this type. Use path number 53 for all type of gems and 56 for all but blood."
+  },
+  {
     "Friendly name": "req_targmaxsize",
     "description": "Target must be this size of smaller.  These commands set event code requirements that must be fulfilled for the event to take place. They are generally used in event chains where the event requires another event to have taken place previously.  There is a risk of incompatible mods if the same event codes are used across different mods!  Please use only negative event codes from -300 and downwards, or it may interfere with the events in the vanilla game (except for 0, which is default)."
   },
@@ -4176,12 +4256,20 @@
     "description": "Target must be a prophet.  1 = must be a prophet 0 = cannot be a prophet"
   },
   {
+    "Friendly name": "req_targsight",
+    "description": "Target must have eyes and be able to see with them. 1 = must have sight, 0 = cannot have sight"
+  },
+  {
     "Friendly name": "req_targundead",
     "description": "Target must (not) be an undead."
   },
   {
     "Friendly name": "req_temple",
     "description": "There must be a temple in the province. 1 = yes, 0 = no"
+  },
+  {
+    "Friendly name": "req_thronesite",
+    "description": "Event requires a throne (any type) to be in the province"
   },
   {
     "Friendly name": "req_turn",
@@ -4608,6 +4696,10 @@
     "description": "All Sorcery magic (Astral Death Nature Blood) rituals cast in this province have their range increased by"
   },
   {
+    "Friendly name": "soulslaying",
+    "description": "Undocumented: I assume it applies a soulslay affect for immortals and alike."
+  },
+  {
     "Friendly name": "sound",
     "description": "The sample that will sound when this spell is cast. Samples have the same number as the weapon samples see table Sound effects."
   },
@@ -4622,6 +4714,10 @@
   {
     "Friendly name": "specstart",
     "description": " Use this command to assign a specific nation to a specific start location. Nation numbers can be found in the Early Era Nations table and the three following tables. If you use the #specstart command"
+  },
+  {
+    "Friendly name": "speedmult",
+    "description": "Use this command to make the projectiles fly slower or faster. By default weapon projectiles have a speed of 2."
   },
   {
     "Friendly name": "spell",
@@ -4892,12 +4988,20 @@
     "description": "This unit can be recruited in (terrain) provinces with a fort. "
   },
   {
+    "Friendly name": "swamplabcost",
+    "description": "Gold cost for building a lab in a swamp. Default is 600"
+  },
+  {
     "Friendly name": "swamprec",
     "description": "This unit can be recruited in swamp provinces with or without fort. See the box below for all command names."
   },
   {
     "Friendly name": "swampsurvival",
     "description": "Monster has the Swamp Survival skill. Swamp terrain does not hinder movement."
+  },
+  {
+    "Friendly name": "swamptemplecost",
+    "description": "Gold cost for building a temple in a swamp. Default is 600."
   },
   {
     "Friendly name": "swift",
@@ -5220,6 +5324,14 @@
     "description": " The player who has control over this province will control from one to seven victory points. If the province has a fort then the controller of the fort controls the victory points."
   },
   {
+    "Friendly name": "viewallbat",
+    "description": "This nation gets to view all battles for all players, including assassinations. This command is intended for debug or observer mods and should not be used for any real nations"
+  },
+  {
+    "Friendly name": "viewallprov",
+    "description": "This nation gets to view all provinces regardless of owner. This command is intended for debug or observer mods and should not be used for any real nations"
+  },
+  {
     "Friendly name": "visitors",
     "description": "The province is attacked by Bogus the Troll and his Companions."
   },
@@ -5268,12 +5380,20 @@
     "description": "This unit can be recruited in (terrain) provinces with a fort. "
   },
   {
+    "Friendly name": "wastelabcost",
+    "description": "Gold cost for building a lab in a waste. Default is 600."
+  },
+  {
     "Friendly name": "wasterec",
     "description": "This unit can be recruited in wasteland provinces with or without fort. See the box below for all command names."
   },
   {
     "Friendly name": "wastesurvival",
     "description": "Monster has the Waste Survival skill. Waste terrain does not hinder movement."
+  },
+  {
+    "Friendly name": "wastetemplecost",
+    "description": "Gold cost for building a temple in a waste. Default is 600."
   },
   {
     "Friendly name": "waterattuned",
@@ -5394,6 +5514,10 @@
   {
     "Friendly name": "worldunrest",
     "description": "Unrest in every province in the world is increased by . Can be negative to reduce unrest."
+  },
+  {
+    "Friendly name": "worldvisible",
+    "description": "This enchantment can be seen from all over the world. Use together with #localglobal."
   },
   {
     "Friendly name": "woundfend",

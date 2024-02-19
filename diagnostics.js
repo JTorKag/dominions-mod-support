@@ -650,6 +650,23 @@ checkTwoCustomRangeValues(lines, diagnostics, command, minValueSet1, maxValueSet
         this.checkCustomRangeValues(lines, diagnostics, "#enchrebate25p", 0, 101);
         this.checkCustomRangeValues(lines, diagnostics, "#enchrebate50p", 0, 101);
         this.checkCustomRangeTwoSetsValues(lines, diagnostics, "#effect",0, 699, 10000, 10699);
+        this.checkCustomRangeValues(lines, diagnostics, "#req_month", 1 , 12);
+        this.checkCustomRangeValues(lines, diagnostics, "#req_targsight", 0, 1);
+        this.checkCustomRangeValues(lines, diagnostics, "#speedmult", 1, 3);
+        this.checkCustomRangeValues(lines, diagnostics, "#localglobal", 0, 1);
+        this.checkCustomRangeValues(lines, diagnostics, "#worldvisible", 0, 1);
+        this.checkCustomRangeValues(lines, diagnostics, "#globallook", 1, 9);
+        this.checkCustomRangeValues(lines, diagnostics, '#extramsg', 5, 499);
+        this.checkCustomRangeValues(lines, diagnostics, '#req_nearbythrone', 0, 1);
+        this.checkCustomRangeValues(lines, diagnostics, '#req_thronesite', 0, 1);
+        this.checkCustomRangeValues(lines, diagnostics, '#aimagerec', 0, 99);
+
+        
+
+
+
+        
+        //create monster diagnostics including transform and forcetransform
 /*      These all need revision because the trailing number is being counted as the value for the command.
         this.checkCustomRangeValues(lines, diagnostics, "#path0", 0, 8);
         this.checkCustomRangeValues(lines, diagnostics, "#cost0", 1, 10);

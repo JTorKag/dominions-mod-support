@@ -2,7 +2,7 @@
   "name": "dominions-mod-support",
   "displayName": "Dominions Mod Support",
   "description": "Syntax highlighting, Diagnostics, & Hover information on keywords and IDs.",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "repository": "https://github.com/JTorKag/dominions-mod-support",
   "publisher": "jtorkag",
   "license": "LGPL-3.0-only",

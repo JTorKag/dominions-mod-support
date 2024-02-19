@@ -37,7 +37,7 @@ def generate_vscode_language_json(csv_file_path, output_json_path):
                 "patterns": [
                     {
                         "name": "keyword.control.dominionsmod",
-                        "match": "\\s*#(" + first_header_value + '|'.join(match_values) + ")\\b\\s*"
+                        "match": "\\s*#(" + first_header_value + '|' + '|'.join(match_values) + ")\\b\\s*"
                     }
                 ]
             },
