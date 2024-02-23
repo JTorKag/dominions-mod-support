@@ -660,6 +660,7 @@ checkTwoCustomRangeValues(lines, diagnostics, command, minValueSet1, maxValueSet
         this.checkCustomRangeValues(lines, diagnostics, '#req_nearbythrone', 0, 1);
         this.checkCustomRangeValues(lines, diagnostics, '#req_thronesite', 0, 1);
         this.checkCustomRangeValues(lines, diagnostics, '#aimagerec', 0, 99);
+        this.checkCustomRangeValues(lines, diagnostics, '#holycost', 1, 15);
 
         
 

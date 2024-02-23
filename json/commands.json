@@ -5550,5 +5550,9 @@
   {
     "Friendly name": "yearturn",
     "description": "Power of the Turning Year. This unit is more powerful during the height of each season and will get increased Strength Attack and Defence during those months."
+  },
+  {
+    "Friendly name": "holycost",
+    "description": " Sets the holy point cost for recruiting this unit minimum is 1. Can only be used on sacred units. If this command is not used they will cost the usual one holy point."
   }
 ]
