@@ -28,7 +28,7 @@ There's missing diagnostics and some are intentionally disabled due to needing s
 
 There is likely errors in my data for all the commands. I did a lot of scraping and regex instead of going through it by hand. If you catch any and are feeling extra generous please fix and submit a pull request. Or if not and it's small just let me know via discord @zegma and I can include the fix in during an update. 
 
-### 2.0.5
+### 2.0.6
 
 Added more commands. Thanks everyone who points these out. 
 

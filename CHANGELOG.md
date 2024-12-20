@@ -45,3 +45,7 @@ Fixed some broken diagnostics
 ### [2.0.5]
 
 Added more commands. Thanks everyone who points these out. 
+
+### [2.0.6]
+
+Added more commands. Thanks everyone who points these out. 
