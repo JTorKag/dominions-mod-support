@@ -49,3 +49,9 @@ Added more commands. Thanks everyone who points these out.
 ### [2.0.6]
 
 Added more commands. Thanks everyone who points these out. 
+
+### [2.0.7]
+
+Caught up to dom version 6.24
+Added before but forgot to make a note, support for hotkey commenting. Ctrl-K to comment a selected text, Shift-Ctrl-K to uncomment.
+Added a bunch more error diagnostics. If there's a particular error that catches you a lot and I'm not checking for it, let me know and I'll add it in.  

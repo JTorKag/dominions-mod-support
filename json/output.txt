@@ -1,0 +1,4852 @@
+#selectspell 200
+#precision 102
+#end
+
+#selectspell 201
+#precision 2
+#end
+
+#selectspell 202
+#precision 2
+#end
+
+#selectspell 204
+#precision 2
+#end
+
+#selectspell 206
+#precision 2
+#end
+
+#selectspell 208
+#precision 2
+#end
+
+#selectspell 209
+#precision 2
+#end
+
+#selectspell 210
+#precision 2
+#end
+
+#selectspell 212
+#precision 2
+#end
+
+#selectspell 214
+#precision 2
+#end
+
+#selectspell 216
+#precision 102
+#end
+
+#selectspell 217
+#precision 102
+#end
+
+#selectspell 218
+#precision 102
+#end
+
+#selectspell 219
+#precision 2
+#end
+
+#selectspell 220
+#precision 102
+#end
+
+#selectspell 221
+#precision 102
+#end
+
+#selectspell 222
+#precision 102
+#end
+
+#selectspell 224
+#precision 102
+#end
+
+#selectspell 226
+#precision 102
+#end
+
+#selectspell 228
+#precision 102
+#end
+
+#selectspell 230
+#precision 102
+#end
+
+#selectspell 232
+#precision 102
+#end
+
+#selectspell 235
+#precision 102
+#end
+
+#selectspell 238
+#precision 102
+#end
+
+#selectspell 240
+#precision 102
+#end
+
+#selectspell 242
+#precision 2
+#end
+
+#selectspell 243
+#precision 2
+#end
+
+#selectspell 244
+#precision 1
+#end
+
+#selectspell 245
+#precision 2
+#end
+
+#selectspell 246
+#precision 3
+#end
+
+#selectspell 247
+#precision 2
+#end
+
+#selectspell 248
+#precision 2
+#end
+
+#selectspell 249
+#precision 2
+#end
+
+#selectspell 250
+#precision 2
+#end
+
+#selectspell 251
+#precision 2
+#end
+
+#selectspell 252
+#precision 2
+#end
+
+#selectspell 253
+#precision 7
+#end
+
+#selectspell 254
+#precision 7
+#end
+
+#selectspell 255
+#precision 8
+#end
+
+#selectspell 256
+#precision 8
+#end
+
+#selectspell 257
+#precision 10
+#end
+
+#selectspell 259
+#precision 5
+#end
+
+#selectspell 261
+#precision 5
+#end
+
+#selectspell 262
+#precision 5
+#end
+
+#selectspell 263
+#precision 2
+#end
+
+#selectspell 264
+#precision 9
+#end
+
+#selectspell 265
+#precision 8
+#end
+
+#selectspell 266
+#precision 8
+#end
+
+#selectspell 267
+#precision 6
+#end
+
+#selectspell 269
+#precision 8
+#end
+
+#selectspell 270
+#precision 8
+#end
+
+#selectspell 271
+#precision 3
+#end
+
+#selectspell 272
+#precision 10
+#end
+
+#selectspell 273
+#precision 4
+#end
+
+#selectspell 274
+#precision 7
+#end
+
+#selectspell 275
+#precision 5
+#end
+
+#selectspell 276
+#precision 5
+#end
+
+#selectspell 277
+#precision 5
+#end
+
+#selectspell 278
+#precision 5
+#end
+
+#selectspell 280
+#precision 105
+#end
+
+#selectspell 281
+#precision 5
+#end
+
+#selectspell 282
+#precision 7
+#end
+
+#selectspell 283
+#precision 6
+#end
+
+#selectspell 284
+#precision 3
+#end
+
+#selectspell 285
+#precision 3
+#end
+
+#selectspell 286
+#precision 107
+#end
+
+#selectspell 287
+#precision 8
+#end
+
+#selectspell 288
+#precision 6
+#end
+
+#selectspell 289
+#precision 7
+#end
+
+#selectspell 290
+#precision 2
+#end
+
+#selectspell 291
+#precision 2
+#end
+
+#selectspell 292
+#precision 8
+#end
+
+#selectspell 293
+#precision 8
+#end
+
+#selectspell 294
+#precision 2
+#end
+
+#selectspell 295
+#precision 102
+#end
+
+#selectspell 296
+#precision 102
+#end
+
+#selectspell 297
+#precision 102
+#end
+
+#selectspell 298
+#precision 2
+#end
+
+#selectspell 299
+#precision 5
+#end
+
+#selectspell 300
+#precision 5
+#end
+
+#selectspell 301
+#precision 6
+#end
+
+#selectspell 302
+#precision 6
+#end
+
+#selectspell 303
+#precision 6
+#end
+
+#selectspell 304
+#precision 7
+#end
+
+#selectspell 305
+#precision 7
+#end
+
+#selectspell 306
+#precision 7
+#end
+
+#selectspell 307
+#precision 7
+#end
+
+#selectspell 308
+#precision 7
+#end
+
+#selectspell 309
+#precision 8
+#end
+
+#selectspell 310
+#precision 8
+#end
+
+#selectspell 311
+#precision 8
+#end
+
+#selectspell 312
+#precision 8
+#end
+
+#selectspell 313
+#precision 9
+#end
+
+#selectspell 314
+#precision 9
+#end
+
+#selectspell 315
+#precision 4
+#end
+
+#selectspell 316
+#precision 7
+#end
+
+#selectspell 317
+#precision 4
+#end
+
+#selectspell 318
+#precision 10
+#end
+
+#selectspell 319
+#precision 7
+#end
+
+#selectspell 320
+#precision 5
+#end
+
+#selectspell 321
+#precision 5
+#end
+
+#selectspell 322
+#precision 4
+#end
+
+#selectspell 323
+#precision 5
+#end
+
+#selectspell 324
+#precision 7
+#end
+
+#selectspell 325
+#precision 5
+#end
+
+#selectspell 326
+#precision 6
+#end
+
+#selectspell 327
+#precision 6
+#end
+
+#selectspell 328
+#precision 6
+#end
+
+#selectspell 329
+#precision 6
+#end
+
+#selectspell 330
+#precision 7
+#end
+
+#selectspell 331
+#precision 7
+#end
+
+#selectspell 332
+#precision 7
+#end
+
+#selectspell 333
+#precision 8
+#end
+
+#selectspell 334
+#precision 9
+#end
+
+#selectspell 335
+#precision 9
+#end
+
+#selectspell 336
+#precision 10
+#end
+
+#selectspell 337
+#precision 2
+#end
+
+#selectspell 338
+#precision 7
+#end
+
+#selectspell 339
+#precision 6
+#end
+
+#selectspell 340
+#precision 5
+#end
+
+#selectspell 341
+#precision 6
+#end
+
+#selectspell 343
+#precision 7
+#end
+
+#selectspell 344
+#precision 8
+#end
+
+#selectspell 345
+#precision 7
+#end
+
+#selectspell 346
+#precision 7
+#end
+
+#selectspell 347
+#precision 8
+#end
+
+#selectspell 348
+#precision 10
+#end
+
+#selectspell 349
+#precision 5
+#end
+
+#selectspell 350
+#precision 5
+#end
+
+#selectspell 351
+#precision 6
+#end
+
+#selectspell 352
+#precision 6
+#end
+
+#selectspell 353
+#precision 8
+#end
+
+#selectspell 354
+#precision 9
+#end
+
+#selectspell 355
+#precision 10
+#end
+
+#selectspell 356
+#precision 11
+#end
+
+#selectspell 357
+#precision 11
+#end
+
+#selectspell 358
+#precision 5
+#end
+
+#selectspell 359
+#precision 7
+#end
+
+#selectspell 360
+#precision 6
+#end
+
+#selectspell 361
+#precision 7
+#end
+
+#selectspell 362
+#precision 9
+#end
+
+#selectspell 363
+#precision 10
+#end
+
+#selectspell 364
+#precision 2
+#end
+
+#selectspell 365
+#precision 2
+#end
+
+#selectspell 366
+#precision 10
+#end
+
+#selectspell 367
+#precision 7
+#end
+
+#selectspell 368
+#precision 8
+#end
+
+#selectspell 369
+#precision 7
+#end
+
+#selectspell 370
+#precision 8
+#end
+
+#selectspell 371
+#precision 7
+#end
+
+#selectspell 372
+#precision 2
+#end
+
+#selectspell 373
+#precision 102
+#end
+
+#selectspell 374
+#precision 102
+#end
+
+#selectspell 375
+#precision 102
+#end
+
+#selectspell 376
+#precision 102
+#end
+
+#selectspell 377
+#precision 102
+#end
+
+#selectspell 378
+#precision 102
+#end
+
+#selectspell 379
+#precision 102
+#end
+
+#selectspell 380
+#precision 102
+#end
+
+#selectspell 381
+#precision 102
+#end
+
+#selectspell 382
+#precision 2
+#end
+
+#selectspell 383
+#precision 2
+#end
+
+#selectspell 384
+#precision 2
+#end
+
+#selectspell 385
+#precision 2
+#end
+
+#selectspell 386
+#precision 2
+#end
+
+#selectspell 387
+#precision 2
+#end
+
+#selectspell 388
+#precision 2
+#end
+
+#selectspell 389
+#precision 2
+#end
+
+#selectspell 390
+#precision 4
+#end
+
+#selectspell 391
+#precision 5
+#end
+
+#selectspell 392
+#precision 7
+#end
+
+#selectspell 393
+#precision 9
+#end
+
+#selectspell 394
+#precision 10
+#end
+
+#selectspell 395
+#precision 8
+#end
+
+#selectspell 396
+#precision 2
+#end
+
+#selectspell 397
+#precision 2
+#end
+
+#selectspell 398
+#precision 2
+#end
+
+#selectspell 399
+#precision 2
+#end
+
+#selectspell 400
+#precision 2
+#end
+
+#selectspell 401
+#precision 2
+#end
+
+#selectspell 402
+#precision 2
+#end
+
+#selectspell 403
+#precision 2
+#end
+
+#selectspell 404
+#precision 102
+#end
+
+#selectspell 405
+#precision 102
+#end
+
+#selectspell 406
+#precision 102
+#end
+
+#selectspell 407
+#precision 102
+#end
+
+#selectspell 408
+#precision 102
+#end
+
+#selectspell 409
+#precision 102
+#end
+
+#selectspell 410
+#precision 102
+#end
+
+#selectspell 411
+#precision 102
+#end
+
+#selectspell 412
+#precision 102
+#end
+
+#selectspell 413
+#precision 102
+#end
+
+#selectspell 414
+#precision 2
+#end
+
+#selectspell 415
+#precision 2
+#end
+
+#selectspell 416
+#precision 2
+#end
+
+#selectspell 417
+#precision 2
+#end
+
+#selectspell 418
+#precision 102
+#end
+
+#selectspell 419
+#precision 102
+#end
+
+#selectspell 420
+#precision 102
+#end
+
+#selectspell 421
+#precision 102
+#end
+
+#selectspell 422
+#precision 102
+#end
+
+#selectspell 423
+#precision 2
+#end
+
+#selectspell 424
+#precision 2
+#end
+
+#selectspell 425
+#precision 2
+#end
+
+#selectspell 426
+#precision 2
+#end
+
+#selectspell 427
+#precision 2
+#end
+
+#selectspell 428
+#precision 2
+#end
+
+#selectspell 429
+#precision 2
+#end
+
+#selectspell 430
+#precision 102
+#end
+
+#selectspell 431
+#precision 102
+#end
+
+#selectspell 432
+#precision 102
+#end
+
+#selectspell 433
+#precision 102
+#end
+
+#selectspell 434
+#precision 102
+#end
+
+#selectspell 435
+#precision 6
+#end
+
+#selectspell 438
+#precision 4
+#end
+
+#selectspell 439
+#precision 5
+#end
+
+#selectspell 440
+#precision 6
+#end
+
+#selectspell 441
+#precision 7
+#end
+
+#selectspell 442
+#precision 8
+#end
+
+#selectspell 443
+#precision 10
+#end
+
+#selectspell 444
+#precision 109
+#end
+
+#selectspell 447
+#precision 6
+#end
+
+#selectspell 448
+#precision 7
+#end
+
+#selectspell 449
+#precision 8
+#end
+
+#selectspell 453
+#precision 10
+#end
+
+#selectspell 454
+#precision 11
+#end
+
+#selectspell 455
+#precision 10
+#end
+
+#selectspell 456
+#precision 107
+#end
+
+#selectspell 457
+#precision 106
+#end
+
+#selectspell 458
+#precision 2
+#end
+
+#selectspell 459
+#precision 7
+#end
+
+#selectspell 460
+#precision 9
+#end
+
+#selectspell 461
+#precision 108
+#end
+
+#selectspell 462
+#precision 5
+#end
+
+#selectspell 463
+#precision 8
+#end
+
+#selectspell 464
+#precision 9
+#end
+
+#selectspell 465
+#precision 10
+#end
+
+#selectspell 466
+#precision 7
+#end
+
+#selectspell 467
+#precision 7
+#end
+
+#selectspell 468
+#precision 5
+#end
+
+#selectspell 469
+#precision 8
+#end
+
+#selectspell 470
+#precision 9
+#end
+
+#selectspell 471
+#precision 10
+#end
+
+#selectspell 472
+#precision 7
+#end
+
+#selectspell 473
+#precision 4
+#end
+
+#selectspell 474
+#precision 5
+#end
+
+#selectspell 475
+#precision 7
+#end
+
+#selectspell 476
+#precision 7
+#end
+
+#selectspell 477
+#precision 7
+#end
+
+#selectspell 478
+#precision 8
+#end
+
+#selectspell 479
+#precision 8
+#end
+
+#selectspell 480
+#precision 9
+#end
+
+#selectspell 481
+#precision 9
+#end
+
+#selectspell 482
+#precision 11
+#end
+
+#selectspell 483
+#precision 3
+#end
+
+#selectspell 485
+#precision 9
+#end
+
+#selectspell 486
+#precision 6
+#end
+
+#selectspell 487
+#precision 6
+#end
+
+#selectspell 488
+#precision 6
+#end
+
+#selectspell 489
+#precision 6
+#end
+
+#selectspell 490
+#precision 6
+#end
+
+#selectspell 491
+#precision 10
+#end
+
+#selectspell 492
+#precision 8
+#end
+
+#selectspell 493
+#precision 6
+#end
+
+#selectspell 494
+#precision 7
+#end
+
+#selectspell 495
+#precision 5
+#end
+
+#selectspell 496
+#precision 6
+#end
+
+#selectspell 497
+#precision 6
+#end
+
+#selectspell 498
+#precision 7
+#end
+
+#selectspell 499
+#precision 8
+#end
+
+#selectspell 500
+#precision 8
+#end
+
+#selectspell 501
+#precision 5
+#end
+
+#selectspell 503
+#precision 6
+#end
+
+#selectspell 504
+#precision 3
+#end
+
+#selectspell 505
+#precision 5
+#end
+
+#selectspell 506
+#precision 6
+#end
+
+#selectspell 507
+#precision 7
+#end
+
+#selectspell 508
+#precision 8
+#end
+
+#selectspell 509
+#precision 9
+#end
+
+#selectspell 510
+#precision 4
+#end
+
+#selectspell 511
+#precision 6
+#end
+
+#selectspell 512
+#precision 7
+#end
+
+#selectspell 513
+#precision 8
+#end
+
+#selectspell 514
+#precision 8
+#end
+
+#selectspell 515
+#precision 9
+#end
+
+#selectspell 516
+#precision 10
+#end
+
+#selectspell 517
+#precision 10
+#end
+
+#selectspell 518
+#precision 5
+#end
+
+#selectspell 519
+#precision 9
+#end
+
+#selectspell 520
+#precision 9
+#end
+
+#selectspell 521
+#precision 9
+#end
+
+#selectspell 522
+#precision 9
+#end
+
+#selectspell 523
+#precision 5
+#end
+
+#selectspell 524
+#precision 5
+#end
+
+#selectspell 525
+#precision 5
+#end
+
+#selectspell 526
+#precision 7
+#end
+
+#selectspell 527
+#precision 9
+#end
+
+#selectspell 528
+#precision 10
+#end
+
+#selectspell 529
+#precision 3
+#end
+
+#selectspell 530
+#precision 5
+#end
+
+#selectspell 531
+#precision 6
+#end
+
+#selectspell 532
+#precision 7
+#end
+
+#selectspell 533
+#precision 8
+#end
+
+#selectspell 534
+#precision 3
+#end
+
+#selectspell 535
+#precision 9
+#end
+
+#selectspell 536
+#precision 5
+#end
+
+#selectspell 537
+#precision 8
+#end
+
+#selectspell 538
+#precision 8
+#end
+
+#selectspell 539
+#precision 6
+#end
+
+#selectspell 540
+#precision 7
+#end
+
+#selectspell 541
+#precision 8
+#end
+
+#selectspell 542
+#precision 8
+#end
+
+#selectspell 543
+#precision 7
+#end
+
+#selectspell 544
+#precision 8
+#end
+
+#selectspell 545
+#precision 10
+#end
+
+#selectspell 546
+#precision 10
+#end
+
+#selectspell 547
+#precision 6
+#end
+
+#selectspell 548
+#precision 9
+#end
+
+#selectspell 550
+#precision 7
+#end
+
+#selectspell 551
+#precision 6
+#end
+
+#selectspell 552
+#precision 7
+#end
+
+#selectspell 553
+#precision 8
+#end
+
+#selectspell 554
+#precision 8
+#end
+
+#selectspell 555
+#precision 5
+#end
+
+#selectspell 556
+#precision 5
+#end
+
+#selectspell 557
+#precision 5
+#end
+
+#selectspell 558
+#precision 6
+#end
+
+#selectspell 559
+#precision 6
+#end
+
+#selectspell 560
+#precision 6
+#end
+
+#selectspell 561
+#precision 6
+#end
+
+#selectspell 562
+#precision 7
+#end
+
+#selectspell 563
+#precision 7
+#end
+
+#selectspell 564
+#precision 7
+#end
+
+#selectspell 565
+#precision 8
+#end
+
+#selectspell 566
+#precision 8
+#end
+
+#selectspell 567
+#precision 8
+#end
+
+#selectspell 568
+#precision 8
+#end
+
+#selectspell 569
+#precision 9
+#end
+
+#selectspell 570
+#precision 10
+#end
+
+#selectspell 571
+#precision 11
+#end
+
+#selectspell 572
+#precision 11
+#end
+
+#selectspell 573
+#precision 8
+#end
+
+#selectspell 574
+#precision 3
+#end
+
+#selectspell 575
+#precision 4
+#end
+
+#selectspell 576
+#precision 5
+#end
+
+#selectspell 577
+#precision 6
+#end
+
+#selectspell 578
+#precision 7
+#end
+
+#selectspell 579
+#precision 8
+#end
+
+#selectspell 580
+#precision 9
+#end
+
+#selectspell 581
+#precision 10
+#end
+
+#selectspell 582
+#precision 10
+#end
+
+#selectspell 583
+#precision 10
+#end
+
+#selectspell 584
+#precision 4
+#end
+
+#selectspell 585
+#precision 7
+#end
+
+#selectspell 586
+#precision 3
+#end
+
+#selectspell 587
+#precision 3
+#end
+
+#selectspell 588
+#precision 4
+#end
+
+#selectspell 589
+#precision 4
+#end
+
+#selectspell 590
+#precision 5
+#end
+
+#selectspell 591
+#precision 5
+#end
+
+#selectspell 592
+#precision 6
+#end
+
+#selectspell 593
+#precision 6
+#end
+
+#selectspell 594
+#precision 7
+#end
+
+#selectspell 595
+#precision 7
+#end
+
+#selectspell 596
+#precision 7
+#end
+
+#selectspell 597
+#precision 8
+#end
+
+#selectspell 598
+#precision 8
+#end
+
+#selectspell 599
+#precision 10
+#end
+
+#selectspell 600
+#precision 5
+#end
+
+#selectspell 601
+#precision 5
+#end
+
+#selectspell 602
+#precision 7
+#end
+
+#selectspell 603
+#precision 6
+#end
+
+#selectspell 604
+#precision 10
+#end
+
+#selectspell 605
+#precision 5
+#end
+
+#selectspell 606
+#precision 7
+#end
+
+#selectspell 607
+#precision 10
+#end
+
+#selectspell 608
+#precision 5
+#end
+
+#selectspell 609
+#precision 5
+#end
+
+#selectspell 610
+#precision 6
+#end
+
+#selectspell 611
+#precision 3
+#end
+
+#selectspell 612
+#precision 5
+#end
+
+#selectspell 613
+#precision 7
+#end
+
+#selectspell 614
+#precision 8
+#end
+
+#selectspell 616
+#precision 7
+#end
+
+#selectspell 617
+#precision 7
+#end
+
+#selectspell 618
+#precision 4
+#end
+
+#selectspell 619
+#precision 4
+#end
+
+#selectspell 620
+#precision 6
+#end
+
+#selectspell 621
+#precision 8
+#end
+
+#selectspell 622
+#precision 5
+#end
+
+#selectspell 623
+#precision 7
+#end
+
+#selectspell 624
+#precision 8
+#end
+
+#selectspell 625
+#precision 10
+#end
+
+#selectspell 626
+#precision 107
+#end
+
+#selectspell 627
+#precision 8
+#end
+
+#selectspell 628
+#precision 5
+#end
+
+#selectspell 629
+#precision 7
+#end
+
+#selectspell 630
+#precision 7
+#end
+
+#selectspell 633
+#precision 3
+#end
+
+#selectspell 634
+#precision 4
+#end
+
+#selectspell 635
+#precision 5
+#end
+
+#selectspell 636
+#precision 3
+#end
+
+#selectspell 637
+#precision 5
+#end
+
+#selectspell 638
+#precision 5
+#end
+
+#selectspell 639
+#precision 5
+#end
+
+#selectspell 640
+#precision 6
+#end
+
+#selectspell 641
+#precision 6
+#end
+
+#selectspell 642
+#precision 3
+#end
+
+#selectspell 643
+#precision 3
+#end
+
+#selectspell 644
+#precision 5
+#end
+
+#selectspell 645
+#precision 6
+#end
+
+#selectspell 646
+#precision 3
+#end
+
+#selectspell 647
+#precision 4
+#end
+
+#selectspell 648
+#precision 4
+#end
+
+#selectspell 649
+#precision 5
+#end
+
+#selectspell 650
+#precision 4
+#end
+
+#selectspell 651
+#precision 4
+#end
+
+#selectspell 652
+#precision 8
+#end
+
+#selectspell 653
+#precision 4
+#end
+
+#selectspell 654
+#precision 4
+#end
+
+#selectspell 655
+#precision 104
+#end
+
+#selectspell 656
+#precision 6
+#end
+
+#selectspell 657
+#precision 6
+#end
+
+#selectspell 658
+#precision 4
+#end
+
+#selectspell 659
+#precision 6
+#end
+
+#selectspell 660
+#precision 8
+#end
+
+#selectspell 661
+#precision 5
+#end
+
+#selectspell 662
+#precision 6
+#end
+
+#selectspell 663
+#precision 8
+#end
+
+#selectspell 664
+#precision 7
+#end
+
+#selectspell 665
+#precision 5
+#end
+
+#selectspell 666
+#precision 105
+#end
+
+#selectspell 667
+#precision 105
+#end
+
+#selectspell 668
+#precision 8
+#end
+
+#selectspell 669
+#precision 8
+#end
+
+#selectspell 670
+#precision 6
+#end
+
+#selectspell 671
+#precision 9
+#end
+
+#selectspell 672
+#precision 5
+#end
+
+#selectspell 673
+#precision 8
+#end
+
+#selectspell 674
+#precision 7
+#end
+
+#selectspell 675
+#precision 6
+#end
+
+#selectspell 676
+#precision 6
+#end
+
+#selectspell 677
+#precision 4
+#end
+
+#selectspell 678
+#precision 6
+#end
+
+#selectspell 679
+#precision 5
+#end
+
+#selectspell 680
+#precision 6
+#end
+
+#selectspell 681
+#precision 8
+#end
+
+#selectspell 682
+#precision 7
+#end
+
+#selectspell 683
+#precision 10
+#end
+
+#selectspell 684
+#precision 5
+#end
+
+#selectspell 685
+#precision 8
+#end
+
+#selectspell 686
+#precision 6
+#end
+
+#selectspell 687
+#precision 4
+#end
+
+#selectspell 688
+#precision 7
+#end
+
+#selectspell 690
+#precision 7
+#end
+
+#selectspell 692
+#precision 7
+#end
+
+#selectspell 694
+#precision 5
+#end
+
+#selectspell 695
+#precision 7
+#end
+
+#selectspell 696
+#precision 7
+#end
+
+#selectspell 697
+#precision 2
+#end
+
+#selectspell 698
+#precision 4
+#end
+
+#selectspell 699
+#precision 107
+#end
+
+#selectspell 700
+#precision 7
+#end
+
+#selectspell 701
+#precision 7
+#end
+
+#selectspell 702
+#precision 10
+#end
+
+#selectspell 703
+#precision 6
+#end
+
+#selectspell 704
+#precision 7
+#end
+
+#selectspell 705
+#precision 7
+#end
+
+#selectspell 706
+#precision 8
+#end
+
+#selectspell 707
+#precision 8
+#end
+
+#selectspell 708
+#precision 8
+#end
+
+#selectspell 709
+#precision 8
+#end
+
+#selectspell 710
+#precision 8
+#end
+
+#selectspell 711
+#precision 8
+#end
+
+#selectspell 712
+#precision 108
+#end
+
+#selectspell 713
+#precision 8
+#end
+
+#selectspell 714
+#precision 8
+#end
+
+#selectspell 715
+#precision 9
+#end
+
+#selectspell 716
+#precision 10
+#end
+
+#selectspell 717
+#precision 8
+#end
+
+#selectspell 718
+#precision 9
+#end
+
+#selectspell 719
+#precision 9
+#end
+
+#selectspell 720
+#precision 9
+#end
+
+#selectspell 722
+#precision 9
+#end
+
+#selectspell 723
+#precision 10
+#end
+
+#selectspell 724
+#precision 9
+#end
+
+#selectspell 725
+#precision 9
+#end
+
+#selectspell 726
+#precision 9
+#end
+
+#selectspell 727
+#precision 9
+#end
+
+#selectspell 728
+#precision 9
+#end
+
+#selectspell 729
+#precision 9
+#end
+
+#selectspell 730
+#precision 6
+#end
+
+#selectspell 731
+#precision 9
+#end
+
+#selectspell 732
+#precision 9
+#end
+
+#selectspell 733
+#precision 9
+#end
+
+#selectspell 734
+#precision 8
+#end
+
+#selectspell 735
+#precision 9
+#end
+
+#selectspell 737
+#precision 9
+#end
+
+#selectspell 738
+#precision 9
+#end
+
+#selectspell 739
+#precision 9
+#end
+
+#selectspell 740
+#precision 10
+#end
+
+#selectspell 741
+#precision 10
+#end
+
+#selectspell 742
+#precision 10
+#end
+
+#selectspell 743
+#precision 10
+#end
+
+#selectspell 744
+#precision 10
+#end
+
+#selectspell 745
+#precision 10
+#end
+
+#selectspell 746
+#precision 10
+#end
+
+#selectspell 747
+#precision 9
+#end
+
+#selectspell 748
+#precision 11
+#end
+
+#selectspell 750
+#precision 11
+#end
+
+#selectspell 751
+#precision 11
+#end
+
+#selectspell 752
+#precision 11
+#end
+
+#selectspell 753
+#precision 11
+#end
+
+#selectspell 754
+#precision 10
+#end
+
+#selectspell 755
+#precision 11
+#end
+
+#selectspell 756
+#precision 11
+#end
+
+#selectspell 757
+#precision 11
+#end
+
+#selectspell 759
+#precision 3
+#end
+
+#selectspell 760
+#precision 3
+#end
+
+#selectspell 761
+#precision 103
+#end
+
+#selectspell 762
+#precision 8
+#end
+
+#selectspell 763
+#precision 3
+#end
+
+#selectspell 764
+#precision 3
+#end
+
+#selectspell 765
+#precision 3
+#end
+
+#selectspell 766
+#precision 3
+#end
+
+#selectspell 767
+#precision 3
+#end
+
+#selectspell 768
+#precision 3
+#end
+
+#selectspell 769
+#precision 3
+#end
+
+#selectspell 770
+#precision 104
+#end
+
+#selectspell 771
+#precision 4
+#end
+
+#selectspell 772
+#precision 4
+#end
+
+#selectspell 773
+#precision 4
+#end
+
+#selectspell 774
+#precision 4
+#end
+
+#selectspell 775
+#precision 6
+#end
+
+#selectspell 776
+#precision 4
+#end
+
+#selectspell 777
+#precision 4
+#end
+
+#selectspell 778
+#precision 4
+#end
+
+#selectspell 779
+#precision 4
+#end
+
+#selectspell 780
+#precision 7
+#end
+
+#selectspell 781
+#precision 4
+#end
+
+#selectspell 782
+#precision 7
+#end
+
+#selectspell 783
+#precision 4
+#end
+
+#selectspell 784
+#precision 4
+#end
+
+#selectspell 785
+#precision 4
+#end
+
+#selectspell 786
+#precision 5
+#end
+
+#selectspell 787
+#precision 5
+#end
+
+#selectspell 788
+#precision 5
+#end
+
+#selectspell 789
+#precision 5
+#end
+
+#selectspell 790
+#precision 5
+#end
+
+#selectspell 791
+#precision 5
+#end
+
+#selectspell 792
+#precision 105
+#end
+
+#selectspell 793
+#precision 5
+#end
+
+#selectspell 794
+#precision 5
+#end
+
+#selectspell 795
+#precision 8
+#end
+
+#selectspell 796
+#precision 5
+#end
+
+#selectspell 797
+#precision 5
+#end
+
+#selectspell 798
+#precision 105
+#end
+
+#selectspell 799
+#precision 105
+#end
+
+#selectspell 800
+#precision 105
+#end
+
+#selectspell 801
+#precision 5
+#end
+
+#selectspell 802
+#precision 5
+#end
+
+#selectspell 803
+#precision 5
+#end
+
+#selectspell 804
+#precision 106
+#end
+
+#selectspell 805
+#precision 7
+#end
+
+#selectspell 806
+#precision 6
+#end
+
+#selectspell 807
+#precision 7
+#end
+
+#selectspell 808
+#precision 106
+#end
+
+#selectspell 809
+#precision 106
+#end
+
+#selectspell 810
+#precision 6
+#end
+
+#selectspell 811
+#precision 6
+#end
+
+#selectspell 812
+#precision 6
+#end
+
+#selectspell 813
+#precision 6
+#end
+
+#selectspell 814
+#precision 9
+#end
+
+#selectspell 815
+#precision 6
+#end
+
+#selectspell 816
+#precision 6
+#end
+
+#selectspell 817
+#precision 6
+#end
+
+#selectspell 818
+#precision 6
+#end
+
+#selectspell 819
+#precision 106
+#end
+
+#selectspell 820
+#precision 6
+#end
+
+#selectspell 821
+#precision 6
+#end
+
+#selectspell 822
+#precision 6
+#end
+
+#selectspell 823
+#precision 8
+#end
+
+#selectspell 824
+#precision 6
+#end
+
+#selectspell 825
+#precision 7
+#end
+
+#selectspell 826
+#precision 7
+#end
+
+#selectspell 827
+#precision 107
+#end
+
+#selectspell 828
+#precision 7
+#end
+
+#selectspell 829
+#precision 7
+#end
+
+#selectspell 830
+#precision 7
+#end
+
+#selectspell 831
+#precision 7
+#end
+
+#selectspell 832
+#precision 107
+#end
+
+#selectspell 833
+#precision 7
+#end
+
+#selectspell 834
+#precision 10
+#end
+
+#selectspell 835
+#precision 7
+#end
+
+#selectspell 836
+#precision 7
+#end
+
+#selectspell 837
+#precision 10
+#end
+
+#selectspell 838
+#precision 9
+#end
+
+#selectspell 839
+#precision 107
+#end
+
+#selectspell 840
+#precision 7
+#end
+
+#selectspell 841
+#precision 10
+#end
+
+#selectspell 842
+#precision 7
+#end
+
+#selectspell 843
+#precision 107
+#end
+
+#selectspell 844
+#precision 107
+#end
+
+#selectspell 845
+#precision 7
+#end
+
+#selectspell 846
+#precision 7
+#end
+
+#selectspell 847
+#precision 7
+#end
+
+#selectspell 848
+#precision 7
+#end
+
+#selectspell 849
+#precision 108
+#end
+
+#selectspell 850
+#precision 8
+#end
+
+#selectspell 851
+#precision 108
+#end
+
+#selectspell 852
+#precision 8
+#end
+
+#selectspell 853
+#precision 108
+#end
+
+#selectspell 854
+#precision 8
+#end
+
+#selectspell 855
+#precision 10
+#end
+
+#selectspell 856
+#precision 8
+#end
+
+#selectspell 857
+#precision 8
+#end
+
+#selectspell 858
+#precision 108
+#end
+
+#selectspell 859
+#precision 8
+#end
+
+#selectspell 860
+#precision 13
+#end
+
+#selectspell 861
+#precision 108
+#end
+
+#selectspell 862
+#precision 8
+#end
+
+#selectspell 863
+#precision 8
+#end
+
+#selectspell 864
+#precision 8
+#end
+
+#selectspell 865
+#precision 8
+#end
+
+#selectspell 866
+#precision 8
+#end
+
+#selectspell 867
+#precision 8
+#end
+
+#selectspell 868
+#precision 108
+#end
+
+#selectspell 869
+#precision 8
+#end
+
+#selectspell 870
+#precision 8
+#end
+
+#selectspell 871
+#precision 8
+#end
+
+#selectspell 872
+#precision 8
+#end
+
+#selectspell 873
+#precision 9
+#end
+
+#selectspell 874
+#precision 9
+#end
+
+#selectspell 875
+#precision 9
+#end
+
+#selectspell 876
+#precision 109
+#end
+
+#selectspell 877
+#precision 109
+#end
+
+#selectspell 878
+#precision 9
+#end
+
+#selectspell 879
+#precision 9
+#end
+
+#selectspell 880
+#precision 9
+#end
+
+#selectspell 881
+#precision 9
+#end
+
+#selectspell 882
+#precision 9
+#end
+
+#selectspell 883
+#precision 9
+#end
+
+#selectspell 884
+#precision 9
+#end
+
+#selectspell 885
+#precision 9
+#end
+
+#selectspell 886
+#precision 9
+#end
+
+#selectspell 887
+#precision 109
+#end
+
+#selectspell 888
+#precision 9
+#end
+
+#selectspell 889
+#precision 9
+#end
+
+#selectspell 890
+#precision 9
+#end
+
+#selectspell 891
+#precision 9
+#end
+
+#selectspell 892
+#precision 110
+#end
+
+#selectspell 893
+#precision 10
+#end
+
+#selectspell 894
+#precision 10
+#end
+
+#selectspell 895
+#precision 10
+#end
+
+#selectspell 896
+#precision 10
+#end
+
+#selectspell 897
+#precision 110
+#end
+
+#selectspell 898
+#precision 10
+#end
+
+#selectspell 899
+#precision 12
+#end
+
+#selectspell 900
+#precision 10
+#end
+
+#selectspell 901
+#precision 10
+#end
+
+#selectspell 902
+#precision 8
+#end
+
+#selectspell 903
+#precision 10
+#end
+
+#selectspell 904
+#precision 10
+#end
+
+#selectspell 905
+#precision 110
+#end
+
+#selectspell 906
+#precision 15
+#end
+
+#selectspell 907
+#precision 10
+#end
+
+#selectspell 908
+#precision 10
+#end
+
+#selectspell 909
+#precision 10
+#end
+
+#selectspell 910
+#precision 11
+#end
+
+#selectspell 911
+#precision 11
+#end
+
+#selectspell 912
+#precision 11
+#end
+
+#selectspell 913
+#precision 11
+#end
+
+#selectspell 914
+#precision 11
+#end
+
+#selectspell 915
+#precision 11
+#end
+
+#selectspell 916
+#precision 11
+#end
+
+#selectspell 917
+#precision 11
+#end
+
+#selectspell 918
+#precision 111
+#end
+
+#selectspell 919
+#precision 3
+#end
+
+#selectspell 920
+#precision 5
+#end
+
+#selectspell 921
+#precision 3
+#end
+
+#selectspell 922
+#precision 3
+#end
+
+#selectspell 923
+#precision 3
+#end
+
+#selectspell 924
+#precision 103
+#end
+
+#selectspell 925
+#precision 3
+#end
+
+#selectspell 926
+#precision 4
+#end
+
+#selectspell 927
+#precision 4
+#end
+
+#selectspell 928
+#precision 4
+#end
+
+#selectspell 929
+#precision 4
+#end
+
+#selectspell 930
+#precision 4
+#end
+
+#selectspell 931
+#precision 4
+#end
+
+#selectspell 932
+#precision 4
+#end
+
+#selectspell 933
+#precision 4
+#end
+
+#selectspell 934
+#precision 4
+#end
+
+#selectspell 935
+#precision 4
+#end
+
+#selectspell 936
+#precision 4
+#end
+
+#selectspell 937
+#precision 4
+#end
+
+#selectspell 938
+#precision 5
+#end
+
+#selectspell 939
+#precision 5
+#end
+
+#selectspell 940
+#precision 5
+#end
+
+#selectspell 941
+#precision 5
+#end
+
+#selectspell 942
+#precision 5
+#end
+
+#selectspell 943
+#precision 5
+#end
+
+#selectspell 944
+#precision 5
+#end
+
+#selectspell 945
+#precision 5
+#end
+
+#selectspell 946
+#precision 5
+#end
+
+#selectspell 947
+#precision 5
+#end
+
+#selectspell 948
+#precision 5
+#end
+
+#selectspell 949
+#precision 5
+#end
+
+#selectspell 950
+#precision 5
+#end
+
+#selectspell 951
+#precision 5
+#end
+
+#selectspell 952
+#precision 5
+#end
+
+#selectspell 953
+#precision 5
+#end
+
+#selectspell 954
+#precision 5
+#end
+
+#selectspell 955
+#precision 5
+#end
+
+#selectspell 956
+#precision 5
+#end
+
+#selectspell 957
+#precision 5
+#end
+
+#selectspell 958
+#precision 5
+#end
+
+#selectspell 959
+#precision 5
+#end
+
+#selectspell 960
+#precision 5
+#end
+
+#selectspell 961
+#precision 5
+#end
+
+#selectspell 962
+#precision 5
+#end
+
+#selectspell 963
+#precision 5
+#end
+
+#selectspell 964
+#precision 6
+#end
+
+#selectspell 965
+#precision 6
+#end
+
+#selectspell 966
+#precision 6
+#end
+
+#selectspell 967
+#precision 6
+#end
+
+#selectspell 968
+#precision 6
+#end
+
+#selectspell 969
+#precision 6
+#end
+
+#selectspell 970
+#precision 6
+#end
+
+#selectspell 971
+#precision 6
+#end
+
+#selectspell 972
+#precision 6
+#end
+
+#selectspell 973
+#precision 6
+#end
+
+#selectspell 974
+#precision 6
+#end
+
+#selectspell 975
+#precision 6
+#end
+
+#selectspell 976
+#precision 6
+#end
+
+#selectspell 977
+#precision 6
+#end
+
+#selectspell 978
+#precision 106
+#end
+
+#selectspell 979
+#precision 6
+#end
+
+#selectspell 980
+#precision 6
+#end
+
+#selectspell 981
+#precision 6
+#end
+
+#selectspell 982
+#precision 6
+#end
+
+#selectspell 983
+#precision 6
+#end
+
+#selectspell 984
+#precision 6
+#end
+
+#selectspell 985
+#precision 6
+#end
+
+#selectspell 986
+#precision 6
+#end
+
+#selectspell 987
+#precision 6
+#end
+
+#selectspell 988
+#precision 6
+#end
+
+#selectspell 989
+#precision 6
+#end
+
+#selectspell 990
+#precision 6
+#end
+
+#selectspell 991
+#precision 7
+#end
+
+#selectspell 992
+#precision 7
+#end
+
+#selectspell 993
+#precision 7
+#end
+
+#selectspell 994
+#precision 7
+#end
+
+#selectspell 995
+#precision 7
+#end
+
+#selectspell 996
+#precision 7
+#end
+
+#selectspell 997
+#precision 7
+#end
+
+#selectspell 998
+#precision 7
+#end
+
+#selectspell 999
+#precision 7
+#end
+
+#selectspell 1000
+#precision 7
+#end
+
+#selectspell 1001
+#precision 7
+#end
+
+#selectspell 1002
+#precision 7
+#end
+
+#selectspell 1003
+#precision 7
+#end
+
+#selectspell 1004
+#precision 7
+#end
+
+#selectspell 1005
+#precision 7
+#end
+
+#selectspell 1006
+#precision 7
+#end
+
+#selectspell 1007
+#precision 7
+#end
+
+#selectspell 1008
+#precision 7
+#end
+
+#selectspell 1009
+#precision 10
+#end
+
+#selectspell 1010
+#precision 7
+#end
+
+#selectspell 1011
+#precision 7
+#end
+
+#selectspell 1012
+#precision 7
+#end
+
+#selectspell 1013
+#precision 7
+#end
+
+#selectspell 1014
+#precision 7
+#end
+
+#selectspell 1015
+#precision 7
+#end
+
+#selectspell 1016
+#precision 7
+#end
+
+#selectspell 1017
+#precision 7
+#end
+
+#selectspell 1018
+#precision 7
+#end
+
+#selectspell 1019
+#precision 7
+#end
+
+#selectspell 1020
+#precision 7
+#end
+
+#selectspell 1021
+#precision 7
+#end
+
+#selectspell 1022
+#precision 7
+#end
+
+#selectspell 1023
+#precision 7
+#end
+
+#selectspell 1024
+#precision 7
+#end
+
+#selectspell 1025
+#precision 8
+#end
+
+#selectspell 1026
+#precision 8
+#end
+
+#selectspell 1027
+#precision 8
+#end
+
+#selectspell 1028
+#precision 8
+#end
+
+#selectspell 1029
+#precision 8
+#end
+
+#selectspell 1030
+#precision 8
+#end
+
+#selectspell 1031
+#precision 8
+#end
+
+#selectspell 1032
+#precision 8
+#end
+
+#selectspell 1033
+#precision 8
+#end
+
+#selectspell 1034
+#precision 8
+#end
+
+#selectspell 1035
+#precision 8
+#end
+
+#selectspell 1036
+#precision 8
+#end
+
+#selectspell 1037
+#precision 8
+#end
+
+#selectspell 1038
+#precision 8
+#end
+
+#selectspell 1039
+#precision 8
+#end
+
+#selectspell 1040
+#precision 8
+#end
+
+#selectspell 1041
+#precision 8
+#end
+
+#selectspell 1042
+#precision 8
+#end
+
+#selectspell 1043
+#precision 8
+#end
+
+#selectspell 1044
+#precision 8
+#end
+
+#selectspell 1045
+#precision 8
+#end
+
+#selectspell 1046
+#precision 9
+#end
+
+#selectspell 1047
+#precision 9
+#end
+
+#selectspell 1048
+#precision 9
+#end
+
+#selectspell 1049
+#precision 9
+#end
+
+#selectspell 1050
+#precision 9
+#end
+
+#selectspell 1051
+#precision 9
+#end
+
+#selectspell 1052
+#precision 9
+#end
+
+#selectspell 1053
+#precision 9
+#end
+
+#selectspell 1054
+#precision 10
+#end
+
+#selectspell 1055
+#precision 9
+#end
+
+#selectspell 1056
+#precision 9
+#end
+
+#selectspell 1057
+#precision 9
+#end
+
+#selectspell 1058
+#precision 9
+#end
+
+#selectspell 1059
+#precision 9
+#end
+
+#selectspell 1060
+#precision 9
+#end
+
+#selectspell 1061
+#precision 9
+#end
+
+#selectspell 1062
+#precision 10
+#end
+
+#selectspell 1063
+#precision 10
+#end
+
+#selectspell 1064
+#precision 10
+#end
+
+#selectspell 1065
+#precision 10
+#end
+
+#selectspell 1066
+#precision 10
+#end
+
+#selectspell 1067
+#precision 10
+#end
+
+#selectspell 1068
+#precision 10
+#end
+
+#selectspell 1069
+#precision 10
+#end
+
+#selectspell 1070
+#precision 10
+#end
+
+#selectspell 1071
+#precision 10
+#end
+
+#selectspell 1072
+#precision 10
+#end
+
+#selectspell 1073
+#precision 10
+#end
+
+#selectspell 1074
+#precision 10
+#end
+
+#selectspell 1075
+#precision 10
+#end
+
+#selectspell 1076
+#precision 11
+#end
+
+#selectspell 1077
+#precision 11
+#end
+
+#selectspell 1078
+#precision 11
+#end
+
+#selectspell 1079
+#precision 11
+#end
+
+#selectspell 1080
+#precision 11
+#end
+
+#selectspell 1081
+#precision 11
+#end
+
+#selectspell 1082
+#precision 11
+#end
+
+#selectspell 1083
+#precision 11
+#end
+
+#selectspell 1084
+#precision 4
+#end
+
+#selectspell 1085
+#precision 4
+#end
+
+#selectspell 1086
+#precision 4
+#end
+
+#selectspell 1087
+#precision 4
+#end
+
+#selectspell 1088
+#precision 6
+#end
+
+#selectspell 1089
+#precision 6
+#end
+
+#selectspell 1090
+#precision 6
+#end
+
+#selectspell 1091
+#precision 6
+#end
+
+#selectspell 1092
+#precision 6
+#end
+
+#selectspell 1093
+#precision 8
+#end
+
+#selectspell 1094
+#precision 8
+#end
+
+#selectspell 1095
+#precision 8
+#end
+
+#selectspell 1096
+#precision 8
+#end
+
+#selectspell 1097
+#precision 8
+#end
+
+#selectspell 1098
+#precision 10
+#end
+
+#selectspell 1099
+#precision 10
+#end
+
+#selectspell 1100
+#precision 10
+#end
+
+#selectspell 1101
+#precision 10
+#end
+
+#selectspell 1102
+#precision 10
+#end
+
+#selectspell 1103
+#precision 3
+#end
+
+#selectspell 1104
+#precision 3
+#end
+
+#selectspell 1105
+#precision 8
+#end
+
+#selectspell 1106
+#precision 3
+#end
+
+#selectspell 1107
+#precision 3
+#end
+
+#selectspell 1108
+#precision 3
+#end
+
+#selectspell 1109
+#precision 3
+#end
+
+#selectspell 1110
+#precision 3
+#end
+
+#selectspell 1111
+#precision 1
+#end
+
+#selectspell 1112
+#precision 1
+#end
+
+#selectspell 1113
+#precision 3
+#end
+
+#selectspell 1114
+#precision 3
+#end
+
+#selectspell 1115
+#precision 4
+#end
+
+#selectspell 1116
+#precision 3
+#end
+
+#selectspell 1117
+#precision 3
+#end
+
+#selectspell 1118
+#precision 4
+#end
+
+#selectspell 1119
+#precision 4
+#end
+
+#selectspell 1120
+#precision 4
+#end
+
+#selectspell 1121
+#precision 4
+#end
+
+#selectspell 1122
+#precision 4
+#end
+
+#selectspell 1123
+#precision 4
+#end
+
+#selectspell 1124
+#precision 6
+#end
+
+#selectspell 1125
+#precision 4
+#end
+
+#selectspell 1126
+#precision 4
+#end
+
+#selectspell 1127
+#precision 4
+#end
+
+#selectspell 1128
+#precision 4
+#end
+
+#selectspell 1129
+#precision 4
+#end
+
+#selectspell 1130
+#precision 5
+#end
+
+#selectspell 1131
+#precision 5
+#end
+
+#selectspell 1132
+#precision 30
+#end
+
+#selectspell 1133
+#precision 5
+#end
+
+#selectspell 1134
+#precision 5
+#end
+
+#selectspell 1135
+#precision 5
+#end
+
+#selectspell 1136
+#precision 5
+#end
+
+#selectspell 1137
+#precision 5
+#end
+
+#selectspell 1138
+#precision 5
+#end
+
+#selectspell 1139
+#precision 5
+#end
+
+#selectspell 1140
+#precision 5
+#end
+
+#selectspell 1141
+#precision 5
+#end
+
+#selectspell 1142
+#precision 3
+#end
+
+#selectspell 1143
+#precision 5
+#end
+
+#selectspell 1144
+#precision 5
+#end
+
+#selectspell 1145
+#precision 10
+#end
+
+#selectspell 1146
+#precision 5
+#end
+
+#selectspell 1147
+#precision 5
+#end
+
+#selectspell 1148
+#precision 5
+#end
+
+#selectspell 1149
+#precision 6
+#end
+
+#selectspell 1150
+#precision 6
+#end
+
+#selectspell 1151
+#precision 6
+#end
+
+#selectspell 1152
+#precision 6
+#end
+
+#selectspell 1153
+#precision 6
+#end
+
+#selectspell 1154
+#precision 6
+#end
+
+#selectspell 1155
+#precision 6
+#end
+
+#selectspell 1156
+#precision 6
+#end
+
+#selectspell 1157
+#precision 6
+#end
+
+#selectspell 1158
+#precision 4
+#end
+
+#selectspell 1159
+#precision 6
+#end
+
+#selectspell 1160
+#precision 6
+#end
+
+#selectspell 1161
+#precision 8
+#end
+
+#selectspell 1162
+#precision 6
+#end
+
+#selectspell 1163
+#precision 6
+#end
+
+#selectspell 1164
+#precision 6
+#end
+
+#selectspell 1165
+#precision 6
+#end
+
+#selectspell 1166
+#precision 6
+#end
+
+#selectspell 1167
+#precision 7
+#end
+
+#selectspell 1168
+#precision 7
+#end
+
+#selectspell 1169
+#precision 7
+#end
+
+#selectspell 1170
+#precision 7
+#end
+
+#selectspell 1171
+#precision 7
+#end
+
+#selectspell 1172
+#precision 7
+#end
+
+#selectspell 1173
+#precision 7
+#end
+
+#selectspell 1174
+#precision 7
+#end
+
+#selectspell 1175
+#precision 7
+#end
+
+#selectspell 1176
+#precision 7
+#end
+
+#selectspell 1177
+#precision 7
+#end
+
+#selectspell 1178
+#precision 7
+#end
+
+#selectspell 1179
+#precision 7
+#end
+
+#selectspell 1180
+#precision 7
+#end
+
+#selectspell 1181
+#precision 7
+#end
+
+#selectspell 1182
+#precision 7
+#end
+
+#selectspell 1183
+#precision 5
+#end
+
+#selectspell 1184
+#precision 5
+#end
+
+#selectspell 1185
+#precision 7
+#end
+
+#selectspell 1186
+#precision 7
+#end
+
+#selectspell 1187
+#precision 7
+#end
+
+#selectspell 1188
+#precision 8
+#end
+
+#selectspell 1189
+#precision 8
+#end
+
+#selectspell 1190
+#precision 8
+#end
+
+#selectspell 1191
+#precision 8
+#end
+
+#selectspell 1192
+#precision 8
+#end
+
+#selectspell 1193
+#precision 8
+#end
+
+#selectspell 1194
+#precision 8
+#end
+
+#selectspell 1195
+#precision 8
+#end
+
+#selectspell 1196
+#precision 8
+#end
+
+#selectspell 1197
+#precision 8
+#end
+
+#selectspell 1198
+#precision 8
+#end
+
+#selectspell 1199
+#precision 8
+#end
+
+#selectspell 1200
+#precision 8
+#end
+
+#selectspell 1201
+#precision 8
+#end
+
+#selectspell 1202
+#precision 8
+#end
+
+#selectspell 1203
+#precision 108
+#end
+
+#selectspell 1204
+#precision 8
+#end
+
+#selectspell 1205
+#precision 8
+#end
+
+#selectspell 1206
+#precision 8
+#end
+
+#selectspell 1207
+#precision 8
+#end
+
+#selectspell 1208
+#precision 8
+#end
+
+#selectspell 1209
+#precision 8
+#end
+
+#selectspell 1210
+#precision 8
+#end
+
+#selectspell 1211
+#precision 8
+#end
+
+#selectspell 1212
+#precision 108
+#end
+
+#selectspell 1213
+#precision 8
+#end
+
+#selectspell 1214
+#precision 8
+#end
+
+#selectspell 1215
+#precision 9
+#end
+
+#selectspell 1216
+#precision 9
+#end
+
+#selectspell 1217
+#precision 9
+#end
+
+#selectspell 1218
+#precision 9
+#end
+
+#selectspell 1219
+#precision 9
+#end
+
+#selectspell 1220
+#precision 9
+#end
+
+#selectspell 1221
+#precision 9
+#end
+
+#selectspell 1222
+#precision 9
+#end
+
+#selectspell 1223
+#precision 9
+#end
+
+#selectspell 1224
+#precision 9
+#end
+
+#selectspell 1225
+#precision 9
+#end
+
+#selectspell 1226
+#precision 9
+#end
+
+#selectspell 1227
+#precision 9
+#end
+
+#selectspell 1228
+#precision 9
+#end
+
+#selectspell 1229
+#precision 9
+#end
+
+#selectspell 1230
+#precision 9
+#end
+
+#selectspell 1231
+#precision 9
+#end
+
+#selectspell 1232
+#precision 9
+#end
+
+#selectspell 1233
+#precision 9
+#end
+
+#selectspell 1234
+#precision 9
+#end
+
+#selectspell 1235
+#precision 9
+#end
+
+#selectspell 1236
+#precision 9
+#end
+
+#selectspell 1237
+#precision 9
+#end
+
+#selectspell 1238
+#precision 9
+#end
+
+#selectspell 1239
+#precision 9
+#end
+
+#selectspell 1240
+#precision 10
+#end
+
+#selectspell 1241
+#precision 10
+#end
+
+#selectspell 1242
+#precision 10
+#end
+
+#selectspell 1243
+#precision 10
+#end
+
+#selectspell 1244
+#precision 10
+#end
+
+#selectspell 1245
+#precision 11
+#end
+
+#selectspell 1246
+#precision 10
+#end
+
+#selectspell 1247
+#precision 10
+#end
+
+#selectspell 1248
+#precision 10
+#end
+
+#selectspell 1249
+#precision 10
+#end
+
+#selectspell 1250
+#precision 10
+#end
+
+#selectspell 1251
+#precision 10
+#end
+
+#selectspell 1252
+#precision 10
+#end
+
+#selectspell 1253
+#precision 11
+#end
+
+#selectspell 1254
+#precision 11
+#end
+
+#selectspell 1255
+#precision 11
+#end
+
+#selectspell 1256
+#precision 11
+#end
+
+#selectspell 1257
+#precision 11
+#end
+
+#selectspell 1258
+#precision 11
+#end
+
+#selectspell 1259
+#precision 11
+#end
+
+#selectspell 1260
+#precision 103
+#end
+
+#selectspell 1261
+#precision 8
+#end
+
+#selectspell 1262
+#precision 3
+#end
+
+#selectspell 1263
+#precision 3
+#end
+
+#selectspell 1264
+#precision 3
+#end
+
+#selectspell 1265
+#precision 103
+#end
+
+#selectspell 1266
+#precision 3
+#end
+
+#selectspell 1267
+#precision 6
+#end
+
+#selectspell 1268
+#precision 8
+#end
+
+#selectspell 1269
+#precision 5
+#end
+
+#selectspell 1270
+#precision 103
+#end
+
+#selectspell 1271
+#precision 3
+#end
+
+#selectspell 1272
+#precision 103
+#end
+
+#selectspell 1273
+#precision 7
+#end
+
+#selectspell 1274
+#precision 6
+#end
+
+#selectspell 1275
+#precision 9
+#end
+
+#selectspell 1276
+#precision 104
+#end
+
+#selectspell 1277
+#precision 4
+#end
+
+#selectspell 1278
+#precision 4
+#end
+
+#selectspell 1279
+#precision 104
+#end
+
+#selectspell 1280
+#precision 6
+#end
+
+#selectspell 1281
+#precision 104
+#end
+
+#selectspell 1282
+#precision 105
+#end
+
+#selectspell 1283
+#precision 5
+#end
+
+#selectspell 1284
+#precision 5
+#end
+
+#selectspell 1285
+#precision 5
+#end
+
+#selectspell 1286
+#precision 6
+#end
+
+#selectspell 1287
+#precision 105
+#end
+
+#selectspell 1288
+#precision 5
+#end
+
+#selectspell 1289
+#precision 5
+#end
+
+#selectspell 1290
+#precision 6
+#end
+
+#selectspell 1291
+#precision 5
+#end
+
+#selectspell 1292
+#precision 7
+#end
+
+#selectspell 1293
+#precision 6
+#end
+
+#selectspell 1294
+#precision 105
+#end
+
+#selectspell 1295
+#precision 8
+#end
+
+#selectspell 1296
+#precision 8
+#end
+
+#selectspell 1297
+#precision 6
+#end
+
+#selectspell 1298
+#precision 106
+#end
+
+#selectspell 1299
+#precision 6
+#end
+
+#selectspell 1300
+#precision 106
+#end
+
+#selectspell 1301
+#precision 6
+#end
+
+#selectspell 1302
+#precision 6
+#end
+
+#selectspell 1303
+#precision 6
+#end
+
+#selectspell 1304
+#precision 6
+#end
+
+#selectspell 1305
+#precision 7
+#end
+
+#selectspell 1306
+#precision 8
+#end
+
+#selectspell 1307
+#precision 6
+#end
+
+#selectspell 1308
+#precision 6
+#end
+
+#selectspell 1309
+#precision 9
+#end
+
+#selectspell 1310
+#precision 6
+#end
+
+#selectspell 1311
+#precision 106
+#end
+
+#selectspell 1312
+#precision 6
+#end
+
+#selectspell 1313
+#precision 106
+#end
+
+#selectspell 1314
+#precision 9
+#end
+
+#selectspell 1315
+#precision 7
+#end
+
+#selectspell 1317
+#precision 7
+#end
+
+#selectspell 1318
+#precision 107
+#end
+
+#selectspell 1319
+#precision 7
+#end
+
+#selectspell 1320
+#precision 7
+#end
+
+#selectspell 1321
+#precision 107
+#end
+
+#selectspell 1322
+#precision 8
+#end
+
+#selectspell 1323
+#precision 7
+#end
+
+#selectspell 1324
+#precision 107
+#end
+
+#selectspell 1325
+#precision 9
+#end
+
+#selectspell 1326
+#precision 7
+#end
+
+#selectspell 1327
+#precision 7
+#end
+
+#selectspell 1328
+#precision 10
+#end
+
+#selectspell 1329
+#precision 9
+#end
+
+#selectspell 1330
+#precision 8
+#end
+
+#selectspell 1331
+#precision 8
+#end
+
+#selectspell 1332
+#precision 8
+#end
+
+#selectspell 1333
+#precision 8
+#end
+
+#selectspell 1334
+#precision 108
+#end
+
+#selectspell 1335
+#precision 7
+#end
+
+#selectspell 1336
+#precision 8
+#end
+
+#selectspell 1337
+#precision 7
+#end
+
+#selectspell 1338
+#precision 7
+#end
+
+#selectspell 1339
+#precision 8
+#end
+
+#selectspell 1340
+#precision 8
+#end
+
+#selectspell 1341
+#precision 8
+#end
+
+#selectspell 1342
+#precision 108
+#end
+
+#selectspell 1343
+#precision 8
+#end
+
+#selectspell 1344
+#precision 8
+#end
+
+#selectspell 1345
+#precision 8
+#end
+
+#selectspell 1346
+#precision 9
+#end
+
+#selectspell 1347
+#precision 9
+#end
+
+#selectspell 1348
+#precision 9
+#end
+
+#selectspell 1349
+#precision 9
+#end
+
+#selectspell 1350
+#precision 9
+#end
+
+#selectspell 1351
+#precision 9
+#end
+
+#selectspell 1352
+#precision 9
+#end
+
+#selectspell 1353
+#precision 9
+#end
+
+#selectspell 1354
+#precision 109
+#end
+
+#selectspell 1355
+#precision 12
+#end
+
+#selectspell 1356
+#precision 9
+#end
+
+#selectspell 1357
+#precision 110
+#end
+
+#selectspell 1358
+#precision 10
+#end
+
+#selectspell 1359
+#precision 10
+#end
+
+#selectspell 1360
+#precision 10
+#end
+
+#selectspell 1361
+#precision 10
+#end
+
+#selectspell 1362
+#precision 10
+#end
+
+#selectspell 1363
+#precision 10
+#end
+
+#selectspell 1364
+#precision 10
+#end
+
+#selectspell 1365
+#precision 10
+#end
+
+#selectspell 1366
+#precision 10
+#end
+
+#selectspell 1367
+#precision 15
+#end
+
+#selectspell 1368
+#precision 11
+#end
+
+#selectspell 1369
+#precision 11
+#end
+
+#selectspell 1370
+#precision 11
+#end
+
+#selectspell 1371
+#precision 11
+#end
+
+#selectspell 1372
+#precision 11
+#end
+
+#selectspell 1373
+#precision 11
+#end
+
+#selectspell 1374
+#precision 11
+#end
+
+#selectspell 1375
+#precision 11
+#end
+
+#selectspell 1376
+#precision 11
+#end
+
+#selectspell 1377
+#precision 11
+#end
+
+#selectspell 1378
+#precision 11
+#end
+
+#selectspell 1379
+#precision 8
+#end
+
+#selectspell 1380
+#precision 6
+#end
+
+#selectspell 1381
+#precision 3
+#end
+
+#selectspell 1382
+#precision 3
+#end
+
+#selectspell 1383
+#precision 3
+#end
+
+#selectspell 1384
+#precision 3
+#end
+
+#selectspell 1385
+#precision 3
+#end
+
+#selectspell 1386
+#precision 3
+#end
+
+#selectspell 1387
+#precision 103
+#end
+
+#selectspell 1388
+#precision 4
+#end
+
+#selectspell 1389
+#precision 6
+#end
+
+#selectspell 1390
+#precision 104
+#end
+
+#selectspell 1391
+#precision 4
+#end
+
+#selectspell 1392
+#precision 2
+#end
+
+#selectspell 1393
+#precision 4
+#end
+
+#selectspell 1394
+#precision 4
+#end
+
+#selectspell 1395
+#precision 5
+#end
+
+#selectspell 1396
+#precision 5
+#end
+
+#selectspell 1397
+#precision 5
+#end
+
+#selectspell 1398
+#precision 5
+#end
+
+#selectspell 1399
+#precision 5
+#end
+
+#selectspell 1400
+#precision 5
+#end
+
+#selectspell 1401
+#precision 5
+#end
+
+#selectspell 1402
+#precision 6
+#end
+
+#selectspell 1403
+#precision 6
+#end
+
+#selectspell 1404
+#precision 6
+#end
+
+#selectspell 1405
+#precision 6
+#end
+
+#selectspell 1406
+#precision 6
+#end
+
+#selectspell 1407
+#precision 4
+#end
+
+#selectspell 1408
+#precision 6
+#end
+
+#selectspell 1409
+#precision 107
+#end
+
+#selectspell 1410
+#precision 7
+#end
+
+#selectspell 1411
+#precision 7
+#end
+
+#selectspell 1412
+#precision 5
+#end
+
+#selectspell 1413
+#precision 7
+#end
+
+#selectspell 1414
+#precision 5
+#end
+
+#selectspell 1415
+#precision 7
+#end
+
+#selectspell 1416
+#precision 7
+#end
+
+#selectspell 1417
+#precision 7
+#end
+
+#selectspell 1418
+#precision 7
+#end
+
+#selectspell 1419
+#precision 13
+#end
+
+#selectspell 1420
+#precision 8
+#end
+
+#selectspell 1421
+#precision 8
+#end
+
+#selectspell 1422
+#precision 8
+#end
+
+#selectspell 1423
+#precision 8
+#end
+
+#selectspell 1424
+#precision 6
+#end
+
+#selectspell 1425
+#precision 6
+#end
+
+#selectspell 1426
+#precision 6
+#end
+
+#selectspell 1427
+#precision 34
+#end
+
+#selectspell 1428
+#precision 9
+#end
+
+#selectspell 1429
+#precision 9
+#end
+
+#selectspell 1430
+#precision 9
+#end
+
+#selectspell 1431
+#precision 9
+#end
+
+#selectspell 1432
+#precision 9
+#end
+
+#selectspell 1433
+#precision 9
+#end
+
+#selectspell 1434
+#precision 9
+#end
+
+#selectspell 1435
+#precision 10
+#end
+
+#selectspell 1436
+#precision 10
+#end
+
+#selectspell 1437
+#precision 110
+#end
+
+#selectspell 1438
+#precision 10
+#end
+
+#selectspell 1439
+#precision 10
+#end
+
+#selectspell 1440
+#precision 10
+#end
+
+#selectspell 1441
+#precision 110
+#end
+
+#selectspell 1442
+#precision 110
+#end
+
+#selectspell 1443
+#precision 10
+#end
+
+#selectspell 1444
+#precision 10
+#end
+
+#selectspell 1445
+#precision 10
+#end
+
+#selectspell 1446
+#precision 11
+#end
+
+#selectspell 1448
+#precision 11
+#end
+
+#selectspell 1449
+#precision 11
+#end
+
+#selectspell 1450
+#precision 11
+#end
+
+#selectspell 1451
+#precision 11
+#end
+
+#selectspell 1452
+#precision 11
+#end
+
+#selectspell 1453
+#precision 11
+#end
+
+#selectspell 1454
+#precision 11
+#end
+
+#selectspell 1455
+#precision 11
+#end
+
+#selectspell 1456
+#precision 11
+#end
+

@@ -55,6 +55,7 @@ aiglamournation,Hint to AI that Glamour magic is used a lot in this nation and t
 aigoodbless,Use to increase the chance of creating a powerful bless. 100=only do gods with a powerful bless effects for this nation.
 aiholdgod,When playing this nation the AI will never leave the home province with the pretender.
 aiholyranged,Informs the AI that this nation has sacred ranged units. So a Wind Guide bless or something similar could be appropriate.
+aimagerec,Will make the AI more likely to recruit mage commanders than other commanders. The number is the chance for the AI reconsider a non-mage commander recruitment.
 aimusthavemag,Makes AI pretender have at least 3 in this magic school. Only one of these possible per nation.
 ainaturenation,Hint to AI that Nature magic is used a lot in this nation and that a nature god is probably good.
 ainocast,The spell AI will never select this spell unless it has been scripted. Use this for spells like Returning that should normally never be cast.
@@ -90,6 +91,10 @@ armornegating,The weapon is armor negating. Armor is completely ignored when det
 armorpiercing,The weapon is armor piercing. Armor protection is halved when determining damage.
 assassin,"An assassin of this type attacks a random commander in the province. If a target requirement for the event is set, the assassin attacks that commander."
 assencloc,"Specifies an encounter location that the assassinations will appear in. If not specified, a suitable one for each occasion will be used. Possible values can be seen below."
+assfollower1,Assassins from following event commands will receive 1 follower of this type.
+assfollower1d3,Assassins from following event commands will receive 1d3 followers of this type.
+assfollower2,Assassins from following event commands will receive 2 follower of this type.
+assfollower3,Assassins from following event commands will receive 3 follower of this type.
 assowner,The following assassins created by this event will be owned by this nation.
 astralattuned,Chance of getting a bonus level of magic when transformed into this being.  In place of [path] insert the name of the magic path in all lower case for the correct command (#fireattuned #airattuned etc).
 astralblessbonus,Gods of this nation will get extra bless design points of this type.
@@ -191,8 +196,10 @@ casttime,Set the casting time of a spell the casting time is 100 for a standard 
 cavecom,This commander can be recruited in cave provinces with or without fort. See the box below for all command names.
 cavefortcom,This unit can be recruited in (terrain) provinces with a fort. 
 cavefortrec,This unit can be recruited in (terrain) provinces with a fort. 
+cavelabcost ,Gold cost for building a lab in a cave. Default is 600.
 cavenation,Sets the nations preference for starting in cave provinces.  0 = never start in caves 1 = can start in caves 2 = always start in a cave
 caverec,This unit can be recruited in cave provinces with or without fort. See the box below for all command names.
+cavetemplecost,Gold cost for building a temple in a cave. Default is 600.
 champprize,This item is given as a reward for winning the championship of the Arena deathmatch.
 chaospower,The monster will get stat increases or decreases depending on the Turmoil scale.
 chaosrec,The monster is cheaper to recruit if there are Turmoil scales in the province. The monster costs [
@@ -422,6 +429,7 @@ expertundeadleader,This monster has an innate ability to command 120 undead bein
 explspr,Set the particle effect to be used when this spell explodes. -1 = no explosion. See table Explosion fx to find a suitable explosion.
 extralife,The bearer of the item is resurrected once when killed in combat. The item disappears when the bearer is resurrected.
 extralives,Will get dominion times this value amount of scar souls (extra lives)
+extramsg,This nation will also get the event message.
 eyeloss,Anyone striking this monster may lose an eye.
 eyes,Sets the number of eyes for a monster. Number of eyes must be at least one unless the monster is #blind. The number of eyes affects how easily a monster goes blind by battle afflictions.
 fallpower,The monster has increased hit points in autumn and lowered hit points in spring.
@@ -463,6 +471,7 @@ flyingimmune,Flying and floating beings are immune to this weapon.
 flyspr,"Use this command to set how the arrow looks like for a missile weapon. A value of -1 for a flysprite means there is no flysprite at all. Table Flysprites shows some numbers that can be used for missile weapons. Flysprite numbers of 10000 and higher are particle effects, lower numbers are hand drawn sprites."
 fogcol, Color the world with the specified colors for fights in the current province. Color values range from 0 to 255.
 foolscouts,The monster creates the false impression of uniformity in its own army. Enemy scouting reports will perceive the army to only contain one type of troop. The reported troop type is usually the most common troop type present.
+forcetransform,"One commander determined by target requirements is transformed into another monster, negative numbers can be used for montags. This command can even transform gods and other units that are immune to polymorph."
 foreignshape,The monster changes to this shape when moving out of its home province.
 forestcom,This commander can be recruited in forest provinces with or without fort. See the box below for all command names.
 forestfortcom,This unit can be recruited in (terrain) provinces with a fort. 
@@ -488,12 +497,15 @@ gainaff,One commander determined by target requirements gains the specified affl
 gainmark,One commander determined by target requirements gains one level of horrormark.
 gcost,The cost in gold. Most human troops have a gold cost of 10.
 gemloss,"Lose 3d6 gems of specified type. Gem type 53 can be used for all types, then 1d6 will be lost of each type of gem. Use gem type 56 to exclude blood slaves."
+gemlosslarge,"Like #gemloss, but 3d6 gems instead."
+gemlosssmall,"Like #gemloss, but 1d6 gems instead."
 gemprod,This monster produces a number of magic gems each month. The type ranges from 0 (fire gems) to 7 (blood slaves). See table Magic path numbers.
-gems,Gives gem income to the magic site. First value is the Path and should be a number between 0 and 7. The second is the amount up to 99. See table magic paths numbers.
+gems,Gives gem income to the magic site. First value is the Path and should be a number between 0 and 8. The second is the amount up to 99. See table magic paths numbers.
 ghostreanim,"Reanimating priest of this nation will create ghosts like Lemuria.  NOTE, Caelian Atlantian Jotun Rephaite and monkey undead are hard coded for their respective nations and their reanimation cannot be unlocked for modding using reanimation commands.  National Reanimation Lists Use the various monster summoning commands such as #makemonsters15 with a #montag value to create custom reanimation lists for those priests that need it.  18 Poptype Modding Use these commands to mod poptypes."
 giftofwater,A commander with this ability is able to bring a number of units underwater with him as long as their combined size points do not exceed the value of this ability.
 glamourboost,One commander determined by target requirements or the monster number may gain +1 Glamour magic.
 glamourrange,Glamour magic cast by the monster have increased range.
+globallook,If global should be visible from map (localglobal only) this command can be used to determine what it should look like. 1-9
 goddomchaos,Increases the Turmoil or chaos scale of the gods dominion. Use a negative value to increase Order.
 goddomcold,Increases the Cold scale of the gods dominion. Use a negative value to increase Heat.
 goddomdeath,Increases the Death scale of the gods dominion. Use a negative value to increase Growth.
@@ -512,7 +524,7 @@ greekreanim,Reanimating priest of this nation will create greek ghosts like Ther
 groundcol, Color the world with the specified colors for fights in the current province. Color values range from 0 to 255.
 growhp,The monster grows into the previous monster once it has this many hit points or more. Hydras use this mechanic.
 guardcom,Commander that is in charge of the castle gate defenders. There can be multiple of these commands.
-guardmulti,Modifier for the number of castle gate guards from the previous #guardunit command. 10 is the standard amount.
+guardmult,Modifier for the number of castle gate guards from the previous #guardunit command. 10 is the standard amount.
 guardspirit,Priests of this nation have a chance of receiving a guardian angel when in battle. Nbr can be negative for montags.
 guardspiritbonus,Increases the chance of receiving a guardian spirit with +value percent.
 guardunit,"Unit type the will guard the gates when the castle is stormed. There can be multiple of these commands, each one should be followed by a #guardmult command. The first gate guard type will also be used as city guards during assassin encounters. If there are no gate guards the first wall unit will be used instead."
@@ -574,7 +586,7 @@ incdom,Increases dominion in the province by  candles.
 incorporate,The monster incorporates any swallowed creatures as a part of itself. Swallowed creatures take damage every combat round until dead or until the monster that swallowed them is killed.  The monster that incorporates them heals a number of hit points equal to damage inflicted every combat round.
 incpop,Province population increases by this amount +/- 25%.
 incprovdef,The monster is good at organizing province defenses. PD is increased by
-incscale,Increases the specified scale in the province by one step.
+incscale,Increases the selected scale by one point per turn to a maximum of -3 / 3. This command functions as #decscale for the opposite scales.
 incscale2,Increases the specified scale in the province by two steps.
 incscale3,Increases the specified scale in the province by three steps.
 incunrest,The monster will increase or decrease unrest at his location. The value divided by 10 is the amount increased per month. A negative can be used to decrease unrest instead.
@@ -639,6 +651,7 @@ limitedregen,Like regeneration but doesnt work on inanimate beings.
 linger,Use this command for global events whose effects last for more than one turn.
 lizard,Four legged beast but lower. Use this for dragons.
 loc,This command can restrict the random placement of a site to certain terrains or flag the site as unique.
+localglobal,This is a localized global enchantment. It will have its origin in the province where it was cast.
 loseeye,The item bearer loses an eye. The affliction cannot be healed until the item is removed.
 luck,The item grants Luck to its bearer like Faithful.
 luckevents,How luck affects event frequency. Default is 5.
@@ -715,7 +728,9 @@ mountainsurvival,Monster has the Mountain Survival skill. Mountain terrain does 
 mounted,Indicates the monster is mounted. Mounted monsters have increased defense (+3) and do not suffer from armor encumbrance but should have about two extra in basic encumbrance.
 mountedhumanoid,Regarding hit locations this is the same as humanoid but it removes the boot item slot and is provided for convenience because humanoid cavalry is very common. Use this for cavalry centaurs and similar.
 mountiscom,If this is set to one the mount is also a commander. This command is used for some gods that have divine mounts.
+mountlabcost,Gold cost for building a lab in highlands. Default is 600.
 mountmnr,Use this to give a mount to a rider. The sprite of the unit should be the standard sprite of the rider sitting on his mount.
+mounttemplecost,Gold cost for building a temple in highlands. Default is 600.
 mr,The item grants a magic resistance bonus.
 mrnegates,The effects of the weapon can be resisted by MR.
 mrnegateseasily,The effects of the weapon can be easily resisted by MR.
@@ -802,7 +817,7 @@ nostart, Tags a province as nonstartable. No player will start here when placed 
 nostr,The strength of the weapon wielder will not be added to the damage. This is normally used for the weapons of mounts that have a damage value that is independent of the riders strength.
 notdomshape,The monster changes to this shape when not inside a friendly dominion.
 notext,Event does not generate a message.
-notfornation,Restricts a spell so that it cannot be used by this nation. This command can be used multiple times on the same spell.
+notfornation,Restricts a spell or item so that it cannot be used by this nation. This command can be used multiple times on the same spell.
 nothrowoff,"This mount will not throw off its rider if it routs or gets paralyzed. This is used on mounts that are more important than the rider, e.g. elephants, where the rider will never get off voluntarily in order to fight on the ground."
 notmnr,This type of monster is unable to cast this ritual. Monster nbr can be negative for a montag. This command can be used multiple times on the same spell for non-montags.
 noundead,The item cannot be used by undead.
@@ -919,6 +934,7 @@ req_dominion,The province must have the owners dominion at  candles or more.
 req_domowner,The event requires this nation to have dominion in the province.
 req_ench,This enchantment must be active.
 req_enchdom,This enchantment must be active and in its owners dominion.
+req_enchtarget,This global enchantment must be active and have its origin in the current province
 req_era,Can only happen in this era.  1 = early 2 = mid 3 = late
 req_farm,"Event requires the province to have farm terrain. 1 = must be farm, 0 = cannot be farm."
 req_forest,"Event requires the province to have forest terrain. 1 = must be forest, 0 = cannot be forest."
@@ -955,12 +971,14 @@ req_mintroops,There must be at least this many troops in the province for the ev
 req_minunrest,There must be at least  unrest in the province for the event to happen. The value varies with +/- 25%.
 req_mnr,This monster must be present somewhere in the world or the event cannot happen. The command can be used multiple times and then all of the monsters must be in the world.
 req_monster,This monster must be present in the province.
+req_month,"Month of the year required. E.g. 4 = mid summer, 10 = mid winter"
 req_mountain,"Event requires the province to have mountain or border mountain terrain. 1 = must be mountain, 0 = cannot be mountain."
 req_mydominion,Event requires province owners dominion. 0 = must not have owners dominion.
 req_myench,This enchantment must be active and owned by the event owner.
 req_nation,This nation must be in play for the event to happen.
 req_nearbycode,Event code must be present in a neighboring province.
 req_nearbysite,Event requires [sitename] to be in the province or adjacent provinces.
+req_nearbythrone,Event requires a throne to be in the province or in adjacent provinces.
 req_nearowncode,Current province or neighboring province owned by the same player must have this event code.  4.12 Enchantment Requirements These commands are intended for global enchantment creation.
 req_noench,This enchantment cannot be active.
 req_noera,Cannot happen in this era.
@@ -981,6 +999,7 @@ req_nopathwater,There cannot be a Water mage of this level or higher in the prov
 req_noseason,The event cannot happen in this season.
 req_nositenbr,"There cannot be this site in the province. If there is, the event cannot happen. This command only accepts the site number as an attribute."
 req_notanycode,"Event code must not be present in the world. Can be used multiple times for an event. If the command is used multiple times, none of the codes may be present."
+req_notcode,Province must not have this event code. Can be used multiple times for an event.
 req_notforally,This nation and its allies cannot receive the event. In a non-disciple game this will have the same effect as req_notfornation.
 req_notfornation,This nation cannot receive the event. The old variant req_notnation can also be used for the same effect.
 req_notnation,This nation cannot receive the event. OLD VARIANT
@@ -1021,6 +1040,7 @@ req_targinanimate,Target must (not) be an inanimate being.
 req_targitem,Target must have this magic item.
 req_targmagicbeing,Target must (not) be a magic being.
 req_targmale,Sets targets gender requirement.  1 = must be male 0 = must be female
+req_targmanygems,Target must carry many gems (>d20) of this type. Use path number 53 for all type of gems and 56 for all but blood.
 req_targmaxsize,"Target must be this size of smaller.  These commands set event code requirements that must be fulfilled for the event to take place. They are generally used in event chains where the event requires another event to have taken place previously.  There is a risk of incompatible mods if the same event codes are used across different mods!  Please use only negative event codes from -300 and downwards, or it may interfere with the events in the vanilla game (except for 0, which is default)."
 req_targmindless,Target must (not) be mindless.
 req_targminsize,Target must be this size or larger.
@@ -1042,8 +1062,10 @@ req_targpath2,Must have level 2+ in target magic path.
 req_targpath3,Must have level 3+ in target magic path.
 req_targpath4,Must have level 4+ in target magic path.
 req_targprophet,Target must be a prophet.  1 = must be a prophet 0 = cannot be a prophet
+req_targsight,"Target must have eyes and be able to see with them. 1 = must have sight, 0 = cannot have sight"
 req_targundead,Target must (not) be an undead.
 req_temple,"There must be a temple in the province. 1 = yes, 0 = no"
+req_thronesite,Event requires a throne (any type) to be in the province
 req_turn,The event cannot happen before this turn.
 req_unclaimedthrone,The throne [sitename] must be present in the game and unclaimed. Combine with #req_site to target the throne province.
 req_unique,The event can only happen  times during the course of the game.
@@ -1150,10 +1172,12 @@ snaketattoo,Magic tattoo like the units of Marverni and Sauromatia have.
 sneakunit,The item will grant stealth to non-stealthy units.
 snow,The monster is unhindered by snow.
 sorceryrange,All Sorcery magic (Astral Death Nature Blood) rituals cast in this province have their range increased by
+soulslaying,Undocumented: I assume it applies a soulslay affect for immortals and alike.
 sound,The sample that will sound when this spell is cast. Samples have the same number as the weapon samples see table Sound effects.
 spec,Sets the special abilities of a spell. 8388608 is a useful number and it means that the spell can be cast under water. 64 is armor piercing 128 is armor negating and 4096 means MR negates. Add values together to make combinations.
 speciallook,This command surround a monster with a particle effect. Value can be from 1 to 3 and represents fire shield look astral shield look and a burning look respectively. A value of 100 to 199 will give the unit a fixed alpha value of 0-99 (low values will make it impossible to see).
 specstart, Use this command to assign a specific nation to a specific start location. Nation numbers can be found in the Early Era Nations table and the three following tables. If you use the #specstart command
+speedmult,Use this command to make the projectiles fly slower or faster. By default weapon projectiles have a speed of 2.
 spell,Enables user of item to cast this spell in battle or as a ritual
 spellreqfly,1 means only flying units can cast this ritual.
 spellsinger,Unit takes 50% longer to cast spells but at half fatigue cost.
@@ -1221,8 +1245,10 @@ supplymult,A multiplier for the amount of supplies found in a land. Default is 1
 swampcom,This commander can be recruited in swamp provinces with or without fort. See the box below for all command names.
 swampfortcom,This unit can be recruited in (terrain) provinces with a fort. 
 swampfortrec,This unit can be recruited in (terrain) provinces with a fort. 
+swamplabcost,Gold cost for building a lab in a swamp. Default is 600
 swamprec,This unit can be recruited in swamp provinces with or without fort. See the box below for all command names.
 swampsurvival,Monster has the Swamp Survival skill. Swamp terrain does not hinder movement.
+swamptemplecost,Gold cost for building a temple in a swamp. Default is 600.
 swift,Grants extra combat speed to the wielder.
 swimming,The monster can cross rivers.
 syncretism,Syncretism enable all priests to convert conquered temples instead of demolishing them.
@@ -1303,6 +1329,8 @@ uwwallunit,Sets wall defenders for underwater forts. Works just like the overwat
 version,The version number of your mod. E.g. 1.10 or 1.00.
 victorycondition, The game will end when one player fulfills a special condition
 victorypoints, The player who has control over this province will control from one to seven victory points. If the province has a fort then the controller of the fort controls the victory points.
+viewallbat,"This nation gets to view all battles for all players, including assassinations. This command is intended for debug or observer mods and should not be used for any real nations"
+viewallprov,This nation gets to view all provinces regardless of owner. This command is intended for debug or observer mods and should not be used for any real nations
 visitors,The province is attacked by Bogus the Troll and his Companions.
 voidgate,A mage with the same path as the site may enter to summon Void creatures. Void Summoning skill increases the success chance. A mage who does not have the Voidsanity attribute may become insane or feebleminded.
 voidret,Extra chance per month of returning from the Void the plane between worlds and the home of horrors and the Void beings of Rlyeh.
@@ -1315,8 +1343,10 @@ warning,Increases the amount of bodyguards the commander can have.
 wastecom,This commander can be recruited in wasteland provinces with or without fort. See the box below for all command names.
 wastefortcom,This unit can be recruited in (terrain) provinces with a fort. 
 wastefortrec,This unit can be recruited in (terrain) provinces with a fort. 
+wastelabcost,Gold cost for building a lab in a waste. Default is 600.
 wasterec,This unit can be recruited in wasteland provinces with or without fort. See the box below for all command names.
 wastesurvival,Monster has the Waste Survival skill. Waste terrain does not hinder movement.
+wastetemplecost,Gold cost for building a temple in a waste. Default is 600.
 waterattuned,Chance of getting a bonus level of magic when transformed into this being.  In place of [path] insert the name of the magic path in all lower case for the correct command (#fireattuned #airattuned etc).
 waterblessbonus,Gods of this nation will get extra bless design points of this type.
 waterboost,One commander determined by target requirements or the monster number may gain +1 Water magic.
@@ -1335,7 +1365,7 @@ woodenweapon,The weapon is made of wood.
 worldage,Everyone in the world ages this many years. Negative numbers reduce age.
 worldcurse,Every unit in the world has a  chance of being cursed.
 worlddarkness,The entire world is covered in darkness for this turn.
-worlddecscale,Decreases the specified scale in every province in the world by one step.
+worlddecscale,Decreases the selected scale by one point per turn to a maximum of -3 / 3. This command functions as #incscale for the opposite scales.
 worlddecscale2,Decreases the specified scale in every province in the world by two steps.
 worlddecscale3,Decreases the specified scale in every province in the world by three steps.
 worlddisease,Every unit in the world has a  chance of becoming diseased.
@@ -1347,6 +1377,7 @@ worldincscale3,Increases the specified scale in every province in the world by t
 worldmark,Every unit in the world has a  chance of being horrormarked.
 worldritrebate,The casting cost of rituals of this school is reduced by 20% for this turn. School numbers are listed in the table below. Worldritrebate can only be used on normal global events (rarity 11 and 12).
 worldunrest,Unrest in every province in the world is increased by . Can be negative to reduce unrest.
+worldvisible,This enchantment can be seen from all over the world. Use together with #localglobal.
 woundfend,The monster is less likely to suffer an affliction when taking damage. A value of 1 makes it half as likely a value of 2 makes it one third as likely etc. Air Elementals and similar have a value of 99 making it almost impossible to get an affliction.
 xp, Gives experience points to the active commander.
 xploss,The monster loses 0-100% of xp when changing shape (e.g. when losing its rider).
@@ -1355,3 +1386,4 @@ xspr1,Creates a sprite that is used when one corider is lost. This command must 
 xspr2,Creates the attack sprite that is used when one corider is lost. This command must be place right after the #xspr1 command.
 yearaging,The wielder of this item will age this many extra years each year.
 yearturn,Power of the Turning Year. This unit is more powerful during the height of each season and will get increased Strength Attack and Defence during those months.
+holycost, Sets the holy point cost for recruiting this unit minimum is 1. Can only be used on sacred units. If this command is not used they will cost the usual one holy point.

@@ -1,62 +1,41 @@
 [
-  {
-    "Nbr": "0",
-    "Terrain": "Plains"
-  },
-  {
-    "Nbr": "1",
-    "Terrain": "Small Province"
-  },
-  {
-    "Nbr": "2",
-    "Terrain": "Large Province"
-  },
-  {
-    "Nbr": "4",
-    "Terrain": "Sea"
-  },
-  {
-    "Nbr": "8",
-    "Terrain": "Freshwater"
-  },
-  {
-    "Nbr": "16",
-    "Terrain": "Mountain"
-  },
-  {
-    "Nbr": "32",
-    "Terrain": "Swamp"
-  },
-  {
-    "Nbr": "64",
-    "Terrain": "Waste"
-  },
-  {
-    "Nbr": "128",
-    "Terrain": "Forest"
-  },
-  {
-    "Nbr": "256",
-    "Terrain": "Farm"
-  },
-  {
-    "Nbr": "512",
-    "Terrain": "Nostart"
-  },
-  {
-    "Nbr": "1024",
-    "Terrain": "Many Sites"
-  },
-  {
-    "Nbr": "2048",
-    "Terrain": "Deep Sea"
-  },
-  {
-    "Nbr": "4096",
-    "Terrain": "Cave"
-  },
-  {
-    "Nbr": "4194304",
-    "Terrain": "Border Mountain"
-  }
+  {"Nbr": 0, "Terrain": "Plains"},
+  {"Nbr": 1, "Terrain": "Small province"},
+  {"Nbr": 2, "Terrain": "Large province"},
+  {"Nbr": 4, "Terrain": "Sea"},
+  {"Nbr": 8, "Terrain": "Freshwater"},
+  {"Nbr": 16, "Terrain": "Highlands (or gorge)"},
+  {"Nbr": 32, "Terrain": "Swamp"},
+  {"Nbr": 64, "Terrain": "Waste"},
+  {"Nbr": 128, "Terrain": "Forest (or kelp forest)"},
+  {"Nbr": 256, "Terrain": "Farm"},
+  {"Nbr": 512, "Terrain": "No start"},
+  {"Nbr": 1024, "Terrain": "Many sites"},
+  {"Nbr": 2048, "Terrain": "Deep sea"},
+  {"Nbr": 4096, "Terrain": "Cave"},
+  {"Nbr": 8192, "Terrain": "Fire sites"},
+  {"Nbr": 16384, "Terrain": "Air sites"},
+  {"Nbr": 32768, "Terrain": "Water sites"},
+  {"Nbr": 65536, "Terrain": "Earth sites"},
+  {"Nbr": 131072, "Terrain": "Astral sites"},
+  {"Nbr": 262144, "Terrain": "Death sites"},
+  {"Nbr": 524288, "Terrain": "Nature sites"},
+  {"Nbr": 1048576, "Terrain": "Glamour sites"},
+  {"Nbr": 2097152, "Terrain": "Blood sites"},
+  {"Nbr": 4194304, "Terrain": "Holy Sites"},
+  {"Nbr": 8388608, "Terrain": "Mountains"},
+  {"Nbr": 33554432, "Terrain": "Good throne location"},
+  {"Nbr": 67108864, "Terrain": "Good start location"},
+  {"Nbr": 134217728, "Terrain": "Bad throne location"},
+  {"Nbr": 1073741824, "Terrain": "Warmer"},
+  {"Nbr": 2147483648, "Terrain": "Colder"},
+  {"Nbr": 4294967296, "Terrain": "Invisible"},
+  {"Nbr": 8589934592, "Terrain": "Vast"},
+  {"Nbr": 17179869184, "Terrain": "Infernal waste"},
+  {"Nbr": 34359738368, "Terrain": "Void"},
+  {"Nbr": 68719476736, "Terrain": "Cave wall"},
+  {"Nbr": 137438953472, "Terrain": "Has gate"},
+  {"Nbr": 274877906944, "Terrain": "Flooded"},
+  {"Nbr": 549755813888, "Terrain": "Attackers rout once"},
+  {"Nbr": 576460752303423488, "Terrain": "Cave wall effect"}
 ]

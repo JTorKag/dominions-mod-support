@@ -16,6 +16,8 @@ Error checking for illegal values and missing #end commands.
 If you refernce a vanilla asset such as with #selectarmor, if you hover over the value it will give you details of what armor you are selecting. 
 
 ![ArmorExample](examples/armorexample.png)
+
+Commenting and uncommenting hotkey support. 
  
 
 ## Known Issues
@@ -24,13 +26,16 @@ I'm sure there's a handful. Just undocumented so far. See below.
 There's missing diagnostics and some are intentionally disabled due to needing some refactoring to account for edge cases. 
 + Copy Sprite hover will always show monster details regardless if its in an item's section. 
 
+A lot of commands have no maximum value listed so i've guessed or used seemingly reasonable values. If you find errors, please let me know. 
+
 ## Release Notes
 
 There is likely errors in my data for all the commands. I did a lot of scraping and regex instead of going through it by hand. If you catch any and are feeling extra generous please fix and submit a pull request. Or if not and it's small just let me know via discord @zegma and I can include the fix in during an update. 
 
-### 2.0.6
+### 2.0.7
 
-Added more commands. Thanks everyone who points these out. 
+Caught up to dom version 6.24
+Added before but forgot to make a note, support for hotkey commenting. Ctrl-K to comment a selected text, Shift-Ctrl-K to uncomment.
 
 ### Credits
 I wanted to highlight [djmcgill](https://github.com/djmcgill/vscode-syntax-highlighting-dominions-5-) for creating a syntax highlighting tool years ago. Used that for a while and the decided I wanted to improve on that base. 

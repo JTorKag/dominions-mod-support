@@ -494,7 +494,7 @@
     "body": [
       "#airelementals"
     ],
-    "description": "Please let me know if you know what this does."
+    "description": "Gives a size bonus to summoned air elementals."
   },
   "#airrange": {
     "prefix": "#airrange",
@@ -676,7 +676,7 @@
     "body": [
       "#assassin"
     ],
-    "description": "An assassin of this type attacks a random commander in the province. If a target requirement for the event is set, the assassin attacks that commander."
+    "description": "This Monster is an Assassin, or this item gives the Assassin Tag, or An assassin of this type attacks a random commander in the province. If a target requirement for the event is set, the assassin attacks that commander."
   },
   "#assencloc": {
     "prefix": "#assencloc",
@@ -1432,7 +1432,7 @@
     "body": [
       "#cavenation"
     ],
-    "description": "Sets the nations preference for starting in cave provinces.  0 = never start in caves 1 = can start in caves 2 = always start in a cave"
+    "description": "Sets the nations preference for starting in cave provinces.  0 = never start in caves 1 = can start in caves 2 = always start in a cave = start under a cave entrance"
   },
   "#caverec": {
     "prefix": "#caverec",
@@ -1523,7 +1523,7 @@
     "body": [
       "#clear"
     ],
-    "description": "Clears the attributes of the selected magic site."
+    "description": "Use this if you want to remove everything from the event."
   },
   "#clearallevents": {
     "prefix": "#clearallevents",
@@ -1767,6 +1767,13 @@
     "prefix": "#coldrec",
     "body": [
       "#coldrec"
+    ],
+    "description": "Cold scale requirement for recruitment."
+  },
+  "#coldrecscale": {
+    "prefix": "#coldrecscale",
+    "body": [
+      "#coldrecscale"
     ],
     "description": "Cold scale requirement for recruitment."
   },
@@ -2860,7 +2867,7 @@
     "body": [
       "#earthelementals"
     ],
-    "description": "Please let me know if you know what this does."
+    "description": "Gives a size bonus to summoned earth elementals"
   },
   "#earthrange": {
     "prefix": "#earthrange",
@@ -3210,7 +3217,7 @@
     "body": [
       "#fireelementals"
     ],
-    "description": "Please let me know if you know what this does."
+    "description": "Gives a size bonus to summoned fire elementals"
   },
   "#firepower": {
     "prefix": "#firepower",
@@ -3406,7 +3413,7 @@
     "body": [
       "#forestsurvival"
     ],
-    "description": "Monster has the Forest Survival skill. Forest terrain does not hinder movement."
+    "description": "Monster or item has the Forest Survival skill. Forest terrain does not hinder movement."
   },
   "#foresttemplecost": {
     "prefix": "#foresttemplecost",
@@ -3811,6 +3818,13 @@
     "prefix": "#heatrec",
     "body": [
       "#heatrec"
+    ],
+    "description": "Heat scale requirement for recruitment."
+  },
+  "#heatrecscale": {
+    "prefix": "#heatrecscale",
+    "body": [
+      "#heatrecscale"
     ],
     "description": "Heat scale requirement for recruitment."
   },
@@ -5121,7 +5135,7 @@
     "body": [
       "#mountainsurvival"
     ],
-    "description": "Monster has the Mountain Survival skill. Mountain terrain does not hinder movement and the monster can cross mountain passes even if it is cold in the provinces the pass connects."
+    "description": "Monster or item has the Mountain Survival skill. Mountain terrain does not hinder movement and the monster can cross mountain passes even if it is cold in the provinces the pass connects."
   },
   "#mounted": {
     "prefix": "#mounted",
@@ -5806,7 +5820,7 @@
     "body": [
       "#notmnr"
     ],
-    "description": "This type of monster is unable to cast this ritual. Monster nbr can be negative for a montag. This command can be used multiple times on the same spell for non-montags."
+    "description": "This type of monster is unable to cast this spell. Monster nbr can be negative for a montag. This command can be used multiple times on the same spell for non-montags."
   },
   "#noundead": {
     "prefix": "#noundead",
@@ -5946,7 +5960,7 @@
     "body": [
       "#onlyfriendlydst"
     ],
-    "description": "1 = can only target allied provinces 0 = turn this feature off (default)"
+    "description": "1 = can only target allied provinces. 2 = can also target allied forts even when besieged."
   },
   "#onlygeodst": {
     "prefix": "#onlygeodst",
@@ -5974,7 +5988,7 @@
     "body": [
       "#onlymnr"
     ],
-    "description": "Only this type of monster is able to cast this ritual. Monster nbr can be negative for a montag. This command can be used multiple times on the same spell for non-montags."
+    "description": "Only this type of monster is able to cast this spell. Monster nbr can be negative for a montag. This command can be used multiple times on the same spell for non-montags."
   },
   "#onlymounted": {
     "prefix": "#onlymounted",
@@ -8822,7 +8836,7 @@
     "body": [
       "#swampsurvival"
     ],
-    "description": "Monster has the Swamp Survival skill. Swamp terrain does not hinder movement."
+    "description": "Monster or item has the Swamp Survival skill. Swamp terrain does not hinder movement."
   },
   "#swamptemplecost": {
     "prefix": "#swamptemplecost",
@@ -8843,7 +8857,7 @@
     "body": [
       "#swimming"
     ],
-    "description": "The monster can cross rivers."
+    "description": "The monster can cross rivers. This item allows the holder to cross rivers."
   },
   "#syncretism": {
     "prefix": "#syncretism",
@@ -9508,7 +9522,7 @@
     "body": [
       "#wastesurvival"
     ],
-    "description": "Monster has the Waste Survival skill. Waste terrain does not hinder movement."
+    "description": "Monster or item has the Waste Survival skill. Waste terrain does not hinder movement."
   },
   "#wastetemplecost": {
     "prefix": "#wastetemplecost",
@@ -9550,7 +9564,7 @@
     "body": [
       "#waterelementals"
     ],
-    "description": "Please let me know if you know what this does."
+    "description": "Gives a size bonus to summoned water elementals"
   },
   "#waterrange": {
     "prefix": "#waterrange",
@@ -9796,5 +9810,959 @@
       "#holycost"
     ],
     "description": "Sets the holy point cost for recruiting this unit minimum is 1. Can only be used on sacred units. If this command is not used they will cost the usual one holy point."
+  },
+  "#orderscale": {
+    "prefix": "#orderscale",
+    "body": [
+      "#orderscale"
+    ],
+    "description": "Minumum scale value required for bless."
+  },
+  "#prodscale": {
+    "prefix": "#prodscale",
+    "body": [
+      "#prodscale"
+    ],
+    "description": "Minumum scale value required for bless."
+  },
+  "#heatscale": {
+    "prefix": "#heatscale",
+    "body": [
+      "#heatscale"
+    ],
+    "description": "Minumum scale value required for bless."
+  },
+  "#growthscale": {
+    "prefix": "#growthscale",
+    "body": [
+      "#growthscale"
+    ],
+    "description": "Minumum scale value required for bless."
+  },
+  "#luckscale": {
+    "prefix": "#luckscale",
+    "body": [
+      "#luckscale"
+    ],
+    "description": "Minumum scale value required for bless."
+  },
+  "#magicscale": {
+    "prefix": "#magicscale",
+    "body": [
+      "#magicscale"
+    ],
+    "description": "Minumum scale value required for bless."
+  },
+  "#chaosscale": {
+    "prefix": "#chaosscale",
+    "body": [
+      "#chaosscale"
+    ],
+    "description": "Minumum scale value required for bless."
+  },
+  "#slothscale": {
+    "prefix": "#slothscale",
+    "body": [
+      "#slothscale"
+    ],
+    "description": "Minumum scale value required for bless."
+  },
+  "#coldscale": {
+    "prefix": "#coldscale",
+    "body": [
+      "#coldscale"
+    ],
+    "description": "Minumum scale value required for bless."
+  },
+  "#deathscale": {
+    "prefix": "#deathscale",
+    "body": [
+      "#deathscale"
+    ],
+    "description": "Minumum scale value required for bless."
+  },
+  "#misfortscale": {
+    "prefix": "#misfortscale",
+    "body": [
+      "#misfortscale"
+    ],
+    "description": "Minumum scale value required for bless."
+  },
+  "#look": {
+    "prefix": "#look",
+    "body": [
+      "#look"
+    ],
+    "description": "Set what the site should look like. Site spr -1 = default look. 0-9 = specific sprite (for some paths not all 9 are available and the last ones will look the same)."
+  },
+  "#healaff": {
+    "prefix": "#healaff",
+    "body": [
+      "#healaff"
+    ],
+    "description": "Heal affliction event command."
+  },
+  "#clumsy": {
+    "prefix": "#clumsy",
+    "body": [
+      "#clumsy"
+    ],
+    "description": "This monster will only receive half att/def bonuses from weapons."
+  },
+  "#powerofdeath": {
+    "prefix": "#powerofdeath",
+    "body": [
+      "#powerofdeath"
+    ],
+    "description": "The monster will become more powerful every time it dies. up to at most limit number of deaths."
+  },
+  "#fearofflood": {
+    "prefix": "#fearofflood",
+    "body": [
+      "#fearofflood"
+    ],
+    "description": "Morale penalty when it is raining or uw. can be negative to raise morale but without a unit card effect to note it."
+  },
+  "#falsesupply": {
+    "prefix": "#falsesupply",
+    "body": [
+      "#falsesupply"
+    ],
+    "description": "A monster with this ability produces extra false supplies."
+  },
+  "#glamourmanip": {
+    "prefix": "#glamourmanip",
+    "body": [
+      "#glamourmanip"
+    ],
+    "description": "This monster is a glamour manipulator and counts as a glamour mage when it comes to upholding illusions and false damage."
+  },
+  "#addgeo": {
+    "prefix": "#addgeo",
+    "body": [
+      "#addgeo"
+    ],
+    "description": "Adds to the terrains in the province."
+  },
+  "#remgeo": {
+    "prefix": "#remgeo",
+    "body": [
+      "#remgeo"
+    ],
+    "description": "Removes from the terrains in the province. If terrain doesn't exist nothing happens."
+  },
+  "#danceweapon": {
+    "prefix": "#danceweapon",
+    "body": [
+      "#danceweapon"
+    ],
+    "description": "The weapon used for the attack. ID or name."
+  },
+  "#dancenratt": {
+    "prefix": "#dancenratt",
+    "body": [
+      "#dancenratt"
+    ],
+    "description": "The number of attacks made per combat round. Minimum is 2."
+  },
+  "#dancespr": {
+    "prefix": "#dancespr",
+    "body": [
+      "#dancespr"
+    ],
+    "description": "The look of the sprite circling the unit."
+  },
+  "#dancenof": {
+    "prefix": "#dancenof",
+    "body": [
+      "#dancenof"
+    ],
+    "description": "The number of sprites circling the unit."
+  },
+  "#dancesize": {
+    "prefix": "#dancesize",
+    "body": [
+      "#dancesize"
+    ],
+    "description": "The size in percent of normal size. default is 100."
+  },
+  "#spiritformimmune": {
+    "prefix": "#spiritformimmune",
+    "body": [
+      "#spiritformimmune"
+    ],
+    "description": "Spiritform beings and illusions are immune to this weapon."
+  },
+  "#illusionsimmune": {
+    "prefix": "#illusionsimmune",
+    "body": [
+      "#illusionsimmune"
+    ],
+    "description": "Illusions are immune to this weapon."
+  },
+  "#false": {
+    "prefix": "#false",
+    "body": [
+      "#false"
+    ],
+    "description": "The weapon causes false damage (like most glamour magic) instead of real damage."
+  },
+  "#holyifhit": {
+    "prefix": "#holyifhit",
+    "body": [
+      "#holyifhit"
+    ],
+    "description": "AN damage that only affect demons and undeads."
+  },
+  "#killmagicifhit": {
+    "prefix": "#killmagicifhit",
+    "body": [
+      "#killmagicifhit"
+    ],
+    "description": "AN damage that only affect magic beings."
+  },
+  "#killdemonifhit": {
+    "prefix": "#killdemonifhit",
+    "body": [
+      "#killdemonifhit"
+    ],
+    "description": "AN damage that only affect demons."
+  },
+  "#holystunifhit": {
+    "prefix": "#holystunifhit",
+    "body": [
+      "#holystunifhit"
+    ],
+    "description": "Stun that only affects demons and undead. Use 1 as damage value."
+  },
+  "#petrifyifhit": {
+    "prefix": "#petrifyifhit",
+    "body": [
+      "#petrifyifhit"
+    ],
+    "description": "Petrification. Use 1 as damage value"
+  },
+  "#fireifhit": {
+    "prefix": "#fireifhit",
+    "body": [
+      "#fireifhit"
+    ],
+    "description": "AP fire damage."
+  },
+  "#coldifhit": {
+    "prefix": "#coldifhit",
+    "body": [
+      "#coldifhit"
+    ],
+    "description": "AP cold damage."
+  },
+  "#shockifhit": {
+    "prefix": "#shockifhit",
+    "body": [
+      "#shockifhit"
+    ],
+    "description": "AN shock damage."
+  },
+  "#poisonifdmg": {
+    "prefix": "#poisonifdmg",
+    "body": [
+      "#poisonifdmg"
+    ],
+    "description": "AN poison damage."
+  },
+  "#aftercloud": {
+    "prefix": "#aftercloud",
+    "body": [
+      "#aftercloud"
+    ],
+    "description": "A cloud will appear after attacking with the weapon. The cloud has strength \"cloudstr\" and is of the \"cloudnbr\" type.  See table below for possible cloud types."
+  },
+  "#aftercloudarea": {
+    "prefix": "#aftercloudarea",
+    "body": [
+      "#aftercloudarea"
+    ],
+    "description": "Size of the aftercloud effect of this weapon. Default is 1."
+  },
+  "#plaguedoctor": {
+    "prefix": "#plaguedoctor",
+    "body": [
+      "#plaguedoctor"
+    ],
+    "description": "A commander with this ability can use the make plague order."
+  },
+  "#corruptor": {
+    "prefix": "#corruptor",
+    "body": [
+      "#corruptor"
+    ],
+    "description": "Gives the monster the corruption ability like a Shaytan. The value indicates the difficulty of the morale check. 10 is standard."
+  },
+  "#notmounted": {
+    "prefix": "#notmounted",
+    "body": [
+      "#notmounted"
+    ],
+    "description": "This weapon cannot be used while mounted (2=keep this secret and don't show it in weapon info. Don't do this that's so stupid illwinter.)"
+  },
+  "#notdismounted": {
+    "prefix": "#notdismounted",
+    "body": [
+      "#notdismounted"
+    ],
+    "description": "This weapon cannot be used while dismounted."
+  },
+  "#popgrowth": {
+    "prefix": "#popgrowth",
+    "body": [
+      "#popgrowth"
+    ],
+    "description": "Bonus to population growth in province once site has been found."
+  },
+  "#hidedom": {
+    "prefix": "#hidedom",
+    "body": [
+      "#hidedom"
+    ],
+    "description": "This dominion will hide who owns the province unless the province from a casual inspection."
+  },
+  "#growthrecscale": {
+    "prefix": "#growthrecscale",
+    "body": [
+      "#growthrecscale"
+    ],
+    "description": "Growth scale requirement for recruitment."
+  },
+  "#deathrecscale": {
+    "prefix": "#deathrecscale",
+    "body": [
+      "#deathrecscale"
+    ],
+    "description": "Death scale requirement for recruitment."
+  },
+  "#orderrecscale": {
+    "prefix": "#orderrecscale",
+    "body": [
+      "#orderrecscale"
+    ],
+    "description": "Order scale requirement for recruitment."
+  },
+  "#chaosrecscale": {
+    "prefix": "#chaosrecscale",
+    "body": [
+      "#chaosrecscale"
+    ],
+    "description": "Chaos scale requirement for recruitment."
+  },
+  "#req_enchnearby": {
+    "prefix": "#req_enchnearby",
+    "body": [
+      "#req_enchnearby"
+    ],
+    "description": "This global enchantment must be active and have its origin in the current or a neigboring province."
+  },
+  "#req_targseductions": {
+    "prefix": "#req_targseductions",
+    "body": [
+      "#req_targseductions"
+    ],
+    "description": "Target must have succeded with at least this many seductions (dream seduction and corruption also counts)."
+  },
+  "#req_targminkills": {
+    "prefix": "#req_targminkills",
+    "body": [
+      "#req_targminkills"
+    ],
+    "description": "Target must have killed at least this many people."
+  },
+  "#req_targmaxkills": {
+    "prefix": "#req_targmaxkills",
+    "body": [
+      "#req_targmaxkills"
+    ],
+    "description": "Target must have killed at most this many people."
+  },
+  "#addseduction": {
+    "prefix": "#addseduction",
+    "body": [
+      "#addseduction"
+    ],
+    "description": "One commander determined by target requirements will get this number added to the number of seductions she has successfully performed. The resulting value will never go below zero."
+  },
+  "#addkills": {
+    "prefix": "#addkills",
+    "body": [
+      "#addkills"
+    ],
+    "description": "One commander determined by target requirements will get this number added to the number of kills he has. The resulting value will never go below zero."
+  },
+  "#req_notpoptype": {
+    "prefix": "#req_notpoptype",
+    "body": [
+      "#req_notpoptype"
+    ],
+    "description": "The province must not have this poptype."
+  },
+  "#req_plane": {
+    "prefix": "#req_plane",
+    "body": [
+      "#req_plane"
+    ],
+    "description": "Event can only occur on this plane. 0 = default plane (demiurgia) 1+ = other map planes. -1 = cave plane. -2 = nexus plane. If no custom map with extra planes is used. 1 will be the same as the cave plane and 2 will be the same as the nexus plane. Setting req_plane -2 will also enable the event to occur on that plane (no req_voidok necessary)"
+  },
+  "#req_godawake": {
+    "prefix": "#req_godawake",
+    "body": [
+      "#req_godawake"
+    ],
+    "description": "1 = Requires the event owner's Pretender God (or Disiple) to be alive and on the map somewhere."
+  },
+  "#req_pretismnr": {
+    "prefix": "#req_pretismnr",
+    "body": [
+      "#req_pretismnr"
+    ],
+    "description": "Requires the event owner's Pretender God to be a specific monster type. If the event owner is a disiple player the team's pretender will be used instead. This command can be used multiple times in which case only one of the monster types is required."
+  },
+  "#req_pretawake": {
+    "prefix": "#req_pretawake",
+    "body": [
+      "#req_pretawake"
+    ],
+    "description": "1 = Requires the event owner's Pretender God to be alive and on the map somewhere. If the event owner is a disiple player the team's pretender will be used instead."
+  },
+  "#header": {
+    "prefix": "#header",
+    "body": [
+      "#header"
+    ],
+    "description": "Usually all messages start with \"An unexpected event has occured in...\". Use this command to change that. Type 1 = no unexpected 2 = no header. If you use 2 (no header) the first line in the message will be used as a header the header should end with two newlines before the rest of the message."
+  },
+  "#icenatprot": {
+    "prefix": "#icenatprot",
+    "body": [
+      "#icenatprot"
+    ],
+    "description": "Natural protection varies with the temperature in the province. The protection value is added or subtracted for every step on the Cold scale."
+  },
+  "#holyrange": {
+    "prefix": "#holyrange",
+    "body": [
+      "#holyrange"
+    ],
+    "description": "Holy magic cast by the monster have increased range."
+  },
+  "#sorcerygems": {
+    "prefix": "#sorcerygems",
+    "body": [
+      "#sorcerygems"
+    ],
+    "description": "This monster produces a number of magic gems each month. They are of a single random type of sorcery gem."
+  },
+  "#elementgems": {
+    "prefix": "#elementgems",
+    "body": [
+      "#elementgems"
+    ],
+    "description": "This monster produces a number of magic gems each month. They are of a single random type of elemental gem."
+  },
+  "#mobilearcher": {
+    "prefix": "#mobilearcher",
+    "body": [
+      "#mobilearcher"
+    ],
+    "description": "Mobile archers can shoot while their mount is moving. This is used for mobile archer cavalry units."
+  },
+  "#animated": {
+    "prefix": "#animated",
+    "body": [
+      "#animated"
+    ],
+    "description": "The monster becomes this if affected by the animate tree spell. This command should only be used on the background trees and bushes that can be found on the battlefield."
+  },
+  "#portent": {
+    "prefix": "#portent",
+    "body": [
+      "#portent"
+    ],
+    "description": "\"Global enchantments come with a \"dire portent\" message to all players. This command can be used to set the part of the text that is sent to all players. Don't write \"A dire portent...\" that part is added at the start automatically. Special tags shown on pg.53 can be inserted in the message to reference things like the name of the caster's god. PG\""
+  },
+  "#cure": {
+    "prefix": "#cure",
+    "body": [
+      "#cure"
+    ],
+    "description": "This is the part of the dire portent message that is only sent to the enemies of the caster. It can use the same special tags."
+  },
+  "#req_void": {
+    "prefix": "#req_void",
+    "body": [
+      "#req_void"
+    ],
+    "description": "Event can only take effect on the void plane (0 = cannot)"
+  },
+  "#req_kelp": {
+    "prefix": "#req_kelp",
+    "body": [
+      "#req_kelp"
+    ],
+    "description": "Event requires the province to have a kelp sea terrain."
+  },
+  "#req_gorge": {
+    "prefix": "#req_gorge",
+    "body": [
+      "#req_gorge"
+    ],
+    "description": "Event requires the province to have gorge sea terrain"
+  },
+  "#req_deep": {
+    "prefix": "#req_deep",
+    "body": [
+      "#req_deep"
+    ],
+    "description": "Event requires the province to have deep sea (deep sea gorges also ok) terrain."
+  },
+  "#req_forestcave": {
+    "prefix": "#req_forestcave",
+    "body": [
+      "#req_forestcave"
+    ],
+    "description": "Event requires the province to have forest cave terrain."
+  },
+  "#req_drip": {
+    "prefix": "#req_drip",
+    "body": [
+      "#req_drip"
+    ],
+    "description": "Event requires the province to have drip cave terrain."
+  },
+  "#req_crystal": {
+    "prefix": "#req_crystal",
+    "body": [
+      "#req_crystal"
+    ],
+    "description": "Event requires the province to have crystal cave terrain."
+  },
+  "#clearvar": {
+    "prefix": "#clearvar",
+    "body": [
+      "#clearvar"
+    ],
+    "description": "Sets an event var (-4 to 9999) to zero."
+  },
+  "#incvar": {
+    "prefix": "#incvar",
+    "body": [
+      "#incvar"
+    ],
+    "description": "Adds one to an event var."
+  },
+  "#decvar": {
+    "prefix": "#decvar",
+    "body": [
+      "#decvar"
+    ],
+    "description": "Decreases one from an event var"
+  },
+  "#inc10var": {
+    "prefix": "#inc10var",
+    "body": [
+      "#inc10var"
+    ],
+    "description": "Adds ten to an event var."
+  },
+  "#dec10var": {
+    "prefix": "#dec10var",
+    "body": [
+      "#dec10var"
+    ],
+    "description": "Decreases ten from an event var."
+  },
+  "#invvar": {
+    "prefix": "#invvar",
+    "body": [
+      "#invvar"
+    ],
+    "description": "Inverts the value of an event var (result = -event var)."
+  },
+  "#togglevar": {
+    "prefix": "#togglevar",
+    "body": [
+      "#togglevar"
+    ],
+    "description": "Toggles the value of an event var (result = 1-event var). Use to toggle between 1 and 0."
+  },
+  "#gemlongevity": {
+    "prefix": "#gemlongevity",
+    "body": [
+      "#gemlongevity"
+    ],
+    "description": "This command can be used to make magic gems last for multiple battle within one month. Level 0=normal 1=gems last entire magic or move phase 2=gems last entire month."
+  },
+  "#req_minglobals": {
+    "prefix": "#req_minglobals",
+    "body": [
+      "#req_minglobals"
+    ],
+    "description": "There must be at least this many global enchantments active."
+  },
+  "#req_maxglobals": {
+    "prefix": "#req_maxglobals",
+    "body": [
+      "#req_maxglobals"
+    ],
+    "description": "There must be at most this many global enchantments active."
+  },
+  "#req_varpos": {
+    "prefix": "#req_varpos",
+    "body": [
+      "#req_varpos"
+    ],
+    "description": "The event variable must have a value of 1 or higher."
+  },
+  "#req_varneg": {
+    "prefix": "#req_varneg",
+    "body": [
+      "#req_varneg"
+    ],
+    "description": "The event variable must have a value of -1 or lower."
+  },
+  "#req_varzero": {
+    "prefix": "#req_varzero",
+    "body": [
+      "#req_varzero"
+    ],
+    "description": "The event variable must have a value of exactly zero."
+  },
+  "#req_varone": {
+    "prefix": "#req_varone",
+    "body": [
+      "#req_varone"
+    ],
+    "description": "The event variable must have a value of exactly one."
+  },
+  "#dispglobals": {
+    "prefix": "#dispglobals",
+    "body": [
+      "#dispglobals"
+    ],
+    "description": "Reduces strength of all global enchantment with a random number d(str). If it is reduced to zero the enchantment will be dispelled."
+  },
+  "#aiassmod": {
+    "prefix": "#aiassmod",
+    "body": [
+      "#aiassmod"
+    ],
+    "description": "This modifies the spell AI to (dis)like this spell when in an assassination battle. Usually there is no need for this command. A value of -100 makes it never be cast and a value of 100 makes it twice as likable for the spell AI."
+  },
+  "#onlysitedst": {
+    "prefix": "#onlysitedst",
+    "body": [
+      "#onlysitedst"
+    ],
+    "description": "Ritual can only target provinces containing this site. The site must be revealed to be targetted."
+  },
+  "#napbreakrit": {
+    "prefix": "#napbreakrit",
+    "body": [
+      "#napbreakrit"
+    ],
+    "description": "positive value means the ritual counts as a NAP violation. A negative value means it will never count as a NAP violation."
+  },
+  "#selectevent": {
+    "prefix": "#selectevent",
+    "body": [
+      "#selectevent",
+      "",
+      "#end"
+    ],
+    "description": "This command selects an already existing event. All subsequent commands will modify this event until modding the event is finished with the #end command. Usually you only use the #newevent command and never this one but it can be useful ifyou want to modify or disable a single event from the game. This command cannot be used to create new events."
+  },
+  "#req_turnrare": {
+    "prefix": "#req_turnrare",
+    "body": [
+      "#req_turnrare"
+    ],
+    "description": "The event is extra rare but will be increasingly likely with time. It has a <percent + current turn nbr> chance of being valid when rolled. A negative value will create an event that has zero percent of happening until value turns has passed."
+  },
+  "#assownerench": {
+    "prefix": "#assownerench",
+    "body": [
+      "#assownerench"
+    ],
+    "description": "The following assassins created by this event will be owned by the owner of this enchantment."
+  },
+  "#req_targhorrormark": {
+    "prefix": "#req_targhorrormark",
+    "body": [
+      "#req_targhorrormark"
+    ],
+    "description": "Target must have a horror mark of at least this value."
+  },
+  "#templeholypoints": {
+    "prefix": "#templeholypoints",
+    "body": [
+      "#templeholypoints"
+    ],
+    "description": "Every temple gives value number of extra holy points (for recruiting sacred units). Ind and Piconye have this ability."
+  },
+  "#mindcollar": {
+    "prefix": "#mindcollar",
+    "body": [
+      "#mindcollar"
+    ],
+    "description": "Unit will take this amount of damage if it breaks in combat. (Maybe Accepts negative values? Haven't tested)"
+  },
+  "#statstorm": {
+    "prefix": "#statstorm",
+    "body": [
+      "#statstorm"
+    ],
+    "description": "1+ = Can storm forts even if it is stationary (map move 0) which would otherwise make it unable to."
+  },
+  "#statbreak": {
+    "prefix": "#statbreak",
+    "body": [
+      "#statbreak"
+    ],
+    "description": "1+ = Can break siege even if it is stationary (map move 0) which would otherwise make it unable to."
+  },
+  "#req_fortid": {
+    "prefix": "#req_fortid",
+    "body": [
+      "#req_fortid"
+    ],
+    "description": "There must be a fort in the province and it must be of this type."
+  },
+  "#protparts": {
+    "prefix": "#protparts",
+    "body": [
+      "#protparts"
+    ],
+    "description": "Sets the protection value of an armor that has both head and body protecion e.g. a horse barding that includes head protection."
+  },
+  "#sumhealaffs": {
+    "prefix": "#sumhealaffs",
+    "body": [
+      "#sumhealaffs"
+    ],
+    "description": "Units summoned by this spell will have up to value number of afflictions healed. This can be useful if summoning an immortal or unique monster that might have accumulated afflictions in its previous life."
+  },
+  "#spikes": {
+    "prefix": "#spikes",
+    "body": [
+      "#spikes"
+    ],
+    "description": "This unit is covered in sharp spikes barbs. Anyone striking it with a short weapon (length no more than 1) will risk getting damaged. The damage is not severe it is capped at 1 point and armor also protects."
+  },
+  "#sleepres": {
+    "prefix": "#sleepres",
+    "body": [
+      "#sleepres"
+    ],
+    "description": "Monster will get the Undreaming ability giving this bonus to its MR against sleep effects. (Guessing it allows negative values)."
+  },
+  "#sabbathmaster": {
+    "prefix": "#sabbathmaster",
+    "body": [
+      "#sabbathmaster"
+    ],
+    "description": "The monster is automatically a sabbath master and does not need to cast the Sabbath Master spell to join a sabbath."
+  },
+  "#sabbathslave": {
+    "prefix": "#sabbathslave",
+    "body": [
+      "#sabbathslave"
+    ],
+    "description": "The monster is automatically a sabbath slave and does not need to cast the Sabbath Slave spell to join a sabbath."
+  },
+  "#chorusmaster": {
+    "prefix": "#chorusmaster",
+    "body": [
+      "#chorusmaster"
+    ],
+    "description": "The monster is automatically a chorus  slave and does not need to cast the Chorus Master spell to join a sabbath."
+  },
+  "#chorusslave": {
+    "prefix": "#chorusslave",
+    "body": [
+      "#chorusslave"
+    ],
+    "description": "The monster is automatically a sabbath slave and does not need to cast the Chorus Slave spell to join a sabbath."
+  },
+  "#magiconly": {
+    "prefix": "#magiconly",
+    "body": [
+      "#magiconly"
+    ],
+    "description": "The weapon only affects magic beings."
+  },
+  "#req_school": {
+    "prefix": "#req_school",
+    "body": [
+      "#req_school"
+    ],
+    "description": "Sets the active research school this will be useful for later commands."
+  },
+  "#req_minresearch": {
+    "prefix": "#req_minresearch",
+    "body": [
+      "#req_minresearch"
+    ],
+    "description": "Requires the player to have researched to at least this level in the active research school."
+  },
+  "#req_path": {
+    "prefix": "#req_path",
+    "body": [
+      "#req_path"
+    ],
+    "description": "Sets the active magic path this will be useful for the next command."
+  },
+  "#req_pathgems": {
+    "prefix": "#req_pathgems",
+    "body": [
+      "#req_pathgems"
+    ],
+    "description": "There must be at least this amount of gems of the active magic path in the gem treasury."
+  },
+  "#fortcoldscaleres": {
+    "prefix": "#fortcoldscaleres",
+    "body": [
+      "#fortcoldscaleres"
+    ],
+    "description": "Reduces the killing effect of cold scales in forts by this many scale steps."
+  },
+  "#fortheatscaleres": {
+    "prefix": "#fortheatscaleres",
+    "body": [
+      "#fortheatscaleres"
+    ],
+    "description": "Reduces the killing effect of heat scales in forts by this many scale steps."
+  },
+  "#homecoldscaleres": {
+    "prefix": "#homecoldscaleres",
+    "body": [
+      "#homecoldscaleres"
+    ],
+    "description": "Reduces the killing effect of cold scales in the capital by this many scale steps."
+  },
+  "#homeheatscaleres": {
+    "prefix": "#homeheatscaleres",
+    "body": [
+      "#homeheatscaleres"
+    ],
+    "description": "Reduces the killing effect of heat scales in the capital by this many scale steps."
+  },
+  "#plainrec": {
+    "prefix": "#plainrec",
+    "body": [
+      "#plainrec"
+    ],
+    "description": "The monster changes to this shape when moving from a non-plain province to a plain province."
+  },
+  "#plaincom": {
+    "prefix": "#plaincom",
+    "body": [
+      "#plaincom"
+    ],
+    "description": "This commander can be recruited in plain provinces with or without fort. See the box below for all command names."
+  },
+  "#plainfortrec": {
+    "prefix": "#plainfortrec",
+    "body": [
+      "#plainfortrec"
+    ],
+    "description": "This unit can be recruited in (terrain) provinces with a fort."
+  },
+  "#plainfortcom": {
+    "prefix": "#plainfortcom",
+    "body": [
+      "#plainfortcom"
+    ],
+    "description": "This unit can be recruited in (terrain) provinces with a fort."
+  },
+  "#bugshape": {
+    "prefix": "#bugshape",
+    "body": [
+      "#bugshape"
+    ],
+    "description": "This is the Soul Bug."
+  },
+  "#buguwshape": {
+    "prefix": "#buguwshape",
+    "body": [
+      "#buguwshape"
+    ],
+    "description": "This is the UW Sould Bug."
+  },
+  "#bugswarmshape": {
+    "prefix": "#bugswarmshape",
+    "body": [
+      "#bugswarmshape"
+    ],
+    "description": "This is the shape of the other Bugs. Must be montag?"
+  },
+  "#bugswarmuwshape": {
+    "prefix": "#bugswarmuwshape",
+    "body": [
+      "#bugswarmuwshape"
+    ],
+    "description": "This is the UW shape of the other Bugs. Must be montag?"
+  },
+  "#req_targrealmnr": {
+    "prefix": "#req_targrealmnr",
+    "body": [
+      "#req_targrealmnr"
+    ],
+    "description": "Target commander must be this monster type CURRENTLY.  This command can be used multiple times."
+  },
+  "#req_targnorealmnr": {
+    "prefix": "#req_targnorealmnr",
+    "body": [
+      "#req_targnorealmnr"
+    ],
+    "description": "Target commander mustn't be this monster type CURRENTLY.  This command can be used multiple times"
+  },
+  "#worldshape": {
+    "prefix": "#worldshape",
+    "body": [
+      "#worldshape"
+    ],
+    "description": "The monster changes to this shape when not in battle."
+  },
+  "#battleshape": {
+    "prefix": "#battleshape",
+    "body": [
+      "#battleshape"
+    ],
+    "description": "The monster changes to this shape when in battle."
+  },
+  "#mrhalf": {
+    "prefix": "#mrhalf",
+    "body": [
+      "#mrhalf"
+    ],
+    "description": "MR for half damage. Like spectral weapons."
+  },
+  "#caveinc": {
+    "prefix": "#caveinc",
+    "body": [
+      "#caveinc"
+    ],
+    "description": "Increased income in caves by this %."
+  },
+  "#caveres": {
+    "prefix": "#caveres",
+    "body": [
+      "#caveres"
+    ],
+    "description": "Increased resource in caves by this %."
+  },
+  "#caverecpt": {
+    "prefix": "#caverecpt",
+    "body": [
+      "#caverecpt"
+    ],
+    "description": "Increased recruitment points in caves by this %."
   }
 }

@@ -32,6 +32,6 @@ def tsv_to_csv(folder_path):
         print(f"An error occurred: {e}")
 
 # Replace 'path/to/folder' with the actual path of your folder
-folder_path = r'PATH'
+folder_path = r'C:\Users\jimmy\dominions-mod-support\misc'
 
 tsv_to_csv(folder_path)

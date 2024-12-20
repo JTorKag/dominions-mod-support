@@ -542,7 +542,100 @@ checkTwoCustomRangeValues(lines, diagnostics, command, minValueSet1, maxValueSet
     }
 }
 
+checkValueRangeAndSet(lines, diagnostics, command, minValue, maxValue, allowedValues) {
+    for (let i = 0; i < lines.length; i++) {
+        const line = lines[i].trim();
 
+        if (line.startsWith(command)) {
+            const valueMatches = line.match(/(-?\d+)/g);
+
+            if (valueMatches && valueMatches.length >= 2) {
+                const value1 = parseInt(valueMatches[0]);
+                const value2 = parseInt(valueMatches[1]);
+
+                // Check if value1 is within the specified numeric range
+                // and if value2 is in the allowed set.
+                if ((value1 < minValue || value1 > maxValue) || !allowedValues.includes(value2)) {
+                    const range = new vscode.Range(
+                        new vscode.Position(i, line.indexOf(valueMatches[0])),
+                        new vscode.Position(i, line.indexOf(valueMatches[1]) + valueMatches[1].length)
+                    );
+                    const diagnostic = new vscode.Diagnostic(
+                        range,
+                        `The first value of ${command} must be between ${minValue} and ${maxValue}, and the second must be one of: ${allowedValues.join(', ')}.`,
+                        vscode.DiagnosticSeverity.Error
+                    );
+                    diagnostics.push(diagnostic);
+                }
+            } else {
+                // Handle cases where either value is missing or invalid
+                const range = new vscode.Range(
+                    new vscode.Position(i, line.indexOf(command)),
+                    new vscode.Position(i, line.indexOf(command) + command.length)
+                );
+                const diagnostic = new vscode.Diagnostic(
+                    range,
+                    `Missing or invalid values for ${command} command.`,
+                    vscode.DiagnosticSeverity.Error
+                );
+                diagnostics.push(diagnostic);
+            }
+        }
+    }
+}
+
+checkQuotedTextLength(lines, diagnostics, command, maxLength) {
+    for (let i = 0; i < lines.length; i++) {
+        const line = lines[i].trim();
+
+        if (line.startsWith(command)) {
+            const quoteStartIndex = line.indexOf('"');
+            if (quoteStartIndex !== -1) {
+                const quoteEndIndex = line.indexOf('"', quoteStartIndex + 1);
+                if (quoteEndIndex !== -1) {
+                    const quotedText = line.substring(quoteStartIndex + 1, quoteEndIndex);
+
+                    if (quotedText.length > maxLength) {
+                        const range = new vscode.Range(
+                            new vscode.Position(i, quoteStartIndex),
+                            new vscode.Position(i, quoteEndIndex + 1)
+                        );
+                        const diagnostic = new vscode.Diagnostic(
+                            range,
+                            `The quoted text after ${command} exceeds the maximum allowed length of ${maxLength} characters. Your current message is ${quotedText.length}.`,
+                            vscode.DiagnosticSeverity.Error
+                        );
+                        diagnostics.push(diagnostic);
+                    }
+                } else {
+                    // No closing quote found
+                    const range = new vscode.Range(
+                        new vscode.Position(i, line.indexOf(command)),
+                        new vscode.Position(i, line.indexOf(command) + command.length)
+                    );
+                    const diagnostic = new vscode.Diagnostic(
+                        range,
+                        `Missing closing quote for ${command} command.`,
+                        vscode.DiagnosticSeverity.Error
+                    );
+                    diagnostics.push(diagnostic);
+                }
+            } else {
+                // No opening quote found
+                const range = new vscode.Range(
+                    new vscode.Position(i, line.indexOf(command)),
+                    new vscode.Position(i, line.indexOf(command) + command.length)
+                );
+                const diagnostic = new vscode.Diagnostic(
+                    range,
+                    `No quoted text found after ${command} command.`,
+                    vscode.DiagnosticSeverity.Error
+                );
+                diagnostics.push(diagnostic);
+            }
+        }
+    }
+}
 
 
 
@@ -661,12 +754,163 @@ checkTwoCustomRangeValues(lines, diagnostics, command, minValueSet1, maxValueSet
         this.checkCustomRangeValues(lines, diagnostics, '#req_thronesite', 0, 1);
         this.checkCustomRangeValues(lines, diagnostics, '#aimagerec', 0, 99);
         this.checkCustomRangeValues(lines, diagnostics, '#holycost', 1, 15);
+        this.checkCustomRangeValues(lines, diagnostics, "#norange", 0, 100,false,true);
+        this.checkCustomRangeValues(lines, diagnostics, "#att", -100, 100);
+        this.checkCustomRangeValues(lines, diagnostics, "#look", -1, 9);
+        this.checkCustomRangeValues(lines, diagnostics, "#clumsy", 0, 1);
+        this.checkCustomRangeValues(lines, diagnostics, "#falsesupply", 0, 500);
+        this.checkCustomRangeValues(lines, diagnostics, "#glamourmanip", 0, 1);
+        this.checkCustomRangeValues(lines, diagnostics, "#godsite", 0, 3999, true);
+        this.checkPowerOfTwoValues(lines, diagnostics, "#addgeo", 59);
+        this.checkPowerOfTwoValues(lines, diagnostics, "#remgeo", 59);
+        this.checkCustomRangeValues(lines, diagnostics, "#danceweapon", 1, 3999, true);
+        this.checkCustomRangeValues(lines, diagnostics, "#dancenratt", 2, 50);
+        this.checkCustomRangeValues(lines, diagnostics, "#holyifhit", -20, 999);
+        this.checkCustomRangeValues(lines, diagnostics, "#killmagicifhit", -20, 999);
+        this.checkCustomRangeValues(lines, diagnostics, "#killdemonifhit", -20, 999);
+        this.checkCustomRangeValues(lines, diagnostics, "#holystunifhit", 1, 1);
+        this.checkCustomRangeValues(lines, diagnostics, "#petrifyifhit", 1, 1);
+        this.checkCustomRangeValues(lines, diagnostics, "#fireifhit", -20, 999);
+        this.checkCustomRangeValues(lines, diagnostics, "#coldifhit", -20, 999);
+        this.checkCustomRangeValues(lines, diagnostics, "#shockifhit", -20, 999);
+        this.checkCustomRangeValues(lines, diagnostics, "#poisonifdmg", -20, 999);
+        this.checkValueRangeAndSet(lines, diagnostics, "#aftercloud", 1, 7, [1,8,64,512,4096,32768,262144,2097152,16777216])
+        this.checkCustomRangeValues(lines, diagnostics, "#aftercloudarea", 1, 100);
+        this.checkCustomRangeValues(lines, diagnostics, "#plaguedoctor", 1, 100);
+        this.checkCustomRangeValues(lines, diagnostics, "#notmounted", 1, 2);
+        this.checkCustomRangeValues(lines, diagnostics, "#hidedom", 0, 1);
+        this.checkCustomRangeValues(lines, diagnostics, "#growthrecscale", 0, 5);
+        this.checkCustomRangeValues(lines, diagnostics, "#deathrecscale", 0, 5);
+        this.checkCustomRangeValues(lines, diagnostics, "#orderrecscale", 0, 5);
+        this.checkCustomRangeValues(lines, diagnostics, "#chaosrecscale", 0, 5);
+        this.checkCustomRangeValues(lines, diagnostics, "#req_enchnearby", 0, 9999, true);
+        this.checkCustomRangeValues(lines, diagnostics, "#req_targseductions", 0, 500);
+        this.checkCustomRangeValues(lines, diagnostics, "#req_targminkills", 0, 1000);
+        this.checkCustomRangeValues(lines, diagnostics, "#req_targmaxkills", 0, 1000);
+        this.checkCustomRangeValues(lines, diagnostics, "#req_targmaxkills", 0, 1000);
+        this.checkCustomRangeValues(lines, diagnostics, "#addseduction", 0, 500);
+        this.checkCustomRangeValues(lines, diagnostics, "#addkills", 0, 1000);
+        this.checkCustomRangeValues(lines, diagnostics, "#req_plane", -2, 8);
+        this.checkCustomRangeValues(lines, diagnostics, "#req_godawake", 0, 1);
+        this.checkCustomRangeValues(lines, diagnostics, "#req_pretismnr", 0, 19999, true);
+        this.checkCustomRangeValues(lines, diagnostics, "#req_pretawake", 0, 1);
+        this.checkQuotedTextLength(lines, diagnostics, "#msg",2399);
+        this.checkCustomRangeValues(lines, diagnostics, "#icenatprot", -40, 40);
+        this.checkCustomRangeValues(lines, diagnostics, '#holyrange', 1, 20);
+        this.checkCustomRangeValues(lines, diagnostics, '#sorcerygems', 1, 100);
+        this.checkCustomRangeValues(lines, diagnostics, '#elementgems', 1, 100);
+        this.checkCustomRangeValues(lines, diagnostics, '#mobilearcher', 0, 1);
+        this.checkCustomRangeValues(lines, diagnostics, '#animated', 0, 19999, true);
+        this.checkCustomRangeValues(lines, diagnostics, '#domwar', -10, 10);
+        this.checkQuotedTextLength(lines, diagnostics, "#portent",2399);
+        this.checkQuotedTextLength(lines, diagnostics, "#cure",2399);
+        this.checkCustomRangeValues(lines, diagnostics, '#req_void', 0, 1);
+        this.checkCustomRangeValues(lines, diagnostics, '#onlyfriendlydst', 0, 2);
+        this.checkCustomRangeValues(lines, diagnostics, '#req_kelp', 0, 1);
+        this.checkCustomRangeValues(lines, diagnostics, '#req_gorge', 0, 1);
+        this.checkCustomRangeValues(lines, diagnostics, '#req_deep', 0, 1);
+        this.checkCustomRangeValues(lines, diagnostics, '#req_forestcave', 0, 1);
+        this.checkCustomRangeValues(lines, diagnostics, '#req_deep', 0, 1);
+        this.checkCustomRangeValues(lines, diagnostics, '#req_drip', 0, 1);
+        this.checkCustomRangeValues(lines, diagnostics, '#req_crystal', 0, 1);
+        this.checkCustomRangeValues(lines, diagnostics, '#clearvar', -4, 9999);
+        this.checkCustomRangeValues(lines, diagnostics, '#incvar', -4, 9999);
+        this.checkCustomRangeValues(lines, diagnostics, '#decvar', -4, 9999);
+        this.checkCustomRangeValues(lines, diagnostics, '#inc10var', -4, 9999);
+        this.checkCustomRangeValues(lines, diagnostics, '#dec10var', -4, 9999);
+        this.checkCustomRangeValues(lines, diagnostics, '#invvar', -4, 9999);
+        this.checkCustomRangeValues(lines, diagnostics, '#togglevar', -4, 9999);
+        this.checkCustomRangeValues(lines, diagnostics, '#gemlongevity', 0, 2);
+        this.checkCustomRangeValues(lines, diagnostics, '#cavenation', 0, 3);
+        this.checkCustomRangeValues(lines, diagnostics, '#req_minglobals', 1, 20);
+        this.checkCustomRangeValues(lines, diagnostics, '#req_maxglobals', 1, 20);
+        this.checkCustomRangeValues(lines, diagnostics, '#req_varpos', -4, 9999);
+        this.checkCustomRangeValues(lines, diagnostics, '#req_varneg', -4, 9999);
+        this.checkCustomRangeValues(lines, diagnostics, '#req_varzero', -4, 9999);
+        this.checkCustomRangeValues(lines, diagnostics, '#req_varone', -4, 9999);
+        this.checkCustomRangeValues(lines, diagnostics, '#req_arenadone ', 0, 1);
+        this.checkCustomRangeValues(lines, diagnostics, '#req_worlditem ', 0, 1999, true);
+        this.checkCustomRangeValues(lines, diagnostics, '#req_noworlditem ', 0, 1999, true);
+        this.checkCustomRangeValues(lines, diagnostics, '#dispglobals', 1, 100);
+        this.checkCustomRangeValues(lines, diagnostics, '#aiassmod', -100, 100);
+        this.checkCustomRangeValues(lines, diagnostics, '#onlysitedst', -1, 1998, true);
+        this.checkCustomRangeValues(lines, diagnostics, '#napbreakrit', -100, 100);
+        this.checkCustomRangeValues(lines, diagnostics, '#req_turnrare', -100, 100);
+        this.checkQuotedTextLength(lines, diagnostics, "#description", 1999);
+        this.checkCustomRangeValues(lines, diagnostics, '#req_targhorrormark', 1, 200);
+        this.checkCustomRangeValues(lines, diagnostics, '#templeholypoints', 1, 10);
+        this.checkCustomRangeValues(lines, diagnostics, '#mindcollar', 1, 999);
+        this.checkCustomRangeValues(lines, diagnostics, '#statstorm', 0, 999);
+        this.checkCustomRangeValues(lines, diagnostics, '#statbreak', 0, 999);
+        this.checkCustomRangeValues(lines, diagnostics, '#req_fortid', 1, 16);
+        this.checkCustomRangeValues(lines, diagnostics, '#sumhealaffs', 1, 100);
+        this.checkCustomRangeValues(lines, diagnostics, '#spikes', 1, 999);
+        this.checkCustomRangeValues(lines, diagnostics, '#sleepres', -40, 40);
+        this.checkCustomRangeValues(lines, diagnostics, '#req_school', 0, 7);
+        this.checkCustomRangeValues(lines, diagnostics, '#req_path', 0, 9);
+        this.checkCustomRangeValues(lines, diagnostics, '#req_minresearch', 0, 9);
+        this.checkCustomRangeValues(lines, diagnostics, '#req_pathgems', 1, 999);
+        this.checkCustomRangeValues(lines, diagnostics, '#bugshape', 1, 19999, true);
+        this.checkCustomRangeValues(lines, diagnostics, '#buguwshape', 1, 19999, true);
+        this.checkCustomRangeValues(lines, diagnostics, '#bugswarmshape', -100000, -1000);
+        this.checkCustomRangeValues(lines, diagnostics, '#bugswarmuwshape', -100000, -1000);
+        this.checkCustomRangeValues(lines, diagnostics, '#req_targrealmnr', 1, 19999, true);
+        this.checkCustomRangeValues(lines, diagnostics, '#req_targnorealmnr', 1, 19999, true);
+        this.checkCustomRangeValues(lines, diagnostics, '#plainrec', 1, 19999, true);
+        this.checkCustomRangeValues(lines, diagnostics, '#plaincom', 1, 19999, true);
+        this.checkCustomRangeValues(lines, diagnostics, '#plainfortrec', 1, 19999, true);
+        this.checkCustomRangeValues(lines, diagnostics, '#plainfortcom', 1, 19999, true);
+        this.checkCustomRangeValues(lines, diagnostics, '#forestrec', 1, 19999, true);
+        this.checkCustomRangeValues(lines, diagnostics, '#forestcom', 1, 19999, true);
+        this.checkCustomRangeValues(lines, diagnostics, '#forestfortrec', 1, 19999, true);
+        this.checkCustomRangeValues(lines, diagnostics, '#forestfortcom', 1, 19999, true);
+        this.checkCustomRangeValues(lines, diagnostics, '#mountainrec', 1, 19999, true);
+        this.checkCustomRangeValues(lines, diagnostics, '#mountaincom', 1, 19999, true);
+        this.checkCustomRangeValues(lines, diagnostics, '#mountainfortrec', 1, 19999, true);
+        this.checkCustomRangeValues(lines, diagnostics, '#mountainfortcom', 1, 19999, true);
+        this.checkCustomRangeValues(lines, diagnostics, '#swamprec', 1, 19999, true);
+        this.checkCustomRangeValues(lines, diagnostics, '#swampcom', 1, 19999, true);
+        this.checkCustomRangeValues(lines, diagnostics, '#swampfortrec', 1, 19999, true);
+        this.checkCustomRangeValues(lines, diagnostics, '#swampfortcom', 1, 19999, true);
+        this.checkCustomRangeValues(lines, diagnostics, '#wasterec', 1, 19999, true);
+        this.checkCustomRangeValues(lines, diagnostics, '#wastecom', 1, 19999, true);
+        this.checkCustomRangeValues(lines, diagnostics, '#wastefortrec', 1, 19999, true);
+        this.checkCustomRangeValues(lines, diagnostics, '#wastefortcom', 1, 19999, true);
+        this.checkCustomRangeValues(lines, diagnostics, '#farmrec', 1, 19999, true);
+        this.checkCustomRangeValues(lines, diagnostics, '#farmcom', 1, 19999, true);
+        this.checkCustomRangeValues(lines, diagnostics, '#farmfortrec', 1, 19999, true);
+        this.checkCustomRangeValues(lines, diagnostics, '#farmfortcom', 1, 19999, true);
+        this.checkCustomRangeValues(lines, diagnostics, '#caverec', 1, 19999, true);
+        this.checkCustomRangeValues(lines, diagnostics, '#cavecom', 1, 19999, true);
+        this.checkCustomRangeValues(lines, diagnostics, '#cavefortrec', 1, 19999, true);
+        this.checkCustomRangeValues(lines, diagnostics, '#cavefortcom', 1, 19999, true);
+        this.checkCustomRangeValues(lines, diagnostics, '#driprec', 1, 19999, true);
+        this.checkCustomRangeValues(lines, diagnostics, '#dripcom', 1, 19999, true);
+        this.checkCustomRangeValues(lines, diagnostics, '#dripfortrec', 1, 19999, true);
+        this.checkCustomRangeValues(lines, diagnostics, '#dripfortcom', 1, 19999, true);
+        this.checkCustomRangeValues(lines, diagnostics, '#coastrec', 1, 19999, true);
+        this.checkCustomRangeValues(lines, diagnostics, '#coastcom', 1, 19999, true);
+        this.checkCustomRangeValues(lines, diagnostics, '#coastfortrec', 1, 19999, true);
+        this.checkCustomRangeValues(lines, diagnostics, '#coastfortcom', 1, 19999, true);
+        this.checkCustomRangeValues(lines, diagnostics, '#searec', 1, 19999, true);
+        this.checkCustomRangeValues(lines, diagnostics, '#seacom', 1, 19999, true);
+        this.checkCustomRangeValues(lines, diagnostics, '#seafortrec', 1, 19999, true);
+        this.checkCustomRangeValues(lines, diagnostics, '#seafortcom', 1, 19999, true);
+        this.checkCustomRangeValues(lines, diagnostics, '#deeprec', 1, 19999, true);
+        this.checkCustomRangeValues(lines, diagnostics, '#deepcom', 1, 19999, true);
+        this.checkCustomRangeValues(lines, diagnostics, '#deepfortrec', 1, 19999, true);
+        this.checkCustomRangeValues(lines, diagnostics, '#deepfortcom', 1, 19999, true);
+        this.checkCustomRangeValues(lines, diagnostics, '#kelprec', 1, 19999, true);
+        this.checkCustomRangeValues(lines, diagnostics, '#kelpcom', 1, 19999, true);
+        this.checkCustomRangeValues(lines, diagnostics, '#kelpfortrec', 1, 19999, true);
+        this.checkCustomRangeValues(lines, diagnostics, '#kelpfortcom', 1, 19999, true);
+        this.checkCustomRangeTwoSetsValues(lines, diagnostics, '#worldshape', 1, 19999, -100000, -1000, true);
+        this.checkCustomRangeTwoSetsValues(lines, diagnostics, '#battleshape', 1, 19999, -100000, -1000, true);
+        this.checkCustomRangeValues(lines, diagnostics, '#reclimit ', -2, 100);
+        this.checkCustomRangeValues(lines, diagnostics, '#caveinc ', 1, 500);
+        this.checkCustomRangeValues(lines, diagnostics, '#caveres ', 1, 500);
+        this.checkCustomRangeValues(lines, diagnostics, '#caverecpt ', 1, 500);
 
-        
-
-
-
-        
         //create monster diagnostics including transform and forcetransform
 /*      These all need revision because the trailing number is being counted as the value for the command.
         this.checkCustomRangeValues(lines, diagnostics, "#path0", 0, 8);

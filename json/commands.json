@@ -261,7 +261,7 @@
   },
   {
     "Friendly name": "airelementals",
-    "description": "Please let me know if you know what this does."
+    "description": " Gives a size bonus to summoned air elementals."
   },
   {
     "Friendly name": "airrange",
@@ -365,7 +365,7 @@
   },
   {
     "Friendly name": "assassin",
-    "description": "An assassin of this type attacks a random commander in the province. If a target requirement for the event is set, the assassin attacks that commander."
+    "description": "This Monster is an Assassin, or this item gives the Assassin Tag, or An assassin of this type attacks a random commander in the province. If a target requirement for the event is set, the assassin attacks that commander."
   },
   {
     "Friendly name": "assencloc",
@@ -797,7 +797,7 @@
   },
   {
     "Friendly name": "cavenation",
-    "description": "Sets the nations preference for starting in cave provinces.  0 = never start in caves 1 = can start in caves 2 = always start in a cave"
+    "description": "Sets the nations preference for starting in cave provinces.  0 = never start in caves 1 = can start in caves 2 = always start in a cave = start under a cave entrance"
   },
   {
     "Friendly name": "caverec",
@@ -989,6 +989,10 @@
   },
   {
     "Friendly name": "coldrec",
+    "description": "Cold scale requirement for recruitment."
+  },
+  {
+    "Friendly name": "coldrecscale",
     "description": "Cold scale requirement for recruitment."
   },
   {
@@ -1613,7 +1617,7 @@
   },
   {
     "Friendly name": "earthelementals",
-    "description": "Please let me know if you know what this does."
+    "description": " Gives a size bonus to summoned earth elementals"
   },
   {
     "Friendly name": "earthrange",
@@ -1813,7 +1817,7 @@
   },
   {
     "Friendly name": "fireelementals",
-    "description": "Please let me know if you know what this does."
+    "description": " Gives a size bonus to summoned fire elementals"
   },
   {
     "Friendly name": "firepower",
@@ -1925,7 +1929,7 @@
   },
   {
     "Friendly name": "forestsurvival",
-    "description": "Monster has the Forest Survival skill. Forest terrain does not hinder movement."
+    "description": "Monster or item has the Forest Survival skill. Forest terrain does not hinder movement."
   },
   {
     "Friendly name": "foresttemplecost",
@@ -2157,6 +2161,10 @@
   },
   {
     "Friendly name": "heatrec",
+    "description": "Heat scale requirement for recruitment."
+  },
+  {
+    "Friendly name": "heatrecscale",
     "description": "Heat scale requirement for recruitment."
   },
   {
@@ -2905,7 +2913,7 @@
   },
   {
     "Friendly name": "mountainsurvival",
-    "description": "Monster has the Mountain Survival skill. Mountain terrain does not hinder movement and the monster can cross mountain passes even if it is cold in the provinces the pass connects."
+    "description": "Monster or item has the Mountain Survival skill. Mountain terrain does not hinder movement and the monster can cross mountain passes even if it is cold in the provinces the pass connects."
   },
   {
     "Friendly name": "mounted",
@@ -3285,7 +3293,7 @@
   },
   {
     "Friendly name": "notmnr",
-    "description": "This type of monster is unable to cast this ritual. Monster nbr can be negative for a montag. This command can be used multiple times on the same spell for non-montags."
+    "description": "This type of monster is unable to cast this spell. Monster nbr can be negative for a montag. This command can be used multiple times on the same spell for non-montags."
   },
   {
     "Friendly name": "noundead",
@@ -3365,7 +3373,7 @@
   },
   {
     "Friendly name": "onlyfriendlydst",
-    "description": "1 = can only target allied provinces 0 = turn this feature off (default)"
+    "description": "1 = can only target allied provinces. 2 = can also target allied forts even when besieged."
   },
   {
     "Friendly name": "onlygeodst",
@@ -3381,7 +3389,7 @@
   },
   {
     "Friendly name": "onlymnr",
-    "description": "Only this type of monster is able to cast this ritual. Monster nbr can be negative for a montag. This command can be used multiple times on the same spell for non-montags."
+    "description": "Only this type of monster is able to cast this spell. Monster nbr can be negative for a montag. This command can be used multiple times on the same spell for non-montags."
   },
   {
     "Friendly name": "onlymounted",
@@ -4997,7 +5005,7 @@
   },
   {
     "Friendly name": "swampsurvival",
-    "description": "Monster has the Swamp Survival skill. Swamp terrain does not hinder movement."
+    "description": "Monster or item has the Swamp Survival skill. Swamp terrain does not hinder movement."
   },
   {
     "Friendly name": "swamptemplecost",
@@ -5009,7 +5017,7 @@
   },
   {
     "Friendly name": "swimming",
-    "description": "The monster can cross rivers."
+    "description": "The monster can cross rivers. This item allows the holder to cross rivers."
   },
   {
     "Friendly name": "syncretism",
@@ -5389,7 +5397,7 @@
   },
   {
     "Friendly name": "wastesurvival",
-    "description": "Monster has the Waste Survival skill. Waste terrain does not hinder movement."
+    "description": "Monster or item has the Waste Survival skill. Waste terrain does not hinder movement."
   },
   {
     "Friendly name": "wastetemplecost",
@@ -5413,7 +5421,7 @@
   },
   {
     "Friendly name": "waterelementals",
-    "description": "Please let me know if you know what this does."
+    "description": " Gives a size bonus to summoned water elementals"
   },
   {
     "Friendly name": "waterrange",
@@ -5554,5 +5562,553 @@
   {
     "Friendly name": "holycost",
     "description": " Sets the holy point cost for recruiting this unit minimum is 1. Can only be used on sacred units. If this command is not used they will cost the usual one holy point."
+  },
+  {
+    "Friendly name": "orderscale",
+    "description": " Minumum scale value required for bless. "
+  },
+  {
+    "Friendly name": "prodscale",
+    "description": " Minumum scale value required for bless. "
+  },
+  {
+    "Friendly name": "heatscale",
+    "description": " Minumum scale value required for bless. "
+  },
+  {
+    "Friendly name": "growthscale",
+    "description": " Minumum scale value required for bless. "
+  },
+  {
+    "Friendly name": "luckscale",
+    "description": " Minumum scale value required for bless. "
+  },
+  {
+    "Friendly name": "magicscale",
+    "description": " Minumum scale value required for bless. "
+  },
+  {
+    "Friendly name": "chaosscale",
+    "description": " Minumum scale value required for bless. "
+  },
+  {
+    "Friendly name": "slothscale",
+    "description": " Minumum scale value required for bless. "
+  },
+  {
+    "Friendly name": "coldscale",
+    "description": " Minumum scale value required for bless. "
+  },
+  {
+    "Friendly name": "deathscale",
+    "description": " Minumum scale value required for bless. "
+  },
+  {
+    "Friendly name": "misfortscale",
+    "description": " Minumum scale value required for bless. "
+  },
+  {
+    "Friendly name": "look",
+    "description": " Set what the site should look like. Site spr -1 = default look. 0-9 = specific sprite (for some paths not all 9 are available and the last ones will look the same)."
+  },
+  {
+    "Friendly name": "healaff",
+    "description": " Heal affliction event command."
+  },
+  {
+    "Friendly name": "clumsy",
+    "description": " This monster will only receive half att/def bonuses from weapons."
+  },
+  {
+    "Friendly name": "powerofdeath",
+    "description": " The monster will become more powerful every time it dies. up to at most limit number of deaths."
+  },
+  {
+    "Friendly name": "fearofflood",
+    "description": " Morale penalty when it is raining or uw. can be negative to raise morale but without a unit card effect to note it."
+  },
+  {
+    "Friendly name": "falsesupply",
+    "description": " A monster with this ability produces extra false supplies."
+  },
+  {
+    "Friendly name": "glamourmanip",
+    "description": " This monster is a glamour manipulator and counts as a glamour mage when it comes to upholding illusions and false damage."
+  },
+  {
+    "Friendly name": "addgeo",
+    "description": " Adds to the terrains in the province."
+  },
+  {
+    "Friendly name": "remgeo",
+    "description": " Removes from the terrains in the province. If terrain doesn't exist nothing happens."
+  },
+  {
+    "Friendly name": "danceweapon",
+    "description": " The weapon used for the attack. ID or name. "
+  },
+  {
+    "Friendly name": "dancenratt",
+    "description": " The number of attacks made per combat round. Minimum is 2."
+  },
+  {
+    "Friendly name": "dancespr",
+    "description": " The look of the sprite circling the unit."
+  },
+  {
+    "Friendly name": "dancenof",
+    "description": " The number of sprites circling the unit."
+  },
+  {
+    "Friendly name": "dancesize",
+    "description": " The size in percent of normal size. default is 100."
+  },
+  {
+    "Friendly name": "spiritformimmune",
+    "description": " Spiritform beings and illusions are immune to this weapon."
+  },
+  {
+    "Friendly name": "illusionsimmune",
+    "description": " Illusions are immune to this weapon."
+  },
+  {
+    "Friendly name": "false",
+    "description": " The weapon causes false damage (like most glamour magic) instead of real damage."
+  },
+  {
+    "Friendly name": "holyifhit",
+    "description": " AN damage that only affect demons and undeads."
+  },
+  {
+    "Friendly name": "killmagicifhit",
+    "description": " AN damage that only affect magic beings."
+  },
+  {
+    "Friendly name": "killdemonifhit",
+    "description": " AN damage that only affect demons."
+  },
+  {
+    "Friendly name": "holystunifhit",
+    "description": " Stun that only affects demons and undead. Use 1 as damage value."
+  },
+  {
+    "Friendly name": "petrifyifhit",
+    "description": " Petrification. Use 1 as damage value"
+  },
+  {
+    "Friendly name": "fireifhit",
+    "description": " AP fire damage."
+  },
+  {
+    "Friendly name": "coldifhit",
+    "description": " AP cold damage."
+  },
+  {
+    "Friendly name": "shockifhit",
+    "description": " AN shock damage."
+  },
+  {
+    "Friendly name": "poisonifdmg",
+    "description": " AN poison damage."
+  },
+  {
+    "Friendly name": "aftercloud",
+    "description": " A cloud will appear after attacking with the weapon. The cloud has strength \"cloudstr\" and is of the \"cloudnbr\" type.  See table below for possible cloud types."
+  },
+  {
+    "Friendly name": "aftercloudarea",
+    "description": " Size of the aftercloud effect of this weapon. Default is 1."
+  },
+  {
+    "Friendly name": "plaguedoctor",
+    "description": " A commander with this ability can use the make plague order."
+  },
+  {
+    "Friendly name": "corruptor",
+    "description": " Gives the monster the corruption ability like a Shaytan. The value indicates the difficulty of the morale check. 10 is standard."
+  },
+  {
+    "Friendly name": "notmounted",
+    "description": " This weapon cannot be used while mounted (2=keep this secret and don't show it in weapon info. Don't do this that's so stupid illwinter.)"
+  },
+  {
+    "Friendly name": "notdismounted",
+    "description": " This weapon cannot be used while dismounted. "
+  },
+  {
+    "Friendly name": "popgrowth",
+    "description": " Bonus to population growth in province once site has been found."
+  },
+  {
+    "Friendly name": "hidedom",
+    "description": " This dominion will hide who owns the province unless the province from a casual inspection."
+  },
+  {
+    "Friendly name": "growthrecscale",
+    "description": " Growth scale requirement for recruitment."
+  },
+  {
+    "Friendly name": "deathrecscale",
+    "description": " Death scale requirement for recruitment."
+  },
+  {
+    "Friendly name": "orderrecscale",
+    "description": " Order scale requirement for recruitment."
+  },
+  {
+    "Friendly name": "chaosrecscale",
+    "description": " Chaos scale requirement for recruitment."
+  },
+  {
+    "Friendly name": "req_enchnearby",
+    "description": " This global enchantment must be active and have its origin in the current or a neigboring province."
+  },
+  {
+    "Friendly name": "req_targseductions",
+    "description": " Target must have succeded with at least this many seductions (dream seduction and corruption also counts)."
+  },
+  {
+    "Friendly name": "req_targminkills",
+    "description": " Target must have killed at least this many people."
+  },
+  {
+    "Friendly name": "req_targmaxkills",
+    "description": " Target must have killed at most this many people."
+  },
+  {
+    "Friendly name": "addseduction",
+    "description": " One commander determined by target requirements will get this number added to the number of seductions she has successfully performed. The resulting value will never go below zero."
+  },
+  {
+    "Friendly name": "addkills",
+    "description": " One commander determined by target requirements will get this number added to the number of kills he has. The resulting value will never go below zero."
+  },
+  {
+    "Friendly name": "req_notpoptype",
+    "description": " The province must not have this poptype."
+  },
+  {
+    "Friendly name": "req_plane",
+    "description": " Event can only occur on this plane. 0 = default plane (demiurgia) 1+ = other map planes. -1 = cave plane. -2 = nexus plane. If no custom map with extra planes is used. 1 will be the same as the cave plane and 2 will be the same as the nexus plane. Setting req_plane -2 will also enable the event to occur on that plane (no req_voidok necessary)"
+  },
+  {
+    "Friendly name": "req_godawake",
+    "description": " 1 = Requires the event owner's Pretender God (or Disiple) to be alive and on the map somewhere."
+  },
+  {
+    "Friendly name": "req_pretismnr",
+    "description": " Requires the event owner's Pretender God to be a specific monster type. If the event owner is a disiple player the team's pretender will be used instead. This command can be used multiple times in which case only one of the monster types is required."
+  },
+  {
+    "Friendly name": "req_pretawake",
+    "description": " 1 = Requires the event owner's Pretender God to be alive and on the map somewhere. If the event owner is a disiple player the team's pretender will be used instead."
+  },
+  {
+    "Friendly name": "header",
+    "description": " Usually all messages start with \"An unexpected event has occured in...\". Use this command to change that. Type 1 = no unexpected 2 = no header. If you use 2 (no header) the first line in the message will be used as a header the header should end with two newlines before the rest of the message."
+  },
+  {
+    "Friendly name": "icenatprot",
+    "description": " Natural protection varies with the temperature in the province. The protection value is added or subtracted for every step on the Cold scale."
+  },
+  {
+    "Friendly name": "holyrange",
+    "description": " Holy magic cast by the monster have increased range."
+  },
+  {
+    "Friendly name": "sorcerygems",
+    "description": " This monster produces a number of magic gems each month. They are of a single random type of sorcery gem."
+  },
+  {
+    "Friendly name": "elementgems",
+    "description": " This monster produces a number of magic gems each month. They are of a single random type of elemental gem."
+  },
+  {
+    "Friendly name": "mobilearcher",
+    "description": " Mobile archers can shoot while their mount is moving. This is used for mobile archer cavalry units."
+  },
+  {
+    "Friendly name": "animated",
+    "description": " The monster becomes this if affected by the animate tree spell. This command should only be used on the background trees and bushes that can be found on the battlefield."
+  },
+  {
+    "Friendly name": "portent",
+    "description": " \"Global enchantments come with a \"dire portent\" message to all players. This command can be used to set the part of the text that is sent to all players. Don't write \"A dire portent...\" that part is added at the start automatically. Special tags shown on pg.53 can be inserted in the message to reference things like the name of the caster's god. PG\""
+  },
+  {
+    "Friendly name": "cure",
+    "description": " This is the part of the dire portent message that is only sent to the enemies of the caster. It can use the same special tags."
+  },
+  {
+    "Friendly name": "req_void",
+    "description": " Event can only take effect on the void plane (0 = cannot)"
+  },
+  {
+    "Friendly name": "req_kelp",
+    "description": " Event requires the province to have a kelp sea terrain."
+  },
+  {
+    "Friendly name": "req_gorge",
+    "description": " Event requires the province to have gorge sea terrain"
+  },
+  {
+    "Friendly name": "req_deep",
+    "description": " Event requires the province to have deep sea (deep sea gorges also ok) terrain."
+  },
+  {
+    "Friendly name": "req_forestcave",
+    "description": " Event requires the province to have forest cave terrain."
+  },
+  {
+    "Friendly name": "req_drip",
+    "description": " Event requires the province to have drip cave terrain."
+  },
+  {
+    "Friendly name": "req_crystal",
+    "description": " Event requires the province to have crystal cave terrain."
+  },
+  {
+    "Friendly name": "clearvar",
+    "description": " Sets an event var (-4 to 9999) to zero."
+  },
+  {
+    "Friendly name": "incvar",
+    "description": " Adds one to an event var."
+  },
+  {
+    "Friendly name": "decvar",
+    "description": " Decreases one from an event var"
+  },
+  {
+    "Friendly name": "inc10var",
+    "description": " Adds ten to an event var."
+  },
+  {
+    "Friendly name": "dec10var",
+    "description": " Decreases ten from an event var."
+  },
+  {
+    "Friendly name": "invvar",
+    "description": " Inverts the value of an event var (result = -event var)."
+  },
+  {
+    "Friendly name": "togglevar",
+    "description": " Toggles the value of an event var (result = 1-event var). Use to toggle between 1 and 0."
+  },
+  {
+    "Friendly name": "gemlongevity",
+    "description": " This command can be used to make magic gems last for multiple battle within one month. Level 0=normal 1=gems last entire magic or move phase 2=gems last entire month."
+  },
+  {
+    "Friendly name": "req_minglobals",
+    "description": "There must be at least this many global enchantments active."
+  },
+  {
+    "Friendly name": "req_maxglobals",
+    "description": " There must be at most this many global enchantments active."
+  },
+  {
+    "Friendly name": "req_varpos",
+    "description": " The event variable must have a value of 1 or higher."
+  },
+  {
+    "Friendly name": "req_varneg",
+    "description": " The event variable must have a value of -1 or lower."
+  },
+  {
+    "Friendly name": "req_varzero",
+    "description": " The event variable must have a value of exactly zero."
+  },
+  {
+    "Friendly name": "req_varone",
+    "description": " The event variable must have a value of exactly one."
+  },
+  {
+    "Friendly name": "dispglobals",
+    "description": " Reduces strength of all global enchantment with a random number d(str). If it is reduced to zero the enchantment will be dispelled."
+  },
+  {
+    "Friendly name": "aiassmod",
+    "description": " This modifies the spell AI to (dis)like this spell when in an assassination battle. Usually there is no need for this command. A value of -100 makes it never be cast and a value of 100 makes it twice as likable for the spell AI."
+  },
+  {
+    "Friendly name": "onlysitedst",
+    "description": " Ritual can only target provinces containing this site. The site must be revealed to be targetted."
+  },
+  {
+    "Friendly name": "napbreakrit",
+    "description": "  positive value means the ritual counts as a NAP violation. A negative value means it will never count as a NAP violation."
+  },
+  {
+    "Friendly name": "selectevent",
+    "description": " This command selects an already existing event. All subsequent commands will modify this event until modding the event is finished with the #end command. Usually you only use the #newevent command and never this one but it can be useful ifyou want to modify or disable a single event from the game. This command cannot be used to create new events. "
+  },
+  {
+    "Friendly name": "clear",
+    "description": " Use this if you want to remove everything from the event."
+  },
+  {
+    "Friendly name": "req_turnrare",
+    "description": " The event is extra rare but will be increasingly likely with time. It has a <percent + current turn nbr> chance of being valid when rolled. A negative value will create an event that has zero percent of happening until value turns has passed."
+  },
+  {
+    "Friendly name": "assownerench",
+    "description": "The following assassins created by this event will be owned by the owner of this enchantment."
+  },
+  {
+    "Friendly name": "req_targhorrormark",
+    "description": " Target must have a horror mark of at least this value."
+  },
+  {
+    "Friendly name": "templeholypoints",
+    "description": " Every temple gives value number of extra holy points (for recruiting sacred units). Ind and Piconye have this ability."
+  },
+  {
+    "Friendly name": "mindcollar",
+    "description": " Unit will take this amount of damage if it breaks in combat. (Maybe Accepts negative values? Haven't tested)"
+  },
+  {
+    "Friendly name": "statstorm",
+    "description": " 1+ = Can storm forts even if it is stationary (map move 0) which would otherwise make it unable to."
+  },
+  {
+    "Friendly name": "statbreak",
+    "description": " 1+ = Can break siege even if it is stationary (map move 0) which would otherwise make it unable to."
+  },
+  {
+    "Friendly name": "req_fortid",
+    "description": " There must be a fort in the province and it must be of this type."
+  },
+  {
+    "Friendly name": "protparts",
+    "description": " Sets the protection value of an armor that has both head and body protecion e.g. a horse barding that includes head protection."
+  },
+  {
+    "Friendly name": "sumhealaffs",
+    "description": " Units summoned by this spell will have up to value number of afflictions healed. This can be useful if summoning an immortal or unique monster that might have accumulated afflictions in its previous life."
+  },
+  {
+    "Friendly name": "spikes",
+    "description": " This unit is covered in sharp spikes barbs. Anyone striking it with a short weapon (length no more than 1) will risk getting damaged. The damage is not severe it is capped at 1 point and armor also protects."
+  },
+  {
+    "Friendly name": "sleepres",
+    "description": " Monster will get the Undreaming ability giving this bonus to its MR against sleep effects. (Guessing it allows negative values)."
+  },
+  {
+    "Friendly name": "sabbathmaster",
+    "description": " The monster is automatically a sabbath master and does not need to cast the Sabbath Master spell to join a sabbath."
+  },
+  {
+    "Friendly name": "sabbathslave",
+    "description": " The monster is automatically a sabbath slave and does not need to cast the Sabbath Slave spell to join a sabbath."
+  },
+  {
+    "Friendly name": "chorusmaster",
+    "description": " The monster is automatically a chorus  slave and does not need to cast the Chorus Master spell to join a sabbath."
+  },
+  {
+    "Friendly name": "chorusslave",
+    "description": " The monster is automatically a sabbath slave and does not need to cast the Chorus Slave spell to join a sabbath."
+  },
+  {
+    "Friendly name": "magiconly",
+    "description": " The weapon only affects magic beings."
+  },
+  {
+    "Friendly name": "req_school",
+    "description": " Sets the active research school this will be useful for later commands."
+  },
+  {
+    "Friendly name": "req_minresearch",
+    "description": " Requires the player to have researched to at least this level in the active research school."
+  },
+  {
+    "Friendly name": "req_path",
+    "description": " Sets the active magic path this will be useful for the next command."
+  },
+  {
+    "Friendly name": "req_pathgems",
+    "description": " There must be at least this amount of gems of the active magic path in the gem treasury. "
+  },
+  {
+    "Friendly name": "fortcoldscaleres",
+    "description": " Reduces the killing effect of cold scales in forts by this many scale steps."
+  },
+  {
+    "Friendly name": "fortheatscaleres",
+    "description": " Reduces the killing effect of heat scales in forts by this many scale steps."
+  },
+  {
+    "Friendly name": "homecoldscaleres",
+    "description": " Reduces the killing effect of cold scales in the capital by this many scale steps."
+  },
+  {
+    "Friendly name": "homeheatscaleres",
+    "description": " Reduces the killing effect of heat scales in the capital by this many scale steps."
+  },
+  {
+    "Friendly name": "plainrec",
+    "description": "The monster changes to this shape when moving from a non-plain province to a plain province."
+  },
+  {
+    "Friendly name": "plaincom",
+    "description": "This commander can be recruited in plain provinces with or without fort. See the box below for all command names."
+  },
+  {
+    "Friendly name": "plainfortrec",
+    "description": "This unit can be recruited in (terrain) provinces with a fort. "
+  },
+  {
+    "Friendly name": "plainfortcom",
+    "description": "This unit can be recruited in (terrain) provinces with a fort. "
+  },
+  {
+    "Friendly name": "bugshape",
+    "description": " This is the Soul Bug."
+  },
+  {
+    "Friendly name": "buguwshape",
+    "description": " This is the UW Sould Bug."
+  },
+  {
+    "Friendly name": "bugswarmshape",
+    "description": " This is the shape of the other Bugs. Must be montag? "
+  },
+  {
+    "Friendly name": "bugswarmuwshape",
+    "description": " This is the UW shape of the other Bugs. Must be montag? "
+  },
+  {
+    "Friendly name": "req_targrealmnr",
+    "description": " Target commander must be this monster type CURRENTLY.  This command can be used multiple times."
+  },
+  {
+    "Friendly name": "req_targnorealmnr",
+    "description": " Target commander mustn't be this monster type CURRENTLY.  This command can be used multiple times"
+  },
+  {
+    "Friendly name": "worldshape",
+    "description": " The monster changes to this shape when not in battle."
+  },
+  {
+    "Friendly name": "battleshape",
+    "description": " The monster changes to this shape when in battle."
+  },
+  {
+    "Friendly name": "mrhalf",
+    "description": " MR for half damage. Like spectral weapons. "
+  },
+  {
+    "Friendly name": "caveinc",
+    "description": " Increased income in caves by this %."
+  },
+  {
+    "Friendly name": "caveres",
+    "description": " Increased resource in caves by this %."
+  },
+  {
+    "Friendly name": "caverecpt",
+    "description": " Increased recruitment points in caves by this %."
   }
 ]

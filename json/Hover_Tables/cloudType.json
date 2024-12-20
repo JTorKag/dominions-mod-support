@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "type": "Cold"
+  },
+  {
+    "id": 8,
+    "type": "Heat"
+  },
+  {
+    "id": 64,
+    "type": "Poison"
+  },
+  {
+    "id": 512,
+    "type": "Disease"
+  },
+  {
+    "id": 4096,
+    "type": "Sulphur"
+  },
+  {
+    "id": 32768,
+    "type": "Death"
+  },
+  {
+    "id": 262144,
+    "type": "Sleep"
+  },
+  {
+    "id": 2097152,
+    "type": "Light"
+  },
+  {
+    "id": 16777216,
+    "type": "Leeching"
+  }
+]

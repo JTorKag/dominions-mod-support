@@ -19,6 +19,7 @@
     "#selectpoptype",
     "#selectsite",
     "#selectspell",
-    "#selectweapon"
+    "#selectweapon",
+    "#selectevent"
   ]
 }
