@@ -1269,7 +1269,7 @@ thaucost,All rituals of the Thaumaturgy school cast in this province cost
 thronekill,This monster will automatically destroy thrones in the same province unless they are protected by a fort. Chance is the chance in percent that the throne will be destroyed each turn.
 tmpairgems,The monster produces a number of air gems that can be used in combat. The gems are not stable enough to be used for ritual spellcasting.
 tmpastralgems,The monster produces a number of astral pearls that can be used in combat. The gems are not stable enough to be used for ritual spellcasting.
-tmpbloodslaves,NOT IMPLEMENTED
+tmpbloodslaves, The monster can use his own blood equal to this number of blood slaves for combat spell casting. Using a temporary blood slave this way will result in the profuse bleeding affliction on the caster.
 tmpdeathgems,The monster produces a number of death gems that can be used in combat. The gems are not stable enough to be used for ritual spellcasting.
 tmpearthgems,The monster produces a number of earth gems that can be used in combat. The gems are not stable enough to be used for ritual spellcasting.
 tmpfiregems,The monster produces a number of fire gems that can be used in combat. The gems are not stable enough to be used for ritual spellcasting.
@@ -1387,3 +1387,140 @@ xspr2,Creates the attack sprite that is used when one corider is lost. This comm
 yearaging,The wielder of this item will age this many extra years each year.
 yearturn,Power of the Turning Year. This unit is more powerful during the height of each season and will get increased Strength Attack and Defence during those months.
 holycost, Sets the holy point cost for recruiting this unit minimum is 1. Can only be used on sacred units. If this command is not used they will cost the usual one holy point.
+orderscale, Minumum scale value required for bless.
+prodscale, Minumum scale value required for bless.
+heatscale, Minumum scale value required for bless.
+growthscale, Minumum scale value required for bless.
+luckscale, Minumum scale value required for bless.
+magicscale, Minumum scale value required for bless.
+chaosscale, Minumum scale value required for bless.
+slothscale, Minumum scale value required for bless.
+coldscale, Minumum scale value required for bless.
+deathscale, Minumum scale value required for bless.
+misfortscale, Minumum scale value required for bless.
+look, Set what the site should look like. Site spr -1 = default look. 0-9 = specific sprite (for some paths not all 9 are available and the last ones will look the same).
+healaff, Heal affliction event command.
+clumsy, This monster will only receive half att/def bonuses from weapons.
+powerofdeath, The monster will become more powerful every time it dies. up to at most limit number of deaths.
+fearofflood, Morale penalty when it is raining or uw. can be negative to raise morale but without a unit card effect to note it.
+falsesupply, A monster with this ability produces extra false supplies.
+glamourmanip, This monster is a glamour manipulator and counts as a glamour mage when it comes to upholding illusions and false damage.
+addgeo, Adds to the terrains in the province.
+remgeo, Removes from the terrains in the province. If terrain doesn't exist nothing happens.
+danceweapon, The weapon used for the attack. ID or name.
+dancenratt, The number of attacks made per combat round. Minimum is 2.
+dancespr, The look of the sprite circling the unit.
+dancenof, The number of sprites circling the unit.
+dancesize, The size in percent of normal size. default is 100.
+spiritformimmune, Spiritform beings and illusions are immune to this weapon.
+illusionsimmune, Illusions are immune to this weapon.
+false, The weapon causes false damage (like most glamour magic) instead of real damage.
+holyifhit, AN damage that only affect demons and undeads.
+killmagicifhit, AN damage that only affect magic beings.
+killdemonifhit, AN damage that only affect demons.
+holystunifhit, Stun that only affects demons and undead. Use 1 as damage value.
+petrifyifhit, Petrification. Use 1 as damage value
+fireifhit, AP fire damage.
+coldifhit, AP cold damage.
+shockifhit, AN shock damage.
+poisonifdmg, AN poison damage.
+aftercloud, A cloud will appear after attacking with the weapon. The cloud has strength \cloudstr\ and is of the \cloudnbr\ type.  See table below for possible cloud types.
+aftercloudarea, Size of the aftercloud effect of this weapon. Default is 1.
+plaguedoctor, A commander with this ability can use the make plague order.
+corruptor, Gives the monster the corruption ability like a Shaytan. The value indicates the difficulty of the morale check. 10 is standard.
+notmounted, This weapon cannot be used while mounted (2=keep this secret and don't show it in weapon info. Don't do this that's so stupid illwinter.)
+notdismounted, This weapon cannot be used while dismounted.
+popgrowth, Bonus to population growth in province once site has been found.
+hidedom, This dominion will hide who owns the province unless the province from a casual inspection.
+growthrecscale, Growth scale requirement for recruitment.
+deathrecscale, Death scale requirement for recruitment.
+orderrecscale, Order scale requirement for recruitment.
+chaosrecscale, Chaos scale requirement for recruitment.
+req_enchnearby, This global enchantment must be active and have its origin in the current or a neigboring province.
+req_targseductions, Target must have succeded with at least this many seductions (dream seduction and corruption also counts).
+req_targminkills, Target must have killed at least this many people.
+req_targmaxkills, Target must have killed at most this many people.
+addseduction, One commander determined by target requirements will get this number added to the number of seductions she has successfully performed. The resulting value will never go below zero.
+addkills, One commander determined by target requirements will get this number added to the number of kills he has. The resulting value will never go below zero.
+req_notpoptype, The province must not have this poptype.
+req_plane, Event can only occur on this plane. 0 = default plane (demiurgia) 1+ = other map planes. -1 = cave plane. -2 = nexus plane. If no custom map with extra planes is used. 1 will be the same as the cave plane and 2 will be the same as the nexus plane. Setting req_plane -2 will also enable the event to occur on that plane (no req_voidok necessary)
+req_godawake, 1 = Requires the event owner's Pretender God (or Disiple) to be alive and on the map somewhere.
+req_pretismnr, Requires the event owner's Pretender God to be a specific monster type. If the event owner is a disiple player the team's pretender will be used instead. This command can be used multiple times in which case only one of the monster types is required.
+req_pretawake, 1 = Requires the event owner's Pretender God to be alive and on the map somewhere. If the event owner is a disiple player the team's pretender will be used instead.
+header, Usually all messages start with \An unexpected event has occured in...\. Use this command to change that. Type 1 = no unexpected 2 = no header. If you use 2 (no header) the first line in the message will be used as a header the header should end with two newlines before the rest of the message.
+icenatprot, Natural protection varies with the temperature in the province. The protection value is added or subtracted for every step on the Cold scale.
+holyrange, Holy magic cast by the monster have increased range.
+sorcerygems, This monster produces a number of magic gems each month. They are of a single random type of sorcery gem.
+elementgems, This monster produces a number of magic gems each month. They are of a single random type of elemental gem.
+mobilearcher, Mobile archers can shoot while their mount is moving. This is used for mobile archer cavalry units.
+animated, The monster becomes this if affected by the animate tree spell. This command should only be used on the background trees and bushes that can be found on the battlefield.
+portent, \Global enchantments come with a \dire portent\ message to all players. This command can be used to set the part of the text that is sent to all players. Don't write \A dire portent...\ that part is added at the start automatically. Special tags shown on pg.53 can be inserted in the message to reference things like the name of the caster's god. PG\
+cure, This is the part of the dire portent message that is only sent to the enemies of the caster. It can use the same special tags.
+req_void, Event can only take effect on the void plane (0 = cannot)
+req_kelp, Event requires the province to have a kelp sea terrain.
+req_gorge, Event requires the province to have gorge sea terrain
+req_deep, Event requires the province to have deep sea (deep sea gorges also ok) terrain.
+req_forestcave, Event requires the province to have forest cave terrain.
+req_drip, Event requires the province to have drip cave terrain.
+req_crystal, Event requires the province to have crystal cave terrain.
+clearvar, Sets an event var (-4 to 9999) to zero.
+incvar, Adds one to an event var.
+decvar, Decreases one from an event var
+inc10var, Adds ten to an event var.
+dec10var, Decreases ten from an event var.
+invvar, Inverts the value of an event var (result = -event var).
+togglevar, Toggles the value of an event var (result = 1-event var). Use to toggle between 1 and 0.
+gemlongevity, This command can be used to make magic gems last for multiple battle within one month. Level 0=normal 1=gems last entire magic or move phase 2=gems last entire month.
+req_minglobals, There must be at least this many global enchantments active.
+req_maxglobals, There must be at most this many global enchantments active.
+req_varpos, The event variable must have a value of 1 or higher.
+req_varneg, The event variable must have a value of -1 or lower.
+req_varzero, The event variable must have a value of exactly zero.
+req_varone, The event variable must have a value of exactly one.
+dispglobals, Reduces strength of all global enchantment with a random number d(str). If it is reduced to zero the enchantment will be dispelled.
+aiassmod, This modifies the spell AI to (dis)like this spell when in an assassination battle. Usually there is no need for this command. A value of -100 makes it never be cast and a value of 100 makes it twice as likable for the spell AI.
+onlysitedst, Ritual can only target provinces containing this site. The site must be revealed to be targetted.
+napbreakrit, positive value means the ritual counts as a NAP violation. A negative value means it will never count as a NAP violation.
+selectevent, This command selects an already existing event. All subsequent commands will modify this event until modding the event is finished with the #end command. Usually you only use the #newevent command and never this one but it can be useful ifyou want to modify or disable a single event from the game. This command cannot be used to create new events.
+clear, Use this if you want to remove everything from the event.
+req_turnrare, The event is extra rare but will be increasingly likely with time. It has a <percent + current turn nbr> chance of being valid when rolled. A negative value will create an event that has zero percent of happening until value turns has passed.
+assownerench, The following assassins created by this event will be owned by the owner of this enchantment.
+req_targhorrormark, Target must have a horror mark of at least this value.
+templeholypoints, Every temple gives value number of extra holy points (for recruiting sacred units). Ind and Piconye have this ability.
+mindcollar, Unit will take this amount of damage if it breaks in combat. (Maybe Accepts negative values? Haven't tested)
+statstorm, 1+ = Can storm forts even if it is stationary (map move 0) which would otherwise make it unable to.
+statbreak, 1+ = Can break siege even if it is stationary (map move 0) which would otherwise make it unable to.
+req_fortid, There must be a fort in the province and it must be of this type.
+protparts, Sets the protection value of an armor that has both head and body protecion e.g. a horse barding that includes head protection.
+sumhealaffs, Units summoned by this spell will have up to value number of afflictions healed. This can be useful if summoning an immortal or unique monster that might have accumulated afflictions in its previous life.
+spikes, This unit is covered in sharp spikes barbs. Anyone striking it with a short weapon (length no more than 1) will risk getting damaged. The damage is not severe it is capped at 1 point and armor also protects.
+sleepres, Monster will get the Undreaming ability giving this bonus to its MR against sleep effects. (Guessing it allows negative values).
+sabbathmaster, The monster is automatically a sabbath master and does not need to cast the Sabbath Master spell to join a sabbath.
+sabbathslave, The monster is automatically a sabbath slave and does not need to cast the Sabbath Slave spell to join a sabbath.
+chorusmaster, The monster is automatically a chorus  slave and does not need to cast the Chorus Master spell to join a sabbath.
+chorusslave, The monster is automatically a sabbath slave and does not need to cast the Chorus Slave spell to join a sabbath.
+magiconly, The weapon only affects magic beings.
+req_school, Sets the active research school this will be useful for later commands.
+req_minresearch, Requires the player to have researched to at least this level in the active research school.
+req_path, Sets the active magic path this will be useful for the next command.
+req_pathgems, There must be at least this amount of gems of the active magic path in the gem treasury.
+fortcoldscaleres, Reduces the killing effect of cold scales in forts by this many scale steps.
+fortheatscaleres, Reduces the killing effect of heat scales in forts by this many scale steps.
+homecoldscaleres, Reduces the killing effect of cold scales in the capital by this many scale steps.
+homeheatscaleres, Reduces the killing effect of heat scales in the capital by this many scale steps.
+plainrec, The monster changes to this shape when moving from a non-plain province to a plain province.
+plaincom, This commander can be recruited in plain provinces with or without fort. See the box below for all command names.
+plainfortrec, This unit can be recruited in (terrain) provinces with a fort.
+plainfortcom, This unit can be recruited in (terrain) provinces with a fort.
+bugshape, This is the Soul Bug.
+buguwshape, This is the UW Sould Bug.
+bugswarmshape, This is the shape of the other Bugs. Must be montag?
+bugswarmuwshape, This is the UW shape of the other Bugs. Must be montag?
+req_targrealmnr, Target commander must be this monster type CURRENTLY.  This command can be used multiple times.
+req_targnorealmnr, Target commander mustn't be this monster type CURRENTLY.  This command can be used multiple times
+worldshape, The monster changes to this shape when not in battle.
+battleshape, The monster changes to this shape when in battle.
+mrhalf, MR for half damage. Like spectral weapons.
+caveinc, Increased income in caves by this %.
+caveres, Increased resource in caves by this %.
+caverecpt, Increased recruitment points in caves by this %.
